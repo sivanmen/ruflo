@@ -5,7 +5,6 @@ RUN apk add --no-cache git python3 make g++ bash curl
 RUN npm install -g claude-flow@latest supergateway@latest
 
 WORKDIR /data
-VOLUME ["/data"]
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
