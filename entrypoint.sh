@@ -3,11 +3,12 @@ set -e
 
 PORT="${PORT:-3000}"
 
-echo "[ruflo] bridging claude-flow stdio MCP to SSE on port ${PORT}"
+echo "[ruflo] bridging claude-flow stdio MCP to streamableHttp on port ${PORT} (stateful)"
 exec supergateway \
   --stdio "claude-flow mcp start" \
+  --outputTransport streamableHttp \
+  --stateful \
+  --sessionTimeout 1800000 \
   --port "${PORT}" \
-  --baseUrl "http://0.0.0.0:${PORT}" \
-  --ssePath /sse \
-  --messagePath /message \
+  --streamableHttpPath /mcp \
   --healthEndpoint /health
