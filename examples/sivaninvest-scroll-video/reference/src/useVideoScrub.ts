@@ -317,15 +317,25 @@ export function useVideoScrub(videoSrc: string): VideoScrub {
       return lo;
     };
 
+    /** Exact frame if decoded, else the closest already-decoded bitmap in the LRU. */
+    const pickReady = (i: number): [number, ImageBitmap] | null => {
+      const exact = lru.get(i);
+      if (exact) return [i, exact];
+      let best: [number, ImageBitmap] | null = null;
+      lru.forEach((bmp, j) => {
+        if (bmp && (!best || Math.abs(j - i) < Math.abs(best[0] - i))) best = [j, bmp];
+      });
+      return best;
+    };
+
     const drawFrame = () => {
       if (!ctx || bank.length === 0) return;
       const i = nearestIndex(current);
       warmLRU(i);
-      if (i === lastDrawn) return;
-      const bmp = lru.get(i);
-      if (!bmp) return;
-      ctx.drawImage(bmp, 0, 0, canvas.width, canvas.height);
-      lastDrawn = i;
+      const picked = pickReady(i);
+      if (!picked || picked[0] === lastDrawn) return;
+      ctx.drawImage(picked[1], 0, 0, canvas.width, canvas.height);
+      lastDrawn = picked[0];
       if (!painted) {
         painted = true;
         setCanvasLive(true);

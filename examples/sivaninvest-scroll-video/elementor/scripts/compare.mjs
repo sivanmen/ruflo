@@ -46,7 +46,11 @@ async function shoot(page, p) {
   return PNG.sync.read(await page.screenshot());
 }
 
-const browser = await chromium.launch({ executablePath: process.env.CHROME });
+const browser = await chromium.launch({
+  executablePath: process.env.CHROME,
+  // Local test servers are plain http; only https goes through the sandbox proxy (if any).
+  args: process.env.HTTPS_PROXY ? [`--proxy-server=https=${new URL(process.env.HTTPS_PROXY).host}`] : []
+});
 await mkdir(outDir, { recursive: true });
 const rows = [];
 for (const vp of VIEWPORTS) {

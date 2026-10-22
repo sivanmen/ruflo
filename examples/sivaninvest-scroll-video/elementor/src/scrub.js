@@ -88,9 +88,6 @@
   root.querySelectorAll('[data-k="menu-close"]').forEach(function (b) {
     b.addEventListener('click', function () { setMenu(false); });
   });
-  root.querySelectorAll('a[href="#"]').forEach(function (a) {
-    a.addEventListener('click', function (e) { e.preventDefault(); });
-  });
 
   /* ---------- frame bank state ---------- */
   var bank = [];
@@ -150,10 +147,16 @@
     if (!bank.length) return;
     var i = nearestIndex(t);
     warmLRU(i);
-    var bmp = lru.get(i);
-    if (!bmp || i === lastDrawn) return;
-    ctx.drawImage(bmp, 0, 0, canvas.width, canvas.height);
-    lastDrawn = i;
+    // Exact frame if decoded, else the closest already-decoded bitmap in the LRU.
+    var pick = lru.get(i) ? i : -1;
+    if (pick < 0) {
+      lru.forEach(function (b, j) {
+        if (b && (pick < 0 || Math.abs(j - i) < Math.abs(pick - i))) pick = j;
+      });
+    }
+    if (pick < 0 || pick === lastDrawn) return;
+    ctx.drawImage(lru.get(pick), 0, 0, canvas.width, canvas.height);
+    lastDrawn = pick;
     if (!painted) {
       painted = true;
       setCanvasLive(true);
@@ -332,7 +335,7 @@
   function buildBank() {
     if (building || reducedMotion || typeof window.VideoDecoder !== 'function') return;
     building = true;
-    var watchdog = setTimeout(function () { if (!ready) revert(); }, WATCHDOG);
+    var watchdog = setTimeout(function () { if (!painted) revert(); }, WATCHDOG);
     var demuxed = null;
 
     Promise.all([

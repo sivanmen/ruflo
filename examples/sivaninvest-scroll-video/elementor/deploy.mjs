@@ -60,6 +60,7 @@ function isOurs(page) {
 
 async function main() {
   const me = await api('GET', '/wp/v2/users/me?context=edit');
+  if (!me.id) throw new Error('Authentication failed — check WP_USER / WP_APP_PASSWORD.');
   const caps = me.capabilities || {};
   console.log(`Authenticated as ${me.name} (${(me.roles || []).join(', ')})`);
   if (!caps.unfiltered_html) {
