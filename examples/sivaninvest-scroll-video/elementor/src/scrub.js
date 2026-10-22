@@ -5,7 +5,9 @@
   if (!root || root.__kspInit) return;
   root.__kspInit = true;
 
-  var VIDEO_SRC = 'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260821_114821_a8ca298f-be2c-4613-a4dd-51b69e16bbde.mp4';
+  // The <video src> in the markup wins, so other pages can reuse this engine with their own film.
+  var VIDEO_SRC = root.querySelector('[data-k="video"]').getAttribute('src') ||
+    'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260821_114821_a8ca298f-be2c-4613-a4dd-51b69e16bbde.mp4';
   var MP4BOX_SRC = 'https://cdn.jsdelivr.net/npm/mp4box@0.5.2/dist/mp4box.all.min.js';
   var MP4BOX_SRI = 'sha384-9oK16t6TCKqCB5OpB/LwRkNa48prlRFQPTYw8tb9uj699JvQ1wjxIq7YO8Z4hn3a';
 
