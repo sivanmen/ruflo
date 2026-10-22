@@ -25,6 +25,8 @@ const POINTS = (process.env.POINTS || '0,0.1,0.24,0.36,0.45,0.58,0.71,0.85,1').s
 async function openScene(browser, url, [w, h]) {
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
   await page.goto(url, { waitUntil: 'load' });
+  // Test-only: hide site-wide overlays (cookie banner, chat/accessibility widgets) on the candidate.
+  if (process.env.HIDE_CSS && url === candUrl) await page.addStyleTag({ content: process.env.HIDE_CSS });
   await page.evaluate(() => document.fonts.ready);
   // Frame bank live = canvas fully opaque (both implementations fade it in on first paint).
   await page.waitForFunction(() => {

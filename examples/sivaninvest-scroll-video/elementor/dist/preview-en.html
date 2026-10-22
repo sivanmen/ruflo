@@ -48,6 +48,9 @@ html, body { overflow-x: clip !important; }
 #ksp svg { display: block; vertical-align: middle; }
 #ksp video, #ksp canvas { display: block; max-width: 100%; height: auto; line-height: inherit; }
 
+/* Hebrew page: keep the site's own font as configured in WordPress/Elementor (inherited from body). */
+#ksp[lang="he"] { font-family: inherit; }
+
 /* scene */
 #ksp .k-track { position: relative; height: 500vh; }
 #ksp .k-sticky { position: sticky; top: 0; width: 100%; height: 100vh; overflow: hidden; }
