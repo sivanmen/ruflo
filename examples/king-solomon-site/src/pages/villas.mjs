@@ -6,12 +6,11 @@ const statusLabel = (t, s) => t.c[s];
 
 function villaRow(t, v) {
   const plans = v.plans.map((p, i) => `<a class="ks-mini" href="${full(p)}" target="_blank" rel="noopener">${esc(t.c.plan)}${v.plans.length > 1 ? ' ' + (i + 1) : ''}</a>`).join('');
-  const price = v.status === 'available' ? euro(v.price) : '–';
   const outdoor = (v.balc || 0) + (v.garden || 0);
   return `<tr data-no="${v.no}" data-beds="${v.beds}" data-status="${v.status}">
 <td class="ks-no">${v.no}</td><td>${esc(t.c.bedrooms(v.beds))}</td><td>${esc(t.c[v.level])}</td>
 <td>${sqm(v.net)} ${t.c.sqm}${v.base ? ` <small>+ ${sqm(v.base)}</small>` : ''}</td><td>${outdoor ? sqm(outdoor) + ' ' + t.c.sqm : '–'}</td><td>${sqm(v.total)} ${t.c.sqm}</td><td>${sqm(v.pool)} ${t.c.sqm}</td>
-<td><span class="ks-status" data-s="${v.status}">${esc(statusLabel(t, v.status))}</span></td><td class="ks-price">${price}</td>
+<td><span class="ks-status" data-s="${v.status}">${esc(statusLabel(t, v.status))}</span></td>
 <td>${plans}${v.status !== 'sold' ? `<a class="ks-mini" href="${url(t, 'contact')}?villa=${v.no}&beds=${v.beds}">${esc(t.c.enquire)}</a>` : ''}</td></tr>`;
 }
 
@@ -22,7 +21,7 @@ export function explorer(t, list = VILLAS, { filters = true } = {}) {
   const chip = (k, v, label, on) => `<button type="button" class="ks-chip${on ? ' is-on' : ''}" data-filter="${k}" data-value="${v}">${esc(label)}</button>`;
   const levels = ['top', 'ground'].filter((l) => list.some((v) => v.level === l))
     .map((l) => `<div class="ks-level"><p class="ks-level-name">${esc(s.levels[l][0])}<small>${esc(s.levels[l][1])}</small></p><div class="ks-tiles">${tiles(l)}</div></div>`).join('');
-  const head = [t.c.villa, t.c.bedrooms(2).replace(/^2\s*/, ''), t.c.level, t.c.interior, t.c.outdoor, t.c.total, t.c.pool, t.c.status, t.c.price, ''].map((h) => `<th>${esc(h)}</th>`).join('');
+  const head = [t.c.villa, t.c.bedrooms(2).replace(/^2\s*/, ''), t.c.level, t.c.interior, t.c.outdoor, t.c.total, t.c.pool, t.c.status, ''].map((h) => `<th>${esc(h)}</th>`).join('');
   return `<div data-explorer>
 ${filters ? `<div class="ks-filters">${chip('beds', 'all', `${t.c.all} · ${s.filterBeds}`, true)}${[1, 2, 3, 5].map((b) => chip('beds', String(b), t.c.bedrooms(b))).join('')}</div>
 <div class="ks-filters">${chip('status', 'all', `${t.c.all} · ${s.filterStatus}`, true)}${['available', 'reserved', 'sold'].map((x) => chip('status', x, t.c[x])).join('')}</div>` : ''}

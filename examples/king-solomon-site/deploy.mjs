@@ -33,15 +33,18 @@ async function api(method, route, body, tries = 4) {
 const state = existsSync(STATE) ? JSON.parse(readFileSync(STATE, 'utf8')) : { he: {}, en: {} };
 state.he.home ??= HOME.he; state.en.home ??= HOME.en;
 
-// --recreate-home: Elementor's element cache is not cleared by REST meta updates, so the home pages
-// (ours) are moved to the trash and recreated at the same URL; children are re-attached afterwards.
-if (process.argv.includes('--recreate-home')) {
+// --recreate-home / --recreate=key,key: Elementor's element cache is not cleared by REST meta updates,
+// so those pages (ours) are moved to the trash and recreated at the same URL; children are re-attached afterwards.
+const recreate = [...(process.argv.includes('--recreate-home') ? ['home'] : []),
+  ...(process.argv.find((a) => a.startsWith('--recreate='))?.slice(11).split(',') ?? [])];
+for (const key of recreate) {
+  if (!(key in TREE)) throw new Error(`unknown page key ${key}`);
   for (const lang of ['he', 'en']) {
-    const old = await api('GET', `/wp/v2/pages/${state[lang].home}?context=edit&_fields=id,slug`);
-    if (old.slug !== 'kingsolomonproject') throw new Error(`refusing to trash page ${old.id} (${old.slug})`);
+    const old = await api('GET', `/wp/v2/pages/${state[lang][key]}?context=edit&_fields=id,slug`);
+    if (old.slug !== (TREE[key][0] || 'kingsolomonproject')) throw new Error(`refusing to trash page ${old.id} (${old.slug})`);
     await api('DELETE', `/wp/v2/pages/${old.id}`);
-    console.log(`trashed ${lang}/home #${old.id}`);
-    delete state[lang].home;
+    console.log(`trashed ${lang}/${key} #${old.id}`);
+    delete state[lang][key];
   }
 }
 const me = await api('GET', '/wp/v2/users/me?context=edit');
