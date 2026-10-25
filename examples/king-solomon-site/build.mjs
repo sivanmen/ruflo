@@ -37,15 +37,20 @@ let seq = 0;
 const id = (seed) => { let h = 2166136261; for (const c of seed + ++seq) h = Math.imul(h ^ c.charCodeAt(0), 16777619); return (h >>> 0).toString(16).padStart(8, '0').slice(0, 7); };
 const ZERO = { unit: 'px', top: '0', right: '0', bottom: '0', left: '0', isLinked: true };
 const widget = (type, settings) => ({ id: id(type), elType: 'widget', widgetType: type, isInner: false, settings: { _padding: ZERO, _margin: ZERO, ...settings }, elements: [] });
-const column = (widgets, size = 100) => ({ id: id('col'), elType: 'column', isInner: false, settings: { _column_size: size, _inline_size: size === 100 ? null : size, padding: ZERO }, elements: widgets });
+const column = (widgets, size = 100, cls = '') => ({ id: id('col'), elType: 'column', isInner: false, settings: { _column_size: size, _inline_size: size === 100 ? null : size, padding: ZERO, css_classes: cls }, elements: widgets });
 const sectionEl = (columns, cls = '') => ({ id: id('sec'), elType: 'section', isInner: false, settings: { layout: 'full_width', gap: 'no', padding: ZERO, margin: ZERO, css_classes: cls, ...(columns.length > 1 ? { structure: '20' } : {}) }, elements: columns });
 const html = (h) => widget('html', { html: h });
 
+// Two equal cards: investor FAQ (native accordion) + our details, and the enquiry form.
 function contactBlock(t, b, pageKey) {
-  const f = t.contact.fields, d = t.contact.details;
-  const intro = `<p class="ks-eyebrow">King Solomon</p><h2 class="ks-h2">${esc(b.title)}</h2><p class="ks-p">${esc(b.lead)}</p>
-<ul class="ks-list" style="margin-top:36px">${d.phones.map((p, i) => `<li><span>${i + 1}</span><span><b>${i ? 'Greece' : 'Israel'}</b><a href="tel:${p.replace(/\s/g, '')}" dir="ltr">${p}</a></span></li>`).join('')}
-<li><span>@</span><span><b>Email</b><a href="mailto:${d.email}">${d.email}</a></span></li>${b.details ? `<li><span>⌂</span><span><b>${esc(d.title)}</b>${esc(d.address)}</span></li>` : ''}</ul>`;
+  const f = t.contact.fields, d = t.contact.details, L = t.contact.labels;
+  const tel = (p) => `<a href="tel:${p.replace(/\s/g, '')}" dir="ltr">${p}</a>`;
+  const rows = [[L.email, `<a href="mailto:${d.email}">${d.email}</a>`], [L.chania, esc(d.address)], [L.greecePhone, tel(d.phones[1])],
+    ...(t.contact.israelAddress ? [[L.israel, esc(t.contact.israelAddress)]] : []), [L.israelPhone, tel(d.phones[0])]];
+  const faqHead = html(`<div class="ks"><p class="ks-eyebrow">King Solomon</p><h3 class="ks-box-title">${esc(t.contact.faqTitle)}</h3></div>`);
+  const faq = widget('accordion', { tabs: t.contact.faq.map(([q, a]) => ({ _id: id('q'), tab_title: q, tab_content: `<p>${esc(a)}</p>` })), title_html_tag: 'h4', _css_classes: 'ks-faq' });
+  const details = html(`<div class="ks"><h4 class="ks-box-sub">${esc(t.contact.detailsTitle)}</h4><dl class="ks-details">${rows.map(([k, v]) => `<div><dt>${esc(k)}</dt><dd>${v}</dd></div>`).join('')}</dl></div>`);
+  const formHead = html(`<div class="ks"><p class="ks-eyebrow">${esc(b.title === t.contact.formTitle ? 'King Solomon' : t.contact.formTitle)}</p><h3 class="ks-box-title">${esc(b.title)}</h3><p class="ks-box-lead">${esc(b.lead)}</p></div>`);
   const form = widget('form', {
     form_name: `King Solomon (${t.lang.toUpperCase()})`,
     form_fields: [
@@ -62,7 +67,7 @@ function contactBlock(t, b, pageKey) {
     email_from_name: 'King Solomon Website', email_reply_to: 'email', email_content_type: 'html',
     success_message: t.contact.success, form_validation: 'browser', _css_classes: 'ks-form'
   });
-  return sectionEl([column([html(`<div class="ks ks-reveal">${intro}</div>`)], 45), column([form], 55)], 'ks ks-sec is-ink ks-contact');
+  return sectionEl([column([faqHead, faq, details], 50, 'ks-box'), column([formHead, form], 50, 'ks-box')], 'ks ks-sec is-ink ks-contact');
 }
 
 function accordionBlock(t, b) {

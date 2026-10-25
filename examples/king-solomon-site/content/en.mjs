@@ -130,6 +130,17 @@ export default {
     formTitle: 'Send an enquiry', formLead: 'We reply within one business day.',
     fields: { name: 'Full name', phone: 'Phone', email: 'Email', type: 'Villa type', notes: 'Notes', send: 'Send enquiry', types: ['1 bedroom villa', '2 bedroom villa', '3 bedroom villa', '5 bedroom villa', 'Not sure yet'] },
     success: 'Thank you. The King Solomon team will be in touch shortly.',
+    faqTitle: 'Investor questions',
+    faq: [
+      ['What is included in the villa price?', 'Prices on the 12.2026 price list include the full design and furnishing package: interior design by an architect and interior designer, imported furniture, a fully equipped kitchen with premium appliances, a private pool and an outdoor kitchen. Your villa is handed over ready to live in, or ready for its first guest.'],
+      ['Can I rent the villa out when I am away?', 'Yes, if you choose to. Sivan Management operates the resort with a local team available 24/7 and offers short-term rental management: listing on Booking and Airbnb, dynamic pricing, guest check-in, housekeeping and transparent owner reporting in an app.'],
+      ['How does the purchase process work?', 'An introduction call, a private presentation with the current price list, a reservation agreement for your villa, then coordination with Greek lawyers and a notary and, if needed, local bank financing. We accompany you at every step, all the way to the keys.'],
+      ['Can I see the project in person?', 'Of course. We will arrange a private presentation at our office in Chania or online. The project is about 22 minutes from Chania International Airport and 12 minutes from the old town.'],
+      ['Is there a tax treaty with Israel?', 'Yes. Israel and Greece have a tax treaty designed to prevent double taxation, which can improve the net return on the investment. The implications depend on each investor, so our team coordinates the review with professional accountants and lawyers.']
+    ],
+    detailsTitle: 'Our details',
+    labels: { email: 'Email', chania: 'Office in Chania', greecePhone: 'Phone in Greece', israel: 'Office in Israel', israelPhone: 'Phone in Israel' },
+    israelAddress: '',
     details: { title: 'Project office', address: '2 Plateia Eleftherias, 73132 Chania, Crete', phones: ['+972 52 451 8134', '+30 698 392 4820'], email: 'support@sivaninvestgroup.com', whatsapp: 'WhatsApp', site: 'Kalyves, Chania, Crete' }
   },
   footer: { tagline: 'A home above the sea. A life above expectation.', explore: 'Explore', contact: 'Contact', follow: 'Downloads', rights: '© SivanInvest Group. All rights reserved.', developed: 'Developed by SivanInvest Group · Managed by Sivan Management',
