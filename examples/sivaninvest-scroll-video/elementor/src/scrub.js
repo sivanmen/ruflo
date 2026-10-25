@@ -5,8 +5,10 @@
   if (!root || root.__kspInit) return;
   root.__kspInit = true;
 
-  // The <video src> in the markup wins, so other pages can reuse this engine with their own film.
-  var VIDEO_SRC = root.querySelector('[data-k="video"]').getAttribute('src') ||
+  // The film named in the markup wins, so other pages can reuse this engine with their own film.
+  // Caching plugins (FlyingPress) move <video src> to data-lazy-src, so data-film on #ksp is read first.
+  var vEl = root.querySelector('[data-k="video"]');
+  var VIDEO_SRC = root.getAttribute('data-film') || vEl.getAttribute('src') || vEl.getAttribute('data-lazy-src') || vEl.getAttribute('data-src') ||
     'https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260821_114821_a8ca298f-be2c-4613-a4dd-51b69e16bbde.mp4';
   var MP4BOX_SRC = 'https://cdn.jsdelivr.net/npm/mp4box@0.5.2/dist/mp4box.all.min.js';
   var MP4BOX_SRI = 'sha384-9oK16t6TCKqCB5OpB/LwRkNa48prlRFQPTYw8tb9uj699JvQ1wjxIq7YO8Z4hn3a';
@@ -30,7 +32,7 @@
 
   var reducedMotion = !!(window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches);
 
-  if (!video.getAttribute('src')) video.setAttribute('src', VIDEO_SRC);
+  if (video.getAttribute('src') !== VIDEO_SRC) video.setAttribute('src', VIDEO_SRC);
   video.muted = true;
 
   /* ---------- scroll progress ---------- */

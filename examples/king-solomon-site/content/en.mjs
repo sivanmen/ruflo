@@ -140,7 +140,7 @@ export default {
     ],
     detailsTitle: 'Our details',
     labels: { email: 'Email', chania: 'Office in Chania', greecePhone: 'Phone in Greece', israel: 'Office in Israel', israelPhone: 'Phone in Israel' },
-    israelAddress: '',
+    israelAddress: '5 Golda Meir St, 3rd floor, Ness Ziona, Israel',
     details: { title: 'Project office', address: '2 Plateia Eleftherias, 73132 Chania, Crete', phones: ['+972 52 451 8134', '+30 698 392 4820'], email: 'support@sivaninvestgroup.com', whatsapp: 'WhatsApp', site: 'Kalyves, Chania, Crete' }
   },
   footer: { tagline: 'A home above the sea. A life above expectation.', explore: 'Explore', contact: 'Contact', follow: 'Downloads', rights: '© SivanInvest Group. All rights reserved.', developed: 'Developed by SivanInvest Group · Managed by Sivan Management',

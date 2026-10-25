@@ -14,7 +14,7 @@ function heroScene(t) {
 #ksp .k-h2a .k-a80{color:rgba(255,255,255,.85)}#ksp .k-h2a .k-a50{color:rgba(255,255,255,.7)}
 #ksp .k-down{border-color:rgba(255,255,255,.5);color:#fff}#ksp .k-up{border-color:rgba(255,255,255,.4);color:rgba(255,255,255,.8)}
 #ksp .k-dots span{background-color:rgba(255,255,255,.45)}#ksp .k-dots span.is-active{background-color:#fff}</style>`;
-  return `${tone}<div id="ksp" lang="${t.lang}" dir="${t.dir}">
+  return `${tone}<div id="ksp" lang="${t.lang}" dir="${t.dir}" data-film="${full('ks-hero-film')}">
 <div class="k-track" data-k="track"><div class="k-sticky">
 <video class="k-media" data-k="video" src="${full('ks-hero-film')}" muted playsinline preload="auto"></video>
 <canvas class="k-media k-canvas" data-k="canvas" width="1920" height="1080"></canvas>

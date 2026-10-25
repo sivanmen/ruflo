@@ -140,7 +140,7 @@ export default {
     ],
     detailsTitle: 'הפרטים שלנו',
     labels: { email: 'אימייל', chania: 'משרד בחאניה', greecePhone: 'טלפון ביוון', israel: 'משרד בישראל', israelPhone: 'טלפון בישראל' },
-    israelAddress: '',
+    israelAddress: 'גולדה מאיר 5, קומה 3, נס ציונה',
     details: { title: 'משרד הפרויקט', address: 'פלטיה אלפתריאס 2, 73132 חאניה, כרתים', phones: ['+972 52 451 8134', '+30 698 392 4820'], email: 'support@sivaninvestgroup.com', whatsapp: 'וואטסאפ', site: 'קאליבס, חאניה, כרתים' }
   },
   footer: { tagline: 'בית מעל הים. חיים מעל הציפיות.', explore: 'ניווט', contact: 'יצירת קשר', follow: 'הורדות', rights: '© SivanInvest Group. כל הזכויות שמורות.', developed: 'יזם: SivanInvest Group · ניהול: Sivan Management',
