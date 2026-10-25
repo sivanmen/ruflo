@@ -60,7 +60,7 @@ body { margin: 0; background: #FBF8F3; }
 /* ---------- buttons ---------- */
 .ks-btn { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 52px; padding: 0 30px;
   border: 1px solid var(--gold); color: var(--ink); font-size: 12px; letter-spacing: .24em; text-transform: uppercase; font-weight: 500;
-  background: transparent; transition: background .4s var(--ease), color .4s var(--ease), border-color .4s; }
+  border-radius: 40px; background: transparent; transition: background .4s var(--ease), color .4s var(--ease), border-color .4s; }
 .ks:lang(he) .ks-btn { letter-spacing: .08em; font-size: 14px; }
 .ks-btn:hover { background: var(--gold); color: var(--ink); }
 .ks-btn.is-solid { background: var(--gold); color: var(--ink); }

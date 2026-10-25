@@ -33,6 +33,7 @@ export const icon = {
   prev: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M20 12H4"/><path d="m10 6-6 6 6 6"/></svg>',
   next: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M4 12h16"/><path d="m14 6 6 6-6 6"/></svg>',
   down: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v13"/><path d="m6 12 6 6 6-6"/><path d="M5 21h14"/></svg>',
+  phone: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>',
   x: '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>'
 };
 
@@ -48,7 +49,7 @@ export function nav(t, current) {
 <header class="ks-nav" role="banner"><div class="ks-nav-in">
 <a class="ks-brand" href="${url(t, 'home')}" aria-label="King Solomon"><img src="${full('ks-crown')}" alt="" width="34" height="24"><span>King Solomon<small>Kalyves · Creta</small></span></a>
 <nav class="ks-menu" aria-label="King Solomon">${links}</nav>
-<div class="ks-nav-end"><a class="ks-lang" href="${otherUrl(t, current === 'type' ? 'villas' : current)}" hreflang="${t.lang === 'he' ? 'en' : 'he'}">${t.otherLabel}</a>${btn(url(t, 'contact'), t.nav.cta)}
+<div class="ks-nav-end"><a class="ks-lang" href="${otherUrl(t, current === 'type' ? 'villas' : current)}" hreflang="${t.lang === 'he' ? 'en' : 'he'}">${t.otherLabel}</a><a class="ks-wa" href="https://wa.me/972524518134" target="_blank" rel="noopener" aria-label="WhatsApp">${icon.phone}</a>${btn(url(t, 'contact'), t.nav.cta)}
 <button class="ks-burger" type="button" data-ks="open-menu" aria-label="${esc(t.nav.menu)}"><i></i><i></i><i></i></button></div>
 </div></header>
 <div class="ks-drawer" aria-hidden="true"><div class="ks-drawer-top"><a class="ks-brand" href="${url(t, 'home')}"><img src="${full('ks-crown')}" alt="" width="34" height="24"><span>King Solomon</span></a>
