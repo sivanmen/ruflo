@@ -46,7 +46,8 @@
     "next": "Siguiente",
     "closeDialog": "Cerrar",
     "allCollections": "Todas las colecciones",
-    "exploreCollection": "Descubrir la colección"
+    "exploreCollection": "Descubrir la colección",
+    "requestPrices": "Solicitar la lista de precios"
   },
   "labels": {
     "from": "Desde",
@@ -83,7 +84,9 @@
     "levelGround": "Planta baja con jardín",
     "levelGroundLower": "Planta baja + planta inferior",
     "type": "Tipo {code}",
-    "page": "Página"
+    "page": "Página",
+    "priceOnRequest": "Lista de precios bajo petición",
+    "villasAvailable": "{a} de {t} villas disponibles"
   },
   "collections": {
     "1-bedroom": {
@@ -157,56 +160,84 @@
     "flightsTitle": "Tiempos de vuelo a Chania",
     "flights": [
       {
-        "from": "Atenas",
-        "time": "0:50"
-      },
-      {
-        "from": "Tel Aviv",
+        "from": "Israel",
         "time": "1:30"
       },
       {
-        "from": "Bucarest",
+        "from": "Rumanía",
         "time": "1:45"
       },
       {
-        "from": "Budapest",
+        "from": "Hungría",
         "time": "2:00"
       },
       {
-        "from": "Praga",
+        "from": "Ucrania",
+        "time": "2:10"
+      },
+      {
+        "from": "República Checa",
         "time": "2:25"
       },
       {
-        "from": "Múnich",
-        "time": "2:35"
-      },
-      {
-        "from": "Varsovia",
+        "from": "Polonia",
         "time": "2:45"
       },
       {
-        "from": "Fráncfort",
-        "time": "2:55"
+        "from": "Bielorrusia",
+        "time": "2:45"
       },
       {
-        "from": "París",
+        "from": "Francia",
         "time": "3:10"
       },
       {
-        "from": "Ámsterdam",
+        "from": "Rusia",
+        "time": "3:30"
+      },
+      {
+        "from": "Países Bajos",
         "time": "3:35"
       },
       {
-        "from": "Londres",
+        "from": "Finlandia",
+        "time": "3:35"
+      },
+      {
+        "from": "Gran Bretaña",
         "time": "3:40"
       },
       {
-        "from": "Estocolmo",
+        "from": "Suecia",
         "time": "3:45"
+      },
+      {
+        "from": "Noruega",
+        "time": "3:50"
       }
     ],
-    "flightsNote": "Tiempos de vuelo aproximados. Las conexiones de temporada y anuales varían según la aerolínea.",
-    "mapCta": "Abrir en Google Maps"
+    "flightsNote": "Tiempos de vuelo aproximados, en horas. Las conexiones de temporada y anuales varían según la aerolínea.",
+    "mapCta": "Abrir en Google Maps",
+    "ferriesTitle": "Conexiones en ferry",
+    "ferriesText": "Creta cuenta con líneas de ferry diarias a El Pireo (Atenas) y a las islas más populares del Egeo.",
+    "ferries": [
+      {
+        "port": "Puerto de Souda",
+        "text": "A 8 minutos de King Solomon: ferry a El Pireo (Atenas)"
+      },
+      {
+        "port": "Puerto de Rethymno",
+        "text": "Ferry a Santorini y Milos"
+      },
+      {
+        "port": "Puerto de Heraklion",
+        "text": "Ferry a Santorini, Mykonos y otras islas"
+      },
+      {
+        "port": "Puerto de Kissamos (Kastelli)",
+        "text": "Ferry a Citera y Anticitera"
+      }
+    ]
   },
   "form": {
     "kicker": "Presentación privada",

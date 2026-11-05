@@ -18,10 +18,22 @@
     "kicker": "L'arrivée",
     "title": "De la route à la mer, un parcours chorégraphié.",
     "steps": [
-      { "title": "L'entrée supérieure", "text": "Un portail électrique avec digicode et accès par reconnaissance faciale, vidéosurveillance et éclairage architectural, à côté du parking principal et des bornes de recharge électrique." },
-      { "title": "La passerelle & l'ascenseur vitré", "text": "Une courte passerelle mène à un ascenseur panoramique en verre, face à la falaise et à la mer, qui descend en douceur jusqu'au niveau du resort." },
-      { "title": "Le niveau du resort", "text": "Piscine à débordement, jacuzzi, bar, cuisine d'été et salons extérieurs : le cœur social de King Solomon." },
-      { "title": "Jusqu'à la mer", "text": "Un chemin privé et contrôlé de 30 à 40 marches mène au front de mer, à la promenade et aux tavernes de Kalyves." }
+      {
+        "title": "L'entrée supérieure",
+        "text": "Un portail électrique avec digicode et accès par reconnaissance faciale, vidéosurveillance et éclairage architectural, à côté du parking principal et des bornes de recharge électrique."
+      },
+      {
+        "title": "La passerelle & l'ascenseur vitré",
+        "text": "Une courte passerelle mène à un ascenseur panoramique en verre, face à la falaise et à la mer, qui descend en douceur jusqu'au niveau du resort."
+      },
+      {
+        "title": "Le niveau du resort",
+        "text": "Piscine à débordement, jacuzzi, bar, cuisine d'été et salons extérieurs : le cœur social de King Solomon."
+      },
+      {
+        "title": "Jusqu'à la mer",
+        "text": "Un chemin privé et contrôlé de 30 à 40 marches mène au front de mer, à la promenade et aux tavernes de Kalyves."
+      }
     ]
   },
   "interiors": {
@@ -34,16 +46,46 @@
     "title": "Chaque villa, finie au standard d'un hôtel-boutique.",
     "text": "Une résidence entièrement conçue et équipée, dont chaque détail a été pensé à l'avance.",
     "items": [
-      { "title": "Architecture, vues & ouvertures", "text": "Implantée pour l'intimité, la lumière naturelle et les vues panoramiques sur la mer, avec de grandes baies vitrées isolantes toute hauteur et de larges façades. Nombre de villas profitent d'une vue d'environ 270°." },
-      { "title": "Piscine privée & vie en plein air", "text": "Une piscine privée de type débordement face à la vue, des transats, des salons extérieurs et du mobilier d'extérieur haut de gamme, avec jardin, terrasse, balcon ou toit-terrasse selon le type." },
-      { "title": "Cuisine d'été", "text": "Une cuisine extérieure entièrement équipée pour recevoir : barbecue encastré, évier, réfrigérateur d'extérieur, plan de travail, rangements, éclairage et ombrage par pergolas ou éléments architecturaux." },
-      { "title": "Architecture intérieure & mobilier", "text": "Un concept intérieur complet signé par un architecte et un architecte d'intérieur, entièrement meublé de pièces importées : lits, dressings, linge de lit, rideaux, luminaires, tapis et décoration." },
-      { "title": "Séjour & divertissement", "text": "Un séjour de standing hôtelier avec mur TV sur mesure, éclairage décoratif et habillages muraux. Un téléviseur de 50\"+ au séjour et de 45\"+ dans chaque chambre, ambiance LED et variateurs." },
-      { "title": "Une vraie cuisine", "text": "Une cuisine sur mesure de taille réelle, et non une kitchenette de vacances : meubles à fermeture amortie, plans de travail en grès cérame, batterie de cuisine complète et électroménager haut de gamme de marques telles que Bosch ou Sauter." },
-      { "title": "Chambres & salles de bains", "text": "Des chambres dignes d'un hôtel-boutique, avec literie haut de gamme et rangements intégrés. Des salles de bains de style hôtelier : sanitaires suspendus, robinetterie encastrée, douches à l'italienne vitrées et accessoires complets." },
-      { "title": "Finitions & énergie", "text": "Sols en grès cérame grand format 120 × 60, habillages décoratifs et éclairage encastré. Isolation thermique des murs, des toitures et des vitrages bien supérieure aux normes de construction locales." },
-      { "title": "Climatisation, domotique & sécurité", "text": "Climatisation Inverter dans chaque pièce, production d'eau chaude électrique, pilotage Wi-Fi de l'éclairage et des accès, porte blindée multipoints avec empreinte digitale, digicode ou reconnaissance faciale, et caméras extérieures respectueuses de l'intimité à l'intérieur." },
-      { "title": "Prête à louer dès le premier jour", "text": "Livrée avec mobilier, électroménager, ustensiles de cuisine, linge de lit, Wi-Fi et systèmes compatibles avec la gestion, prête pour un usage privé, un usage hôtelier et une exploitation professionnelle." }
+      {
+        "title": "Architecture, vues & ouvertures",
+        "text": "Implantée pour l'intimité, la lumière naturelle et les vues panoramiques sur la mer, avec de grandes baies vitrées isolantes toute hauteur et de larges façades. Nombre de villas profitent d'une vue d'environ 270°."
+      },
+      {
+        "title": "Piscine privée & vie en plein air",
+        "text": "Une piscine privée de type débordement face à la vue, des transats, des salons extérieurs et du mobilier d'extérieur haut de gamme, avec jardin, terrasse, balcon ou toit-terrasse selon le type."
+      },
+      {
+        "title": "Cuisine d'été",
+        "text": "Une cuisine extérieure entièrement équipée pour recevoir : barbecue encastré, évier, réfrigérateur d'extérieur, plan de travail, rangements, éclairage et ombrage par pergolas ou éléments architecturaux."
+      },
+      {
+        "title": "Architecture intérieure & mobilier",
+        "text": "Un concept intérieur complet signé par un architecte et un architecte d'intérieur, entièrement meublé de pièces importées : lits, dressings, linge de lit, rideaux, luminaires, tapis et décoration."
+      },
+      {
+        "title": "Séjour & divertissement",
+        "text": "Un séjour de standing hôtelier avec mur TV sur mesure, éclairage décoratif et habillages muraux. Un téléviseur de 50\"+ au séjour et de 45\"+ dans chaque chambre, ambiance LED et variateurs."
+      },
+      {
+        "title": "Une vraie cuisine",
+        "text": "Une cuisine sur mesure de taille réelle, et non une kitchenette de vacances : meubles à fermeture amortie, plans de travail en grès cérame, batterie de cuisine complète et électroménager haut de gamme de marques telles que Bosch ou Sauter."
+      },
+      {
+        "title": "Chambres & salles de bains",
+        "text": "Des chambres dignes d'un hôtel-boutique, avec literie haut de gamme et rangements intégrés. Des salles de bains de style hôtelier : sanitaires suspendus, robinetterie encastrée, douches à l'italienne vitrées et accessoires complets."
+      },
+      {
+        "title": "Finitions & énergie",
+        "text": "Sols en grès cérame grand format 120 × 60, habillages décoratifs et éclairage encastré. Isolation thermique des murs, des toitures et des vitrages bien supérieure aux normes de construction locales."
+      },
+      {
+        "title": "Climatisation, domotique & sécurité",
+        "text": "Climatisation Inverter dans chaque pièce, production d'eau chaude électrique, pilotage Wi-Fi de l'éclairage et des accès, porte blindée multipoints avec empreinte digitale, digicode ou reconnaissance faciale, et caméras extérieures respectueuses de l'intimité à l'intérieur."
+      },
+      {
+        "title": "Prête à louer dès le premier jour",
+        "text": "Livrée avec mobilier, électroménager, ustensiles de cuisine, linge de lit, Wi-Fi et systèmes compatibles avec la gestion, prête pour un usage privé, un usage hôtelier et une exploitation professionnelle."
+      }
     ],
     "disclaimer": "L'ensemble des prestations, matériaux, marques, systèmes, équipements et éléments de conception sont présentés à des fins commerciales et d'information et peuvent être modifiés en fonction de la conception définitive, des études techniques, des autorisations, des agréments et des disponibilités. Les prestations contractuelles sont définies exclusivement dans l'acte de vente notarié signé. Le promoteur peut remplacer tout élément par un autre de qualité égale ou supérieure."
   },
@@ -51,10 +93,22 @@
     "kicker": "Infrastructures du resort",
     "title": "Les détails auxquels vous n'aurez jamais à penser.",
     "items": [
-      { "title": "Conception lumière", "text": "Un concept d'éclairage spécialisé pour les allées, les escaliers, la piscine et le paysage, automatisé de jour comme de nuit." },
-      { "title": "Architecture paysagère", "text": "Pierre naturelle, terrasses, végétation méditerranéenne, arbres d'ornement et arrosage automatique." },
-      { "title": "Stationnement & recharge électrique", "text": "Un parking supérieur d'environ neuf places et deux bornes de recharge pour véhicules électriques." },
-      { "title": "Équipements pour les invités", "text": "Des sanitaires séparés pour les invités au niveau de la piscine et de l'espace bien-être, afin que les villas restent privées." }
+      {
+        "title": "Conception lumière",
+        "text": "Un concept d'éclairage spécialisé pour les allées, les escaliers, la piscine et le paysage, automatisé de jour comme de nuit."
+      },
+      {
+        "title": "Architecture paysagère",
+        "text": "Pierre naturelle, terrasses, végétation méditerranéenne, arbres d'ornement et arrosage automatique."
+      },
+      {
+        "title": "Stationnement & recharge électrique",
+        "text": "Un parking supérieur d'environ neuf places et deux bornes de recharge pour véhicules électriques."
+      },
+      {
+        "title": "Équipements pour les invités",
+        "text": "Des sanitaires séparés pour les invités au niveau de la piscine et de l'espace bien-être, afin que les villas restent privées."
+      }
     ]
   },
   "crete": {
@@ -62,10 +116,36 @@
     "title": "Toute une île, autour de votre villa.",
     "text": "La plus grande île de Grèce offre une ampleur et une diversité sans égales en Méditerranée : palais minoens, ports vénitiens, Montagnes Blanches, gorges de Samaria et lagon turquoise de Balos. Chaque journée peut être une nouvelle découverte, et chaque soirée s'achève dans votre retraite privée au bord de la falaise.",
     "places": [
-      { "name": "Le vieux port de La Canée", "img": "chania-harbour", "text": "Façades vénitiennes, phare égyptien et restaurants au bord de l'eau, à 12 minutes." },
-      { "name": "Le lagon de Balos", "img": "balos", "text": "L'une des plages les plus photographiées d'Europe, sur la péninsule de Gramvousa." },
-      { "name": "Les gorges de Samaria", "img": "samaria", "text": "Une randonnée de 16 km à travers l'un des parcs nationaux les plus spectaculaires d'Europe." },
-      { "name": "Les Montagnes Blanches", "img": "white-mountains", "text": "Sommets enneigés au printemps, villages de montagne et herbes sauvages toute l'année." }
+      {
+        "name": "Le vieux port de La Canée",
+        "img": "chania-harbour",
+        "text": "Façades vénitiennes, phare égyptien et restaurants au bord de l'eau, à 12 minutes."
+      },
+      {
+        "name": "Le lagon de Balos",
+        "img": "balos",
+        "text": "L'une des plages les plus photographiées d'Europe, sur la péninsule de Gramvousa."
+      },
+      {
+        "name": "Les gorges de Samaria",
+        "img": "samaria",
+        "text": "Une randonnée de 16 km à travers l'un des parcs nationaux les plus spectaculaires d'Europe."
+      },
+      {
+        "name": "Les Montagnes Blanches",
+        "img": "white-mountains",
+        "text": "Sommets enneigés au printemps, villages de montagne et herbes sauvages toute l'année."
+      },
+      {
+        "name": "Elafonissi",
+        "img": "elafonisi",
+        "text": "Sable rose et lagons turquoise peu profonds, à l'extrême sud-ouest de l'île."
+      },
+      {
+        "name": "Preveli",
+        "img": "preveli",
+        "text": "Une rivière bordée de palmiers qui rejoint la mer de Libye au pied de falaises spectaculaires."
+      }
     ]
   }
 }

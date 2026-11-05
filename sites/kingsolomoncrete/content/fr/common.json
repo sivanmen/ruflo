@@ -46,7 +46,8 @@
     "next": "Suivant",
     "closeDialog": "Fermer",
     "allCollections": "Toutes les collections",
-    "exploreCollection": "Découvrir la collection"
+    "exploreCollection": "Découvrir la collection",
+    "requestPrices": "Demander la grille tarifaire"
   },
   "labels": {
     "from": "À partir de",
@@ -83,7 +84,9 @@
     "levelGround": "Rez-de-jardin",
     "levelGroundLower": "Rez-de-jardin + niveau inférieur",
     "type": "Type {code}",
-    "page": "Page"
+    "page": "Page",
+    "priceOnRequest": "Grille tarifaire sur demande",
+    "villasAvailable": "{a} villas disponibles sur {t}"
   },
   "collections": {
     "1-bedroom": {
@@ -157,56 +160,84 @@
     "flightsTitle": "Temps de vol jusqu'à La Canée",
     "flights": [
       {
-        "from": "Athènes",
-        "time": "0:50"
-      },
-      {
-        "from": "Tel Aviv",
+        "from": "Israël",
         "time": "1:30"
       },
       {
-        "from": "Bucarest",
+        "from": "Roumanie",
         "time": "1:45"
       },
       {
-        "from": "Budapest",
+        "from": "Hongrie",
         "time": "2:00"
       },
       {
-        "from": "Prague",
+        "from": "Ukraine",
+        "time": "2:10"
+      },
+      {
+        "from": "République tchèque",
         "time": "2:25"
       },
       {
-        "from": "Munich",
-        "time": "2:35"
-      },
-      {
-        "from": "Varsovie",
+        "from": "Pologne",
         "time": "2:45"
       },
       {
-        "from": "Francfort",
-        "time": "2:55"
+        "from": "Biélorussie",
+        "time": "2:45"
       },
       {
-        "from": "Paris",
+        "from": "France",
         "time": "3:10"
       },
       {
-        "from": "Amsterdam",
+        "from": "Russie",
+        "time": "3:30"
+      },
+      {
+        "from": "Pays-Bas",
         "time": "3:35"
       },
       {
-        "from": "Londres",
+        "from": "Finlande",
+        "time": "3:35"
+      },
+      {
+        "from": "Grande-Bretagne",
         "time": "3:40"
       },
       {
-        "from": "Stockholm",
+        "from": "Suède",
         "time": "3:45"
+      },
+      {
+        "from": "Norvège",
+        "time": "3:50"
       }
     ],
-    "flightsNote": "Temps de vol approximatifs. Les liaisons saisonnières et annuelles varient selon les compagnies.",
-    "mapCta": "Ouvrir dans Google Maps"
+    "flightsNote": "Temps de vol approximatifs, en heures. Les liaisons saisonnières et annuelles varient selon les compagnies.",
+    "mapCta": "Ouvrir dans Google Maps",
+    "ferriesTitle": "Liaisons en ferry",
+    "ferriesText": "La Crète est reliée par des ferries quotidiens au Pirée (Athènes) et aux îles les plus prisées de la mer Égée.",
+    "ferries": [
+      {
+        "port": "Port de Souda",
+        "text": "À 8 minutes de King Solomon : ferries pour le Pirée (Athènes)"
+      },
+      {
+        "port": "Port de Réthymnon",
+        "text": "Ferries pour Santorin et Milos"
+      },
+      {
+        "port": "Port d'Héraklion",
+        "text": "Ferries pour Santorin, Mykonos et d'autres îles"
+      },
+      {
+        "port": "Port de Kissamos (Kastelli)",
+        "text": "Ferries pour Cythère et Anticythère"
+      }
+    ]
   },
   "form": {
     "kicker": "Présentation privée",
