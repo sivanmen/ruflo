@@ -46,7 +46,8 @@
     "next": "Next",
     "closeDialog": "Close",
     "allCollections": "All collections",
-    "exploreCollection": "Explore the collection"
+    "exploreCollection": "Explore the collection",
+    "requestPrices": "Request the price list"
   },
   "labels": {
     "from": "From",
@@ -83,7 +84,9 @@
     "levelGround": "Ground floor with garden",
     "levelGroundLower": "Ground floor + lower level",
     "type": "Type {code}",
-    "page": "Page"
+    "page": "Page",
+    "priceOnRequest": "Price list on request",
+    "villasAvailable": "{a} of {t} villas available"
   },
   "collections": {
     "1-bedroom": {
@@ -157,56 +160,84 @@
     "flightsTitle": "Flight times to Chania",
     "flights": [
       {
-        "from": "Athens",
-        "time": "0:50"
-      },
-      {
-        "from": "Tel Aviv",
+        "from": "Israel",
         "time": "1:30"
       },
       {
-        "from": "Bucharest",
+        "from": "Romania",
         "time": "1:45"
       },
       {
-        "from": "Budapest",
+        "from": "Hungary",
         "time": "2:00"
       },
       {
-        "from": "Prague",
+        "from": "Ukraine",
+        "time": "2:10"
+      },
+      {
+        "from": "Czech Republic",
         "time": "2:25"
       },
       {
-        "from": "Munich",
-        "time": "2:35"
-      },
-      {
-        "from": "Warsaw",
+        "from": "Poland",
         "time": "2:45"
       },
       {
-        "from": "Frankfurt",
-        "time": "2:55"
+        "from": "Belarus",
+        "time": "2:45"
       },
       {
-        "from": "Paris",
+        "from": "France",
         "time": "3:10"
       },
       {
-        "from": "Amsterdam",
+        "from": "Russia",
+        "time": "3:30"
+      },
+      {
+        "from": "Netherlands",
         "time": "3:35"
       },
       {
-        "from": "London",
+        "from": "Finland",
+        "time": "3:35"
+      },
+      {
+        "from": "Great Britain",
         "time": "3:40"
       },
       {
-        "from": "Stockholm",
+        "from": "Sweden",
         "time": "3:45"
+      },
+      {
+        "from": "Norway",
+        "time": "3:50"
       }
     ],
-    "flightsNote": "Approximate flight times. Seasonal and year-round connections vary by airline.",
-    "mapCta": "Open in Google Maps"
+    "flightsNote": "Approximate flight times in hours. Seasonal and year-round connections vary by airline.",
+    "mapCta": "Open in Google Maps",
+    "ferriesTitle": "Ferry connections",
+    "ferriesText": "Crete is linked by daily ferries to Piraeus (Athens) and to the most popular islands of the Aegean.",
+    "ferries": [
+      {
+        "port": "Souda port",
+        "text": "8 minutes from King Solomon: ferries to Piraeus (Athens)"
+      },
+      {
+        "port": "Rethymno port",
+        "text": "Ferries to Santorini and Milos"
+      },
+      {
+        "port": "Heraklion port",
+        "text": "Ferries to Santorini, Mykonos and other islands"
+      },
+      {
+        "port": "Kissamos (Kastelli) port",
+        "text": "Ferries to Kythira and Antikythira"
+      }
+    ]
   },
   "form": {
     "kicker": "Private presentation",

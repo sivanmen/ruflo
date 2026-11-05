@@ -33,7 +33,7 @@ body{margin:0;width:1200px;height:630px;position:relative;font-family:Inter;colo
 h1{font-family:'Cormorant Garamond';font-weight:300;font-size:92px;letter-spacing:.12em;margin:0;line-height:1}
 p{letter-spacing:.42em;font-size:18px;color:#D9BC85;margin:18px 0 40px}
 span{font-size:26px;font-weight:300}</style></head><body><div class="bg"></div><div class="sh"></div>
-<div class="c">${crown}<h1>KING SOLOMON</h1><p>KALYVES | CRETE</p><span>21 cliffside villas with private pools · from €507,104</span></div></body></html>`);
+<div class="c">${crown}<h1>KING SOLOMON</h1><p>KALYVES | CRETE</p><span>21 cliffside villas with private pools · Kalyves, Chania</span></div></body></html>`);
 await page.waitForTimeout(400);
 await page.screenshot({ path: out('og-image.jpg'), type: 'jpeg', quality: 86 });
 await browser.close();

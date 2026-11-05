@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Villas & Availability | King Solomon Luxury Villas, Kalyves Crete",
-    "description": "Live availability and prices for the 21 King Solomon villas in Kalyves, Crete: 1, 2, 3 and 5 bedroom rooftop and garden residences with private pools. Download every plan."
+    "description": "Live availability of the 21 King Solomon villas in Kalyves, Crete: 1, 2, 3 and 5 bedroom rooftop and garden residences with private pools. Download every plan."
   },
   "hero": {
     "kicker": "The villas",
@@ -11,7 +11,7 @@
   "availability": {
     "kicker": "Live availability",
     "title": "Find your villa.",
-    "text": "The current inventory with the {v} price list. Select a villa number to see its details.",
+    "text": "The current inventory, updated regularly. Select a villa number to see its details.",
     "filterBedrooms": "Bedrooms",
     "filterStatus": "Status",
     "all": "All",
@@ -20,7 +20,7 @@
     "gardenRow": "Garden residences",
     "gardenRowSub": "Ground floor · garden & pool",
     "noResults": "No villas match this selection.",
-    "note": "Prices follow the {v} price list, include the full design and furnishing package and are subject to availability and change. Areas are indicative. Final terms are set only in the signed purchase agreement."
+    "note": "Availability is updated regularly and may change. Areas are indicative. Prices are provided on request; final terms are set only in the signed purchase agreement."
   },
   "masterplan": {
     "kicker": "Masterplan",
@@ -38,41 +38,67 @@
   "1-bedroom": {
     "meta": {
       "title": "One-Bedroom Villas with Private Pool | King Solomon Kalyves, Crete",
-      "description": "One-bedroom luxury villas in Kalyves, Crete, with a private pool, rooftop or garden and sea views. Fully furnished and rental-ready. From €507,104."
+      "description": "One-bedroom luxury villas in Kalyves, Crete, with a private pool, rooftop or garden and sea views. Fully furnished and rental-ready. Price list on request."
     },
     "title": "A private retreat above the sea.",
     "lead": "The most intimate expression of King Solomon.",
     "text": "A generous master bedroom, open-plan living and dining, and a private pool on a garden terrace or a rooftop garden. A personal hideaway for you, and a sought-after premium stay for guests when you are away.",
-    "highlights": ["Private pool on garden or rooftop", "Open-plan living with sea-facing glazing", "Ideal for personal use or premium short stays"]
+    "highlights": [
+      "Private pool on garden or rooftop",
+      "Open-plan living with sea-facing glazing",
+      "Ideal for personal use or premium short stays"
+    ]
   },
   "2-bedroom": {
     "meta": {
       "title": "Two-Bedroom Garden Villas with Pool | King Solomon Kalyves, Crete",
-      "description": "Two-bedroom garden villas in Kalyves, Crete, with private pool, outdoor kitchen and independent entrance. Turnkey, fully furnished. From €691,014."
+      "description": "Two-bedroom garden villas in Kalyves, Crete, with private pool, outdoor kitchen and independent entrance. Turnkey and fully furnished. Price list on request."
     },
     "title": "Garden living, the pool steps away.",
     "lead": "Indoors and outdoors, as one.",
     "text": "Two-bedroom villas with independent entrances and private gardens that open the living space to the outdoors. Each has its own pool, outdoor kitchen and lounge: the perfect balance of family comfort and Mediterranean ease.",
-    "highlights": ["Private garden and pool", "Outdoor kitchen and lounge", "Independent entrance"]
+    "highlights": [
+      "Private garden and pool",
+      "Outdoor kitchen and lounge",
+      "Independent entrance"
+    ]
   },
   "3-bedroom": {
     "meta": {
       "title": "Three-Bedroom Rooftop Villas with Pool | King Solomon Kalyves, Crete",
-      "description": "Three-bedroom rooftop villas in Kalyves, Crete, with private roof garden, pool, outdoor kitchen and panoramic sea views. Fully furnished. From €778,464."
+      "description": "Three-bedroom rooftop villas in Kalyves, Crete, with private roof garden, pool, outdoor kitchen and panoramic sea views. Fully furnished. Price list on request."
     },
     "title": "A sky terrace for every evening.",
     "lead": "Where the horizon becomes the main room.",
     "text": "Upper-floor villas with three bedrooms, generous balconies and a private roof garden with pool and outdoor kitchen. Designed for families and for hosting, with the widest views at King Solomon.",
-    "highlights": ["Private roof garden with pool", "Up to 116 m² of outdoor space", "Widest panoramic views"]
+    "highlights": [
+      "Private roof garden with pool",
+      "Up to 116 m² of outdoor space",
+      "Widest panoramic views"
+    ]
   },
   "5-bedroom": {
     "meta": {
       "title": "Five-Bedroom Luxury Villas on Two Levels | King Solomon Kalyves, Crete",
-      "description": "The grand villas of King Solomon: five bedrooms on two levels with garden, private pool and sea views in Kalyves, Crete. From €982,075."
+      "description": "The grand villas of King Solomon: five bedrooms on two levels with garden, private pool and sea views in Kalyves, Crete. Golden Visa eligible."
     },
     "title": "The grand villas, on two levels.",
     "lead": "Space for everyone you love.",
     "text": "The largest residences at King Solomon. A ground floor with living spaces, kitchen and garden pool, and a complete lower level with additional bedrooms. Room for a large family, generations together, or a premium rental product.",
-    "highlights": ["Five bedrooms on two levels", "Garden with private pool", "May suit Golden Visa applicants"]
+    "highlights": [
+      "Five bedrooms on two levels",
+      "Garden with private pool",
+      "Golden Visa eligible (investment of €800,000+)"
+    ]
+  },
+  "levels": {
+    "kicker": "Plans by level",
+    "title": "Every level of the cliff, mapped.",
+    "text": "How the 21 villas are arranged across the natural terraces of the site, from the rooftop residences to the garden villas on the cliff edge.",
+    "top": "Top floor",
+    "roof": "Top floor · roof gardens",
+    "ground": "Ground floor · mountain side",
+    "cliff": "Ground floor · cliff villas",
+    "villasLabel": "Villas"
   }
 }

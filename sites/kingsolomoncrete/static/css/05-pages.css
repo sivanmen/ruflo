@@ -129,7 +129,7 @@
 .spec p { color: var(--ink-2); padding: 0 0 1.5rem 2.4rem; margin: 0; font-size: .96rem; }
 [dir="rtl"] .spec p { padding: 0 2.4rem 1.5rem 0; }
 @media (max-width: 800px) { .specs { grid-template-columns: 1fr; } .spec:nth-child(2) { border-top: 0; } }
-.places { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(1rem, 1.6vw, 1.6rem); }
+.places { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(1rem, 1.6vw, 1.6rem); }
 .place__m { border-radius: var(--r); overflow: hidden; margin-bottom: 1.1rem; }
 .place__m picture { aspect-ratio: 3 / 4; transition: transform 1.2s var(--ease-out); }
 .place:hover .place__m picture { transform: scale(1.05); }
@@ -177,3 +177,25 @@
 .mapcard picture { aspect-ratio: 21 / 9; }
 .mapcard__c { position: absolute; inset-inline-start: 1.5rem; bottom: 1.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: .6rem 1rem; padding: 1rem 1.4rem; border-radius: 999px; background: rgba(14,14,13,.55); -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); }
 @media (max-width: 600px) { .mapcard picture { aspect-ratio: 4 / 3; } .mapcard__c { border-radius: var(--r-sm); inset-inline-end: 1rem; inset-inline-start: 1rem; } }
+
+/* Levels, ferries, intro image pair ----------------------------------- */
+.pane__plan--dark, .pane__plan--dark picture { background: #2a2925; }
+.pane__plan--dark img { object-fit: cover; }
+.vmap__dots { display: flex; flex-wrap: wrap; gap: .5rem; }
+.ferries { margin-top: clamp(3rem, 6vw, 5rem); }
+.ferries__x { color: var(--ink-2); max-width: 40em; }
+.ferries__list { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--line); }
+.ferries__list li { padding: 1.4rem 1.4rem 1.4rem 0; border-bottom: 1px solid var(--line); display: grid; gap: .3rem; }
+.ferries__list li + li { padding-inline-start: 1.4rem; border-inline-start: 1px solid var(--line); }
+.ferries__list strong { font-family: var(--f-display); font-weight: 400; font-size: 1.35rem; }
+.ferries__list span { font-size: .9rem; color: var(--ink-2); }
+@media (max-width: 900px) { .ferries__list { grid-template-columns: 1fr 1fr; } .ferries__list li:nth-child(3) { border-inline-start: 0; padding-inline-start: 0; } }
+@media (max-width: 520px) { .ferries__list { grid-template-columns: 1fr; } .ferries__list li + li { border-inline-start: 0; padding-inline-start: 0; } }
+.pair { position: relative; display: grid; grid-template-columns: 1.7fr 1fr; gap: clamp(1rem, 3vw, 3rem); align-items: end; margin-top: clamp(3rem, 7vw, 6rem); }
+.pair__a, .pair__b { border-radius: var(--r); overflow: hidden; }
+.pair__a picture { aspect-ratio: 16 / 11; }
+.pair__b picture { aspect-ratio: 4 / 5; }
+.pair__b { margin-bottom: -4rem; }
+@media (max-width: 700px) { .pair { grid-template-columns: 1fr; } .pair__b { width: 70%; margin: -5rem 0 0 auto; } [dir="rtl"] .pair__b { margin: -5rem auto 0 0; } }
+.ccard__req { font-family: var(--f-body) !important; font-size: .86rem !important; font-weight: 500 !important; color: var(--gold-text); letter-spacing: .02em; }
+.lp-hero__price strong small { font-size: .4em; opacity: .7; }

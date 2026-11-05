@@ -4,6 +4,7 @@
  * Receives enquiry forms, validates them, e-mails the sales team and optionally forwards to a CRM webhook.
  * Configure via environment variables (recommended) or api/config.local.php (never commit secrets):
  *   KS_LEAD_TO       recipient(s), comma separated
+ *   KS_LEAD_CC       copy recipient(s), comma separated
  *   KS_LEAD_FROM     sender address on your domain, e.g. no-reply@kingsolomoncrete.com
  *   KS_LEAD_WEBHOOK  optional HTTPS URL (Make, Zapier, HubSpot, Monday…) receiving JSON
  */
@@ -14,6 +15,7 @@ header('Cache-Control: no-store');
 
 $cfg = [
   'to' => getenv('KS_LEAD_TO') ?: 'support@sivaninvestgroup.com',
+  'cc' => getenv('KS_LEAD_CC') ?: 'sivanmen@gmail.com',
   'from' => getenv('KS_LEAD_FROM') ?: 'no-reply@kingsolomoncrete.com',
   'webhook' => getenv('KS_LEAD_WEBHOOK') ?: '',
   'allowed_origins' => ['https://www.kingsolomoncrete.com', 'https://kingsolomoncrete.com'],
@@ -75,6 +77,7 @@ $subject = '=?UTF-8?B?' . base64_encode('King Solomon lead · ' . $safe($lead['n
 $headers = [
   'From: King Solomon Website <' . $safe($cfg['from']) . '>',
   'Reply-To: ' . $safe($lead['email']),
+  'Cc: ' . $safe($cfg['cc']),
   'MIME-Version: 1.0',
   'Content-Type: text/plain; charset=UTF-8',
   'Content-Transfer-Encoding: 8bit',

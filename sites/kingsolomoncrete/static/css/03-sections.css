@@ -23,7 +23,7 @@
 .hero__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.6rem 3rem; border-top: 1px solid rgba(255,255,255,.25); padding-top: 1.8rem; }
 .hero__price { margin: 0; display: flex; align-items: baseline; gap: .7em; }
 .hero__price span { font-size: .74rem; letter-spacing: .22em; text-transform: uppercase; color: var(--gold-2); }
-.hero__price strong { font-family: var(--f-display); font-weight: 300; font-size: clamp(1.8rem, 3vw, 2.6rem); }
+.hero__price strong { font-family: var(--f-display); font-weight: 300; font-size: clamp(1.4rem, 2.3vw, 2.1rem); }
 .hero__ctas { display: flex; flex-wrap: wrap; gap: .8rem; }
 .hero__toggle { position: absolute; inset-inline-end: var(--gut); bottom: 2rem; width: 42px; height: 42px; border-radius: 50%; border: 1px solid rgba(255,255,255,.35); display: grid; place-items: center; color: #fff; -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); z-index: 2; }
 .hero__toggle .ico { width: 16px; height: 16px; }
