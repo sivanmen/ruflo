@@ -1,0 +1,6 @@
+# Original downloads (re-fetch with scripts/fetch-assets.sh); optimized copies live in dist/
+assets-src/
+# Runtime lead storage and local secrets on the server
+dist/api/storage/
+dist/api/config.local.php
+node_modules/

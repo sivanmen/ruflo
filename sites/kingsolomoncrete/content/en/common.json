@@ -1,0 +1,365 @@
+{
+  "langName": "English",
+  "brand": {
+    "name": "King Solomon",
+    "tagline": "Kalyves · Crete",
+    "descriptor": "Cliffside villas & spa resort",
+    "slogan": "Own the horizon."
+  },
+  "nav": {
+    "home": "Home",
+    "project": "The Project",
+    "villas": "Villas & Availability",
+    "villasShort": "Villas",
+    "gallery": "Gallery",
+    "developer": "Developer",
+    "contact": "Contact",
+    "cta": "Book a private presentation",
+    "ctaShort": "Enquire",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "skip": "Skip to main content",
+    "breadcrumbHome": "King Solomon"
+  },
+  "buttons": {
+    "exploreVillas": "Explore the villas",
+    "viewAvailability": "See live availability",
+    "viewAll": "View all villas",
+    "discover": "Discover",
+    "enquire": "Enquire",
+    "enquireVilla": "Enquire about villa {no}",
+    "download": "Download",
+    "openGallery": "Open the gallery",
+    "watchFilm": "Watch the film",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "send": "Send my request",
+    "sending": "Sending…",
+    "backToTop": "Back to top",
+    "viewPlan": "View plan",
+    "plan": "Plan",
+    "planN": "Plan {n}",
+    "readMore": "Read more",
+    "scroll": "Scroll",
+    "prev": "Previous",
+    "next": "Next",
+    "closeDialog": "Close",
+    "allCollections": "All collections",
+    "exploreCollection": "Explore the collection",
+    "requestPrices": "Request the price list"
+  },
+  "labels": {
+    "from": "From",
+    "available": "Available",
+    "reserved": "Reserved",
+    "sold": "Sold",
+    "availableOf": "{a} of {t} available",
+    "lastOne": "Last villa available",
+    "soldOut": "Fully reserved",
+    "villa": "Villa",
+    "villas": "Villas",
+    "bedrooms": "Bedrooms",
+    "bedroomN": "{n} bedroom",
+    "bedroomsN": "{n} bedrooms",
+    "level": "Level",
+    "interior": "Interior",
+    "outdoor": "Outdoor",
+    "pool": "Private pool",
+    "status": "Status",
+    "plans": "Plans",
+    "sqm": "m²",
+    "min": "min",
+    "priceList": "Price list {v}",
+    "rooftop": "Rooftop residence",
+    "garden": "Garden residence",
+    "rooftopShort": "Rooftop",
+    "gardenShort": "Garden",
+    "internal": "Internal",
+    "external": "Garden / terrace",
+    "balconies": "Balconies",
+    "roof": "Roof garden",
+    "levelFirstRoof": "Upper floor with roof garden",
+    "levelFirst": "Upper floor",
+    "levelGround": "Ground floor with garden",
+    "levelGroundLower": "Ground floor + lower level",
+    "type": "Type {code}",
+    "page": "Page",
+    "priceOnRequest": "Price list on request",
+    "villasAvailable": "{a} of {t} villas available"
+  },
+  "collections": {
+    "1-bedroom": {
+      "name": "One-bedroom villas",
+      "short": "1 bedroom",
+      "kicker": "Rooftop & garden",
+      "teaser": "An intimate hideaway with its own pool and a horizon that is yours alone."
+    },
+    "2-bedroom": {
+      "name": "Two-bedroom villas",
+      "short": "2 bedrooms",
+      "kicker": "Garden residences",
+      "teaser": "Garden living where the pool is a few steps from the sofa."
+    },
+    "3-bedroom": {
+      "name": "Three-bedroom villas",
+      "short": "3 bedrooms",
+      "kicker": "Rooftop residences",
+      "teaser": "A private sky terrace, pool and outdoor kitchen above the sea."
+    },
+    "5-bedroom": {
+      "name": "Five-bedroom villas",
+      "short": "5 bedrooms",
+      "kicker": "Garden residences + lower level",
+      "teaser": "The grand villas: two levels, five bedrooms and room for everyone you love."
+    }
+  },
+  "included": {
+    "title": "Delivered complete. Down to the last spoon.",
+    "items": [
+      "Floor-to-ceiling glazing facing the sea",
+      "Private infinity-edge pool",
+      "Outdoor kitchen with grill and lounge",
+      "Imported designer furniture package",
+      "Bosch, Sauter or equivalent appliances",
+      "Wi-Fi managed semi-smart systems",
+      "Reinforced smart-lock entrance door",
+      "High-performance insulation and glazing"
+    ]
+  },
+  "stats": {
+    "villas": "Private villas",
+    "elevation": "Metres above the sea",
+    "seaDistance": "Metres to the water",
+    "view": "Degrees of sea view",
+    "chania": "Minutes to Chania",
+    "airport": "Minutes to the airport"
+  },
+  "location": {
+    "kicker": "Location",
+    "title": "Kalyves. The Crete people keep to themselves.",
+    "text": "A genuine Cretan fishing village on the shores of Souda Bay, with sandy beaches, family tavernas and a lively promenade. Calm all year, never crowded, never staged. And just twelve minutes from the Venetian harbour of Chania.",
+    "distances": [
+      {
+        "place": "Kalyves village centre",
+        "time": "2"
+      },
+      {
+        "place": "Souda port",
+        "time": "8"
+      },
+      {
+        "place": "Chania old town",
+        "time": "12"
+      },
+      {
+        "place": "Chania International Airport",
+        "time": "22"
+      }
+    ],
+    "flightsTitle": "Flight times to Chania",
+    "flights": [
+      {
+        "from": "Israel",
+        "time": "1:30"
+      },
+      {
+        "from": "Romania",
+        "time": "1:45"
+      },
+      {
+        "from": "Hungary",
+        "time": "2:00"
+      },
+      {
+        "from": "Ukraine",
+        "time": "2:10"
+      },
+      {
+        "from": "Czech Republic",
+        "time": "2:25"
+      },
+      {
+        "from": "Poland",
+        "time": "2:45"
+      },
+      {
+        "from": "Belarus",
+        "time": "2:45"
+      },
+      {
+        "from": "France",
+        "time": "3:10"
+      },
+      {
+        "from": "Russia",
+        "time": "3:30"
+      },
+      {
+        "from": "Netherlands",
+        "time": "3:35"
+      },
+      {
+        "from": "Finland",
+        "time": "3:35"
+      },
+      {
+        "from": "Great Britain",
+        "time": "3:40"
+      },
+      {
+        "from": "Sweden",
+        "time": "3:45"
+      },
+      {
+        "from": "Norway",
+        "time": "3:50"
+      }
+    ],
+    "flightsNote": "Approximate flight times in hours. Seasonal and year-round connections vary by airline.",
+    "mapCta": "Open in Google Maps",
+    "ferriesTitle": "Ferry connections",
+    "ferriesText": "Crete is linked by daily ferries to Piraeus (Athens) and to the most popular islands of the Aegean.",
+    "ferries": [
+      {
+        "port": "Souda port",
+        "text": "8 minutes from King Solomon: ferries to Piraeus (Athens)"
+      },
+      {
+        "port": "Rethymno port",
+        "text": "Ferries to Santorini and Milos"
+      },
+      {
+        "port": "Heraklion port",
+        "text": "Ferries to Santorini, Mykonos and other islands"
+      },
+      {
+        "port": "Kissamos (Kastelli) port",
+        "text": "Ferries to Kythira and Antikythira"
+      }
+    ]
+  },
+  "form": {
+    "kicker": "Private presentation",
+    "title": "Let us show you the horizon.",
+    "text": "Share a few details and a member of the King Solomon team will contact you personally with live availability, the current price list and a private presentation, in Chania or online.",
+    "name": "Full name",
+    "phone": "Phone",
+    "email": "Email",
+    "country": "Country of residence",
+    "villa": "Villa of interest",
+    "villaAny": "Not sure yet",
+    "budget": "Investment budget",
+    "budgetOptions": [
+      "Up to €600,000",
+      "€600,000 – €800,000",
+      "€800,000 – €1,000,000",
+      "€1,000,000+"
+    ],
+    "contactPref": "Preferred contact",
+    "contactPrefOptions": [
+      "Phone call",
+      "WhatsApp",
+      "Email"
+    ],
+    "message": "Message (optional)",
+    "consentPrivacy": "I have read the {privacy} and agree that my details are processed to answer my request.",
+    "consentMarketing": "I would like to receive news, new releases and offers about King Solomon by email, SMS or WhatsApp. I can unsubscribe at any time.",
+    "privacyLink": "Privacy Policy",
+    "required": "Required",
+    "errorRequired": "Please complete this field.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorPhone": "Please enter a valid phone number.",
+    "errorConsent": "Please confirm you have read the Privacy Policy.",
+    "successTitle": "Thank you. Your request is with us.",
+    "successText": "A member of our team will contact you shortly, usually within one business day.",
+    "errorTitle": "Something went wrong.",
+    "errorText": "Please try again, or reach us directly by WhatsApp or phone.",
+    "secure": "Your details are encrypted and never shared with third parties for marketing."
+  },
+  "contactInfo": {
+    "title": "Our details",
+    "officeGreece": "Office in Chania",
+    "officeIsrael": "Office in Israel",
+    "phoneGreece": "Greece",
+    "phoneIsrael": "Israel",
+    "email": "Email",
+    "hours": "Mon–Fri 9:00–18:00 · WhatsApp 7 days a week",
+    "hoursLabel": "Hours"
+  },
+  "footer": {
+    "statement": "A home above the sea. A life above expectation.",
+    "explore": "Explore",
+    "collections": "Collections",
+    "downloads": "Downloads",
+    "legal": "Legal",
+    "brochure": "Investor brochure",
+    "plans": "Architectural plans",
+    "offer": "Private investor offer",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy",
+    "terms": "Terms & Disclaimer",
+    "accessibility": "Accessibility Statement",
+    "cookieSettings": "Cookie settings",
+    "rights": "© {year} SivanInvest Group. All rights reserved.",
+    "credits": "Developed by SivanInvest Group · Managed by Sivan Management · Architecture by 314 Architects",
+    "disclaimer": "The information on this website is indicative and does not constitute an offer, contract or warranty. All visuals are artist's impressions. Layouts, areas, specifications and prices may change as the development progresses. Binding terms are set only in the signed notarial purchase agreement."
+  },
+  "cookies": {
+    "title": "Your privacy, your choice",
+    "text": "We use essential cookies to make this site work. With your consent we would also like to use analytics and marketing cookies to understand how the site is used and to show you relevant content. You can change your choice at any time via “Cookie settings” in the footer.",
+    "accept": "Accept all",
+    "reject": "Reject all",
+    "customize": "Customise",
+    "save": "Save my choices",
+    "policy": "Cookie Policy",
+    "panelTitle": "Cookie preferences",
+    "alwaysOn": "Always on",
+    "categories": {
+      "necessary": {
+        "name": "Strictly necessary",
+        "desc": "Required for the site to function: security, load balancing, language and your consent choice. These cannot be switched off."
+      },
+      "preferences": {
+        "name": "Preferences",
+        "desc": "Remember settings such as accessibility options and the language you chose."
+      },
+      "analytics": {
+        "name": "Analytics",
+        "desc": "Help us understand, in aggregate, how visitors use the site so we can improve it (e.g. Google Analytics 4)."
+      },
+      "marketing": {
+        "name": "Marketing",
+        "desc": "Used to measure our advertising and show you relevant ads on other platforms (e.g. Google Ads, Meta)."
+      }
+    }
+  },
+  "a11y": {
+    "open": "Accessibility options",
+    "title": "Accessibility",
+    "textSize": "Text size",
+    "contrast": "High contrast",
+    "motion": "Stop animations",
+    "links": "Highlight links",
+    "font": "Readable font",
+    "reset": "Reset",
+    "statement": "Accessibility statement"
+  },
+  "langSuggest": {
+    "text": "This page is also available in English.",
+    "go": "Switch",
+    "dismiss": "Stay"
+  },
+  "sticky": {
+    "text": "Last villas available · Price list {v}"
+  },
+  "notFound": {
+    "title": "This view does not exist.",
+    "text": "The page you are looking for may have moved. The horizon, however, is still here.",
+    "cta": "Back to the home page",
+    "metaTitle": "Page not found | King Solomon Kalyves"
+  },
+  "whatsappText": "Hello, I am interested in the King Solomon villas in Kalyves, Crete. Could you send me availability and prices?",
+  "faqTitle": "Investor questions",
+  "faqKicker": "Good to know"
+}

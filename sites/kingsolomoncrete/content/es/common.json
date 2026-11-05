@@ -1,0 +1,365 @@
+{
+  "langName": "Español",
+  "brand": {
+    "name": "King Solomon",
+    "tagline": "Kalyves · Creta",
+    "descriptor": "Villas en el acantilado y resort con spa",
+    "slogan": "Haga suyo el horizonte."
+  },
+  "nav": {
+    "home": "Inicio",
+    "project": "El proyecto",
+    "villas": "Villas y disponibilidad",
+    "villasShort": "Villas",
+    "gallery": "Galería",
+    "developer": "Promotor",
+    "contact": "Contacto",
+    "cta": "Solicitar una presentación privada",
+    "ctaShort": "Consultar",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "language": "Idioma",
+    "skip": "Ir al contenido principal",
+    "breadcrumbHome": "King Solomon"
+  },
+  "buttons": {
+    "exploreVillas": "Descubrir las villas",
+    "viewAvailability": "Ver disponibilidad en tiempo real",
+    "viewAll": "Ver todas las villas",
+    "discover": "Descubrir",
+    "enquire": "Consultar",
+    "enquireVilla": "Consultar por la villa {no}",
+    "download": "Descargar",
+    "openGallery": "Abrir la galería",
+    "watchFilm": "Ver el vídeo",
+    "whatsapp": "WhatsApp",
+    "call": "Llamar",
+    "send": "Enviar mi solicitud",
+    "sending": "Enviando…",
+    "backToTop": "Volver arriba",
+    "viewPlan": "Ver plano",
+    "plan": "Plano",
+    "planN": "Plano {n}",
+    "readMore": "Leer más",
+    "scroll": "Desplazarse",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "closeDialog": "Cerrar",
+    "allCollections": "Todas las colecciones",
+    "exploreCollection": "Descubrir la colección",
+    "requestPrices": "Solicitar la lista de precios"
+  },
+  "labels": {
+    "from": "Desde",
+    "available": "Disponible",
+    "reserved": "Reservada",
+    "sold": "Vendida",
+    "availableOf": "{a} de {t} disponibles",
+    "lastOne": "Última villa disponible",
+    "soldOut": "Todo reservado",
+    "villa": "Villa",
+    "villas": "Villas",
+    "bedrooms": "Dormitorios",
+    "bedroomN": "{n} dormitorio",
+    "bedroomsN": "{n} dormitorios",
+    "level": "Planta",
+    "interior": "Interior",
+    "outdoor": "Exterior",
+    "pool": "Piscina privada",
+    "status": "Estado",
+    "plans": "Planos",
+    "sqm": "m²",
+    "min": "min",
+    "priceList": "Lista de precios {v}",
+    "rooftop": "Residencia con azotea",
+    "garden": "Residencia con jardín",
+    "rooftopShort": "Azotea",
+    "gardenShort": "Jardín",
+    "internal": "Interior",
+    "external": "Jardín / terraza",
+    "balconies": "Balcones",
+    "roof": "Jardín en azotea",
+    "levelFirstRoof": "Planta alta con jardín en azotea",
+    "levelFirst": "Planta alta",
+    "levelGround": "Planta baja con jardín",
+    "levelGroundLower": "Planta baja + planta inferior",
+    "type": "Tipo {code}",
+    "page": "Página",
+    "priceOnRequest": "Lista de precios bajo petición",
+    "villasAvailable": "{a} de {t} villas disponibles"
+  },
+  "collections": {
+    "1-bedroom": {
+      "name": "Villas de un dormitorio",
+      "short": "1 dormitorio",
+      "kicker": "Azotea y jardín",
+      "teaser": "Un refugio íntimo con piscina propia y un horizonte solo para usted."
+    },
+    "2-bedroom": {
+      "name": "Villas de dos dormitorios",
+      "short": "2 dormitorios",
+      "kicker": "Residencias con jardín",
+      "teaser": "La vida en el jardín, con la piscina a pocos pasos del sofá."
+    },
+    "3-bedroom": {
+      "name": "Villas de tres dormitorios",
+      "short": "3 dormitorios",
+      "kicker": "Residencias con azotea",
+      "teaser": "Una terraza privada en lo alto, con piscina y cocina exterior sobre el mar."
+    },
+    "5-bedroom": {
+      "name": "Villas de cinco dormitorios",
+      "short": "5 dormitorios",
+      "kicker": "Residencias con jardín + planta inferior",
+      "teaser": "Las grandes villas: dos plantas, cinco dormitorios y espacio para todos sus seres queridos."
+    }
+  },
+  "included": {
+    "title": "Entregada completa. Hasta la última cucharilla.",
+    "items": [
+      "Ventanales de suelo a techo orientados al mar",
+      "Piscina privada desbordante",
+      "Cocina exterior con barbacoa y zona lounge",
+      "Mobiliario de diseño importado",
+      "Electrodomésticos Bosch, Sauter o equivalentes",
+      "Sistemas semiinteligentes gestionados por Wi-Fi",
+      "Puerta de entrada blindada con cerradura inteligente",
+      "Aislamiento y acristalamiento de alto rendimiento"
+    ]
+  },
+  "stats": {
+    "villas": "Villas privadas",
+    "elevation": "Metros sobre el mar",
+    "seaDistance": "Metros hasta el agua",
+    "view": "Grados de vistas al mar",
+    "chania": "Minutos a Chania",
+    "airport": "Minutos al aeropuerto"
+  },
+  "location": {
+    "kicker": "Ubicación",
+    "title": "Kalyves. La Creta que sus habitantes guardan para sí.",
+    "text": "Un auténtico pueblo pesquero cretense a orillas de la bahía de Souda, con playas de arena, tabernas familiares y un animado paseo marítimo. Tranquilo todo el año, nunca masificado, nunca artificial. Y a solo doce minutos del puerto veneciano de Chania.",
+    "distances": [
+      {
+        "place": "Centro del pueblo de Kalyves",
+        "time": "2"
+      },
+      {
+        "place": "Puerto de Souda",
+        "time": "8"
+      },
+      {
+        "place": "Casco antiguo de Chania",
+        "time": "12"
+      },
+      {
+        "place": "Aeropuerto Internacional de Chania",
+        "time": "22"
+      }
+    ],
+    "flightsTitle": "Tiempos de vuelo a Chania",
+    "flights": [
+      {
+        "from": "Israel",
+        "time": "1:30"
+      },
+      {
+        "from": "Rumanía",
+        "time": "1:45"
+      },
+      {
+        "from": "Hungría",
+        "time": "2:00"
+      },
+      {
+        "from": "Ucrania",
+        "time": "2:10"
+      },
+      {
+        "from": "República Checa",
+        "time": "2:25"
+      },
+      {
+        "from": "Polonia",
+        "time": "2:45"
+      },
+      {
+        "from": "Bielorrusia",
+        "time": "2:45"
+      },
+      {
+        "from": "Francia",
+        "time": "3:10"
+      },
+      {
+        "from": "Rusia",
+        "time": "3:30"
+      },
+      {
+        "from": "Países Bajos",
+        "time": "3:35"
+      },
+      {
+        "from": "Finlandia",
+        "time": "3:35"
+      },
+      {
+        "from": "Gran Bretaña",
+        "time": "3:40"
+      },
+      {
+        "from": "Suecia",
+        "time": "3:45"
+      },
+      {
+        "from": "Noruega",
+        "time": "3:50"
+      }
+    ],
+    "flightsNote": "Tiempos de vuelo aproximados, en horas. Las conexiones de temporada y anuales varían según la aerolínea.",
+    "mapCta": "Abrir en Google Maps",
+    "ferriesTitle": "Conexiones en ferry",
+    "ferriesText": "Creta cuenta con líneas de ferry diarias a El Pireo (Atenas) y a las islas más populares del Egeo.",
+    "ferries": [
+      {
+        "port": "Puerto de Souda",
+        "text": "A 8 minutos de King Solomon: ferry a El Pireo (Atenas)"
+      },
+      {
+        "port": "Puerto de Rethymno",
+        "text": "Ferry a Santorini y Milos"
+      },
+      {
+        "port": "Puerto de Heraklion",
+        "text": "Ferry a Santorini, Mykonos y otras islas"
+      },
+      {
+        "port": "Puerto de Kissamos (Kastelli)",
+        "text": "Ferry a Citera y Anticitera"
+      }
+    ]
+  },
+  "form": {
+    "kicker": "Presentación privada",
+    "title": "Permítanos mostrarle el horizonte.",
+    "text": "Déjenos algunos datos y un miembro del equipo de King Solomon se pondrá en contacto con usted personalmente para facilitarle la disponibilidad actualizada, la lista de precios vigente y una presentación privada, en Chania u online.",
+    "name": "Nombre completo",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "country": "País de residencia",
+    "villa": "Villa de interés",
+    "villaAny": "Aún no lo sé",
+    "budget": "Presupuesto de inversión",
+    "budgetOptions": [
+      "Hasta 600.000 €",
+      "600.000 € – 800.000 €",
+      "800.000 € – 1.000.000 €",
+      "Más de 1.000.000 €"
+    ],
+    "contactPref": "Forma de contacto preferida",
+    "contactPrefOptions": [
+      "Llamada telefónica",
+      "WhatsApp",
+      "Correo electrónico"
+    ],
+    "message": "Mensaje (opcional)",
+    "consentPrivacy": "He leído la {privacy} y acepto que mis datos se traten para responder a mi solicitud.",
+    "consentMarketing": "Deseo recibir noticias, novedades y ofertas sobre King Solomon por correo electrónico, SMS o WhatsApp. Puedo darme de baja en cualquier momento.",
+    "privacyLink": "Política de privacidad",
+    "required": "Obligatorio",
+    "errorRequired": "Por favor, complete este campo.",
+    "errorEmail": "Por favor, introduzca un correo electrónico válido.",
+    "errorPhone": "Por favor, introduzca un número de teléfono válido.",
+    "errorConsent": "Por favor, confirme que ha leído la Política de privacidad.",
+    "successTitle": "Gracias. Hemos recibido su solicitud.",
+    "successText": "Un miembro de nuestro equipo se pondrá en contacto con usted en breve, normalmente en un plazo de un día hábil.",
+    "errorTitle": "Se ha producido un error.",
+    "errorText": "Por favor, inténtelo de nuevo o contáctenos directamente por WhatsApp o por teléfono.",
+    "secure": "Sus datos se transmiten cifrados y nunca se comparten con terceros con fines comerciales."
+  },
+  "contactInfo": {
+    "title": "Nuestros datos",
+    "officeGreece": "Oficina en Chania",
+    "officeIsrael": "Oficina en Israel",
+    "phoneGreece": "Grecia",
+    "phoneIsrael": "Israel",
+    "email": "Correo electrónico",
+    "hours": "Lun–Vie 9:00–18:00 · WhatsApp los 7 días de la semana",
+    "hoursLabel": "Horario"
+  },
+  "footer": {
+    "statement": "Un hogar sobre el mar. Una vida más allá de lo esperado.",
+    "explore": "Explorar",
+    "collections": "Colecciones",
+    "downloads": "Descargas",
+    "legal": "Legal",
+    "brochure": "Dossier para inversores",
+    "plans": "Planos arquitectónicos",
+    "offer": "Oferta privada para inversores",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "terms": "Condiciones y aviso legal",
+    "accessibility": "Declaración de accesibilidad",
+    "cookieSettings": "Configuración de cookies",
+    "rights": "© {year} SivanInvest Group. Todos los derechos reservados.",
+    "credits": "Promovido por SivanInvest Group · Gestionado por Sivan Management · Arquitectura de 314 Architects",
+    "disclaimer": "La información de este sitio web es orientativa y no constituye una oferta, un contrato ni una garantía. Todas las imágenes son recreaciones artísticas. Las distribuciones, superficies, especificaciones y precios pueden cambiar a medida que avanza la promoción. Las condiciones vinculantes se establecen únicamente en el contrato de compraventa notarial firmado."
+  },
+  "cookies": {
+    "title": "Su privacidad, su decisión",
+    "text": "Utilizamos cookies esenciales para que este sitio funcione. Con su consentimiento, también nos gustaría utilizar cookies analíticas y de marketing para comprender cómo se usa el sitio y mostrarle contenido relevante. Puede cambiar su elección en cualquier momento a través de «Configuración de cookies» en el pie de página.",
+    "accept": "Aceptar todas",
+    "reject": "Rechazar todas",
+    "customize": "Personalizar",
+    "save": "Guardar mis preferencias",
+    "policy": "Política de cookies",
+    "panelTitle": "Preferencias de cookies",
+    "alwaysOn": "Siempre activas",
+    "categories": {
+      "necessary": {
+        "name": "Estrictamente necesarias",
+        "desc": "Imprescindibles para el funcionamiento del sitio: seguridad, equilibrio de carga, idioma y su elección de consentimiento. No pueden desactivarse."
+      },
+      "preferences": {
+        "name": "Preferencias",
+        "desc": "Recuerdan ajustes como las opciones de accesibilidad y el idioma elegido."
+      },
+      "analytics": {
+        "name": "Analíticas",
+        "desc": "Nos ayudan a comprender, de forma agregada, cómo utilizan el sitio los visitantes para poder mejorarlo (p. ej., Google Analytics 4)."
+      },
+      "marketing": {
+        "name": "Marketing",
+        "desc": "Se utilizan para medir nuestra publicidad y mostrarle anuncios relevantes en otras plataformas (p. ej., Google Ads, Meta)."
+      }
+    }
+  },
+  "a11y": {
+    "open": "Opciones de accesibilidad",
+    "title": "Accesibilidad",
+    "textSize": "Tamaño del texto",
+    "contrast": "Alto contraste",
+    "motion": "Detener animaciones",
+    "links": "Resaltar enlaces",
+    "font": "Fuente legible",
+    "reset": "Restablecer",
+    "statement": "Declaración de accesibilidad"
+  },
+  "langSuggest": {
+    "text": "Esta página también está disponible en español.",
+    "go": "Cambiar",
+    "dismiss": "Quedarse"
+  },
+  "sticky": {
+    "text": "Últimas villas disponibles · Lista de precios {v}"
+  },
+  "notFound": {
+    "title": "Esta vista no existe.",
+    "text": "Es posible que la página que busca se haya movido. El horizonte, sin embargo, sigue aquí.",
+    "cta": "Volver a la página de inicio",
+    "metaTitle": "Página no encontrada | King Solomon Kalyves"
+  },
+  "whatsappText": "Hola, me interesan las villas King Solomon en Kalyves, Creta. ¿Podrían enviarme la disponibilidad y los precios?",
+  "faqTitle": "Preguntas de inversores",
+  "faqKicker": "Conviene saber"
+}

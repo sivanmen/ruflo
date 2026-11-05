@@ -1,0 +1,97 @@
+{
+  "site": "https://www.kingsolomoncrete.com",
+  "domain": "kingsolomoncrete.com",
+  "defaultLang": "en",
+  "languages": [
+    {
+      "code": "en",
+      "locale": "en_GB",
+      "hreflang": "en",
+      "dir": "ltr",
+      "fonts": "latin",
+      "short": "EN"
+    },
+    {
+      "code": "he",
+      "locale": "he_IL",
+      "hreflang": "he",
+      "dir": "rtl",
+      "fonts": "hebrew",
+      "short": "עב"
+    },
+    {
+      "code": "ar",
+      "locale": "ar_AE",
+      "hreflang": "ar",
+      "dir": "rtl",
+      "fonts": "arabic",
+      "short": "ع"
+    },
+    {
+      "code": "fr",
+      "locale": "fr_FR",
+      "hreflang": "fr",
+      "dir": "ltr",
+      "fonts": "latin",
+      "short": "FR"
+    },
+    {
+      "code": "de",
+      "locale": "de_DE",
+      "hreflang": "de",
+      "dir": "ltr",
+      "fonts": "latin",
+      "short": "DE"
+    },
+    {
+      "code": "es",
+      "locale": "es_ES",
+      "hreflang": "es",
+      "dir": "ltr",
+      "fonts": "latin",
+      "short": "ES"
+    },
+    {
+      "code": "el",
+      "locale": "el_GR",
+      "hreflang": "el",
+      "dir": "ltr",
+      "fonts": "greek",
+      "short": "ΕΛ"
+    }
+  ],
+  "legal": {
+    "company": "SivanInvest Group",
+    "companyAddress": "2 Plateia Eleftherias, 73132 Chania, Crete, Greece",
+    "updated": "2026-11-05",
+    "a11yName": "SivanInvest Client Care",
+    "a11yEmail": "support@sivaninvestgroup.com",
+    "a11yPhone": "+972 52 451 8134"
+  },
+  "contact": {
+    "email": "support@sivaninvestgroup.com",
+    "privacyEmail": "support@sivaninvestgroup.com",
+    "phoneGreece": "+30 698 392 4820",
+    "phoneIsrael": "+972 52 451 8134",
+    "whatsapp": "972524518134",
+    "officeGreece": "2 Plateia Eleftherias, 73132 Chania, Crete",
+    "officeIsrael": "5 Golda Meir St, 3rd floor, Ness Ziona, Israel",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=35.457128,24.166242"
+  },
+  "social": {
+    "youtube": "https://www.youtube.com/@SivanInvest",
+    "group": "https://www.sivaninvestgroup.com"
+  },
+  "tracking": {
+    "ga4": "",
+    "googleAds": "",
+    "metaPixel": "",
+    "gtm": ""
+  },
+  "form": {
+    "endpoint": "/api/lead.php",
+    "recipient": "support@sivaninvestgroup.com",
+    "webhook": "",
+    "cc": "sivanmen@gmail.com"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "kingsolomoncrete-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "King Solomon luxury cliffside villas, Kalyves Crete: static multilingual website (7 languages).",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "check": "node scripts/check-site.mjs",
+    "brand": "node scripts/brand-assets.mjs",
+    "serve": "php -S 127.0.0.1:8080 -t dist"
+  },
+  "engines": { "node": ">=20" }
+}
