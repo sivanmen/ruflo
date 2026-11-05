@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Villa mit Pool Kreta: Preise & Verfügbarkeit | King Solomon",
+    "description": "Aktuelle Verfügbarkeit und Preise der 21 Villen in Kalyves, Kreta: 1, 2, 3 und 5 Schlafzimmer, Dachterrasse oder Garten, Privatpool. Alle Grundrisse."
+  },
+  "hero": {
+    "kicker": "Die Villen",
+    "title": "Einundzwanzig Residenzen. Ein Horizont.",
+    "subtitle": "Dachterrassen- und Garten-Villen auf zwei Ebenen der Klippe. Wählen Sie Ihre Villa, prüfen Sie ihren Status und laden Sie die Grundrisse herunter."
+  },
+  "availability": {
+    "kicker": "Aktuelle Verfügbarkeit",
+    "title": "Finden Sie Ihre Villa.",
+    "text": "Der aktuelle Bestand gemäß Preisliste {v}. Wählen Sie eine Villennummer, um die Details anzuzeigen.",
+    "filterBedrooms": "Schlafzimmer",
+    "filterStatus": "Status",
+    "all": "Alle",
+    "rooftopRow": "Dachterrassen-Residenzen",
+    "rooftopRowSub": "Obergeschoss · Dachgarten & Pool",
+    "gardenRow": "Garten-Residenzen",
+    "gardenRowSub": "Erdgeschoss · Garten & Pool",
+    "noResults": "Keine Villa entspricht dieser Auswahl.",
+    "note": "Die Preise entsprechen der Preisliste {v}, enthalten das vollständige Design- und Einrichtungspaket und gelten vorbehaltlich Verfügbarkeit und Änderungen. Flächenangaben sind unverbindlich. Verbindlich sind ausschließlich die Bedingungen des unterzeichneten Kaufvertrags."
+  },
+  "masterplan": {
+    "kicker": "Masterplan",
+    "title": "Angeordnet für Privatsphäre, Ausblick und Meer.",
+    "text": "Einundzwanzig Villen auf den natürlichen Terrassen der Klippe, jede mit eigener Aussicht und einem direkten Weg hinunter zum Wasser."
+  },
+  "collectionPage": {
+    "keyFacts": "Eckdaten",
+    "layouts": "Grundrisse",
+    "layoutsText": "Jeder Grundriss ist darauf ausgelegt, Licht, Privatsphäre und Meer optimal zu nutzen.",
+    "inCollection": "Villen dieser Kollektion",
+    "others": "Weitere Kollektionen",
+    "plansNote": "Die Grundrisse sind unverbindlich und können im Zuge der finalen Planung angepasst werden."
+  },
+  "1-bedroom": {
+    "meta": {
+      "title": "Ferienhaus Kreta kaufen: Villa mit 1 Schlafzimmer & Pool",
+      "description": "Luxusvillen mit einem Schlafzimmer in Kalyves, Kreta: Privatpool, Dachterrasse oder Garten und Meerblick. Voll möbliert und vermietbar. Ab 507.104 €."
+    },
+    "title": "Ein privater Rückzugsort über dem Meer.",
+    "lead": "King Solomon in seiner persönlichsten Form.",
+    "text": "Ein großzügiges Hauptschlafzimmer, ein offener Wohn- und Essbereich und ein privater Pool auf einer Gartenterrasse oder einem Dachgarten. Ein persönlicher Rückzugsort für Sie – und eine gefragte Premium-Unterkunft für Gäste, wenn Sie nicht vor Ort sind.",
+    "highlights": ["Privatpool im Garten oder auf dem Dach", "Offener Wohnbereich mit Verglasung zum Meer", "Ideal zur Eigennutzung oder für Premium-Kurzaufenthalte"]
+  },
+  "2-bedroom": {
+    "meta": {
+      "title": "Gartenvilla Kreta mit Pool, 2 Schlafzimmer | King Solomon",
+      "description": "Garten-Villen mit zwei Schlafzimmern in Kalyves, Kreta: Privatpool, Außenküche und separater Eingang. Schlüsselfertig, voll möbliert. Ab 691.014 €."
+    },
+    "title": "Wohnen im Garten, der Pool nur Schritte entfernt.",
+    "lead": "Innen und außen als Einheit.",
+    "text": "Villen mit zwei Schlafzimmern, separaten Eingängen und privaten Gärten, die den Wohnraum nach draußen öffnen. Jede verfügt über einen eigenen Pool, eine Außenküche und eine Lounge: die ideale Balance aus Familienkomfort und mediterraner Gelassenheit.",
+    "highlights": ["Privater Garten und Pool", "Außenküche und Lounge", "Separater Eingang"]
+  },
+  "3-bedroom": {
+    "meta": {
+      "title": "Dachvilla Kreta mit Pool & Meerblick, 3 Schlafzimmer",
+      "description": "Dachterrassen-Villen mit drei Schlafzimmern in Kalyves, Kreta: privater Dachgarten, Pool, Außenküche, Panorama-Meerblick. Voll möbliert. Ab 778.464 €."
+    },
+    "title": "Eine Dachterrasse für jeden Abend.",
+    "lead": "Wo der Horizont zum Hauptraum wird.",
+    "text": "Villen im Obergeschoss mit drei Schlafzimmern, großzügigen Balkonen und einem privaten Dachgarten mit Pool und Außenküche. Konzipiert für Familien und Gäste, mit den weitesten Ausblicken bei King Solomon.",
+    "highlights": ["Privater Dachgarten mit Pool", "Bis zu 116 m² Außenfläche", "Die weitesten Panoramablicke"]
+  },
+  "5-bedroom": {
+    "meta": {
+      "title": "Luxusvilla Kreta: 5 Schlafzimmer, 2 Ebenen | King Solomon",
+      "description": "Die großen Villen von King Solomon: fünf Schlafzimmer auf zwei Ebenen mit Garten, Privatpool und Meerblick in Kalyves bei Chania, Kreta. Ab 982.075 €."
+    },
+    "title": "Die großen Villen, auf zwei Ebenen.",
+    "lead": "Raum für alle, die Ihnen wichtig sind.",
+    "text": "Die größten Residenzen bei King Solomon. Ein Erdgeschoss mit Wohnbereichen, Küche und Gartenpool sowie ein vollständiges Untergeschoss mit weiteren Schlafzimmern. Platz für eine große Familie, mehrere Generationen unter einem Dach oder ein hochwertiges Vermietungsobjekt.",
+    "highlights": ["Fünf Schlafzimmer auf zwei Ebenen", "Garten mit Privatpool", "Kann für Golden-Visa-Antragsteller infrage kommen"]
+  }
+}

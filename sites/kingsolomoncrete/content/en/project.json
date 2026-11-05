@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "The Project | King Solomon Cliffside Villa Resort in Kalyves, Crete",
+    "description": "Discover King Solomon: 21 luxury villas by 314 Architects on a first-line cliff in Kalyves, Chania. Infinity pool, spa, glass elevator, direct sea access and turnkey specifications."
+  },
+  "hero": {
+    "kicker": "The project",
+    "title": "Designed to be lived, felt and remembered.",
+    "subtitle": "A private villa resort on the cliff edge in Kalyves, western Crete."
+  },
+  "architecture": {
+    "kicker": "Architecture",
+    "title": "Curves that follow the coastline.",
+    "text": "King Solomon was conceived by the international studio 314 Architects as a private cliffside retreat in which architecture, landscape and lifestyle act as one. Soft curves, cascading terraces, rooftops and pool decks turn the view into a permanent part of everyday life.",
+    "text2": "The villas are set across the natural levels of the slope, giving each residence privacy, open sightlines and a deep relationship with the landscape. Many enjoy close to 270 degrees of sea and coastline."
+  },
+  "arrival": {
+    "kicker": "The arrival",
+    "title": "From the road to the sea, a choreographed journey.",
+    "steps": [
+      { "title": "The upper entrance", "text": "An electric gate with keypad and facial-recognition access, cameras and architectural lighting beside the main parking and EV charging." },
+      { "title": "The bridge & glass elevator", "text": "A short bridge leads to a panoramic glass elevator facing the cliff and the sea, gliding down to the resort level." },
+      { "title": "The resort level", "text": "Infinity pool, jacuzzi, bar, outdoor kitchen and lounges: the social heart of King Solomon." },
+      { "title": "Down to the sea", "text": "A private, controlled path of 30 to 40 steps leads to the seafront, the promenade and the tavernas of Kalyves." }
+    ]
+  },
+  "interiors": {
+    "kicker": "Interiors",
+    "title": "Quiet luxury, made for living.",
+    "text": "Calm materials, natural tones and Mediterranean light. Interiors that feel warm, refined and hotel-inspired: elegant enough for discerning guests, comfortable enough to feel like home."
+  },
+  "specs": {
+    "kicker": "Specifications",
+    "title": "Every villa, finished to boutique-hotel standard.",
+    "text": "A fully designed, fully equipped residence in which every detail has been planned in advance.",
+    "items": [
+      { "title": "Architecture, views & openings", "text": "Positioned for privacy, natural light and panoramic sea views, with large floor-to-ceiling insulated glazing and wide façades. Many villas enjoy around 270° views." },
+      { "title": "Private pool & outdoor living", "text": "A private infinity-style pool facing the view, sunbeds, lounge seating and premium outdoor furniture, with a garden, terrace, balcony or rooftop depending on the type." },
+      { "title": "Outdoor kitchen", "text": "A fully equipped outdoor kitchen for hosting: built-in grill, sink, outdoor fridge, worktop, storage, lighting and shading by pergolas or architectural elements." },
+      { "title": "Interior design & furniture", "text": "A complete interior concept by an architect and interior designer, furnished throughout with imported pieces: beds, wardrobes, bedding, curtains, lighting, rugs and décor." },
+      { "title": "Living & entertainment", "text": "A hospitality-grade living room with a bespoke TV wall, decorative lighting and cladding. A TV of 50\"+ in the living room and 45\"+ in each bedroom, LED ambience and dimmers." },
+      { "title": "A real kitchen", "text": "A full-size custom kitchen, not a holiday kitchenette: soft-close cabinetry, porcelain stone worktops, complete kitchenware and premium appliances such as Bosch or Sauter." },
+      { "title": "Bedrooms & bathrooms", "text": "Boutique-hotel bedrooms with premium mattresses and fitted storage. Hotel-style bathrooms with wall-hung sanitaryware, concealed fittings, walk-in glass showers and full accessories." },
+      { "title": "Finishes & energy", "text": "Large-format 120 × 60 porcelain stone floors, decorative cladding and recessed lighting. Thermal insulation in walls, roofs and glazing well above local building standards." },
+      { "title": "Climate, smart & security", "text": "Inverter air conditioning in every room, electric water heating, Wi-Fi control of lighting and access, a reinforced multi-point door with fingerprint, keypad or face recognition, and exterior cameras that respect privacy inside." },
+      { "title": "Rental-ready from day one", "text": "Delivered with furniture, appliances, kitchenware, bedding, Wi-Fi and management-compatible systems, ready for private use, hospitality use and professional operation." }
+    ],
+    "disclaimer": "All specifications, materials, brands, systems, facilities and design elements are provided for marketing and information purposes and may change subject to final design, engineering, licensing, approvals and availability. Binding specifications are defined solely in the signed notarial purchase agreement. The developer may substitute any item with one of equal or higher quality."
+  },
+  "facilities": {
+    "kicker": "Resort infrastructure",
+    "title": "The details you never have to think about.",
+    "items": [
+      { "title": "Lighting design", "text": "A specialist lighting concept for paths, stairs, pool and landscape, automated by day and night." },
+      { "title": "Landscape architecture", "text": "Natural stone, terraces, Mediterranean planting, ornamental trees and automatic irrigation." },
+      { "title": "Parking & EV charging", "text": "An upper car park with around nine spaces and two electric-vehicle charging points." },
+      { "title": "Guest facilities", "text": "Separate guest washrooms at the pool and wellness level, so villas stay private." }
+    ]
+  },
+  "crete": {
+    "kicker": "Crete",
+    "title": "An entire island, around your villa.",
+    "text": "Greece's largest island has a scale and variety unmatched in the Mediterranean: Minoan palaces, Venetian harbours, the White Mountains, the Samaria Gorge and the turquoise lagoon of Balos. Every day can be a new discovery, and every evening ends at your private cliffside retreat.",
+    "places": [
+      { "name": "Chania old harbour", "img": "chania-harbour", "text": "Venetian façades, the Egyptian lighthouse and waterfront dining, 12 minutes away." },
+      { "name": "Balos lagoon", "img": "balos", "text": "One of the most photographed beaches in Europe, on the Gramvousa peninsula." },
+      { "name": "Samaria gorge", "img": "samaria", "text": "A 16 km walk through one of Europe's most dramatic national parks." },
+      { "name": "The White Mountains", "img": "white-mountains", "text": "Snow-capped peaks in spring, mountain villages and wild herbs all year." }
+    ]
+  }
+}

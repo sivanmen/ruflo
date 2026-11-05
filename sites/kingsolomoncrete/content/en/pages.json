@@ -1,0 +1,233 @@
+{
+  "gallery": {
+    "meta": {
+      "title": "Gallery, Film & Plans | King Solomon Villas Kalyves, Crete",
+      "description": "Renders, aerial views, interiors and the film of King Solomon in Kalyves, Crete. Download the investor brochure, the masterplan and the plans of all 21 villas."
+    },
+    "hero": {
+      "kicker": "Gallery & downloads",
+      "title": "See it before you feel it.",
+      "subtitle": "Renders, film, plans and the investor brochure."
+    },
+    "filters": {
+      "all": "All",
+      "architecture": "Architecture",
+      "pools": "Pools & terraces",
+      "rooftops": "Rooftops",
+      "interiors": "Interiors",
+      "location": "Location"
+    },
+    "film": {
+      "kicker": "The film",
+      "title": "From first light to dusk over Kalyves.",
+      "text": "A few quiet moments above the cliff, in motion."
+    },
+    "downloads": {
+      "kicker": "Downloads",
+      "title": "Plans, brochure and masterplan.",
+      "brochure": "Investor brochure",
+      "masterplan": "Masterplan",
+      "plansTitle": "Architectural plans by villa",
+      "villasLabel": "Villas {v}",
+      "villaLabel": "Villa {v}",
+      "basement": "lower level",
+      "roof": "roof garden"
+    }
+  },
+  "developer": {
+    "meta": {
+      "title": "The Developer | SivanInvest Group & Sivan Management, Chania Crete",
+      "description": "King Solomon is developed by SivanInvest Group, a boutique real estate investment house with nearly 20 years of experience, and managed on site in Chania by Sivan Management."
+    },
+    "hero": {
+      "kicker": "The developer",
+      "title": "We do not start with the market. We start with you.",
+      "subtitle": "King Solomon is developed by SivanInvest Group and managed on site by Sivan Management."
+    },
+    "about": {
+      "kicker": "SivanInvest Group",
+      "title": "A boutique investment house, rooted in Greece.",
+      "text": "SivanInvest is a boutique investment house that selects, develops, manages and accompanies real estate investments in Israel and, above all, in Greece. With almost two decades of experience in finance and nearly ten years on the ground in the Greek market, we have guided hundreds of investors along a personal, carefully planned path.",
+      "text2": "Every opportunity passes the same discipline: market research, in-depth due diligence, a close look at partners and contractors, cash-flow models and stress scenarios. Capital preservation comes before return maximisation. Always."
+    },
+    "values": [
+      {
+        "title": "Personal guidance",
+        "text": "One dedicated account manager coordinating the financial, legal and operational sides of your purchase."
+      },
+      {
+        "title": "Full transparency",
+        "text": "You see what we examine, which metrics we use, what everything costs and what protects your capital."
+      },
+      {
+        "title": "A multidisciplinary team",
+        "text": "Real estate, development, private credit and funds, together with lawyers, accountants, valuers and asset managers."
+      },
+      {
+        "title": "On the ground in Crete",
+        "text": "An office in the heart of Chania and a local operations team available 24/7."
+      }
+    ],
+    "numbers": [
+      {
+        "value": "20",
+        "label": "Years of investment experience"
+      },
+      {
+        "value": "10",
+        "label": "Years in the Greek market"
+      },
+      {
+        "value": "100s",
+        "label": "Investors accompanied"
+      },
+      {
+        "value": "24/7",
+        "label": "Local team in Chania"
+      }
+    ],
+    "group": {
+      "kicker": "One group, three disciplines",
+      "title": "Developer, operator and investment house under one roof.",
+      "items": [
+        {
+          "title": "SivanInvest",
+          "text": "Develops King Solomon and leads land acquisition, planning, construction partners and investor relations."
+        },
+        {
+          "title": "Sivan Management",
+          "text": "Operates the resort: shared facilities, villa care, housekeeping, rentals and yield management."
+        },
+        {
+          "title": "HARMONY",
+          "text": "The group's real-estate-backed bond fund, for investors who prefer a fixed-income route into Greek property."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Your journey",
+      "title": "From the first conversation to the keys.",
+      "steps": [
+        {
+          "title": "Introduction",
+          "text": "A personal conversation about your goals, budget and timing."
+        },
+        {
+          "title": "Private presentation",
+          "text": "The project, the villas and the current price list, in Chania or online."
+        },
+        {
+          "title": "Reservation",
+          "text": "Choose your villa and secure it with a reservation agreement."
+        },
+        {
+          "title": "Legal & finance",
+          "text": "We coordinate the Greek lawyer, the notary and, if needed, local bank financing."
+        },
+        {
+          "title": "Design & delivery",
+          "text": "Your villa is completed with its full design and furnishing package."
+        },
+        {
+          "title": "Management",
+          "text": "Optional management and rental by Sivan Management, with reporting in the owner app."
+        }
+      ]
+    },
+    "architects": {
+      "kicker": "Architecture",
+      "title": "314 Architects",
+      "text": "The project was designed by the international architecture studio 314 Architects, blending contemporary Mediterranean design with the natural topography of the Cretan coast."
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact & Private Presentation | King Solomon Villas Kalyves, Crete",
+      "description": "Book a private presentation of King Solomon in Chania or online. Offices in Chania, Crete and Ness Ziona, Israel. Call +30 698 392 4820 or +972 52 451 8134."
+    },
+    "hero": {
+      "kicker": "Contact",
+      "title": "Let's talk about your horizon.",
+      "subtitle": "Availability, prices and a private presentation. We will be delighted to hear from you."
+    },
+    "visit": {
+      "title": "Visit us in Chania",
+      "text": "Our office is on Eleftherias Square in the centre of Chania, 15 minutes from the villas. Visits to the site are by appointment."
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "Sea-View Villa with Private Pool in Crete from €507,104 | King Solomon",
+      "description": "Last villas available at King Solomon, Kalyves: fully furnished cliffside villas with private pools and 270° sea views, 12 minutes from Chania. Book your private presentation."
+    },
+    "hero": {
+      "badge": "Last villas available",
+      "priceLead": "From",
+      "title": "Your own villa, pool and sea view in Crete.",
+      "text": "Fully furnished, professionally managed and ready to rent from the day you receive the keys. On a first-line cliff in Kalyves, 12 minutes from Chania.",
+      "cta": "Book a call"
+    },
+    "why": {
+      "title": "A villa in Crete, on another level.",
+      "text": "A boutique collection of 21 villas where design is part of the value. Contemporary Mediterranean architecture by 314 Architects, a private pool for every villa and a resort-level infinity pool, spa and glass elevator, all on the cliff above Souda Bay.",
+      "items": [
+        {
+          "title": "First line to the sea",
+          "text": "34 m above the water, 70 m from the shore, around 270° of uninterrupted sea view."
+        },
+        {
+          "title": "Turnkey and furnished",
+          "text": "Designer furniture, a real kitchen, outdoor kitchen and smart systems included in the price."
+        },
+        {
+          "title": "Income while you are away",
+          "text": "Optional rental management on Booking.com and Airbnb with transparent owner reporting."
+        },
+        {
+          "title": "With you all the way",
+          "text": "A personal team in Chania and Israel, from the first call to the keys and beyond."
+        }
+      ]
+    },
+    "around": {
+      "title": "Everything within reach.",
+      "items": [
+        {
+          "time": "1 min",
+          "text": "Steps down to the sea, the promenade and the tavernas"
+        },
+        {
+          "time": "2 min",
+          "text": "Kalyves village: cafés, bakeries, supermarkets"
+        },
+        {
+          "time": "12 min",
+          "text": "Chania old town and the Venetian harbour"
+        },
+        {
+          "time": "22 min",
+          "text": "Chania International Airport"
+        }
+      ]
+    },
+    "trust": {
+      "title": "Why buy with SivanInvest?",
+      "items": [
+        {
+          "title": "Direct from the developer",
+          "text": "No intermediaries. SivanInvest develops the project and stands behind every villa."
+        },
+        {
+          "title": "One-stop service",
+          "text": "Legal, tax, financing, design, management and rentals, coordinated by one team."
+        },
+        {
+          "title": "Local financing support",
+          "text": "Guidance on Greek bank financing, subject to eligibility and approval."
+        }
+      ]
+    },
+    "formTitle": "Leave your details and we will call you back.",
+    "formText": "Receive the price list, floor plans and availability for the last villas."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Luxusvilla Kreta: Das Projekt in Kalyves | King Solomon",
+    "description": "21 Luxusvillen von 314 Architects an der Steilküste in Kalyves, Chania: Infinity-Pool, Spa, Glasaufzug, direkter Meerzugang, schlüsselfertige Ausstattung."
+  },
+  "hero": {
+    "kicker": "Das Projekt",
+    "title": "Geschaffen, um gelebt, gespürt und erinnert zu werden.",
+    "subtitle": "Ein privates Villenresort an der Steilküste von Kalyves im Westen Kretas."
+  },
+  "architecture": {
+    "kicker": "Architektur",
+    "title": "Kurven, die der Küstenlinie folgen.",
+    "text": "King Solomon wurde vom internationalen Büro 314 Architects als privater Rückzugsort an der Steilküste konzipiert, an dem Architektur, Landschaft und Lebensstil eine Einheit bilden. Weiche Kurven, kaskadenartige Terrassen, Dachflächen und Pooldecks machen den Ausblick zum festen Bestandteil des Alltags.",
+    "text2": "Die Villen sind über die natürlichen Ebenen des Hangs verteilt. So erhält jede Residenz Privatsphäre, freie Sichtachsen und eine enge Verbindung zur Landschaft. Viele bieten nahezu 270 Grad Blick auf Meer und Küste."
+  },
+  "arrival": {
+    "kicker": "Die Ankunft",
+    "title": "Von der Straße bis zum Meer – eine durchdachte Abfolge.",
+    "steps": [
+      { "title": "Der obere Eingang", "text": "Ein elektrisches Tor mit Tastenfeld und Zutritt per Gesichtserkennung, Kameras und Architekturbeleuchtung neben dem Hauptparkplatz mit E-Ladestationen." },
+      { "title": "Brücke & Glasaufzug", "text": "Eine kurze Brücke führt zu einem Panorama-Glasaufzug mit Blick auf Klippe und Meer, der hinunter zur Resortebene gleitet." },
+      { "title": "Die Resortebene", "text": "Infinity-Pool, Whirlpool, Bar, Außenküche und Lounges: das gesellige Herz von King Solomon." },
+      { "title": "Hinunter zum Meer", "text": "Ein privater, kontrollierter Weg mit 30 bis 40 Stufen führt zum Ufer, zur Promenade und zu den Tavernen von Kalyves." }
+    ]
+  },
+  "interiors": {
+    "kicker": "Interieur",
+    "title": "Stiller Luxus, gemacht zum Leben.",
+    "text": "Ruhige Materialien, natürliche Farbtöne und mediterranes Licht. Interieurs, die warm, hochwertig und von der Hotellerie inspiriert sind: elegant genug für anspruchsvolle Gäste, behaglich genug, um sich zu Hause zu fühlen."
+  },
+  "specs": {
+    "kicker": "Bau- und Ausstattungsbeschreibung",
+    "title": "Jede Villa, ausgestattet auf Boutique-Hotel-Niveau.",
+    "text": "Eine vollständig gestaltete, komplett ausgestattete Residenz, in der jedes Detail im Voraus geplant wurde.",
+    "items": [
+      { "title": "Architektur, Ausblick & Öffnungen", "text": "Ausgerichtet auf Privatsphäre, Tageslicht und Panorama-Meerblick, mit großen, raumhohen Isolierverglasungen und breiten Fassaden. Viele Villen bieten rund 270° Ausblick." },
+      { "title": "Privatpool & Leben im Freien", "text": "Ein privater Pool im Infinity-Stil mit Blick aufs Meer, Sonnenliegen, Lounge-Sitzgruppen und hochwertige Outdoor-Möbel – je nach Typ mit Garten, Terrasse, Balkon oder Dachterrasse." },
+      { "title": "Außenküche", "text": "Eine voll ausgestattete Außenküche für Gäste: eingebauter Grill, Spüle, Outdoor-Kühlschrank, Arbeitsfläche, Stauraum, Beleuchtung und Beschattung durch Pergolen oder architektonische Elemente." },
+      { "title": "Innenarchitektur & Möblierung", "text": "Ein vollständiges Innenkonzept von Architekt und Innenarchitekt, durchgehend mit importierten Stücken möbliert: Betten, Kleiderschränke, Bettwäsche, Vorhänge, Beleuchtung, Teppiche und Dekoration." },
+      { "title": "Wohnen & Unterhaltung", "text": "Ein Wohnbereich auf Hotelniveau mit maßgefertigter TV-Wand, dekorativer Beleuchtung und Wandverkleidung. Ein Fernseher ab 50 Zoll im Wohnzimmer und ab 45 Zoll in jedem Schlafzimmer, LED-Stimmungslicht und Dimmer." },
+      { "title": "Eine vollwertige Küche", "text": "Eine maßgefertigte Küche in voller Größe statt einer Ferien-Kochnische: Schränke mit Soft-Close, Arbeitsplatten aus Feinsteinzeug, komplette Küchenausstattung und hochwertige Geräte, etwa von Bosch oder Sauter." },
+      { "title": "Schlafzimmer & Bäder", "text": "Schlafzimmer auf Boutique-Hotel-Niveau mit hochwertigen Matratzen und Einbauschränken. Bäder im Hotelstil mit wandhängender Sanitärkeramik, Unterputzarmaturen, begehbaren Glasduschen und vollständigem Zubehör." },
+      { "title": "Oberflächen & Energie", "text": "Großformatige Feinsteinzeugböden im Format 120 × 60, dekorative Wandverkleidungen und Einbauleuchten. Wärmedämmung von Wänden, Dächern und Verglasung deutlich über den örtlichen Baustandards." },
+      { "title": "Klima, Smart Home & Sicherheit", "text": "Inverter-Klimaanlage in jedem Raum, elektrische Warmwasserbereitung, WLAN-Steuerung von Beleuchtung und Zugang, eine verstärkte Mehrfachverriegelungstür mit Fingerabdruck, Tastenfeld oder Gesichtserkennung sowie Außenkameras, die die Privatsphäre im Inneren respektieren." },
+      { "title": "Vom ersten Tag an vermietbar", "text": "Übergeben mit Möbeln, Geräten, Küchenausstattung, Bettwäsche, WLAN und verwaltungskompatiblen Systemen – bereit für die private Nutzung, die Vermietung an Gäste und den professionellen Betrieb." }
+    ],
+    "disclaimer": "Alle Angaben zu Ausstattung, Materialien, Marken, Systemen, Einrichtungen und Gestaltungselementen dienen Marketing- und Informationszwecken und können sich vorbehaltlich der endgültigen Planung, Statik, Genehmigungen, behördlichen Zulassungen und Verfügbarkeit ändern. Verbindlich ist ausschließlich die im unterzeichneten notariellen Kaufvertrag festgelegte Ausstattung. Der Bauträger kann jede Position durch eine gleich- oder höherwertige ersetzen."
+  },
+  "facilities": {
+    "kicker": "Infrastruktur des Resorts",
+    "title": "Details, um die Sie sich nie kümmern müssen.",
+    "items": [
+      { "title": "Lichtplanung", "text": "Ein spezielles Lichtkonzept für Wege, Treppen, Pool und Landschaft, automatisch gesteuert bei Tag und Nacht." },
+      { "title": "Landschaftsarchitektur", "text": "Naturstein, Terrassen, mediterrane Bepflanzung, Zierbäume und automatische Bewässerung." },
+      { "title": "Parken & E-Laden", "text": "Ein oberer Parkplatz mit rund neun Stellplätzen und zwei Ladepunkten für Elektrofahrzeuge." },
+      { "title": "Gästeeinrichtungen", "text": "Separate Gäste-WCs auf der Pool- und Wellnessebene, damit die Villen privat bleiben." }
+    ]
+  },
+  "crete": {
+    "kicker": "Kreta",
+    "title": "Eine ganze Insel rund um Ihre Villa.",
+    "text": "Griechenlands größte Insel bietet eine Weite und Vielfalt, die im Mittelmeer ihresgleichen sucht: minoische Paläste, venezianische Häfen, die Weißen Berge, die Samaria-Schlucht und die türkisfarbene Lagune von Balos. Jeder Tag kann eine neue Entdeckung sein, und jeder Abend endet in Ihrem privaten Rückzugsort an der Steilküste.",
+    "places": [
+      { "name": "Alter Hafen von Chania", "img": "chania-harbour", "text": "Venezianische Fassaden, der ägyptische Leuchtturm und Restaurants am Wasser – 12 Minuten entfernt." },
+      { "name": "Lagune von Balos", "img": "balos", "text": "Einer der meistfotografierten Strände Europas, auf der Halbinsel Gramvousa." },
+      { "name": "Samaria-Schlucht", "img": "samaria", "text": "Eine 16 km lange Wanderung durch einen der eindrucksvollsten Nationalparks Europas." },
+      { "name": "Die Weißen Berge", "img": "white-mountains", "text": "Schneebedeckte Gipfel im Frühling, Bergdörfer und wilde Kräuter das ganze Jahr über." }
+    ]
+  }
+}

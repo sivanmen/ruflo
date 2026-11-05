@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Comprar villa en Creta: precios y planos | King Solomon",
+    "description": "Precios y disponibilidad de las 21 villas King Solomon en Kalyves, Creta: villas de 1, 2, 3 y 5 dormitorios con piscina privada. Descargue los planos."
+  },
+  "hero": {
+    "kicker": "Las villas",
+    "title": "Veintiuna residencias. Un solo horizonte.",
+    "subtitle": "Villas con azotea y con jardín en dos niveles del acantilado. Elija su villa, consulte su estado y descargue sus planos."
+  },
+  "availability": {
+    "kicker": "Disponibilidad en tiempo real",
+    "title": "Encuentre su villa.",
+    "text": "El inventario actual con la lista de precios {v}. Seleccione un número de villa para ver sus detalles.",
+    "filterBedrooms": "Dormitorios",
+    "filterStatus": "Estado",
+    "all": "Todas",
+    "rooftopRow": "Residencias con azotea",
+    "rooftopRowSub": "Planta alta · jardín en azotea y piscina",
+    "gardenRow": "Residencias con jardín",
+    "gardenRowSub": "Planta baja · jardín y piscina",
+    "noResults": "Ninguna villa coincide con esta selección.",
+    "note": "Los precios corresponden a la lista de precios {v}, incluyen el paquete completo de diseño y mobiliario y están sujetos a disponibilidad y a posibles cambios. Las superficies son orientativas. Las condiciones definitivas se establecen únicamente en el contrato de compraventa firmado."
+  },
+  "masterplan": {
+    "kicker": "Plan maestro",
+    "title": "Situadas para la privacidad, las vistas y el mar.",
+    "text": "Veintiuna villas distribuidas sobre las terrazas naturales del acantilado, cada una con su propia perspectiva y un camino directo hasta el agua."
+  },
+  "collectionPage": {
+    "keyFacts": "Datos clave",
+    "layouts": "Distribuciones",
+    "layoutsText": "Cada distribución está pensada para aprovechar al máximo la luz, la privacidad y el mar.",
+    "inCollection": "Villas de esta colección",
+    "others": "Otras colecciones",
+    "plansNote": "Los planos son orientativos y pueden ajustarse durante el diseño definitivo."
+  },
+  "1-bedroom": {
+    "meta": {
+      "title": "Villas de 1 dormitorio con piscina privada | King Solomon",
+      "description": "Villas de lujo de un dormitorio en Kalyves, Creta, con piscina privada, azotea o jardín y vistas al mar. Amuebladas, listas para alquilar. Desde 507.104 €"
+    },
+    "title": "Un refugio privado sobre el mar.",
+    "lead": "La expresión más íntima de King Solomon.",
+    "text": "Un amplio dormitorio principal, salón-comedor diáfano y piscina privada en una terraza con jardín o en un jardín en azotea. Un refugio personal para usted y, cuando no esté, una estancia premium muy solicitada por los huéspedes.",
+    "highlights": ["Piscina privada en jardín o azotea", "Salón diáfano con ventanales al mar", "Ideal para uso propio o estancias cortas premium"]
+  },
+  "2-bedroom": {
+    "meta": {
+      "title": "Villas con jardín de 2 dormitorios en Creta | King Solomon",
+      "description": "Villas con jardín de 2 dormitorios en Kalyves, Creta: piscina privada, cocina exterior y entrada independiente. Llave en mano y amuebladas. Desde 691.014 €"
+    },
+    "title": "La vida en el jardín, con la piscina a un paso.",
+    "lead": "Interior y exterior, en uno solo.",
+    "text": "Villas de dos dormitorios con entradas independientes y jardines privados que abren la zona de día al exterior. Cada una cuenta con su propia piscina, cocina exterior y zona lounge: el equilibrio perfecto entre el confort familiar y la serenidad mediterránea.",
+    "highlights": ["Jardín y piscina privados", "Cocina exterior y zona lounge", "Entrada independiente"]
+  },
+  "3-bedroom": {
+    "meta": {
+      "title": "Villas de 3 dormitorios con azotea y piscina | King Solomon",
+      "description": "Villas de 3 dormitorios en Kalyves, Creta, con jardín privado en azotea, piscina, cocina exterior y vistas panorámicas al mar. Amuebladas. Desde 778.464 €"
+    },
+    "title": "Una terraza en lo alto para cada atardecer.",
+    "lead": "Donde el horizonte se convierte en la estancia principal.",
+    "text": "Villas en planta alta con tres dormitorios, amplios balcones y un jardín privado en azotea con piscina y cocina exterior. Pensadas para familias y para recibir, con las vistas más amplias de King Solomon.",
+    "highlights": ["Jardín privado en azotea con piscina", "Hasta 116 m² de espacio exterior", "Las vistas panorámicas más amplias"]
+  },
+  "5-bedroom": {
+    "meta": {
+      "title": "Villas de lujo de 5 dormitorios en Creta | King Solomon",
+      "description": "Villas de 5 dormitorios en dos plantas con jardín, piscina privada y vistas al mar en Kalyves, Creta. Posible acceso a la Golden Visa Grecia. Desde 982.075 €"
+    },
+    "title": "Las grandes villas, en dos plantas.",
+    "lead": "Espacio para todos sus seres queridos.",
+    "text": "Las residencias más amplias de King Solomon. Una planta baja con zonas de estar, cocina y piscina en el jardín, y una planta inferior completa con dormitorios adicionales. Espacio para una gran familia, para varias generaciones juntas o para un producto de alquiler premium.",
+    "highlights": ["Cinco dormitorios en dos plantas", "Jardín con piscina privada", "Puede ser apta para solicitantes de la Golden Visa"]
+  }
+}

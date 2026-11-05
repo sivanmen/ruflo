@@ -1,0 +1,334 @@
+{
+  "langName": "Deutsch",
+  "brand": {
+    "name": "King Solomon",
+    "tagline": "Kalyves · Kreta",
+    "descriptor": "Villen & Spa-Resort an der Steilküste",
+    "slogan": "Der Horizont gehört Ihnen."
+  },
+  "nav": {
+    "home": "Startseite",
+    "project": "Das Projekt",
+    "villas": "Villen & Verfügbarkeit",
+    "villasShort": "Villen",
+    "gallery": "Galerie",
+    "developer": "Bauträger",
+    "contact": "Kontakt",
+    "cta": "Persönliche Präsentation vereinbaren",
+    "ctaShort": "Anfragen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "language": "Sprache",
+    "skip": "Zum Hauptinhalt springen",
+    "breadcrumbHome": "King Solomon"
+  },
+  "buttons": {
+    "exploreVillas": "Die Villen entdecken",
+    "viewAvailability": "Aktuelle Verfügbarkeit ansehen",
+    "viewAll": "Alle Villen ansehen",
+    "discover": "Entdecken",
+    "enquire": "Anfragen",
+    "enquireVilla": "Villa {no} anfragen",
+    "download": "Herunterladen",
+    "openGallery": "Galerie öffnen",
+    "watchFilm": "Film ansehen",
+    "whatsapp": "WhatsApp",
+    "call": "Anrufen",
+    "send": "Anfrage senden",
+    "sending": "Wird gesendet…",
+    "backToTop": "Nach oben",
+    "viewPlan": "Grundriss ansehen",
+    "plan": "Grundriss",
+    "planN": "Grundriss {n}",
+    "readMore": "Weiterlesen",
+    "scroll": "Scrollen",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "closeDialog": "Schließen",
+    "allCollections": "Alle Kollektionen",
+    "exploreCollection": "Kollektion entdecken"
+  },
+  "labels": {
+    "from": "Ab",
+    "available": "Verfügbar",
+    "reserved": "Reserviert",
+    "sold": "Verkauft",
+    "availableOf": "{a} von {t} verfügbar",
+    "lastOne": "Letzte verfügbare Villa",
+    "soldOut": "Vollständig reserviert",
+    "villa": "Villa",
+    "villas": "Villen",
+    "bedrooms": "Schlafzimmer",
+    "bedroomN": "{n} Schlafzimmer",
+    "bedroomsN": "{n} Schlafzimmer",
+    "level": "Ebene",
+    "interior": "Wohnfläche",
+    "outdoor": "Außenfläche",
+    "pool": "Privatpool",
+    "status": "Status",
+    "plans": "Grundrisse",
+    "sqm": "m²",
+    "min": "Min.",
+    "priceList": "Preisliste {v}",
+    "rooftop": "Dachterrassen-Residenz",
+    "garden": "Garten-Residenz",
+    "rooftopShort": "Dachterrasse",
+    "gardenShort": "Garten",
+    "internal": "Innen",
+    "external": "Garten / Terrasse",
+    "balconies": "Balkone",
+    "roof": "Dachgarten",
+    "levelFirstRoof": "Obergeschoss mit Dachgarten",
+    "levelFirst": "Obergeschoss",
+    "levelGround": "Erdgeschoss mit Garten",
+    "levelGroundLower": "Erdgeschoss + Untergeschoss",
+    "type": "Typ {code}",
+    "page": "Seite"
+  },
+  "collections": {
+    "1-bedroom": {
+      "name": "Villen mit einem Schlafzimmer",
+      "short": "1 Schlafzimmer",
+      "kicker": "Dachterrasse & Garten",
+      "teaser": "Ein privater Rückzugsort mit eigenem Pool und einem Horizont, der ganz Ihnen gehört."
+    },
+    "2-bedroom": {
+      "name": "Villen mit zwei Schlafzimmern",
+      "short": "2 Schlafzimmer",
+      "kicker": "Garten-Residenzen",
+      "teaser": "Wohnen im Garten – der Pool liegt nur wenige Schritte vom Sofa entfernt."
+    },
+    "3-bedroom": {
+      "name": "Villen mit drei Schlafzimmern",
+      "short": "3 Schlafzimmer",
+      "kicker": "Dachterrassen-Residenzen",
+      "teaser": "Eine private Dachterrasse mit Pool und Außenküche über dem Meer."
+    },
+    "5-bedroom": {
+      "name": "Villen mit fünf Schlafzimmern",
+      "short": "5 Schlafzimmer",
+      "kicker": "Garten-Residenzen + Untergeschoss",
+      "teaser": "Die großen Villen: zwei Ebenen, fünf Schlafzimmer und Raum für alle, die Ihnen wichtig sind."
+    }
+  },
+  "included": {
+    "title": "Schlüsselfertig übergeben. Bis zum letzten Löffel.",
+    "items": [
+      "Raumhohe Verglasung mit Blick aufs Meer",
+      "Privater Infinity-Pool",
+      "Außenküche mit Grill und Lounge",
+      "Importiertes Designer-Möbelpaket",
+      "Geräte von Bosch, Sauter oder gleichwertig",
+      "Teilweise smarte, per WLAN gesteuerte Systeme",
+      "Verstärkte Eingangstür mit Smart Lock",
+      "Hochleistungsdämmung und -verglasung"
+    ]
+  },
+  "stats": {
+    "villas": "Private Villen",
+    "elevation": "Meter über dem Meer",
+    "seaDistance": "Meter bis zum Wasser",
+    "view": "Grad Meerblick",
+    "chania": "Minuten bis Chania",
+    "airport": "Minuten zum Flughafen"
+  },
+  "location": {
+    "kicker": "Lage",
+    "title": "Kalyves. Das Kreta, das die Kreter für sich behalten.",
+    "text": "Ein authentisches kretisches Fischerdorf an der Bucht von Souda, mit Sandstränden, familiengeführten Tavernen und einer lebendigen Uferpromenade. Ganzjährig ruhig, nie überlaufen, nie inszeniert. Und nur zwölf Minuten vom venezianischen Hafen von Chania entfernt.",
+    "distances": [
+      {
+        "place": "Ortszentrum Kalyves",
+        "time": "2"
+      },
+      {
+        "place": "Hafen Souda",
+        "time": "8"
+      },
+      {
+        "place": "Altstadt Chania",
+        "time": "12"
+      },
+      {
+        "place": "Internationaler Flughafen Chania",
+        "time": "22"
+      }
+    ],
+    "flightsTitle": "Flugzeiten nach Chania",
+    "flights": [
+      {
+        "from": "Athen",
+        "time": "0:50"
+      },
+      {
+        "from": "Tel Aviv",
+        "time": "1:30"
+      },
+      {
+        "from": "Bukarest",
+        "time": "1:45"
+      },
+      {
+        "from": "Budapest",
+        "time": "2:00"
+      },
+      {
+        "from": "Prag",
+        "time": "2:25"
+      },
+      {
+        "from": "München",
+        "time": "2:35"
+      },
+      {
+        "from": "Warschau",
+        "time": "2:45"
+      },
+      {
+        "from": "Frankfurt",
+        "time": "2:55"
+      },
+      {
+        "from": "Paris",
+        "time": "3:10"
+      },
+      {
+        "from": "Amsterdam",
+        "time": "3:35"
+      },
+      {
+        "from": "London",
+        "time": "3:40"
+      },
+      {
+        "from": "Stockholm",
+        "time": "3:45"
+      }
+    ],
+    "flightsNote": "Ungefähre Flugzeiten. Saisonale und ganzjährige Verbindungen variieren je nach Fluggesellschaft.",
+    "mapCta": "In Google Maps öffnen"
+  },
+  "form": {
+    "kicker": "Persönliche Präsentation",
+    "title": "Lassen Sie sich den Horizont zeigen.",
+    "text": "Teilen Sie uns einige Angaben mit. Ein Mitglied des King-Solomon-Teams meldet sich persönlich bei Ihnen – mit der aktuellen Verfügbarkeit, der gültigen Preisliste und einer persönlichen Präsentation, in Chania oder online.",
+    "name": "Vor- und Nachname",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "country": "Wohnsitzland",
+    "villa": "Gewünschte Villa",
+    "villaAny": "Noch offen",
+    "budget": "Investitionsbudget",
+    "budgetOptions": [
+      "Bis 600.000 €",
+      "600.000 € – 800.000 €",
+      "800.000 € – 1.000.000 €",
+      "Über 1.000.000 €"
+    ],
+    "contactPref": "Bevorzugter Kontaktweg",
+    "contactPrefOptions": [
+      "Telefonanruf",
+      "WhatsApp",
+      "E-Mail"
+    ],
+    "message": "Nachricht (optional)",
+    "consentPrivacy": "Ich habe die {privacy} gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verarbeitet werden.",
+    "consentMarketing": "Ich möchte Neuigkeiten, neue Angebote und Informationen zu King Solomon per E-Mail, SMS oder WhatsApp erhalten. Ich kann mich jederzeit abmelden.",
+    "privacyLink": "Datenschutzerklärung",
+    "required": "Pflichtfeld",
+    "errorRequired": "Bitte füllen Sie dieses Feld aus.",
+    "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "errorPhone": "Bitte geben Sie eine gültige Telefonnummer ein.",
+    "errorConsent": "Bitte bestätigen Sie, dass Sie die Datenschutzerklärung gelesen haben.",
+    "successTitle": "Vielen Dank. Ihre Anfrage ist bei uns eingegangen.",
+    "successText": "Ein Mitglied unseres Teams meldet sich in Kürze bei Ihnen, in der Regel innerhalb eines Werktags.",
+    "errorTitle": "Leider ist ein Fehler aufgetreten.",
+    "errorText": "Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per WhatsApp oder Telefon.",
+    "secure": "Ihre Daten werden verschlüsselt übertragen und niemals zu Werbezwecken an Dritte weitergegeben."
+  },
+  "contactInfo": {
+    "title": "Unsere Kontaktdaten",
+    "officeGreece": "Büro in Chania",
+    "officeIsrael": "Büro in Israel",
+    "phoneGreece": "Griechenland",
+    "phoneIsrael": "Israel",
+    "email": "E-Mail",
+    "hours": "Mo–Fr 9:00–18:00 Uhr · WhatsApp an 7 Tagen pro Woche",
+    "hoursLabel": "Erreichbarkeit"
+  },
+  "footer": {
+    "statement": "Ein Zuhause über dem Meer. Ein Leben über allen Erwartungen.",
+    "explore": "Entdecken",
+    "collections": "Kollektionen",
+    "downloads": "Downloads",
+    "legal": "Rechtliches",
+    "brochure": "Investorenbroschüre",
+    "plans": "Architektenpläne",
+    "offer": "Exklusives Investorenangebot",
+    "privacy": "Datenschutzerklärung",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Nutzungsbedingungen & Haftungsausschluss",
+    "accessibility": "Barrierefreiheitserklärung",
+    "cookieSettings": "Cookie-Einstellungen",
+    "rights": "© {year} SivanInvest Group. Alle Rechte vorbehalten.",
+    "credits": "Entwickelt von SivanInvest Group · Verwaltet von Sivan Management · Architektur von 314 Architects",
+    "disclaimer": "Die Informationen auf dieser Website sind unverbindlich und stellen weder ein Angebot noch einen Vertrag oder eine Garantie dar. Alle Visualisierungen sind künstlerische Darstellungen. Grundrisse, Flächen, Ausstattung und Preise können sich im Verlauf der Projektentwicklung ändern. Verbindlich sind ausschließlich die Bedingungen des unterzeichneten notariellen Kaufvertrags."
+  },
+  "cookies": {
+    "title": "Ihre Privatsphäre, Ihre Entscheidung",
+    "text": "Wir verwenden technisch notwendige Cookies, damit diese Website funktioniert. Mit Ihrer Einwilligung möchten wir zusätzlich Analyse- und Marketing-Cookies einsetzen, um zu verstehen, wie die Website genutzt wird, und Ihnen relevante Inhalte anzuzeigen. Sie können Ihre Auswahl jederzeit über „Cookie-Einstellungen“ in der Fußzeile ändern.",
+    "accept": "Alle akzeptieren",
+    "reject": "Alle ablehnen",
+    "customize": "Anpassen",
+    "save": "Auswahl speichern",
+    "policy": "Cookie-Richtlinie",
+    "panelTitle": "Cookie-Einstellungen",
+    "alwaysOn": "Immer aktiv",
+    "categories": {
+      "necessary": {
+        "name": "Technisch notwendig",
+        "desc": "Erforderlich für den Betrieb der Website: Sicherheit, Lastverteilung, Sprache und Ihre Einwilligungsentscheidung. Diese Cookies können nicht deaktiviert werden."
+      },
+      "preferences": {
+        "name": "Präferenzen",
+        "desc": "Speichern Einstellungen wie Ihre Barrierefreiheitsoptionen und die gewählte Sprache."
+      },
+      "analytics": {
+        "name": "Analyse",
+        "desc": "Helfen uns, in zusammengefasster Form zu verstehen, wie Besucher die Website nutzen, damit wir sie verbessern können (z. B. Google Analytics 4)."
+      },
+      "marketing": {
+        "name": "Marketing",
+        "desc": "Dienen dazu, unsere Werbung zu messen und Ihnen auf anderen Plattformen relevante Anzeigen zu zeigen (z. B. Google Ads, Meta)."
+      }
+    }
+  },
+  "a11y": {
+    "open": "Optionen zur Barrierefreiheit",
+    "title": "Barrierefreiheit",
+    "textSize": "Schriftgröße",
+    "contrast": "Hoher Kontrast",
+    "motion": "Animationen stoppen",
+    "links": "Links hervorheben",
+    "font": "Gut lesbare Schrift",
+    "reset": "Zurücksetzen",
+    "statement": "Barrierefreiheitserklärung"
+  },
+  "langSuggest": {
+    "text": "Diese Seite ist auch auf Deutsch verfügbar.",
+    "go": "Wechseln",
+    "dismiss": "Bleiben"
+  },
+  "sticky": {
+    "text": "Letzte Villen verfügbar · Preisliste {v}"
+  },
+  "notFound": {
+    "title": "Diese Ansicht gibt es nicht.",
+    "text": "Die gesuchte Seite wurde möglicherweise verschoben. Der Horizont aber ist noch da.",
+    "cta": "Zurück zur Startseite",
+    "metaTitle": "Seite nicht gefunden | King Solomon Kalyves"
+  },
+  "whatsappText": "Guten Tag, ich interessiere mich für die King-Solomon-Villen in Kalyves auf Kreta. Könnten Sie mir bitte die aktuelle Verfügbarkeit und die Preise zusenden?",
+  "faqTitle": "Fragen von Käufern und Investoren",
+  "faqKicker": "Gut zu wissen"
+}

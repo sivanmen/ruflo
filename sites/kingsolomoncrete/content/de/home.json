@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Villa Kreta kaufen: Luxusvillen mit Pool | King Solomon",
+    "description": "21 Luxusvillen mit Privatpool und 270° Meerblick in Kalyves bei Chania, Kreta. Voll möbliert und professionell verwaltet. Ab 507.104 €."
+  },
+  "hero": {
+    "kicker": "Kalyves · Chania · Kreta",
+    "title": "Der Horizont gehört Ihnen.",
+    "subtitle": "Einundzwanzig private Villen, jede mit eigenem Pool, 34 Meter über dem Kretischen Meer.",
+    "priceLead": "Villen ab",
+    "cta": "Die Villen entdecken",
+    "cta2": "Persönliche Präsentation vereinbaren"
+  },
+  "intro": {
+    "kicker": "Das Gefühl",
+    "title": "Manche Orte besucht man. Andere bleiben.",
+    "lead": "King Solomon liegt dort, wo die Berge Westkretas zum Meer hin abfallen. Hinter Ihnen die Weißen Berge. Vor Ihnen ein ungebrochenes Panorama in mediterranem Blau. Jeder Abend endet in Gold.",
+    "text": "Dies ist kein weiteres Ferienhaus am Strand. Es ist eine private Welt an der Steilküste, geformt aus Architektur, Licht und Stille. Morgens hören Sie das Meer unter sich. Nachmittags kommt die Zeit an Ihrem eigenen Pool zur Ruhe. Die Nächte gehören den Sternen über der Bucht von Souda."
+  },
+  "statement": {
+    "line1": "Ein Zuhause über dem Meer.",
+    "line2": "Ein Leben über allen Erwartungen."
+  },
+  "concept": {
+    "kicker": "Das Konzept",
+    "title": "Höhe, die man spürt.",
+    "text": "Alles bei King Solomon beginnt mit einer einzigen Idee: dem Gefühl, über allem zu stehen. Über dem Lärm, über dem Alltag, über der gewöhnlichen Küstenbebauung. Auf einem seltenen Klippengrundstück in erster Meereslinie ist jede Villa ein in sich geschlossener mediterraner Rückzugsort – mit eigenem Pool, Außenbereich, separatem Eingang und freiem Blick aufs Meer.",
+    "quote": "Die Architektur konkurriert nicht mit dem Ausblick. Sie rahmt ihn.",
+    "points": [
+      {
+        "title": "Erste Meereslinie, auf der Klippe",
+        "text": "Zwischen Ihrer Terrasse und dem Meer liegen nur 70 Meter Luft."
+      },
+      {
+        "title": "Privatsphäre als Planungsprinzip",
+        "text": "Separate Eingänge, begrünte Terrassen und eine umzäunte Anlage mit Zugangskontrolle."
+      },
+      {
+        "title": "Hotelstandard, Wohngefühl",
+        "text": "Vollständig gestaltet, möbliert und ausgestattet übergeben – bereit für Ihren ersten Abend."
+      }
+    ]
+  },
+  "collections": {
+    "kicker": "Die Kollektion",
+    "title": "Vier Arten, über dem Meer zu wohnen.",
+    "text": "Von der Dachterrassen-Villa mit einem Schlafzimmer bis zur Garten-Villa mit fünf Schlafzimmern auf zwei Ebenen: Jede Residenz wird komplett übergeben – gestaltet, möbliert und bereit zum Selbstnutzen oder Vermieten."
+  },
+  "living": {
+    "kicker": "Zwei Arten, draußen zu leben",
+    "rooftop": {
+      "title": "Dachterrassen-Residenzen",
+      "text": "Ihre eigene Dachterrasse über dem Mittelmeer. Pool, Außenküche und Lounge auf einem privaten Dach, auf dem jeder Sonnenuntergang zum Ereignis wird."
+    },
+    "garden": {
+      "title": "Garten-Residenzen",
+      "text": "Private Gärten, die direkt an den Wohnraum anschließen, ein Pool nur wenige Schritte entfernt und begrünte Terrassen, die Ihre Privatsphäre am Hang schützen."
+    }
+  },
+  "resort": {
+    "kicker": "Das Resort",
+    "title": "Ein privates Resort am Rand des Meeres.",
+    "text": "Über Ihre eigene Villa hinaus steht ein ganzes Resort an der Steilküste ausschließlich Eigentümern und ihren Gästen offen.",
+    "items": [
+      {
+        "title": "Infinity-Pool an der Klippe",
+        "text": "Ein 10 × 4 m großer Infinity-Pool, direkt auf den Horizont ausgerichtet, mit Sonnenliegen, Cabana-Lounges und einem Whirlpool für acht Personen."
+      },
+      {
+        "title": "Spa & Wellness",
+        "text": "Fitnessstudio, Sauna mit Glasfront, Behandlungsraum und ein ruhiger Bereich für Yoga, Pilates und Meditation."
+      },
+      {
+        "title": "Panorama-Glasaufzug",
+        "text": "Ein gläserner Aufzug führt vom oberen Eingang hinunter zur Poolebene. Eine eindrucksvolle Ankunft – und echter Komfort an der Steilküste."
+      },
+      {
+        "title": "Wenige Stufen zum Meer",
+        "text": "Rund 30 bis 40 Stufen führen vom Resort zum Ufer, zur Promenade und zu den Tavernen von Kalyves. Ein Auto brauchen Sie nicht."
+      },
+      {
+        "title": "Sonnendeck & Lounges",
+        "text": "Gemeinschaftsterrassen, Sonnendecks und Bereiche für Gäste, geschaffen für lange Nachmittage im goldenen Licht."
+      },
+      {
+        "title": "Umzäunt & sicher",
+        "text": "Drei kontrollierte Zugänge, Kameras und Zutritt per Gesichtserkennung. Geschlossen für die Öffentlichkeit, offen für den Ausblick."
+      }
+    ]
+  },
+  "turnkey": {
+    "kicker": "Schlüsselfertige Übergabe",
+    "title": "Kein Rohbau. Eine fertige Villa.",
+    "text": "Jede Villa wird mit einem vollständigen Innenkonzept von Architekt und Innenarchitekt übergeben, mit importierten Möbeln, einer vollwertigen Wohnküche, smartem Zugang und einem Ausstattungspaket auf Boutique-Hotel-Niveau. Bereit für Ihren ersten Abend – oder Ihren ersten Gast."
+  },
+  "management": {
+    "kicker": "Sivan Management",
+    "title": "Sie sind Eigentümer. Um alles andere kümmern wir uns.",
+    "text": "King Solomon wird von Sivan Management betrieben, unserem Team vor Ort in Chania, rund um die Uhr erreichbar. Von den Gemeinschaftseinrichtungen und der Villenpflege über die Reinigung bis zur optionalen Kurzzeitvermietung ist alles geregelt – jede Zahl transparent einsehbar in der Eigentümer-App.",
+    "items": [
+      {
+        "title": "Vermietungs- und Ertragsmanagement",
+        "text": "Optionale Listung auf Booking.com und Airbnb, dynamische Preisgestaltung, Gästekommunikation und Check-in."
+      },
+      {
+        "title": "Villenpflege",
+        "text": "Regelmäßige Inspektionen von Pools, Haustechnik und smartem Zugang, damit Ihre Villa jederzeit bereit ist."
+      },
+      {
+        "title": "Transparenz für Eigentümer",
+        "text": "Buchungen, Einnahmenabrechnungen und Wartungsstatus – jederzeit aktuell in der App."
+      },
+      {
+        "title": "Concierge",
+        "text": "Privatkoch, Transfers, Mietwagen, Restaurantreservierungen und Spa-Behandlungen auf Wunsch."
+      }
+    ]
+  },
+  "invest": {
+    "kicker": "Warum Kreta, warum jetzt",
+    "title": "Ein seltener Wert in einem Markt, der weiter wächst.",
+    "items": [
+      {
+        "value": "EU",
+        "title": "Europäische Rechtssicherheit",
+        "text": "Griechisches Immobilienrecht, EU-Bankenstandards und ein transparenter notarieller Kaufprozess."
+      },
+      {
+        "value": "270°",
+        "title": "Unersetzliche Lage",
+        "text": "Klippengrundstücke in erster Meereslinie mit geschütztem Meerblick lassen sich naturgemäß nicht reproduzieren."
+      },
+      {
+        "value": "24/7",
+        "title": "Eigentum ohne Aufwand",
+        "text": "Professionelle Verwaltung vor Ort und optionale Vermietung – Ihre Villa arbeitet, während Sie nicht da sind."
+      },
+      {
+        "value": "7+",
+        "title": "Monate Saison",
+        "text": "Westkreta hat eine der längsten Urlaubssaisons Europas, vom Frühling bis in den späten Herbst."
+      }
+    ]
+  },
+  "galleryTeaser": {
+    "kicker": "Galerie",
+    "title": "Jeder Blickwinkel. Jede Stunde.",
+    "text": "Visualisierungen, Luftaufnahmen und der Film über King Solomon – vom ersten Licht über der Klippe bis zur Abenddämmerung über Kalyves."
+  },
+  "downloads": {
+    "kicker": "Zum Mitnehmen",
+    "title": "Alle Informationen, in Ihren Händen.",
+    "text": "Laden Sie die Investorenbroschüre und die Architektenpläne aller Villen herunter.",
+    "brochure": "Investorenbroschüre",
+    "brochureMeta": "PDF · 51 Seiten",
+    "plans": "Architektenpläne",
+    "plansMeta": "PDF · alle 21 Villen"
+  },
+  "faq": [
+    {
+      "q": "Was genau ist im Preis enthalten?",
+      "a": "Jeder Preis der aktuellen Preisliste umfasst das vollständige Design- und Einrichtungspaket: ein Innenkonzept von Architekt und Innenarchitekt, importierte Möbel, eine voll ausgestattete Küche mit hochwertigen Geräten, einen privaten Pool und eine Außenküche. Die Villa wird bezugsfertig übergeben – oder bereit für ihren ersten Gast."
+    },
+    {
+      "q": "Kann ich die Villa vermieten, wenn ich nicht vor Ort bin?",
+      "a": "Ja, wenn Sie dies wünschen. Sivan Management betreibt das Resort mit einem lokalen Team, das rund um die Uhr erreichbar ist, und bietet eine vollständige Verwaltung der Kurzzeitvermietung: Listung auf Booking.com und Airbnb, dynamische Preisgestaltung, Check-in der Gäste, Reinigung und transparente Berichte in der Eigentümer-App. Die Teilnahme ist vollständig freiwillig."
+    },
+    {
+      "q": "Wie läuft der Kauf ab?",
+      "a": "Am Anfang stehen ein Kennenlerngespräch und eine persönliche Präsentation mit der aktuellen Preisliste. Anschließend reservieren Sie Ihre Villa mit einer Reservierungsvereinbarung, und wir koordinieren den griechischen Rechtsanwalt, den Notar und bei Bedarf eine Finanzierung über eine lokale Bank. Unser Team begleitet Sie bei jedem Schritt – bis zur Schlüsselübergabe."
+    },
+    {
+      "q": "Kann ich das Projekt besichtigen?",
+      "a": "Selbstverständlich. Wir organisieren persönliche Präsentationen in unserem Büro in Chania oder online. Das Grundstück liegt etwa 22 Minuten vom Internationalen Flughafen Chania und 12 Minuten von der Altstadt entfernt."
+    },
+    {
+      "q": "Können Ausländer in Griechenland Immobilien erwerben?",
+      "a": "Ja. EU-Bürger kaufen zu denselben Bedingungen wie griechische Staatsangehörige, und auch Käufer aus Nicht-EU-Staaten können Immobilien erwerben. Ausgewählte Villen können die Investitionsschwelle des griechischen Golden-Visa-Aufenthaltsprogramms für Käufer aus Nicht-EU-Staaten erfüllen. Unser Team und unsere Partnerkanzleien prüfen Ihre Voraussetzungen persönlich."
+    },
+    {
+      "q": "Wie sieht es mit Steuern aus?",
+      "a": "Griechenland hat mit vielen Ländern Doppelbesteuerungsabkommen geschlossen, darunter Israel, Deutschland, Frankreich, Spanien und das Vereinigte Königreich. Sie sollen verhindern, dass dasselbe Einkommen zweimal besteuert wird. Die konkreten Auswirkungen hängen von Ihrer persönlichen Situation ab; daher koordinieren wir eine Prüfung durch qualifizierte Steuerberater und Fachanwälte für Steuerrecht."
+    }
+  ]
+}

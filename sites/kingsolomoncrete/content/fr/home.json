@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Villa de luxe en Crète avec piscine privée | King Solomon",
+    "description": "21 villas de luxe vue mer à Kalyves, La Canée (Chania) : piscine privée, vue à 270°, meublées et gérées. À partir de 507 104 €."
+  },
+  "hero": {
+    "kicker": "Kalyves · La Canée · Crète",
+    "title": "L'horizon vous appartient.",
+    "subtitle": "Vingt et une villas privées, chacune avec sa propre piscine, à 34 mètres au-dessus de la mer de Crète.",
+    "priceLead": "Villas à partir de",
+    "cta": "Découvrir les villas",
+    "cta2": "Réserver une présentation privée"
+  },
+  "intro": {
+    "kicker": "L'émotion",
+    "title": "Il est des lieux que l'on visite. D'autres qui ne vous quittent plus.",
+    "lead": "King Solomon s'élève là où les montagnes de l'ouest de la Crète descendent à la rencontre de la mer. Derrière vous, les Montagnes Blanches. Devant vous, une étendue ininterrompue de bleu méditerranéen. Chaque soirée s'achève dans l'or.",
+    "text": "Il ne s'agit pas d'une énième maison de vacances en bord de plage. C'est un monde privé à flanc de falaise, composé d'architecture, de lumière et de silence. Les matins s'ouvrent au murmure de la mer en contrebas. Les après-midi ralentissent au bord de votre propre piscine. Les nuits appartiennent aux étoiles de la baie de Souda."
+  },
+  "statement": {
+    "line1": "Une demeure au-dessus de la mer.",
+    "line2": "Une vie au-delà de vos attentes."
+  },
+  "concept": {
+    "kicker": "Le concept",
+    "title": "L'élévation, devenue émotion.",
+    "text": "Tout, à King Solomon, naît d'une seule idée : la sensation de s'élever au-dessus de tout. Au-dessus du bruit, au-dessus du quotidien, au-dessus des programmes balnéaires ordinaires. Posée sur une rare falaise en front de mer, chaque villa est un sanctuaire méditerranéen à part entière, avec sa piscine, ses espaces de vie extérieurs, son entrée privée et une perspective dégagée sur la mer.",
+    "quote": "L'architecture ne rivalise pas avec la vue. Elle la met en scène.",
+    "points": [
+      {
+        "title": "Premier rang, sur la falaise",
+        "text": "Entre votre terrasse et la mer, rien que 70 mètres d'air."
+      },
+      {
+        "title": "L'intimité, dès la conception",
+        "text": "Entrées indépendantes, terrasses végétalisées et domaine clos à accès contrôlé."
+      },
+      {
+        "title": "Le standing d'un hôtel, l'âme d'une maison",
+        "text": "Livrée entièrement conçue, meublée et équipée, prête pour votre première soirée."
+      }
+    ]
+  },
+  "collections": {
+    "kicker": "La collection",
+    "title": "Quatre façons de vivre au-dessus de la mer.",
+    "text": "Du refuge d'une chambre sur le toit à la villa de cinq chambres avec jardin sur deux niveaux, chaque résidence est livrée clés en main : conçue, meublée et prête à être habitée ou louée."
+  },
+  "living": {
+    "kicker": "Deux façons de vivre dehors",
+    "rooftop": {
+      "title": "Résidences avec toit-terrasse",
+      "text": "Votre propre terrasse suspendue au-dessus de la Méditerranée. Piscine, cuisine d'été et espace lounge sur un toit privé qui fait de chaque coucher de soleil un événement."
+    },
+    "garden": {
+      "title": "Résidences avec jardin",
+      "text": "Des jardins privés qui prolongent directement le séjour, une piscine à quelques pas et des terrasses plantées qui préservent votre intimité sur le coteau."
+    }
+  },
+  "resort": {
+    "kicker": "Le resort",
+    "title": "Un resort privé au bord de la mer.",
+    "text": "Au-delà de votre villa, tout un resort à flanc de falaise est réservé aux propriétaires et à leurs invités.",
+    "items": [
+      {
+        "title": "Piscine à débordement en bord de falaise",
+        "text": "Une piscine à débordement de 10 × 4 m tournée vers l'horizon, avec transats, cabanas et un jacuzzi de huit places."
+      },
+      {
+        "title": "Spa & club bien-être",
+        "text": "Salle de fitness, sauna vitré, cabine de soins et un espace calme dédié au yoga, au pilates et à la méditation."
+      },
+      {
+        "title": "Ascenseur panoramique en verre",
+        "text": "Un ascenseur vitré glisse de l'entrée supérieure jusqu'au niveau de la piscine. Une arrivée spectaculaire, et un vrai confort sur une falaise."
+      },
+      {
+        "title": "La mer à quelques marches",
+        "text": "Environ 30 à 40 marches mènent du resort au front de mer, à la promenade et aux tavernes de Kalyves. Nul besoin de voiture."
+      },
+      {
+        "title": "Solarium & salons extérieurs",
+        "text": "Terrasses partagées, solariums et espaces de réception pensés pour de longs après-midi dans la lumière dorée."
+      },
+      {
+        "title": "Domaine clos et sécurisé",
+        "text": "Trois entrées contrôlées, vidéosurveillance et accès par reconnaissance faciale. Fermé au public, ouvert sur la vue."
+      }
+    ]
+  },
+  "turnkey": {
+    "kicker": "Livraison clés en main",
+    "title": "Pas une coque vide. Une villa achevée.",
+    "text": "Chaque villa est livrée avec un concept intérieur complet signé par un architecte et un architecte d'intérieur, du mobilier importé, une véritable cuisine résidentielle, un accès connecté et un ensemble d'aménagement digne d'un hôtel-boutique. Prête pour votre première soirée, ou pour votre premier hôte."
+  },
+  "management": {
+    "kicker": "Sivan Management",
+    "title": "Vous êtes propriétaire. Nous nous occupons de tout le reste.",
+    "text": "King Solomon est exploité par Sivan Management, notre équipe sur place à La Canée, disponible jour et nuit. Des équipements communs à l'entretien de la villa, du ménage à la location saisonnière facultative, tout est pris en charge, et chaque chiffre est consultable dans l'application propriétaire.",
+    "items": [
+      {
+        "title": "Gestion locative & des revenus",
+        "text": "Mise en location facultative sur Booking.com et Airbnb, tarification dynamique, relation avec les voyageurs et accueil."
+      },
+      {
+        "title": "Entretien de la villa",
+        "text": "Inspections programmées des piscines, des équipements et des accès connectés, pour une villa toujours prête."
+      },
+      {
+        "title": "Transparence pour le propriétaire",
+        "text": "Réservations, relevés de revenus et état de la maintenance, en temps réel dans l'application."
+      },
+      {
+        "title": "Conciergerie",
+        "text": "Chef privé, transferts, location de voiture, réservations de restaurants et soins spa sur demande."
+      }
+    ]
+  },
+  "invest": {
+    "kicker": "Pourquoi la Crète, pourquoi maintenant",
+    "title": "Un bien rare, sur un marché qui ne cesse de progresser.",
+    "items": [
+      {
+        "value": "EU",
+        "title": "La sécurité européenne",
+        "text": "Droit immobilier grec, normes bancaires de l'UE et processus d'acquisition notarié transparent."
+      },
+      {
+        "value": "270°",
+        "title": "Un emplacement irremplaçable",
+        "text": "Les terrains en premier rang sur la falaise, avec vue mer protégée, sont par nature impossibles à reproduire."
+      },
+      {
+        "value": "24/7",
+        "title": "Une propriété sans contraintes",
+        "text": "Une gestion professionnelle sur place et une location facultative : la villa travaille pour vous pendant votre absence."
+      },
+      {
+        "value": "7+",
+        "title": "Mois de saison",
+        "text": "L'ouest de la Crète bénéficie de l'une des plus longues saisons touristiques d'Europe, du printemps jusqu'à la fin de l'automne."
+      }
+    ]
+  },
+  "galleryTeaser": {
+    "kicker": "Galerie",
+    "title": "Chaque angle. Chaque heure.",
+    "text": "Images de synthèse, vues aériennes et film de King Solomon, des premières lueurs sur la falaise au crépuscule sur Kalyves."
+  },
+  "downloads": {
+    "kicker": "À emporter",
+    "title": "Toute l'histoire, entre vos mains.",
+    "text": "Téléchargez la brochure investisseurs et les plans d'architecte de chaque villa.",
+    "brochure": "Brochure investisseurs",
+    "brochureMeta": "PDF · 51 pages",
+    "plans": "Plans d'architecte",
+    "plansMeta": "PDF · les 21 villas"
+  },
+  "faq": [
+    {
+      "q": "Que comprend exactement le prix ?",
+      "a": "Chaque prix de la grille en vigueur inclut l'ensemble du pack design et ameublement : un concept intérieur signé par un architecte et un architecte d'intérieur, du mobilier importé, une cuisine entièrement équipée d'électroménager haut de gamme, une piscine privée et une cuisine d'été. La villa est livrée prête à vivre, ou prête à accueillir ses premiers hôtes."
+    },
+    {
+      "q": "Puis-je louer la villa en mon absence ?",
+      "a": "Oui, si vous le souhaitez. Sivan Management exploite le resort avec une équipe locale disponible 24 h/24, 7 j/7, et propose une gestion complète de la location saisonnière : diffusion sur Booking.com et Airbnb, tarification dynamique, accueil des voyageurs, ménage et reporting transparent dans l'application propriétaire. Cette formule est entièrement facultative."
+    },
+    {
+      "q": "Comment se déroule l'acquisition ?",
+      "a": "Tout commence par un premier échange et une présentation privée avec la grille tarifaire en vigueur. Vous réservez ensuite votre villa par un contrat de réservation, et nous coordonnons l'avocat grec, le notaire et, si nécessaire, le financement auprès d'une banque locale. Notre équipe vous accompagne à chaque étape, jusqu'à la remise des clés."
+    },
+    {
+      "q": "Puis-je visiter le projet ?",
+      "a": "Bien sûr. Nous organisons des présentations privées dans notre bureau de La Canée ou en ligne. Le site se trouve à environ 22 minutes de l'aéroport international de La Canée et à 12 minutes de la vieille ville."
+    },
+    {
+      "q": "Les acheteurs étrangers peuvent-ils acquérir un bien en Grèce ?",
+      "a": "Oui. Les citoyens de l'UE achètent dans les mêmes conditions que les ressortissants grecs, et les acheteurs hors UE peuvent également acquérir un bien. Certaines villas peuvent atteindre le seuil d'investissement du programme grec de résidence Golden Visa pour les acheteurs non européens. Notre équipe et nos avocats partenaires étudieront personnellement votre éligibilité."
+    },
+    {
+      "q": "Qu'en est-il de la fiscalité ?",
+      "a": "La Grèce a conclu des conventions de non-double imposition avec de nombreux pays, dont Israël, l'Allemagne, la France, l'Espagne et le Royaume-Uni, afin d'éviter qu'un même revenu soit imposé deux fois. Les incidences dépendent de votre situation personnelle : nous organisons donc une analyse avec des experts-comptables et des avocats fiscalistes qualifiés."
+    }
+  ]
+}
