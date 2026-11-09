@@ -37,7 +37,6 @@
     var y = window.scrollY, h = hero ? hero.getBoundingClientRect().bottom + y - 90 : 0;
     var overHero = hero && y < h;
     nav.classList.toggle('is-solid', !overHero);
-    nav.classList.toggle('is-light', !!(overHero && heroScene && !heroScene.classList.contains('is-dark')));
     nav.classList.toggle('is-hidden', !overHero && y > lastY && y > 700 && !$('.ks-drawer.is-open'));
     lastY = y;
   }

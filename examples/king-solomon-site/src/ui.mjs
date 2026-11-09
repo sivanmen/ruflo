@@ -43,16 +43,18 @@ export const eyebrow = (s) => `<p class="ks-eyebrow">${esc(s)}</p>`;
 /** Wraps one Elementor HTML widget's content. Every widget carries its own .ks root. */
 export const section = (cls, inner, attrs = '') => `<section class="ks ks-sec ${cls}"${attrs}>${inner}</section>`;
 
+const LOGO = () => `<span class="ks-logo" style="--logo:url('${full('ks-logo-row')}')"></span>`;
+
 export function nav(t, current) {
   const links = PAGES.map((p, i) => `<a href="${url(t, p)}"${p === current ? ' class="is-current"' : ''} style="--i:${i}">${esc(t.nav[p])}</a>`).join('');
   return `<div class="ks">
 <header class="ks-nav" role="banner"><div class="ks-nav-in">
-<a class="ks-brand" href="${url(t, 'home')}" aria-label="King Solomon"><img src="${full('ks-crown')}" alt="" width="34" height="24"><span>King Solomon<small>Kalyves · Creta</small></span></a>
+<a class="ks-brand" href="${url(t, 'home')}" aria-label="Solomon Luxury Villas · King Solomon">${LOGO()}</a>
 <nav class="ks-menu" aria-label="King Solomon">${links}</nav>
 <div class="ks-nav-end"><a class="ks-lang" href="${otherUrl(t, current === 'type' ? 'villas' : current)}" hreflang="${t.lang === 'he' ? 'en' : 'he'}">${t.otherLabel}</a><a class="ks-wa" href="https://wa.me/972524518134" target="_blank" rel="noopener" aria-label="WhatsApp">${icon.phone}</a>${btn(url(t, 'contact'), t.nav.cta)}
 <button class="ks-burger" type="button" data-ks="open-menu" aria-label="${esc(t.nav.menu)}"><i></i><i></i><i></i></button></div>
 </div></header>
-<div class="ks-drawer" aria-hidden="true"><div class="ks-drawer-top"><a class="ks-brand" href="${url(t, 'home')}"><img src="${full('ks-crown')}" alt="" width="34" height="24"><span>King Solomon</span></a>
+<div class="ks-drawer" aria-hidden="true"><div class="ks-drawer-top"><a class="ks-brand" href="${url(t, 'home')}" aria-label="Solomon Luxury Villas · King Solomon">${LOGO()}</a>
 <button class="ks-drawer-close" type="button" data-ks="close-menu" aria-label="${esc(t.nav.close)}">${icon.x}</button></div>
 <nav>${`<a href="${url(t, 'home')}" style="--i:0">King Solomon</a>` + PAGES.map((p, i) => `<a href="${url(t, p)}" style="--i:${i + 1}">${esc(t.nav[p])}</a>`).join('')}</nav>
 <div class="ks-drawer-foot"><a href="tel:${t.contact.details.phones[0].replace(/\s/g, '')}">${t.contact.details.phones[0]}</a><a href="mailto:${t.contact.details.email}">${t.contact.details.email}</a><a href="${otherUrl(t, 'home')}">${t.otherLabel}</a></div>
@@ -66,7 +68,7 @@ export function footer(t) {
   const d = t.contact.details;
   return `<footer class="ks ks-foot"><div class="ks-wrap">
 <div class="ks-foot-top">
-<div class="ks-foot-brand"><img src="${full('ks-crown')}" alt="King Solomon" width="54" height="38"><p>${esc(t.footer.tagline)}</p></div>
+<div class="ks-foot-brand"><img src="${full('ks-logo-stacked')}" alt="Solomon Luxury Villas" width="180" height="98"><p>${esc(t.footer.tagline)}</p></div>
 <div><h4>${esc(t.footer.explore)}</h4><ul>${['home', ...PAGES].map((p) => `<li><a href="${url(t, p)}">${p === 'home' ? 'King Solomon' : esc(t.nav[p])}</a></li>`).join('')}</ul></div>
 <div><h4>${esc(t.footer.contact)}</h4><ul>${d.phones.map((p) => `<li><a href="tel:${p.replace(/\s/g, '')}" dir="ltr">${p}</a></li>`).join('')}<li><a href="mailto:${d.email}">${d.email}</a></li><li>${esc(d.address)}</li></ul></div>
 <div><h4>${esc(t.footer.follow)}</h4><ul><li><a href="${full('king-solomon-investor-brochure')}" target="_blank" rel="noopener">${esc(t.gallery.brochure[0])}</a></li><li><a href="${url(t, 'gallery')}#downloads">${esc(t.gallery.plansGroup)}</a></li><li><a href="${otherUrl(t, 'home')}">${t.lang === 'he' ? 'English' : 'עברית'}</a></li></ul></div>

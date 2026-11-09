@@ -13,7 +13,14 @@ function heroScene(t) {
 #ksp .k-h1,#ksp .k-h2a{color:#fff;text-shadow:0 2px 24px rgba(8,16,26,.45)}#ksp .k-sub{color:rgba(255,255,255,.88);text-shadow:0 1px 14px rgba(8,16,26,.5)}
 #ksp .k-h2a .k-a80{color:rgba(255,255,255,.85)}#ksp .k-h2a .k-a50{color:rgba(255,255,255,.7)}
 #ksp .k-down{border-color:rgba(255,255,255,.5);color:#fff}#ksp .k-up{border-color:rgba(255,255,255,.4);color:rgba(255,255,255,.8)}
-#ksp .k-dots span{background-color:rgba(255,255,255,.45)}#ksp .k-dots span.is-active{background-color:#fff}</style>`;
+#ksp .k-dots span{background-color:rgba(255,255,255,.45)}#ksp .k-dots span.is-active{background-color:#fff}
+#ksp .k-s1{align-items:center;text-align:center}#ksp .k-s1 .k-st{max-width:1100px}
+#ksp .k-h1{font-size:clamp(38px,5.4vw,88px);font-weight:300;line-height:1.08;letter-spacing:.02em}
+#ksp .k-sub{margin-top:26px;font-size:clamp(12px,1vw,15px);letter-spacing:.26em}
+#ksp[lang=he] .k-h1{text-transform:none;letter-spacing:0;font-weight:300}#ksp[lang=he] .k-sub{letter-spacing:.04em;font-size:clamp(15px,1.25vw,19px)}
+#ksp .k-s2-inner{max-width:1040px;text-align:center}#ksp .k-h2a{font-size:clamp(28px,3.9vw,64px);line-height:1.18;font-weight:300}
+#ksp .k-h2a .k-a50{display:block;margin-top:24px;font-size:clamp(13px,1.1vw,17px);letter-spacing:.2em;line-height:1.7}
+#ksp[lang=he] .k-h2a{text-transform:none;letter-spacing:0;font-weight:400}#ksp .k-h2a .k-a50{color:rgba(255,255,255,.92);text-shadow:0 1px 12px rgba(8,16,26,.6)}#ksp[lang=he] .k-h2a .k-a50{letter-spacing:.03em;font-size:clamp(16px,1.35vw,21px)}</style>`;
   return `${tone}<div id="ksp" lang="${t.lang}" dir="${t.dir}" data-film="${full('ks-hero-film')}">
 <div class="k-track" data-k="track"><div class="k-sticky">
 <video class="k-media" data-k="video" src="${full('ks-hero-film')}" muted playsinline preload="auto"></video>

@@ -932,5 +932,21 @@
   "h": 474,
   "large": "https://sivaninvestgroup.com/wp-content/uploads/2026/10/ks-white-mountains-md.jpg",
   "medium": "https://sivaninvestgroup.com/wp-content/uploads/2026/10/ks-white-mountains-md.jpg"
+ },
+ "ks-logo-row": {
+  "id": 32777,
+  "url": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-row.png",
+  "w": 1090,
+  "h": 189,
+  "large": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-row.png",
+  "medium": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-row.png"
+ },
+ "ks-logo-stacked": {
+  "id": 32778,
+  "url": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-stacked.png",
+  "w": 765,
+  "h": 417,
+  "large": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-stacked.png",
+  "medium": "https://sivaninvestgroup.com/wp-content/uploads/2026/11/ks-logo-stacked.png"
  }
 }

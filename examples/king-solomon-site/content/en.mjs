@@ -15,8 +15,8 @@ export default {
     developer: 'The Developer', contact: 'Contact', type: (n) => `${n === 1 ? 'One' : n === 2 ? 'Two' : n === 3 ? 'Three' : 'Five'} Bedroom Villas`
   },
   hero: {
-    h1: 'Own the horizon', sub: 'Luxury cliffside villas & spa resort · Kalyves, Crete',
-    s2Lead: '21 private villas, each with its own pool, ', s2Mid: '34 metres above the sea', s2Tail: 'on the first line of Crete',
+    h1: 'Where the horizon begins', sub: '21 private luxury villas on a sea cliff · Kalyves, Crete',
+    s2Lead: 'Every morning opens onto the sea, ', s2Mid: 'every evening turns to gold.', s2Tail: '34 metres above the water, 270° of view and a private pool facing the horizon.',
     eyebrow: 'King Solomon · Kalyves | Creta', l1: 'A home above the sea.', l2: 'A life above expectation.', cta: 'Explore the villas'
   },
   home: {
