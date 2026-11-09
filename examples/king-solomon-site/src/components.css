@@ -136,10 +136,11 @@
 /* ---------- Elementor form + accordion skins (native widgets inside .ks) ---------- */
 .ks .elementor-form .elementor-field-group { margin-bottom: 18px; }
 .ks .elementor-form .elementor-field-label { font-size: 11px !important; letter-spacing: .2em; text-transform: uppercase; color: var(--mist) !important; margin-bottom: 8px; font-weight: 500; }
+.ks:lang(he) .elementor-form .elementor-button { font-size: 19px !important; letter-spacing: .04em; }
 .ks:lang(he) .elementor-form .elementor-field-label { letter-spacing: .03em; font-size: 13px !important; }
 .ks .elementor-form .elementor-field-textual, .ks .elementor-form select { background: transparent !important; border: 0 !important; border-bottom: 1px solid rgba(20,38,58,.28) !important; border-radius: 0 !important; padding: 12px 0 !important; font-size: 17px !important; color: var(--ink) !important; box-shadow: none !important; min-height: 48px; }
 .ks .elementor-form .elementor-field-textual:focus, .ks .elementor-form select:focus { border-bottom-color: var(--gold) !important; outline: none; }
-.ks .elementor-form .elementor-button { background: var(--gold) !important; color: var(--ink) !important; border-radius: 40px !important; min-height: 56px; padding: 0 44px !important; font-size: 12px !important; letter-spacing: .24em; text-transform: uppercase; font-weight: 500; transition: background .4s, color .4s; }
+.ks .elementor-form .elementor-button { background: var(--gold) !important; color: var(--ink) !important; border-radius: 40px !important; min-height: 56px; padding: 0 44px !important; font-size: 16px !important; letter-spacing: .16em; text-transform: uppercase; font-weight: 700 !important; transition: background .4s, color .4s; }
 .ks .elementor-form .elementor-button:hover { background: var(--ink) !important; color: var(--gold-soft) !important; }
 .ks.is-ink .elementor-form .elementor-field-textual, .ks.is-ink .elementor-form select { color: #F4EEE4 !important; border-bottom-color: rgba(244,238,228,.3) !important; }
 .ks.is-ink .elementor-form select option { color: var(--ink); }

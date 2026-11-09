@@ -67,7 +67,7 @@ function contactBlock(t, b, pageKey) {
     email_from_name: 'King Solomon Website', email_reply_to: 'email', email_content_type: 'html',
     success_message: t.contact.success, form_validation: 'browser', _css_classes: 'ks-form'
   });
-  return sectionEl([column([faqHead, faq, details], 50, 'ks-box'), column([formHead, form], 50, 'ks-box')], 'ks ks-sec is-ink ks-contact');
+  return sectionEl([column([faqHead, faq], 50, 'ks-box'), column([formHead, form, details], 50, 'ks-box')], 'ks ks-sec is-ink ks-contact');
 }
 
 function accordionBlock(t, b) {
