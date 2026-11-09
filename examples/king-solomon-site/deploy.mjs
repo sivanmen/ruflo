@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const SITE = 'https://sivaninvestgroup.com';
+const SITE = process.env.WP_SITE || 'https://sivaninvestgroup.com';
 const AUTH = 'Basic ' + Buffer.from(`${process.env.WP_USER}:${(process.env.WP_APP_PASSWORD || '').replace(/\s+/g, '')}`).toString('base64');
 const STATE = path.join(HERE, '.deploy-state.json');
 const STATUS = process.argv.includes('--draft') ? 'draft' : 'publish';
