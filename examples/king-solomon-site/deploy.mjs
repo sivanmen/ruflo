@@ -73,6 +73,8 @@ for (const key of Object.keys(TREE)) {
     }
   }
 }
+// FlyingPress purges a URL's cached HTML when its page is updated, not when a page is created there.
+for (const key of recreate) for (const lang of ['he', 'en']) await api('POST', `/wp/v2/pages/${state[lang][key]}`, { status: 'publish' });
 for (const lang of ['he', 'en']) for (const key of Object.keys(TREE)) {
   const p = await api('GET', `/wp/v2/pages/${state[lang][key]}?_fields=link`);
   console.log(`${lang.padEnd(3)} ${key.padEnd(10)} ${p.link}`);

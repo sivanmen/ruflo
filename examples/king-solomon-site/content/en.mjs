@@ -132,7 +132,7 @@ export default {
     success: 'Thank you. The King Solomon team will be in touch shortly.',
     faqTitle: 'Investor questions',
     faq: [
-      ['What is included in the villa price?', 'Prices on the 12.2026 price list include the full design and furnishing package: interior design by an architect and interior designer, imported furniture, a fully equipped kitchen with premium appliances, a private pool and an outdoor kitchen. Your villa is handed over ready to live in, or ready for its first guest.'],
+      ['What is included in the villa price?', 'The full design and furnishing package: interior design, imported furniture, an equipped kitchen, a private pool and an outdoor kitchen.'],
       ['Can I rent the villa out when I am away?', 'Yes, if you choose to. Sivan Management operates the resort with a local team available 24/7 and offers short-term rental management: listing on Booking and Airbnb, dynamic pricing, guest check-in, housekeeping and transparent owner reporting in an app.'],
       ['How does the purchase process work?', 'An introduction call, a private presentation with the current price list, a reservation agreement for your villa, then coordination with Greek lawyers and a notary and, if needed, local bank financing. We accompany you at every step, all the way to the keys.'],
       ['Can I see the project in person?', 'Of course. We will arrange a private presentation at our office in Chania or online. The project is about 22 minutes from Chania International Airport and 12 minutes from the old town.'],
@@ -140,7 +140,8 @@ export default {
       ['What does the shared resort include?', 'A 10 × 4 m shared infinity pool on the cliff edge with a jacuzzi for eight, a gym, a glass-walled sauna, a treatment room and a space for yoga and meditation, a sun deck and lounges, and a panoramic glass lift linking the entrance to the resort level.'],
       ['How close are the sea, the town and the airport?', 'The project sits about 70 metres from the sea as the crow flies, and 30 to 40 steps lead straight down to the beach and the Kalyves promenade. The village centre is 2 minutes away, Chania old town 12 minutes and the international airport 22 minutes by car.'],
       ['How are security and privacy handled?', 'The resort is closed to the public, with three controlled entrances, cameras and face recognition. Every villa has its own entrance and a reinforced door with multi-point locking and fingerprint, code or face access, and cameras are placed outside to keep full privacy inside.'],
-      ['Is financing available?', 'If needed, we coordinate financing from a local Greek bank, together with the lawyers and notary who handle the purchase. Terms depend on the bank and on each buyer, so we review them with you at the presentation stage.']
+      ['Is financing available?', 'If needed, we coordinate financing from a local Greek bank, together with the lawyers and notary who handle the purchase. Terms depend on the bank and on each buyer, so we review them with you at the presentation stage.'],
+      ['Who is behind the project?', 'King Solomon is developed by SivanInvest, a boutique investment house with nearly twenty years of experience that has accompanied hundreds of investors. The project was designed by the international practice 314 Architects, and the resort is operated by Sivan Management.']
     ],
     detailsTitle: 'Our details',
     labels: { email: 'Email', chania: 'Office in Chania', greecePhone: 'Phone in Greece', israel: 'Office in Israel', israelPhone: 'Phone in Israel' },
