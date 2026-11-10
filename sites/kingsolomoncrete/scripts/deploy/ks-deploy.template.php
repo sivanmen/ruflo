@@ -12,11 +12,12 @@ header('Cache-Control: no-store');
 const TOKEN_SHA256 = '__TOKEN_SHA256__';
 const EXPIRES_AT   = __EXPIRES_AT__;   // unix time; after this the script refuses and deletes itself
 const TMP          = __DIR__ . '/.ks-deploy-tmp';
+const KEEP_FILE    = __KEEP__;      // true: stay installed for future updates (token-protected, expires)
 
 function out(int $code, array $b): void { http_response_code($code); echo json_encode($b); exit; }
 
 if (time() > EXPIRES_AT) { @unlink(__FILE__); out(410, ['ok' => false, 'error' => 'expired']); }
-if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') out(404, ['ok' => false]);
+if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') { http_response_code(404); exit; }
 $tok = $_SERVER['HTTP_X_DEPLOY_TOKEN'] ?? '';
 if ($tok === '' || !hash_equals(TOKEN_SHA256, hash('sha256', $tok))) { usleep(800000); out(403, ['ok' => false, 'error' => 'auth']); }
 
@@ -59,7 +60,7 @@ if ($action === 'finish') {
   $count = $z->numFiles; $z->close();
   foreach (glob(TMP . '/{,.}*', GLOB_BRACE) as $f) if (is_file($f)) unlink($f);
   @rmdir(TMP);
-  @unlink(__FILE__);
+  if (!KEEP_FILE) @unlink(__FILE__);
   out(200, ['ok' => true, 'extracted' => $count, 'self_deleted' => !is_file(__FILE__)]);
 }
 

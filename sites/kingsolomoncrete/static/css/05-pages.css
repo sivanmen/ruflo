@@ -199,3 +199,21 @@
 @media (max-width: 700px) { .pair { grid-template-columns: 1fr; } .pair__b { width: 70%; margin: -5rem 0 0 auto; } [dir="rtl"] .pair__b { margin: -5rem auto 0 0; } }
 .ccard__req { font-family: var(--f-body) !important; font-size: .86rem !important; font-weight: 500 !important; color: var(--gold-text); letter-spacing: .02em; }
 .lp-hero__price strong small { font-size: .4em; opacity: .7; }
+
+/* Contact map ------------------------------------------------------------ */
+.kmap { position: relative; border-radius: var(--r); overflow: hidden; border: 1px solid var(--line); background: #EDE7DC; }
+.kmap__img { display: block; position: relative; }
+.kmap__img picture { aspect-ratio: 2 / 1; }
+.kmap__pin { position: absolute; left: 50%; top: 50%; width: 54px; height: 54px; margin: -27px 0 0 -27px; border-radius: 50%; background: var(--ink); display: grid; place-items: center; box-shadow: 0 10px 30px -8px rgba(0,0,0,.5); }
+.kmap__pin img { width: 30px; height: auto; }
+.kmap__pulse { position: absolute; inset: -14px; border-radius: 50%; border: 1px solid var(--gold); animation: kpulse 2.6s var(--ease) infinite; }
+@keyframes kpulse { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(1.5); opacity: 0; } }
+.kmap__card { position: absolute; inset-inline-start: clamp(12px, 3vw, 32px); top: clamp(12px, 3vw, 32px); width: min(360px, calc(100% - 24px)); background: rgba(250,248,244,.94); -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px); border: 1px solid var(--line); border-radius: 18px; padding: 1.4rem 1.5rem; box-shadow: 0 30px 60px -30px rgba(0,0,0,.35); }
+.kmap__card .kicker { margin-bottom: .6rem; }
+.kmap__card .h-md { margin-bottom: .2rem; }
+.kmap__card p { color: var(--ink-2); font-size: .9rem; margin-bottom: .8rem; }
+.kmap__dist { display: grid; margin-bottom: 1.1rem; }
+.kmap__dist li { display: flex; justify-content: space-between; gap: 1rem; padding-block: .45rem; border-bottom: 1px solid var(--line); font-size: .86rem; }
+.kmap__dist b { font-weight: 500; white-space: nowrap; color: var(--gold-text); }
+.kmap__attr { position: absolute; inset-inline-end: 8px; bottom: 6px; margin: 0; font-size: .66rem; color: var(--mute); background: rgba(250,248,244,.8); padding: 1px 6px; border-radius: 4px; }
+@media (max-width: 760px) { .kmap__img picture { aspect-ratio: 4 / 3; } .kmap__card { position: relative; inset: auto; width: auto; margin: 0; border-radius: 0; border: 0; border-top: 1px solid var(--line); box-shadow: none; } }

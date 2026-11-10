@@ -361,5 +361,27 @@
   },
   "whatsappText": "Guten Tag, ich interessiere mich für die King-Solomon-Villen in Kalyves auf Kreta. Könnten Sie mir bitte die aktuelle Verfügbarkeit und die Preise zusenden?",
   "faqTitle": "Fragen von Käufern und Investoren",
-  "faqKicker": "Gut zu wissen"
+  "faqKicker": "Gut zu wissen",
+  "leadEmail": {
+    "subject": "Neue Anfrage",
+    "title": "Neue Anfrage über die Website",
+    "intro": "Ein Besucher wünscht eine private Präsentation von King Solomon.",
+    "call": "Anrufen",
+    "whatsapp": "WhatsApp",
+    "reply": "Per E-Mail antworten",
+    "marketing": "Marketing-Einwilligung",
+    "privacy": "Datenschutz-Einwilligung",
+    "yes": "Ja",
+    "no": "Nein",
+    "page": "Seite",
+    "source": "Formular",
+    "campaign": "Kampagne",
+    "received": "Eingegangen",
+    "language": "Sprache",
+    "inLang": "Wie eingegeben",
+    "inEnglish": "Auf Englisch",
+    "note": "Freitextfelder werden genau so angezeigt, wie der Besucher sie geschrieben hat.",
+    "details": "Kontaktdaten",
+    "interest": "Interesse"
+  }
 }

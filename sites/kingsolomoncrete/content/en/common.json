@@ -361,5 +361,27 @@
   },
   "whatsappText": "Hello, I am interested in the King Solomon villas in Kalyves, Crete. Could you send me availability and prices?",
   "faqTitle": "Investor questions",
-  "faqKicker": "Good to know"
+  "faqKicker": "Good to know",
+  "leadEmail": {
+    "subject": "New enquiry",
+    "title": "New enquiry from the website",
+    "intro": "A visitor has asked for a private presentation of King Solomon.",
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "reply": "Reply by email",
+    "marketing": "Marketing consent",
+    "privacy": "Privacy consent",
+    "yes": "Yes",
+    "no": "No",
+    "page": "Page",
+    "source": "Form",
+    "campaign": "Campaign",
+    "received": "Received",
+    "language": "Language",
+    "inLang": "As submitted",
+    "inEnglish": "In English",
+    "note": "Free-text fields are shown exactly as the visitor wrote them.",
+    "details": "Contact details",
+    "interest": "Interest"
+  }
 }

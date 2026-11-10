@@ -133,12 +133,12 @@ html[dir="rtl"] .flights__t { letter-spacing: .02em; }
 .fld--wide, .lform--compact .fld:nth-child(4) { grid-column: 1 / -1; }
 .fld input, .fld select, .fld textarea { width: 100%; font: inherit; font-size: 1rem; color: var(--ink); background: transparent; border: 0; border-bottom: 1px solid var(--line-2); border-radius: 0; padding: 1.45rem 0 .55rem; transition: border-color .3s; -webkit-appearance: none; appearance: none; }
 .fld textarea { resize: vertical; min-height: 90px; }
-.fld select { background-image: linear-gradient(45deg, transparent 50%, var(--mute) 50%), linear-gradient(135deg, var(--mute) 50%, transparent 50%); background-size: 5px 5px; background-position: calc(100% - 6px) 60%, 100% 60%; background-repeat: no-repeat; padding-inline-end: 1.4rem; }
+.fld select { cursor: pointer; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; background-image: linear-gradient(45deg, transparent 50%, var(--mute) 50%), linear-gradient(135deg, var(--mute) 50%, transparent 50%); background-size: 5px 5px; background-position: calc(100% - 6px) 60%, 100% 60%; background-repeat: no-repeat; padding-inline-end: 1.4rem; }
 [dir="rtl"] .fld select { background-position: 6px 60%, 0 60%; }
 .fld > label:not(.chip) { position: absolute; inset-inline-start: 0; top: 1.4rem; font-size: 1rem; color: var(--mute); pointer-events: none; transition: all .3s var(--ease); transform-origin: left top; }
 [dir="rtl"] .fld > label:not(.chip) { transform-origin: right top; }
 .fld input:focus, .fld select:focus, .fld textarea:focus { outline: none; border-color: var(--gold); }
-.fld input:focus + label, .fld input:not(:placeholder-shown) + label, .fld textarea:focus + label, .fld textarea:not(:placeholder-shown) + label, .fld--sel > label { top: .2rem; font-size: .74rem; letter-spacing: .06em; color: var(--gold-text); }
+.fld input:focus + label, .fld input:not(:placeholder-shown) + label, .fld textarea:focus + label, .fld textarea:not(:placeholder-shown) + label, .fld.fld--sel > label:not(.chip) { top: .2rem; font-size: .74rem; letter-spacing: .06em; color: var(--gold-text); }
 .fld.is-err input, .fld.is-err select { border-color: #B4442E; }
 .fld__err { margin: .3rem 0 0; font-size: .76rem; color: #A13A26; min-height: 0; }
 .fld--radio { border: 0; padding: 0; margin: .6rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
