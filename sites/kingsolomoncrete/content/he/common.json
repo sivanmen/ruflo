@@ -267,8 +267,8 @@
       "אימייל"
     ],
     "message": "הודעה (לא חובה)",
-    "consentPrivacy": "קראתי את {privacy} ואני מסכים/ה שפרטיי יעובדו לצורך מענה לפנייתי.",
-    "consentMarketing": "אני מעוניין/ת לקבל עדכונים, השקות חדשות והצעות על King Solomon באימייל, ב־SMS או ב־WhatsApp. אוכל לבטל את ההרשמה בכל עת.",
+    "consentPrivacy": "קראתי ואני מסכים/ה ל{privacy}.",
+    "consentMarketing": "אשמח לקבל עדכונים והצעות במייל, SMS או וואטסאפ.",
     "privacyLink": "מדיניות הפרטיות",
     "required": "שדה חובה",
     "errorRequired": "נא למלא שדה זה.",
@@ -285,7 +285,8 @@
       "plans": "תוכניות אדריכליות",
       "brochure": "חוברת למשקיעים",
       "pricelist": "מחירון"
-    }
+    },
+    "moreDetails": "פרטים נוספים (לא חובה)"
   },
   "contactInfo": {
     "title": "פרטי התקשרות",

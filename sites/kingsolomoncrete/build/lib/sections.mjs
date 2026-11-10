@@ -102,11 +102,13 @@ ${title ? `<h2 class="h-lg">${title}</h2>` : ''}${text ? `<p class="lead__txt">$
 ${field('name', 'text', ctx.t('common.form.name') + ' *', 'required autocomplete="name" maxlength="120"')}
 ${field('phone', 'tel', ctx.t('common.form.phone') + ' *', 'required autocomplete="tel" inputmode="tel" maxlength="40" dir="ltr"')}
 ${field('email', 'email', ctx.t('common.form.email') + ' *', 'required autocomplete="email" maxlength="160" dir="ltr"')}
-${compact ? '' : field('country', 'text', ctx.t('common.form.country'), 'autocomplete="country-name" maxlength="80"')}
 <div class="fld fld--sel"><select id="${id}-villa" name="villa"><option value="">${ctx.t('common.form.villaAny')}</option><optgroup label="${ctx.t('common.nav.villasShort')}">${collectionsOpts}</optgroup><optgroup label="${ctx.t('common.labels.villas')}">${villaOpts}</optgroup></select><label for="${id}-villa">${ctx.t('common.form.villa')}</label></div>
-${compact ? '' : `<div class="fld fld--sel"><select id="${id}-budget" name="budget"><option value=""></option>${ctx.raw('common.form.budgetOptions').map((b, i) => opt(String(i), b)).join('')}</select><label for="${id}-budget">${ctx.t('common.form.budget')}</label></div>`}
 ${compact ? '' : `<fieldset class="fld fld--radio fld--wide"><legend>${ctx.t('common.form.contactPref')}</legend>${ctx.raw('common.form.contactPrefOptions').map((o, i) => `<label class="chip"><input type="radio" name="pref" value="${['phone', 'whatsapp', 'email'][i]}"${i === 0 ? ' checked' : ''}><span>${ctx.fe(o)}</span></label>`).join('')}</fieldset>`}
-${compact ? '' : `<div class="fld fld--wide"><textarea id="${id}-message" name="message" rows="3" placeholder=" " maxlength="2000"></textarea><label for="${id}-message">${ctx.t('common.form.message')}</label></div>`}
+${compact ? '' : `<details class="lead__more fld--wide"><summary>${ctx.t('common.form.moreDetails')}</summary><div class="lead__grid">
+${field('country', 'text', ctx.t('common.form.country'), 'autocomplete="country-name" maxlength="80"')}
+<div class="fld fld--sel"><select id="${id}-budget" name="budget"><option value=""></option>${ctx.raw('common.form.budgetOptions').map((b, i) => opt(String(i), b)).join('')}</select><label for="${id}-budget">${ctx.t('common.form.budget')}</label></div>
+<div class="fld fld--wide"><textarea id="${id}-message" name="message" rows="3" placeholder=" " maxlength="2000"></textarea><label for="${id}-message">${ctx.t('common.form.message')}</label></div>
+</div></details>`}
 </div>
 <div class="lead__consent">
 <label class="check"><input type="checkbox" name="consent_privacy" value="yes" required><span class="check__box" aria-hidden="true"></span><span>${ctx.t('common.form.consentPrivacy', { privacy })} *</span></label>

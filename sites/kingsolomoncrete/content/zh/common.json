@@ -267,8 +267,8 @@
       "电子邮件"
     ],
     "message": "留言（选填）",
-    "consentPrivacy": "我已阅读{privacy}，并同意为答复我的咨询而处理我的个人信息。",
-    "consentMarketing": "我希望通过电子邮件、短信或 WhatsApp 接收有关 King Solomon 的资讯、新房源发布及优惠信息，并可随时退订。",
+    "consentPrivacy": "我已阅读并同意{privacy}。",
+    "consentMarketing": "我愿意通过电子邮件、短信或WhatsApp接收资讯与优惠。",
     "privacyLink": "《隐私政策》",
     "required": "必填",
     "errorRequired": "请填写此项。",
@@ -285,7 +285,8 @@
       "plans": "建筑平面图",
       "brochure": "投资者手册",
       "pricelist": "价目表"
-    }
+    },
+    "moreDetails": "补充信息（选填）"
   },
   "contactInfo": {
     "title": "联系方式",

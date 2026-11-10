@@ -15,7 +15,8 @@
 .hero__shade, .phero__shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(10,10,9,.45) 0%, rgba(10,10,9,.08) 30%, rgba(10,10,9,.18) 55%, rgba(10,10,9,.78) 100%), linear-gradient(90deg, rgba(10,10,9,.38), rgba(10,10,9,0) 60%); }
 [dir="rtl"] .hero__shade, [dir="rtl"] .phero__shade { background: linear-gradient(180deg, rgba(10,10,9,.45) 0%, rgba(10,10,9,.08) 30%, rgba(10,10,9,.18) 55%, rgba(10,10,9,.78) 100%), linear-gradient(270deg, rgba(10,10,9,.38), rgba(10,10,9,0) 60%); }
 .hero .kicker, .phero .kicker { color: #EBD8B2; text-shadow: 0 1px 14px rgba(0,0,0,.6); }
-@media (max-width: 700px) { .hero__in { padding-bottom: 7.5rem; } .hero__ctas { width: 100%; } .hero__ctas .btn { flex: 1 1 100%; } .hero__row { gap: 1.2rem; } .hero__toggle { bottom: 1.2rem; } }
+@media (max-width: 700px) { .hero__in { padding-bottom: 7.5rem; } .hero__crown { display: none; } .hero__ctas { width: 100%; } .hero__ctas .btn { flex: 1 1 100%; } .hero__row { gap: 1.2rem; padding-top: 1.3rem; } .hero__price { flex-direction: column; gap: .35rem; } .hero__price strong { font-size: 1.55rem; line-height: 1.15; } .hero__toggle { bottom: 1.2rem; } }
+@media (max-height: 720px) and (max-width: 700px) { .hero__sub { margin-bottom: 1.4rem; } .hero__t { margin-bottom: 1rem; } }
 .hero__in { position: relative; padding-bottom: clamp(4.5rem, 10vh, 7rem); }
 .hero__crown { width: 76px; margin-bottom: 1.6rem; opacity: .95; }
 .hero__t { margin-bottom: 1.4rem; text-shadow: 0 2px 40px rgba(0,0,0,.25); }
@@ -144,7 +145,7 @@ html[dir="rtl"] .ccard__k { letter-spacing: .02em; font-size: .82rem; }
 .hs__head .h-xl { margin-bottom: 1rem; max-width: 16em; }
 .hs__head .lead { margin: 0; }
 .hs__track { display: flex; gap: clamp(1rem, 1.6vw, 1.6rem); padding-inline: max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))); will-change: transform; }
-.hs:not(.is-pinned) .hs__track { overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; padding-bottom: 1rem; }
+.hs:not(.is-pinned) .hs__track { overflow-x: auto; scroll-snap-type: x mandatory; scroll-padding-inline: max(var(--gut), calc((100vw - var(--wrap)) / 2 + var(--gut))); scrollbar-width: none; padding-bottom: 1rem; }
 .hs:not(.is-pinned) .hs__track::-webkit-scrollbar { display: none; }
 .hcard { flex: 0 0 clamp(280px, 34vw, 480px); background: var(--paper); border-radius: var(--r); overflow: hidden; border: 1px solid var(--line); scroll-snap-align: start; }
 .hcard__m picture { aspect-ratio: 16 / 11; }

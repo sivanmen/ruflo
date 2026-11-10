@@ -11,7 +11,7 @@ const STRIP = ['rooftop-sea', 'infinity-pool', 'living-room', 'terrace-dining', 
 export function renderLanding(ctx) {
   const L = (k) => ctx.raw(`pages.landing.${k}`);
   const avail = project.villas.filter((v) => v.status === 'available').length;
-  const phone = ctx.lang === 'he' ? ctx.config.contact.phoneIsrael : ctx.config.contact.phoneGreece;
+  const phone = ctx.config.contact.phoneIsrael;
   const time = (s) => esc(String(s).replace(/\s*min$/i, ` ${ctx.tr('common.labels.min')}`));
   const body = `<header class="lph"><div class="wrap lph__in">${logo(ctx, 'gold')}<a class="btn btn--line btn--sm" href="${tel(phone)}" dir="ltr">${icon('phone')} ${phone}</a></div></header>
 <section class="lp-hero"><div class="lp-hero__bg" data-parallax="0.2">${picture('cliff-sea', { eager: true, priority: true, alt: '' })}</div><div class="lp-hero__shade"></div>

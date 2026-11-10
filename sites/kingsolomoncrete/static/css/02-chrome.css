@@ -88,7 +88,8 @@ body.menu-open .hdr .logo { color: var(--ink); }
   .hdr__nav, .hdr__cta { display: none; }
   .hdr__burger { display: block; }
 }
-@media (max-width: 420px) { .logo__name { font-size: 1.1rem; } .logo img { width: 36px; } }
+@media (max-width: 420px) { .logo__name { font-size: 1.1rem; } .logo img { width: 36px; } .hdr__tools { gap: .15rem; } .lang__btn { padding-inline: .45rem; } }
+@media (max-width: 360px) { .logo__place { display: none; } .logo__name { font-size: 1rem; } }
 
 /* Footer ---------------------------------------------------------------- */
 .ftr { background: var(--night); color: rgba(239,234,225,.74); padding-block: clamp(4rem, 9vw, 7rem) 2rem; font-size: .92rem; }

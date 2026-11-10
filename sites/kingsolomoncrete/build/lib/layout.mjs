@@ -59,7 +59,7 @@ function header(ctx, page) {
 <div class="hdr__in">${logo(ctx)}
 <nav class="hdr__nav" aria-label="Main"><ul role="list">${links}</ul></nav>
 <div class="hdr__tools">${langSwitcher(ctx, page.key)}<a class="btn btn--gold btn--sm hdr__cta" href="${ctx.url('contact', 'enquire')}" data-enquire>${ctx.t('common.nav.ctaShort')}</a>
-<button class="hdr__burger" aria-expanded="false" aria-controls="mnav" aria-label="${ctx.t('common.nav.menu')}" data-burger><span></span><span></span></button></div></div>
+<button type="button" class="hdr__a11y" data-a11y-open aria-expanded="false" aria-controls="a11y-p" aria-label="${ctx.t('common.a11y.open')}">${icon('a11y')}</button><button class="hdr__burger" aria-expanded="false" aria-controls="mnav" aria-label="${ctx.t('common.nav.menu')}" data-burger><span></span><span></span></button></div></div>
 <div class="mnav" id="mnav" hidden><nav aria-label="Mobile"><ul role="list">${mobile}</ul></nav>
 <div class="mnav__foot"><a class="btn btn--gold" href="${ctx.url('contact', 'enquire')}">${ctx.t('common.nav.cta')}</a><a class="mnav__wa" href="${waLink(ctx)}" target="_blank" rel="noopener">${icon('whatsapp')} WhatsApp</a></div></div>
 </header>`;
@@ -83,7 +83,7 @@ ${col(ctx.t('common.footer.legal'), [li(ctx.url('privacy'), ctx.t('common.footer
 </div>
 <div class="ftr__langs"><ul role="list">${config.languages.map((l) => `<li><a href="${ctx.urlFor(l.code, ctx.pageKey)}" hreflang="${l.hreflang}" lang="${l.hreflang}">${esc(langName(l.code))}</a></li>`).join('')}</ul></div>
 <p class="ftr__disc">${ctx.t('common.footer.disclaimer')}</p>
-<div class="ftr__bottom"><p>${ctx.t('common.footer.rights')}</p><p>${ctx.t('common.footer.credits')}</p></div>
+<div class="ftr__bottom"><p>${ctx.t('common.footer.rights')}</p></div>
 <p class="ftr__legal" dir="auto">${esc(config.legal.company)} · ${ctx.t('common.companyInfo.vat')} <span dir="ltr">${esc(config.legal.vat)}</span> · <span dir="ltr">${esc(config.legal.companyAddress)}</span> · <a href="${tel(config.contact.phoneGreece)}" dir="ltr">${config.contact.phoneGreece}</a> · <a href="mailto:${config.contact.email}">${config.contact.email}</a></p>
 </div></footer>`;
 }
@@ -109,7 +109,7 @@ ${opt('contrast', ctx.t('common.a11y.contrast'))}${opt('motion', ctx.t('common.a
 
 function stickyBar(ctx) {
   const c = config.contact;
-  return `<div class="sticky" data-sticky><a href="${waLink(ctx)}" target="_blank" rel="noopener" class="sticky__btn" data-track="whatsapp">${icon('whatsapp')}<span>${ctx.t('common.buttons.whatsapp')}</span></a><a href="${tel(ctx.lang === 'he' ? c.phoneIsrael : c.phoneGreece)}" class="sticky__btn" data-track="call">${icon('phone')}<span>${ctx.t('common.buttons.call')}</span></a><a href="${ctx.url('contact', 'enquire')}" class="sticky__btn sticky__btn--gold" data-enquire>${ctx.t('common.nav.ctaShort')}</a></div>`;
+  return `<div class="sticky" data-sticky><a href="${waLink(ctx)}" target="_blank" rel="noopener" class="sticky__btn" data-track="whatsapp">${icon('whatsapp')}<span>${ctx.t('common.buttons.whatsapp')}</span></a><a href="${tel(c.phoneIsrael)}" class="sticky__btn" data-track="call">${icon('phone')}<span>${ctx.t('common.buttons.call')}</span></a><a href="${ctx.url('contact', 'enquire')}" class="sticky__btn sticky__btn--gold" data-enquire>${ctx.t('common.nav.ctaShort')}</a></div>`;
 }
 
 export function documentShell(ctx, page, body) {

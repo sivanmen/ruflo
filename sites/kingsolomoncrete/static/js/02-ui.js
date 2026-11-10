@@ -118,9 +118,12 @@
   };
   const save = () => { if (window.KSC?.allowed('preferences')) store.set('ks_a11y', prefs); };
   const btn = $('.a11y__btn', a); const panel = $('#a11y-p');
-  btn?.addEventListener('click', () => { const o = panel.hidden; panel.hidden = !o; btn.setAttribute('aria-expanded', o); });
-  document.addEventListener('click', (e) => { if (a && !a.contains(e.target) && !panel.hidden) { panel.hidden = true; btn.setAttribute('aria-expanded', false); } });
-  a?.addEventListener('keydown', (e) => { if (e.key === 'Escape') { panel.hidden = true; btn.setAttribute('aria-expanded', false); btn.focus(); } });
+  const hb = $('[data-a11y-open]');
+  const set = (o) => { panel.hidden = !o; btn?.setAttribute('aria-expanded', o); hb?.setAttribute('aria-expanded', o); if (o) $('button', panel)?.focus(); };
+  btn?.addEventListener('click', () => set(panel.hidden));
+  hb?.addEventListener('click', (e) => { e.stopPropagation(); set(panel.hidden); });
+  document.addEventListener('click', (e) => { if (a && !a.contains(e.target) && !panel.hidden) set(false); });
+  a?.addEventListener('keydown', (e) => { if (e.key === 'Escape') { set(false); (hb && hb.offsetParent ? hb : btn).focus(); } });
   $$('[data-a11y]', a).forEach((b) => b.addEventListener('click', () => {
     const k = b.dataset.a11y;
     if (k === 'bigger') prefs.size = Math.min(1.4, +(prefs.size + 0.1).toFixed(2));

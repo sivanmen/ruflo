@@ -141,6 +141,7 @@ html[dir="rtl"] .flights__t { letter-spacing: .02em; }
 .fld input:focus + label, .fld input:not(:placeholder-shown) + label, .fld textarea:focus + label, .fld textarea:not(:placeholder-shown) + label, .fld.fld--sel > label:not(.chip) { top: .2rem; font-size: .74rem; letter-spacing: .06em; color: var(--gold-text); }
 .fld.is-err input, .fld.is-err select { border-color: #B4442E; }
 .fld__err { margin: .3rem 0 0; font-size: .76rem; color: #A13A26; min-height: 0; }
+.fld__err:empty { display: none; }
 .fld--radio { border: 0; padding: 0; margin: .6rem 0 0; display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
 .fld--radio legend { font-size: .74rem; letter-spacing: .06em; color: var(--gold-text); margin-bottom: .5rem; width: 100%; }
 .lead__consent { display: grid; gap: .8rem; margin-bottom: 1.6rem; }
@@ -157,7 +158,31 @@ html[dir="rtl"] .flights__t { letter-spacing: .02em; }
 .lead__msg { padding: 1.4rem; border-radius: var(--r-sm); margin-top: 1.4rem; background: var(--sand); }
 .lead__msg h3 { font-family: var(--f-display); font-size: 1.6rem; margin-bottom: .4rem; }
 .lform.is-done .lead__grid, .lform.is-done .lead__consent, .lform.is-done .lead__foot { display: none; }
-@media (max-width: 560px) { .lead__grid { grid-template-columns: 1fr; } }
+.lead__more { border-bottom: 1px solid var(--line-2); }
+.lead__more summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1rem 0 .7rem; font-size: .92rem; color: var(--ink-2); }
+.lead__more summary::-webkit-details-marker { display: none; }
+.lead__more summary::after { content: '+'; font-size: 1.3rem; line-height: 1; color: var(--gold-text); transition: transform .3s var(--ease); }
+.lead__more[open] summary::after { transform: rotate(45deg); }
+.lead__more .lead__grid { margin-block: 0 1rem; }
+.dark .lead__more summary, .enq__card .lead__more summary { color: inherit; }
+@media (max-width: 560px) {
+  .lead__grid { grid-template-columns: 1fr; gap: .15rem; margin-block: .8rem .9rem; }
+  .lform > .lead__txt, .enq__card > .kicker { display: none; }
+  .enq__card { padding: 1.4rem 1.25rem; }
+  .lform > .h-lg { font-size: 1.6rem; }
+  .fld input, .fld select { padding: 1.05rem 0 .35rem; }
+  .fld > label:not(.chip) { top: 1rem; }
+  .fld input:focus + label, .fld input:not(:placeholder-shown) + label, .fld.fld--sel > label:not(.chip) { top: .05rem; font-size: .7rem; }
+  .fld--radio { margin-top: .9rem; gap: .4rem; }
+  .fld--radio legend { margin-bottom: .35rem; }
+  .fld--radio .chip { padding: .42rem .85rem; font-size: .8rem; }
+  .lead__more summary { padding: .9rem 0 .6rem; font-size: .88rem; }
+  .lead__consent { gap: .55rem; margin-bottom: 1rem; }
+  .check { font-size: .8rem; line-height: 1.45; gap: .65rem; }
+  .lead__foot { gap: .6rem; }
+  .lead__foot .btn { width: 100%; justify-content: center; }
+  .lead__foot .fine { font-size: .74rem; }
+}
 
 /* CTA band -------------------------------------------------------------- */
 .band { position: relative; overflow: hidden; color: #fff; padding-block: clamp(6rem, 16vw, 12rem); text-align: center; background: var(--night); }

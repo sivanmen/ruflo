@@ -267,8 +267,8 @@
       "Correo electrónico"
     ],
     "message": "Mensaje (opcional)",
-    "consentPrivacy": "He leído la {privacy} y acepto que mis datos se traten para responder a mi solicitud.",
-    "consentMarketing": "Deseo recibir noticias, novedades y ofertas sobre King Solomon por correo electrónico, SMS o WhatsApp. Puedo darme de baja en cualquier momento.",
+    "consentPrivacy": "He leído y acepto la {privacy}.",
+    "consentMarketing": "Quiero recibir novedades y ofertas por email, SMS o WhatsApp.",
     "privacyLink": "Política de privacidad",
     "required": "Obligatorio",
     "errorRequired": "Por favor, complete este campo.",
@@ -285,7 +285,8 @@
       "plans": "Planos arquitectónicos",
       "brochure": "Dossier para inversores",
       "pricelist": "Lista de precios"
-    }
+    },
+    "moreDetails": "Más detalles (opcional)"
   },
   "contactInfo": {
     "title": "Nuestros datos",
