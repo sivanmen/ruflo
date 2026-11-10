@@ -5,7 +5,9 @@
 .legal__toc ol { padding-inline-start: 1.2rem; display: grid; gap: .5rem; color: var(--ink-2); }
 .legal__toc a { text-decoration: none; }
 .legal__toc a:hover { color: var(--gold-text); }
-.legal__body { max-width: 780px; }
+.legal__grid > * { min-width: 0; }
+.legal__body { max-width: 780px; overflow-wrap: break-word; }
+.legal__body a { overflow-wrap: anywhere; }
 .legal__body .h-xl { margin-bottom: .8rem; }
 .legal__body .lead { margin-block: 1.6rem 2.4rem; }
 .legal__s { padding-top: 2rem; margin-top: 2rem; border-top: 1px solid var(--line); }

@@ -268,7 +268,7 @@
     ],
     "message": "留言（选填）",
     "consentPrivacy": "我已阅读并同意{privacy}。",
-    "consentMarketing": "我愿意通过电子邮件、短信或WhatsApp接收资讯与优惠。",
+    "consentMarketing": "我愿意通过电子邮件、短信或 WhatsApp 接收最新资讯与优惠信息。",
     "privacyLink": "《隐私政策》",
     "required": "必填",
     "errorRequired": "请填写此项。",
@@ -313,7 +313,7 @@
     "accessibility": "无障碍声明",
     "cookieSettings": "Cookie 设置",
     "rights": "© {year} SivanInvest Group。保留所有权利。",
-    "credits": "开发商：SivanInvest Group · 运营管理：Sivan Management · 建筑设计：建筑师 Alkisti Roussou 与 Theodore Nikoloudakis Architecture Studio 建筑事务所",
+    "credits": "开发商：SivanInvest Group · 运营管理：Sivan Management · 建筑设计：Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
     "disclaimer": "本网站所载信息仅供参考，不构成任何要约、合同或保证。所有图像均为艺术效果图。户型布局、面积、规格及价格可能随项目进展而调整。具有约束力的条款仅以经公证签署的购房合同为准。"
   },
   "cookies": {
@@ -370,7 +370,7 @@
     "cta": "返回首页",
     "metaTitle": "页面未找到｜King Solomon 卡利维斯"
   },
-  "whatsappText": "您好，我对希腊克里特岛卡利维斯的 King Solomon 别墅很感兴趣，能否发送房源及价格信息给我？谢谢！",
+  "whatsappText": "您好，我对希腊克里特岛卡利维斯的 King Solomon 别墅很感兴趣，能否将最新房源情况及价目表发送给我？谢谢！",
   "faqTitle": "投资者常见问题",
   "faqKicker": "购房须知",
   "leadEmail": {

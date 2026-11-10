@@ -5,7 +5,7 @@
       "description": "欣赏 King Solomon 所罗门王克里特岛卡利维斯海景别墅的外观与室内效果图、航拍画面及宣传影片，并可索取投资者手册与建筑平面图。"
     },
     "hero": {
-      "kicker": "图库与资料",
+      "kicker": "图库与影片",
       "title": "先睹其貌，再感其境。",
       "subtitle": "外观与室内效果图、周边环境及宣传影片。"
     },
@@ -86,7 +86,7 @@
     ],
     "group": {
       "kicker": "一个集团，三大业务",
-      "title": "开发商、运营商与投资机构，同属一家。",
+      "title": "开发商、运营商与投资机构，同属一个集团。",
       "items": [
         {
           "title": "SivanInvest",
@@ -135,7 +135,7 @@
     "architects": {
       "kicker": "建筑设计",
       "title": "Alkisti Roussou & Theodore Nikoloudakis",
-      "text": "King Solomon 由两位驻干尼亚的建筑师——建筑师 Alkisti Roussou 与 Theodore Nikoloudakis Architecture Studio 建筑事务所——共同设计。他们的作品涵盖酒店、住宅及款待空间，将当代地中海设计与克里特岛的自然景观和光线融为一体。",
+      "text": "King Solomon 由两家立足干尼亚的设计机构共同设计：建筑师 Alkisti Roussou 与 Theodore Nikoloudakis Architecture Studio。他们的作品涵盖酒店、私人住宅及接待空间，将当代地中海设计与克里特岛的自然景观和光线融为一体。",
       "studios": [
         {
           "name": "Alkisti Roussou",
@@ -225,7 +225,7 @@
       "items": [
         {
           "title": "开发商直售",
-          "text": "无中间商。SivanInvest 亲自开发本项目，并为每一栋别墅提供保障。"
+          "text": "无中间商。SivanInvest 亲自开发本项目，并对每一栋别墅负责。"
         },
         {
           "title": "一站式服务",
