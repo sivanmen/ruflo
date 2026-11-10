@@ -47,7 +47,10 @@
     "closeDialog": "Close",
     "allCollections": "All collections",
     "exploreCollection": "Explore the collection",
-    "requestPrices": "Request the price list"
+    "requestPrices": "Request the price list",
+    "requestPlans": "Request plans",
+    "requestPlansLong": "Request the floor plans",
+    "requestBrochure": "Request the brochure"
   },
   "labels": {
     "from": "From",
@@ -86,7 +89,8 @@
     "type": "Type {code}",
     "page": "Page",
     "priceOnRequest": "Price list on request",
-    "villasAvailable": "{a} of {t} villas available"
+    "villasAvailable": "{a} of {t} villas available",
+    "plansOnRequest": "Floor plans are shared personally with interested buyers."
   },
   "collections": {
     "1-bedroom": {
@@ -122,7 +126,7 @@
       "Outdoor kitchen with grill and lounge",
       "Imported designer furniture package",
       "Bosch, Sauter or equivalent appliances",
-      "Wi-Fi managed semi-smart systems",
+      "Semi-smart systems controlled via Wi-Fi",
       "Reinforced smart-lock entrance door",
       "High-performance insulation and glazing"
     ]
@@ -275,7 +279,13 @@
     "successText": "A member of our team will contact you shortly, usually within one business day.",
     "errorTitle": "Something went wrong.",
     "errorText": "Please try again, or reach us directly by WhatsApp or phone.",
-    "secure": "Your details are encrypted and never shared with third parties for marketing."
+    "secure": "Your details are encrypted and never shared with third parties for marketing.",
+    "requestLabel": "Requested",
+    "requestOptions": {
+      "plans": "Architectural plans",
+      "brochure": "Investor brochure",
+      "pricelist": "Price list"
+    }
   },
   "contactInfo": {
     "title": "Our details",
@@ -291,10 +301,10 @@
     "statement": "A home above the sea. A life above expectation.",
     "explore": "Explore",
     "collections": "Collections",
-    "downloads": "Downloads",
+    "downloads": "Brochure & plans",
     "legal": "Legal",
-    "brochure": "Investor brochure",
-    "plans": "Architectural plans",
+    "brochure": "Request the investor brochure",
+    "plans": "Request architectural plans",
     "offer": "Private investor offer",
     "privacy": "Privacy Policy",
     "cookies": "Cookie Policy",
@@ -302,7 +312,7 @@
     "accessibility": "Accessibility Statement",
     "cookieSettings": "Cookie settings",
     "rights": "© {year} SivanInvest Group. All rights reserved.",
-    "credits": "Developed by SivanInvest Group · Managed by Sivan Management · Architecture by 314 Architects",
+    "credits": "Developed by SivanInvest Group · Managed by Sivan Management · Architecture by Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
     "disclaimer": "The information on this website is indicative and does not constitute an offer, contract or warranty. All visuals are artist's impressions. Layouts, areas, specifications and prices may change as the development progresses. Binding terms are set only in the signed notarial purchase agreement."
   },
   "cookies": {
@@ -359,7 +369,7 @@
     "cta": "Back to the home page",
     "metaTitle": "Page not found | King Solomon Kalyves"
   },
-  "whatsappText": "Hello, I am interested in the King Solomon villas in Kalyves, Crete. Could you send me availability and prices?",
+  "whatsappText": "Hello, I am interested in the King Solomon villas in Kalyves, Crete. Could you send me the current availability and price list?",
   "faqTitle": "Investor questions",
   "faqKicker": "Good to know",
   "leadEmail": {

@@ -35,6 +35,10 @@
 }
 html[data-lang="el"] { --f-display: 'Noto Serif Display', Georgia, serif; --display-w: 300; }
 html[data-lang="he"] { --f-display: 'Frank Ruhl Libre', 'David', serif; --f-body: 'Heebo', 'Arial Hebrew', system-ui, sans-serif; --display-w: 300; --display-ls: 0; }
+html[data-lang="zh"] { --f-display: 'Noto Serif SC', 'Songti SC', 'SimSun', serif; --f-body: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif; --display-w: 400; --display-ls: .02em; }
+html[data-lang="zh"] body { line-height: 1.8; font-weight: 400; }
+html[data-lang="zh"] .kicker, html[data-lang="zh"] .ccard__k, html[data-lang="zh"] .ftr__h, html[data-lang="zh"] .stat__l { letter-spacing: .12em; }
+html[data-lang="zh"] .h-display, html[data-lang="zh"] .h-hero, html[data-lang="zh"] .h-xl { line-height: 1.2; }
 html[data-lang="ar"] { --f-display: 'Amiri', 'Times New Roman', serif; --f-body: 'IBM Plex Sans Arabic', 'Geeza Pro', system-ui, sans-serif; --display-w: 400; --display-ls: 0; }
 
 *, *::before, *::after { box-sizing: border-box; }

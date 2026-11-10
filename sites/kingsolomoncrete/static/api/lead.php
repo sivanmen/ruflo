@@ -48,7 +48,7 @@ $clean = static fn(string $k, int $max = 200): string => trim(mb_substr(strip_ta
 $lead = [
   'name' => $clean('name', 120), 'phone' => $clean('phone', 40), 'email' => $clean('email', 160),
   'country' => $clean('country', 80), 'villa' => $clean('villa', 40), 'budget' => $clean('budget', 4),
-  'pref' => $clean('pref', 20), 'message' => $clean('message', 2000), 'lang' => $clean('lang', 5),
+  'pref' => $clean('pref', 20), 'request' => $clean('request', 20), 'message' => $clean('message', 2000), 'lang' => $clean('lang', 5),
   'source' => $clean('source', 40), 'page' => $clean('page', 200),
   'utm' => json_decode($clean('utm', 1500), true) ?: [],
   'consent_privacy' => ($_POST['consent_privacy'] ?? '') === 'yes',
@@ -71,7 +71,9 @@ function rows(array $T, array $lead): array {
   $budget = ctype_digit($lead['budget']) ? ($T['budget'][(int) $lead['budget']] ?? '') : '';
   $pref = isset($prefKeys[$lead['pref']]) ? ($T['pref'][$prefKeys[$lead['pref']]] ?? $lead['pref']) : '';
   $L = $T['labels'] ?? [];
+  $req = $lead['request'] !== '' ? ($T['request']['options'][$lead['request']] ?? '') : '';
   $r = [
+    [$T['request']['label'] ?? 'Requested', $req, false],
     [$L['name'] ?? 'Name', $lead['name'], true],
     [$L['phone'] ?? 'Phone', $lead['phone'], false],
     [$L['email'] ?? 'Email', $lead['email'], false],

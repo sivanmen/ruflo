@@ -255,14 +255,25 @@
 
   /* Enquire buttons pre-select the villa in the form --------------------- */
   document.addEventListener('click', (e) => {
-    const a = e.target.closest('[data-enquire][data-villa]');
+    const a = e.target.closest('[data-enquire]');
     if (!a) return;
-    try { sessionStorage.setItem('ks_villa', a.dataset.villa); } catch {}
-    const sel = $('form[data-lead] select[name="villa"]');
-    if (sel && $('#enquire')) { sel.value = a.dataset.villa; }
+    try {
+      if (a.dataset.villa) sessionStorage.setItem('ks_villa', a.dataset.villa);
+      sessionStorage.setItem('ks_request', a.dataset.request || '');
+    } catch {}
+    if ($('#enquire')) applyPrefill();
   });
-  try {
-    const v = sessionStorage.getItem('ks_villa');
-    if (v) $$('form[data-lead] select[name="villa"]').forEach((s) => (s.value = v));
-  } catch {}
+  function applyPrefill() {
+    try {
+      const v = sessionStorage.getItem('ks_villa');
+      const r = sessionStorage.getItem('ks_request') || '';
+      $$('form[data-lead]').forEach((f) => {
+        if (v && f.villa) f.villa.value = v;
+        if (f.request) f.request.value = r;
+        const note = f.querySelector('[data-request-note]');
+        if (note) { const t = note.dataset[r] || ''; note.textContent = t; note.hidden = !t; }
+      });
+    } catch {}
+  }
+  applyPrefill();
 })();

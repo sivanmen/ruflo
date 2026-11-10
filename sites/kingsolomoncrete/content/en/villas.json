@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Villas & Availability | King Solomon Luxury Villas, Kalyves Crete",
-    "description": "Live availability of the 21 King Solomon villas in Kalyves, Crete: 1, 2, 3 and 5 bedroom rooftop and garden residences with private pools. Download every plan."
+    "description": "Live availability of the 21 King Solomon villas in Kalyves, Crete: 1, 2, 3 and 5 bedroom rooftop and garden residences with private pools. Plans on request."
   },
   "hero": {
     "kicker": "The villas",
     "title": "Twenty-one residences. One horizon.",
-    "subtitle": "Rooftop and garden villas on two levels of the cliff. Choose your villa, check its status and download its plans."
+    "subtitle": "Rooftop and garden villas on two levels of the cliff. Choose your villa, check its status and request its plans."
   },
   "availability": {
     "kicker": "Live availability",
@@ -33,7 +33,8 @@
     "layoutsText": "Every layout is drawn to make the most of light, privacy and the sea.",
     "inCollection": "Villas in this collection",
     "others": "Other collections",
-    "plansNote": "Plans are indicative and may be adjusted during final design."
+    "plansNote": "Floor plans are indicative and are shared personally on request.",
+    "plansLocked": "The detailed floor plan of this layout is available on request."
   },
   "1-bedroom": {
     "meta": {
@@ -66,7 +67,7 @@
   "3-bedroom": {
     "meta": {
       "title": "Three-Bedroom Rooftop Villas with Pool | King Solomon Kalyves, Crete",
-      "description": "Three-bedroom rooftop villas in Kalyves, Crete, with private roof garden, pool, outdoor kitchen and panoramic sea views. Fully furnished. Price list on request."
+      "description": "Three-bedroom rooftop villas in Kalyves, Crete, with a private roof garden, pool, outdoor kitchen and panoramic sea views. Price list on request."
     },
     "title": "A sky terrace for every evening.",
     "lead": "Where the horizon becomes the main room.",

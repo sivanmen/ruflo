@@ -217,3 +217,20 @@
 .kmap__dist b { font-weight: 500; white-space: nowrap; color: var(--gold-text); }
 .kmap__attr { position: absolute; inset-inline-end: 8px; bottom: 6px; margin: 0; font-size: .66rem; color: var(--mute); background: rgba(250,248,244,.8); padding: 1px 6px; border-radius: 4px; }
 @media (max-width: 760px) { .kmap__img picture { aspect-ratio: 4 / 3; } .kmap__card { position: relative; inset: auto; width: auto; margin: 0; border-radius: 0; border: 0; border-top: 1px solid var(--line); box-shadow: none; } }
+
+/* Plans on request + architects ----------------------------------------- */
+.pane__plan--locked { display: block; position: relative; overflow: hidden; }
+.pane__plan--locked picture { filter: blur(9px) saturate(.6); transform: scale(1.08); opacity: .55; }
+.lock { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .9rem; padding: 1.5rem; text-align: center; background: linear-gradient(180deg, rgba(250,248,244,.35), rgba(250,248,244,.75)); }
+.lock__ico { width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--gold-2); }
+.lock__t { max-width: 26em; font-size: .95rem; color: var(--ink); }
+.plink { cursor: pointer; }
+.lead__req { margin: .6rem 0 0; padding: .55rem .9rem; border-radius: 999px; background: var(--sand); color: var(--gold-text); font-size: .84rem; display: inline-block; }
+.lead__req::before { content: '✓ '; }
+.studios { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0 0 2rem; }
+.studios a { display: flex; align-items: center; gap: 1rem; padding: 1.1rem 1.2rem; border: 1px solid var(--line); border-radius: var(--r); background: var(--paper); text-decoration: none; transition: border-color .3s, transform .3s var(--ease); height: 100%; }
+.studios a:hover { border-color: var(--gold); transform: translateY(-3px); }
+.studios img { width: auto; height: 46px; flex: none; }
+.studios strong { display: block; font-family: var(--f-display); font-weight: 400; font-size: 1.2rem; line-height: 1.2; }
+.studios em { font-style: normal; font-size: .8rem; color: var(--mute); }
+@media (max-width: 560px) { .studios { grid-template-columns: 1fr; } }

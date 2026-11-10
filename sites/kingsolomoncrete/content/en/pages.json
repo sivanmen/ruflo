@@ -1,20 +1,18 @@
 {
   "gallery": {
     "meta": {
-      "title": "Gallery, Film & Plans | King Solomon Villas Kalyves, Crete",
-      "description": "Renders, aerial views, interiors and the film of King Solomon in Kalyves, Crete. Download the investor brochure, the masterplan and the plans of all 21 villas."
+      "title": "Gallery & Film | King Solomon Villas Kalyves, Crete",
+      "description": "Exterior and interior renders, aerial views and the film of King Solomon in Kalyves, Crete. Request the investor brochure and the architectural plans."
     },
     "hero": {
-      "kicker": "Gallery & downloads",
+      "kicker": "Gallery & film",
       "title": "See it before you feel it.",
-      "subtitle": "Renders, film, plans and the investor brochure."
+      "subtitle": "Exterior and interior renders, the location and the film."
     },
     "filters": {
       "all": "All",
-      "architecture": "Architecture",
-      "pools": "Pools & terraces",
-      "rooftops": "Rooftops",
-      "interiors": "Interiors",
+      "exterior": "Exterior renders",
+      "interior": "Interior renders",
       "location": "Location"
     },
     "film": {
@@ -23,21 +21,21 @@
       "text": "A few quiet moments above the cliff, in motion."
     },
     "downloads": {
-      "kicker": "Downloads",
-      "title": "Plans, brochure and masterplan.",
+      "kicker": "Brochure & plans",
+      "title": "The full details, sent to you personally.",
+      "text": "The investor brochure and the architectural plans of every villa are shared personally with interested buyers. Leave your details and we will send them to you, together with the current price list.",
       "brochure": "Investor brochure",
+      "brochureMeta": "PDF · 51 pages · on request",
+      "plans": "Architectural plans",
+      "plansMeta": "All 21 villas · on request",
       "masterplan": "Masterplan",
-      "plansTitle": "Architectural plans by villa",
-      "villasLabel": "Villas {v}",
-      "villaLabel": "Villa {v}",
-      "basement": "lower level",
-      "roof": "roof garden"
+      "masterplanMeta": "JPG · download"
     }
   },
   "developer": {
     "meta": {
       "title": "The Developer | SivanInvest Group & Sivan Management, Chania Crete",
-      "description": "King Solomon is developed by SivanInvest Group, a boutique real estate investment house with nearly 20 years of experience, and managed on site in Chania by Sivan Management."
+      "description": "King Solomon is developed by SivanInvest Group, a boutique real estate investment house with nearly 20 years of experience, and managed in Chania by Sivan Management."
     },
     "hero": {
       "kicker": "The developer",
@@ -136,8 +134,20 @@
     },
     "architects": {
       "kicker": "Architecture",
-      "title": "314 Architects",
-      "text": "The project was designed by the international architecture studio 314 Architects, blending contemporary Mediterranean design with the natural topography of the Cretan coast."
+      "title": "Alkisti Roussou & Theodore Nikoloudakis",
+      "text": "King Solomon was designed by two Chania-based practices: architect Alkisti Roussou and Theodore Nikoloudakis Architecture Studio. Their work across hotels, private residences and hospitality spaces blends contemporary Mediterranean design with the natural landscape and light of Crete.",
+      "studios": [
+        {
+          "name": "Alkisti Roussou",
+          "role": "Architect",
+          "url": "https://alkistiroussou.com"
+        },
+        {
+          "name": "Theodore Nikoloudakis",
+          "role": "Architecture Studio",
+          "url": "https://tnarch.gr"
+        }
+      ]
     }
   },
   "contact": {
@@ -169,7 +179,7 @@
     },
     "why": {
       "title": "A villa in Crete, on another level.",
-      "text": "A boutique collection of 21 villas where design is part of the value. Contemporary Mediterranean architecture by 314 Architects, a private pool for every villa and a resort-level infinity pool, spa and glass elevator, all on the cliff above Souda Bay.",
+      "text": "A boutique collection of 21 villas where design is part of the value. Contemporary Mediterranean architecture by Alkisti Roussou and Theodore Nikoloudakis, a private pool for every villa and a resort-level infinity pool, spa and glass elevator, all on the cliff above Souda Bay.",
       "items": [
         {
           "title": "First line to the sea",

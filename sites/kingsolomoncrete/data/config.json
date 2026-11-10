@@ -58,6 +58,22 @@
       "dir": "ltr",
       "fonts": "greek",
       "short": "ΕΛ"
+    },
+    {
+      "code": "ru",
+      "locale": "ru_RU",
+      "hreflang": "ru",
+      "dir": "ltr",
+      "fonts": "cyrillic",
+      "short": "RU"
+    },
+    {
+      "code": "zh",
+      "locale": "zh_CN",
+      "hreflang": "zh-Hans",
+      "dir": "ltr",
+      "fonts": "cjk",
+      "short": "中文"
     }
   ],
   "legal": {

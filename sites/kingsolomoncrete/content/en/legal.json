@@ -2,68 +2,283 @@
   "updatedLabel": "Last updated: {date}",
   "tocLabel": "On this page",
   "privacy": {
-    "meta": { "title": "Privacy Policy | King Solomon Kalyves", "description": "How SivanInvest Group collects, uses and protects personal data on kingsolomoncrete.com, in line with the EU GDPR, Greek Law 4624/2019 and the Israeli Privacy Protection Law." },
+    "meta": {
+      "title": "Privacy Policy | King Solomon Kalyves",
+      "description": "How SivanInvest Group collects, uses and protects personal data on kingsolomoncrete.com, in line with the EU GDPR, Greek Law 4624/2019 and the Israeli Privacy Protection Law."
+    },
     "title": "Privacy Policy",
     "intro": "Your privacy matters to us. This policy explains which personal data we collect when you visit {site} or contact us about King Solomon, why we collect it, how long we keep it and which rights you have. It is written to comply with the EU General Data Protection Regulation (GDPR, Regulation (EU) 2016/679), Greek Law 4624/2019, the ePrivacy rules on cookies and the Israeli Privacy Protection Law, 5741-1981, including Amendment No. 13.",
     "sections": [
-      { "h": "1. Who is responsible for your data", "p": ["The controller of your personal data is {company}, {companyAddress} (\"we\", \"us\"). Sivan Management, our operating company in Chania, may act on our behalf to answer enquiries and manage the resort.", "For any privacy question or to exercise your rights, write to {privacyEmail} or to our Chania office at 2 Plateia Eleftherias, 73132 Chania, Crete, Greece."] },
-      { "h": "2. Data we collect", "list": ["Enquiry data you give us: name, phone number, email address, country of residence, villa of interest, budget range, preferred contact method and your message.", "Communication data: the content and date of calls, emails and WhatsApp messages you exchange with our team.", "Technical data: IP address (shortened where possible), browser type, device, pages viewed and referral source, collected through strictly necessary cookies and, only with your consent, analytics and marketing tools.", "Consent records: the date, time and choices you make in our cookie banner and forms, so that we can prove and honour your decisions."] },
-      { "h": "3. Why we use your data and our legal basis", "list": ["To answer your enquiry, send you the price list, brochure and plans and arrange a presentation: steps at your request prior to a contract (Art. 6(1)(b) GDPR).", "To send you news and offers about King Solomon by email, SMS or WhatsApp: only with your explicit opt-in consent (Art. 6(1)(a) GDPR and Section 30A of the Israeli Communications Law), which you can withdraw at any time.", "To measure and improve the website and our advertising: only with your consent via the cookie banner (Art. 6(1)(a) GDPR and Art. 4(5) of Greek Law 3471/2006).", "To keep the site secure, prevent fraud and spam and defend legal claims: our legitimate interests (Art. 6(1)(f) GDPR).", "To comply with legal obligations, for example anti-money-laundering checks if you proceed to purchase (Art. 6(1)(c) GDPR)."] },
-      { "h": "4. Who receives your data", "p": ["We never sell your data. We share it only with: our group companies (SivanInvest Group and Sivan Management) to handle your request; carefully selected service providers acting on our instructions, such as website hosting, email delivery, CRM and, with your consent, analytics and advertising providers (Google Ireland Ltd., Meta Platforms Ireland Ltd.); and, if you proceed to purchase, the lawyers, notaries, banks and authorities involved in the transaction.", "All processors are bound by data processing agreements under Art. 28 GDPR."] },
-      { "h": "5. International transfers", "p": ["Our team works in Greece and Israel. The European Commission has recognised Israel as providing an adequate level of data protection, so transfers to our Israeli office are permitted under Art. 45 GDPR. Where a provider processes data in other countries, such as the United States, we rely on the EU-U.S. Data Privacy Framework or on the European Commission's Standard Contractual Clauses."] },
-      { "h": "6. How long we keep your data", "list": ["Enquiries without a purchase: up to 24 months after our last contact, then deleted or anonymised.", "Marketing consent: until you withdraw it, plus proof of consent for as long as required by law.", "Buyers' data: for the period required by Greek tax, notarial and anti-money-laundering law.", "Cookie consent records: 12 months, after which we ask you again."] },
-      { "h": "7. Your rights", "p": ["Under the GDPR you have the right to access your data, to have it corrected or erased, to restrict or object to its processing, to data portability and to withdraw consent at any time without affecting earlier processing. Under the Israeli Privacy Protection Law you have the right to review the information held about you and to request its correction or deletion, and to ask to be removed from any direct-mailing list.", "To exercise any right, contact {privacyEmail}. We will respond within one month. You may also lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr), with the supervisory authority of your EU country of residence, or with the Israeli Privacy Protection Authority (www.gov.il/en/departments/the_privacy_protection_authority)."] },
-      { "h": "8. Security", "p": ["The site is served exclusively over encrypted HTTPS. Access to enquiry data is limited to authorised team members, protected by strong authentication, and our providers are selected for their security standards. No transmission over the internet is completely secure, but we take appropriate technical and organisational measures under Art. 32 GDPR and the Israeli Privacy Protection (Data Security) Regulations, 5777-2017."] },
-      { "h": "9. Minors", "p": ["This website is intended for adults considering a property purchase. We do not knowingly collect data from persons under 18."] },
-      { "h": "10. Changes to this policy", "p": ["We may update this policy when our services or the law change. The current version is always available on this page, with the date of the latest update."] }
+      {
+        "h": "1. Who is responsible for your data",
+        "p": [
+          "The controller of your personal data is {company}, {companyAddress} (\"we\", \"us\"). Sivan Management, our operating company in Chania, may act on our behalf to answer enquiries and manage the resort.",
+          "For any privacy question or to exercise your rights, write to {privacyEmail} or to our Chania office at 2 Plateia Eleftherias, 73132 Chania, Crete, Greece."
+        ]
+      },
+      {
+        "h": "2. Data we collect",
+        "list": [
+          "Enquiry data you give us: name, phone number, email address, country of residence, villa of interest, budget range, preferred contact method and your message.",
+          "Communication data: the content and date of calls, emails and WhatsApp messages you exchange with our team.",
+          "Technical data: IP address (shortened where possible), browser type, device, pages viewed and referral source, collected through strictly necessary cookies and, only with your consent, analytics and marketing tools.",
+          "Consent records: the date, time and choices you make in our cookie banner and forms, so that we can prove and honour your decisions."
+        ]
+      },
+      {
+        "h": "3. Why we use your data and our legal basis",
+        "list": [
+          "To answer your enquiry, send you the price list, brochure and plans and arrange a presentation: steps at your request prior to a contract (Art. 6(1)(b) GDPR).",
+          "To send you news and offers about King Solomon by email, SMS or WhatsApp: only with your explicit opt-in consent (Art. 6(1)(a) GDPR and Section 30A of the Israeli Communications Law), which you can withdraw at any time.",
+          "To measure and improve the website and our advertising: only with your consent via the cookie banner (Art. 6(1)(a) GDPR and Art. 4(5) of Greek Law 3471/2006).",
+          "To keep the site secure, prevent fraud and spam and defend legal claims: our legitimate interests (Art. 6(1)(f) GDPR).",
+          "To comply with legal obligations, for example anti-money-laundering checks if you proceed to purchase (Art. 6(1)(c) GDPR)."
+        ]
+      },
+      {
+        "h": "4. Who receives your data",
+        "p": [
+          "We never sell your data. We share it only with: our group companies (SivanInvest Group and Sivan Management) to handle your request; carefully selected service providers acting on our instructions, such as website hosting, email delivery, CRM and, with your consent, analytics and advertising providers (Google Ireland Ltd., Meta Platforms Ireland Ltd.); and, if you proceed to purchase, the lawyers, notaries, banks and authorities involved in the transaction.",
+          "All processors are bound by data processing agreements under Art. 28 GDPR."
+        ]
+      },
+      {
+        "h": "5. International transfers",
+        "p": [
+          "Our team works in Greece and Israel. The European Commission has recognised Israel as providing an adequate level of data protection, so transfers to our Israeli office are permitted under Art. 45 GDPR. Where a provider processes data in other countries, such as the United States, we rely on the EU-U.S. Data Privacy Framework or on the European Commission's Standard Contractual Clauses."
+        ]
+      },
+      {
+        "h": "6. How long we keep your data",
+        "list": [
+          "Enquiries without a purchase: up to 24 months after our last contact, then deleted or anonymised.",
+          "Marketing consent: until you withdraw it, plus proof of consent for as long as required by law.",
+          "Buyers' data: for the period required by Greek tax, notarial and anti-money-laundering law.",
+          "Cookie consent records: 12 months, after which we ask you again."
+        ]
+      },
+      {
+        "h": "7. Your rights",
+        "p": [
+          "Under the GDPR you have the right to access your data, to have it corrected or erased, to restrict or object to its processing, to data portability and to withdraw consent at any time without affecting earlier processing. Under the Israeli Privacy Protection Law you have the right to review the information held about you and to request its correction or deletion, and to ask to be removed from any direct-mailing list.",
+          "To exercise any right, contact {privacyEmail}. We will respond within one month. You may also lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr), with the supervisory authority of your EU country of residence, or with the Israeli Privacy Protection Authority (www.gov.il/en/departments/the_privacy_protection_authority)."
+        ]
+      },
+      {
+        "h": "8. Security",
+        "p": [
+          "The site is served exclusively over encrypted HTTPS. Access to enquiry data is limited to authorised team members, protected by strong authentication, and our providers are selected for their security standards. No transmission over the internet is completely secure, but we take appropriate technical and organisational measures under Art. 32 GDPR and the Israeli Privacy Protection (Data Security) Regulations, 5777-2017."
+        ]
+      },
+      {
+        "h": "9. Minors",
+        "p": [
+          "This website is intended for adults considering a property purchase. We do not knowingly collect data from persons under 18."
+        ]
+      },
+      {
+        "h": "10. Changes to this policy",
+        "p": [
+          "We may update this policy when our services or the law change. The current version is always available on this page, with the date of the latest update."
+        ]
+      }
     ]
   },
   "cookies": {
-    "meta": { "title": "Cookie Policy | King Solomon Kalyves", "description": "Which cookies kingsolomoncrete.com uses, why, for how long, and how to change your consent at any time." },
+    "meta": {
+      "title": "Cookie Policy | King Solomon Kalyves",
+      "description": "Which cookies kingsolomoncrete.com uses, why, for how long, and how to change your consent at any time."
+    },
     "title": "Cookie Policy",
     "intro": "Cookies are small text files stored on your device when you visit a website. Similar technologies include local storage and pixels. This policy explains which ones {site} uses. Apart from strictly necessary ones, nothing is stored or read on your device until you give your consent.",
     "sections": [
-      { "h": "1. How we ask for consent", "p": ["When you first visit, a banner lets you accept all, reject all or choose by category. Rejecting is as easy as accepting. Analytics and marketing tools are blocked until you opt in, and we use Google Consent Mode v2 so that Google services respect your choice. Your choice is stored for 12 months."] },
-      { "h": "2. Change or withdraw your consent", "p": ["You can change your mind at any time with the “Cookie settings” link at the bottom of every page. You can also delete cookies in your browser settings."] },
-      { "h": "3. Cookies we use", "p": ["The table below lists the cookies and similar technologies that may be used on this site, by category."] },
-      { "h": "4. Third-party services", "p": ["Google Analytics 4 and Google Ads are provided by Google Ireland Ltd. Meta Pixel is provided by Meta Platforms Ireland Ltd. These providers may process data outside the EU under the safeguards described in our Privacy Policy. Fonts and all other assets are hosted on our own server: no data is sent to font providers."] }
+      {
+        "h": "1. How we ask for consent",
+        "p": [
+          "When you first visit, a banner lets you accept all, reject all or choose by category. Rejecting is as easy as accepting. Analytics and marketing tools are blocked until you opt in, and we use Google Consent Mode v2 so that Google services respect your choice. Your choice is stored for 12 months."
+        ]
+      },
+      {
+        "h": "2. Change or withdraw your consent",
+        "p": [
+          "You can change your mind at any time with the “Cookie settings” link at the bottom of every page. You can also delete cookies in your browser settings."
+        ]
+      },
+      {
+        "h": "3. Cookies we use",
+        "p": [
+          "The table below lists the cookies and similar technologies that may be used on this site, by category."
+        ]
+      },
+      {
+        "h": "4. Third-party services",
+        "p": [
+          "Google Analytics 4 and Google Ads are provided by Google Ireland Ltd. Meta Pixel is provided by Meta Platforms Ireland Ltd. These providers may process data outside the EU under the safeguards described in our Privacy Policy. Fonts and all other assets are hosted on our own server: no data is sent to font providers."
+        ]
+      }
     ],
-    "table": { "name": "Name", "provider": "Provider", "purpose": "Purpose", "duration": "Duration", "category": "Category" },
+    "table": {
+      "name": "Name",
+      "provider": "Provider",
+      "purpose": "Purpose",
+      "duration": "Duration",
+      "category": "Category"
+    },
     "rows": [
-      { "name": "ks_consent", "provider": "King Solomon", "purpose": "Stores your cookie choices", "duration": "12 months", "category": "necessary" },
-      { "name": "ks_lang", "provider": "King Solomon", "purpose": "Remembers your dismissal of the language suggestion", "duration": "12 months", "category": "necessary" },
-      { "name": "ks_a11y", "provider": "King Solomon", "purpose": "Remembers your accessibility settings", "duration": "12 months", "category": "preferences" },
-      { "name": "_ga, _ga_*", "provider": "Google", "purpose": "Distinguishes visitors for aggregated statistics", "duration": "Up to 13 months", "category": "analytics" },
-      { "name": "_gcl_au", "provider": "Google", "purpose": "Measures the effectiveness of Google Ads", "duration": "90 days", "category": "marketing" },
-      { "name": "_fbp", "provider": "Meta", "purpose": "Measures Meta advertising and builds audiences", "duration": "90 days", "category": "marketing" }
+      {
+        "name": "ks_consent",
+        "provider": "King Solomon",
+        "purpose": "Stores your cookie choices",
+        "duration": "12 months",
+        "category": "necessary"
+      },
+      {
+        "name": "ks_lang",
+        "provider": "King Solomon",
+        "purpose": "Remembers your dismissal of the language suggestion",
+        "duration": "12 months",
+        "category": "necessary"
+      },
+      {
+        "name": "ks_a11y",
+        "provider": "King Solomon",
+        "purpose": "Remembers your accessibility settings",
+        "duration": "12 months",
+        "category": "preferences"
+      },
+      {
+        "name": "_ga, _ga_*",
+        "provider": "Google",
+        "purpose": "Distinguishes visitors for aggregated statistics",
+        "duration": "Up to 13 months",
+        "category": "analytics"
+      },
+      {
+        "name": "_gcl_au",
+        "provider": "Google",
+        "purpose": "Measures the effectiveness of Google Ads",
+        "duration": "90 days",
+        "category": "marketing"
+      },
+      {
+        "name": "_fbp",
+        "provider": "Meta",
+        "purpose": "Measures Meta advertising and builds audiences",
+        "duration": "90 days",
+        "category": "marketing"
+      }
     ]
   },
   "terms": {
-    "meta": { "title": "Terms of Use & Disclaimer | King Solomon Kalyves", "description": "Terms of use of kingsolomoncrete.com and important information about the indicative nature of prices, visuals and specifications." },
+    "meta": {
+      "title": "Terms of Use & Disclaimer | King Solomon Kalyves",
+      "description": "Terms of use of kingsolomoncrete.com and important information about the indicative nature of prices, visuals and specifications."
+    },
     "title": "Terms of Use & Disclaimer",
     "intro": "By using {site} you accept these terms. Please read them, together with our Privacy Policy and Cookie Policy.",
     "sections": [
-      { "h": "1. About this website", "p": ["This website presents the King Solomon villa resort in Kalyves, Chania, Crete, developed by {company}. It is provided for general information and marketing purposes."] },
-      { "h": "2. No offer or advice", "p": ["Nothing on this website constitutes an offer, a contract, a warranty or legal, tax or financial advice. Prices, availability, areas, layouts, specifications, brands and facilities are indicative, may change without notice and are binding only when set out in a signed notarial purchase agreement. Information on taxation, residency programmes, rental income or financing is general and depends on your personal circumstances: always obtain independent professional advice."] },
-      { "h": "3. Visuals", "p": ["Images, films and plans are artist's impressions and computer-generated visualisations. Furniture, landscaping, views and finishes shown are illustrative and may differ from the delivered property."] },
-      { "h": "4. Intellectual property", "p": ["All content on this website, including texts, images, films, plans, logos and design, is owned by or licensed to {company} and 314 Architects and is protected by copyright and trademark law. You may view and download materials for personal, non-commercial evaluation of the project only."] },
-      { "h": "5. Acceptable use", "p": ["You agree not to misuse the website, attempt to gain unauthorised access, send unsolicited messages through our forms or copy content for commercial purposes."] },
-      { "h": "6. Liability", "p": ["We take care to keep this website accurate and available, but we cannot guarantee that it is complete, current or free from errors or interruptions. To the extent permitted by law, we are not liable for any loss arising from reliance on its content. Nothing in these terms limits liability that cannot be limited under applicable law, including consumer protection law."] },
-      { "h": "7. Links", "p": ["Links to third-party websites, such as maps or booking platforms, are provided for convenience. We are not responsible for their content or privacy practices."] },
-      { "h": "8. Governing law", "p": ["These terms are governed by Greek law. If you are a consumer, you also benefit from any mandatory provisions of the law of your country of residence. Disputes fall under the jurisdiction of the courts of Chania, without prejudice to your statutory rights. The European Commission's online dispute resolution information is available at https://consumer-redress.ec.europa.eu."] },
-      { "h": "9. Contact", "p": ["{company} · 2 Plateia Eleftherias, 73132 Chania, Crete, Greece · {email}"] }
+      {
+        "h": "1. About this website",
+        "p": [
+          "This website presents the King Solomon villa resort in Kalyves, Chania, Crete, developed by {company}. It is provided for general information and marketing purposes."
+        ]
+      },
+      {
+        "h": "2. No offer or advice",
+        "p": [
+          "Nothing on this website constitutes an offer, a contract, a warranty or legal, tax or financial advice. Prices, availability, areas, layouts, specifications, brands and facilities are indicative, may change without notice and are binding only when set out in a signed notarial purchase agreement. Information on taxation, residency programmes, rental income or financing is general and depends on your personal circumstances: always obtain independent professional advice."
+        ]
+      },
+      {
+        "h": "3. Visuals",
+        "p": [
+          "Images, films and plans are artist's impressions and computer-generated visualisations. Furniture, landscaping, views and finishes shown are illustrative and may differ from the delivered property."
+        ]
+      },
+      {
+        "h": "4. Intellectual property",
+        "p": [
+          "All content on this website, including texts, images, films, plans, logos and design, is owned by or licensed to {company} and the project architects and is protected by copyright and trademark law. You may view and save these materials, including any documents we send you on request, solely for your personal, non-commercial evaluation of the project."
+        ]
+      },
+      {
+        "h": "5. Acceptable use",
+        "p": [
+          "You agree not to misuse the website, attempt to gain unauthorised access, send unsolicited messages through our forms or copy content for commercial purposes."
+        ]
+      },
+      {
+        "h": "6. Liability",
+        "p": [
+          "We take care to keep this website accurate and available, but we cannot guarantee that it is complete, current or free from errors or interruptions. To the extent permitted by law, we are not liable for any loss arising from reliance on its content. Nothing in these terms limits liability that cannot be limited under applicable law, including consumer protection law."
+        ]
+      },
+      {
+        "h": "7. Links",
+        "p": [
+          "Links to third-party websites, such as maps or booking platforms, are provided for convenience. We are not responsible for their content or privacy practices."
+        ]
+      },
+      {
+        "h": "8. Governing law",
+        "p": [
+          "These terms are governed by Greek law. If you are a consumer, you also benefit from any mandatory provisions of the law of your country of residence. Disputes fall under the jurisdiction of the courts of Chania, without prejudice to your statutory rights. The European Commission's online dispute resolution information is available at https://consumer-redress.ec.europa.eu."
+        ]
+      },
+      {
+        "h": "9. Contact",
+        "p": [
+          "{company} · 2 Plateia Eleftherias, 73132 Chania, Crete, Greece · {email}"
+        ]
+      }
     ]
   },
   "accessibility": {
-    "meta": { "title": "Accessibility Statement | King Solomon Kalyves", "description": "Our commitment to an accessible website for everyone, in line with WCAG 2.1 AA, Israeli Standard IS 5568 and the European Accessibility Act." },
+    "meta": {
+      "title": "Accessibility Statement | King Solomon Kalyves",
+      "description": "Our commitment to an accessible website for everyone, in line with WCAG 2.1 AA, Israeli Standard IS 5568 and the European Accessibility Act."
+    },
     "title": "Accessibility Statement",
     "intro": "We want everyone to be able to discover King Solomon, including people with disabilities. This website has been designed and built with accessibility in mind, aiming to conform to the Web Content Accessibility Guidelines (WCAG) 2.1 at level AA, Israeli Standard IS 5568, the Israeli Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations, 5773-2013, and the principles of the European Accessibility Act (Directive (EU) 2019/882).",
     "sections": [
-      { "h": "1. What we have done", "list": ["Semantic HTML structure with landmarks, headings and a skip-to-content link.", "Full keyboard navigation with clearly visible focus indicators.", "Text alternatives for meaningful images and accessible names for all controls.", "Colour contrast meeting WCAG AA for text, and layouts that adapt to zoom up to 200% and to mobile screens.", "Right-to-left layouts for Hebrew and Arabic.", "Animations and video that stop automatically when your system requests reduced motion, and a control to stop them manually.", "An accessibility menu to enlarge text, increase contrast, highlight links, use a more readable font and stop animations.", "Forms with visible labels, clear error messages and no time limits."] },
-      { "h": "2. Known limitations", "p": ["Architectural plans in PDF format and some computer-generated visualisations may not be fully accessible. On request, we will gladly describe them in detail or provide the information in another format."] },
-      { "h": "3. Physical accessibility", "p": ["The resort is planned with a panoramic glass elevator connecting the upper entrance with the pool and resort level. Our Chania office can arrange presentations online or at an accessible venue on request."] },
-      { "h": "4. Feedback and contact", "p": ["If you encounter any barrier on this website, please tell us. Our accessibility coordinator will respond as soon as possible and no later than within 5 business days.", "Accessibility coordinator: {a11yName} · {a11yEmail} · {a11yPhone}"] },
-      { "h": "5. Date of this statement", "p": ["This statement was prepared on {date} and is reviewed regularly."] }
+      {
+        "h": "1. What we have done",
+        "list": [
+          "Semantic HTML structure with landmarks, headings and a skip-to-content link.",
+          "Full keyboard navigation with clearly visible focus indicators.",
+          "Text alternatives for meaningful images and accessible names for all controls.",
+          "Colour contrast meeting WCAG AA for text, and layouts that adapt to zoom up to 200% and to mobile screens.",
+          "Right-to-left layouts for Hebrew and Arabic.",
+          "Animations and video that stop automatically when your system requests reduced motion, and a control to stop them manually.",
+          "An accessibility menu to enlarge text, increase contrast, highlight links, use a more readable font and stop animations.",
+          "Forms with visible labels, clear error messages and no time limits."
+        ]
+      },
+      {
+        "h": "2. Known limitations",
+        "p": [
+          "Architectural plans in PDF format and some computer-generated visualisations may not be fully accessible. On request, we will gladly describe them in detail or provide the information in another format."
+        ]
+      },
+      {
+        "h": "3. Physical accessibility",
+        "p": [
+          "The resort is planned with a panoramic glass elevator connecting the upper entrance with the pool and resort level. Our Chania office can arrange presentations online or at an accessible venue on request."
+        ]
+      },
+      {
+        "h": "4. Feedback and contact",
+        "p": [
+          "If you encounter any barrier on this website, please tell us. Our accessibility coordinator will respond as soon as possible and no later than within 5 business days.",
+          "Accessibility coordinator: {a11yName} · {a11yEmail} · {a11yPhone}"
+        ]
+      },
+      {
+        "h": "5. Date of this statement",
+        "p": [
+          "This statement was prepared on {date} and is reviewed regularly."
+        ]
+      }
     ]
   }
 }

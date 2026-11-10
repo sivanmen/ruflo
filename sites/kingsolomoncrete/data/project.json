@@ -218,11 +218,7 @@
    "interior": "87.3 + 87.3",
    "outdoor": 90.7,
    "pool": 14.8,
-   "status": "reserved",
-   "plans": [
-    "ks-villa-1-3-5-7-plans.pdf",
-    "ks-villa-1-3-5-7-basement-plans.pdf"
-   ]
+   "status": "reserved"
   },
   {
    "no": 2,
@@ -231,11 +227,7 @@
    "interior": "87.3",
    "outdoor": 116.6,
    "pool": 17.7,
-   "status": "sold",
-   "plans": [
-    "ks-villa-2-4-6-8-plans.pdf",
-    "ks-villa-2-4-6-8-roof-gardens.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 3,
@@ -244,11 +236,7 @@
    "interior": "87.3 + 86.5",
    "outdoor": 32.2,
    "pool": 14.5,
-   "status": "sold",
-   "plans": [
-    "ks-villa-1-3-5-7-plans.pdf",
-    "ks-villa-1-3-5-7-basement-plans.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 4,
@@ -257,11 +245,7 @@
    "interior": "87.3",
    "outdoor": 87.3,
    "pool": 17.7,
-   "status": "sold",
-   "plans": [
-    "ks-villa-2-4-6-8-plans.pdf",
-    "ks-villa-2-4-6-8-roof-gardens.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 5,
@@ -270,11 +254,7 @@
    "interior": "87.9 + 87.4",
    "outdoor": 21.4,
    "pool": 14.5,
-   "status": "available",
-   "plans": [
-    "ks-villa-1-3-5-7-plans.pdf",
-    "ks-villa-1-3-5-7-basement-plans.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 6,
@@ -283,11 +263,7 @@
    "interior": "87.8",
    "outdoor": 90,
    "pool": 17.7,
-   "status": "reserved",
-   "plans": [
-    "ks-villa-2-4-6-8-plans.pdf",
-    "ks-villa-2-4-6-8-roof-gardens.pdf"
-   ]
+   "status": "reserved"
   },
   {
    "no": 7,
@@ -296,11 +272,7 @@
    "interior": "87.8 + 90.8",
    "outdoor": 23.8,
    "pool": 11.8,
-   "status": "available",
-   "plans": [
-    "ks-villa-1-3-5-7-plans.pdf",
-    "ks-villa-1-3-5-7-basement-plans.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 8,
@@ -309,11 +281,7 @@
    "interior": "87.9",
    "outdoor": 116.6,
    "pool": 17.7,
-   "status": "available",
-   "plans": [
-    "ks-villa-2-4-6-8-plans.pdf",
-    "ks-villa-2-4-6-8-roof-gardens.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 9,
@@ -322,11 +290,7 @@
    "interior": "69.3 + 69.3",
    "outdoor": 35.2,
    "pool": 13.3,
-   "status": "available",
-   "plans": [
-    "ks-villa-9-plan.pdf",
-    "ks-villa-9-basement-plan.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 10,
@@ -335,11 +299,7 @@
    "interior": "69.3",
    "outdoor": 77.6,
    "pool": 16.5,
-   "status": "available",
-   "plans": [
-    "ks-villa-10-plan.pdf",
-    "ks-villa-10-roof-garden.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 11,
@@ -348,10 +308,7 @@
    "interior": "42.2",
    "outdoor": 13.4,
    "pool": 6,
-   "status": "sold",
-   "plans": [
-    "ks-villa-11-13-plans.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 12,
@@ -360,11 +317,7 @@
    "interior": "49.6",
    "outdoor": 40,
    "pool": 12.7,
-   "status": "reserved",
-   "plans": [
-    "ks-villa-12-14-plans.pdf",
-    "ks-villa-12-14-roof-garden.pdf"
-   ]
+   "status": "reserved"
   },
   {
    "no": 13,
@@ -373,10 +326,7 @@
    "interior": "42.6",
    "outdoor": 13.4,
    "pool": 6,
-   "status": "available",
-   "plans": [
-    "ks-villa-11-13-plans.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 14,
@@ -385,11 +335,7 @@
    "interior": "49.6",
    "outdoor": 50.4,
    "pool": 12.7,
-   "status": "reserved",
-   "plans": [
-    "ks-villa-12-14-plans.pdf",
-    "ks-villa-12-14-roof-garden.pdf"
-   ]
+   "status": "reserved"
   },
   {
    "no": 15,
@@ -398,10 +344,7 @@
    "interior": "61.5",
    "outdoor": 30.6,
    "pool": 12.7,
-   "status": "available",
-   "plans": [
-    "ks-villa-15-plan.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 16,
@@ -410,11 +353,7 @@
    "interior": "42.6",
    "outdoor": 41,
    "pool": 12.7,
-   "status": "sold",
-   "plans": [
-    "ks-villa-16-plan.pdf",
-    "ks-villa-16-roof-garden.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 17,
@@ -423,10 +362,7 @@
    "interior": "60.8",
    "outdoor": 32,
    "pool": 11.3,
-   "status": "available",
-   "plans": [
-    "ks-villa-17-18-19-plans.pdf"
-   ]
+   "status": "available"
   },
   {
    "no": 18,
@@ -435,10 +371,7 @@
    "interior": "59.7",
    "outdoor": 32.6,
    "pool": 12.3,
-   "status": "reserved",
-   "plans": [
-    "ks-villa-17-18-19-plans.pdf"
-   ]
+   "status": "reserved"
   },
   {
    "no": 19,
@@ -447,10 +380,7 @@
    "interior": "64.4",
    "outdoor": 20.2,
    "pool": 14.6,
-   "status": "sold",
-   "plans": [
-    "ks-villa-17-18-19-plans.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 20,
@@ -459,10 +389,7 @@
    "interior": "60.6",
    "outdoor": 16.7,
    "pool": 10.8,
-   "status": "sold",
-   "plans": [
-    "ks-villa-20-21-plans.pdf"
-   ]
+   "status": "sold"
   },
   {
    "no": 21,
@@ -471,121 +398,37 @@
    "interior": "60.6",
    "outdoor": 28,
    "pool": 13.1,
-   "status": "sold",
-   "plans": [
-    "ks-villa-20-21-plans.pdf"
-   ]
-  }
- ],
- "downloads": [
-  {
-   "key": "brochure",
-   "file": "king-solomon-investor-brochure.pdf",
-   "meta": "PDF · 51"
-  },
-  {
-   "key": "villas1357",
-   "file": "ks-villa-1-3-5-7-plans.pdf",
-   "villas": "1, 3, 5, 7"
-  },
-  {
-   "key": "villas1357b",
-   "file": "ks-villa-1-3-5-7-basement-plans.pdf",
-   "villas": "1, 3, 5, 7",
-   "variant": "basement"
-  },
-  {
-   "key": "villas2468",
-   "file": "ks-villa-2-4-6-8-plans.pdf",
-   "villas": "2, 4, 6, 8"
-  },
-  {
-   "key": "villas2468r",
-   "file": "ks-villa-2-4-6-8-roof-gardens.pdf",
-   "villas": "2, 4, 6, 8",
-   "variant": "roof"
-  },
-  {
-   "key": "villa9",
-   "file": "ks-villa-9-plan.pdf",
-   "villas": "9"
-  },
-  {
-   "key": "villa9b",
-   "file": "ks-villa-9-basement-plan.pdf",
-   "villas": "9",
-   "variant": "basement"
-  },
-  {
-   "key": "villa10",
-   "file": "ks-villa-10-plan.pdf",
-   "villas": "10"
-  },
-  {
-   "key": "villa10r",
-   "file": "ks-villa-10-roof-garden.pdf",
-   "villas": "10",
-   "variant": "roof"
-  },
-  {
-   "key": "villas1113",
-   "file": "ks-villa-11-13-plans.pdf",
-   "villas": "11, 13"
-  },
-  {
-   "key": "villas1214",
-   "file": "ks-villa-12-14-plans.pdf",
-   "villas": "12, 14"
-  },
-  {
-   "key": "villas1214r",
-   "file": "ks-villa-12-14-roof-garden.pdf",
-   "villas": "12, 14",
-   "variant": "roof"
-  },
-  {
-   "key": "villa15",
-   "file": "ks-villa-15-plan.pdf",
-   "villas": "15"
-  },
-  {
-   "key": "villa16",
-   "file": "ks-villa-16-plan.pdf",
-   "villas": "16"
-  },
-  {
-   "key": "villa16r",
-   "file": "ks-villa-16-roof-garden.pdf",
-   "villas": "16",
-   "variant": "roof"
-  },
-  {
-   "key": "villas171819",
-   "file": "ks-villa-17-18-19-plans.pdf",
-   "villas": "17, 18, 19"
-  },
-  {
-   "key": "villas2021",
-   "file": "ks-villa-20-21-plans.pdf",
-   "villas": "20, 21"
+   "status": "sold"
   }
  ],
  "gallery": [
   {
+   "img": "living-room-2",
+   "cat": "interior"
+  },
+  {
+   "img": "interior-kitchen-2",
+   "cat": "interior"
+  },
+  {
+   "img": "resort-pool-sea",
+   "cat": "exterior"
+  },
+  {
    "img": "cliff-sea",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "infinity-pool",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "rooftop-sea",
-   "cat": "rooftops"
+   "cat": "exterior"
   },
   {
    "img": "living-room",
-   "cat": "interiors"
+   "cat": "interior"
   },
   {
    "img": "kalyves-beach",
@@ -593,7 +436,7 @@
   },
   {
    "img": "lifestyle-pool",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "location-day",
@@ -601,35 +444,35 @@
   },
   {
    "img": "facade-gardens",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "terrace-dining",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "rooftop-pavilion",
-   "cat": "rooftops"
+   "cat": "exterior"
   },
   {
    "img": "interior-kitchen",
-   "cat": "interiors"
+   "cat": "interior"
   },
   {
    "img": "aerial-pools",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "resort-pool-2",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "rooftop-lounge",
-   "cat": "rooftops"
+   "cat": "exterior"
   },
   {
    "img": "interior-bedroom",
-   "cat": "interiors"
+   "cat": "interior"
   },
   {
    "img": "location-dusk",
@@ -637,71 +480,71 @@
   },
   {
    "img": "villa-curves",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "terrace-horizon",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "rooftop-sofa",
-   "cat": "rooftops"
+   "cat": "exterior"
   },
   {
    "img": "gym",
-   "cat": "interiors"
+   "cat": "interior"
   },
   {
    "img": "hillside",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "aerial-terraces",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "rooftop-pergola",
-   "cat": "rooftops"
+   "cat": "exterior"
   },
   {
    "img": "gym-2",
-   "cat": "interiors"
+   "cat": "interior"
   },
   {
    "img": "entrance",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "villa-sea",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "terrace-table",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "gym-pavilion",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "villa-curves-2",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "resort-front",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "hillside-2",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "aerial-2",
-   "cat": "architecture"
+   "cat": "exterior"
   },
   {
    "img": "resort-front-2",
-   "cat": "pools"
+   "cat": "exterior"
   },
   {
    "img": "kalyves-harbour",
@@ -709,7 +552,7 @@
   },
   {
    "img": "spa-jacuzzi",
-   "cat": "pools"
+   "cat": "interior"
   },
   {
    "img": "kalyves-promenade",
@@ -725,7 +568,19 @@
   },
   {
    "img": "wellness-yoga",
-   "cat": "interiors"
+   "cat": "interior"
+  },
+  {
+   "img": "resort-pool-3",
+   "cat": "exterior"
+  },
+  {
+   "img": "aerial-wide",
+   "cat": "location"
+  },
+  {
+   "img": "location-sea-path",
+   "cat": "location"
   }
  ],
  "levels": [
