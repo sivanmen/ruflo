@@ -1,0 +1,244 @@
+{
+  "gallery": {
+    "meta": {
+      "title": "Galerie et film | Villas King Solomon à Kalyves, Crète",
+      "description": "Vues extérieures et intérieures, images aériennes et film de King Solomon, villas de luxe à Kalyves, en Crète. Brochure et plans sur demande."
+    },
+    "hero": {
+      "kicker": "Galerie & film",
+      "title": "Voyez-le avant de le ressentir.",
+      "subtitle": "Vues extérieures et intérieures, la situation et le film."
+    },
+    "filters": {
+      "all": "Tout",
+      "exterior": "Vues extérieures",
+      "interior": "Vues intérieures",
+      "location": "Situation",
+      "lifestyle": "Art de vivre"
+    },
+    "film": {
+      "kicker": "Le film",
+      "title": "Des premières lueurs au crépuscule sur Kalyves.",
+      "text": "Quelques instants de sérénité au-dessus de la falaise, en mouvement."
+    },
+    "downloads": {
+      "kicker": "Brochure & plans",
+      "title": "Tous les détails, transmis personnellement.",
+      "text": "La brochure investisseurs et les plans d’architecte de chaque villa sont transmis personnellement aux acquéreurs intéressés. Laissez-nous vos coordonnées : nous vous les adresserons, accompagnés de la grille tarifaire en vigueur.",
+      "brochure": "Brochure investisseurs",
+      "brochureMeta": "PDF · 51 pages · sur demande",
+      "plans": "Plans d’architecte",
+      "plansMeta": "Les 21 villas · sur demande",
+      "masterplan": "Plan de masse",
+      "masterplanMeta": "JPG · à télécharger"
+    }
+  },
+  "developer": {
+    "meta": {
+      "title": "Promoteur immobilier en Crète : SivanInvest | King Solomon",
+      "description": "King Solomon est développé par SivanInvest Group, maison d’investissement immobilier boutique forte de près de 20 ans d’expérience, et géré à La Canée par Sivan Management."
+    },
+    "hero": {
+      "kicker": "Le promoteur",
+      "title": "Nous ne partons pas du marché. Nous partons de vous.",
+      "subtitle": "King Solomon est développé par SivanInvest Group et géré sur place par Sivan Management."
+    },
+    "about": {
+      "kicker": "SivanInvest Group",
+      "title": "Une maison d’investissement boutique, ancrée en Grèce.",
+      "text": "SivanInvest est une maison d’investissement boutique qui sélectionne, développe, gère et accompagne des investissements immobiliers en Israël et, avant tout, en Grèce. Forts de près de deux décennies d’expérience dans la finance et de près de dix ans de présence sur le marché grec, nous avons guidé des centaines d’investisseurs sur un parcours personnalisé et soigneusement planifié.",
+      "text2": "Chaque opportunité est soumise à la même discipline : étude de marché, due diligence approfondie, examen attentif des partenaires et des entreprises, modèles de flux de trésorerie et scénarios de stress. La préservation du capital passe avant la maximisation du rendement. Toujours."
+    },
+    "values": [
+      {
+        "title": "Un accompagnement personnalisé",
+        "text": "Un interlocuteur dédié qui coordonne les aspects financiers, juridiques et opérationnels de votre acquisition."
+      },
+      {
+        "title": "Une transparence totale",
+        "text": "Vous voyez ce que nous analysons, les indicateurs que nous utilisons, ce que tout coûte et ce qui protège votre capital."
+      },
+      {
+        "title": "Une équipe pluridisciplinaire",
+        "text": "Immobilier, promotion, dette privée et fonds, aux côtés d’avocats, d’experts-comptables, d’experts en évaluation et de gestionnaires d’actifs."
+      },
+      {
+        "title": "Sur le terrain, en Crète",
+        "text": "Un bureau au cœur de La Canée et une équipe opérationnelle locale disponible 24 h/24, 7 j/7."
+      }
+    ],
+    "numbers": [
+      {
+        "value": "20",
+        "label": "Ans d’expérience en investissement"
+      },
+      {
+        "value": "10",
+        "label": "Ans sur le marché grec"
+      },
+      {
+        "value": "Centaines",
+        "label": "Investisseurs accompagnés"
+      },
+      {
+        "value": "24/7",
+        "label": "Équipe locale à La Canée"
+      }
+    ],
+    "group": {
+      "kicker": "Un groupe, trois métiers",
+      "title": "Promoteur, exploitant et maison d’investissement sous un même toit.",
+      "items": [
+        {
+          "title": "SivanInvest",
+          "text": "Développe King Solomon et pilote l’acquisition foncière, la conception, les partenaires de construction et les relations investisseurs."
+        },
+        {
+          "title": "Sivan Management",
+          "text": "Exploite le resort : équipements communs, entretien des villas, ménage, location et gestion des revenus."
+        },
+        {
+          "title": "HARMONY",
+          "text": "Le fonds obligataire adossé à l’immobilier du groupe, pour les investisseurs qui privilégient une approche à revenu fixe de l’immobilier grec."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Votre parcours",
+      "title": "Du premier échange à la remise des clés.",
+      "steps": [
+        {
+          "title": "Premier échange",
+          "text": "Une conversation personnelle sur vos objectifs, votre budget et votre calendrier."
+        },
+        {
+          "title": "Présentation privée",
+          "text": "Le projet, les villas et la grille tarifaire en vigueur, à La Canée ou en ligne."
+        },
+        {
+          "title": "Réservation",
+          "text": "Choisissez votre villa et sécurisez-la par un contrat de réservation."
+        },
+        {
+          "title": "Aspects juridiques & financement",
+          "text": "Nous coordonnons l’avocat grec, le notaire et, si nécessaire, le financement auprès d’une banque locale."
+        },
+        {
+          "title": "Aménagement & livraison",
+          "text": "Votre villa est achevée avec l’ensemble de son pack design et ameublement."
+        },
+        {
+          "title": "Gestion",
+          "text": "Gestion et location facultatives par Sivan Management, avec reporting dans l’application propriétaire."
+        }
+      ]
+    },
+    "architects": {
+      "kicker": "Architecture",
+      "title": "Alkisti Roussou & Theodore Nikoloudakis",
+      "text": "King Solomon a été conçu par deux agences établies à La Canée : l’architecte Alkisti Roussou et Theodore Nikoloudakis Architecture Studio. Leurs réalisations – hôtels, résidences et lieux d’accueil – allient le design méditerranéen contemporain au paysage naturel et à la lumière de la Crète.",
+      "studios": [
+        {
+          "name": "Alkisti Roussou",
+          "role": "Architecte",
+          "url": "https://alkistiroussou.com"
+        },
+        {
+          "name": "Theodore Nikoloudakis",
+          "role": "Studio d’architecture",
+          "url": "https://tnarch.gr"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact et présentation privée | Villas King Solomon, Crète",
+      "description": "Réservez une présentation privée de King Solomon à La Canée ou en ligne. Bureaux à La Canée et Ness Ziona. Tél. +30 698 392 4820 ou +972 52 451 8134."
+    },
+    "hero": {
+      "kicker": "Contact",
+      "title": "Parlons de votre horizon.",
+      "subtitle": "Disponibilités, prix et présentation privée. Nous serons ravis d’échanger avec vous."
+    },
+    "visit": {
+      "title": "Rendez-nous visite à La Canée",
+      "text": "Notre bureau se trouve place Eleftherias, au centre de La Canée, à 12 minutes des villas. Les visites du site se font sur rendez-vous."
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "Villa vue mer avec piscine privée en Crète | King Solomon",
+      "description": "Dernières villas à Kalyves : villas meublées en surplomb de la mer, piscine privée, vue à 270°, à 12 min de La Canée. Planifiez un appel."
+    },
+    "hero": {
+      "badge": "Dernières villas disponibles",
+      "priceLead": "Dernières villas disponibles",
+      "title": "Votre villa, votre piscine et la mer, en Crète.",
+      "text": "Entièrement meublée, gérée par des professionnels et prête à louer dès la remise des clés. Sur une falaise en front de mer à Kalyves, à 12 minutes de La Canée.",
+      "cta": "Planifier un appel"
+    },
+    "why": {
+      "title": "Une villa en Crète, à un tout autre niveau.",
+      "text": "Une collection boutique de 21 villas où le design fait partie de la valeur. Une architecture méditerranéenne contemporaine signée Alkisti Roussou et Theodore Nikoloudakis, une piscine privée pour chaque villa et, au niveau du resort, une piscine à débordement, un spa et un ascenseur vitré, le tout sur la falaise surplombant la baie de Souda.",
+      "items": [
+        {
+          "title": "En premier rang face à la mer",
+          "text": "À 34 m au-dessus de l’eau, à 70 m du rivage, avec environ 270° de vue mer dégagée."
+        },
+        {
+          "title": "Clés en main et meublée",
+          "text": "Mobilier design, vraie cuisine, cuisine d’été et systèmes connectés inclus dans le prix."
+        },
+        {
+          "title": "Des revenus pendant votre absence",
+          "text": "Gestion locative facultative sur Booking.com et Airbnb, avec un reporting transparent pour le propriétaire."
+        },
+        {
+          "title": "À vos côtés, à chaque étape",
+          "text": "Une équipe dédiée à La Canée et en Israël, du premier appel à la remise des clés, et au-delà."
+        }
+      ]
+    },
+    "around": {
+      "title": "Tout est à portée de main.",
+      "items": [
+        {
+          "time": "1 min",
+          "text": "Les marches vers la mer, la promenade et les tavernes"
+        },
+        {
+          "time": "2 min",
+          "text": "Le village de Kalyves : cafés, boulangeries, supermarchés"
+        },
+        {
+          "time": "12 min",
+          "text": "La vieille ville de La Canée et le port vénitien"
+        },
+        {
+          "time": "22 min",
+          "text": "Aéroport international de La Canée"
+        }
+      ]
+    },
+    "trust": {
+      "title": "Pourquoi acheter avec SivanInvest ?",
+      "items": [
+        {
+          "title": "En direct du promoteur",
+          "text": "Sans intermédiaire. SivanInvest développe le projet et s’engage sur chaque villa."
+        },
+        {
+          "title": "Un interlocuteur unique",
+          "text": "Juridique, fiscalité, financement, aménagement, gestion et location, coordonnés par une seule équipe."
+        },
+        {
+          "title": "Accompagnement au financement local",
+          "text": "Conseils sur le financement bancaire grec, sous réserve d’éligibilité et d’acceptation du dossier."
+        }
+      ]
+    },
+    "formTitle": "Laissez vos coordonnées, nous vous rappelons.",
+    "formText": "Recevez la grille tarifaire, les plans et les disponibilités des dernières villas."
+  }
+}

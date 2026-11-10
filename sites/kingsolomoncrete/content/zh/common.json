@@ -1,0 +1,420 @@
+{
+  "langName": "中文",
+  "brand": {
+    "name": "King Solomon",
+    "tagline": "卡利维斯 · 克里特岛",
+    "descriptor": "悬崖海景别墅与水疗度假村",
+    "slogan": "坐拥海平线。"
+  },
+  "nav": {
+    "home": "首页",
+    "project": "项目介绍",
+    "villas": "别墅与房源",
+    "villasShort": "别墅",
+    "gallery": "图库",
+    "developer": "开发商",
+    "contact": "联系我们",
+    "cta": "预约私人专场介绍",
+    "ctaShort": "咨询",
+    "menu": "菜单",
+    "close": "关闭",
+    "language": "语言",
+    "skip": "跳至主要内容",
+    "breadcrumbHome": "King Solomon"
+  },
+  "buttons": {
+    "exploreVillas": "探索别墅",
+    "viewAvailability": "查看实时房源",
+    "viewAll": "查看全部别墅",
+    "discover": "了解更多",
+    "enquire": "立即咨询",
+    "enquireVilla": "咨询 {no} 号别墅",
+    "download": "下载",
+    "openGallery": "打开图库",
+    "watchFilm": "观看影片",
+    "whatsapp": "WhatsApp",
+    "call": "致电",
+    "send": "提交申请",
+    "sending": "正在提交…",
+    "backToTop": "返回顶部",
+    "viewPlan": "查看平面图",
+    "plan": "平面图",
+    "planN": "平面图 {n}",
+    "readMore": "阅读更多",
+    "scroll": "向下滑动",
+    "prev": "上一个",
+    "next": "下一个",
+    "closeDialog": "关闭",
+    "allCollections": "全部系列",
+    "exploreCollection": "探索该系列",
+    "requestPrices": "索取价目表",
+    "requestPlans": "索取平面图",
+    "requestPlansLong": "索取户型平面图",
+    "requestBrochure": "索取项目手册"
+  },
+  "labels": {
+    "from": "起",
+    "available": "可售",
+    "reserved": "已预订",
+    "sold": "已售",
+    "availableOf": "共 {t} 套，可售 {a} 套",
+    "lastOne": "仅余最后一套",
+    "soldOut": "已全部预订",
+    "villa": "别墅",
+    "villas": "别墅",
+    "bedrooms": "卧室",
+    "bedroomN": "{n} 间卧室",
+    "bedroomsN": "{n} 间卧室",
+    "level": "楼层",
+    "interior": "室内",
+    "outdoor": "户外",
+    "pool": "私人泳池",
+    "status": "状态",
+    "plans": "平面图",
+    "sqm": "㎡",
+    "min": "分钟",
+    "priceList": "价目表 {v}",
+    "rooftop": "顶层露台别墅",
+    "garden": "花园别墅",
+    "rooftopShort": "顶层",
+    "gardenShort": "花园",
+    "internal": "室内",
+    "external": "花园／露台",
+    "balconies": "阳台",
+    "roof": "屋顶花园",
+    "levelFirstRoof": "上层，带屋顶花园",
+    "levelFirst": "上层",
+    "levelGround": "底层，带私家花园",
+    "levelGroundLower": "底层＋下层",
+    "type": "{code} 户型",
+    "page": "页",
+    "priceOnRequest": "价目表备索",
+    "villasAvailable": "共 {t} 套别墅，可售 {a} 套",
+    "plansOnRequest": "户型平面图将由专人提供给有意向的买家。"
+  },
+  "collections": {
+    "1-bedroom": {
+      "name": "一居室别墅",
+      "short": "1 间卧室",
+      "kicker": "顶层与花园",
+      "teaser": "私密的海边隐居之所，独享泳池，独占一片海平线。"
+    },
+    "2-bedroom": {
+      "name": "两居室别墅",
+      "short": "2 间卧室",
+      "kicker": "花园别墅",
+      "teaser": "花园式生活，从沙发到泳池，仅几步之遥。"
+    },
+    "3-bedroom": {
+      "name": "三居室别墅",
+      "short": "3 间卧室",
+      "kicker": "顶层露台别墅",
+      "teaser": "私享空中露台、泳池与户外厨房，高踞碧海之上。"
+    },
+    "5-bedroom": {
+      "name": "五居室别墅",
+      "short": "5 间卧室",
+      "kicker": "花园别墅＋下层",
+      "teaser": "臻品大宅：双层空间，五间卧室，容纳您挚爱的每一位家人。"
+    }
+  },
+  "included": {
+    "title": "交付即完备，细致至每一把汤匙。",
+    "items": [
+      "面海落地玻璃窗",
+      "私人无边际泳池",
+      "户外厨房，配备烧烤区与休闲区",
+      "进口设计师家具套装",
+      "Bosch、Sauter 或同等品牌家电",
+      "Wi-Fi 控制的半智能系统",
+      "加固型智能锁入户门",
+      "高性能隔热保温系统及门窗玻璃"
+    ]
+  },
+  "stats": {
+    "villas": "私人别墅",
+    "elevation": "高出海面（米）",
+    "seaDistance": "距离海边（米）",
+    "view": "海景视角（度）",
+    "chania": "至干尼亚（分钟）",
+    "airport": "至机场（分钟）"
+  },
+  "location": {
+    "kicker": "地理位置",
+    "title": "卡利维斯，克里特人私藏的秘境。",
+    "text": "这是一座坐落于苏达湾畔的地道克里特渔村，拥有细软沙滩、家庭式小酒馆和热闹的海滨步道。四季宁静，从不拥挤，亦无矫饰。距干尼亚威尼斯老港仅 12 分钟车程。",
+    "distances": [
+      {
+        "place": "卡利维斯村中心",
+        "time": "2"
+      },
+      {
+        "place": "苏达港",
+        "time": "8"
+      },
+      {
+        "place": "干尼亚老城",
+        "time": "12"
+      },
+      {
+        "place": "干尼亚国际机场",
+        "time": "22"
+      }
+    ],
+    "flightsTitle": "飞往干尼亚的航程时间",
+    "flights": [
+      {
+        "from": "以色列",
+        "time": "1:30"
+      },
+      {
+        "from": "罗马尼亚",
+        "time": "1:45"
+      },
+      {
+        "from": "匈牙利",
+        "time": "2:00"
+      },
+      {
+        "from": "乌克兰",
+        "time": "2:10"
+      },
+      {
+        "from": "捷克",
+        "time": "2:25"
+      },
+      {
+        "from": "波兰",
+        "time": "2:45"
+      },
+      {
+        "from": "白俄罗斯",
+        "time": "2:45"
+      },
+      {
+        "from": "法国",
+        "time": "3:10"
+      },
+      {
+        "from": "俄罗斯",
+        "time": "3:30"
+      },
+      {
+        "from": "荷兰",
+        "time": "3:35"
+      },
+      {
+        "from": "芬兰",
+        "time": "3:35"
+      },
+      {
+        "from": "英国",
+        "time": "3:40"
+      },
+      {
+        "from": "瑞典",
+        "time": "3:45"
+      },
+      {
+        "from": "挪威",
+        "time": "3:50"
+      }
+    ],
+    "flightsNote": "以上为大致飞行时长（小时）。季节性及全年航线因航空公司而异。",
+    "mapCta": "在 Google 地图中打开",
+    "ferriesTitle": "渡轮交通",
+    "ferriesText": "克里特岛每日均有渡轮往返比雷埃夫斯（雅典）及爱琴海诸多热门岛屿。",
+    "ferries": [
+      {
+        "port": "苏达港",
+        "text": "距 King Solomon 仅 8 分钟：有渡轮前往比雷埃夫斯（雅典）"
+      },
+      {
+        "port": "雷西姆诺港",
+        "text": "有渡轮前往圣托里尼岛和米洛斯岛"
+      },
+      {
+        "port": "伊拉克利翁港",
+        "text": "有渡轮前往圣托里尼岛、米科诺斯岛及其他岛屿"
+      },
+      {
+        "port": "基萨莫斯（卡斯泰利）港",
+        "text": "有渡轮前往基西拉岛和安蒂基西拉岛"
+      }
+    ],
+    "place": "卡利维斯 · 阿波科罗纳斯 · 干尼亚 · 克里特岛"
+  },
+  "form": {
+    "kicker": "私人专场介绍",
+    "title": "让我们为您呈现这片海平线。",
+    "text": "请留下您的基本信息，King Solomon 团队成员将亲自与您联系，为您提供实时房源与最新价目表，并安排在干尼亚或线上进行的私人专场介绍。",
+    "name": "姓名",
+    "phone": "电话",
+    "email": "电子邮箱",
+    "country": "居住国家／地区",
+    "villa": "意向别墅",
+    "villaAny": "尚未确定",
+    "budget": "投资预算",
+    "budgetOptions": [
+      "€600,000 以内",
+      "€600,000 – €800,000",
+      "€800,000 – €1,000,000",
+      "€1,000,000 以上"
+    ],
+    "contactPref": "首选联系方式",
+    "contactPrefOptions": [
+      "电话",
+      "WhatsApp",
+      "电子邮件"
+    ],
+    "message": "留言（选填）",
+    "consentPrivacy": "我已阅读并同意{privacy}。",
+    "consentMarketing": "我愿意通过电子邮件、短信或 WhatsApp 接收最新资讯与优惠信息。",
+    "privacyLink": "《隐私政策》",
+    "required": "必填",
+    "errorRequired": "请填写此项。",
+    "errorEmail": "请输入有效的电子邮箱地址。",
+    "errorPhone": "请输入有效的电话号码。",
+    "errorConsent": "请确认您已阅读《隐私政策》。",
+    "successTitle": "感谢您！我们已收到您的申请。",
+    "successText": "我们的团队成员将尽快与您联系，通常在一个工作日内。",
+    "errorTitle": "提交时出现问题。",
+    "errorText": "请重试，或直接通过 WhatsApp 或电话与我们联系。",
+    "secure": "您的信息经加密处理，绝不会出于营销目的提供给第三方。",
+    "requestLabel": "索取资料",
+    "requestOptions": {
+      "plans": "建筑平面图",
+      "brochure": "投资者手册",
+      "pricelist": "价目表"
+    },
+    "moreDetails": "补充信息（选填）"
+  },
+  "contactInfo": {
+    "title": "联系方式",
+    "officeGreece": "干尼亚办事处",
+    "officeIsrael": "以色列办事处",
+    "phoneGreece": "希腊",
+    "phoneIsrael": "以色列",
+    "email": "电子邮箱",
+    "hours": "周一至周五 9:00–18:00 · WhatsApp 全周无休",
+    "hoursLabel": "服务时间"
+  },
+  "footer": {
+    "statement": "海天之上的家，超越期待的人生。",
+    "explore": "探索",
+    "collections": "别墅系列",
+    "downloads": "资料索取",
+    "legal": "法律信息",
+    "brochure": "索取投资者手册",
+    "plans": "索取建筑平面图",
+    "offer": "投资者专属方案",
+    "privacy": "隐私政策",
+    "cookies": "Cookie 政策",
+    "terms": "使用条款与免责声明",
+    "accessibility": "无障碍声明",
+    "cookieSettings": "Cookie 设置",
+    "rights": "© {year} SivanInvest Group。保留所有权利。",
+    "credits": "开发商：SivanInvest Group · 运营管理：Sivan Management · 建筑设计：Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
+    "disclaimer": "本网站所载信息仅供参考，不构成任何要约、合同或保证。所有图像均为艺术效果图。户型布局、面积、规格及价格可能随项目进展而调整。具有约束力的条款仅以经公证签署的购房合同为准。"
+  },
+  "cookies": {
+    "title": "您的隐私，由您做主",
+    "text": "我们使用必要 Cookie 以确保网站正常运行。经您同意，我们还希望使用分析类和营销类 Cookie，以了解网站的使用情况并向您展示相关内容。您可随时通过页脚的“Cookie 设置”更改您的选择。",
+    "accept": "全部接受",
+    "reject": "全部拒绝",
+    "customize": "自定义",
+    "save": "保存我的选择",
+    "policy": "Cookie 政策",
+    "panelTitle": "Cookie 偏好设置",
+    "alwaysOn": "始终启用",
+    "categories": {
+      "necessary": {
+        "name": "严格必要",
+        "desc": "网站运行所必需，用于安全保障、负载均衡、语言设置及记录您的同意选择，无法关闭。"
+      },
+      "preferences": {
+        "name": "偏好设置",
+        "desc": "记住您的设置，例如无障碍选项及您所选择的语言。"
+      },
+      "analytics": {
+        "name": "分析",
+        "desc": "以汇总方式帮助我们了解访客如何使用本网站，以便持续改进（如 Google Analytics 4）。"
+      },
+      "marketing": {
+        "name": "营销",
+        "desc": "用于衡量我们的广告效果，并在其他平台向您展示相关广告（如 Google Ads、Meta）。"
+      }
+    }
+  },
+  "a11y": {
+    "open": "无障碍选项",
+    "title": "无障碍",
+    "textSize": "文字大小",
+    "contrast": "高对比度",
+    "motion": "停止动画",
+    "links": "突出显示链接",
+    "font": "易读字体",
+    "reset": "重置",
+    "statement": "无障碍声明",
+    "language": "语言",
+    "groupText": "文字",
+    "groupColour": "色彩与对比度",
+    "groupNav": "浏览与阅读",
+    "spacing": "文字间距",
+    "dark": "深色对比",
+    "mono": "黑白模式",
+    "headings": "突出标题",
+    "cursor": "大号光标",
+    "guide": "阅读指引",
+    "speak": "朗读",
+    "speakHint": "点击任意文字即可收听朗读。"
+  },
+  "langSuggest": {
+    "text": "本页面亦提供中文版本。",
+    "go": "切换",
+    "dismiss": "暂不"
+  },
+  "sticky": {
+    "text": "仅余最后几套别墅 · 价目表 {v}"
+  },
+  "notFound": {
+    "title": "此页面不存在。",
+    "text": "您访问的页面可能已经移动。但那片海平线，依然在这里。",
+    "cta": "返回首页",
+    "metaTitle": "页面未找到｜King Solomon 卡利维斯"
+  },
+  "whatsappText": "您好，我对希腊克里特岛卡利维斯的 King Solomon 别墅很感兴趣，能否将最新房源情况及价目表发送给我？谢谢！",
+  "faqTitle": "投资者常见问题",
+  "faqKicker": "购房须知",
+  "leadEmail": {
+    "subject": "新咨询",
+    "title": "来自网站的新咨询",
+    "intro": "一位访客申请了 King Solomon 私人专场介绍。",
+    "call": "致电",
+    "whatsapp": "WhatsApp",
+    "reply": "邮件回复",
+    "marketing": "营销信息同意",
+    "privacy": "隐私政策同意",
+    "yes": "是",
+    "no": "否",
+    "page": "页面",
+    "source": "表单",
+    "campaign": "推广活动",
+    "received": "接收时间",
+    "language": "语言",
+    "inLang": "原文",
+    "inEnglish": "英文",
+    "note": "自由填写的字段按访客原文显示。",
+    "details": "联系信息",
+    "interest": "意向"
+  },
+  "companyInfo": {
+    "title": "公司信息",
+    "company": "公司名称",
+    "address": "注册地址",
+    "vat": "增值税号（VAT）",
+    "phone": "电话",
+    "email": "电子邮箱",
+    "controller": "数据控制者"
+  }
+}

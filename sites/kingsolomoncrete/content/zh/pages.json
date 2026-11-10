@@ -1,0 +1,244 @@
+{
+  "gallery": {
+    "meta": {
+      "title": "图库与影片｜King Solomon 希腊克里特岛海景别墅",
+      "description": "欣赏 King Solomon 所罗门王克里特岛卡利维斯海景别墅的外观与室内效果图、航拍画面及宣传影片，并可索取投资者手册与建筑平面图。"
+    },
+    "hero": {
+      "kicker": "图库与影片",
+      "title": "先睹其貌，再感其境。",
+      "subtitle": "外观与室内效果图、周边环境及宣传影片。"
+    },
+    "filters": {
+      "all": "全部",
+      "exterior": "外观效果图",
+      "interior": "室内效果图",
+      "location": "周边环境",
+      "lifestyle": "生活方式"
+    },
+    "film": {
+      "kicker": "宣传影片",
+      "title": "从晨曦初露，到卡利维斯的暮色。",
+      "text": "悬崖之上的静谧片刻，在光影中流转。"
+    },
+    "downloads": {
+      "kicker": "项目手册与平面图",
+      "title": "完整资料，专人为您呈送。",
+      "text": "投资者手册及每栋别墅的建筑平面图将由专人提供给有意向的买家。请留下您的联系方式，我们将连同最新价目表一并发送给您。",
+      "brochure": "投资者手册",
+      "brochureMeta": "PDF · 51 页 · 备索",
+      "plans": "建筑平面图",
+      "plansMeta": "全部 21 栋别墅 · 备索",
+      "masterplan": "总体规划图",
+      "masterplanMeta": "JPG · 下载"
+    }
+  },
+  "developer": {
+    "meta": {
+      "title": "开发商｜SivanInvest Group 希腊干尼亚",
+      "description": "King Solomon 所罗门王由近 20 年经验的精品房产投资机构 SivanInvest Group 开发，Sivan Management 驻干尼亚运营管理。"
+    },
+    "hero": {
+      "kicker": "开发商",
+      "title": "我们不从市场出发，而从您出发。",
+      "subtitle": "King Solomon 由 SivanInvest Group 开发，并由 Sivan Management 驻场运营管理。"
+    },
+    "about": {
+      "kicker": "SivanInvest Group",
+      "title": "扎根希腊的精品投资机构。",
+      "text": "SivanInvest 是一家精品投资机构，专注于在以色列、尤其是在希腊甄选、开发、管理并全程陪伴房地产投资。凭借近二十年的金融从业经验，以及近十年深耕希腊市场的实地经验，我们已引领数百位投资者走上一条个性化、精心规划的投资之路。",
+      "text2": "每一个投资机会都须经过同样严谨的流程：市场研究、深入尽职调查、对合作伙伴及承包商的审慎考察、现金流模型及压力情景测试。资本保全，始终优先于收益最大化。"
+    },
+    "values": [
+      {
+        "title": "专属顾问",
+        "text": "一位专属客户经理，统筹协调您购房过程中的财务、法律及运营事宜。"
+      },
+      {
+        "title": "全面透明",
+        "text": "您可以清楚看到我们审查的内容、采用的指标、各项费用，以及保障您资本的措施。"
+      },
+      {
+        "title": "跨领域专业团队",
+        "text": "涵盖房地产、开发、私募信贷及基金领域，并与律师、会计师、估价师及资产管理人协同合作。"
+      },
+      {
+        "title": "扎根克里特岛",
+        "text": "办事处位于干尼亚市中心，本地运营团队 24 小时全天候服务。"
+      }
+    ],
+    "numbers": [
+      {
+        "value": "20",
+        "label": "年投资经验"
+      },
+      {
+        "value": "10",
+        "label": "年深耕希腊市场"
+      },
+      {
+        "value": "数百",
+        "label": "位投资者获全程陪伴"
+      },
+      {
+        "value": "24/7",
+        "label": "干尼亚本地团队"
+      }
+    ],
+    "group": {
+      "kicker": "一个集团，三大业务",
+      "title": "开发商、运营商与投资机构，同属一个集团。",
+      "items": [
+        {
+          "title": "SivanInvest",
+          "text": "开发 King Solomon，主导土地收购、规划、施工合作及投资者关系。"
+        },
+        {
+          "title": "Sivan Management",
+          "text": "运营度假村：公共设施、别墅维护、客房清洁、租赁及收益管理。"
+        },
+        {
+          "title": "HARMONY",
+          "text": "集团旗下以房地产为支持的债券基金，适合偏好以固定收益方式投资希腊房产的投资者。"
+        }
+      ]
+    },
+    "process": {
+      "kicker": "您的购房之旅",
+      "title": "从初次沟通，到交付钥匙。",
+      "steps": [
+        {
+          "title": "初步沟通",
+          "text": "就您的目标、预算及时间安排进行一对一交流。"
+        },
+        {
+          "title": "私人专场介绍",
+          "text": "在干尼亚或线上为您介绍项目、别墅及最新价目表。"
+        },
+        {
+          "title": "预订",
+          "text": "选定心仪别墅，并通过签署预订协议锁定房源。"
+        },
+        {
+          "title": "法律与融资",
+          "text": "我们为您协调希腊律师、公证人，并视需要协调当地银行贷款。"
+        },
+        {
+          "title": "设计与交付",
+          "text": "您的别墅将以全套设计与家具配套完工交付。"
+        },
+        {
+          "title": "托管运营",
+          "text": "可选由 Sivan Management 提供托管及租赁服务，并通过业主 App 提供报告。"
+        }
+      ]
+    },
+    "architects": {
+      "kicker": "建筑设计",
+      "title": "Alkisti Roussou & Theodore Nikoloudakis",
+      "text": "King Solomon 由两家立足干尼亚的设计机构共同设计：建筑师 Alkisti Roussou 与 Theodore Nikoloudakis Architecture Studio。他们的作品涵盖酒店、私人住宅及接待空间，将当代地中海设计与克里特岛的自然景观和光线融为一体。",
+      "studios": [
+        {
+          "name": "Alkisti Roussou",
+          "role": "建筑师",
+          "url": "https://alkistiroussou.com"
+        },
+        {
+          "name": "Theodore Nikoloudakis",
+          "role": "建筑事务所",
+          "url": "https://tnarch.gr"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "联系我们｜预约 King Solomon 克里特岛别墅私人介绍",
+      "description": "预约 King Solomon 所罗门王私人专场介绍，干尼亚或线上均可。办事处位于希腊干尼亚及以色列。电话：+30 698 392 4820 / +972 52 451 8134。"
+    },
+    "hero": {
+      "kicker": "联系我们",
+      "title": "聊聊属于您的那片海平线。",
+      "subtitle": "房源、价格及私人专场介绍，我们期待您的来信。"
+    },
+    "visit": {
+      "title": "欢迎莅临干尼亚",
+      "text": "我们的办事处位于干尼亚市中心的自由广场（Eleftherias Square），距别墅 12 分钟车程。实地参观请提前预约。"
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "克里特岛私人泳池海景别墅｜King Solomon 所罗门王",
+      "description": "King Solomon 卡利维斯最后几套别墅在售：精装悬崖别墅，私人泳池，270° 海景，距干尼亚 12 分钟。希腊买房，立即预约通话。"
+    },
+    "hero": {
+      "badge": "最后几套别墅在售",
+      "priceLead": "最后几套别墅在售",
+      "title": "在克里特岛，拥有您的私人别墅、泳池与海景。",
+      "text": "家具齐全、专业托管，自交付钥匙之日起即可出租。坐落于卡利维斯一线临海悬崖，距干尼亚 12 分钟。",
+      "cta": "预约通话"
+    },
+    "why": {
+      "title": "克里特岛别墅，更上一层。",
+      "text": "精品系列，仅 21 栋别墅，设计本身即是价值的一部分。由 Alkisti Roussou 与 Theodore Nikoloudakis 操刀的当代地中海建筑，每栋别墅配备私人泳池，度假村另设无边际泳池、水疗中心及玻璃电梯，一切尽在苏达湾畔的悬崖之上。",
+      "items": [
+        {
+          "title": "一线临海",
+          "text": "高出海面 34 米，距海岸 70 米，约 270° 无遮挡海景。"
+        },
+        {
+          "title": "拎包入住，家具齐全",
+          "text": "设计师家具、真正的厨房、户外厨房及智能系统，均已包含在房价之内。"
+        },
+        {
+          "title": "您不在时，亦有收益",
+          "text": "可选在 Booking.com 和 Airbnb 上进行租赁托管，业主报告清晰透明。"
+        },
+        {
+          "title": "全程陪伴",
+          "text": "干尼亚与以色列的专属团队，从第一通电话到交付钥匙，乃至之后。"
+        }
+      ]
+    },
+    "around": {
+      "title": "一切，触手可及。",
+      "items": [
+        {
+          "time": "1 min",
+          "text": "拾级而下即达海边、海滨步道及小酒馆"
+        },
+        {
+          "time": "2 min",
+          "text": "卡利维斯村：咖啡馆、面包店、超市"
+        },
+        {
+          "time": "12 min",
+          "text": "干尼亚老城及威尼斯港"
+        },
+        {
+          "time": "22 min",
+          "text": "干尼亚国际机场"
+        }
+      ]
+    },
+    "trust": {
+      "title": "为何选择 SivanInvest？",
+      "items": [
+        {
+          "title": "开发商直售",
+          "text": "无中间商。SivanInvest 亲自开发本项目，并对每一栋别墅负责。"
+        },
+        {
+          "title": "一站式服务",
+          "text": "法律、税务、融资、设计、托管及租赁，由同一团队统筹协调。"
+        },
+        {
+          "title": "本地融资支持",
+          "text": "提供希腊银行贷款方面的指导，视资格及审批结果而定。"
+        }
+      ]
+    },
+    "formTitle": "留下您的联系方式，我们将尽快回电。",
+    "formText": "获取最后几套别墅的价目表、户型平面图及房源信息。"
+  }
+}
