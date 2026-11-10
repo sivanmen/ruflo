@@ -47,7 +47,10 @@
     "closeDialog": "Schließen",
     "allCollections": "Alle Kollektionen",
     "exploreCollection": "Kollektion entdecken",
-    "requestPrices": "Preisliste anfordern"
+    "requestPrices": "Preisliste anfordern",
+    "requestPlans": "Grundrisse anfordern",
+    "requestPlansLong": "Detaillierte Grundrisse anfordern",
+    "requestBrochure": "Broschüre anfordern"
   },
   "labels": {
     "from": "Ab",
@@ -75,7 +78,7 @@
     "garden": "Garten-Residenz",
     "rooftopShort": "Dachterrasse",
     "gardenShort": "Garten",
-    "internal": "Innen",
+    "internal": "Innenfläche",
     "external": "Garten / Terrasse",
     "balconies": "Balkone",
     "roof": "Dachgarten",
@@ -86,7 +89,8 @@
     "type": "Typ {code}",
     "page": "Seite",
     "priceOnRequest": "Preisliste auf Anfrage",
-    "villasAvailable": "{a} von {t} Villen verfügbar"
+    "villasAvailable": "{a} von {t} Villen verfügbar",
+    "plansOnRequest": "Die Grundrisse stellen wir Kaufinteressenten persönlich zur Verfügung."
   },
   "collections": {
     "1-bedroom": {
@@ -122,7 +126,7 @@
       "Außenküche mit Grill und Lounge",
       "Importiertes Designer-Möbelpaket",
       "Geräte von Bosch, Sauter oder gleichwertig",
-      "Teilweise smarte, per WLAN gesteuerte Systeme",
+      "Teilautomatisierte, per WLAN steuerbare Haustechnik",
       "Verstärkte Eingangstür mit Smart Lock",
       "Hochleistungsdämmung und -verglasung"
     ]
@@ -264,7 +268,7 @@
     ],
     "message": "Nachricht (optional)",
     "consentPrivacy": "Ich habe die {privacy} gelesen und bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Anfrage verarbeitet werden.",
-    "consentMarketing": "Ich möchte Neuigkeiten, neue Angebote und Informationen zu King Solomon per E-Mail, SMS oder WhatsApp erhalten. Ich kann mich jederzeit abmelden.",
+    "consentMarketing": "Ich möchte Neuigkeiten, neue Verfügbarkeiten und Angebote zu King Solomon per E-Mail, SMS oder WhatsApp erhalten. Ich kann mich jederzeit abmelden.",
     "privacyLink": "Datenschutzerklärung",
     "required": "Pflichtfeld",
     "errorRequired": "Bitte füllen Sie dieses Feld aus.",
@@ -275,7 +279,13 @@
     "successText": "Ein Mitglied unseres Teams meldet sich in Kürze bei Ihnen, in der Regel innerhalb eines Werktags.",
     "errorTitle": "Leider ist ein Fehler aufgetreten.",
     "errorText": "Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per WhatsApp oder Telefon.",
-    "secure": "Ihre Daten werden verschlüsselt übertragen und niemals zu Werbezwecken an Dritte weitergegeben."
+    "secure": "Ihre Daten werden verschlüsselt übertragen und niemals zu Werbezwecken an Dritte weitergegeben.",
+    "requestLabel": "Angefordert",
+    "requestOptions": {
+      "plans": "Architektenpläne",
+      "brochure": "Investorenbroschüre",
+      "pricelist": "Preisliste"
+    }
   },
   "contactInfo": {
     "title": "Unsere Kontaktdaten",
@@ -284,17 +294,17 @@
     "phoneGreece": "Griechenland",
     "phoneIsrael": "Israel",
     "email": "E-Mail",
-    "hours": "Mo–Fr 9:00–18:00 Uhr · WhatsApp an 7 Tagen pro Woche",
+    "hours": "Mo–Fr 9–18 Uhr · WhatsApp an 7 Tagen pro Woche",
     "hoursLabel": "Erreichbarkeit"
   },
   "footer": {
     "statement": "Ein Zuhause über dem Meer. Ein Leben über allen Erwartungen.",
     "explore": "Entdecken",
     "collections": "Kollektionen",
-    "downloads": "Downloads",
+    "downloads": "Unterlagen",
     "legal": "Rechtliches",
-    "brochure": "Investorenbroschüre",
-    "plans": "Architektenpläne",
+    "brochure": "Investorenbroschüre anfordern",
+    "plans": "Architektenpläne anfordern",
     "offer": "Exklusives Investorenangebot",
     "privacy": "Datenschutzerklärung",
     "cookies": "Cookie-Richtlinie",
@@ -302,7 +312,7 @@
     "accessibility": "Barrierefreiheitserklärung",
     "cookieSettings": "Cookie-Einstellungen",
     "rights": "© {year} SivanInvest Group. Alle Rechte vorbehalten.",
-    "credits": "Entwickelt von SivanInvest Group · Verwaltet von Sivan Management · Architektur von 314 Architects",
+    "credits": "Entwickelt von SivanInvest Group · Verwaltet von Sivan Management · Architektur: Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
     "disclaimer": "Die Informationen auf dieser Website sind unverbindlich und stellen weder ein Angebot noch einen Vertrag oder eine Garantie dar. Alle Visualisierungen sind künstlerische Darstellungen. Grundrisse, Flächen, Ausstattung und Preise können sich im Verlauf der Projektentwicklung ändern. Verbindlich sind ausschließlich die Bedingungen des unterzeichneten notariellen Kaufvertrags."
   },
   "cookies": {
@@ -365,7 +375,7 @@
   "leadEmail": {
     "subject": "Neue Anfrage",
     "title": "Neue Anfrage über die Website",
-    "intro": "Ein Besucher wünscht eine private Präsentation von King Solomon.",
+    "intro": "Ein Besucher wünscht eine persönliche Präsentation von King Solomon.",
     "call": "Anrufen",
     "whatsapp": "WhatsApp",
     "reply": "Per E-Mail antworten",

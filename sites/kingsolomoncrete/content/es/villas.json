@@ -1,17 +1,17 @@
 {
   "meta": {
-    "title": "Comprar villa en Creta: planos y disponibilidad | King Solomon",
-    "description": "Disponibilidad en tiempo real de las 21 villas King Solomon en Kalyves, Creta: villas de 1, 2, 3 y 5 dormitorios con piscina privada. Descargue los planos."
+    "title": "Comprar villa en Creta: disponibilidad | King Solomon",
+    "description": "Disponibilidad en tiempo real de las 21 villas King Solomon en Kalyves, Creta: villas de 1, 2, 3 y 5 dormitorios con piscina privada. Planos bajo petición."
   },
   "hero": {
     "kicker": "Las villas",
     "title": "Veintiuna residencias. Un solo horizonte.",
-    "subtitle": "Villas con azotea y con jardín en dos niveles del acantilado. Elija su villa, consulte su estado y descargue sus planos."
+    "subtitle": "Villas con azotea y con jardín en dos niveles del acantilado. Elija su villa, consulte su estado y solicite sus planos."
   },
   "availability": {
     "kicker": "Disponibilidad en tiempo real",
     "title": "Encuentre su villa.",
-    "text": "El inventario actual, actualizado periódicamente. Seleccione un número de villa para ver sus detalles.",
+    "text": "La oferta actual, actualizada periódicamente. Seleccione un número de villa para ver sus detalles.",
     "filterBedrooms": "Dormitorios",
     "filterStatus": "Estado",
     "all": "Todas",
@@ -24,7 +24,7 @@
   },
   "masterplan": {
     "kicker": "Plan maestro",
-    "title": "Situadas para la privacidad, las vistas y el mar.",
+    "title": "Pensadas para la privacidad, las vistas y el mar.",
     "text": "Veintiuna villas distribuidas sobre las terrazas naturales del acantilado, cada una con su propia perspectiva y un camino directo hasta el agua."
   },
   "collectionPage": {
@@ -33,7 +33,8 @@
     "layoutsText": "Cada distribución está pensada para aprovechar al máximo la luz, la privacidad y el mar.",
     "inCollection": "Villas de esta colección",
     "others": "Otras colecciones",
-    "plansNote": "Los planos son orientativos y pueden ajustarse durante el diseño definitivo."
+    "plansNote": "Los planos son orientativos y se facilitan personalmente bajo petición.",
+    "plansLocked": "El plano detallado de esta distribución está disponible bajo petición."
   },
   "1-bedroom": {
     "meta": {
@@ -55,7 +56,7 @@
       "description": "Villas con jardín de 2 dormitorios en Kalyves, Creta: piscina privada, cocina exterior y entrada independiente. Llave en mano. Precios bajo petición."
     },
     "title": "La vida en el jardín, con la piscina a un paso.",
-    "lead": "Interior y exterior, en uno solo.",
+    "lead": "Interior y exterior, en perfecta continuidad.",
     "text": "Villas de dos dormitorios con entradas independientes y jardines privados que abren la zona de día al exterior. Cada una cuenta con su propia piscina, cocina exterior y zona lounge: el equilibrio perfecto entre el confort familiar y la serenidad mediterránea.",
     "highlights": [
       "Jardín y piscina privados",

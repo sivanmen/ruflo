@@ -1,20 +1,18 @@
 {
   "gallery": {
     "meta": {
-      "title": "Galería, vídeo y planos | Villas King Solomon en Creta",
-      "description": "Renders, vistas aéreas, interiores y el vídeo de King Solomon en Kalyves, Creta. Descargue el dossier, el plan maestro y los planos de las 21 villas."
+      "title": "Galería y vídeo | Villas King Solomon en Kalyves, Creta",
+      "description": "Renders exteriores e interiores, vistas aéreas y el vídeo de King Solomon, villas de lujo en Creta. Solicite el dossier para inversores y los planos."
     },
     "hero": {
-      "kicker": "Galería y descargas",
+      "kicker": "Galería y documentación",
       "title": "Véalo antes de sentirlo.",
-      "subtitle": "Renders, vídeo, planos y el dossier para inversores."
+      "subtitle": "Renders exteriores e interiores, la ubicación y el vídeo."
     },
     "filters": {
       "all": "Todo",
-      "architecture": "Arquitectura",
-      "pools": "Piscinas y terrazas",
-      "rooftops": "Azoteas",
-      "interiors": "Interiores",
+      "exterior": "Renders exteriores",
+      "interior": "Renders interiores",
       "location": "Ubicación"
     },
     "film": {
@@ -23,15 +21,15 @@
       "text": "Unos instantes de calma sobre el acantilado, en movimiento."
     },
     "downloads": {
-      "kicker": "Descargas",
-      "title": "Planos, dossier y plan maestro.",
+      "kicker": "Dossier y planos",
+      "title": "Toda la información, enviada personalmente.",
+      "text": "El dossier para inversores y los planos arquitectónicos de cada villa se envían personalmente a los compradores interesados. Déjenos sus datos y se los haremos llegar junto con la lista de precios vigente.",
       "brochure": "Dossier para inversores",
+      "brochureMeta": "PDF · 51 páginas · bajo petición",
+      "plans": "Planos arquitectónicos",
+      "plansMeta": "Las 21 villas · bajo petición",
       "masterplan": "Plan maestro",
-      "plansTitle": "Planos arquitectónicos por villa",
-      "villasLabel": "Villas {v}",
-      "villaLabel": "Villa {v}",
-      "basement": "planta inferior",
-      "roof": "jardín en azotea"
+      "masterplanMeta": "JPG · descarga"
     }
   },
   "developer": {
@@ -48,7 +46,7 @@
       "kicker": "SivanInvest Group",
       "title": "Una casa de inversión boutique, con raíces en Grecia.",
       "text": "SivanInvest es una casa de inversión boutique que selecciona, desarrolla, gestiona y acompaña inversiones inmobiliarias en Israel y, sobre todo, en Grecia. Con casi dos décadas de experiencia en finanzas y cerca de diez años sobre el terreno en el mercado griego, hemos guiado a cientos de inversores por un camino personal y cuidadosamente planificado.",
-      "text2": "Cada oportunidad pasa por la misma disciplina: estudio de mercado, due diligence en profundidad, un análisis minucioso de socios y contratistas, modelos de flujo de caja y escenarios de estrés. La preservación del capital va por delante de la maximización de la rentabilidad. Siempre."
+      "text2": "Cada oportunidad se somete al mismo rigor: estudio de mercado, due diligence en profundidad, un análisis minucioso de socios y contratistas, modelos de flujo de caja y escenarios de estrés. La preservación del capital va por delante de la maximización de la rentabilidad. Siempre."
     },
     "values": [
       {
@@ -136,14 +134,26 @@
     },
     "architects": {
       "kicker": "Arquitectura",
-      "title": "314 Architects",
-      "text": "El proyecto ha sido diseñado por el estudio internacional de arquitectura 314 Architects, que combina el diseño mediterráneo contemporáneo con la topografía natural de la costa cretense."
+      "title": "Alkisti Roussou y Theodore Nikoloudakis",
+      "text": "King Solomon ha sido diseñado por Alkisti Roussou y Theodore Nikoloudakis Architecture Studio, ambos con sede en Chania. Su trabajo en hoteles, residencias y espacios de hostelería combina el diseño mediterráneo contemporáneo con el paisaje natural y la luz de Creta.",
+      "studios": [
+        {
+          "name": "Alkisti Roussou",
+          "role": "Arquitecta",
+          "url": "https://alkistiroussou.com"
+        },
+        {
+          "name": "Theodore Nikoloudakis",
+          "role": "Estudio de arquitectura",
+          "url": "https://tnarch.gr"
+        }
+      ]
     }
   },
   "contact": {
     "meta": {
       "title": "Contacto y presentación privada | King Solomon Creta",
-      "description": "Reserve su presentación privada en Chania u online. Oficinas en Chania (Creta) y Ness Ziona (Israel). Llame al +30 698 392 4820 o al +972 52 451 8134."
+      "description": "Solicite una presentación privada de King Solomon en Chania u online. Oficinas en Chania y Ness Ziona (Israel). Tel. +30 698 392 4820 o +972 52 451 8134."
     },
     "hero": {
       "kicker": "Contacto",
@@ -169,7 +179,7 @@
     },
     "why": {
       "title": "Una villa en Creta, a otro nivel.",
-      "text": "Una colección boutique de 21 villas en la que el diseño forma parte del valor. Arquitectura mediterránea contemporánea de 314 Architects, una piscina privada en cada villa y, en el resort, piscina infinita, spa y ascensor de cristal, todo ello en el acantilado sobre la bahía de Souda.",
+      "text": "Una colección boutique de 21 villas en la que el diseño forma parte del valor. Arquitectura mediterránea contemporánea de Alkisti Roussou y Theodore Nikoloudakis, una piscina privada en cada villa y, en el resort, piscina infinita, spa y ascensor de cristal, todo ello en el acantilado sobre la bahía de Souda.",
       "items": [
         {
           "title": "Primera línea de mar",

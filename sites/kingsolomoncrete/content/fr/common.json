@@ -4,7 +4,7 @@
     "name": "King Solomon",
     "tagline": "Kalyves · Crète",
     "descriptor": "Villas en surplomb de la mer & resort spa",
-    "slogan": "L'horizon vous appartient."
+    "slogan": "L’horizon vous appartient."
   },
   "nav": {
     "home": "Accueil",
@@ -47,7 +47,10 @@
     "closeDialog": "Fermer",
     "allCollections": "Toutes les collections",
     "exploreCollection": "Découvrir la collection",
-    "requestPrices": "Demander la grille tarifaire"
+    "requestPrices": "Demander la grille tarifaire",
+    "requestPlans": "Demander les plans",
+    "requestPlansLong": "Demander les plans détaillés",
+    "requestBrochure": "Demander la brochure"
   },
   "labels": {
     "from": "À partir de",
@@ -86,59 +89,60 @@
     "type": "Type {code}",
     "page": "Page",
     "priceOnRequest": "Grille tarifaire sur demande",
-    "villasAvailable": "{a} villas disponibles sur {t}"
+    "villasAvailable": "{a} villas disponibles sur {t}",
+    "plansOnRequest": "Les plans sont transmis personnellement aux acquéreurs intéressés."
   },
   "collections": {
     "1-bedroom": {
-      "name": "Villas une chambre",
-      "short": "1 chambre",
+      "name": "Villas d’une chambre",
+      "short": "1 chambre",
       "kicker": "Toit-terrasse & jardin",
-      "teaser": "Un refuge intime, avec sa propre piscine et un horizon rien qu'à vous."
+      "teaser": "Un refuge intime, avec sa propre piscine et un horizon rien qu’à vous."
     },
     "2-bedroom": {
-      "name": "Villas deux chambres",
-      "short": "2 chambres",
+      "name": "Villas de deux chambres",
+      "short": "2 chambres",
       "kicker": "Résidences avec jardin",
       "teaser": "La vie côté jardin, la piscine à quelques pas du salon."
     },
     "3-bedroom": {
-      "name": "Villas trois chambres",
-      "short": "3 chambres",
+      "name": "Villas de trois chambres",
+      "short": "3 chambres",
       "kicker": "Résidences avec toit-terrasse",
-      "teaser": "Une terrasse privée suspendue dans le ciel, piscine et cuisine d'été au-dessus de la mer."
+      "teaser": "Une terrasse privée suspendue dans le ciel, piscine et cuisine d’été au-dessus de la mer."
     },
     "5-bedroom": {
-      "name": "Villas cinq chambres",
-      "short": "5 chambres",
+      "name": "Villas de cinq chambres",
+      "short": "5 chambres",
       "kicker": "Résidences avec jardin + niveau inférieur",
-      "teaser": "Les grandes villas : deux niveaux, cinq chambres et de la place pour tous ceux que vous aimez."
+      "teaser": "Les grandes villas : deux niveaux, cinq chambres et de la place pour tous ceux que vous aimez."
     }
   },
   "included": {
-    "title": "Livrée complète. Jusqu'à la dernière petite cuillère.",
+    "title": "Livrée complète. Jusqu’à la dernière petite cuillère.",
     "items": [
       "Baies vitrées toute hauteur face à la mer",
       "Piscine privée à débordement",
-      "Cuisine d'été avec barbecue et espace lounge",
+      "Cuisine d’été avec barbecue et espace lounge",
       "Mobilier design importé",
       "Électroménager Bosch, Sauter ou équivalent",
       "Systèmes semi-domotiques pilotés en Wi-Fi",
-      "Porte d'entrée blindée à serrure connectée",
+      "Porte d’entrée blindée à serrure connectée",
       "Isolation et vitrages haute performance"
     ]
   },
   "stats": {
     "villas": "Villas privées",
     "elevation": "Mètres au-dessus de la mer",
-    "seaDistance": "Mètres jusqu'à l'eau",
+    "seaDistance": "Mètres jusqu’à l’eau",
     "view": "Degrés de vue mer",
     "chania": "Minutes de La Canée",
-    "airport": "Minutes de l'aéroport"
+    "airport": "Minutes de l’aéroport"
   },
   "location": {
     "kicker": "Situation",
     "title": "Kalyves. La Crète que les Crétois gardent pour eux.",
-    "text": "Un authentique village de pêcheurs crétois sur les rives de la baie de Souda, avec ses plages de sable, ses tavernes familiales et sa promenade animée. Paisible toute l'année, jamais bondé, jamais artificiel. Et à douze minutes seulement du port vénitien de La Canée (Chania).",
+    "text": "Un authentique village de pêcheurs crétois sur les rives de la baie de Souda, avec ses plages de sable, ses tavernes familiales et sa promenade animée. Paisible toute l’année, jamais bondé, jamais artificiel. Et à douze minutes seulement du port vénitien de La Canée (Chania).",
     "distances": [
       {
         "place": "Centre du village de Kalyves",
@@ -157,7 +161,7 @@
         "time": "22"
       }
     ],
-    "flightsTitle": "Temps de vol jusqu'à La Canée",
+    "flightsTitle": "Temps de vol jusqu’à La Canée",
     "flights": [
       {
         "from": "Israël",
@@ -223,15 +227,15 @@
     "ferries": [
       {
         "port": "Port de Souda",
-        "text": "À 8 minutes de King Solomon : ferries pour le Pirée (Athènes)"
+        "text": "À 8 minutes de King Solomon : ferries pour le Pirée (Athènes)"
       },
       {
         "port": "Port de Réthymnon",
         "text": "Ferries pour Santorin et Milos"
       },
       {
-        "port": "Port d'Héraklion",
-        "text": "Ferries pour Santorin, Mykonos et d'autres îles"
+        "port": "Port d’Héraklion",
+        "text": "Ferries pour Santorin, Mykonos et d’autres îles"
       },
       {
         "port": "Port de Kissamos (Kastelli)",
@@ -241,20 +245,20 @@
   },
   "form": {
     "kicker": "Présentation privée",
-    "title": "Laissez-nous vous montrer l'horizon.",
-    "text": "Indiquez-nous quelques informations : un membre de l'équipe King Solomon vous contactera personnellement pour vous communiquer les disponibilités en temps réel, la grille tarifaire en vigueur et vous proposer une présentation privée, à La Canée ou en ligne.",
+    "title": "Laissez-nous vous montrer l’horizon.",
+    "text": "Laissez-nous quelques coordonnées : un membre de l’équipe King Solomon vous contactera personnellement pour vous communiquer les disponibilités en temps réel et la grille tarifaire en vigueur, et vous proposer une présentation privée, à La Canée ou en ligne.",
     "name": "Nom complet",
     "phone": "Téléphone",
     "email": "E-mail",
     "country": "Pays de résidence",
     "villa": "Villa souhaitée",
     "villaAny": "Je ne sais pas encore",
-    "budget": "Budget d'investissement",
+    "budget": "Budget d’investissement",
     "budgetOptions": [
-      "Jusqu'à 600 000 €",
-      "600 000 € – 800 000 €",
-      "800 000 € – 1 000 000 €",
-      "1 000 000 € et plus"
+      "Jusqu’à 600 000 €",
+      "600 000 € – 800 000 €",
+      "800 000 € – 1 000 000 €",
+      "1 000 000 € et plus"
     ],
     "contactPref": "Mode de contact préféré",
     "contactPrefOptions": [
@@ -263,7 +267,7 @@
       "E-mail"
     ],
     "message": "Message (facultatif)",
-    "consentPrivacy": "J'ai lu la {privacy} et j'accepte que mes données soient traitées pour répondre à ma demande.",
+    "consentPrivacy": "J’ai lu la {privacy} et j’accepte que mes données soient traitées pour répondre à ma demande.",
     "consentMarketing": "Je souhaite recevoir des actualités, les nouvelles disponibilités et des offres concernant King Solomon par e-mail, SMS ou WhatsApp. Je peux me désinscrire à tout moment.",
     "privacyLink": "Politique de confidentialité",
     "required": "Obligatoire",
@@ -273,9 +277,15 @@
     "errorConsent": "Veuillez confirmer avoir lu la Politique de confidentialité.",
     "successTitle": "Merci. Votre demande nous est bien parvenue.",
     "successText": "Un membre de notre équipe vous contactera très prochainement, généralement sous un jour ouvré.",
-    "errorTitle": "Une erreur s'est produite.",
+    "errorTitle": "Une erreur s’est produite.",
     "errorText": "Veuillez réessayer, ou nous joindre directement par WhatsApp ou par téléphone.",
-    "secure": "Vos données sont chiffrées et ne sont jamais communiquées à des tiers à des fins commerciales."
+    "secure": "Vos données sont chiffrées et ne sont jamais communiquées à des tiers à des fins commerciales.",
+    "requestLabel": "Demande",
+    "requestOptions": {
+      "plans": "Plans d’architecte",
+      "brochure": "Brochure investisseurs",
+      "pricelist": "Grille tarifaire"
+    }
   },
   "contactInfo": {
     "title": "Nos coordonnées",
@@ -284,30 +294,30 @@
     "phoneGreece": "Grèce",
     "phoneIsrael": "Israël",
     "email": "E-mail",
-    "hours": "Lun–ven 9:00–18:00 · WhatsApp 7 jours sur 7",
+    "hours": "Lun–ven, 9 h – 18 h · WhatsApp 7 j/7",
     "hoursLabel": "Horaires"
   },
   "footer": {
     "statement": "Une demeure au-dessus de la mer. Une vie au-delà de vos attentes.",
     "explore": "Explorer",
     "collections": "Collections",
-    "downloads": "Téléchargements",
+    "downloads": "Documents",
     "legal": "Informations légales",
-    "brochure": "Brochure investisseurs",
-    "plans": "Plans d'architecte",
+    "brochure": "Demander la brochure investisseurs",
+    "plans": "Demander les plans d’architecte",
     "offer": "Offre privée investisseurs",
     "privacy": "Politique de confidentialité",
     "cookies": "Politique relative aux cookies",
-    "terms": "Conditions d'utilisation & avertissement",
-    "accessibility": "Déclaration d'accessibilité",
+    "terms": "Conditions d’utilisation & avertissement",
+    "accessibility": "Déclaration d’accessibilité",
     "cookieSettings": "Paramètres des cookies",
     "rights": "© {year} SivanInvest Group. Tous droits réservés.",
-    "credits": "Développé par SivanInvest Group · Géré par Sivan Management · Architecture : 314 Architects",
-    "disclaimer": "Les informations figurant sur ce site sont fournies à titre indicatif et ne constituent ni une offre, ni un contrat, ni une garantie. Tous les visuels sont des vues d'artiste. Les plans, surfaces, prestations et prix sont susceptibles d'évoluer au fil de l'avancement du programme. Seul l'acte de vente notarié signé fixe les conditions contractuelles."
+    "credits": "Développé par SivanInvest Group · Géré par Sivan Management · Architecture : Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
+    "disclaimer": "Les informations figurant sur ce site sont fournies à titre indicatif et ne constituent ni une offre, ni un contrat, ni une garantie. Tous les visuels sont des vues d’artiste. Les plans, surfaces, prestations et prix sont susceptibles d’évoluer au fil de l’avancement du programme. Seul l’acte de vente notarié signé fixe les conditions contractuelles."
   },
   "cookies": {
     "title": "Votre vie privée, votre choix",
-    "text": "Nous utilisons des cookies strictement nécessaires au fonctionnement de ce site. Avec votre consentement, nous souhaiterions également utiliser des cookies de mesure d'audience et de marketing afin de comprendre comment le site est utilisé et de vous proposer des contenus pertinents. Vous pouvez modifier votre choix à tout moment via le lien « Paramètres des cookies » en bas de page.",
+    "text": "Nous utilisons des cookies strictement nécessaires au fonctionnement de ce site. Avec votre consentement, nous souhaiterions également utiliser des cookies de mesure d’audience et de marketing afin de comprendre comment le site est utilisé et de vous proposer des contenus pertinents. Vous pouvez modifier votre choix à tout moment via le lien « Paramètres des cookies » en bas de page.",
     "accept": "Tout accepter",
     "reject": "Tout refuser",
     "customize": "Personnaliser",
@@ -318,24 +328,24 @@
     "categories": {
       "necessary": {
         "name": "Strictement nécessaires",
-        "desc": "Indispensables au fonctionnement du site : sécurité, répartition de charge, langue et enregistrement de votre choix de consentement. Ils ne peuvent pas être désactivés."
+        "desc": "Indispensables au fonctionnement du site : sécurité, répartition de charge, langue et enregistrement de votre choix de consentement. Ils ne peuvent pas être désactivés."
       },
       "preferences": {
         "name": "Préférences",
-        "desc": "Mémorisent vos réglages, comme les options d'accessibilité et la langue choisie."
+        "desc": "Mémorisent vos réglages, comme les options d’accessibilité et la langue choisie."
       },
       "analytics": {
-        "name": "Mesure d'audience",
-        "desc": "Nous aident à comprendre, de manière agrégée, comment les visiteurs utilisent le site afin de l'améliorer (par ex. Google Analytics 4)."
+        "name": "Mesure d’audience",
+        "desc": "Nous aident à comprendre, de manière agrégée, comment les visiteurs utilisent le site afin de l’améliorer (par ex. Google Analytics 4)."
       },
       "marketing": {
         "name": "Marketing",
-        "desc": "Servent à mesurer l'efficacité de nos publicités et à vous présenter des annonces pertinentes sur d'autres plateformes (par ex. Google Ads, Meta)."
+        "desc": "Servent à mesurer l’efficacité de nos publicités et à vous présenter des annonces pertinentes sur d’autres plateformes (par ex. Google Ads, Meta)."
       }
     }
   },
   "a11y": {
-    "open": "Options d'accessibilité",
+    "open": "Options d’accessibilité",
     "title": "Accessibilité",
     "textSize": "Taille du texte",
     "contrast": "Contraste élevé",
@@ -343,7 +353,7 @@
     "links": "Surligner les liens",
     "font": "Police lisible",
     "reset": "Réinitialiser",
-    "statement": "Déclaration d'accessibilité"
+    "statement": "Déclaration d’accessibilité"
   },
   "langSuggest": {
     "text": "Cette page est également disponible en français.",
@@ -354,13 +364,13 @@
     "text": "Dernières villas disponibles · Grille tarifaire {v}"
   },
   "notFound": {
-    "title": "Cette vue n'existe pas.",
-    "text": "La page que vous recherchez a peut-être été déplacée. L'horizon, lui, est toujours là.",
-    "cta": "Retour à l'accueil",
+    "title": "Cette vue n’existe pas.",
+    "text": "La page que vous recherchez a peut-être été déplacée. L’horizon, lui, est toujours là.",
+    "cta": "Retour à l’accueil",
     "metaTitle": "Page introuvable | King Solomon Kalyves"
   },
-  "whatsappText": "Bonjour, les villas King Solomon à Kalyves, en Crète, m'intéressent. Pourriez-vous m'envoyer les disponibilités et les prix ?",
-  "faqTitle": "Questions d'investisseurs",
+  "whatsappText": "Bonjour, les villas King Solomon à Kalyves, en Crète, m’intéressent. Pourriez-vous m’envoyer les disponibilités et les prix ?",
+  "faqTitle": "Questions d’investisseurs",
   "faqKicker": "Bon à savoir",
   "leadEmail": {
     "subject": "Nouvelle demande",

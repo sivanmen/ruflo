@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "El proyecto | Villas de lujo en el acantilado de Kalyves, Creta",
-    "description": "Descubra King Solomon: 21 villas de lujo de 314 Architects en primera línea de acantilado en Kalyves, Chania. Piscina infinita, spa y acceso al mar."
+    "title": "Villas de lujo en Kalyves, Creta: el proyecto | King Solomon",
+    "description": "King Solomon: 21 villas de lujo de Alkisti Roussou y Theodore Nikoloudakis en primera línea de acantilado en Kalyves, Chania. Piscina infinita y spa."
   },
   "hero": {
     "kicker": "El proyecto",
@@ -11,8 +11,8 @@
   "architecture": {
     "kicker": "Arquitectura",
     "title": "Curvas que siguen la línea de la costa.",
-    "text": "King Solomon fue concebido por el estudio internacional 314 Architects como un refugio privado en el acantilado, en el que arquitectura, paisaje y estilo de vida actúan como uno solo. Curvas suaves, terrazas en cascada, azoteas y solariums de piscina convierten las vistas en parte permanente de la vida cotidiana.",
-    "text2": "Las villas se distribuyen sobre los niveles naturales de la ladera, lo que aporta a cada residencia privacidad, visuales despejadas y una profunda relación con el paisaje. Muchas disfrutan de cerca de 270 grados de vistas al mar y a la costa."
+    "text": "King Solomon fue concebido por los arquitectos Alkisti Roussou y Theodore Nikoloudakis como un refugio privado en el acantilado, en el que arquitectura, paisaje y estilo de vida forman un todo. Curvas suaves, terrazas en cascada, azoteas y terrazas de piscina convierten las vistas en parte permanente de la vida cotidiana.",
+    "text2": "Las villas se distribuyen sobre los niveles naturales de la ladera, lo que aporta a cada residencia privacidad, perspectivas despejadas y una profunda relación con el paisaje. Muchas disfrutan de cerca de 270 grados de vistas al mar y a la costa."
   },
   "arrival": {
     "kicker": "La llegada",
@@ -43,7 +43,7 @@
   },
   "specs": {
     "kicker": "Especificaciones",
-    "title": "Cada villa, acabada con estándar de hotel boutique.",
+    "title": "Cada villa, con acabados de hotel boutique.",
     "text": "Una residencia totalmente diseñada y equipada, en la que cada detalle se ha planificado de antemano.",
     "items": [
       {
@@ -64,7 +64,7 @@
       },
       {
         "title": "Salón y entretenimiento",
-        "text": "Un salón de nivel hotelero con pared de TV a medida, iluminación decorativa y revestimientos. Un televisor de 50\"+ en el salón y de 45\"+ en cada dormitorio, iluminación ambiental LED y reguladores de intensidad."
+        "text": "Un salón de nivel hotelero con pared de TV a medida, iluminación decorativa y revestimientos. Un televisor de 50\" o más en el salón y de 45\" o más en cada dormitorio, iluminación ambiental LED y reguladores de intensidad."
       },
       {
         "title": "Una auténtica cocina",
@@ -107,7 +107,7 @@
       },
       {
         "title": "Instalaciones para invitados",
-        "text": "Aseos independientes para invitados en el nivel de la piscina y el bienestar, para preservar la privacidad de las villas."
+        "text": "Aseos independientes para invitados en el nivel de la piscina y del área de bienestar, para preservar la privacidad de las villas."
       }
     ]
   },

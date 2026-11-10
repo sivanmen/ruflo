@@ -28,7 +28,7 @@
     "viewAll": "Ver todas las villas",
     "discover": "Descubrir",
     "enquire": "Consultar",
-    "enquireVilla": "Consultar por la villa {no}",
+    "enquireVilla": "Consultar sobre la villa {no}",
     "download": "Descargar",
     "openGallery": "Abrir la galería",
     "watchFilm": "Ver el vídeo",
@@ -47,7 +47,10 @@
     "closeDialog": "Cerrar",
     "allCollections": "Todas las colecciones",
     "exploreCollection": "Descubrir la colección",
-    "requestPrices": "Solicitar la lista de precios"
+    "requestPrices": "Solicitar la lista de precios",
+    "requestPlans": "Solicitar planos",
+    "requestPlansLong": "Solicitar los planos",
+    "requestBrochure": "Solicitar el dossier"
   },
   "labels": {
     "from": "Desde",
@@ -86,7 +89,8 @@
     "type": "Tipo {code}",
     "page": "Página",
     "priceOnRequest": "Lista de precios bajo petición",
-    "villasAvailable": "{a} de {t} villas disponibles"
+    "villasAvailable": "{a} de {t} villas disponibles",
+    "plansOnRequest": "Los planos se facilitan personalmente a los compradores interesados."
   },
   "collections": {
     "1-bedroom": {
@@ -118,7 +122,7 @@
     "title": "Entregada completa. Hasta la última cucharilla.",
     "items": [
       "Ventanales de suelo a techo orientados al mar",
-      "Piscina privada desbordante",
+      "Piscina privada de borde infinito",
       "Cocina exterior con barbacoa y zona lounge",
       "Mobiliario de diseño importado",
       "Electrodomésticos Bosch, Sauter o equivalentes",
@@ -275,7 +279,13 @@
     "successText": "Un miembro de nuestro equipo se pondrá en contacto con usted en breve, normalmente en un plazo de un día hábil.",
     "errorTitle": "Se ha producido un error.",
     "errorText": "Por favor, inténtelo de nuevo o contáctenos directamente por WhatsApp o por teléfono.",
-    "secure": "Sus datos se transmiten cifrados y nunca se comparten con terceros con fines comerciales."
+    "secure": "Sus datos se transmiten cifrados y nunca se comparten con terceros con fines comerciales.",
+    "requestLabel": "Solicitud",
+    "requestOptions": {
+      "plans": "Planos arquitectónicos",
+      "brochure": "Dossier para inversores",
+      "pricelist": "Lista de precios"
+    }
   },
   "contactInfo": {
     "title": "Nuestros datos",
@@ -284,17 +294,17 @@
     "phoneGreece": "Grecia",
     "phoneIsrael": "Israel",
     "email": "Correo electrónico",
-    "hours": "Lun–Vie 9:00–18:00 · WhatsApp los 7 días de la semana",
+    "hours": "De lunes a viernes, 9:00–18:00 · WhatsApp los 7 días de la semana",
     "hoursLabel": "Horario"
   },
   "footer": {
     "statement": "Un hogar sobre el mar. Una vida más allá de lo esperado.",
     "explore": "Explorar",
     "collections": "Colecciones",
-    "downloads": "Descargas",
-    "legal": "Legal",
-    "brochure": "Dossier para inversores",
-    "plans": "Planos arquitectónicos",
+    "downloads": "Documentación",
+    "legal": "Información legal",
+    "brochure": "Solicitar el dossier para inversores",
+    "plans": "Solicitar los planos arquitectónicos",
     "offer": "Oferta privada para inversores",
     "privacy": "Política de privacidad",
     "cookies": "Política de cookies",
@@ -302,7 +312,7 @@
     "accessibility": "Declaración de accesibilidad",
     "cookieSettings": "Configuración de cookies",
     "rights": "© {year} SivanInvest Group. Todos los derechos reservados.",
-    "credits": "Promovido por SivanInvest Group · Gestionado por Sivan Management · Arquitectura de 314 Architects",
+    "credits": "Promovido por SivanInvest Group · Gestionado por Sivan Management · Arquitectura de Alkisti Roussou y Theodore Nikoloudakis Architecture Studio",
     "disclaimer": "La información de este sitio web es orientativa y no constituye una oferta, un contrato ni una garantía. Todas las imágenes son recreaciones artísticas. Las distribuciones, superficies, especificaciones y precios pueden cambiar a medida que avanza la promoción. Las condiciones vinculantes se establecen únicamente en el contrato de compraventa notarial firmado."
   },
   "cookies": {
@@ -368,7 +378,7 @@
     "intro": "Un visitante ha solicitado una presentación privada de King Solomon.",
     "call": "Llamar",
     "whatsapp": "WhatsApp",
-    "reply": "Responder por email",
+    "reply": "Responder por correo electrónico",
     "marketing": "Consentimiento de marketing",
     "privacy": "Consentimiento de privacidad",
     "yes": "Sí",

@@ -1,17 +1,17 @@
 {
   "meta": {
     "title": "Luxusvilla Kreta: Das Projekt in Kalyves | King Solomon",
-    "description": "21 Luxusvillen von 314 Architects an der Steilküste in Kalyves, Chania: Infinity-Pool, Spa, Glasaufzug, direkter Meerzugang, schlüsselfertige Ausstattung."
+    "description": "21 Luxusvillen von Alkisti Roussou und Theodore Nikoloudakis an der Steilküste von Kalyves, Chania: Infinity-Pool, Spa und direkter Meerzugang."
   },
   "hero": {
     "kicker": "Das Projekt",
-    "title": "Geschaffen, um gelebt, gespürt und erinnert zu werden.",
+    "title": "Geschaffen, um gelebt, gefühlt und nie vergessen zu werden.",
     "subtitle": "Ein privates Villenresort an der Steilküste von Kalyves im Westen Kretas."
   },
   "architecture": {
     "kicker": "Architektur",
     "title": "Kurven, die der Küstenlinie folgen.",
-    "text": "King Solomon wurde vom internationalen Büro 314 Architects als privater Rückzugsort an der Steilküste konzipiert, an dem Architektur, Landschaft und Lebensstil eine Einheit bilden. Weiche Kurven, kaskadenartige Terrassen, Dachflächen und Pooldecks machen den Ausblick zum festen Bestandteil des Alltags.",
+    "text": "King Solomon wurde von den Architekten Alkisti Roussou und Theodore Nikoloudakis als privater Rückzugsort an der Steilküste konzipiert, an dem Architektur, Landschaft und Lebensstil eine Einheit bilden. Weiche Kurven, kaskadenartige Terrassen, Dachflächen und Pooldecks machen den Ausblick zum festen Bestandteil des Alltags.",
     "text2": "Die Villen sind über die natürlichen Ebenen des Hangs verteilt. So erhält jede Residenz Privatsphäre, freie Sichtachsen und eine enge Verbindung zur Landschaft. Viele bieten nahezu 270 Grad Blick auf Meer und Küste."
   },
   "arrival": {
@@ -38,17 +38,17 @@
   },
   "interiors": {
     "kicker": "Interieur",
-    "title": "Stiller Luxus, gemacht zum Leben.",
+    "title": "Stiller Luxus, geschaffen zum Wohnen.",
     "text": "Ruhige Materialien, natürliche Farbtöne und mediterranes Licht. Interieurs, die warm, hochwertig und von der Hotellerie inspiriert sind: elegant genug für anspruchsvolle Gäste, behaglich genug, um sich zu Hause zu fühlen."
   },
   "specs": {
-    "kicker": "Bau- und Ausstattungsbeschreibung",
+    "kicker": "Ausstattung",
     "title": "Jede Villa, ausgestattet auf Boutique-Hotel-Niveau.",
     "text": "Eine vollständig gestaltete, komplett ausgestattete Residenz, in der jedes Detail im Voraus geplant wurde.",
     "items": [
       {
         "title": "Architektur, Ausblick & Öffnungen",
-        "text": "Ausgerichtet auf Privatsphäre, Tageslicht und Panorama-Meerblick, mit großen, raumhohen Isolierverglasungen und breiten Fassaden. Viele Villen bieten rund 270° Ausblick."
+        "text": "Ausgerichtet auf Privatsphäre, Tageslicht und Panorama-Meerblick, mit großen, raumhohen Isolierverglasungen und breiten Fassaden. Viele Villen bieten einen Ausblick von rund 270°."
       },
       {
         "title": "Privatpool & Leben im Freien",
@@ -102,7 +102,7 @@
         "text": "Naturstein, Terrassen, mediterrane Bepflanzung, Zierbäume und automatische Bewässerung."
       },
       {
-        "title": "Parken & E-Laden",
+        "title": "Parken & E-Ladestationen",
         "text": "Ein oberer Parkplatz mit rund neun Stellplätzen und zwei Ladepunkten für Elektrofahrzeuge."
       },
       {

@@ -1,12 +1,12 @@
 {
   "meta": {
-    "title": "Villa mit Pool Kreta: Grundrisse & Verfügbarkeit | King Solomon",
-    "description": "Aktuelle Verfügbarkeit der 21 Villen in Kalyves, Kreta: 1, 2, 3 und 5 Schlafzimmer, Dachterrasse oder Garten, Privatpool. Alle Grundrisse zum Download."
+    "title": "Villen & Verfügbarkeit | Luxusvilla Kreta | King Solomon",
+    "description": "Aktuelle Verfügbarkeit der 21 Villen in Kalyves, Kreta: 1, 2, 3 und 5 Schlafzimmer, Dachterrasse oder Garten, Privatpool. Grundrisse auf Anfrage."
   },
   "hero": {
     "kicker": "Die Villen",
     "title": "Einundzwanzig Residenzen. Ein Horizont.",
-    "subtitle": "Dachterrassen- und Garten-Villen auf zwei Ebenen der Klippe. Wählen Sie Ihre Villa, prüfen Sie ihren Status und laden Sie die Grundrisse herunter."
+    "subtitle": "Dachterrassen- und Garten-Villen auf zwei Ebenen der Klippe. Wählen Sie Ihre Villa, prüfen Sie ihren Status und fordern Sie die Grundrisse an."
   },
   "availability": {
     "kicker": "Aktuelle Verfügbarkeit",
@@ -24,7 +24,7 @@
   },
   "masterplan": {
     "kicker": "Masterplan",
-    "title": "Angeordnet für Privatsphäre, Ausblick und Meer.",
+    "title": "Ausgerichtet auf Privatsphäre, Ausblick und Meer.",
     "text": "Einundzwanzig Villen auf den natürlichen Terrassen der Klippe, jede mit eigener Aussicht und einem direkten Weg hinunter zum Wasser."
   },
   "collectionPage": {
@@ -33,7 +33,8 @@
     "layoutsText": "Jeder Grundriss ist darauf ausgelegt, Licht, Privatsphäre und Meer optimal zu nutzen.",
     "inCollection": "Villen dieser Kollektion",
     "others": "Weitere Kollektionen",
-    "plansNote": "Die Grundrisse sind unverbindlich und können im Zuge der finalen Planung angepasst werden."
+    "plansNote": "Die Grundrisse sind unverbindlich und werden Ihnen auf Anfrage persönlich zugesandt.",
+    "plansLocked": "Den detaillierten Grundriss dieses Typs erhalten Sie auf Anfrage."
   },
   "1-bedroom": {
     "meta": {
@@ -55,7 +56,7 @@
       "description": "Garten-Villen mit zwei Schlafzimmern in Kalyves, Kreta: Privatpool, Außenküche, separater Eingang. Schlüsselfertig, voll möbliert. Preisliste auf Anfrage."
     },
     "title": "Wohnen im Garten, der Pool nur Schritte entfernt.",
-    "lead": "Innen und außen als Einheit.",
+    "lead": "Innen und außen, nahtlos vereint.",
     "text": "Villen mit zwei Schlafzimmern, separaten Eingängen und privaten Gärten, die den Wohnraum nach draußen öffnen. Jede verfügt über einen eigenen Pool, eine Außenküche und eine Lounge: die ideale Balance aus Familienkomfort und mediterraner Gelassenheit.",
     "highlights": [
       "Privater Garten und Pool",
@@ -70,7 +71,7 @@
     },
     "title": "Eine Dachterrasse für jeden Abend.",
     "lead": "Wo der Horizont zum Hauptraum wird.",
-    "text": "Villen im Obergeschoss mit drei Schlafzimmern, großzügigen Balkonen und einem privaten Dachgarten mit Pool und Außenküche. Konzipiert für Familien und Gäste, mit den weitesten Ausblicken bei King Solomon.",
+    "text": "Villen im Obergeschoss mit drei Schlafzimmern, großzügigen Balkonen und einem privaten Dachgarten mit Pool und Außenküche. Konzipiert für Familien und Gastgeber, mit den weitesten Ausblicken der gesamten Anlage.",
     "highlights": [
       "Privater Dachgarten mit Pool",
       "Bis zu 116 m² Außenfläche",
@@ -84,7 +85,7 @@
     },
     "title": "Die großen Villen, auf zwei Ebenen.",
     "lead": "Raum für alle, die Ihnen wichtig sind.",
-    "text": "Die größten Residenzen bei King Solomon. Ein Erdgeschoss mit Wohnbereichen, Küche und Gartenpool sowie ein vollständiges Untergeschoss mit weiteren Schlafzimmern. Platz für eine große Familie, mehrere Generationen unter einem Dach oder ein hochwertiges Vermietungsobjekt.",
+    "text": "Die größten Residenzen von King Solomon. Ein Erdgeschoss mit Wohnbereichen, Küche und Gartenpool sowie ein vollständiges Untergeschoss mit weiteren Schlafzimmern. Platz für eine große Familie, mehrere Generationen unter einem Dach oder ein hochwertiges Vermietungsobjekt.",
     "highlights": [
       "Fünf Schlafzimmer auf zwei Ebenen",
       "Garten mit Privatpool",
