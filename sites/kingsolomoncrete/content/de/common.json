@@ -268,7 +268,7 @@
     ],
     "message": "Nachricht (optional)",
     "consentPrivacy": "Ich habe die {privacy} gelesen und stimme ihr zu.",
-    "consentMarketing": "Ich möchte News und Angebote per E-Mail, SMS oder WhatsApp erhalten.",
+    "consentMarketing": "Ich möchte Neuigkeiten und Angebote per E-Mail, SMS oder WhatsApp erhalten.",
     "privacyLink": "Datenschutzerklärung",
     "required": "Pflichtfeld",
     "errorRequired": "Bitte füllen Sie dieses Feld aus.",
@@ -286,7 +286,7 @@
       "brochure": "Investorenbroschüre",
       "pricelist": "Preisliste"
     },
-    "moreDetails": "Weitere Angaben (optional)"
+    "moreDetails": "Weitere Angaben hinzufügen (optional)"
   },
   "contactInfo": {
     "title": "Unsere Kontaktdaten",
@@ -302,7 +302,7 @@
     "statement": "Ein Zuhause über dem Meer. Ein Leben über allen Erwartungen.",
     "explore": "Entdecken",
     "collections": "Kollektionen",
-    "downloads": "Unterlagen",
+    "downloads": "Broschüre & Grundrisse",
     "legal": "Rechtliches",
     "brochure": "Investorenbroschüre anfordern",
     "plans": "Architektenpläne anfordern",
@@ -313,7 +313,7 @@
     "accessibility": "Barrierefreiheitserklärung",
     "cookieSettings": "Cookie-Einstellungen",
     "rights": "© {year} SivanInvest Group. Alle Rechte vorbehalten.",
-    "credits": "Entwickelt von SivanInvest Group · Verwaltet von Sivan Management · Architektur: Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
+    "credits": "Projektentwicklung: SivanInvest Group · Verwaltung: Sivan Management · Architektur: Alkisti Roussou & Theodore Nikoloudakis Architecture Studio",
     "disclaimer": "Die Informationen auf dieser Website sind unverbindlich und stellen weder ein Angebot noch einen Vertrag oder eine Garantie dar. Alle Visualisierungen sind künstlerische Darstellungen. Grundrisse, Flächen, Ausstattung und Preise können sich im Verlauf der Projektentwicklung ändern. Verbindlich sind ausschließlich die Bedingungen des unterzeichneten notariellen Kaufvertrags."
   },
   "cookies": {
@@ -370,7 +370,7 @@
     "cta": "Zurück zur Startseite",
     "metaTitle": "Seite nicht gefunden | King Solomon Kalyves"
   },
-  "whatsappText": "Guten Tag, ich interessiere mich für die King-Solomon-Villen in Kalyves auf Kreta. Könnten Sie mir bitte die aktuelle Verfügbarkeit und die Preise zusenden?",
+  "whatsappText": "Guten Tag, ich interessiere mich für die King-Solomon-Villen in Kalyves auf Kreta. Könnten Sie mir bitte die aktuelle Verfügbarkeit und die Preisliste zusenden?",
   "faqTitle": "Fragen von Käufern und Investoren",
   "faqKicker": "Gut zu wissen",
   "leadEmail": {
@@ -396,9 +396,9 @@
     "interest": "Interesse"
   },
   "companyInfo": {
-    "title": "Impressum",
+    "title": "Angaben zum Unternehmen",
     "company": "Unternehmen",
-    "address": "Anschrift",
+    "address": "Sitz der Gesellschaft",
     "vat": "USt-IdNr.",
     "phone": "Telefon",
     "email": "E-Mail",

@@ -60,9 +60,9 @@
       {
         "h": "7. Ihre Rechte",
         "p": [
-          "Nach der DSGVO haben Sie das Recht auf Auskunft über Ihre Daten, auf Berichtigung oder Löschung, auf Einschränkung der Verarbeitung oder Widerspruch gegen die Verarbeitung, auf Datenübertragbarkeit sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen, ohne dass die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung berührt wird. Nach dem israelischen Datenschutzgesetz haben Sie das Recht, die über Sie gespeicherten Informationen einzusehen, deren Berichtigung oder Löschung zu verlangen und die Entfernung aus jeder Direktmarketing-Liste zu verlangen.",
+          "Nach der DSGVO haben Sie das Recht auf Auskunft über Ihre Daten, auf Berichtigung oder Löschung, auf Einschränkung der Verarbeitung oder Widerspruch gegen die Verarbeitung, auf Datenübertragbarkeit sowie das Recht, eine erteilte Einwilligung jederzeit zu widerrufen, ohne dass die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung berührt wird. Nach dem israelischen Datenschutzgesetz haben Sie das Recht, die über Sie gespeicherten Informationen einzusehen, deren Berichtigung oder Löschung sowie die Entfernung aus jeder Direktmarketing-Liste zu verlangen.",
           "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an {privacyEmail}. Wir antworten innerhalb eines Monats. Sie können außerdem Beschwerde bei der griechischen Datenschutzbehörde (www.dpa.gr), bei der Aufsichtsbehörde Ihres EU-Wohnsitzlandes oder bei der israelischen Datenschutzbehörde (www.gov.il/en/departments/the_privacy_protection_authority) einlegen.",
-          "Die Angabe Ihrer Daten ist freiwillig. Ohne Name, Telefonnummer und E-Mail-Adresse können wir Ihre Anfrage nicht beantworten; alle weiteren Felder sind optional.",
+          "Die Angabe Ihrer Daten ist freiwillig. Ohne Ihren Namen, Ihre Telefonnummer und Ihre E-Mail-Adresse können wir Ihre Anfrage nicht beantworten; alle weiteren Felder sind optional.",
           "Wir treffen keine ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling – beruhenden Entscheidungen, die Ihnen gegenüber rechtliche Wirkung entfalten oder Sie in ähnlicher Weise erheblich beeinträchtigen."
         ]
       },
@@ -207,7 +207,7 @@
       {
         "h": "4. Geistiges Eigentum",
         "p": [
-          "Sämtliche Inhalte dieser Website, einschließlich Texten, Bildern, Filmen, Plänen, Logos und Gestaltung, sind Eigentum von {company} und den Architekten des Projekts oder an diese lizenziert und urheber- sowie markenrechtlich geschützt. Sie dürfen Materialien ausschließlich zur persönlichen, nicht kommerziellen Bewertung des Projekts ansehen und herunterladen."
+          "Sämtliche Inhalte dieser Website, einschließlich Texten, Bildern, Filmen, Plänen, Logos und Gestaltung, sind Eigentum von {company} und den Architekten des Projekts oder an diese lizenziert und urheber- sowie markenrechtlich geschützt. Sie dürfen diese Materialien, einschließlich der Unterlagen, die wir Ihnen auf Anfrage zusenden, ausschließlich zur persönlichen, nicht kommerziellen Prüfung des Projekts ansehen und speichern."
         ]
       },
       {
@@ -253,7 +253,7 @@
       {
         "h": "1. Was wir umgesetzt haben",
         "list": [
-          "Semantische HTML-Struktur mit Landmarks, Überschriften und einem Link zum Überspringen zum Hauptinhalt.",
+          "Semantische HTML-Struktur mit Landmarks, Überschriften und einem Link „Zum Hauptinhalt springen“.",
           "Vollständige Tastaturbedienung mit gut sichtbarer Fokusanzeige.",
           "Textalternativen für aussagekräftige Bilder und zugängliche Bezeichnungen für alle Bedienelemente.",
           "Farbkontraste für Text gemäß WCAG AA sowie Layouts, die sich an eine Vergrößerung bis 200 % und an mobile Bildschirme anpassen.",
