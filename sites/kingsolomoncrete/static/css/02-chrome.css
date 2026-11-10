@@ -108,7 +108,7 @@ html[dir="rtl"] .ftr__h { letter-spacing: .04em; font-size: .85rem; }
 .ftr__langs { padding-block: 1.6rem; border-bottom: 1px solid var(--line-dark); }
 .ftr__langs ul { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem 1.6rem; }
 .ftr__disc { font-size: .76rem; line-height: 1.6; color: rgba(239,234,225,.5); padding-block: 1.8rem 1rem; max-width: 980px; margin-inline: auto; text-align: center; }
-.ftr__bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: .6rem 2rem; font-size: .76rem; color: rgba(239,234,225,.5); }
+.ftr__bottom { display: flex; justify-content: center; text-align: center; flex-wrap: wrap; gap: .6rem 2rem; font-size: .76rem; color: rgba(239,234,225,.5); }
 .ftr__bottom p { margin: 0; }
 @media (max-width: 1000px) { .ftr__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ftr__contact { grid-column: 1 / -1; } }
 @media (max-width: 520px) { .ftr__grid { grid-template-columns: 1fr 1fr; gap: 2rem 1.2rem; } }

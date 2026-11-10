@@ -57,7 +57,7 @@ export function statsBand(ctx) {
     ['view', s.view, '°'], ['chania', s.chania, '′'], ['airport', s.airport, '′'],
   ];
   return `<section class="stats" aria-label="Key facts"><div class="wrap"><ul class="stats__list" role="list">${items
-    .map(([k, v, u], i) => `<li class="stat rv" style="--d:${i * 70}ms"><span class="stat__v"><span data-count="${v}">${v}</span><small>${u}</small></span><span class="stat__l">${ctx.t(`common.stats.${k}`)}</span></li>`)
+    .map(([k, v, u], i) => `<li class="stat rv" style="--d:${i * 70}ms"><span class="stat__v"><span class="sr">${v}${u}</span><span data-count="${v}" aria-hidden="true" style="min-width:${String(v).length}ch">${v}</span><small aria-hidden="true">${u}</small></span><span class="stat__bar" aria-hidden="true"></span><span class="stat__l">${ctx.t(`common.stats.${k}`)}</span></li>`)
     .join('')}</ul></div></section>`;
 }
 

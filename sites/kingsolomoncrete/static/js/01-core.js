@@ -76,20 +76,30 @@
     return { el, spans: $$('.wd', el) };
   });
 
-  /* Count-up numbers ----------------------------------------------------- */
-  const cio = new IntersectionObserver((entries) => entries.forEach((en) => {
-    if (!en.isIntersecting) return;
-    cio.unobserve(en.target);
-    const el = en.target; const end = +el.dataset.count;
-    if (reduced()) return;
-    const t0 = performance.now(); const dur = 1600;
-    const step = (t) => {
-      const p = Math.min(1, (t - t0) / dur); const e = 1 - Math.pow(1 - p, 4);
-      el.textContent = Math.round(end * e); if (p < 1) requestAnimationFrame(step);
-    };
-    el.textContent = '0'; requestAnimationFrame(step);
-  }), { threshold: 0.6 });
-  $$('[data-count]').forEach((el) => cio.observe(el));
+  /* Count-up numbers: every figure in a band counts from 0, staggered, with a growing gold bar */
+  const countIn = (el, delay) => {
+    const end = +el.dataset.count; const box = el.closest('.stat') || el.parentElement; const dur = 2400;
+    setTimeout(() => {
+      const t0 = performance.now();
+      const step = (t) => {
+        const p = Math.min(1, (t - t0) / dur); const e = 1 - Math.pow(1 - p, 3);
+        el.textContent = Math.round(end * e); box.style.setProperty('--p', e.toFixed(3));
+        if (p < 1) requestAnimationFrame(step); else box.classList.add('is-done');
+      };
+      requestAnimationFrame(step);
+    }, delay);
+  };
+  const counters = $$('[data-count]');
+  if (reduced()) counters.forEach((el) => (el.closest('.stat') || el.parentElement).classList.add('is-done'));
+  else {
+    counters.forEach((el) => { el.textContent = '0'; (el.closest('.stat') || el.parentElement).classList.add('is-counting'); });
+    const groups = new Map(); counters.forEach((el) => { const g = el.closest('ul, section') || document.body; if (!groups.has(g)) groups.set(g, []); groups.get(g).push(el); });
+    const cio = new IntersectionObserver((entries) => entries.forEach((en) => {
+      if (!en.isIntersecting) return; cio.unobserve(en.target);
+      (groups.get(en.target) || []).forEach((el, k) => countIn(el, 150 + k * 140));
+    }), { threshold: 0.35 });
+    groups.forEach((_, g) => cio.observe(g));
+  }
 
   /* Scroll-driven scenes: parallax, zoom, horizontal track, story -------- */
   const parallax = $$('[data-parallax]');
