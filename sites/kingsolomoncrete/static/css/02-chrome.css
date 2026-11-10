@@ -67,6 +67,7 @@
 .lang { position: relative; }
 .lang__btn { display: inline-flex; align-items: center; gap: .4rem; height: 40px; padding-inline: .7rem; border-radius: 999px; font-size: .82rem; letter-spacing: .06em; transition: background .25s; }
 .lang__btn:hover { background: rgba(127,127,127,.12); }
+.lang__btn span { white-space: nowrap; }
 .lang__list { position: absolute; top: calc(100% + 10px); inset-inline-end: 0; min-width: 200px; background: rgba(255,255,255,.96); color: var(--ink); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); border: 1px solid var(--line); border-radius: 14px; padding: .4rem; box-shadow: 0 24px 60px -20px rgba(28,26,22,.28); opacity: 0; visibility: hidden; transform: translateY(-6px); transition: all .3s var(--ease); }
 .lang.is-open .lang__list { opacity: 1; visibility: visible; transform: none; }
 .lang__list a { display: flex; align-items: center; gap: .8rem; padding: .6rem .8rem; border-radius: 9px; text-decoration: none; font-size: .9rem; }
