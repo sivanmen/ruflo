@@ -393,5 +393,14 @@
     "note": "Free-text fields are shown exactly as the visitor wrote them.",
     "details": "Contact details",
     "interest": "Interest"
+  },
+  "companyInfo": {
+    "title": "Company details",
+    "company": "Company",
+    "address": "Registered address",
+    "vat": "VAT number",
+    "phone": "Phone",
+    "email": "Email",
+    "controller": "Data controller"
   }
 }

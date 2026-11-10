@@ -393,5 +393,14 @@
     "note": "Les champs libres sont affichés tels que le visiteur les a saisis.",
     "details": "Coordonnées",
     "interest": "Intérêt"
+  },
+  "companyInfo": {
+    "title": "Informations légales",
+    "company": "Société",
+    "address": "Adresse du siège",
+    "vat": "N° de TVA",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "controller": "Responsable du traitement"
   }
 }

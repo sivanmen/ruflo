@@ -393,5 +393,14 @@
     "note": "自由填写的字段按访客原文显示。",
     "details": "联系信息",
     "interest": "意向"
+  },
+  "companyInfo": {
+    "title": "公司信息",
+    "company": "公司名称",
+    "address": "注册地址",
+    "vat": "增值税号（VAT）",
+    "phone": "电话",
+    "email": "电子邮箱",
+    "controller": "数据控制者"
   }
 }

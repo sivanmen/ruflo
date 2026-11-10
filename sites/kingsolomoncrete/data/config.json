@@ -77,12 +77,13 @@
     }
   ],
   "legal": {
-    "company": "SivanInvest Group",
-    "companyAddress": "2 Plateia Eleftherias, 73132 Chania, Crete, Greece",
-    "updated": "2026-11-05",
+    "company": "Sivaninvest King Solomon",
+    "companyAddress": "2, Pl. Eleftherias, 73132 Chania, Crete, Greece",
+    "updated": "2026-11-10",
     "a11yName": "SivanInvest Client Care",
     "a11yEmail": "support@kingsolomoncrete.com",
-    "a11yPhone": "+972 52 451 8134"
+    "a11yPhone": "+972 52 451 8134",
+    "vat": "EL802564767"
   },
   "contact": {
     "email": "support@kingsolomoncrete.com",

@@ -393,5 +393,14 @@
     "note": "Los campos de texto libre se muestran tal como los escribió el visitante.",
     "details": "Datos de contacto",
     "interest": "Interés"
+  },
+  "companyInfo": {
+    "title": "Datos de la empresa",
+    "company": "Empresa",
+    "address": "Domicilio social",
+    "vat": "N.º de IVA",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "controller": "Responsable del tratamiento"
   }
 }

@@ -61,7 +61,9 @@
         "h": "7. Sus derechos",
         "p": [
           "En virtud del RGPD, tiene derecho a acceder a sus datos, a solicitar su rectificación o supresión, a la limitación de su tratamiento o a oponerse a él, a la portabilidad de los datos y a retirar su consentimiento en cualquier momento, sin que ello afecte a la licitud del tratamiento anterior. En virtud de la Ley israelí de Protección de la Privacidad, tiene derecho a consultar la información que se conserva sobre usted, a solicitar su rectificación o supresión y a pedir que se le excluya de cualquier lista de envíos directos.",
-          "Para ejercer cualquiera de sus derechos, escriba a {privacyEmail}. Le responderemos en el plazo de un mes. También puede presentar una reclamación ante la Autoridad Helénica de Protección de Datos (www.dpa.gr), ante la autoridad de control de su país de residencia en la UE o ante la Autoridad Israelí de Protección de la Privacidad (www.gov.il/en/departments/the_privacy_protection_authority)."
+          "Para ejercer cualquiera de sus derechos, escriba a {privacyEmail}. Le responderemos en el plazo de un mes. También puede presentar una reclamación ante la Autoridad Helénica de Protección de Datos (www.dpa.gr), ante la autoridad de control de su país de residencia en la UE o ante la Autoridad Israelí de Protección de la Privacidad (www.gov.il/en/departments/the_privacy_protection_authority).",
+          "Facilitar sus datos es voluntario. Sin su nombre, teléfono y correo electrónico no podemos atender su solicitud; el resto de los campos son opcionales.",
+          "No tomamos decisiones basadas únicamente en el tratamiento automatizado, incluida la elaboración de perfiles, que produzcan efectos jurídicos en usted o le afecten significativamente de modo similar."
         ]
       },
       {
@@ -145,6 +147,13 @@
         "purpose": "Recuerda sus ajustes de accesibilidad",
         "duration": "12 meses",
         "category": "preferences"
+      },
+      {
+        "name": "ks_villa, ks_request, ks_utm",
+        "provider": "King Solomon",
+        "purpose": "Recuerda la villa o el documento solicitado y la fuente de campaña de su visita, para que su consulta llegue a la persona adecuada (se elimina al cerrar el navegador)",
+        "duration": "Sesión",
+        "category": "necessary"
       },
       {
         "name": "_ga, _ga_*",

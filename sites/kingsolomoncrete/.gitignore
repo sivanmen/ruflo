@@ -4,3 +4,8 @@ assets-src/
 dist/api/storage/
 dist/api/config.local.php
 node_modules/
+
+# The site generator lives in build/ (the repo root ignores build/ dirs)
+!build/
+!build/**
+build/**/__pycache__/

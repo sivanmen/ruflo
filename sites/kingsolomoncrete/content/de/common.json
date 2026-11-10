@@ -393,5 +393,14 @@
     "note": "Freitextfelder werden genau so angezeigt, wie der Besucher sie geschrieben hat.",
     "details": "Kontaktdaten",
     "interest": "Interesse"
+  },
+  "companyInfo": {
+    "title": "Impressum",
+    "company": "Unternehmen",
+    "address": "Anschrift",
+    "vat": "USt-IdNr.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "controller": "Verantwortlicher"
   }
 }
