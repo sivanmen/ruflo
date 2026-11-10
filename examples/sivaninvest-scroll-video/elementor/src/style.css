@@ -1,0 +1,180 @@
+/* King Solomon Project — every rule is scoped to #ksp except the three page-level
+   rules the spec puts on html/body; this CSS only ever loads on this one page.
+   Values are Tailwind 3 defaults written in px so the theme's root font-size can't shift them. */
+html { scroll-behavior: smooth; }
+body { margin: 0; overflow-x: hidden; }
+/* The site's Customizer CSS sets `html, body { overflow-x: hidden }`; with both hidden, body
+   becomes a scroll container and position:sticky stops working. `clip` crops the same way
+   without creating a scroll container (older browsers without clip fall back to visible).
+   !important because theme rules with higher specificity also hide body overflow. */
+html, body { overflow-x: clip !important; }
+@supports not (overflow-x: clip) { html, body { overflow-x: visible !important; } }
+
+/* scoped preflight (Tailwind 3), beats theme/kit element rules by id specificity */
+#ksp, #ksp *, #ksp *::before, #ksp *::after { box-sizing: border-box; border: 0 solid #e5e7eb; margin: 0; padding: 0; }
+#ksp {
+  position: relative; display: block; width: 100%;
+  font-family: 'Helvetica Neue ME', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px; font-weight: 400; font-style: normal; line-height: 1.5; letter-spacing: normal;
+  color: #000; text-align: start; text-transform: none; -webkit-text-size-adjust: 100%; tab-size: 4;
+  overflow-wrap: normal; word-break: normal; white-space: normal; word-spacing: normal;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.18);
+}
+#ksp h1, #ksp h2, #ksp p, #ksp span, #ksp div, #ksp nav, #ksp section {
+  font-family: inherit; font-size: inherit; font-weight: inherit; line-height: inherit;
+  letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; box-shadow: none;
+}
+#ksp a {
+  font-family: inherit; font-size: inherit; font-weight: inherit; line-height: inherit; letter-spacing: inherit; text-transform: inherit;
+  color: inherit; text-decoration: inherit; background: none; box-shadow: none; transition: none; }
+#ksp button {
+  font-family: inherit; font-size: 100%; font-weight: inherit; line-height: inherit; letter-spacing: inherit;
+  color: inherit; text-transform: none; background-color: transparent; background-image: none;
+  box-shadow: none; border-radius: 0; min-height: 0; width: auto; height: auto; text-shadow: none;
+  -webkit-appearance: button; appearance: button; cursor: pointer;
+}
+#ksp svg { display: block; vertical-align: middle; }
+#ksp video, #ksp canvas { display: block; max-width: 100%; height: auto; line-height: inherit; }
+
+/* Hebrew page: keep the site's own font as configured in WordPress/Elementor (inherited from body). */
+#ksp[lang="he"] { font-family: inherit; }
+
+/* scene */
+#ksp .k-track { position: relative; height: 500vh; }
+#ksp .k-sticky { position: sticky; top: 0; width: 100%; height: 100vh; overflow: hidden; }
+#ksp .k-media { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+#ksp .k-canvas { opacity: 0; transition: opacity 300ms cubic-bezier(0.4, 0, 0.2, 1); }
+#ksp .k-canvas.is-live { opacity: 1; }
+#ksp .k-overlay { position: absolute; inset: 0; pointer-events: none; }
+
+/* navbar */
+#ksp .k-nav {
+  position: absolute; top: 0; left: 0; right: 0; z-index: 50; pointer-events: auto;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 32px 24px 24px; color: #1D3045;
+  transition: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#ksp.is-dark .k-nav { color: #fff; }
+#ksp .k-ent {
+  opacity: 0; transform: translateY(-12px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1) var(--d), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) var(--d);
+}
+#ksp.is-mounted .k-ent { opacity: 1; transform: translateY(0); }
+#ksp .k-links { display: none; align-items: center; gap: 32px; }
+#ksp .k-links .k-ent { display: flex; }
+#ksp .k-link { position: relative; font-size: 12px; line-height: 16px; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 500; }
+#ksp .k-link:hover { opacity: 0.7; }
+#ksp .k-underline { position: absolute; left: 0; bottom: -12px; width: 100%; height: 2px; background-color: currentColor; }
+#ksp .k-burger { display: flex; flex-direction: column; gap: 5px; }
+#ksp .k-bar { display: block; width: 24px; height: 2px; background-color: currentColor; }
+#ksp .k-bar.k-bar-s { width: 16px; }
+#ksp .k-right { display: none; align-items: center; gap: 32px; }
+#ksp .k-type { font-size: 12px; line-height: 16px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; }
+#ksp .k-news { display: flex; align-items: center; gap: 8px; }
+#ksp .k-dot { width: 20px; height: 20px; border-radius: 9999px; background-color: currentColor; display: flex; align-items: center; justify-content: center; }
+#ksp .k-dot svg {
+  color: #fff; stroke: currentColor;
+  transition: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-duration: 500ms; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+#ksp.is-dark .k-dot svg { color: #1D3045; }
+#ksp .k-menu-label { display: none; }
+
+/* sections */
+#ksp .k-s { position: absolute; inset: 0; transition: opacity 0.1s ease-out; }
+#ksp .k-st {
+  opacity: 0; transform: translateY(24px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1) var(--d), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1) var(--d);
+}
+#ksp .k-s.is-visible .k-st { opacity: 1; transform: translateY(0); }
+#ksp .k-s.is-visible .k-pe { pointer-events: auto; }
+#ksp .k-circle { border-radius: 9999px; border-width: 1px; border-style: solid; display: flex; align-items: center; justify-content: center; }
+#ksp .k-c48 { width: 48px; height: 48px; }
+#ksp .k-c40 { width: 40px; height: 40px; }
+#ksp[dir="rtl"] .k-flip svg { transform: scaleX(-1); }
+
+#ksp .k-s1 { display: flex; flex-direction: column; justify-content: center; padding: 0 24px; }
+#ksp .k-h1 { font-weight: 300; text-transform: uppercase; line-height: 1.2; font-size: clamp(32px, 5vw, 80px); color: #1D3045; }
+#ksp .k-sub { margin-top: 24px; font-size: 14px; line-height: 20px; letter-spacing: 0.3em; text-transform: uppercase; color: #1D304590; }
+#ksp .k-s1-btn { position: absolute; bottom: 48px; inset-inline-end: 24px; }
+#ksp .k-next { border-color: #1D304550; color: #1D3045; }
+#ksp .k-next:hover { opacity: 0.7; }
+
+#ksp .k-s2 { display: flex; align-items: center; justify-content: center; padding: 0 24px; }
+#ksp .k-s2-inner { max-width: 900px; }
+#ksp .k-h2a {
+  font-weight: 200; letter-spacing: 0.025em; line-height: 1.3; text-align: center; text-transform: uppercase;
+  font-size: clamp(24px, 4.5vw, 72px); color: #1D3045;
+}
+#ksp .k-h2a .k-a80 { color: #1D304580; }
+#ksp .k-h2a .k-a50 { color: #1D304550; }
+#ksp .k-rail { position: absolute; bottom: 64px; inset-inline-end: 24px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
+#ksp .k-down { border-color: #1D304540; color: #1D3045; }
+#ksp .k-dots { margin-top: 16px; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+#ksp .k-dots span { display: block; border-radius: 9999px; width: 6px; height: 6px; background-color: #1D304540; }
+#ksp .k-dots span.is-active { width: 8px; height: 8px; background-color: #1D3045; }
+#ksp .k-up { margin-top: 8px; border-color: #1D304530; color: #1D304580; }
+
+#ksp .k-s3 { display: flex; align-items: center; justify-content: flex-end; padding: 0 24px; }
+#ksp .k-s3-inner { max-width: 672px; text-align: start; }
+#ksp .k-eyebrow { color: rgb(255 255 255 / 0.6); font-size: 18px; line-height: 28px; letter-spacing: 0.025em; margin-bottom: 16px; }
+#ksp .k-h2b {
+  font-weight: 300; color: #fff; line-height: 1.2; text-transform: uppercase; letter-spacing: 0.025em;
+  margin-bottom: 32px; font-size: clamp(32px, 4vw, 64px);
+}
+#ksp .k-cta { display: flex; align-items: center; gap: 16px; }
+#ksp .k-cta-label { font-size: 14px; line-height: 20px; letter-spacing: 0.3em; color: rgb(255 255 255 / 0.8); text-transform: uppercase; }
+#ksp .k-cta-btn {
+  width: 40px; height: 40px; border-radius: 9999px; background-color: #fff; color: #1f2937;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#ksp .k-cta-btn:hover { transform: scale(1.1); }
+
+/* mobile menu overlay */
+#ksp .k-menu {
+  position: fixed; inset: 0; z-index: 100; background-color: #1D3045; opacity: 0; visibility: hidden;
+  transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+#ksp .k-menu.is-open { opacity: 1; visibility: visible; }
+#ksp .k-panel { height: 100%; display: flex; flex-direction: column; transform: translateY(-32px); transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1); }
+#ksp .k-menu.is-open .k-panel { transform: translateY(0); }
+#ksp .k-close-row { display: flex; justify-content: flex-end; padding: 32px 24px 0; }
+#ksp .k-close { border-color: rgb(255 255 255 / 0.3); color: #fff; }
+#ksp .k-close:hover { border-color: #fff; }
+#ksp .k-mlinks { flex: 1 1 0%; display: flex; flex-direction: column; justify-content: center; padding: 0 32px; }
+#ksp .k-mlink {
+  padding: 12px 0; font-size: 24px; line-height: 32px; font-weight: 300; letter-spacing: 0.025em; text-transform: uppercase;
+  opacity: 0; transform: translateY(20px);
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1) var(--d), transform 0.5s cubic-bezier(0.4, 0, 0.2, 1) var(--d);
+}
+#ksp .k-mlink { color: rgb(255 255 255 / 0.6); }
+#ksp .k-mlink:hover, #ksp .k-mlink.is-active { color: #fff; }
+#ksp .k-menu.is-open .k-mlink { opacity: 1; transform: translateY(0); }
+#ksp .k-mfoot { padding: 0 32px 40px; display: flex; align-items: center; gap: 32px; font-size: 12px; line-height: 16px; letter-spacing: 0.2em; text-transform: uppercase; color: rgb(255 255 255 / 0.6); }
+
+@media (min-width: 640px) {
+  #ksp .k-nav { padding: 48px 32px 24px; }
+  #ksp .k-right { display: flex; }
+  #ksp .k-s1, #ksp .k-s2, #ksp .k-s3 { padding: 0 32px; }
+  #ksp .k-s1-btn, #ksp .k-rail { inset-inline-end: 32px; }
+  #ksp .k-close-row { padding: 48px 32px 0; }
+  #ksp .k-mlinks { padding: 0 48px; }
+  #ksp .k-mlink { font-size: 30px; line-height: 36px; }
+  #ksp .k-mfoot { padding: 0 48px 40px; }
+}
+@media (min-width: 768px) {
+  #ksp .k-nav { padding-left: 48px; padding-right: 48px; }
+  #ksp .k-s1, #ksp .k-s3 { padding: 0 80px; }
+  #ksp .k-s1-btn, #ksp .k-rail { inset-inline-end: 48px; }
+}
+@media (min-width: 1024px) {
+  #ksp .k-links { display: flex; }
+  #ksp .k-burger, #ksp .k-menu-btn { display: none; }
+  #ksp .k-menu-label { display: inline; }
+  #ksp .k-s1, #ksp .k-s3 { padding: 0 128px; }
+}
+@media (min-width: 1280px) {
+  #ksp .k-links { gap: 40px; }
+}
