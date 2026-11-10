@@ -259,7 +259,7 @@
           "Contraste de color conforme a WCAG AA para el texto y diseños que se adaptan a un zoom de hasta el 200 % y a pantallas móviles.",
           "Diseños de derecha a izquierda para hebreo y árabe.",
           "Animaciones y vídeos que se detienen automáticamente cuando su sistema solicita movimiento reducido, y un control para detenerlos manualmente.",
-          "Un menú de accesibilidad para ampliar el texto, aumentar el contraste, resaltar los enlaces, utilizar una fuente más legible y detener las animaciones.",
+          "Un menú de accesibilidad para cambiar de idioma, ampliar el texto, ajustar el espaciado, aumentar u oscurecer el contraste, ver el sitio en monocromo, resaltar enlaces y títulos, agrandar el cursor, usar una guía de lectura, escuchar el texto en voz alta, utilizar una fuente más legible y detener las animaciones.",
           "Formularios con etiquetas visibles, mensajes de error claros y sin límites de tiempo."
         ]
       },

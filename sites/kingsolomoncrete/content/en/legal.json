@@ -259,7 +259,7 @@
           "Colour contrast meeting WCAG AA for text, and layouts that adapt to zoom up to 200% and to mobile screens.",
           "Right-to-left layouts for Hebrew and Arabic.",
           "Animations and video that stop automatically when your system requests reduced motion, and a control to stop them manually.",
-          "An accessibility menu to enlarge text, increase contrast, highlight links, use a more readable font and stop animations.",
+          "An accessibility menu to switch language, enlarge text, adjust text spacing, increase or darken contrast, view the site in monochrome, highlight links and headings, enlarge the cursor, use a reading guide, have text read aloud, use a more readable font and stop animations.",
           "Forms with visible labels, clear error messages and no time limits."
         ]
       },

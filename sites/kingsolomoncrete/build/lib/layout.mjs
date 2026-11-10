@@ -98,13 +98,18 @@ function consentUI(ctx) {
 <div class="cc__actions"><button type="button" class="btn btn--line" data-cc="reject">${ctx.t('common.cookies.reject')}</button><button type="button" class="btn btn--line" data-cc="customize">${ctx.t('common.cookies.customize')}</button><button type="button" class="btn btn--line" data-cc="save" hidden>${ctx.t('common.cookies.save')}</button><button type="button" class="btn btn--gold" data-cc="accept">${ctx.t('common.cookies.accept')}</button></div></div></div>`;
 }
 
-function a11yMenu(ctx) {
-  const opt = (k, label) => `<button type="button" class="a11y__opt" data-a11y="${k}" aria-pressed="false">${label}</button>`;
-  return `<div class="a11y" data-a11y-root><button type="button" class="a11y__btn" aria-expanded="false" aria-controls="a11y-p" aria-label="${ctx.t('common.a11y.open')}">${icon('a11y')}</button>
-<div class="a11y__panel" id="a11y-p" hidden><p class="a11y__title">${ctx.t('common.a11y.title')}</p>
-<div class="a11y__size"><span>${ctx.t('common.a11y.textSize')}</span><button type="button" data-a11y="smaller" aria-label="A-">A−</button><button type="button" data-a11y="bigger" aria-label="A+">A+</button></div>
-${opt('contrast', ctx.t('common.a11y.contrast'))}${opt('motion', ctx.t('common.a11y.motion'))}${opt('links', ctx.t('common.a11y.links'))}${opt('font', ctx.t('common.a11y.font'))}
-<div class="a11y__row"><button type="button" class="linklike" data-a11y="reset">${ctx.t('common.a11y.reset')}</button><a href="${ctx.url('accessibility')}">${ctx.t('common.a11y.statement')}</a></div></div></div>`;
+function a11yMenu(ctx, page) {
+  const T = (k) => ctx.t(`common.a11y.${k}`);
+  const opt = (k) => `<button type="button" class="a11y__opt" data-a11y="${k}" aria-pressed="false">${T(k)}</button>`;
+  const group = (k, body) => `<div class="a11y__grp"><p class="a11y__gh">${T(k)}</p>${body}</div>`;
+  const langs = config.languages.map((l) => `<option value="${ctx.urlFor(l.code, page.key)}"${l.code === ctx.lang ? ' selected' : ''} lang="${l.hreflang}">${langName(l.code)}</option>`).join('');
+  return `<div class="a11y" data-a11y-root><button type="button" class="a11y__btn" aria-expanded="false" aria-controls="a11y-p" aria-label="${T('open')}">${icon('a11y')}</button>
+<div class="a11y__panel" id="a11y-p" role="dialog" aria-label="${T('title')}" hidden><p class="a11y__title">${T('title')}</p>
+<label class="a11y__lang"><span>${T('language')}</span><select data-a11y-lang aria-label="${T('language')}">${langs}</select></label>
+${group('groupText', `<div class="a11y__size"><span>${T('textSize')}</span><button type="button" data-a11y="smaller" aria-label="A-">A−</button><button type="button" data-a11y="bigger" aria-label="A+">A+</button></div><div class="a11y__opts">${opt('spacing')}${opt('font')}</div>`)}
+${group('groupColour', `<div class="a11y__opts">${opt('contrast')}${opt('dark')}${opt('mono')}</div>`)}
+${group('groupNav', `<div class="a11y__opts">${opt('links')}${opt('headings')}${opt('cursor')}${opt('guide')}${opt('speak')}${opt('motion')}</div><p class="a11y__hint" data-a11y-hint hidden>${T('speakHint')}</p>`)}
+<div class="a11y__row"><button type="button" class="linklike" data-a11y="reset">${T('reset')}</button><a href="${ctx.url('accessibility')}">${T('statement')}</a></div></div></div>`;
 }
 
 function stickyBar(ctx) {
@@ -143,7 +148,7 @@ ${body}
 </main>
 ${footer(ctx)}
 ${page.bare ? '' : stickyBar(ctx)}
-${a11yMenu(ctx)}
+${a11yMenu(ctx, page)}
 ${consentUI(ctx)}
 <div class="lb" data-lightbox hidden role="dialog" aria-modal="true" aria-label="Gallery"><button class="lb__close" data-lb-close aria-label="${ctx.t('common.buttons.closeDialog')}">${icon('close')}</button><button class="lb__nav lb__prev" data-lb-prev aria-label="${ctx.t('common.buttons.prev')}">${icon('chevron')}</button><figure class="lb__fig"><img alt="" data-lb-img><figcaption data-lb-cap></figcaption></figure><button class="lb__nav lb__next" data-lb-next aria-label="${ctx.t('common.buttons.next')}">${icon('chevron')}</button><p class="lb__count" data-lb-count></p></div>
 <noscript><style>.rv,.rv-l>*{opacity:1!important;transform:none!important}</style></noscript>

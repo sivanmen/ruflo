@@ -355,7 +355,19 @@
     "links": "Resaltar enlaces",
     "font": "Fuente legible",
     "reset": "Restablecer",
-    "statement": "Declaración de accesibilidad"
+    "statement": "Declaración de accesibilidad",
+    "language": "Idioma",
+    "groupText": "Texto",
+    "groupColour": "Color y contraste",
+    "groupNav": "Navegación y lectura",
+    "spacing": "Espaciado del texto",
+    "dark": "Contraste oscuro",
+    "mono": "Monocromo",
+    "headings": "Resaltar títulos",
+    "cursor": "Cursor grande",
+    "guide": "Guía de lectura",
+    "speak": "Leer en voz alta",
+    "speakHint": "Haga clic en cualquier texto para escucharlo."
   },
   "langSuggest": {
     "text": "Esta página también está disponible en español.",

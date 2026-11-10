@@ -355,7 +355,19 @@
     "links": "Surligner les liens",
     "font": "Police lisible",
     "reset": "Réinitialiser",
-    "statement": "Déclaration d’accessibilité"
+    "statement": "Déclaration d’accessibilité",
+    "language": "Langue",
+    "groupText": "Texte",
+    "groupColour": "Couleurs et contraste",
+    "groupNav": "Navigation et lecture",
+    "spacing": "Espacement du texte",
+    "dark": "Contraste sombre",
+    "mono": "Monochrome",
+    "headings": "Surligner les titres",
+    "cursor": "Grand curseur",
+    "guide": "Guide de lecture",
+    "speak": "Lecture à voix haute",
+    "speakHint": "Cliquez sur un texte pour l’écouter."
   },
   "langSuggest": {
     "text": "Cette page est également disponible en français.",

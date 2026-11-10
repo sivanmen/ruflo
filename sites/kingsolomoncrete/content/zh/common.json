@@ -355,7 +355,19 @@
     "links": "突出显示链接",
     "font": "易读字体",
     "reset": "重置",
-    "statement": "无障碍声明"
+    "statement": "无障碍声明",
+    "language": "语言",
+    "groupText": "文字",
+    "groupColour": "色彩与对比度",
+    "groupNav": "浏览与阅读",
+    "spacing": "文字间距",
+    "dark": "深色对比",
+    "mono": "黑白模式",
+    "headings": "突出标题",
+    "cursor": "大号光标",
+    "guide": "阅读指引",
+    "speak": "朗读",
+    "speakHint": "点击任意文字即可收听朗读。"
   },
   "langSuggest": {
     "text": "本页面亦提供中文版本。",

@@ -355,7 +355,19 @@
     "links": "Links hervorheben",
     "font": "Gut lesbare Schrift",
     "reset": "Zurücksetzen",
-    "statement": "Barrierefreiheitserklärung"
+    "statement": "Barrierefreiheitserklärung",
+    "language": "Sprache",
+    "groupText": "Text",
+    "groupColour": "Farbe & Kontrast",
+    "groupNav": "Navigation & Lesen",
+    "spacing": "Textabstände",
+    "dark": "Dunkler Kontrast",
+    "mono": "Graustufen",
+    "headings": "Überschriften hervorheben",
+    "cursor": "Großer Mauszeiger",
+    "guide": "Leselinie",
+    "speak": "Vorlesen",
+    "speakHint": "Klicken Sie auf einen Text, um ihn vorlesen zu lassen."
   },
   "langSuggest": {
     "text": "Diese Seite ist auch auf Deutsch verfügbar.",

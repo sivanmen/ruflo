@@ -259,7 +259,7 @@
           "Farbkontraste für Text gemäß WCAG AA sowie Layouts, die sich an eine Vergrößerung bis 200 % und an mobile Bildschirme anpassen.",
           "Rechts-nach-links-Layouts für Hebräisch und Arabisch.",
           "Animationen und Videos, die automatisch stoppen, wenn Ihr System reduzierte Bewegung anfordert, sowie ein Bedienelement, um sie manuell anzuhalten.",
-          "Ein Barrierefreiheitsmenü, um Text zu vergrößern, den Kontrast zu erhöhen, Links hervorzuheben, eine besser lesbare Schrift zu verwenden und Animationen zu stoppen.",
+          "Ein Barrierefreiheitsmenü, um die Sprache zu wechseln, Text zu vergrößern, Textabstände anzupassen, den Kontrast zu erhöhen oder abzudunkeln, die Website in Graustufen anzuzeigen, Links und Überschriften hervorzuheben, den Mauszeiger zu vergrößern, eine Leselinie zu nutzen, Texte vorlesen zu lassen, eine besser lesbare Schrift zu verwenden und Animationen zu stoppen.",
           "Formulare mit sichtbaren Beschriftungen, klaren Fehlermeldungen und ohne Zeitbegrenzung."
         ]
       },

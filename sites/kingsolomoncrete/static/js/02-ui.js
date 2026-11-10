@@ -106,13 +106,40 @@
 
   /* Accessibility menu ---------------------------------------------------- */
   const a = $('[data-a11y-root]');
-  const prefs = Object.assign({ size: 1, contrast: false, motion: false, links: false, font: false }, store.get('ks_a11y') || {});
+  const DEF = { size: 1, contrast: false, motion: false, links: false, font: false, spacing: false, dark: false, mono: false, headings: false, cursor: false, guide: false, speak: false };
+  const prefs = Object.assign({}, DEF, store.get('ks_a11y') || {}, { speak: false });
+  const guide = document.createElement('div'); guide.className = 'a11y-guide'; guide.hidden = true; guide.setAttribute('aria-hidden', 'true'); document.body.appendChild(guide);
+  const moveGuide = (y) => { guide.style.transform = `translateY(${y - 18}px)`; };
+  addEventListener('pointermove', (e) => { if (!guide.hidden) moveGuide(e.clientY); }, { passive: true });
+  addEventListener('touchmove', (e) => { if (!guide.hidden && e.touches[0]) moveGuide(e.touches[0].clientY); }, { passive: true });
+  const hint = $('[data-a11y-hint]', a);
+  const speakBtn = $('[data-a11y="speak"]', a);
+  if (!('speechSynthesis' in window) && speakBtn) speakBtn.hidden = true;
+  const VOICE = { en: 'en-GB', he: 'he-IL', ar: 'ar-SA', fr: 'fr-FR', de: 'de-DE', es: 'es-ES', el: 'el-GR', ru: 'ru-RU', zh: 'zh-CN' };
+  const say = (text) => {
+    text = (text || '').replace(/\s+/g, ' ').trim(); if (!text) return;
+    speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(text.slice(0, 3000));
+    u.lang = VOICE[root.dataset.lang] || root.lang; u.rate = 0.95; speechSynthesis.speak(u);
+  };
+  document.addEventListener('click', (e) => {
+    if (!prefs.speak || a.contains(e.target) || e.target.closest('a, button, input, select, textarea, label, summary')) return;
+    const sel = String(getSelection() || '').trim();
+    const blk = e.target.closest('p, h1, h2, h3, h4, li, dt, dd, td, th, blockquote, figcaption, legend');
+    say(sel || (blk && blk.innerText));
+  });
+  document.addEventListener('focusin', (e) => { if (prefs.speak && !a.contains(e.target) && e.target.matches('a, button')) say(e.target.getAttribute('aria-label') || e.target.innerText); });
+  $('[data-a11y-lang]', a)?.addEventListener('change', (e) => { try { store.set('ks_lang', { chose: e.target.value }); } catch (x) {} location.href = e.target.value; });
   const apply = () => {
     root.style.setProperty('--fs', prefs.size);
     root.classList.toggle('a11y-contrast', prefs.contrast);
     root.classList.toggle('reduced', prefs.motion);
     root.classList.toggle('a11y-links', prefs.links);
     root.classList.toggle('a11y-font', prefs.font);
+    ['spacing', 'dark', 'mono', 'headings', 'cursor'].forEach((k) => root.classList.toggle(`a11y-${k}`, prefs[k]));
+    root.style.filter = [prefs.mono ? 'grayscale(1)' : '', prefs.dark ? 'invert(1) hue-rotate(180deg)' : ''].join(' ').trim();
+    guide.hidden = !prefs.guide;
+    if (hint) hint.hidden = !prefs.speak;
+    if (!prefs.speak && 'speechSynthesis' in window) speechSynthesis.cancel();
     $$('[data-a11y]', a).forEach((b) => b.hasAttribute('aria-pressed') && b.setAttribute('aria-pressed', !!prefs[b.dataset.a11y]));
     if (prefs.motion) $$('video').forEach((v) => v.pause());
   };
@@ -128,9 +155,10 @@
     const k = b.dataset.a11y;
     if (k === 'bigger') prefs.size = Math.min(1.4, +(prefs.size + 0.1).toFixed(2));
     else if (k === 'smaller') prefs.size = Math.max(0.9, +(prefs.size - 0.1).toFixed(2));
-    else if (k === 'reset') Object.assign(prefs, { size: 1, contrast: false, motion: false, links: false, font: false });
+    else if (k === 'reset') Object.assign(prefs, DEF);
     else prefs[k] = !prefs[k];
     apply(); save(); dispatchEvent(new Event('scroll'));
+    if (k === 'speak' && prefs.speak && hint) say(hint.textContent);
   }));
   apply();
 })();

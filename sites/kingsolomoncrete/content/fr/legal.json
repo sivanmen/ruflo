@@ -259,7 +259,7 @@
           "Des contrastes de couleurs conformes au niveau AA des WCAG pour les textes, et des mises en page qui s’adaptent à un zoom jusqu’à 200 % et aux écrans mobiles.",
           "Des mises en page de droite à gauche pour l’hébreu et l’arabe.",
           "Des animations et vidéos qui s’arrêtent automatiquement lorsque votre système demande une réduction des mouvements, ainsi qu’une commande pour les arrêter manuellement.",
-          "Un menu d’accessibilité permettant d’agrandir le texte, d’augmenter le contraste, de surligner les liens, d’utiliser une police plus lisible et d’arrêter les animations.",
+          "Un menu d’accessibilité pour changer de langue, agrandir le texte, ajuster l’espacement, renforcer ou assombrir le contraste, afficher le site en monochrome, surligner les liens et les titres, agrandir le curseur, utiliser un guide de lecture, écouter le texte à voix haute, choisir une police plus lisible et arrêter les animations.",
           "Des formulaires avec étiquettes visibles, messages d’erreur clairs et sans limite de temps."
         ]
       },

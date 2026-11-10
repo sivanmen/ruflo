@@ -355,7 +355,19 @@
     "links": "Highlight links",
     "font": "Readable font",
     "reset": "Reset",
-    "statement": "Accessibility statement"
+    "statement": "Accessibility statement",
+    "language": "Language",
+    "groupText": "Text",
+    "groupColour": "Colour & contrast",
+    "groupNav": "Navigation & reading",
+    "spacing": "Text spacing",
+    "dark": "Dark contrast",
+    "mono": "Monochrome",
+    "headings": "Highlight headings",
+    "cursor": "Large cursor",
+    "guide": "Reading guide",
+    "speak": "Read aloud",
+    "speakHint": "Click any text to hear it read aloud."
   },
   "langSuggest": {
     "text": "This page is also available in English.",
