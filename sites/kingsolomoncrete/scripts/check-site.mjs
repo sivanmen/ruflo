@@ -27,13 +27,13 @@ for (const f of files) {
   if (title && rel !== '/404.html') { if (titles.has(title)) problems.push(`${rel}: duplicate title with ${titles.get(title)}`); titles.set(title, rel); }
   const h1 = (html.match(/<h1[\s>]/g) || []).length;
   if (h1 !== 1) problems.push(`${rel}: ${h1} <h1>`);
-  if (!/<html lang="[a-z]{2}"/.test(html)) problems.push(`${rel}: missing lang`);
+  if (!/<html lang="[a-z]{2}(-[A-Za-z]{2,4})?"/.test(html)) problems.push(`${rel}: missing lang`);
   const imgsNoAlt = (html.match(/<img(?![^>]*\balt=)[^>]*>/g) || []).length;
   if (imgsNoAlt) problems.push(`${rel}: ${imgsNoAlt} <img> without alt`);
   const ids = [...html.matchAll(/\sid="([^"]+)"/g)].map((m) => m[1]);
   const dup = ids.filter((x, i) => ids.indexOf(x) !== i);
   if (dup.length) problems.push(`${rel}: duplicate ids ${[...new Set(dup)].join(',')}`);
-  if (!html.includes('noindex') && (html.match(/hreflang=/g) || []).length < 8) problems.push(`${rel}: hreflang missing`);
+  if (!html.includes('noindex') && (html.match(/hreflang=/g) || []).length < 10) problems.push(`${rel}: hreflang missing`);
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) { try { JSON.parse(m[1]); } catch { problems.push(`${rel}: invalid JSON-LD`); } }
   if (/\{(no|n|a|t|v|year|privacy|site|company|email|date|code)\}/.test(html.replace(/<script[\s\S]*?<\/script>/g, ''))) problems.push(`${rel}: unreplaced placeholder ${html.match(/\{(no|n|a|t|v|year|privacy|site|company|email|date|code)\}/)[0]}`);
 }
