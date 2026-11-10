@@ -268,7 +268,7 @@
     ],
     "message": "Mensaje (opcional)",
     "consentPrivacy": "He leído y acepto la {privacy}.",
-    "consentMarketing": "Quiero recibir novedades y ofertas por email, SMS o WhatsApp.",
+    "consentMarketing": "Deseo recibir novedades y ofertas por correo electrónico, SMS o WhatsApp.",
     "privacyLink": "Política de privacidad",
     "required": "Obligatorio",
     "errorRequired": "Por favor, complete este campo.",
@@ -286,7 +286,7 @@
       "brochure": "Dossier para inversores",
       "pricelist": "Lista de precios"
     },
-    "moreDetails": "Más detalles (opcional)"
+    "moreDetails": "Añadir más detalles (opcional)"
   },
   "contactInfo": {
     "title": "Nuestros datos",
@@ -370,7 +370,7 @@
     "cta": "Volver a la página de inicio",
     "metaTitle": "Página no encontrada | King Solomon Kalyves"
   },
-  "whatsappText": "Hola, me interesan las villas King Solomon en Kalyves, Creta. ¿Podrían enviarme la disponibilidad y los precios?",
+  "whatsappText": "Hola, me interesan las villas King Solomon en Kalyves, Creta. ¿Podrían enviarme la disponibilidad actual y la lista de precios?",
   "faqTitle": "Preguntas de inversores",
   "faqKicker": "Conviene saber",
   "leadEmail": {

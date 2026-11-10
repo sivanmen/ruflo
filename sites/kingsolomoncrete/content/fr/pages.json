@@ -5,7 +5,7 @@
       "description": "Vues extérieures et intérieures, images aériennes et film de King Solomon, villas de luxe à Kalyves, en Crète. Brochure et plans sur demande."
     },
     "hero": {
-      "kicker": "Galerie & documents",
+      "kicker": "Galerie & film",
       "title": "Voyez-le avant de le ressentir.",
       "subtitle": "Vues extérieures et intérieures, la situation et le film."
     },
@@ -35,7 +35,7 @@
   "developer": {
     "meta": {
       "title": "Promoteur immobilier en Crète : SivanInvest | King Solomon",
-      "description": "King Solomon, développé par SivanInvest Group, maison d’investissement boutique forte de près de 20 ans d’expérience, géré à La Canée par Sivan Management."
+      "description": "King Solomon est développé par SivanInvest Group, maison d’investissement immobilier boutique forte de près de 20 ans d’expérience, et géré à La Canée par Sivan Management."
     },
     "hero": {
       "kicker": "Le promoteur",
@@ -76,7 +76,7 @@
         "label": "Ans sur le marché grec"
       },
       {
-        "value": "100s",
+        "value": "Centaines",
         "label": "Investisseurs accompagnés"
       },
       {
@@ -135,7 +135,7 @@
     "architects": {
       "kicker": "Architecture",
       "title": "Alkisti Roussou & Theodore Nikoloudakis",
-      "text": "King Solomon a été conçu par deux architectes établis à La Canée : Alkisti Roussou et Theodore Nikoloudakis Architecture Studio. Leurs réalisations – hôtels, résidences et lieux d’accueil – allient le design méditerranéen contemporain au paysage naturel et à la lumière de la Crète.",
+      "text": "King Solomon a été conçu par deux agences établies à La Canée : l’architecte Alkisti Roussou et Theodore Nikoloudakis Architecture Studio. Leurs réalisations – hôtels, résidences et lieux d’accueil – allient le design méditerranéen contemporain au paysage naturel et à la lumière de la Crète.",
       "studios": [
         {
           "name": "Alkisti Roussou",
@@ -158,7 +158,7 @@
     "hero": {
       "kicker": "Contact",
       "title": "Parlons de votre horizon.",
-      "subtitle": "Disponibilités, prix et présentation privée. Nous serons ravis de vous lire."
+      "subtitle": "Disponibilités, prix et présentation privée. Nous serons ravis d’échanger avec vous."
     },
     "visit": {
       "title": "Rendez-nous visite à La Canée",

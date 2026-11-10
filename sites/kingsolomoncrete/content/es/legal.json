@@ -151,7 +151,7 @@
       {
         "name": "ks_villa, ks_request, ks_utm",
         "provider": "King Solomon",
-        "purpose": "Recuerda la villa o el documento solicitado y la fuente de campaña de su visita, para que su consulta llegue a la persona adecuada (se elimina al cerrar el navegador)",
+        "purpose": "Recuerda la villa o el documento que le interesa y la campaña de origen de su visita, para que su consulta llegue a la persona adecuada (se elimina al cerrar el navegador)",
         "duration": "Sesión",
         "category": "necessary"
       },
@@ -207,7 +207,7 @@
       {
         "h": "4. Propiedad intelectual",
         "p": [
-          "Todo el contenido de este sitio web, incluidos textos, imágenes, vídeos, planos, logotipos y diseño, es propiedad de {company} y de los arquitectos del proyecto, o se utiliza bajo licencia, y está protegido por la legislación sobre derechos de autor y marcas. Únicamente puede visualizar y descargar los materiales para una evaluación personal y no comercial del proyecto."
+          "Todo el contenido de este sitio web, incluidos textos, imágenes, vídeos, planos, logotipos y diseño, es propiedad de {company} y de los arquitectos del proyecto, o se utiliza bajo licencia, y está protegido por la legislación sobre derechos de autor y marcas. Puede visualizar y guardar estos materiales, incluidos los documentos que le enviemos previa solicitud, únicamente para una evaluación personal y no comercial del proyecto."
         ]
       },
       {

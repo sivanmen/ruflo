@@ -62,8 +62,8 @@
         "p": [
           "En vertu du RGPD, vous disposez d’un droit d’accès à vos données, d’un droit de rectification ou d’effacement, d’un droit à la limitation du traitement ou d’opposition à celui-ci, d’un droit à la portabilité des données et du droit de retirer votre consentement à tout moment, sans que cela affecte la licéité du traitement antérieur. En vertu de la loi israélienne sur la protection de la vie privée, vous avez le droit de consulter les informations détenues à votre sujet, d’en demander la rectification ou la suppression, et de demander à être retiré de toute liste de prospection directe.",
           "Pour exercer l’un de ces droits, contactez {privacyEmail}. Nous vous répondrons dans un délai d’un mois. Vous pouvez également introduire une réclamation auprès de l’Autorité hellénique de protection des données (www.dpa.gr), auprès de l’autorité de contrôle de votre pays de résidence dans l’UE, ou auprès de l’Autorité israélienne de protection de la vie privée (www.gov.il/en/departments/the_privacy_protection_authority).",
-          "La communication de vos données est facultative. Sans vos nom, numéro de téléphone et adresse e-mail, nous ne pouvons pas répondre à votre demande ; les autres champs sont facultatifs.",
-          "Nous ne prenons aucune décision fondée exclusivement sur un traitement automatisé, y compris le profilage, produisant des effets juridiques ou vous affectant de manière significative."
+          "La communication de vos données est volontaire. Sans votre nom, votre numéro de téléphone et votre adresse e-mail, nous ne pouvons pas répondre à votre demande ; tous les autres champs sont facultatifs.",
+          "Nous ne prenons aucune décision fondée exclusivement sur un traitement automatisé, y compris le profilage, produisant des effets juridiques vous concernant ou vous affectant de manière significative de façon similaire."
         ]
       },
       {
@@ -151,7 +151,7 @@
       {
         "name": "ks_villa, ks_request, ks_utm",
         "provider": "King Solomon",
-        "purpose": "Mémorise la villa ou le document demandé et la source de campagne de votre visite, afin que votre demande parvienne à la bonne personne (supprimé à la fermeture du navigateur)",
+        "purpose": "Mémorise la villa ou le document qui vous intéresse et la campagne à l’origine de votre visite, afin que votre demande parvienne au bon interlocuteur (données effacées à la fermeture du navigateur)",
         "duration": "Session",
         "category": "necessary"
       },
@@ -207,7 +207,7 @@
       {
         "h": "4. Propriété intellectuelle",
         "p": [
-          "L’ensemble du contenu de ce site, notamment les textes, images, films, plans, logos et éléments graphiques, est la propriété de {company} et des architectes du projet, ou fait l’objet d’une licence en leur faveur, et est protégé par le droit d’auteur et le droit des marques. Vous pouvez consulter et télécharger ces contenus uniquement pour une évaluation personnelle et non commerciale du projet."
+          "L’ensemble du contenu de ce site, notamment les textes, images, films, plans, logos et éléments graphiques, est la propriété de {company} et des architectes du projet, ou fait l’objet d’une licence en leur faveur, et est protégé par le droit d’auteur et le droit des marques. Vous pouvez consulter et enregistrer ces contenus, y compris les documents que nous vous adressons sur demande, uniquement pour une évaluation personnelle et non commerciale du projet."
         ]
       },
       {

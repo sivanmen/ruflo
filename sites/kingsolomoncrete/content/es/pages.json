@@ -5,7 +5,7 @@
       "description": "Renders exteriores e interiores, vistas aéreas y el vídeo de King Solomon, villas de lujo en Creta. Solicite el dossier para inversores y los planos."
     },
     "hero": {
-      "kicker": "Galería y documentación",
+      "kicker": "Galería y vídeo",
       "title": "Véalo antes de sentirlo.",
       "subtitle": "Renders exteriores e interiores, la ubicación y el vídeo."
     },
@@ -29,13 +29,13 @@
       "plans": "Planos arquitectónicos",
       "plansMeta": "Las 21 villas · bajo petición",
       "masterplan": "Plan maestro",
-      "masterplanMeta": "JPG · descarga"
+      "masterplanMeta": "JPG · descargable"
     }
   },
   "developer": {
     "meta": {
       "title": "Promotora inmobiliaria en Grecia | SivanInvest Group",
-      "description": "King Solomon, de SivanInvest Group: casa de inversión inmobiliaria boutique con casi 20 años de experiencia, gestionada en Chania por Sivan Management."
+      "description": "King Solomon es una promoción de SivanInvest Group, casa de inversión inmobiliaria boutique con casi 20 años de experiencia, gestionada en Chania por Sivan Management."
     },
     "hero": {
       "kicker": "El promotor",
@@ -76,7 +76,7 @@
         "label": "Años en el mercado griego"
       },
       {
-        "value": "100s",
+        "value": "Cientos",
         "label": "Inversores acompañados"
       },
       {

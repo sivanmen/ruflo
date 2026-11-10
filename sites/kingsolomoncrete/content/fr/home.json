@@ -99,7 +99,7 @@
     "text": "King Solomon est exploité par Sivan Management, notre équipe sur place à La Canée, disponible jour et nuit. Des équipements communs à l’entretien de la villa, du ménage à la location saisonnière facultative, tout est pris en charge, et chaque chiffre est consultable dans l’application propriétaire.",
     "items": [
       {
-        "title": "Gestion locative & des revenus",
+        "title": "Gestion locative & optimisation des revenus",
         "text": "Mise en location facultative sur Booking.com et Airbnb, tarification dynamique, relation avec les voyageurs et accueil."
       },
       {
@@ -118,10 +118,10 @@
   },
   "invest": {
     "kicker": "Pourquoi la Crète, pourquoi maintenant",
-    "title": "Un bien rare, sur un marché qui ne cesse de progresser.",
+    "title": "Un bien rare, sur un marché très prisé.",
     "items": [
       {
-        "value": "EU",
+        "value": "UE",
         "title": "La sécurité européenne",
         "text": "Droit immobilier grec, normes bancaires de l’UE et processus d’acquisition notarié transparent."
       },
@@ -179,7 +179,7 @@
     },
     {
       "q": "Qu’en est-il de la fiscalité ?",
-      "a": "La Grèce a conclu des conventions de non-double imposition avec de nombreux pays, dont Israël, l’Allemagne, la France, l’Espagne et le Royaume-Uni, afin d’éviter qu’un même revenu soit imposé deux fois. Les incidences dépendent de votre situation personnelle : nous organisons donc une analyse avec des experts-comptables et des avocats fiscalistes qualifiés."
+      "a": "La Grèce a conclu des conventions fiscales avec de nombreux pays, dont Israël, l’Allemagne, la France, l’Espagne et le Royaume-Uni, afin d’éviter qu’un même revenu soit imposé deux fois. Les incidences dépendent de votre situation personnelle : nous organisons donc une analyse avec des experts-comptables et des avocats fiscalistes qualifiés."
     }
   ]
 }

@@ -268,7 +268,7 @@
     ],
     "message": "Message (facultatif)",
     "consentPrivacy": "J’ai lu et j’accepte la {privacy}.",
-    "consentMarketing": "Je souhaite recevoir actualités et offres par e-mail, SMS ou WhatsApp.",
+    "consentMarketing": "Je souhaite recevoir des actualités et des offres par e-mail, SMS ou WhatsApp.",
     "privacyLink": "Politique de confidentialité",
     "required": "Obligatoire",
     "errorRequired": "Veuillez renseigner ce champ.",
@@ -286,7 +286,7 @@
       "brochure": "Brochure investisseurs",
       "pricelist": "Grille tarifaire"
     },
-    "moreDetails": "Plus de détails (facultatif)"
+    "moreDetails": "Ajouter des précisions (facultatif)"
   },
   "contactInfo": {
     "title": "Nos coordonnées",
@@ -370,7 +370,7 @@
     "cta": "Retour à l’accueil",
     "metaTitle": "Page introuvable | King Solomon Kalyves"
   },
-  "whatsappText": "Bonjour, les villas King Solomon à Kalyves, en Crète, m’intéressent. Pourriez-vous m’envoyer les disponibilités et les prix ?",
+  "whatsappText": "Bonjour, les villas King Solomon à Kalyves, en Crète, m’intéressent. Pourriez-vous m’envoyer les disponibilités actuelles et la grille tarifaire ?",
   "faqTitle": "Questions d’investisseurs",
   "faqKicker": "Bon à savoir",
   "leadEmail": {
@@ -381,7 +381,7 @@
     "whatsapp": "WhatsApp",
     "reply": "Répondre par e-mail",
     "marketing": "Consentement marketing",
-    "privacy": "Consentement confidentialité",
+    "privacy": "Consentement à la politique de confidentialité",
     "yes": "Oui",
     "no": "Non",
     "page": "Page",
@@ -396,9 +396,9 @@
     "interest": "Intérêt"
   },
   "companyInfo": {
-    "title": "Informations légales",
+    "title": "Informations sur la société",
     "company": "Société",
-    "address": "Adresse du siège",
+    "address": "Siège social",
     "vat": "N° de TVA",
     "phone": "Téléphone",
     "email": "E-mail",
