@@ -74,6 +74,7 @@
 | 09.11.2026 | בגלריה לשוניות: הדמיות חוץ, הדמיות פנים, מיקום. הוסרה התמונה עם השביל הוורוד וסימוני ה־X מהמאסטרפלן. |
 | 10.11.2026 | שם החברה המשפטי: Sivaninvest King Solomon, מע״מ EL802564767, כתובת Pl. Eleftherias 2 בחאניה. |
 | 10.11.2026 | רכז הנגישות: Konstas Nikolantonakis. כפתורי השיחה והוואטסאפ הצפים מפנים למספר הישראלי ‎+972 52 451 8134 בכל השפות. |
+| 10.11.2026 | QA מלא: הגהה ב־9 השפות, לשונית לייפסטייל בגלריה, גופן סיני מוקטן, תיקוני תצוגה במובייל. DKIM פורסם ב־GoDaddy. |
 | 10.11.2026 | טופס מקוצר: שדות חובה, וילה ודרך קשר גלויים; מדינה, תקציב והודעה תחת "פרטים נוספים". נוסחי ההסכמה קוצרו. |
 
 ---
@@ -140,7 +141,7 @@
 | MX | `0 mail.kingsolomoncrete.com` |
 | SPF | `v=spf1 +a +mx +ip4:81.218.79.204 ~all` |
 | DMARC | `p=quarantine` |
-| DKIM | **חסר**: להפעיל ב־cPanel > Email Deliverability ולהעתיק את הרשומה `default._domainkey` ל־GoDaddy |
+| DKIM | הרשומה פורסמה ב־GoDaddy (10.11.2026). כדי שהשרת גם יחתום, ללחוץ ב־cPanel > Email Deliverability על Install The Suggested Record |
 
 ---
 
@@ -168,6 +169,12 @@
 cd sites/kingsolomoncrete && npm run build && npm run check
 ```
 
+- **שינוי טקסט בסינית:** אחרי הבנייה מריצים את הפקודה הבאה. היא מייצרת גופן סיני שמכיל רק את התווים שבאתר (כ־550KB במקום כמה MB):
+
+```bash
+python3 -I scripts/subset-cjk.py dist
+```
+
 ### 7.3 העלאה לשרת
 1. בונים ובודקים (0 בעיות).
 2. אורזים את `dist/` לקובץ zip.
@@ -178,7 +185,7 @@ cd sites/kingsolomoncrete && npm run build && npm run check
 ---
 
 ## 8. משימות פתוחות
-- [ ] הפעלת DKIM ב־cPanel והוספת הרשומה ב־GoDaddy.
+- [ ] DKIM: ללחוץ Install The Suggested Record ב־cPanel כדי שהשרת יחתום על המיילים.
 - [ ] ביטול מפתח ה־SSH שנשלח בצ׳אט (cPanel > SSH Access > Manage Keys).
 - [ ] מזהי GA4, Google Ads ו־Meta Pixel.
 - [ ] חיבור Webhook ל־CRM (Make / Monday / HubSpot).
