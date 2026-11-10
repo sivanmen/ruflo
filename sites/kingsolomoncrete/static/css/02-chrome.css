@@ -15,7 +15,8 @@
 .btn--sm { padding: .62rem 1.15rem; font-size: .84rem; }
 .btn--xs { padding: .45rem .9rem; font-size: .78rem; }
 .btn--lg { padding: 1.1rem 2rem; }
-.btn--block { width: 100%; }
+.btn--block { width: 100%; white-space: normal; text-align: center; }
+@media (max-width: 560px) { .btn { white-space: normal; text-align: center; } }
 .btn[disabled] { opacity: .55; pointer-events: none; }
 .tlink { display: inline-flex; align-items: center; gap: .55em; font-size: .92rem; font-weight: 500; text-decoration: none; color: var(--ink); padding-bottom: .35em; border-bottom: 1px solid var(--gold); transition: gap .3s var(--ease), color .3s; }
 .tlink:hover { gap: .9em; color: var(--gold-text); }
