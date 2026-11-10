@@ -9,9 +9,9 @@ const crumbsFor = (ctx, key) => [{ name: ctx.tr('common.nav.breadcrumbHome'), ur
 
 export function renderGallery(ctx) {
   const crumbs = crumbsFor(ctx, 'gallery');
-  const cats = ['all', 'exterior', 'interior', 'location'];
+  const cats = ['all', 'exterior', 'interior', 'location', 'lifestyle'];
   const filters = `<div class="gfilters rv" role="group">${cats.map((c, i) => `<button type="button" class="chip${i ? '' : ' is-on'}" data-gfilter="${c}" aria-pressed="${!i}">${ctx.t(`pages.gallery.filters.${c}`)}</button>`).join('')}</div>`;
-  const grid = `<div class="masonry" data-masonry>${project.gallery.map((g, i) => `<button type="button" class="masonry__i rv" data-cat="${g.cat}" data-lb="${g.img}" data-lb-w="${images[g.img].w}" data-lb-group="gallery" style="--d:${(i % 4) * 60}ms" aria-label="${ctx.t(`pages.gallery.filters.${g.cat}`)} · ${i + 1}">${picture(g.img, { sizes: '(min-width:1100px) 33vw, (min-width:700px) 50vw, 100vw', alt: `${ctx.tr(`pages.gallery.filters.${g.cat}`)} · King Solomon` })}</button>`).join('')}</div>`;
+  const grid = `<div class="masonry" data-masonry>${project.gallery.map((g, i) => `<button type="button" class="masonry__i rv${i % 5 ? '' : ' is-tall'}" data-cat="${g.cat}" data-lb="${g.img}" data-lb-w="${images[g.img].w}" data-lb-group="gallery" style="--d:${(i % 4) * 60}ms" aria-label="${ctx.t(`pages.gallery.filters.${g.cat}`)} · ${i + 1}">${picture(g.img, { sizes: '(min-width:1100px) 33vw, (min-width:700px) 50vw, 100vw', alt: `${ctx.tr(`pages.gallery.filters.${g.cat}`)} · King Solomon` })}</button>`).join('')}</div>`;
   const body = `${pageHero(ctx, { img: 'aerial-pools', k: ctx.t('pages.gallery.hero.kicker'), title: ctx.t('pages.gallery.hero.title'), sub: ctx.t('pages.gallery.hero.subtitle'), crumbs })}
 <section class="sec"><div class="wrap">${filters}${grid}</div></section>
 <section class="sec dark film" id="film"><div class="wrap">${sectionHead(ctx, { k: ctx.t('pages.gallery.film.kicker'), title: ctx.t('pages.gallery.film.title'), text: ctx.t('pages.gallery.film.text'), center: true })}
@@ -65,7 +65,7 @@ export function renderContact(ctx) {
 <section class="sec sec--tight" id="map"><div class="wrap"><div class="kmap rv">
 <a class="kmap__img" href="${ctx.config.contact.mapsUrl}" target="_blank" rel="noopener" aria-label="${ctx.t('common.location.mapCta')}">${picture('map-kalyves', { sizes: '(min-width:1320px) 1272px, 100vw', alt: ctx.tr('common.location.title') })}
 <span class="kmap__pin" aria-hidden="true"><span class="kmap__pulse"></span><img src="/assets/brand/crown-gold.svg" width="30" height="17" alt=""></span></a>
-<div class="kmap__card"><p class="kicker">${ctx.t('common.location.kicker')}</p><h2 class="h-md">King Solomon</h2><p dir="auto">Kalyves, Apokoronas, Chania, Crete</p>
+<div class="kmap__card"><p class="kicker">${ctx.t('common.location.kicker')}</p><h2 class="h-md">King Solomon</h2><p dir="auto">${ctx.t('common.location.place')}</p>
 <ul class="kmap__dist" role="list">${ctx.raw('common.location.distances').map((d) => `<li><span>${ctx.fe(d.place)}</span><b>${ctx.fe(d.time)} ${ctx.t('common.labels.min')}</b></li>`).join('')}</ul>
 <a class="btn btn--gold" href="${ctx.config.contact.mapsUrl}" target="_blank" rel="noopener">${icon('pin')} ${ctx.t('common.location.mapCta')}</a></div>
 <p class="kmap__attr">© OpenStreetMap contributors</p></div></div></section>`;

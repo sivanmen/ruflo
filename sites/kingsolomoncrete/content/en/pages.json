@@ -13,7 +13,8 @@
       "all": "All",
       "exterior": "Exterior renders",
       "interior": "Interior renders",
-      "location": "Location"
+      "location": "Location",
+      "lifestyle": "Lifestyle"
     },
     "film": {
       "kicker": "The film",

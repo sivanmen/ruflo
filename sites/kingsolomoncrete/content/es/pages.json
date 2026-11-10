@@ -13,7 +13,8 @@
       "all": "Todo",
       "exterior": "Renders exteriores",
       "interior": "Renders interiores",
-      "location": "Ubicación"
+      "location": "Ubicación",
+      "lifestyle": "Estilo de vida"
     },
     "film": {
       "kicker": "El vídeo",

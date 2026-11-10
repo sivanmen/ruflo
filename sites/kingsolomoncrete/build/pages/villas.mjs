@@ -9,7 +9,7 @@ import {
 } from '../lib/sections.mjs';
 
 const bedLabel = (ctx, n) => ctx.t(n > 1 ? 'common.labels.bedroomsN' : 'common.labels.bedroomN', { n });
-const sqm = (ctx, v) => `${typeof v === 'number' ? ctx.num(v) : esc(v)}&nbsp;${ctx.t('common.labels.sqm')}`;
+const sqm = (ctx, v) => `${typeof v === 'number' ? ctx.num(v) : esc(String(v).replace(/\d+(?:\.\d+)?/g, (n) => ctx.num(+n)))}&nbsp;${ctx.t('common.labels.sqm')}`;
 
 function villaRow(ctx, v) {
   const plans = `<a class="plink" href="${ctx.url('contact', 'enquire')}" data-enquire data-request="plans" data-villa="villa-${v.no}">${icon('mail')}${ctx.t('common.buttons.requestPlans')}</a>`;

@@ -1,639 +1,639 @@
 {
- "priceList": "12.2026",
- "currency": "EUR",
- "stats": {
-  "villas": 21,
-  "elevation": 34,
-  "seaDistance": 70,
-  "view": 270,
-  "chania": 12,
-  "airport": 22
- },
- "geo": {
-  "lat": 35.457128,
-  "lng": 24.166242,
-  "locality": "Kalyves",
-  "region": "Chania, Crete",
-  "country": "GR"
- },
- "collections": [
-  {
-   "slug": "1-bedroom",
-   "bedrooms": 1,
-   "image": "rooftop-pergola",
-   "hero": "rooftop-sofa",
-   "gallery": [
-    "rooftop-pergola",
-    "rooftop-sofa",
-    "interior-bedroom",
-    "terrace-table"
-   ],
-   "interior": "42.2–49.6",
-   "pool": "6–12.7",
-   "layouts": [
+  "priceList": "12.2026",
+  "currency": "EUR",
+  "stats": {
+    "villas": 21,
+    "elevation": 34,
+    "seaDistance": 70,
+    "view": 270,
+    "chania": 12,
+    "airport": 22
+  },
+  "geo": {
+    "lat": 35.457128,
+    "lng": 24.166242,
+    "locality": "Kalyves",
+    "region": "Chania, Crete",
+    "country": "GR"
+  },
+  "collections": [
     {
-     "code": "A1",
-     "plan": "plan-a1",
-     "levelKey": "firstRoof",
-     "bedrooms": 1,
-     "areas": {
-      "internal": 49.6,
-      "external": 90.1,
-      "balconies": 9.5,
-      "pool": 12.7
-     }
+      "slug": "1-bedroom",
+      "bedrooms": 1,
+      "image": "rooftop-pergola",
+      "hero": "rooftop-sofa",
+      "gallery": [
+        "rooftop-pergola",
+        "rooftop-sofa",
+        "interior-bedroom",
+        "terrace-table"
+      ],
+      "interior": "42.2–49.6",
+      "pool": "6–12.7",
+      "layouts": [
+        {
+          "code": "A1",
+          "plan": "plan-a1",
+          "levelKey": "firstRoof",
+          "bedrooms": 1,
+          "areas": {
+            "internal": 49.6,
+            "external": 90.1,
+            "balconies": 9.5,
+            "pool": 12.7
+          }
+        },
+        {
+          "code": "A2.1",
+          "plan": "plan-a2-1",
+          "levelKey": "ground",
+          "bedrooms": 1,
+          "areas": {
+            "internal": 41,
+            "external": 13.4,
+            "pool": 12.7
+          }
+        },
+        {
+          "code": "A2.2",
+          "plan": "plan-a2-2",
+          "levelKey": "firstRoof",
+          "bedrooms": 1,
+          "areas": {
+            "internal": 48.9,
+            "balconies": 9.5,
+            "roof": 48.9,
+            "pool": 12.7
+          }
+        }
+      ],
+      "outdoor": "13.4–50.4"
     },
     {
-     "code": "A2.1",
-     "plan": "plan-a2-1",
-     "levelKey": "ground",
-     "bedrooms": 1,
-     "areas": {
-      "internal": 41,
-      "external": 13.4,
-      "pool": 12.7
-     }
+      "slug": "2-bedroom",
+      "bedrooms": 2,
+      "image": "facade-gardens",
+      "hero": "terrace-dining",
+      "gallery": [
+        "facade-gardens",
+        "terrace-dining",
+        "living-room",
+        "interior-kitchen"
+      ],
+      "interior": "59.7–64.4",
+      "pool": "10.8–14.6",
+      "layouts": [
+        {
+          "code": "B1",
+          "plan": "plan-b1",
+          "levelKey": "first",
+          "bedrooms": 2,
+          "areas": {
+            "internal": 64,
+            "external": 20.2,
+            "pool": 14.6
+          }
+        },
+        {
+          "code": "B2",
+          "plan": "plan-b2",
+          "levelKey": "ground",
+          "bedrooms": 2,
+          "areas": {
+            "internal": 60,
+            "roof": 32,
+            "pool": 11.3
+          }
+        }
+      ],
+      "outdoor": "16.7–32.6"
     },
     {
-     "code": "A2.2",
-     "plan": "plan-a2-2",
-     "levelKey": "firstRoof",
-     "bedrooms": 1,
-     "areas": {
-      "internal": 48.9,
-      "balconies": 9.5,
-      "roof": 48.9,
-      "pool": 12.7
-     }
+      "slug": "3-bedroom",
+      "bedrooms": 3,
+      "image": "rooftop-lounge",
+      "hero": "terrace-horizon",
+      "gallery": [
+        "rooftop-lounge",
+        "terrace-horizon",
+        "rooftop-pavilion",
+        "villa-curves"
+      ],
+      "interior": "69.3–87.9",
+      "pool": "16.5–17.7",
+      "layouts": [
+        {
+          "code": "C2.1",
+          "plan": "plan-c2-1",
+          "levelKey": "firstRoof",
+          "bedrooms": 3,
+          "areas": {
+            "internal": 87,
+            "balconies": 53.4,
+            "roof": 87,
+            "pool": 17.7
+          }
+        },
+        {
+          "code": "C2.2",
+          "plan": "plan-c2-2",
+          "levelKey": "firstRoof",
+          "bedrooms": 3,
+          "areas": {
+            "internal": 87,
+            "balconies": 53.4,
+            "roof": 87,
+            "pool": 17.7
+          }
+        },
+        {
+          "code": "B3.1",
+          "plan": "plan-b3-1",
+          "levelKey": "firstRoof",
+          "bedrooms": 3,
+          "areas": {
+            "internal": 134
+          }
+        }
+      ],
+      "outdoor": "77.6–116.6"
+    },
+    {
+      "slug": "5-bedroom",
+      "bedrooms": 5,
+      "image": "hillside",
+      "hero": "infinity-pool",
+      "gallery": [
+        "hillside",
+        "infinity-pool",
+        "living-room",
+        "aerial-pools"
+      ],
+      "interior": "138.6–178.6",
+      "pool": "11.8–14.8",
+      "layouts": [
+        {
+          "code": "C1.1",
+          "plan": "plan-c1-1",
+          "levelKey": "groundLower",
+          "bedrooms": 5,
+          "areas": {
+            "internal": 174,
+            "external": 90.7,
+            "pool": 14.8
+          }
+        },
+        {
+          "code": "C1.2",
+          "plan": "plan-c1-2",
+          "levelKey": "groundLower",
+          "bedrooms": 5,
+          "areas": {
+            "internal": 174,
+            "external": 90.7,
+            "pool": 14.8
+          }
+        },
+        {
+          "code": "B1.2",
+          "plan": "plan-b1-2",
+          "levelKey": "groundLower",
+          "bedrooms": 5,
+          "areas": {
+            "internal": 69.3,
+            "balconies": 35.6,
+            "external": 42,
+            "pool": 16.5
+          }
+        }
+      ],
+      "outdoor": "21.4–90.7"
     }
-   ],
-   "outdoor": "13.4–50.4"
-  },
-  {
-   "slug": "2-bedroom",
-   "bedrooms": 2,
-   "image": "facade-gardens",
-   "hero": "terrace-dining",
-   "gallery": [
-    "facade-gardens",
-    "terrace-dining",
-    "living-room",
-    "interior-kitchen"
-   ],
-   "interior": "59.7–64.4",
-   "pool": "10.8–14.6",
-   "layouts": [
+  ],
+  "villas": [
     {
-     "code": "B1",
-     "plan": "plan-b1",
-     "levelKey": "first",
-     "bedrooms": 2,
-     "areas": {
-      "internal": 64,
-      "external": 20.2,
-      "pool": 14.6
-     }
+      "no": 1,
+      "bedrooms": 5,
+      "level": "garden",
+      "interior": "87.3 + 87.3",
+      "outdoor": 90.7,
+      "pool": 14.8,
+      "status": "reserved"
     },
     {
-     "code": "B2",
-     "plan": "plan-b2",
-     "levelKey": "ground",
-     "bedrooms": 2,
-     "areas": {
-      "internal": 60,
-      "roof": 32,
-      "pool": 11.3
-     }
+      "no": 2,
+      "bedrooms": 3,
+      "level": "rooftop",
+      "interior": "87.3",
+      "outdoor": 116.6,
+      "pool": 17.7,
+      "status": "sold"
+    },
+    {
+      "no": 3,
+      "bedrooms": 5,
+      "level": "garden",
+      "interior": "87.3 + 86.5",
+      "outdoor": 32.2,
+      "pool": 14.5,
+      "status": "sold"
+    },
+    {
+      "no": 4,
+      "bedrooms": 3,
+      "level": "rooftop",
+      "interior": "87.3",
+      "outdoor": 87.3,
+      "pool": 17.7,
+      "status": "sold"
+    },
+    {
+      "no": 5,
+      "bedrooms": 5,
+      "level": "garden",
+      "interior": "87.9 + 87.4",
+      "outdoor": 21.4,
+      "pool": 14.5,
+      "status": "available"
+    },
+    {
+      "no": 6,
+      "bedrooms": 3,
+      "level": "rooftop",
+      "interior": "87.8",
+      "outdoor": 90,
+      "pool": 17.7,
+      "status": "reserved"
+    },
+    {
+      "no": 7,
+      "bedrooms": 5,
+      "level": "garden",
+      "interior": "87.8 + 90.8",
+      "outdoor": 23.8,
+      "pool": 11.8,
+      "status": "available"
+    },
+    {
+      "no": 8,
+      "bedrooms": 3,
+      "level": "rooftop",
+      "interior": "87.9",
+      "outdoor": 116.6,
+      "pool": 17.7,
+      "status": "available"
+    },
+    {
+      "no": 9,
+      "bedrooms": 5,
+      "level": "garden",
+      "interior": "69.3 + 69.3",
+      "outdoor": 35.2,
+      "pool": 13.3,
+      "status": "available"
+    },
+    {
+      "no": 10,
+      "bedrooms": 3,
+      "level": "rooftop",
+      "interior": "69.3",
+      "outdoor": 77.6,
+      "pool": 16.5,
+      "status": "available"
+    },
+    {
+      "no": 11,
+      "bedrooms": 1,
+      "level": "garden",
+      "interior": "42.2",
+      "outdoor": 13.4,
+      "pool": 6,
+      "status": "sold"
+    },
+    {
+      "no": 12,
+      "bedrooms": 1,
+      "level": "rooftop",
+      "interior": "49.6",
+      "outdoor": 40,
+      "pool": 12.7,
+      "status": "reserved"
+    },
+    {
+      "no": 13,
+      "bedrooms": 1,
+      "level": "garden",
+      "interior": "42.6",
+      "outdoor": 13.4,
+      "pool": 6,
+      "status": "available"
+    },
+    {
+      "no": 14,
+      "bedrooms": 1,
+      "level": "rooftop",
+      "interior": "49.6",
+      "outdoor": 50.4,
+      "pool": 12.7,
+      "status": "reserved"
+    },
+    {
+      "no": 15,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "61.5",
+      "outdoor": 30.6,
+      "pool": 12.7,
+      "status": "available"
+    },
+    {
+      "no": 16,
+      "bedrooms": 1,
+      "level": "rooftop",
+      "interior": "42.6",
+      "outdoor": 41,
+      "pool": 12.7,
+      "status": "sold"
+    },
+    {
+      "no": 17,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "60.8",
+      "outdoor": 32,
+      "pool": 11.3,
+      "status": "available"
+    },
+    {
+      "no": 18,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "59.7",
+      "outdoor": 32.6,
+      "pool": 12.3,
+      "status": "reserved"
+    },
+    {
+      "no": 19,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "64.4",
+      "outdoor": 20.2,
+      "pool": 14.6,
+      "status": "sold"
+    },
+    {
+      "no": 20,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "60.6",
+      "outdoor": 16.7,
+      "pool": 10.8,
+      "status": "sold"
+    },
+    {
+      "no": 21,
+      "bedrooms": 2,
+      "level": "garden",
+      "interior": "60.6",
+      "outdoor": 28,
+      "pool": 13.1,
+      "status": "sold"
     }
-   ],
-   "outdoor": "16.7–32.6"
-  },
-  {
-   "slug": "3-bedroom",
-   "bedrooms": 3,
-   "image": "rooftop-lounge",
-   "hero": "terrace-horizon",
-   "gallery": [
-    "rooftop-lounge",
-    "terrace-horizon",
-    "rooftop-pavilion",
-    "villa-curves"
-   ],
-   "interior": "69.3–87.9",
-   "pool": "16.5–17.7",
-   "layouts": [
+  ],
+  "gallery": [
     {
-     "code": "C2.1",
-     "plan": "plan-c2-1",
-     "levelKey": "firstRoof",
-     "bedrooms": 3,
-     "areas": {
-      "internal": 87,
-      "balconies": 53.4,
-      "roof": 87,
-      "pool": 17.7
-     }
+      "img": "living-room-2",
+      "cat": "interior"
     },
     {
-     "code": "C2.2",
-     "plan": "plan-c2-2",
-     "levelKey": "firstRoof",
-     "bedrooms": 3,
-     "areas": {
-      "internal": 87,
-      "balconies": 53.4,
-      "roof": 87,
-      "pool": 17.7
-     }
+      "img": "interior-kitchen-2",
+      "cat": "interior"
     },
     {
-     "code": "B3.1",
-     "plan": "plan-b3-1",
-     "levelKey": "firstRoof",
-     "bedrooms": 3,
-     "areas": {
-      "internal": 134
-     }
+      "img": "resort-pool-sea",
+      "cat": "exterior"
+    },
+    {
+      "img": "cliff-sea",
+      "cat": "exterior"
+    },
+    {
+      "img": "infinity-pool",
+      "cat": "exterior"
+    },
+    {
+      "img": "rooftop-sea",
+      "cat": "exterior"
+    },
+    {
+      "img": "living-room",
+      "cat": "interior"
+    },
+    {
+      "img": "kalyves-beach",
+      "cat": "location"
+    },
+    {
+      "img": "lifestyle-pool",
+      "cat": "lifestyle"
+    },
+    {
+      "img": "location-day",
+      "cat": "location"
+    },
+    {
+      "img": "facade-gardens",
+      "cat": "exterior"
+    },
+    {
+      "img": "terrace-dining",
+      "cat": "exterior"
+    },
+    {
+      "img": "rooftop-pavilion",
+      "cat": "exterior"
+    },
+    {
+      "img": "interior-kitchen",
+      "cat": "interior"
+    },
+    {
+      "img": "aerial-pools",
+      "cat": "exterior"
+    },
+    {
+      "img": "resort-pool-2",
+      "cat": "exterior"
+    },
+    {
+      "img": "rooftop-lounge",
+      "cat": "exterior"
+    },
+    {
+      "img": "interior-bedroom",
+      "cat": "interior"
+    },
+    {
+      "img": "location-dusk",
+      "cat": "location"
+    },
+    {
+      "img": "villa-curves",
+      "cat": "exterior"
+    },
+    {
+      "img": "terrace-horizon",
+      "cat": "exterior"
+    },
+    {
+      "img": "rooftop-sofa",
+      "cat": "exterior"
+    },
+    {
+      "img": "gym",
+      "cat": "interior"
+    },
+    {
+      "img": "hillside",
+      "cat": "exterior"
+    },
+    {
+      "img": "aerial-terraces",
+      "cat": "exterior"
+    },
+    {
+      "img": "rooftop-pergola",
+      "cat": "exterior"
+    },
+    {
+      "img": "gym-2",
+      "cat": "interior"
+    },
+    {
+      "img": "entrance",
+      "cat": "exterior"
+    },
+    {
+      "img": "villa-sea",
+      "cat": "exterior"
+    },
+    {
+      "img": "terrace-table",
+      "cat": "exterior"
+    },
+    {
+      "img": "gym-pavilion",
+      "cat": "exterior"
+    },
+    {
+      "img": "villa-curves-2",
+      "cat": "exterior"
+    },
+    {
+      "img": "resort-front",
+      "cat": "exterior"
+    },
+    {
+      "img": "hillside-2",
+      "cat": "exterior"
+    },
+    {
+      "img": "aerial-2",
+      "cat": "exterior"
+    },
+    {
+      "img": "resort-front-2",
+      "cat": "exterior"
+    },
+    {
+      "img": "kalyves-harbour",
+      "cat": "location"
+    },
+    {
+      "img": "spa-jacuzzi",
+      "cat": "lifestyle"
+    },
+    {
+      "img": "kalyves-promenade",
+      "cat": "location"
+    },
+    {
+      "img": "sunset-sail",
+      "cat": "lifestyle"
+    },
+    {
+      "img": "kalyves-bay",
+      "cat": "location"
+    },
+    {
+      "img": "wellness-yoga",
+      "cat": "lifestyle"
+    },
+    {
+      "img": "resort-pool-3",
+      "cat": "exterior"
+    },
+    {
+      "img": "aerial-wide",
+      "cat": "location"
+    },
+    {
+      "img": "location-sea-path",
+      "cat": "location"
     }
-   ],
-   "outdoor": "77.6–116.6"
-  },
-  {
-   "slug": "5-bedroom",
-   "bedrooms": 5,
-   "image": "hillside",
-   "hero": "infinity-pool",
-   "gallery": [
-    "hillside",
-    "infinity-pool",
-    "living-room",
-    "aerial-pools"
-   ],
-   "interior": "138.6–178.6",
-   "pool": "11.8–14.8",
-   "layouts": [
+  ],
+  "levels": [
     {
-     "code": "C1.1",
-     "plan": "plan-c1-1",
-     "levelKey": "groundLower",
-     "bedrooms": 5,
-     "areas": {
-      "internal": 174,
-      "external": 90.7,
-      "pool": 14.8
-     }
+      "key": "top",
+      "plan": "plan-level-top",
+      "villas": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ]
     },
     {
-     "code": "C1.2",
-     "plan": "plan-c1-2",
-     "levelKey": "groundLower",
-     "bedrooms": 5,
-     "areas": {
-      "internal": 174,
-      "external": 90.7,
-      "pool": 14.8
-     }
+      "key": "roof",
+      "plan": "plan-level-roof",
+      "villas": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ]
     },
     {
-     "code": "B1.2",
-     "plan": "plan-b1-2",
-     "levelKey": "groundLower",
-     "bedrooms": 5,
-     "areas": {
-      "internal": 69.3,
-      "balconies": 35.6,
-      "external": 42,
-      "pool": 16.5
-     }
+      "key": "ground",
+      "plan": "plan-level-ground",
+      "villas": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "key": "cliff",
+      "plan": "plan-level-cliff",
+      "villas": [
+        16,
+        20,
+        21
+      ]
     }
-   ],
-   "outdoor": "21.4–90.7"
-  }
- ],
- "villas": [
-  {
-   "no": 1,
-   "bedrooms": 5,
-   "level": "garden",
-   "interior": "87.3 + 87.3",
-   "outdoor": 90.7,
-   "pool": 14.8,
-   "status": "reserved"
-  },
-  {
-   "no": 2,
-   "bedrooms": 3,
-   "level": "rooftop",
-   "interior": "87.3",
-   "outdoor": 116.6,
-   "pool": 17.7,
-   "status": "sold"
-  },
-  {
-   "no": 3,
-   "bedrooms": 5,
-   "level": "garden",
-   "interior": "87.3 + 86.5",
-   "outdoor": 32.2,
-   "pool": 14.5,
-   "status": "sold"
-  },
-  {
-   "no": 4,
-   "bedrooms": 3,
-   "level": "rooftop",
-   "interior": "87.3",
-   "outdoor": 87.3,
-   "pool": 17.7,
-   "status": "sold"
-  },
-  {
-   "no": 5,
-   "bedrooms": 5,
-   "level": "garden",
-   "interior": "87.9 + 87.4",
-   "outdoor": 21.4,
-   "pool": 14.5,
-   "status": "available"
-  },
-  {
-   "no": 6,
-   "bedrooms": 3,
-   "level": "rooftop",
-   "interior": "87.8",
-   "outdoor": 90,
-   "pool": 17.7,
-   "status": "reserved"
-  },
-  {
-   "no": 7,
-   "bedrooms": 5,
-   "level": "garden",
-   "interior": "87.8 + 90.8",
-   "outdoor": 23.8,
-   "pool": 11.8,
-   "status": "available"
-  },
-  {
-   "no": 8,
-   "bedrooms": 3,
-   "level": "rooftop",
-   "interior": "87.9",
-   "outdoor": 116.6,
-   "pool": 17.7,
-   "status": "available"
-  },
-  {
-   "no": 9,
-   "bedrooms": 5,
-   "level": "garden",
-   "interior": "69.3 + 69.3",
-   "outdoor": 35.2,
-   "pool": 13.3,
-   "status": "available"
-  },
-  {
-   "no": 10,
-   "bedrooms": 3,
-   "level": "rooftop",
-   "interior": "69.3",
-   "outdoor": 77.6,
-   "pool": 16.5,
-   "status": "available"
-  },
-  {
-   "no": 11,
-   "bedrooms": 1,
-   "level": "garden",
-   "interior": "42.2",
-   "outdoor": 13.4,
-   "pool": 6,
-   "status": "sold"
-  },
-  {
-   "no": 12,
-   "bedrooms": 1,
-   "level": "rooftop",
-   "interior": "49.6",
-   "outdoor": 40,
-   "pool": 12.7,
-   "status": "reserved"
-  },
-  {
-   "no": 13,
-   "bedrooms": 1,
-   "level": "garden",
-   "interior": "42.6",
-   "outdoor": 13.4,
-   "pool": 6,
-   "status": "available"
-  },
-  {
-   "no": 14,
-   "bedrooms": 1,
-   "level": "rooftop",
-   "interior": "49.6",
-   "outdoor": 50.4,
-   "pool": 12.7,
-   "status": "reserved"
-  },
-  {
-   "no": 15,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "61.5",
-   "outdoor": 30.6,
-   "pool": 12.7,
-   "status": "available"
-  },
-  {
-   "no": 16,
-   "bedrooms": 1,
-   "level": "rooftop",
-   "interior": "42.6",
-   "outdoor": 41,
-   "pool": 12.7,
-   "status": "sold"
-  },
-  {
-   "no": 17,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "60.8",
-   "outdoor": 32,
-   "pool": 11.3,
-   "status": "available"
-  },
-  {
-   "no": 18,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "59.7",
-   "outdoor": 32.6,
-   "pool": 12.3,
-   "status": "reserved"
-  },
-  {
-   "no": 19,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "64.4",
-   "outdoor": 20.2,
-   "pool": 14.6,
-   "status": "sold"
-  },
-  {
-   "no": 20,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "60.6",
-   "outdoor": 16.7,
-   "pool": 10.8,
-   "status": "sold"
-  },
-  {
-   "no": 21,
-   "bedrooms": 2,
-   "level": "garden",
-   "interior": "60.6",
-   "outdoor": 28,
-   "pool": 13.1,
-   "status": "sold"
-  }
- ],
- "gallery": [
-  {
-   "img": "living-room-2",
-   "cat": "interior"
-  },
-  {
-   "img": "interior-kitchen-2",
-   "cat": "interior"
-  },
-  {
-   "img": "resort-pool-sea",
-   "cat": "exterior"
-  },
-  {
-   "img": "cliff-sea",
-   "cat": "exterior"
-  },
-  {
-   "img": "infinity-pool",
-   "cat": "exterior"
-  },
-  {
-   "img": "rooftop-sea",
-   "cat": "exterior"
-  },
-  {
-   "img": "living-room",
-   "cat": "interior"
-  },
-  {
-   "img": "kalyves-beach",
-   "cat": "location"
-  },
-  {
-   "img": "lifestyle-pool",
-   "cat": "exterior"
-  },
-  {
-   "img": "location-day",
-   "cat": "location"
-  },
-  {
-   "img": "facade-gardens",
-   "cat": "exterior"
-  },
-  {
-   "img": "terrace-dining",
-   "cat": "exterior"
-  },
-  {
-   "img": "rooftop-pavilion",
-   "cat": "exterior"
-  },
-  {
-   "img": "interior-kitchen",
-   "cat": "interior"
-  },
-  {
-   "img": "aerial-pools",
-   "cat": "exterior"
-  },
-  {
-   "img": "resort-pool-2",
-   "cat": "exterior"
-  },
-  {
-   "img": "rooftop-lounge",
-   "cat": "exterior"
-  },
-  {
-   "img": "interior-bedroom",
-   "cat": "interior"
-  },
-  {
-   "img": "location-dusk",
-   "cat": "location"
-  },
-  {
-   "img": "villa-curves",
-   "cat": "exterior"
-  },
-  {
-   "img": "terrace-horizon",
-   "cat": "exterior"
-  },
-  {
-   "img": "rooftop-sofa",
-   "cat": "exterior"
-  },
-  {
-   "img": "gym",
-   "cat": "interior"
-  },
-  {
-   "img": "hillside",
-   "cat": "exterior"
-  },
-  {
-   "img": "aerial-terraces",
-   "cat": "exterior"
-  },
-  {
-   "img": "rooftop-pergola",
-   "cat": "exterior"
-  },
-  {
-   "img": "gym-2",
-   "cat": "interior"
-  },
-  {
-   "img": "entrance",
-   "cat": "exterior"
-  },
-  {
-   "img": "villa-sea",
-   "cat": "exterior"
-  },
-  {
-   "img": "terrace-table",
-   "cat": "exterior"
-  },
-  {
-   "img": "gym-pavilion",
-   "cat": "exterior"
-  },
-  {
-   "img": "villa-curves-2",
-   "cat": "exterior"
-  },
-  {
-   "img": "resort-front",
-   "cat": "exterior"
-  },
-  {
-   "img": "hillside-2",
-   "cat": "exterior"
-  },
-  {
-   "img": "aerial-2",
-   "cat": "exterior"
-  },
-  {
-   "img": "resort-front-2",
-   "cat": "exterior"
-  },
-  {
-   "img": "kalyves-harbour",
-   "cat": "location"
-  },
-  {
-   "img": "spa-jacuzzi",
-   "cat": "interior"
-  },
-  {
-   "img": "kalyves-promenade",
-   "cat": "location"
-  },
-  {
-   "img": "sunset-sail",
-   "cat": "location"
-  },
-  {
-   "img": "kalyves-bay",
-   "cat": "location"
-  },
-  {
-   "img": "wellness-yoga",
-   "cat": "interior"
-  },
-  {
-   "img": "resort-pool-3",
-   "cat": "exterior"
-  },
-  {
-   "img": "aerial-wide",
-   "cat": "location"
-  },
-  {
-   "img": "location-sea-path",
-   "cat": "location"
-  }
- ],
- "levels": [
-  {
-   "key": "top",
-   "plan": "plan-level-top",
-   "villas": [
-    2,
-    4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16
-   ]
-  },
-  {
-   "key": "roof",
-   "plan": "plan-level-roof",
-   "villas": [
-    2,
-    4,
-    6,
-    8,
-    10,
-    12,
-    14,
-    16
-   ]
-  },
-  {
-   "key": "ground",
-   "plan": "plan-level-ground",
-   "villas": [
-    1,
-    3,
-    5,
-    7,
-    9,
-    17,
-    18,
-    19
-   ]
-  },
-  {
-   "key": "cliff",
-   "plan": "plan-level-cliff",
-   "villas": [
-    16,
-    20,
-    21
-   ]
-  }
- ]
+  ]
 }

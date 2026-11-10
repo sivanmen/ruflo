@@ -13,7 +13,8 @@
       "all": "Все",
       "exterior": "Экстерьеры",
       "interior": "Интерьеры",
-      "location": "Расположение"
+      "location": "Расположение",
+      "lifestyle": "Образ жизни"
     },
     "film": {
       "kicker": "Фильм",

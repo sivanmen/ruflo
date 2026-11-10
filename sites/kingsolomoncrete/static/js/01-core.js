@@ -250,7 +250,8 @@
   $$('[data-gfilter]').forEach((b) => b.addEventListener('click', () => {
     const c = b.dataset.gfilter;
     $$('[data-gfilter]').forEach((x) => { const on = x === b; x.classList.toggle('is-on', on); x.setAttribute('aria-pressed', on); });
-    $$('[data-masonry] [data-cat]').forEach((i) => i.classList.toggle('is-out', c !== 'all' && i.dataset.cat !== c));
+    let n = 0;
+    $$('[data-masonry] [data-cat]').forEach((i) => { const out = c !== 'all' && i.dataset.cat !== c; i.classList.toggle('is-out', out); if (!out) { i.classList.toggle('is-tall', n % 5 === 0); n++; } });
   }));
 
   /* Enquire buttons pre-select the villa in the form --------------------- */
