@@ -1,0 +1,49 @@
+KING SOLOMON — "OWN THE HORIZON" — FINAL QUALITY REPORT
+Date: 2026-11-11
+
+DELIVERABLES (measured with ffprobe / ffmpeg ebur128, blackdetect, silencedetect)
+---------------------------------------------------------------------------------
+File                                   Resolution  FPS  Duration  Loudness   True peak  Size
+king_solomon_brand_film_65s_16x9.mp4   3840x2160   25   65.000 s  -16.0 LUFS -1.5 dBFS   561 MB
+king_solomon_reel_30s_9x16.mp4         1080x1920   25   30.000 s  -14.0 LUFS -1.5 dBFS    75 MB
+king_solomon_ad_15s_9x16.mp4           1080x1920   25   15.000 s  -14.0 LUFS -1.5 dBFS    35 MB
+(+ king_solomon_brand_film_65s_16x9_1080p_review.mp4 — 1920x1080 review copy, 67 MB)
+Video: H.264 High, yuv420p, BT.709. Audio: AAC 320 kb/s, 48 kHz stereo.
+
+MUST-PASS CHECKS
+----------------
+[PASS] Project architecture matches approved renders — every King Solomon shot is an official
+       kingsolomoncrete.com render; only 2D pan/zoom is applied, so geometry is unaltered.
+[PASS] Location footage geographically authentic — Kalyves bay, Kalyves location aerials,
+       Chania Venetian harbour aerial. Exception: S16 sea sunset is generic (not claimed as a place).
+[PART] Every third-party asset has a documented licence — Chania aerial: CC BY 2.0 (documented).
+       kalyves-beach and sunset-sail: published on the official site, original licence NOT stated
+       -> client must confirm before paid media. See asset_manifest.csv.
+[PASS] No watermarks (interior-bedroom render rejected because it carries a burned-in logo).
+[PASS] No visible AI artefacts — no generative imagery or AI people used.
+[PASS] No unsupported investment claims — copy limited to verified facts (21 villas, private pools,
+       34 m above the sea, cliffside resort) checked against kingsolomoncrete.com on 2026-11-11.
+[PASS] No misleading representation of completed construction — on-screen labels
+       "ARCHITECTURAL VISUALIZATION" / "LOCATION AERIAL · PROJECT VISUALIZED" and an
+       artist's-impression disclaimer on every end card.
+[PASS] No abrupt audio cuts — fades in/out; silencedetect (-55 dB, 0.4 s) found no gaps.
+[PASS] No black or missing frames — blackdetect only reports the intended fade-from/to-black
+       (master 0-0.24 s and 64.44-64.96 s; reel 0-0.12 s and 29.68-29.96 s; ad 14.76-14.96 s).
+[PASS] On-screen text spelling verified against storyboard.json.
+[PASS] Official website shown on all end cards: www.kingsolomoncrete.com
+
+KNOWN LIMITATIONS / OPEN ITEMS
+------------------------------
+1. Source renders are 2400 px wide (location aerials 1448 px), so the 4K master is upscaled
+   (~1.6x renders, ~2.7x location aerials). Native 4K/8K renders would improve sharpness.
+2. No AI image-to-video tool (Runway/Kling/Luma/Pika) was available with verified access, so
+   motion is camera-only: no animated water, curtains or people inside the frame.
+3. Scene 8 ("art of slow living") uses official interior/terrace renders rather than lifestyle
+   footage of people; no licensed lifestyle clips were available and AI people were avoided.
+4. Glass elevator and jacuzzi are not shown — no dedicated approved render exists.
+5. Architect credit: brief says "314 Architects"; official site credits Alkisti Roussou &
+   Theodore Nikoloudakis. No architect credit is shown on screen pending confirmation.
+6. Audio was verified technically (loudness, spectrum, silence) but needs a human listening pass.
+7. Required credit when publishing the master or the reel:
+   "Chania harbour aerial: dronepicr, CC BY 2.0, via Wikimedia Commons".
+8. Optional voiceover version was not produced (default per brief is no voiceover).

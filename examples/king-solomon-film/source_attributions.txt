@@ -1,0 +1,37 @@
+KING SOLOMON — "OWN THE HORIZON" — SOURCE ATTRIBUTIONS
+=======================================================
+
+THIRD-PARTY LICENSED (attribution required)
+-------------------------------------------
+"Aerial view of the Old Venetian Harbour in Chania, Greece" by dronepicr,
+licensed under CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/).
+Source: https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Old_Venetian_Harbour_in_Chania,_Greece.jpg
+Changes: cropped, scaled, colour graded, animated camera move.
+Used in: Brand Film 65s (scene 2), Reel 30s.
+-> Place this credit in the video description / landing page wherever the films are published.
+
+Suggested short credit line:
+  Chania harbour aerial: dronepicr, CC BY 2.0, via Wikimedia Commons
+
+CLIENT-OWNED OFFICIAL PROJECT MATERIAL
+--------------------------------------
+Architectural renders, location montages, crown logo: official King Solomon assets published on
+https://www.kingsolomoncrete.com (SivanInvest Group). Architecture by Alkisti Roussou and
+Theodore Nikoloudakis Architecture Studio (as credited on the official website).
+All King Solomon images are artist's impressions; on-screen labels disclose this.
+
+UNVERIFIED (published on official site, original licence not stated) — CONFIRM BEFORE PAID MEDIA
+-----------------------------------------------------------------------------------------------
+kalyves-beach-1880.webp  (Kalyves bay aerial)      -> Brand Film scene 1, Reel
+sunset-sail-1880.webp    (sea sunset with yacht)   -> Brand Film scene 9
+
+TYPEFACES
+---------
+Cormorant Garamond — Christian Thalmann, SIL Open Font License 1.1
+Inter — Rasmus Andersson, SIL Open Font License 1.1
+(both are the typefaces used by the official website)
+
+MUSIC AND SOUND
+---------------
+Original score and sound design produced for this project (examples/king-solomon-film/score.py).
+Fully synthesized; no third-party music, samples or sound libraries were used.
