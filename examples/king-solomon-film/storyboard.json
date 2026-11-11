@@ -1,0 +1,110 @@
+{
+  "project": "KING SOLOMON — OWN THE HORIZON",
+  "notes": "All King Solomon architecture comes from official renders on kingsolomoncrete.com. Camera moves are 2D affine (pan/zoom) only, so building geometry is never altered. Camera tuples are [centerX, centerY, zoom] in normalized source coordinates; zoom 1.0 = cover-fit.",
+  "shots": {
+    "S01": {"src": "kalyves-beach-1880.webp", "kind": "location", "desc": "Kalyves bay aerial, turquoise water", "h": [[0.50, 0.58, 1.02], [0.56, 0.50, 1.14]], "v": [[0.62, 0.55, 1.02], [0.66, 0.50, 1.10]]},
+    "S02": {"src": "chania-aerial-dronepicr.jpg", "kind": "location", "desc": "Aerial of Chania Old Venetian Harbour and lighthouse (dronepicr, CC BY 2.0)", "h": [[0.52, 0.56, 1.00], [0.46, 0.62, 1.22]], "v": [[0.46, 0.62, 1.00], [0.42, 0.66, 1.10]]},
+    "S03": {"src": "location-day-1448.webp", "kind": "montage", "desc": "Kalyves coastline aerial with King Solomon marked (project visualized in location)", "h": [[0.50, 0.52, 1.00], [0.49, 0.36, 1.22]], "v": [[0.49, 0.45, 1.00], [0.49, 0.32, 1.12]]},
+    "S04": {"src": "hillside-2400.webp", "kind": "render", "desc": "Villas cascading down the cliff slope", "h": [[0.50, 0.52, 1.00], [0.50, 0.46, 1.10]], "v": [[0.44, 0.50, 1.00], [0.50, 0.46, 1.06]]},
+    "S05": {"src": "cliff-sea-2400.webp", "kind": "render", "desc": "Cliffside villas above the sea", "h": [[0.42, 0.50, 1.10], [0.56, 0.48, 1.12]], "v": [[0.66, 0.48, 1.00], [0.72, 0.46, 1.05]]},
+    "S06": {"src": "resort-front-2-2400.webp", "kind": "render", "desc": "Resort facade, terraces and planted landscaping", "h": [[0.44, 0.50, 1.15], [0.56, 0.48, 1.05]], "v": [[0.40, 0.50, 1.00], [0.48, 0.48, 1.04]]},
+    "S07": {"src": "aerial-terraces-2400.webp", "kind": "render", "desc": "Aerial of private villa pools and terraces", "h": [[0.44, 0.44, 1.15], [0.56, 0.56, 1.15]], "v": [[0.46, 0.50, 1.00], [0.56, 0.48, 1.04]]},
+    "S07b": {"src": "aerial-pools-2400.webp", "kind": "render", "desc": "Top-down aerial of private pools", "h": [[0.50, 0.45, 1.05], [0.50, 0.55, 1.15]], "v": [[0.44, 0.40, 1.00], [0.44, 0.56, 1.04]]},
+    "S08": {"src": "villa-curves-2400.webp", "kind": "render", "desc": "Curved villa architecture with private pool", "h": [[0.50, 0.50, 1.00], [0.60, 0.60, 1.20]], "v": [[0.62, 0.55, 1.00], [0.66, 0.60, 1.08]]},
+    "S09": {"src": "rooftop-sofa-2400.webp", "kind": "render", "desc": "Rooftop lounge facing the sea", "h": [[0.44, 0.52, 1.10], [0.56, 0.52, 1.10]], "v": [[0.52, 0.55, 1.00], [0.60, 0.55, 1.04]]},
+    "S10": {"src": "rooftop-pavilion-2400.webp", "kind": "render", "desc": "Rooftop pavilion with outdoor kitchen", "h": [[0.50, 0.50, 1.00], [0.52, 0.48, 1.12]], "v": [[0.44, 0.50, 1.00], [0.46, 0.48, 1.06]]},
+    "S11": {"src": "terrace-dining-2400.webp", "kind": "render", "desc": "Terrace dining table over the sea", "h": [[0.50, 0.55, 1.12], [0.48, 0.50, 1.00]], "v": [[0.46, 0.55, 1.04], [0.42, 0.52, 1.00]]},
+    "S12": {"src": "resort-pool-sea-2400.webp", "kind": "render", "desc": "Shared cliff-edge infinity pool facing the horizon", "h": [[0.56, 0.52, 1.25], [0.50, 0.50, 1.00]], "v": [[0.58, 0.55, 1.08], [0.56, 0.52, 1.00]]},
+    "S13": {"src": "infinity-pool-2400.webp", "kind": "render", "desc": "Infinity pool deck beneath the villas", "h": [[0.42, 0.55, 1.10], [0.56, 0.55, 1.10]], "v": [[0.30, 0.55, 1.00], [0.38, 0.55, 1.04]]},
+    "S14": {"src": "living-room-2-2400.webp", "kind": "render", "desc": "Living room opening to the sea", "h": [[0.50, 0.50, 1.00], [0.56, 0.46, 1.14]], "v": [[0.56, 0.50, 1.00], [0.60, 0.48, 1.06]]},
+    "S15": {"src": "terrace-table-2400.webp", "kind": "render", "desc": "Set table on a sea-facing terrace", "h": [[0.46, 0.55, 1.12], [0.56, 0.52, 1.12]], "v": [[0.56, 0.60, 1.00], [0.62, 0.58, 1.04]]},
+    "S16": {"src": "sunset-sail-1880.webp", "kind": "location", "desc": "Sunset over the sea with a sailing yacht", "h": [[0.50, 0.52, 1.00], [0.50, 0.55, 1.10]], "v": [[0.52, 0.55, 1.00], [0.52, 0.58, 1.06]], "warm": 0.35},
+    "S17": {"src": "location-dusk-1448.webp", "kind": "montage", "desc": "Dusk aerial of Kalyves with King Solomon lit (project visualized in location)", "h": [[0.50, 0.38, 1.22], [0.50, 0.50, 1.00]], "v": [[0.49, 0.32, 1.12], [0.49, 0.45, 1.00]], "warm": 0.25},
+    "S18": {"src": "villa-sea-2400.webp", "kind": "render", "desc": "Hero: villas above the sea", "h": [[0.48, 0.45, 1.20], [0.50, 0.50, 1.00]], "v": [[0.36, 0.40, 1.30], [0.33, 0.42, 1.12]], "warm": 0.12}
+  },
+  "versions": {
+    "master": {
+      "file": "king_solomon_brand_film_65s_16x9.mp4", "w": 3840, "h": 2160, "fps": 25, "duration": 65.0, "orient": "h",
+      "timeline": [
+        {"shot": "S01", "start": 0.0, "end": 5.3, "fadein": 1.6},
+        {"shot": "S02", "start": 5.0, "end": 10.4},
+        {"shot": "S03", "start": 10.0, "end": 13.4},
+        {"shot": "S04", "start": 12.8, "end": 16.3},
+        {"shot": "S05", "start": 16.0, "end": 19.6},
+        {"shot": "S06", "start": 19.6, "end": 23.3},
+        {"shot": "S07", "start": 23.0, "end": 26.6},
+        {"shot": "S08", "start": 26.6, "end": 30.3},
+        {"shot": "S09", "start": 30.0, "end": 32.5},
+        {"shot": "S10", "start": 32.5, "end": 34.8},
+        {"shot": "S11", "start": 34.8, "end": 37.3},
+        {"shot": "S12", "start": 37.0, "end": 40.8},
+        {"shot": "S13", "start": 40.8, "end": 44.4},
+        {"shot": "S14", "start": 44.0, "end": 47.6},
+        {"shot": "S15", "start": 47.6, "end": 51.4},
+        {"shot": "S16", "start": 51.0, "end": 54.4},
+        {"shot": "S17", "start": 53.6, "end": 58.4},
+        {"shot": "S18", "start": 58.0, "end": 61.8},
+        {"shot": "END", "start": 61.2, "end": 65.0}
+      ],
+      "titles": [
+        {"text": "KALYVES  |  CHANIA  |  CRETE", "start": 6.0, "end": 9.8, "style": "small"},
+        {"text": "A NEW PERSPECTIVE ON LIVING", "start": 11.0, "end": 15.8},
+        {"text": "21 PRIVATE VILLAS", "start": 17.0, "end": 22.8},
+        {"text": "YOUR OWN PRIVATE POOL", "start": 24.0, "end": 29.8},
+        {"text": "YOUR PRIVATE HORIZON", "start": 31.0, "end": 36.8},
+        {"text": "A PRIVATE CLIFFSIDE RESORT", "start": 38.0, "end": 43.8},
+        {"text": "EVERY MOMENT, EXTRAORDINARY", "start": 45.0, "end": 50.8},
+        {"text": "A HOME ABOVE THE SEA", "start": 52.0, "end": 57.8},
+        {"text": "OWN THE HORIZON", "start": 58.8, "end": 61.3}
+      ],
+      "fadeout": 0.9
+    },
+    "reel": {
+      "file": "king_solomon_reel_30s_9x16.mp4", "w": 1080, "h": 1920, "fps": 25, "duration": 30.0, "orient": "v",
+      "timeline": [
+        {"shot": "S01", "start": 0.0, "end": 3.4, "fadein": 0.8},
+        {"shot": "S02", "start": 3.2, "end": 6.2},
+        {"shot": "S03", "start": 6.0, "end": 8.8},
+        {"shot": "S05", "start": 8.6, "end": 11.6},
+        {"shot": "S08", "start": 11.6, "end": 14.4},
+        {"shot": "S09", "start": 14.2, "end": 17.0},
+        {"shot": "S12", "start": 16.8, "end": 20.0},
+        {"shot": "S14", "start": 20.0, "end": 22.6},
+        {"shot": "S17", "start": 22.4, "end": 25.6},
+        {"shot": "S18", "start": 25.4, "end": 27.6},
+        {"shot": "END", "start": 27.0, "end": 30.0}
+      ],
+      "titles": [
+        {"text": "KALYVES  |  CHANIA  |  CRETE", "start": 3.6, "end": 6.0, "style": "small"},
+        {"text": "A NEW PERSPECTIVE|ON LIVING", "start": 6.3, "end": 8.6},
+        {"text": "21 PRIVATE VILLAS", "start": 9.0, "end": 11.5},
+        {"text": "YOUR OWN|PRIVATE POOL", "start": 11.9, "end": 14.2},
+        {"text": "YOUR PRIVATE|HORIZON", "start": 14.6, "end": 16.9},
+        {"text": "A PRIVATE|CLIFFSIDE RESORT", "start": 17.2, "end": 19.8},
+        {"text": "EVERY MOMENT,|EXTRAORDINARY", "start": 20.2, "end": 22.4},
+        {"text": "A HOME|ABOVE THE SEA", "start": 22.8, "end": 25.4},
+        {"text": "OWN THE HORIZON", "start": 25.7, "end": 27.3}
+      ],
+      "fadeout": 0.7
+    },
+    "ad": {
+      "file": "king_solomon_ad_15s_9x16.mp4", "w": 1080, "h": 1920, "fps": 25, "duration": 15.0, "orient": "v",
+      "timeline": [
+        {"shot": "S07b", "start": 0.0, "end": 2.7, "fadein": 0.25},
+        {"shot": "S05", "start": 2.7, "end": 5.1},
+        {"shot": "S09", "start": 5.1, "end": 7.5},
+        {"shot": "S12", "start": 7.5, "end": 9.9},
+        {"shot": "S17", "start": 9.7, "end": 12.2},
+        {"shot": "END", "start": 11.8, "end": 15.0}
+      ],
+      "titles": [
+        {"text": "21 PRIVATE VILLAS", "start": 0.3, "end": 2.6},
+        {"text": "34 METRES|ABOVE THE SEA", "start": 2.9, "end": 5.0},
+        {"text": "YOUR PRIVATE|HORIZON", "start": 5.3, "end": 7.4},
+        {"text": "A PRIVATE|CLIFFSIDE RESORT", "start": 7.7, "end": 9.8},
+        {"text": "KALYVES  |  CHANIA  |  CRETE", "start": 10.0, "end": 11.9, "style": "small"}
+      ],
+      "fadeout": 0.5
+    }
+  }
+}
