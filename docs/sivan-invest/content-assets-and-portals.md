@@ -80,7 +80,7 @@ Never write: "guaranteed return", "risk-free", "citizenship" for the Golden Visa
 
 ## 4. Article spec (portals)
 
-- 900–1,400 words; one H1 (the title); 40–60-word direct-answer paragraph at the top, with a number and the brand.
+- 600–1,400 words (first wave: ~550–800); one H1 (the title); 40–60-word direct-answer paragraph at the top, with a number and the brand.
 - Question-style H2s; at least one data table with source and date; a "risks / what to check" section.
 - 3–5 FAQs + `FAQPage` JSON-LD in the content.
 - 1–2 natural links to sivaninvestgroup.com pillar pages, with varied anchor text.
@@ -99,4 +99,6 @@ Never write: "guaranteed return", "risk-free", "citizenship" for the Golden Visa
 | 16.11.2026 | finansi.space | 3428 | מיסוי נדל״ן ביוון לישראלים: מס העברה, ENFIA, שכירות ומס רווחי הון | 19.11 09:00 |
 | 16.11.2026 | finansi.space | 3430 | קאליבס ואפוקורונאס: מדריך אזור | 20.11 09:00 |
 | 16.11.2026 | finansi.space | 3432 | יוון, קפריסין, פורטוגל או ספרד: איפה להשקיע ב-2026 | 21.11 09:00 |
+| 16.11.2026 | betamind.online | 5903 | קנייה על הנייר ביוון: נאמנות, ערבויות ומה מגן על הרוכש | 19.11 09:00 |
 | 16.11.2026 | betamind.online | 5901 | השכרה לטווח קצר ביוון 2026 | 20.11 09:00 |
+| 16.11.2026 | betamind.online | 5905 | הסיכונים בהשקעת נדל״ן ביוון ואיך מנהלים אותם | 21.11 09:00 |
