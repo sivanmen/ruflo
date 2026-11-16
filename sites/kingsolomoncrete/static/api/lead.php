@@ -27,6 +27,25 @@ if (is_file(__DIR__ . '/config.local.php')) { $cfg = array_merge($cfg, (array) r
 function out(int $code, array $body): void { http_response_code($code); echo json_encode($body); exit; }
 function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8'); }
 
+// ---------- Anti-spam: signed form token ----------------------------------
+// The browser asks for a token when the visitor starts filling the form (GET ?token=1). Scripts that post
+// straight to this endpoint never load the page, so they have no token and are filtered out.
+$dir = __DIR__ . '/storage';
+if (!is_dir($dir)) { @mkdir($dir, 0750, true); @file_put_contents($dir . '/.htaccess', "Require all denied\n"); }
+$secretFile = $dir . '/.form-secret';
+if (!is_file($secretFile)) @file_put_contents($secretFile, bin2hex(random_bytes(32)), LOCK_EX);
+$secret = (string) @file_get_contents($secretFile);
+function form_token(string $secret, int $ts): string { return $ts . '.' . substr(hash_hmac('sha256', 'ks-form|' . $ts, $secret), 0, 32); }
+function token_age(string $secret, string $tok): ?int {
+  if (!preg_match('/^(\d{10})\.([a-f0-9]{32})$/', $tok, $m)) return null;
+  return hash_equals(form_token($secret, (int) $m[1]), $tok) ? time() - (int) $m[1] : null;
+}
+if (($_SERVER['REQUEST_METHOD'] ?? '') === 'GET' && isset($_GET['token'])) {
+  $o = $_SERVER['HTTP_SEC_FETCH_SITE'] ?? 'same-origin';
+  if ($o !== 'same-origin') out(403, ['ok' => false]);
+  out(200, ['t' => form_token($secret, time())]);
+}
+
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') out(405, ['ok' => false, 'error' => 'method']);
 
 $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
@@ -36,8 +55,6 @@ if ($origin !== '' && !in_array($origin, $cfg['allowed_origins'], true) && !preg
 if (!empty($_POST['website'])) out(200, ['ok' => true]); // honeypot
 
 // Rate limit: 5 submissions per IP per 10 minutes (IP stored only as a salted hash).
-$dir = __DIR__ . '/storage';
-if (!is_dir($dir)) { @mkdir($dir, 0750, true); @file_put_contents($dir . '/.htaccess', "Require all denied\n"); }
 $rl = $dir . '/rl_' . substr(hash('sha256', ($_SERVER['REMOTE_ADDR'] ?? '') . __FILE__), 0, 24);
 $hits = array_filter(is_file($rl) ? (array) json_decode((string) file_get_contents($rl), true) : [], fn($t) => $t > time() - 600);
 if (count($hits) >= 5) out(429, ['ok' => false, 'error' => 'rate']);
@@ -58,6 +75,24 @@ $lead = [
 if ($lead['name'] === '' || $lead['phone'] === '' || !filter_var($lead['email'], FILTER_VALIDATE_EMAIL)) out(422, ['ok' => false, 'error' => 'validation']);
 if (!preg_match('/^[+()\d\s.\-]{6,}$/', $lead['phone'])) out(422, ['ok' => false, 'error' => 'phone']);
 if (!$lead['consent_privacy']) out(422, ['ok' => false, 'error' => 'consent']);
+
+// ---------- Anti-spam: classify, never e-mail spam, keep it in a private log ----------------------
+$age = token_age($secret, (string) ($_POST['ft'] ?? ''));
+$why = [];
+if ($age === null) $why[] = 'no-token';
+elseif ($age > 604800) $why[] = 'token-expired';
+if ($lead['page'] === '' || $lead['page'][0] !== '/') $why[] = 'no-page';
+$msg = mb_strtolower($lead['message'] . ' ' . $lead['name']);
+$hasLink = (bool) preg_match('~https?://|www\.|kingsolomoncrete\.com|\[url|<a\s~i', $msg);
+$pitch = preg_match_all('~\b(seo|search (engine|index)|google\'?s search|rank(ing)?s?|backlinks?|(website|organic|more|web|targeted) traffic|traffic to your|web ?design|website (design|redesign|revamp)|revamp|redesign|digital marketing|marketing (agency|services)|social media|video(s)? (to|for|that)|explainer video|animated video|leads? generation|generate (more )?leads|outsourc|virtual assistant|guest post|crypto|bitcoin|loan|unsubscribe|opt[- ]?out|reply (with )?["\']?(no|stop))\b~iu', $msg);
+if ($hasLink && $pitch >= 1) $why[] = 'pitch+link';
+elseif ($pitch >= 2) $why[] = 'pitch';
+elseif ($age !== null && $age < 2 && ($hasLink || $pitch)) $why[] = 'too-fast';
+if ($why) {
+  if (@filesize($dir . '/spam.jsonl') > 1048576) @rename($dir . '/spam.jsonl', $dir . '/spam-old.jsonl'); // keep the log small
+  @file_put_contents($dir . '/spam.jsonl', json_encode($lead + ['spam' => $why], JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
+  out(200, ['ok' => true]); // look successful so the sender does not adapt
+}
 
 // ---------- Translations -------------------------------------------------
 $I = json_decode((string) @file_get_contents(__DIR__ . '/lead-i18n.json'), true) ?: [];

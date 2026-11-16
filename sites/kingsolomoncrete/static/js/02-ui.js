@@ -60,7 +60,17 @@
       return JSON.parse(sessionStorage.getItem('ks_utm') || '{}');
     } catch { return found; }
   })();
+  /* Anti-spam token: requested once the visitor starts filling a form (bots that post directly never get one) */
+  let tok = null, tokAt = 0;
+  const getToken = async () => {
+    if (tok) return tok;
+    try { const r = await fetch('/api/lead.php?token=1', { headers: { Accept: 'application/json' }, cache: 'no-store' }); tok = (await r.json()).t || null; tokAt = Date.now(); } catch (e) { tok = null; }
+    return tok;
+  };
   $$('form[data-lead]').forEach((form) => {
+    const warm = () => { getToken(); };
+    form.addEventListener('focusin', warm, { once: true }); form.addEventListener('pointerdown', warm, { once: true });
+    if ('IntersectionObserver' in window) { const io = new IntersectionObserver((es) => { if (es.some((x) => x.isIntersecting)) { io.disconnect(); warm(); } }, { rootMargin: '400px' }); io.observe(form); }
     const i18n = JSON.parse($('[data-i18n]', form).textContent);
     const err = (input, msg) => {
       const fld = input.closest('.fld');
@@ -92,7 +102,10 @@
       btn.disabled = true; const label = btn.innerHTML; btn.textContent = btn.dataset.sending;
       const msg = $('[data-msg]', form);
       try {
-        const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } });
+        const fd = new FormData(form);
+        if (!tok) { await getToken(); await new Promise((r) => setTimeout(r, 3200)); }
+        fd.set('ft', tok || '');
+        const res = await fetch(form.action, { method: 'POST', body: fd, headers: { Accept: 'application/json' } });
         const data = await res.json().catch(() => ({}));
         if (!res.ok || !data.ok) throw new Error(data.error || res.status);
         form.classList.add('is-done'); msg.hidden = false; $('[data-ok]', msg).hidden = false; $('[data-fail]', msg).hidden = true; msg.focus();
