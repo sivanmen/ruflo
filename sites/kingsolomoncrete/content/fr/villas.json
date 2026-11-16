@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "title": "Acheter une villa en Crète : disponibilités | King Solomon",
+    "description": "Disponibilités en temps réel des 21 villas King Solomon à Kalyves, Crète : 1 à 5 chambres, toit-terrasse ou jardin, piscine privée. Plans sur demande."
+  },
+  "hero": {
+    "kicker": "Les villas",
+    "title": "Vingt et une résidences. Un seul horizon.",
+    "subtitle": "Villas avec toit-terrasse ou jardin, sur deux niveaux de la falaise. Choisissez votre villa, consultez son statut et demandez ses plans."
+  },
+  "availability": {
+    "kicker": "Disponibilités en temps réel",
+    "title": "Trouvez votre villa.",
+    "text": "Les disponibilités actuelles, mises à jour régulièrement. Sélectionnez un numéro de villa pour en découvrir le détail.",
+    "filterBedrooms": "Chambres",
+    "filterStatus": "Statut",
+    "all": "Toutes",
+    "rooftopRow": "Résidences avec toit-terrasse",
+    "rooftopRowSub": "Étage · jardin sur le toit & piscine",
+    "gardenRow": "Résidences avec jardin",
+    "gardenRowSub": "Rez-de-jardin · jardin & piscine",
+    "noResults": "Aucune villa ne correspond à cette sélection.",
+    "note": "Les disponibilités sont mises à jour régulièrement et peuvent évoluer. Les surfaces sont indicatives. Les prix sont communiqués sur demande ; seul le contrat de vente signé fixe les conditions définitives."
+  },
+  "masterplan": {
+    "kicker": "Plan de masse",
+    "title": "Implantées pour l’intimité, la vue et la mer.",
+    "text": "Vingt et une villas réparties sur les terrasses naturelles de la falaise, chacune avec sa propre perspective et un chemin direct jusqu’à l’eau."
+  },
+  "collectionPage": {
+    "keyFacts": "L’essentiel",
+    "layouts": "Plans",
+    "layoutsText": "Chaque plan est dessiné pour tirer le meilleur parti de la lumière, de l’intimité et de la mer.",
+    "inCollection": "Les villas de cette collection",
+    "others": "Autres collections",
+    "plansNote": "Les plans sont indicatifs et transmis personnellement sur demande.",
+    "plansLocked": "Le plan détaillé de cette configuration est disponible sur demande."
+  },
+  "1-bedroom": {
+    "meta": {
+      "title": "Villa 1 chambre avec piscine privée en Crète | King Solomon",
+      "description": "Villas de luxe d’une chambre à Kalyves, Crète : piscine privée, toit-terrasse ou jardin, vue mer. Meublées et prêtes à louer. Grille tarifaire sur demande."
+    },
+    "title": "Une retraite privée au-dessus de la mer.",
+    "lead": "L’expression la plus intime de King Solomon.",
+    "text": "Une vaste suite parentale, un séjour-salle à manger ouvert et une piscine privée sur une terrasse-jardin ou un jardin sur le toit. Un refuge personnel pour vous, et un séjour d’exception très recherché par les voyageurs pendant votre absence.",
+    "highlights": [
+      "Piscine privée côté jardin ou sur le toit",
+      "Séjour ouvert avec baies vitrées face à la mer",
+      "Idéale pour un usage personnel ou des courts séjours haut de gamme"
+    ]
+  },
+  "2-bedroom": {
+    "meta": {
+      "title": "Villa 2 chambres, jardin et piscine, Crète | King Solomon",
+      "description": "Villas deux chambres avec jardin à Kalyves, Crète : piscine privée, cuisine d’été, entrée indépendante. Clés en main et meublées. Prix sur demande."
+    },
+    "title": "La vie côté jardin, la piscine à deux pas.",
+    "lead": "Intérieur et extérieur ne font qu’un.",
+    "text": "Des villas de deux chambres avec entrée indépendante et jardin privé qui ouvrent l’espace de vie sur l’extérieur. Chacune dispose de sa propre piscine, d’une cuisine d’été et d’un espace lounge : l’équilibre parfait entre confort familial et douceur de vivre méditerranéenne.",
+    "highlights": [
+      "Jardin et piscine privés",
+      "Cuisine d’été et espace lounge",
+      "Entrée indépendante"
+    ]
+  },
+  "3-bedroom": {
+    "meta": {
+      "title": "Villa 3 chambres vue mer avec toit-terrasse | King Solomon",
+      "description": "Villas trois chambres à Kalyves, Crète : jardin sur le toit, piscine privée, cuisine d’été et vue mer panoramique. Meublées. Prix sur demande."
+    },
+    "title": "Une terrasse dans le ciel, pour chaque soirée.",
+    "lead": "Là où l’horizon devient la pièce principale.",
+    "text": "Des villas à l’étage avec trois chambres, de généreux balcons et un jardin privé sur le toit avec piscine et cuisine d’été. Conçues pour les familles et pour recevoir, avec les vues les plus larges de King Solomon.",
+    "highlights": [
+      "Jardin privé sur le toit avec piscine",
+      "Jusqu’à 116 m² d’espaces extérieurs",
+      "Les vues panoramiques les plus larges"
+    ]
+  },
+  "5-bedroom": {
+    "meta": {
+      "title": "Villa de luxe 5 chambres en Crète, vue mer | King Solomon",
+      "description": "Les grandes villas King Solomon : cinq chambres sur deux niveaux, jardin, piscine privée et vue mer à Kalyves, Crète. Éligibles au Golden Visa dès 800 000 €."
+    },
+    "title": "Les grandes villas, sur deux niveaux.",
+    "lead": "De la place pour tous ceux que vous aimez.",
+    "text": "Les plus grandes résidences de King Solomon. Un rez-de-jardin avec espaces de vie, cuisine et piscine dans le jardin, et un niveau inférieur complet avec des chambres supplémentaires. De quoi accueillir une grande famille, plusieurs générations réunies, ou constituer un produit locatif haut de gamme.",
+    "highlights": [
+      "Cinq chambres sur deux niveaux",
+      "Jardin avec piscine privée",
+      "Éligible au Golden Visa (investissement de 800 000 € et plus)"
+    ]
+  },
+  "levels": {
+    "kicker": "Plans par niveau",
+    "title": "Chaque niveau de la falaise, cartographié.",
+    "text": "La répartition des 21 villas sur les terrasses naturelles du site, des résidences avec toit-terrasse aux villas avec jardin en bord de falaise.",
+    "top": "Dernier étage",
+    "roof": "Dernier étage · jardins sur le toit",
+    "ground": "Rez-de-jardin · côté montagne",
+    "cliff": "Rez-de-jardin · villas en bord de falaise",
+    "villasLabel": "Villas"
+  }
+}

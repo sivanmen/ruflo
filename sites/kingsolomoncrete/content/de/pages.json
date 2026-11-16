@@ -1,0 +1,244 @@
+{
+  "gallery": {
+    "meta": {
+      "title": "Galerie & Film | Luxusvillen Kalyves, Kreta | King Solomon",
+      "description": "Außen- und Innenvisualisierungen, Luftaufnahmen und Film von King Solomon in Kalyves, Kreta. Investorenbroschüre und Grundrisse auf Anfrage."
+    },
+    "hero": {
+      "kicker": "Galerie & Film",
+      "title": "Sehen Sie es, bevor Sie es spüren.",
+      "subtitle": "Außen- und Innenvisualisierungen, die Lage und der Film."
+    },
+    "filters": {
+      "all": "Alle",
+      "exterior": "Außenansichten",
+      "interior": "Innenansichten",
+      "location": "Lage",
+      "lifestyle": "Lifestyle"
+    },
+    "film": {
+      "kicker": "Der Film",
+      "title": "Vom ersten Licht bis zur Dämmerung über Kalyves.",
+      "text": "Einige stille Momente über der Klippe, in Bewegung."
+    },
+    "downloads": {
+      "kicker": "Broschüre & Grundrisse",
+      "title": "Alle Details, persönlich für Sie.",
+      "text": "Die Investorenbroschüre und die Architektenpläne aller Villen stellen wir Kaufinteressenten persönlich zur Verfügung. Hinterlassen Sie Ihre Kontaktdaten – wir senden Ihnen die Unterlagen zusammen mit der aktuellen Preisliste zu.",
+      "brochure": "Investorenbroschüre",
+      "brochureMeta": "PDF · 51 Seiten · auf Anfrage",
+      "plans": "Architektenpläne",
+      "plansMeta": "Alle 21 Villen · auf Anfrage",
+      "masterplan": "Masterplan",
+      "masterplanMeta": "JPG · Download"
+    }
+  },
+  "developer": {
+    "meta": {
+      "title": "Der Bauträger: SivanInvest Group & Sivan Management, Kreta",
+      "description": "Bauträger von King Solomon: SivanInvest Group, Boutique-Investmenthaus mit fast 20 Jahren Erfahrung. Verwaltung vor Ort in Chania: Sivan Management."
+    },
+    "hero": {
+      "kicker": "Der Bauträger",
+      "title": "Wir beginnen nicht beim Markt. Wir beginnen bei Ihnen.",
+      "subtitle": "King Solomon wird von der SivanInvest Group entwickelt und vor Ort von Sivan Management verwaltet."
+    },
+    "about": {
+      "kicker": "SivanInvest Group",
+      "title": "Ein Boutique-Investmenthaus, verwurzelt in Griechenland.",
+      "text": "SivanInvest ist ein Boutique-Investmenthaus, das Immobilieninvestitionen in Israel und vor allem in Griechenland auswählt, entwickelt, verwaltet und begleitet. Mit fast zwei Jahrzehnten Erfahrung im Finanzbereich und nahezu zehn Jahren Präsenz auf dem griechischen Markt haben wir Hunderte von Investoren auf einem persönlichen, sorgfältig geplanten Weg begleitet.",
+      "text2": "Jede Investitionsmöglichkeit durchläuft denselben strengen Prozess: Marktanalyse, eingehende Due Diligence, genaue Prüfung von Partnern und Bauunternehmen, Cashflow-Modelle und Stressszenarien. Kapitalerhalt geht vor Renditemaximierung. Immer."
+    },
+    "values": [
+      {
+        "title": "Persönliche Betreuung",
+        "text": "Ein fester Ansprechpartner, der die finanziellen, rechtlichen und organisatorischen Aspekte Ihres Kaufs koordiniert."
+      },
+      {
+        "title": "Volle Transparenz",
+        "text": "Sie sehen, was wir prüfen, welche Kennzahlen wir verwenden, was alles kostet und was Ihr Kapital schützt."
+      },
+      {
+        "title": "Ein interdisziplinäres Team",
+        "text": "Immobilien, Projektentwicklung, Private Credit und Fonds – gemeinsam mit Rechtsanwälten, Steuerberatern, Gutachtern und Asset Managern."
+      },
+      {
+        "title": "Vor Ort auf Kreta",
+        "text": "Ein Büro im Herzen von Chania und ein lokales Betriebsteam, rund um die Uhr erreichbar."
+      }
+    ],
+    "numbers": [
+      {
+        "value": "20",
+        "label": "Jahre Investmenterfahrung"
+      },
+      {
+        "value": "10",
+        "label": "Jahre auf dem griechischen Markt"
+      },
+      {
+        "value": "100+",
+        "label": "Begleitete Investoren"
+      },
+      {
+        "value": "24/7",
+        "label": "Lokales Team in Chania"
+      }
+    ],
+    "group": {
+      "kicker": "Eine Gruppe, drei Disziplinen",
+      "title": "Bauträger, Betreiber und Investmenthaus unter einem Dach.",
+      "items": [
+        {
+          "title": "SivanInvest",
+          "text": "Entwickelt King Solomon und verantwortet Grundstückserwerb, Planung, Baupartner und Investor Relations."
+        },
+        {
+          "title": "Sivan Management",
+          "text": "Betreibt das Resort: Gemeinschaftseinrichtungen, Villenpflege, Reinigung, Vermietung und Ertragsmanagement."
+        },
+        {
+          "title": "HARMONY",
+          "text": "Der immobilienbesicherte Anleihefonds der Gruppe, für Investoren, die einen festverzinslichen Zugang zu griechischen Immobilien bevorzugen."
+        }
+      ]
+    },
+    "process": {
+      "kicker": "Ihr Weg",
+      "title": "Vom ersten Gespräch bis zur Schlüsselübergabe.",
+      "steps": [
+        {
+          "title": "Kennenlernen",
+          "text": "Ein persönliches Gespräch über Ihre Ziele, Ihr Budget und Ihren Zeitrahmen."
+        },
+        {
+          "title": "Persönliche Präsentation",
+          "text": "Das Projekt, die Villen und die aktuelle Preisliste – in Chania oder online."
+        },
+        {
+          "title": "Reservierung",
+          "text": "Wählen Sie Ihre Villa und sichern Sie sie mit einer Reservierungsvereinbarung."
+        },
+        {
+          "title": "Recht & Finanzierung",
+          "text": "Wir koordinieren den griechischen Rechtsanwalt, den Notar und bei Bedarf eine Finanzierung über eine lokale Bank."
+        },
+        {
+          "title": "Gestaltung & Übergabe",
+          "text": "Ihre Villa wird mit dem vollständigen Design- und Einrichtungspaket fertiggestellt."
+        },
+        {
+          "title": "Verwaltung",
+          "text": "Optionale Verwaltung und Vermietung durch Sivan Management, mit Berichten in der Eigentümer-App."
+        }
+      ]
+    },
+    "architects": {
+      "kicker": "Architektur",
+      "title": "Alkisti Roussou & Theodore Nikoloudakis",
+      "text": "King Solomon wurde von zwei Architekturbüros aus Chania entworfen: der Architektin Alkisti Roussou und dem Theodore Nikoloudakis Architecture Studio. Ihre Arbeiten für Hotels, Privathäuser und Hospitality-Projekte verbinden zeitgenössisches mediterranes Design mit der natürlichen Landschaft und dem Licht Kretas.",
+      "studios": [
+        {
+          "name": "Alkisti Roussou",
+          "role": "Architektin",
+          "url": "https://alkistiroussou.com"
+        },
+        {
+          "name": "Theodore Nikoloudakis",
+          "role": "Architekturbüro",
+          "url": "https://tnarch.gr"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "meta": {
+      "title": "Kontakt & Präsentation: Immobilien Kreta | King Solomon",
+      "description": "Persönliche Präsentation in Chania oder online. Büros in Chania (Kreta) und Ness Ziona (Israel). Tel. +30 698 392 4820 oder +972 52 451 8134."
+    },
+    "hero": {
+      "kicker": "Kontakt",
+      "title": "Sprechen wir über Ihren Horizont.",
+      "subtitle": "Verfügbarkeit, Preise und eine persönliche Präsentation. Wir freuen uns auf Ihre Nachricht."
+    },
+    "visit": {
+      "title": "Besuchen Sie uns in Chania",
+      "text": "Unser Büro befindet sich am Eleftherias-Platz im Zentrum von Chania, 12 Minuten von den Villen entfernt. Besichtigungen vor Ort nach Vereinbarung."
+    }
+  },
+  "landing": {
+    "meta": {
+      "title": "Villa auf Kreta mit Pool & Meerblick | King Solomon",
+      "description": "Letzte Villen bei King Solomon, Kalyves: voll möbliert, Privatpool, 270°-Meerblick, 12 Minuten von Chania. Vereinbaren Sie jetzt einen Rückruf."
+    },
+    "hero": {
+      "badge": "Letzte Villen verfügbar",
+      "priceLead": "Letzte Villen verfügbar",
+      "title": "Ihre eigene Villa mit Pool und Meerblick auf Kreta.",
+      "text": "Voll möbliert, professionell verwaltet und ab der Schlüsselübergabe vermietbar. Auf einer Klippe in erster Meereslinie in Kalyves, 12 Minuten von Chania.",
+      "cta": "Rückruf vereinbaren"
+    },
+    "why": {
+      "title": "Eine Villa auf Kreta, auf einem anderen Niveau.",
+      "text": "Eine Boutique-Kollektion von 21 Villen, in der Design Teil des Wertes ist. Zeitgenössische mediterrane Architektur von Alkisti Roussou und Theodore Nikoloudakis, ein Privatpool für jede Villa sowie Infinity-Pool, Spa und Glasaufzug auf Resortebene – alles auf der Klippe über der Bucht von Souda.",
+      "items": [
+        {
+          "title": "Erste Meereslinie",
+          "text": "34 m über dem Wasser, 70 m vom Ufer entfernt, rund 270° freier Meerblick."
+        },
+        {
+          "title": "Schlüsselfertig und möbliert",
+          "text": "Designermöbel, eine vollwertige Küche, Außenküche und smarte Systeme im Preis inbegriffen."
+        },
+        {
+          "title": "Einnahmen in Ihrer Abwesenheit",
+          "text": "Optionale Vermietungsverwaltung über Booking.com und Airbnb mit transparenten Eigentümerberichten."
+        },
+        {
+          "title": "An Ihrer Seite, von Anfang an",
+          "text": "Ein persönliches Team in Chania und Israel – vom ersten Gespräch bis zur Schlüsselübergabe und darüber hinaus."
+        }
+      ]
+    },
+    "around": {
+      "title": "Alles in Reichweite.",
+      "items": [
+        {
+          "time": "1 min",
+          "text": "Stufen hinunter zum Meer, zur Promenade und zu den Tavernen"
+        },
+        {
+          "time": "2 min",
+          "text": "Ortszentrum Kalyves: Cafés, Bäckereien, Supermärkte"
+        },
+        {
+          "time": "12 min",
+          "text": "Altstadt von Chania und venezianischer Hafen"
+        },
+        {
+          "time": "22 min",
+          "text": "Internationaler Flughafen Chania"
+        }
+      ]
+    },
+    "trust": {
+      "title": "Warum mit SivanInvest kaufen?",
+      "items": [
+        {
+          "title": "Direkt vom Bauträger",
+          "text": "Ohne Zwischenhändler. SivanInvest entwickelt das Projekt und steht für jede Villa ein."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Recht, Steuern, Finanzierung, Gestaltung, Verwaltung und Vermietung – koordiniert von einem Team."
+        },
+        {
+          "title": "Unterstützung bei lokaler Finanzierung",
+          "text": "Beratung zur Finanzierung über griechische Banken, vorbehaltlich der Voraussetzungen und der Kreditgenehmigung."
+        }
+      ]
+    },
+    "formTitle": "Hinterlassen Sie Ihre Kontaktdaten, wir rufen Sie zurück.",
+    "formText": "Erhalten Sie Preisliste, Grundrisse und Verfügbarkeit der letzten Villen."
+  }
+}

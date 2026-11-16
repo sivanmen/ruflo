@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "title": "Villas de lujo en Creta con vistas al mar | King Solomon",
+    "description": "Comprar villa en Creta: 21 villas de lujo en el acantilado de Kalyves, Chania, con piscina privada y vistas al mar de 270°. Solicite su presentación."
+  },
+  "hero": {
+    "kicker": "Kalyves · Chania · Creta",
+    "title": "Haga suyo el horizonte.",
+    "subtitle": "Veintiuna villas privadas, cada una con su propia piscina, a 34 metros sobre el mar de Creta.",
+    "priceLead": "Ya disponibles",
+    "cta": "Descubrir las villas",
+    "cta2": "Solicitar una presentación privada"
+  },
+  "intro": {
+    "kicker": "La sensación",
+    "title": "Hay lugares que se visitan. Otros se quedan con usted.",
+    "lead": "King Solomon se alza donde las montañas del oeste de Creta descienden al encuentro del mar. A su espalda, las Montañas Blancas. Ante usted, una extensión ininterrumpida de azul mediterráneo. Cada atardecer termina en oro.",
+    "text": "No es otra casa de vacaciones junto a la playa. Es un mundo privado al borde del acantilado, hecho de arquitectura, luz y silencio. Las mañanas despiertan con el sonido del mar a sus pies. Las tardes se detienen junto a su propia piscina. Las noches pertenecen a las estrellas sobre la bahía de Souda."
+  },
+  "statement": {
+    "line1": "Un hogar sobre el mar.",
+    "line2": "Una vida más allá de lo esperado."
+  },
+  "concept": {
+    "kicker": "El concepto",
+    "title": "La altura, convertida en emoción.",
+    "text": "Todo en King Solomon nace de una sola idea: la sensación de elevarse por encima de todo. Por encima del ruido, de la rutina y de la promoción costera convencional. Sobre un excepcional acantilado en primera línea, cada villa es un santuario mediterráneo independiente, con piscina propia, vida al aire libre, entrada privada y vistas despejadas al mar.",
+    "quote": "La arquitectura no compite con las vistas. Las enmarca.",
+    "points": [
+      {
+        "title": "Primera línea, sobre el acantilado",
+        "text": "Entre su terraza y el mar, solo 70 metros de aire."
+      },
+      {
+        "title": "Privacidad desde el diseño",
+        "text": "Entradas independientes, terrazas ajardinadas y un recinto cerrado con acceso controlado."
+      },
+      {
+        "title": "Nivel de hotel, sensación de hogar",
+        "text": "Entregada totalmente diseñada, amueblada y equipada, lista para su primera velada."
+      }
+    ]
+  },
+  "collections": {
+    "kicker": "La colección",
+    "title": "Cuatro maneras de vivir sobre el mar.",
+    "text": "Desde un refugio de un dormitorio con azotea hasta una villa con jardín de cinco dormitorios en dos plantas, cada residencia se entrega completa: diseñada, amueblada y lista para disfrutarla o alquilarla."
+  },
+  "living": {
+    "kicker": "Dos maneras de vivir al aire libre",
+    "rooftop": {
+      "title": "Residencias con azotea",
+      "text": "Su propia terraza en lo alto, sobre el Mediterráneo. Piscina, cocina exterior y zona lounge en una azotea privada que convierte cada puesta de sol en un acontecimiento."
+    },
+    "garden": {
+      "title": "Residencias con jardín",
+      "text": "Jardines privados que se prolongan directamente desde el salón, una piscina a pocos pasos y terrazas ajardinadas que protegen su intimidad en la ladera."
+    }
+  },
+  "resort": {
+    "kicker": "El resort",
+    "title": "Un resort privado al borde del mar.",
+    "text": "Más allá de su propia villa, todo un resort en el acantilado está reservado a los propietarios y sus invitados.",
+    "items": [
+      {
+        "title": "Piscina infinita al borde del acantilado",
+        "text": "Una piscina infinita de 10 × 4 m orientada directamente al horizonte, con tumbonas, cabañas lounge y un jacuzzi para ocho personas."
+      },
+      {
+        "title": "Spa y club de bienestar",
+        "text": "Sala de fitness, sauna acristalada, sala de tratamientos y un espacio tranquilo para yoga, pilates y meditación."
+      },
+      {
+        "title": "Ascensor panorámico de cristal",
+        "text": "Un ascensor de cristal desciende desde la entrada superior hasta el nivel de la piscina. Una llegada espectacular y verdadera comodidad en un acantilado."
+      },
+      {
+        "title": "A pocos pasos del mar",
+        "text": "Entre 30 y 40 escalones llevan desde el resort hasta la orilla, el paseo marítimo y las tabernas de Kalyves. Sin necesidad de coche."
+      },
+      {
+        "title": "Solárium y zonas lounge",
+        "text": "Terrazas comunes, zonas de solárium y espacios para recibir, pensados para largas tardes bajo una luz dorada."
+      },
+      {
+        "title": "Recinto cerrado y seguro",
+        "text": "Tres accesos controlados, cámaras y acceso por reconocimiento facial. Cerrado al público, abierto a las vistas."
+      }
+    ]
+  },
+  "turnkey": {
+    "kicker": "Entrega llave en mano",
+    "title": "No una estructura vacía. Una villa terminada.",
+    "text": "Cada villa se entrega con un proyecto de interiorismo completo firmado por un arquitecto y un interiorista, mobiliario importado, una auténtica cocina residencial, acceso inteligente y un equipamiento de hotel boutique. Lista para su primera velada o para su primer huésped."
+  },
+  "management": {
+    "kicker": "Sivan Management",
+    "title": "Usted es el propietario. Nosotros nos ocupamos de todo lo demás.",
+    "text": "King Solomon está gestionado por Sivan Management, nuestro equipo en Chania, disponible las 24 horas. Desde las instalaciones comunes y el cuidado de la villa hasta la limpieza y el alquiler vacacional opcional, todo queda resuelto, con cada cifra visible en la app para propietarios.",
+    "items": [
+      {
+        "title": "Gestión del alquiler y de la rentabilidad",
+        "text": "Publicación opcional en Booking.com y Airbnb, precios dinámicos, comunicación con los huéspedes y check-in."
+      },
+      {
+        "title": "Cuidado de la villa",
+        "text": "Inspecciones periódicas de piscinas, sistemas y accesos inteligentes, para que su villa esté siempre lista."
+      },
+      {
+        "title": "Transparencia para el propietario",
+        "text": "Reservas, extractos de ingresos y estado del mantenimiento, en tiempo real en la app."
+      },
+      {
+        "title": "Conserjería",
+        "text": "Chef privado, traslados, alquiler de coches, reservas en restaurantes y tratamientos de spa, bajo petición."
+      }
+    ]
+  },
+  "invest": {
+    "kicker": "Por qué Creta, por qué ahora",
+    "title": "Un activo excepcional en un mercado muy demandado.",
+    "items": [
+      {
+        "value": "UE",
+        "title": "Seguridad europea",
+        "text": "Derecho inmobiliario griego, estándares bancarios de la UE y un proceso de compra notarial transparente."
+      },
+      {
+        "value": "270°",
+        "title": "Una ubicación irrepetible",
+        "text": "Las parcelas en primera línea de acantilado con vistas al mar protegidas son, por naturaleza, imposibles de replicar."
+      },
+      {
+        "value": "24/7",
+        "title": "Propiedad sin preocupaciones",
+        "text": "Gestión profesional in situ y alquiler opcional, para que la villa trabaje para usted mientras está fuera."
+      },
+      {
+        "value": "7+",
+        "title": "Meses de temporada",
+        "text": "El oeste de Creta disfruta de una de las temporadas turísticas más largas de Europa, desde la primavera hasta finales del otoño."
+      }
+    ]
+  },
+  "galleryTeaser": {
+    "kicker": "Galería",
+    "title": "Cada ángulo. Cada hora.",
+    "text": "Renders, vistas aéreas y el vídeo de King Solomon, desde la primera luz sobre el acantilado hasta el anochecer sobre Kalyves."
+  },
+  "downloads": {
+    "kicker": "Dossier y planos",
+    "title": "Toda la historia, en sus manos.",
+    "text": "Solicite el dossier para inversores y los planos arquitectónicos de cada villa. Se los enviamos personalmente, junto con la lista de precios vigente.",
+    "brochure": "Dossier para inversores",
+    "brochureMeta": "PDF · 51 páginas · bajo petición",
+    "plans": "Planos arquitectónicos",
+    "plansMeta": "Las 21 villas · bajo petición"
+  },
+  "faq": [
+    {
+      "q": "¿Qué incluye exactamente la villa?",
+      "a": "Cada villa incluye el paquete completo de diseño y mobiliario: un proyecto de interiorismo de un arquitecto y un interiorista, mobiliario importado, una cocina totalmente equipada con electrodomésticos de primera calidad, piscina privada y cocina exterior. Se entrega lista para vivir en ella o para recibir a su primer huésped. La lista de precios vigente está disponible bajo petición."
+    },
+    {
+      "q": "¿Puedo alquilar la villa cuando no la utilice?",
+      "a": "Sí, si así lo desea. Sivan Management gestiona el resort con un equipo local disponible 24/7 y ofrece una gestión integral del alquiler vacacional: publicación en Booking.com y Airbnb, precios dinámicos, check-in de huéspedes, limpieza e informes transparentes en la app para propietarios. La participación es totalmente opcional."
+    },
+    {
+      "q": "¿Cómo es el proceso de compra?",
+      "a": "Todo empieza con una primera llamada y una presentación privada con la lista de precios vigente. A continuación, usted reserva su villa mediante un contrato de reserva, y nosotros coordinamos al abogado griego, al notario y, si es necesario, la financiación con un banco local. Nuestro equipo le acompaña en cada paso, hasta la entrega de las llaves."
+    },
+    {
+      "q": "¿Puedo visitar el proyecto?",
+      "a": "Por supuesto. Organizamos presentaciones privadas en nuestra oficina de Chania u online. La propiedad se encuentra a unos 22 minutos del Aeropuerto Internacional de Chania y a 12 minutos del casco antiguo."
+    },
+    {
+      "q": "¿Pueden los compradores extranjeros adquirir una propiedad en Grecia?",
+      "a": "Sí. Los ciudadanos de la UE compran en las mismas condiciones que los ciudadanos griegos, y los compradores de fuera de la UE también pueden adquirir inmuebles. Para los compradores de fuera de la UE, el programa de residencia Golden Visa de Grecia se aplica a inversiones inmobiliarias de 800.000 € o más, y algunas villas de King Solomon alcanzan este umbral. Nuestro equipo y nuestros abogados colaboradores estudiarán personalmente su elegibilidad."
+    },
+    {
+      "q": "¿Y los impuestos?",
+      "a": "España y Grecia tienen firmado un convenio para evitar la doble imposición, de modo que una misma renta, por ejemplo los alquileres de su villa, no tribute íntegramente dos veces. Las implicaciones concretas dependen de su situación personal, por lo que coordinamos una revisión con asesores fiscales y abogados tributaristas cualificados en España y en Grecia."
+    }
+  ]
+}
