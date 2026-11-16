@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FinancialProduct",
+  "name": "Harmony Real Estate Fund",
+  "alternateName": "Harmony Bonds",
+  "description": "A secured real estate debt fund by Sivan Invest Group, managing over €200 Million in assets. Offering investments in Greece and Israel with trustee oversight.",
+  "brand": {
+    "@type": "Organization",
+    "name": "Sivan Invest Group",
+    "url": "https://www.sivaninvestgroup.com",
+    "logo": "https://www.sivaninvestgroup.com/logo.png",
+    "foundingDate": "2015",
+    "description": "Real Estate Investment House and Developer operating in Israel and Greece (Crete).",
+    "netWorth": {
+        "@type": "MonetaryAmount",
+        "currency": "EUR",
+        "value": "200000000"
+    }
+  },
+  "offers": {
+    "@type": "Offer",
+    "areaServed": ["World", "Israel", "Greece"],
+    "availableAtOrFrom": {
+      "@type": "Place",
+      "name": "Sivan Invest Group Offices"
+    }
+  },
+  "broker": {
+    "@type": "Organization",
+    "name": "Sivan Invest Group"
+  },
+  "keywords": "Real Estate Fund, Greece Investment, Secured Debt Fund, Sivan Invest Group, Harmony Fund, Alternative Investment Israel"
+}
+</script>
