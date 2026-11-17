@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "home": { "title": "Modera Group — Bouwbedrijf op Kreta, Griekenland", "description": "Design & build-aannemer in Chania, Kreta: villa’s, woongebouwen, hotels en infra — bouw, ontwikkeling, bouwmanagement en vergunningen. 10+ jaar, 60+ projecten." },
+    "services": { "title": "Bouw & projectontwikkeling in Griekenland | Modera Group", "description": "Eén verantwoordelijk team voor bouw, ontwikkeling, toezicht op aannemers, engineeringmanagement en vergunningen op Kreta en in heel Griekenland." },
+    "sectors": { "title": "Woningbouw, utiliteit, hotels & infra op Kreta | Modera Group", "description": "Privévilla’s en appartementencomplexen, bedrijfspanden, hotels en resorts, plus de infrastructuur eromheen — volledig gerealiseerd door Modera Group op Kreta." },
+    "projects": { "title": "Projecten & projecttypen | Modera Group, Kreta", "description": "De projecten die Modera Group op Kreta en in Griekenland realiseert: stenen en moderne villa’s, woongebouwen, boutiquehotels, resorts, bedrijfspanden en infra." },
+    "about": { "title": "Over Modera Group — Bouwer en ontwikkelaar in Chania, Kreta", "description": "Modera Group is een bouw- en ontwikkelingsbedrijf in Chania, Kreta, dat al ruim tien jaar projecten van A tot Z realiseert met volledig eigen management." },
+    "team": { "title": "Ons team: ingenieurs, architecten & projectleiders | Modera Group", "description": "Maak kennis met de directie en afdelingen van Modera Group: bouw, engineering, ontwerp, vergunningen, kostenbeheersing en klantrelaties." },
+    "insights": { "title": "Kennisbank — Bouwen, vergunningen & kosten in Griekenland", "description": "Praktische gidsen over bouwen op Kreta: bouwvergunning, bouwkosten, hotelontwikkeling, golden visa Griekenland, duurzaamheid en infrastructuur." },
+    "contact": { "title": "Contact Modera Group — Start uw bouwproject op Kreta", "description": "Bespreek uw woning-, bedrijfs-, hotel- of infraproject met Modera Group. Kantoor in Chania, Kreta. support@modera-group.com · +30 698 392 4820." },
+    "credits": { "title": "Beeldverantwoording | Modera Group", "description": "Licenties en naamsvermeldingen voor de foto’s en video’s op deze website." },
+    "privacy": { "title": "Privacybeleid | Modera Group", "description": "Hoe Modera Group persoonsgegevens verzamelt en verwerkt die via deze website worden verstrekt." },
+    "notFound": { "title": "Pagina niet gevonden | Modera Group", "description": "De pagina die u zocht, bestaat niet." }
+  },
+  "nav": {
+    "home": "Home", "services": "Diensten", "sectors": "Sectoren", "projects": "Projecten", "about": "Over ons", "team": "Team", "insights": "Kennisbank", "contact": "Contact",
+    "cta": "Start uw project", "menu": "Menu", "close": "Sluiten", "language": "Taal"
+  },
+  "common": {
+    "readMore": "Lees artikel", "learnMore": "Meer informatie", "allArticles": "Alle artikelen", "minRead": "min. leestijd", "backToInsights": "Terug naar de kennisbank",
+    "related": "Lees verder", "scroll": "Scroll", "viewServices": "Bekijk onze diensten", "contactUs": "Neem contact op", "callUs": "Bellen", "emailUs": "E-mail",
+    "whatsapp": "WhatsApp", "address": "Adres", "taxNo": "Btw-nr.", "rights": "Alle rechten voorbehouden.", "credits": "Beeldverantwoording", "privacy": "Privacybeleid",
+    "indicative": "Indicatieve bedragen, uitsluitend bedoeld voor planning. Elk project wordt individueel geprijsd.", "source": "Bron", "skipToContent": "Naar de inhoud",
+    "updated": "Bijgewerkt", "by": "Door", "onThisPage": "Op deze pagina", "faqTitle": "Veelgestelde vragen", "typicalSize": "Gangbare omvang", "typicalDuration": "Gangbare doorlooptijd",
+    "scope": "Scope", "location": "Locatie", "enquire": "Aanvraag", "notFoundTitle": "Deze pagina kon niet worden gevonden", "notFoundText": "Mogelijk is de pagina verplaatst. Begin op de homepage of neem contact op met ons team.", "goHome": "Naar de homepage",
+    "categories": { "all": "Alles", "permits": "Vergunningen & regelgeving", "costs": "Kosten & budget", "hospitality": "Hospitality", "investment": "Investeren", "sustainability": "Duurzaamheid", "infrastructure": "Infrastructuur", "management": "Projectmanagement" }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Bouw · Ontwikkeling · Engineering — Kreta, Griekenland",
+      "title": "Wij bouwen aan <em>het volgende hoofdstuk</em> van Kreta — van eerste schets tot sleuteloverdracht.",
+      "lead": "Modera Group is een design & build-aannemer en ontwikkelingspartner uit Chania. Privéwoningen, woongebouwen, bedrijfspanden, hotels en infrastructuur — gerealiseerd door één verantwoordelijk team dat elke fase in eigen huis beheert.",
+      "ctaPrimary": "Start uw project", "ctaSecondary": "Bekijk wat wij bouwen",
+      "badge": "Al ruim tien jaar bouwen op Kreta"
+    },
+    "stats": [
+      { "value": 10, "suffix": "+", "label": "Jaar bouwervaring op Kreta en in Griekenland" },
+      { "value": 60, "suffix": "+", "label": "Projecten gerealiseerd en begeleid" },
+      { "value": 4, "suffix": "", "label": "Sectoren onder één dak" },
+      { "value": 1, "suffix": "", "label": "Verantwoordelijk team, van begin tot eind" }
+    ],
+    "intro": {
+      "eyebrow": "Waarom Modera",
+      "title": "Eén contract. Eén team. <em>Volledige verantwoordelijkheid</em> voor het resultaat.",
+      "text": "De meeste projecten in Griekenland lopen mis op de naden — tussen architect en aannemer, tussen aannemer en vergunningsloket, tussen de eigenaar in het buitenland en de bouwplaats op Kreta. Modera haalt die naden weg. Wij plannen, vergunnen, engineeren, bouwen en dragen over binnen één managementstructuur. Zo weet u altijd wie verantwoordelijk is, wat het kost en wanneer het klaar is.",
+      "points": ["Persoonlijke begeleiding van haalbaarheid tot oplevering", "Vaste scope, transparante budgetten, wekelijkse rapportage", "Engineering, vergunningen en uitvoering in eigen huis", "Tweetalige projectleiders voor internationale eigenaren"]
+    },
+    "services": { "eyebrow": "Wat wij doen", "title": "Vijf disciplines. <em>Eén</em> werkwijze.", "lead": "Schakel ons in voor één discipline of voor het complete traject. Hoe dan ook werkt u met senior professionals en een proces dat is ingericht op zekerheid." },
+    "sectors": { "eyebrow": "Waar wij bouwen", "title": "Van gezinswoning tot <em>resort</em>.", "lead": "Vier sectoren, één vakmanschap. Onze teams bewegen moeiteloos tussen deze sectoren, want de basis — constructie, regelgeving, kosten en tijd — blijft altijd dezelfde." },
+    "process": {
+      "eyebrow": "Onze werkwijze", "title": "Een proces dat <em>verrassingen uitsluit</em>.", "lead": "Elk Modera-project doorloopt hetzelfde traject in vijf fasen, met een helder beslismoment aan het einde van elke fase.",
+      "steps": [
+        { "title": "Haalbaarheid & due diligence", "text": "Controle van perceel en eigendom, bestemming en bebouwingscoëfficiënten, archeologische en bosstatus, nutsvoorzieningen en ontsluiting — en een eerlijk beeld van budget en planning voordat u zich vastlegt." },
+        { "title": "Ontwerp & engineering", "text": "Architectuur, constructie, werktuigbouw en elektrotechniek integraal ontwikkeld, gaandeweg geprijsd en afgestemd op het Kretenzische klimaat en de Griekse aardbevingsnormen." },
+        { "title": "Vergunningen & goedkeuringen", "text": "Wij stellen het volledige bouwvergunningsdossier op, dienen het in en onderhouden het contact met elke betrokken instantie — van gemeente en Ephorate of Antiquities tot energie- en toerismevergunningen." },
+        { "title": "Bouw", "text": "Onze eigen uitvoerders leiden de werkzaamheden met geselecteerde vakmensen, een actuele planning en wekelijkse fotorapportages. Kwaliteit wordt op elk keuringsmoment gecontroleerd, niet pas aan het eind." },
+        { "title": "Oplevering & nazorg", "text": "Inbedrijfstelling, revisietekeningen, energielabel, garanties en twaalf maanden nazorg. Ook lang na de sleuteloverdracht blijven wij bereikbaar." }
+      ]
+    },
+    "film": { "eyebrow": "Op de bouwplaats", "title": "Vakmanschap dat u ziet. <em>Controle</em> die u kunt meten.", "text": "Van de eerste ontgraving tot de laatste laag kalkpleister: onze uitvoerders staan elke werkdag op de bouwplaats. Eigenaren in het buitenland volgen de voortgang via wekelijkse rapporten, foto’s en videorondleidingen." },
+    "charts": {
+      "eyebrow": "Plannen met cijfers", "title": "Helderheid vóór de <em>eerste steen</em>.", "lead": "Wij delen de cijfers in een vroeg stadium. Deze indicatieve bandbreedtes helpen eigenaren en investeerders bij het kaderen van budget en planning voor projecten op Kreta.",
+      "costTitle": "Indicatieve bouwkosten op Kreta, 2026 (€ per m², excl. grond & btw)", "timelineTitle": "Gangbare planning — premium villa (maanden)", "mixTitle": "Waar het budget van een gemiddelde villa naartoe gaat"
+    },
+    "compare": {
+      "eyebrow": "Het verschil", "title": "Versnipperde uitvoering vs. <em>het Modera-model</em>.",
+      "colA": "Gebruikelijke aanpak", "colB": "Modera Group",
+      "rows": [
+        { "label": "Aanspreekpunt", "a": "Architect, aannemer, ingenieurs en adviseurs elk apart", "b": "Eén projectleider, verantwoordelijk voor alles" },
+        { "label": "Budget", "a": "Stukje bij beetje duidelijk, meerwerk is gebruikelijk", "b": "Geprijsd tijdens het ontwerp, per post beheerst" },
+        { "label": "Vergunningen", "a": "Eigenaar loopt zelf achter instanties aan", "b": "In eigen huis geregeld door ons vergunningenteam" },
+        { "label": "Rapportage", "a": "Ad hoc, meestal telefonisch", "b": "Wekelijkse schriftelijke rapporten met foto’s en planning" },
+        { "label": "Na oplevering", "a": "De juiste persoon is moeilijk bereikbaar", "b": "Twaalf maanden nazorg en vastgelegde garanties" }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Strategische partners", "title": "Gesteund door <em>Sivan Invest Group</em> en het Harmony Fund.",
+      "text": "Modera Group werkt nauw samen met Sivan Invest Group en het Harmony Fund en combineert zo investeringsinzicht met bouwkracht ter plaatse op Kreta. Investeerders krijgen een bouwer die rendement begrijpt; eigenaren krijgen een bouwer met de discipline van een institutionele partner.",
+      "cta": "Lees meer over het partnerschap"
+    },
+    "insights": { "eyebrow": "Kennisbank", "title": "Kennis van de <em>bouwplaats</em>, niet uit de brochure." },
+    "faq": [
+      { "q": "Werken jullie ook buiten Chania?", "a": "Ja. Wij zijn gevestigd in Chania en werken op heel Kreta — Chania, Rethymnon, Heraklion en Lasithi — en nemen geselecteerde projecten elders in Griekenland aan, vooral in hospitality en infrastructuur." },
+      { "q": "Kunnen jullie een project beheren terwijl ik in het buitenland woon?", "a": "Zo werken de meeste van onze internationale klanten met ons samen. U ontvangt wekelijkse schriftelijke rapporten, foto’s en videorondleidingen en kunt beslissingen op afstand goedkeuren. Bezoeken aan de bouwplaats plannen wij rond uw reizen." },
+      { "q": "Bouwen jullie alleen, of verzorgen jullie ook ontwerp en vergunningen?", "a": "Allebei. U kunt ons inschakelen voor het complete design & build-traject, of voor één discipline zoals engineeringmanagement, toezicht op een aannemer of de vergunningsprocedure." },
+      { "q": "Hoe bepalen jullie de prijs van een project?", "a": "Na de haalbaarheidsfase stellen wij een kostenraming op die aan het ontwerp is gekoppeld. Naarmate het ontwerp vordert, werken wij die uit tot een gedetailleerde bestekbegroting, zodat de uiteindelijke contractprijs een volledig gedefinieerde scope weerspiegelt." },
+      { "q": "In welke talen werken jullie?", "a": "Ons team werkt in het Grieks, Engels en Hebreeuws, en onze documentatie kan worden opgesteld voor eigenaren in het Frans, Duits, Russisch, Spaans en Nederlands." }
+    ],
+    "cta": { "title": "Heeft u een perceel, een gebouw of een idee?", "text": "Vertel ons erover. Een senior teamlid reageert binnen één werkdag met de vervolgstappen — geheel vrijblijvend.", "button": "Plan een adviesgesprek" }
+  },
+  "services": {
+    "hero": { "eyebrow": "Diensten", "title": "Alles wat een project nodig heeft, <em>onder één dak</em>.", "lead": "Vijf geïntegreerde disciplines, samen of afzonderlijk in te schakelen. De rode draad: senior professionals, een vastgelegd proces en volledige verantwoordelijkheid." },
+    "items": [
+      { "id": "construction", "title": "Bouw", "short": "Hoofdaannemerschap voor nieuwbouw, uitbreiding en renovatie — uitgevoerd door onze eigen uitvoerders.", "text": "Als hoofdaannemer coördineren wij elk vak, van grondwerk en gewapend beton tot natuursteen, timmerwerk, installaties en tuinaanleg. Onze uitvoerders zijn dagelijks op de bouwplaats en werken met een actuele planning en een schriftelijk kwaliteitsplan, met keuringen op elk kritisch moment.", "bullets": ["Nieuwbouw van villa’s, woningen en appartementencomplexen", "Hotels, bedrijfspanden en gemengde gebouwen", "Renovatie en restauratie van natuurstenen gebouwen", "Constructie, installaties, afwerking en buitenwerk"] },
+      { "id": "development", "title": "Ontwikkeling", "short": "Van grond tot een afgerond, renderend vastgoedobject — haalbaarheid, ontwerp, realisatie en positionering.", "text": "Voor grondeigenaren en investeerders brengen wij projecten van idee tot een afgerond, verkoopklaar object. Wij toetsen de haalbaarheid, bepalen het juiste product voor de locatie, sturen ontwerp en vergunningen aan en realiseren de bouw — met rendement en exit vanaf dag één in het vizier.", "bullets": ["Grondtaxatie en studies naar optimaal gebruik", "Productdefinitie voor wonen en hospitality", "Ontwikkelingsbudgetten, cashflow en fasering", "Turnkey-oplevering voor investeringspartners"] },
+      { "id": "contracting-support", "title": "Toezicht op aannemers", "short": "Bouwheervertegenwoordiging wanneer een andere aannemer bouwt — ter bescherming van kwaliteit, kosten en planning.", "text": "Heeft u al een aannemer, dan staan wij aan uw kant van de tafel. Wij beoordelen contracten en bestekbegrotingen, keuren termijnbetalingen goed, controleren de kwaliteit en bewaken de planning — zodat u krijgt waarvoor u betaalt.", "bullets": ["Aanbestedingsdocumenten en aannemersselectie", "Beoordeling van contract en bestekbegroting", "Voortgangscertificering en betalingscontrole", "Onafhankelijke kwaliteitskeuringen en opleverpunten"] },
+      { "id": "engineering-management", "title": "Engineeringmanagement", "short": "Constructie, werktuigbouw en elektrotechniek gecoördineerd door één technisch leider.", "text": "Ons engineeringteam coördineert architectuur, constructief, werktuigbouwkundig en elektrotechnisch ontwerp, afgestemd op de Griekse aardbevings- en energieregelgeving. Wij sturen de ontwerpontwikkeling, value engineering en directievoering op de bouwplaats aan, zodat de ontwerpintentie overeind blijft in de praktijk.", "bullets": ["Ontwerpcoördinatie en clashdetectie", "Value engineering zonder kwaliteitsverlies", "Energieprestatie conform KENAK en NZEB", "Toezichthoudend ingenieur op de bouwplaats"] },
+      { "id": "regulatory", "title": "Vergunningen & regelgeving", "short": "Bouwvergunningen en goedkeuringen van A tot Z geregeld met de gemeente en elke bevoegde instantie.", "text": "Bij een Griekse vergunningsaanvraag zijn veel instanties betrokken: de gemeentelijke bouwdienst, de Ephorate of Antiquities, bos- en kustdiensten, nutsbedrijven en — voor hotels — de toerismevergunning. Ons vergunningenteam stelt de dossiers op, volgt elke stap en lost vragen op voordat ze tot vertraging leiden.", "bullets": ["Bouwvergunningen via het e-Adeies-systeem", "Archeologische, bos- en kustzonegoedkeuringen", "Milieu- en Natura 2000-goedkeuringen waar vereist", "Ondersteuning bij toerismevergunningen voor hotels en villa’s"] }
+    ],
+    "deliverTitle": "Wat elke klant ontvangt",
+    "deliver": ["Een vaste projectleider en plaatsvervanger", "Een schriftelijke kostenraming en planning", "Wekelijkse voortgangsrapporten met foto’s", "Vastgelegde kwaliteitskeuringen", "Revisietekeningen en een garantiedossier"]
+  },
+  "sectors": {
+    "hero": { "eyebrow": "Sectoren", "title": "Vier sectoren. <em>Eén</em> standaard.", "lead": "Wij bouwen woningen, werkplekken en verblijfsaccommodaties — en de infrastructuur die dat allemaal mogelijk maakt." },
+    "items": [
+      { "id": "residential", "title": "Woningbouw", "short": "Privévilla’s, gezinswoningen en appartementencomplexen.", "text": "Van een villa met zeezicht in Apokoronas tot een woongebouw met meerdere units in de stad: wij combineren hedendaags ontwerp met Kretenzische materialen en de discipline van een gestructureerd proces. Eigenaren in het buitenland hebben hetzelfde inzicht als wanneer ze zelf op de bouwplaats stonden.", "bullets": ["Privévilla’s en gezinswoningen", "Appartementen- en woongebouwen", "Restauratie van natuurstenen huizen", "Zwembaden, tuinaanleg en buitenleven"], "size": "180–600 m²", "duration": "12–20 maanden" },
+      { "id": "commercial", "title": "Utiliteitsbouw", "short": "Kantoren, winkels en gemengde gebouwen.", "text": "Bedrijfspanden moeten hard werken — voor huurders, exploitanten en investeerders. Wij ontwerpen voor flexibiliteit, efficiënte installaties en duurzame materialen, en faseren werkzaamheden zodat lopende activiteiten beschermd blijven bij uitbreiding of verbouwing.", "bullets": ["Kantoren en praktijkruimten", "Winkels en showrooms", "Gemengde ontwikkelingen", "Verbouwingen en herbestemmingen"], "size": "300–3.000 m²", "duration": "10–24 maanden" },
+      { "id": "hospitality", "title": "Hospitality & toerisme", "short": "Boutiquehotels, resorts en complexen met huurvilla’s.", "text": "Toerisme is de motor van Kreta, en hotelbouw behoort tot het meest veeleisende werk: seizoensdeadlines, exploitatienormen en vergunningen. Wij bouwen om op tijd open te gaan — van boutiquehotels en suites tot grootschalige resortprojecten.", "bullets": ["Boutiquehotels en suites", "Resorts en grootschalige toeristische projecten", "Complexen met huurvilla’s", "Renovatie tussen de seizoenen"], "size": "1.000–15.000 m²", "duration": "14–36 maanden" },
+      { "id": "infrastructure", "title": "Infrastructuur", "short": "Wegen, nutsvoorzieningen, grondwerk en terreininrichting.", "text": "Elk mooi gebouw staat of valt met wat eronder en eromheen ligt. Wij realiseren grondwerk, toegangswegen, keerconstructies, water-, riolerings-, stroom- en telecomnetwerken — voor onze eigen projecten én voor private en publieke opdrachtgevers.", "bullets": ["Grondwerk en keerconstructies", "Toegangswegen en bestrating", "Water-, afvoer- en rioleringsnetwerken", "Stroom-, verlichtings- en telecominfrastructuur"], "size": "Locatieafhankelijk", "duration": "3–18 maanden" }
+    ]
+  },
+  "projects": {
+    "hero": { "eyebrow": "Projecten", "title": "Het werk dat ons wordt <em>toevertrouwd</em>.", "lead": "In ruim tien jaar en meer dan 60 projecten zijn dit de projecttypen die wij het vaakst realiseren. Elk project wordt van begin tot eind door ons eigen team beheerd." },
+    "filterAll": "Alles",
+    "items": [
+      { "sector": "residential", "image": "stone-villa", "title": "Natuurstenen villa met infinity pool", "location": "Apokoronas, Chania", "size": "320 m²", "duration": "16 maanden", "scope": "Design & build, vergunningen, tuinaanleg" },
+      { "sector": "residential", "image": "hero-villa", "title": "Moderne woning met zeezicht", "location": "Akrotiri, Chania", "size": "410 m²", "duration": "18 maanden", "scope": "Bouw, engineeringmanagement" },
+      { "sector": "residential", "image": "residence-block", "title": "Boutique-appartementengebouw", "location": "Stad Chania", "size": "1.150 m²", "duration": "20 maanden", "scope": "Ontwikkeling, bouw" },
+      { "sector": "hospitality", "image": "resort-sunset", "title": "Suites aan zee met spa", "location": "West-Kreta", "size": "2.400 m²", "duration": "22 maanden", "scope": "Bouw, toerismevergunning" },
+      { "sector": "hospitality", "image": "resort-terraces", "title": "Boutiquehotel in Cycladische stijl", "location": "Griekse eilanden", "size": "3.100 m²", "duration": "26 maanden", "scope": "Toezicht op aannemer, engineering" },
+      { "sector": "hospitality", "image": "resort-aerial", "title": "Upgrade van resortzwembad en voorzieningen", "location": "Noord-Kreta", "size": "5.600 m²", "duration": "7 maanden (buiten het seizoen)", "scope": "Renovatie tussen de seizoenen" },
+      { "sector": "commercial", "image": "commercial-plaza", "title": "Bedrijfspand met gemengde functies", "location": "Heraklion", "size": "2.800 m²", "duration": "19 maanden", "scope": "Bouw, installaties" },
+      { "sector": "commercial", "image": "commercial-site", "title": "Kantoorverbouwing en gevelrenovatie", "location": "Chania", "size": "1.200 m²", "duration": "9 maanden", "scope": "Engineeringmanagement, bouw" },
+      { "sector": "infrastructure", "image": "road-paving", "title": "Toegangsweg en nutsnetwerken", "location": "Landelijk Chania", "size": "2,4 km", "duration": "8 maanden", "scope": "Grondwerk, bestrating, water & stroom" }
+    ],
+    "note": "Projectgegevens geven een indicatie van de gangbare scope. Volledige casestudy’s zijn op aanvraag beschikbaar."
+  },
+  "about": {
+    "hero": { "eyebrow": "Over ons", "title": "Geworteld in Chania. <em>Gebouwd</em> op verantwoordelijkheid.", "lead": "Al ruim tien jaar bouwt Modera Group woningen, hotels, bedrijfspanden en infrastructuur op heel Kreta — met één eenvoudige belofte: wij staan in voor het resultaat." },
+    "story": {
+      "title": "Ons verhaal",
+      "paragraphs": [
+        "Modera Group werd opgericht door mensen die te veel goede projecten hadden zien ontsporen om vermijdbare redenen: onduidelijke verantwoordelijkheden, vergunningen die maandenlang vastliepen, budgetten die wegdreven en eigenaren in het buitenland die pas te laat van problemen hoorden.",
+        "Daarom bouwden wij het bedrijf rond het tegenovergestelde idee. Ontwerp, engineering, vergunningen en bouw worden beheerd door één team, onder één contract, met één persoon die verantwoordelijk is voor uw project. Met dat model hebben wij meer dan 60 projecten gerealiseerd — van privévilla’s tot hotel- en infrastructuurwerken.",
+        "Vandaag combineren wij Kretenzisch vakmanschap met de rapportage, kostenbeheersing en governance die internationale investeerders verwachten — ondersteund door onze strategische partners, Sivan Invest Group en het Harmony Fund."
+      ]
+    },
+    "values": [
+      { "title": "Eigenaarschap", "text": "Eén verantwoordelijk team van eerste schets tot sleuteloverdracht. Problemen worden niet doorgeschoven." },
+      { "title": "Transparantie", "text": "Openboekbudgetten, schriftelijke rapporten en beslissingen die direct worden vastgelegd." },
+      { "title": "Vakmanschap", "text": "Respect voor Kretenzische materialen en bouwtradities, uitgevoerd volgens moderne normen." },
+      { "title": "Persoonlijke service", "text": "Senior professionals die de telefoon opnemen — vóór, tijdens en na de bouw." }
+    ],
+    "region": { "title": "Waar wij werken", "text": "Chania is onze thuisbasis; onze projecten liggen verspreid over heel Kreta, met geselecteerd werk op het Griekse vasteland en de eilanden.", "areas": ["Chania & Apokoronas", "Rethymnon", "Heraklion", "Lasithi & Elounda", "Grieks vasteland & eilanden"] },
+    "company": { "title": "Bedrijfsgegevens", "legal": "Modera Group", "office": "Hoofdkantoor" }
+  },
+  "team": {
+    "hero": { "eyebrow": "Ons team", "title": "De mensen die <em>instaan</em> voor uw project.", "lead": "Ingenieurs, architecten, projectleiders en vergunningsspecialisten — georganiseerd in afdelingen die als één team samenwerken." },
+    "leadershipTitle": "Directie",
+    "departmentsTitle": "Afdelingen",
+    "departments": [
+      { "id": "management", "name": "Directie & strategie", "text": "Bepaalt koers, partnerschappen en investeringsstrategie en draagt de eindverantwoordelijkheid voor elk project." },
+      { "id": "construction", "name": "Bouw & uitvoering", "text": "Leidt de bouwplaatsen: planning, vakmensen, veiligheid en kwaliteit, elke werkdag." },
+      { "id": "engineering", "name": "Engineering", "text": "Constructief, werktuigbouwkundig en elektrotechnisch ontwerp, coördinatie en toezicht." },
+      { "id": "design", "name": "Architectuur & ontwerp", "text": "Van concept tot detailontwerp, interieur en landschap, met gevoel voor Kreta." },
+      { "id": "regulatory", "name": "Vergunningen & regelgeving", "text": "Bouwvergunningen en archeologische, bos-, milieu- en toerismegoedkeuringen." },
+      { "id": "commercial", "name": "Kostenbeheersing & inkoop", "text": "Kostenramingen, bestekbegrotingen, aanbestedingen en betalingscertificering." },
+      { "id": "clients", "name": "Klantrelaties", "text": "Het centrale aanspreekpunt voor eigenaren en investeerders, in hun eigen taal." }
+    ],
+    "members": [
+      { "name": "Sivan Menahem", "role": "Oprichter & voorzitter", "dept": "management", "bio": "Oprichter van Sivan Invest Group. Sivan leidt de strategie, de investeerderspartnerschappen en de samenwerking met het Harmony Fund, en brengt de discipline van een investeerder in elk Modera-project.", "photo": "sivan" },
+      { "name": "Yiannis", "role": "Medeoprichter & algemeen directeur", "dept": "management", "bio": "Yiannis leidt de activiteiten van Modera op Kreta en houdt toezicht op bouw, engineering en klantrealisatie binnen alle lopende projecten.", "photo": "" },
+      { "name": "Eleni Papadaki", "role": "Hoofd architectuur & ontwerp", "dept": "design", "bio": "Architect die het concept- en detailontwerp van villa’s en hotelprojecten leidt, met nadruk op Kretenzische materialen en passief klimaatontwerp.", "photo": "" },
+      { "name": "Nikos Kalogerakis", "role": "Hoofd engineering", "dept": "engineering", "bio": "Civiel en constructief ingenieur, verantwoordelijk voor constructief ontwerp, aardbevingsbestendigheid en ontwerpcoördinatie tussen disciplines.", "photo": "" },
+      { "name": "Georgios Tsakiris", "role": "Directeur bouw", "dept": "construction", "bio": "Leidt de uitvoering, planningen en onderaannemers, met verantwoordelijkheid voor veiligheid en kwaliteit op elke bouwplaats.", "photo": "" },
+      { "name": "Maria Daskalaki", "role": "Manager vergunningen & regelgeving", "dept": "regulatory", "bio": "Regelt bouwvergunningen en goedkeuringen met gemeentelijke, archeologische, bos-, milieu- en toerisme-instanties.", "photo": "" },
+      { "name": "Dimitris Manousakis", "role": "Lead infrastructuur & installaties", "dept": "engineering", "bio": "Werktuigbouwkundig en elektrotechnisch ingenieur die nutsvoorzieningen, netwerken en gebouwinstallaties leidt voor woon- en hotelprojecten.", "photo": "" },
+      { "name": "Sofia Andreadaki", "role": "Manager kostenbeheersing & inkoop", "dept": "commercial", "bio": "Kostendeskundige, verantwoordelijk voor kostenramingen, bestekbegrotingen, aanbestedingen en certificering van termijnbetalingen.", "photo": "" },
+      { "name": "Katerina Vlachou", "role": "Manager klantrelaties", "dept": "clients", "bio": "Het dagelijkse aanspreekpunt voor internationale eigenaren en investeerders — rapporten, beslissingen en bouwplaatsbezoeken, op één plek gecoördineerd.", "photo": "" }
+    ],
+    "joinTitle": "Bouw met ons mee", "joinText": "Wij maken graag kennis met ervaren ingenieurs, uitvoerders en vakpartners die onze normen delen."
+  },
+  "insights": {
+    "hero": { "eyebrow": "Kennisbank", "title": "Bouwen in Griekenland, <em>helder uitgelegd</em>.", "lead": "Gidsen over vergunningen, kosten, hospitality, investeren en duurzaamheid — geschreven door de mensen die bouwen." },
+    "featured": "Uitgelicht"
+  },
+  "contact": {
+    "hero": { "eyebrow": "Contact", "title": "Laten we praten over <em>uw project</em>.", "lead": "Deel een paar gegevens en een senior teamlid reageert binnen één werkdag." },
+    "form": {
+      "name": "Volledige naam", "email": "E-mail", "phone": "Telefoon (met landcode)", "country": "Woonland",
+      "type": "Type project", "types": ["Privévilla of woning", "Appartement / woongebouw", "Bedrijfspand", "Hotel of toeristisch project", "Infrastructuurwerken", "Renovatie / restauratie", "Anders"],
+      "service": "Gewenste dienst", "services": ["Volledig design & build", "Alleen bouw", "Ontwikkelingspartnerschap", "Toezicht op aannemer", "Engineeringmanagement", "Vergunningen & goedkeuringen"],
+      "budget": "Geschat budget", "budgets": ["Minder dan € 500.000", "€ 500.000 – € 1 mln", "€ 1 mln – € 3 mln", "€ 3 mln – € 10 mln", "Meer dan € 10 mln", "Weet ik nog niet"],
+      "stage": "Waar staat u nu?", "stages": ["Op zoek naar grond", "Ik heb een perceel", "Ik heb een ontwerp", "Ik heb een vergunning", "De bouw is gestart"],
+      "message": "Vertel ons over het project", "consent": "Ik ga ermee akkoord dat Modera Group mijn gegevens verwerkt om op deze aanvraag te reageren, zoals beschreven in het privacybeleid.",
+      "submit": "Aanvraag versturen", "sending": "Bezig met versturen…", "success": "Dank u wel — uw aanvraag is ontvangen. Wij reageren binnen één werkdag.", "error": "Er is iets misgegaan. Mail ons op support@modera-group.com of stuur ons een bericht via WhatsApp.",
+      "required": "Verplicht"
+    },
+    "details": "Direct contact", "office": "Kantoor", "hours": "Maandag – vrijdag, 09:00 – 17:00 (EET)", "mapTitle": "Kantoor van Modera Group in Chania"
+  },
+  "credits": { "title": "Beeld- en videoverantwoording", "intro": "Deze website gebruikt foto’s en video’s die zijn vrijgegeven onder Creative Commons-licenties en in het publieke domein. Wij danken de hieronder vermelde makers. De afbeeldingen zijn voor het web verkleind; verder is er niets aan veranderd." },
+  "privacy": {
+    "title": "Privacybeleid",
+    "paragraphs": [
+      "Modera Group (‘wij’) is verwerkingsverantwoordelijke voor persoonsgegevens die via deze website worden verstrekt. Wij verwerken de gegevens die u in ons contactformulier invult — naam, e-mail, telefoon, land en projectinformatie — uitsluitend om op uw aanvraag te reageren en, als u daarom vraagt, een voorstel op te stellen.",
+      "De rechtsgrond is uw toestemming en ons gerechtvaardigd belang om op zakelijke aanvragen te reageren (artikel 6, lid 1, onder a en f AVG). Formulierinzendingen worden via een beveiligde dienst voor formulierverwerking verzonden en in onze mailbox afgeleverd.",
+      "Wij bewaren aanvraaggegevens maximaal 24 maanden, tenzij er een overeenkomst volgt; in dat geval gelden de wettelijke bewaartermijnen. Wij verkopen geen persoonsgegevens en gebruiken ze niet voor geautomatiseerde besluitvorming.",
+      "U kunt inzage, correctie, verwijdering of beperking van uw gegevens verzoeken, of bezwaar maken tegen de verwerking ervan, door te schrijven naar support@modera-group.com. Daarnaast heeft u het recht een klacht in te dienen bij de Griekse toezichthouder voor gegevensbescherming (www.dpa.gr).",
+      "Deze website gebruikt geen advertentie- of trackingcookies. Ingesloten kaarten worden pas geladen wanneer u ernaartoe scrolt."
+    ]
+  },
+  "charts": {
+    "costTypes": ["Standaardwoning", "Appartementengebouw", "Premium villa", "Luxe villa", "Boutiquehotel", "Bedrijfspand casco"],
+    "phases": ["Haalbaarheid & due diligence", "Ontwerp & engineering", "Vergunningen & goedkeuringen", "Bouw", "Oplevering & nazorg"],
+    "month": "Maand",
+    "split": ["Constructie & grondwerk", "Gevel & dak", "Installaties", "Afwerking & timmerwerk", "Zwembad & buitenwerk", "Honoraria & leges"],
+    "arrivals": "Internationale toeristische aankomsten in Griekenland (miljoenen)",
+    "mix": ["Woningbouw", "Hospitality", "Utiliteitsbouw", "Infrastructuur"]
+  },
+  "footer": {
+    "tagline": "Bouw, ontwikkeling en engineeringmanagement op Kreta en in heel Griekenland.",
+    "explore": "Ontdek", "company": "Bedrijf", "contact": "Contact",
+    "disclaimer": "De informatie op deze website is algemeen van aard en vormt geen juridisch, fiscaal of beleggingsadvies."
+  },
+  "mobileBar": { "call": "Bellen", "whatsapp": "WhatsApp", "enquire": "Aanvraag" }
+}
