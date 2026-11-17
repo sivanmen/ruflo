@@ -109,7 +109,7 @@ write(join(OUT, 'index.html'), `<!doctype html><html lang="en"><head><meta chars
 <link rel="canonical" href="${SITE.domain}/en/">
 ${LANGS.map((l) => `<link rel="alternate" hreflang="${l.code}" href="${SITE.domain}/${l.code}/">`).join('')}
 <link rel="alternate" hreflang="x-default" href="${SITE.domain}/">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/brand/favicon.png" type="image/png">
 <script>(function(){var s=${JSON.stringify(LANGS.map((l) => l.code))},p=(navigator.languages||[navigator.language||'en']).map(function(x){return x.slice(0,2).toLowerCase()}),m='en';try{var k=localStorage.getItem('modera-lang');if(k&&s.indexOf(k)>-1)m=k;else for(var i=0;i<p.length;i++)if(s.indexOf(p[i])>-1){m=p[i];break}}catch(e){}location.replace('/'+m+'/')})();</script>
 <noscript><meta http-equiv="refresh" content="0; url=/en/"></noscript>
 <style>body{font:16px/1.6 system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0;color:#0f1b2a}a{color:#8a6436}</style>
@@ -147,5 +147,5 @@ ${s.sectors.items.map((i) => `- [${i.title}](${abs(href('en', 'sectors'))}#${i.i
 ${en.articles.map((a) => `- [${a.title}](${abs(href('en', `insights/${a.slug}`))}): ${a.description}`).join('\n')}
 `);
 
-writeFileSync(join(OUT, 'favicon.svg'), readFileSync(join(SRC, 'assets/favicon.svg')));
+writeFileSync(join(OUT, 'favicon.png'), readFileSync(join(SRC, 'assets/img/brand/favicon.png')));
 console.log(`Built ${new Set(sitemap.map((s) => s.path)).size} routes × ${LANGS.length} languages → dist/`);

@@ -1,5 +1,5 @@
 import { SITE, LANGS, NAV } from '../config/site.mjs';
-import { esc, plain, href, abs, icon, logo, logoMark, langMeta } from './util.mjs';
+import { esc, plain, href, abs, icon, logo, langMeta } from './util.mjs';
 
 const ASSET_V = Date.now().toString(36);
 
@@ -10,7 +10,7 @@ function baseGraph(t, lang) {
     '@id': `${SITE.domain}/#organization`,
     name: SITE.name,
     url: SITE.domain,
-    logo: abs('/assets/img/logo.png'),
+    logo: abs('/assets/img/brand/logo-square.png'),
     image: abs('/assets/img/hero-villa-1600.webp'),
     description: plain(t.meta.home.description),
     email: SITE.email,
@@ -61,8 +61,8 @@ function head({ t, lang, title, description, path, alternates, image, graph = []
   ${LANGS.filter((l) => l.code !== lang).map((l) => `<meta property="og:locale:alternate" content="${l.locale}">`).join('')}
   <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#ffffff">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/assets/img/logo.png">
+  <link rel="icon" href="/assets/img/brand/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/img/brand/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">
@@ -118,7 +118,7 @@ function footer(t, lang) {
         <address>${icon('pin')} <span>${SITE.address.street}<br>${SITE.address.postalCode} ${SITE.address.city}, ${SITE.address.region}, ${SITE.address.countryName}</span></address>
       </div>
     </div>
-    <div class="f-giant" aria-hidden="true">${logoMark('f-giant-mark')}<span>MODERA</span></div>
+    <div class="f-giant" aria-hidden="true"><img src="/assets/img/brand/logo-light.webp" alt="" width="900" height="189" loading="lazy"></div>
     <div class="f-bottom">
       <p>© ${year} ${SITE.name}. ${esc(t.common.rights)} · ${esc(t.common.taxNo)} ${SITE.taxNo}</p>
       <p class="f-legal"><a href="${href(lang, 'privacy')}">${esc(t.common.privacy)}</a><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></p>

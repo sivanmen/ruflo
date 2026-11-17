@@ -45,9 +45,8 @@ const ICONS = {
 export const icon = (name, cls = 'i') =>
   `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${ICONS[name] || ''}</svg>`;
 
-/** Brand mark: three rising slabs inside a square — an abstract "M" and building elevation. */
-export const logoMark = (cls = 'logo-mark') =>
-  `<svg class="${cls}" viewBox="0 0 40 40" aria-hidden="true"><rect x="1" y="1" width="38" height="38" rx="9" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="9" y="17" width="5" height="15" rx="1" fill="currentColor"/><rect x="17.5" y="10" width="5" height="22" rx="1" fill="var(--bronze)"/><rect x="26" y="14" width="5" height="18" rx="1" fill="currentColor"/></svg>`;
+/** Brand logo: dark ink version for light surfaces, white version for dark surfaces (CSS swaps them). */
+export const logoImgs = (cls = '') =>
+  `<img class="logo-img logo-on-light ${cls}" src="/assets/img/brand/logo-dark.webp" alt="Modera Group" width="900" height="189"><img class="logo-img logo-on-dark ${cls}" src="/assets/img/brand/logo-light.webp" alt="" aria-hidden="true" width="900" height="189">`;
 
-export const logo = (lang) =>
-  `<a class="logo" href="${href(lang)}" aria-label="Modera Group">${logoMark()}<span class="logo-type"><b>MODERA</b><small>GROUP</small></span></a>`;
+export const logo = (lang) => `<a class="logo" href="${href(lang)}" aria-label="Modera Group">${logoImgs()}</a>`;

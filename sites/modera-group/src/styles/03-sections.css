@@ -12,16 +12,18 @@
 }
 .hero-copy {
   position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: center;
-  padding-top: var(--header-h); padding-right: 52vw;
+  padding-top: var(--header-h);
   opacity: calc(1 - var(--p) * 2.2); transform: translateY(calc(var(--p) * -80px));
 }
+.hero { --cl: max(var(--gutter), calc((100vw - var(--maxw)) / 2 + var(--gutter))); --tw: min(640px, calc(46vw - var(--gutter))); }
+.hero-copy > * { max-width: var(--tw); }
 .hero-copy .display { margin-bottom: 24px; font-size: clamp(2.4rem, 4.4vw, 4.6rem); line-height: 1.04; }
 .hero-copy .lead { font-size: clamp(1.05rem, 1.3vw, 1.25rem); }
 .hero-cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 36px; }
 .hero-cta.center { justify-content: center; }
 .hero-window {
   position: absolute; inset: 0; z-index: 1;
-  --t: 17vh; --r: 4vw; --b: 9vh; --l: 52vw; --rad: 28px;
+  --t: 17vh; --r: var(--cl); --b: 9vh; --l: calc(var(--cl) + var(--tw) + 56px); --rad: 28px;
   clip-path: inset(calc(var(--t) * (1 - var(--p))) calc(var(--r) * (1 - var(--p))) calc(var(--b) * (1 - var(--p))) calc(var(--l) * (1 - var(--p))) round calc(var(--rad) * (1 - var(--p))));
 }
 .hero-media { width: 100%; height: 100%; object-fit: cover; transform: scale(calc(1.12 - var(--p) * 0.12)); }
@@ -29,7 +31,7 @@
 .hero-glass {
   position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 12px; padding: 12px 18px; border-radius: var(--r-pill);
   font-size: var(--fs-sm); font-weight: 500; color: var(--ink);
-  left: calc(52vw * (1 - var(--p)) + 28px); bottom: calc(9vh * (1 - var(--p)) + 28px);
+  left: calc(var(--l) * (1 - var(--p)) + 28px); bottom: calc(9vh * (1 - var(--p)) + 28px);
 }
 .pulse { width: 9px; height: 9px; border-radius: 50%; background: var(--bronze); box-shadow: 0 0 0 0 rgba(184, 137, 79, 0.6); animation: pulse 2.2s infinite; }
 @keyframes pulse { 70% { box-shadow: 0 0 0 12px rgba(184, 137, 79, 0); } 100% { box-shadow: 0 0 0 0 rgba(184, 137, 79, 0); } }
@@ -217,7 +219,8 @@
 @media (max-width: 900px) {
   .hero { height: auto; }
   .hero-sticky { position: relative; height: auto; overflow: visible; }
-  .hero-copy { padding-right: var(--gutter); padding-top: calc(var(--header-h) + 40px); opacity: 1; transform: none; }
+  .hero-copy > * { max-width: none; }
+  .hero-copy { padding-top: calc(var(--header-h) + 40px); opacity: 1; transform: none; }
   .hero-window { position: relative; inset: auto; margin: 36px var(--gutter) 0; height: 62vh; border-radius: var(--r-lg); overflow: hidden; clip-path: none; }
   .hero-media { transform: none; }
   .hero-glass { left: 16px; bottom: 16px; }
