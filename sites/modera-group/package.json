@@ -7,7 +7,11 @@
   "scripts": {
     "build": "node build.mjs",
     "serve": "node scripts/serve.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "deploy": "node scripts/deploy.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }
