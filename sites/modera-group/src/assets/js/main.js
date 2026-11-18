@@ -289,6 +289,8 @@
       try {
         const data = Object.fromEntries(new FormData(form));
         data._t = String(opened);
+        // Localised option text for the client's confirmation email (values stay English for the team).
+        $$('select', form).forEach((sel) => { if (sel.value) data[`${sel.name}_label`] = sel.selectedOptions[0].text; });
         data.page = location.pathname;
         const res = await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) });
         const json = await res.json().catch(() => ({}));

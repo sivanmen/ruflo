@@ -71,7 +71,7 @@ for (const L of LANGS) {
       case 'about': body = pageHero(t.about.hero, 'about', crumbs.html) + aboutBody(t, lang); image = 'chania-harbour'; break;
       case 'team': body = pageHero(t.team.hero, 'team', crumbs.html) + teamBody(t, lang, hasPhoto); graph.push(...teamLd(t)); break;
       case 'insights': body = pageHero(t.insights.hero, 'insights', crumbs.html) + insightsIndex(t, lang, articles); break;
-      case 'contact': body = pageHero(t.contact.hero, 'contact', crumbs.html) + contactBody(t, Lx, lang); graph[0]['@type'] = 'ContactPage'; break;
+      case 'contact': body = pageHero(t.contact.hero, 'contact', crumbs.html) + contactBody(t, Lx, lang, en.site.contact.form); graph[0]['@type'] = 'ContactPage'; break;
       case 'credits': body = pageHero({ eyebrow: '', title: t.credits.title, lead: '' }, 'credits', crumbs.html) + creditsBody(t, credits); break;
       case 'privacy':
       case 'cookies':
@@ -158,7 +158,17 @@ ${en.articles.map((a) => `- [${a.title}](${abs(href('en', `insights/${a.slug}`))
 
 writeFileSync(join(OUT, 'favicon.png'), readFileSync(join(SRC, 'assets/img/brand/favicon.png')));
 // Self-hosted contact handler, configured from site config.
+// Recipients can be overridden at build/deploy time (MODERA_LEAD_RECIPIENTS="a@x.com,b@y.com")
+// so private inboxes never need to be committed to the repository.
+const recipients = (process.env.MODERA_LEAD_RECIPIENTS || SITE.leadRecipients.join(',')).split(',').map((x) => x.trim()).filter(Boolean);
+const phpStr = (v) => `'${String(v).replace(/[\\']/g, '\\$&')}'`;
 writeFileSync(join(OUT, 'contact.php'), readFileSync(join(SRC, 'server/contact.php'), 'utf8')
-  .replace('__RECIPIENTS__', JSON.stringify(SITE.leadRecipients).replace(/"/g, "'"))
-  .replace('__RETENTION_DAYS__', String(SITE.leadRetentionDays)));
+  .replace('__RECIPIENTS__', `[${recipients.map(phpStr).join(', ')}]`)
+  .replace('__RETENTION_DAYS__', String(SITE.leadRetentionDays))
+  .replace('__MAIL_FROM__', SITE.mailFrom)
+  .replace('__AUTOREPLY_TO__', SITE.email)
+  .replace('__SEND_CONFIRMATION__', SITE.sendConfirmation ? 'true' : 'false')
+  .replace('__PHONE__', SITE.phone)
+  .replace('__PHONE_DISPLAY__', SITE.phoneDisplay));
+writeFileSync(join(OUT, 'contact-mail.php'), readFileSync(join(SRC, 'server/contact-mail.php')));
 console.log(`Built ${new Set(sitemap.map((s) => s.path)).size} routes × ${LANGS.length} languages → dist/`);

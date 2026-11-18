@@ -28,6 +28,10 @@ export const SITE = {
   // so nothing is lost if mail delivery fails.
   leadRecipients: ['support@modera-group.com'],
   leadRetentionDays: 730,
+  // Sender of enquiry emails. The domain needs SPF (and ideally DKIM) for inbox delivery.
+  mailFrom: 'no-reply@modera-group.com',
+  // Send the visitor a branded confirmation in their language.
+  sendConfirmation: true,
 };
 
 /** Languages in display order. `default` is served as x-default. */

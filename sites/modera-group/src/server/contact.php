@@ -13,6 +13,15 @@ declare(strict_types=1);
 
 const RECIPIENTS = __RECIPIENTS__;
 const RETENTION_DAYS = __RETENTION_DAYS__;
+const MAIL_FROM = '__MAIL_FROM__';
+const MAIL_FROM_NAME = 'Modera Group';
+const AUTOREPLY_TO = '__AUTOREPLY_TO__';
+const SEND_CONFIRMATION = __SEND_CONFIRMATION__;
+const SITE_URL = 'https://modera-group.com';
+const SITE_PHONE = '__PHONE__';
+const SITE_PHONE_DISPLAY = '__PHONE_DISPLAY__';
+define('MODERA_MAIL', true);
+require __DIR__ . '/contact-mail.php';
 const ALLOWED_HOSTS = ['modera-group.com', 'www.modera-group.com'];
 const MAX_PER_HOUR = 5;
 
@@ -68,6 +77,9 @@ $lead = [
     'message'      => clean((string) ($in['message'] ?? ''), 4000),
     'language'     => preg_replace('/[^a-z]/', '', (string) ($in['language'] ?? '')),
 ];
+// Option labels in the visitor's language (used only in their confirmation email).
+$labels = [];
+foreach (['project_type', 'service', 'budget', 'stage'] as $k) { $labels[$k] = clean((string) ($in[$k . '_label'] ?? $lead[$k]), 80); }
 if ($lead['name'] === '' || !filter_var($lead['email'], FILTER_VALIDATE_EMAIL)) out(422, ['ok' => false, 'error' => 'fields']);
 if (($in['consent'] ?? '') !== 'yes') out(422, ['ok' => false, 'error' => 'consent']);
 
@@ -76,28 +88,24 @@ $record = $lead + [
     'received'   => gmdate('c'),
     'consent'    => ['processing' => true, 'marketing' => ($in['marketing'] ?? '') === 'yes', 'notice_version' => clean((string) ($in['notice_version'] ?? ''), 20), 'page' => clean((string) ($in['page'] ?? ''), 200)],
 ];
-file_put_contents("$store/leads-" . gmdate('Y-m') . '.jsonl', json_encode($record, JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
-@chmod("$store/leads-" . gmdate('Y-m') . '.jsonl', 0600);
+// Send the branded notification to the team, then an optional confirmation to the client.
+[$subject, $html, $text] = team_email($record);
+$sent = [];
+foreach (RECIPIENTS as $to) { $sent[$to] = send_mail($to, $subject, $html, $text, $record['email'], $record['name']); }
+$record['mail'] = ['team' => $sent, 'confirmation' => null];
+if (SEND_CONFIRMATION) {
+    [$cs, $ch, $ct] = client_email($record + ['labels' => $labels]);
+    $record['mail']['confirmation'] = send_mail($record['email'], $cs, $ch, $ct, AUTOREPLY_TO, 'Modera Group');
+}
+
+$file = "$store/leads-" . gmdate('Y-m') . '.jsonl';
+file_put_contents($file, json_encode($record, JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
+@chmod($file, 0600);
 
 // Storage limitation: delete monthly files older than the retention period.
 $cutoff = gmdate('Y-m', time() - RETENTION_DAYS * 86400);
 foreach (glob("$store/leads-*.jsonl") ?: [] as $f) {
     if (preg_match('/leads-(\d{4}-\d{2})\.jsonl$/', $f, $m) && $m[1] < $cutoff) @unlink($f);
 }
-
-// Email notification.
-$lines = [];
-foreach ($lead as $k => $v) { if ($v !== '') $lines[] = str_pad(ucfirst(str_replace('_', ' ', $k)) . ':', 15) . $v; }
-$lines[] = str_pad('Marketing:', 15) . ($record['consent']['marketing'] ? 'opted in' : 'no');
-$lines[] = str_pad('Received:', 15) . $record['received'] . ' (ID ' . $record['id'] . ')';
-$subject = '=?UTF-8?B?' . base64_encode('New enquiry — ' . $lead['name'] . ' (' . strtoupper($lead['language']) . ')') . '?=';
-$replyName = '=?UTF-8?B?' . base64_encode($lead['name']) . '?=';
-$headers = implode("\r\n", [
-    'From: Modera Website <no-reply@modera-group.com>',
-    'Reply-To: ' . $replyName . ' <' . $lead['email'] . '>',
-    'Content-Type: text/plain; charset=UTF-8',
-    'Content-Transfer-Encoding: 8bit',
-]);
-foreach (RECIPIENTS as $to) { @mail($to, $subject, implode("\n", $lines), $headers, '-fno-reply@modera-group.com'); }
 
 out(200, ['ok' => true]);

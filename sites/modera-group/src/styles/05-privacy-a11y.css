@@ -177,3 +177,12 @@ html.a11y-motion .hero-window { clip-path: inset(17vh var(--cl) 9vh var(--l) rou
 @media print {
   .consent, .a11y-fab, .site-header, .mobile-bar, .video-toggle { display: none !important; }
 }
+
+/* ---------- Reflow at 320px (WCAG 1.4.10): long words never force horizontal scroll ---------- */
+.display, .h1, .h2, .h3, h1, h2, h3, .svc-title, .stat-label, .crumbs, .prose, .legal-table, .credits td { overflow-wrap: break-word; hyphens: auto; }
+.p-hero > *, .legal-grid > *, .split > *, .svc-wrap > *, .feature > *, .contact-grid > *, .a-layout > *, .process-grid > *, .chart-grid > *, .row-head > * { min-width: 0; }
+@media (max-width: 900px) {
+  .svc-row a { grid-template-columns: 40px minmax(0, 1fr); }
+}
+.btn { max-width: 100%; }
+.legal-contact .btn, .contact-line { white-space: normal; overflow-wrap: anywhere; text-align: start; }

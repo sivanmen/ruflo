@@ -78,7 +78,7 @@ export function projectsBody(t, lang) {
       <p class="proj-scope"><strong>${esc(t.common.scope)}:</strong> ${esc(it.scope)}</p>
     </div>
   </article>`).join('');
-  const gallery = `<section class="section gallery-sec"><div class="h-scroll" data-drag><div class="h-track gallery">${IMAGES.gallery.map((g) => `<figure>${img(g, '', { sizes: '40vw' })}</figure>`).join('')}</div></div></section>`;
+  const gallery = `<section class="section gallery-sec"><div class="h-scroll" data-drag tabindex="0" role="region" aria-label="${esc(t.nav.projects)}"><div class="h-track gallery">${IMAGES.gallery.map((g) => `<figure>${img(g, '', { sizes: '40vw' })}</figure>`).join('')}</div></div></section>`;
   return `<section class="section"><div class="container">
     <div class="filters" role="toolbar" data-filter="projects">${sectors.map((s, i) => `<button class="chip${i === 0 ? ' is-on' : ''}" data-value="${s}" aria-pressed="${i === 0}">${esc(name(s))}</button>`).join('')}</div>
     <div class="proj-grid" data-filter-target="projects">${cards}</div>
@@ -141,11 +141,12 @@ export function teamLd(t) {
   return t.team.members.map((m) => ({ '@type': 'Person', name: m.name, jobTitle: m.role, worksFor: { '@id': `${SITE.domain}/#organization` } }));
 }
 
-export function contactBody(t, L, lang) {
+export function contactBody(t, L, lang, enForm) {
   const f = t.contact.form;
-  const opt = (list) => list.map((o) => `<option>${esc(o)}</option>`).join('');
+  // Visible text is localised; the submitted value is always English for a consistent inbox.
+  const opt = (list, key) => list.map((o, i) => `<option value="${esc(enForm[key][i] || o)}">${esc(o)}</option>`).join('');
   const field = (name, label, type = 'text', req = true, extra = '') => `<div class="field"><label for="f-${name}">${esc(label)}${req ? ' <span aria-hidden="true">*</span>' : ''}</label><input id="f-${name}" name="${name}" type="${type}" ${req ? 'required aria-required="true"' : ''} aria-describedby="f-${name}-err" ${extra}><span class="field-err" id="f-${name}-err"></span></div>`;
-  const select = (name, label, list) => `<div class="field"><label for="f-${name}">${esc(label)}</label><select id="f-${name}" name="${name}"><option value=""></option>${opt(list)}</select></div>`;
+  const select = (name, label, list, key) => `<div class="field"><label for="f-${name}">${esc(label)}</label><select id="f-${name}" name="${name}"><option value=""></option>${opt(list, key)}</select></div>`;
   return `<section class="section contact-sec"><div class="container contact-grid">
     <form class="form glass" data-form action="${SITE.formEndpoint}" method="POST" novalidate data-msg-required="${esc(L.form.required)}" data-msg-email="${esc(L.form.email)}" data-msg-consent="${esc(L.form.consentRequired)}">
       <input type="hidden" name="language" value="${lang}">
@@ -153,8 +154,8 @@ export function contactBody(t, L, lang) {
       <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="form-row">${field('name', f.name, 'text', true, 'autocomplete="name"')}${field('email', f.email, 'email', true, 'autocomplete="email"')}</div>
       <div class="form-row">${field('phone', f.phone, 'tel', false, 'autocomplete="tel"')}${field('country', f.country, 'text', false, 'autocomplete="country-name"')}</div>
-      <div class="form-row">${select('project_type', f.type, f.types)}${select('service', f.service, f.services)}</div>
-      <div class="form-row">${select('budget', f.budget, f.budgets)}${select('stage', f.stage, f.stages)}</div>
+      <div class="form-row">${select('project_type', f.type, f.types, 'types')}${select('service', f.service, f.services, 'services')}</div>
+      <div class="form-row">${select('budget', f.budget, f.budgets, 'budgets')}${select('stage', f.stage, f.stages, 'stages')}</div>
       <div class="field"><label for="f-message">${esc(f.message)}</label><textarea id="f-message" name="message" rows="5" maxlength="4000"></textarea></div>
       <p class="form-notice">${esc(L.form.notice)} <a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a></p>
       <div class="consent-row"><input type="checkbox" id="f-consent" name="consent" value="yes" required aria-required="true" aria-describedby="f-consent-err"><label for="f-consent">${esc(f.consent)} <span aria-hidden="true">*</span></label><span class="field-err" id="f-consent-err"></span></div>
@@ -185,7 +186,7 @@ export function contactBody(t, L, lang) {
 export function creditsBody(t, credits) {
   return `<section class="section"><div class="container narrow prose">
     <p>${esc(t.credits.intro)}</p>
-    <table class="credits"><tbody>${credits.map((c) => `<tr><td>${esc(c.title)}</td><td>${esc(c.creator)}</td><td>${esc(c.license)}</td><td><a href="${esc(c.source)}" rel="nofollow noopener" target="_blank">Source</a></td></tr>`).join('')}</tbody></table>
+    <div class="table-wrap" tabindex="0" role="region" aria-label="${esc(t.credits.title)}"><table class="credits"><tbody>${credits.map((c) => `<tr><td>${esc(c.title)}</td><td>${esc(c.creator)}</td><td>${esc(c.license)}</td><td><a href="${esc(c.source)}" rel="nofollow noopener" target="_blank">Source</a></td></tr>`).join('')}</tbody></table></div>
   </div></section>`;
 }
 
