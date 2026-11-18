@@ -7,7 +7,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SITE, LANGS, PAGES, IMAGES } from './src/config/site.mjs';
+import { SITE, LANGS, PAGES, IMAGES, PARTIAL_LANGS } from './src/config/site.mjs';
 import { href, abs, plain } from './src/templates/util.mjs';
 import { page, breadcrumbs } from './src/templates/layout.mjs';
 import { homeBody, faqLd } from './src/templates/home.mjs';
@@ -38,7 +38,17 @@ function load(code) {
 
 const hasPhoto = (name) => existsSync(join(SRC, 'assets/img/team', `${name}.webp`));
 const write = (p, html) => { mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, html); };
-const alternatesFor = (path) => Object.fromEntries(LANGS.map((l) => [l.code, href(l.code, path)]));
+// Partial languages (e.g. Hebrew legal pages) are published only when their content exists.
+const partial = PARTIAL_LANGS.filter((l) => existsSync(join(SRC, 'content', l.code, 'legal.json')));
+const alternatesFor = (path) => Object.fromEntries([
+  ...LANGS.map((l) => [l.code, href(l.code, path)]),
+  ...partial.filter((l) => l.pages.includes(path)).map((l) => [l.code, href(l.code, path)]),
+]);
+const deepMerge = (a, b) => {
+  const out = Array.isArray(a) ? [...a] : { ...a };
+  for (const [k, v] of Object.entries(b || {})) out[k] = v && typeof v === 'object' && !Array.isArray(v) && a?.[k] ? deepMerge(a[k], v) : v;
+  return out;
+};
 const sitemap = [];
 
 rmSync(OUT, { recursive: true, force: true });
@@ -110,6 +120,32 @@ for (const L of LANGS) {
   console.log(`  ✓ ${lang}${complete ? '' : ' (fallback)'}`);
 }
 
+// Partial-language pages (Hebrew privacy policy + accessibility statement, RTL).
+for (const PL of partial) {
+  const dir = join(SRC, 'content', PL.code);
+  const ui = readJSON(join(dir, 'ui.json'));
+  const Lx = readJSON(join(dir, 'legal.json'));
+  const t = deepMerge(en.site, ui);
+  for (const key of PL.pages) {
+    const path = href(PL.code, key);
+    const crumbs = breadcrumbs(t, PL.code, [{ name: Lx.nav[key], path }]);
+    const doc = Lx[key];
+    const note = `<div class="container"><p class="partial-note" lang="${PL.code}">${ui.note} <a href="${href('en', key)}" lang="en" hreflang="en">${ui.back}</a></p></div>`;
+    const body = pageHero({ eyebrow: Lx.nav.legal, title: doc.title, lead: '' }, key, crumbs.html) + note + legalBody(doc, Lx, PL.code);
+    const html = page({
+      t, L: Lx, lang: PL.code, key, title: Lx.meta[key].title, description: Lx.meta[key].description, path,
+      alternates: alternatesFor(key), image: IMAGES.pageHero[key], body, bodyClass: 'has-phero',
+      graph: [{ '@type': 'WebPage', url: abs(path), name: plain(Lx.meta[key].title), inLanguage: PL.code, isPartOf: { '@id': `${SITE.domain}/#website` } }, crumbs.ld],
+    });
+    // Pages not translated into this language link to the English version.
+    const local = (seg) => PL.pages.includes(seg.replace(/\/$/, ''));
+    write(join(OUT, path, 'index.html'), html
+      .replace(new RegExp(`href="/${PL.code}/([^"]*)"`, 'g'), (m, seg) => (local(seg) ? m : `href="/en/${seg}"`))
+      .replace(/href="\.\.\/([a-z-]+\/)"/g, (m, seg) => (local(seg) ? m : `href="/en/${seg}"`)));
+  }
+  console.log(`  ✓ ${PL.code} (${PL.pages.join(', ')})`);
+}
+
 // Root: language negotiation with crawlable links (x-default = English).
 const langLinks = LANGS.map((l) => `<a href="/${l.code}/" hreflang="${l.code}" lang="${l.code}">${l.label}</a>`).join(' · ');
 write(join(OUT, 'index.html'), `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -127,6 +163,11 @@ write(join(OUT, '404.html'), readFileSync(join(OUT, 'en', '404.html'), 'utf8'));
 
 // Sitemap with hreflang alternates.
 const urls = sitemap.filter((s, i, arr) => arr.findIndex((x) => x.path === s.path) === i).flatMap((s) => LANGS.map((l) => `<url><loc>${abs(href(l.code, s.path))}</loc>${s.date ? `<lastmod>${s.date}</lastmod>` : ''}<priority>${s.priority}</priority>${LANGS.map((x) => `<xhtml:link rel="alternate" hreflang="${x.code}" href="${abs(href(x.code, s.path))}"/>`).join('')}<xhtml:link rel="alternate" hreflang="x-default" href="${abs(href('en', s.path))}"/></url>`));
+// Partial-language URLs (alternates point back to the full set).
+for (const PL of partial) for (const key of PL.pages) {
+  const alt = alternatesFor(key);
+  urls.push(`<url><loc>${abs(href(PL.code, key))}</loc><priority>0.3</priority>${Object.entries(alt).map(([c, p]) => `<xhtml:link rel="alternate" hreflang="${c}" href="${abs(p)}"/>`).join('')}</url>`);
+}
 write(join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
 
 // robots.txt — welcome search and AI crawlers.

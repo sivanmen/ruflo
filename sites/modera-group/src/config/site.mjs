@@ -36,6 +36,14 @@ export const SITE = {
 };
 
 /** Languages in display order. `default` is served as x-default. */
+/**
+ * Additional languages published for selected pages only (not in the main switcher).
+ * Hebrew: privacy policy + accessibility statement for the Israeli public.
+ */
+export const PARTIAL_LANGS = [
+  { code: 'he', label: 'עברית', short: 'HE', locale: 'he_IL', dir: 'rtl', pages: ['privacy', 'accessibility'] },
+];
+
 export const LANGS = [
   { code: 'en', label: 'English', short: 'EN', locale: 'en_GB', default: true },
   { code: 'el', label: 'Ελληνικά', short: 'EL', locale: 'el_GR' },

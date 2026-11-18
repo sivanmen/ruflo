@@ -208,7 +208,7 @@ a:hover .link .i { transform: translateX(4px); }
 .consent { display: flex; gap: 12px; align-items: flex-start; font-size: var(--fs-sm); color: var(--muted); }
 .consent input { width: 20px; height: 20px; margin-top: 2px; accent-color: var(--ink); flex: none; }
 .consent a { color: var(--bronze-ink); }
-.hp { position: absolute; left: -9999px; }
+.hp { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; opacity: 0; }
 .form-status { font-size: var(--fs-sm); min-height: 1.5em; }
 .form-status.is-ok { color: #1f6b3a; }
 .form-status.is-err { color: #b3261e; }

@@ -121,7 +121,7 @@ function footer(t, L, lang) {
     <div class="f-giant" aria-hidden="true"><img src="/assets/img/brand/logo-light.webp" alt="" width="900" height="189" loading="lazy"></div>
     <div class="f-bottom">
       <p>© ${year} ${SITE.name}. ${esc(t.common.rights)} · ${esc(t.common.taxNo)} ${SITE.taxNo} · G.E.MI. ${SITE.gemi}</p>
-      <nav class="f-legal" aria-label="${esc(L.nav.legal)}"><a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a><a href="${href(lang, 'cookies')}">${esc(L.nav.cookies)}</a><a href="${href(lang, 'accessibility')}">${esc(L.nav.accessibility)}</a><a href="${href(lang, 'terms')}">${esc(L.nav.terms)}</a><button type="button" data-consent-open>${esc(L.nav.cookieSettings)}</button><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></nav>
+      <nav class="f-legal" aria-label="${esc(L.nav.legal)}"><a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a><a href="${href(lang, 'cookies')}">${esc(L.nav.cookies)}</a><a href="${href(lang, 'accessibility')}">${esc(L.nav.accessibility)}</a><a href="/he/accessibility/" lang="he" hreflang="he">נגישות · פרטיות בעברית</a><a href="${href(lang, 'terms')}">${esc(L.nav.terms)}</a><button type="button" data-consent-open>${esc(L.nav.cookieSettings)}</button><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></nav>
       <p class="f-disclaimer">${esc(t.footer.disclaimer)}</p>
     </div>
   </div>
@@ -149,7 +149,7 @@ export function breadcrumbs(t, lang, trail) {
 /** Full HTML document. */
 export function page({ t, L, lang, key, title, description, path, alternates, image, graph, body, noindex, bodyClass = '' }) {
   return `<!doctype html>
-<html lang="${lang}" dir="ltr">
+<html lang="${lang}" dir="${langMeta(lang).dir || 'ltr'}">
 ${head({ t, lang, title, description, path, alternates, image, graph, noindex })}
 <body class="page-${key} ${bodyClass}" data-consent-version="${CONSENT.version}" data-consent-max-age="${CONSENT.maxAgeDays}" data-consent-categories="${CONSENT.categories.join(',')}">
 ${header(t, lang, key, alternates)}

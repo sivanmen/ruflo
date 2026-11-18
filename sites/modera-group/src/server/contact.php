@@ -35,6 +35,37 @@ function clean(string $v, int $max): string {
     return mb_substr($v, 0, $max);
 }
 
+/**
+ * Storage limitation, record by record: drop enquiries older than the retention period.
+ * Marketing opt-ins live in a separate list (kept until withdrawn), so purging enquiries
+ * never destroys proof of consent.
+ */
+function purge(string $store): int
+{
+    $cutoff = time() - RETENTION_DAYS * 86400;
+    $removed = 0;
+    foreach (glob("$store/leads-*.jsonl") ?: [] as $f) {
+        $keep = [];
+        foreach (file($f, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [] as $line) {
+            $r = json_decode($line, true);
+            if (is_array($r) && strtotime($r['received'] ?? '') >= $cutoff) $keep[] = $line; else $removed++;
+        }
+        if ($keep) file_put_contents($f, implode("\n", $keep) . "\n", LOCK_EX); else @unlink($f);
+    }
+    return $removed;
+}
+function store_dir(): string
+{
+    $home = dirname(__DIR__);
+    return is_writable($home) ? $home . '/.modera-leads' : __DIR__ . '/.deploy/leads';
+}
+
+// Scheduled maintenance (cPanel cron, monthly): php /home/<user>/modera-group.com/contact.php --purge
+if (PHP_SAPI === 'cli') {
+    if (($argv[1] ?? '') === '--purge') { echo 'Purged ' . purge(store_dir()) . " expired enquiries\n"; exit(0); }
+    exit(1);
+}
+
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') out(405, ['ok' => false, 'error' => 'method']);
 
 // Same-origin check (CSRF protection for a cookieless endpoint).
@@ -48,8 +79,7 @@ if (!is_array($in)) out(400, ['ok' => false, 'error' => 'payload']);
 // Bots: honeypot filled or form submitted too fast (< 3 s). Pretend success.
 if (!empty($in['_honey']) || (isset($in['_t']) && (time() * 1000 - (int) $in['_t']) < 3000)) out(200, ['ok' => true]);
 
-$home = dirname(__DIR__);
-$store = is_writable($home) ? $home . '/.modera-leads' : __DIR__ . '/.deploy/leads';
+$store = store_dir();
 @mkdir($store, 0700, true);
 if (!is_file("$store/.htaccess")) @file_put_contents("$store/.htaccess", "Require all denied\nDeny from all\n");
 
@@ -102,10 +132,14 @@ $file = "$store/leads-" . gmdate('Y-m') . '.jsonl';
 file_put_contents($file, json_encode($record, JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
 @chmod($file, 0600);
 
-// Storage limitation: delete monthly files older than the retention period.
-$cutoff = gmdate('Y-m', time() - RETENTION_DAYS * 86400);
-foreach (glob("$store/leads-*.jsonl") ?: [] as $f) {
-    if (preg_match('/leads-(\d{4}-\d{2})\.jsonl$/', $f, $m) && $m[1] < $cutoff) @unlink($f);
+// Marketing opt-in: separate consent register, retained until the person withdraws.
+if ($record['consent']['marketing']) {
+    $mk = "$store/marketing-consents.jsonl";
+    file_put_contents($mk, json_encode(['email' => $record['email'], 'name' => $record['name'], 'language' => $record['language'], 'consented_at' => $record['received'], 'notice_version' => $record['consent']['notice_version'], 'source' => 'website-form', 'lead_id' => $record['id']], JSON_UNESCAPED_UNICODE) . "\n", FILE_APPEND | LOCK_EX);
+    @chmod($mk, 0600);
 }
+
+// Storage limitation (also runs monthly via cron, see top of file).
+purge($store);
 
 out(200, ['ok' => true]);

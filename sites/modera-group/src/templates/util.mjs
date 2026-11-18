@@ -1,4 +1,4 @@
-import { SITE, LANGS } from '../config/site.mjs';
+import { SITE, LANGS, PARTIAL_LANGS } from '../config/site.mjs';
 
 /** Escape text for HTML attribute/text contexts. */
 export const esc = (s = '') =>
@@ -13,7 +13,7 @@ export const href = (lang, path = '') => `/${lang}/${path ? `${path.replace(/^\/
 /** Absolute URL. */
 export const abs = (p) => `${SITE.domain}${p}`;
 
-export const langMeta = (code) => LANGS.find((l) => l.code === code);
+export const langMeta = (code) => LANGS.find((l) => l.code === code) || PARTIAL_LANGS.find((l) => l.code === code);
 
 /** Responsive WebP image with lazy loading. */
 export function img(name, alt, { cls = '', eager = false, sizes = '(max-width: 800px) 100vw, 50vw', attrs = '' } = {}) {
