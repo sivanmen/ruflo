@@ -12,12 +12,13 @@ function baseGraph(t, lang) {
     name: SITE.name,
     url: SITE.domain,
     logo: abs('/assets/img/brand/logo-square.png'),
-    image: abs('/assets/img/hero-villa-1600.webp'),
+    image: abs('/assets/img/ks-resort-pool-1600.webp'),
     description: plain(t.meta.home.description),
     email: SITE.email,
     telephone: SITE.phone,
     taxID: SITE.taxNo,
     vatID: SITE.taxNo,
+    identifier: { '@type': 'PropertyValue', propertyID: 'GEMI', value: SITE.gemi },
     address: {
       '@type': 'PostalAddress', streetAddress: SITE.address.street, postalCode: SITE.address.postalCode,
       addressLocality: SITE.address.city, addressRegion: SITE.address.region, addressCountry: SITE.address.country,
@@ -39,7 +40,7 @@ function baseGraph(t, lang) {
 
 function head({ t, lang, title, description, path, alternates, image, graph = [], noindex = false }) {
   const url = abs(path);
-  const ogImg = abs(`/assets/img/${image || 'hero-villa'}-1600.webp`);
+  const ogImg = abs(`/assets/img/${image || 'ks-resort-pool'}-1600.webp`);
   const alt = Object.entries(alternates)
     .map(([l, p]) => `<link rel="alternate" hreflang="${l}" href="${abs(p)}">`).join('\n  ');
   const ld = { '@context': 'https://schema.org', '@graph': [...baseGraph(t, lang), ...graph] };
@@ -119,7 +120,7 @@ function footer(t, L, lang) {
     </div>
     <div class="f-giant" aria-hidden="true"><img src="/assets/img/brand/logo-light.webp" alt="" width="900" height="189" loading="lazy"></div>
     <div class="f-bottom">
-      <p>© ${year} ${SITE.name}. ${esc(t.common.rights)} · ${esc(t.common.taxNo)} ${SITE.taxNo}</p>
+      <p>© ${year} ${SITE.name}. ${esc(t.common.rights)} · ${esc(t.common.taxNo)} ${SITE.taxNo} · G.E.MI. ${SITE.gemi}</p>
       <nav class="f-legal" aria-label="${esc(L.nav.legal)}"><a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a><a href="${href(lang, 'cookies')}">${esc(L.nav.cookies)}</a><a href="${href(lang, 'accessibility')}">${esc(L.nav.accessibility)}</a><a href="${href(lang, 'terms')}">${esc(L.nav.terms)}</a><button type="button" data-consent-open>${esc(L.nav.cookieSettings)}</button><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></nav>
       <p class="f-disclaimer">${esc(t.footer.disclaimer)}</p>
     </div>

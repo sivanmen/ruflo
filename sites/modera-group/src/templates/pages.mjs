@@ -91,8 +91,8 @@ export function aboutBody(t, lang) {
   return `<section class="section"><div class="container split about-story">
     <div><h2 class="h2">${esc(a.story.title)}</h2>${a.story.paragraphs.map((p) => `<p class="body-lg reveal">${esc(p)}</p>`).join('')}</div>
     <div class="intro-visual" aria-hidden="true">
-      <div class="layer layer-back" data-speed="0.08">${img('chania-harbour', '', { sizes: '40vw' })}</div>
-      <div class="layer layer-front" data-speed="-0.06">${img('stone-villa', '', { sizes: '30vw' })}</div>
+      <div class="layer layer-back" data-speed="0.08">${img('chania-harbour-night', '', { sizes: '40vw' })}</div>
+      <div class="layer layer-front" data-speed="-0.06">${img('site-sivan', '', { sizes: '30vw' })}</div>
     </div>
   </div></section>
   <section class="section values-sec"><div class="container"><div class="values">${a.values.map((v, i) => `<div class="value reveal" style="--d:${i * 80}ms"><span>0${i + 1}</span><h3>${esc(v.title)}</h3><p>${esc(v.text)}</p></div>`).join('')}</div></div></section>
@@ -102,7 +102,7 @@ export function aboutBody(t, lang) {
   </div></section>
   <section class="section"><div class="container"><div class="company-card glass">
     <h2 class="h3">${esc(a.company.title)}</h2>
-    <dl class="facts"><div><dt>${esc(a.company.legal)}</dt><dd>${SITE.name}</dd></div><div><dt>${esc(t.common.taxNo)}</dt><dd>${SITE.taxNo}</dd></div><div><dt>${esc(a.company.office)}</dt><dd>${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.city}</dd></div><div><dt>${esc(t.common.emailUs)}</dt><dd><a href="mailto:${SITE.email}">${SITE.email}</a></dd></div></dl>
+    <dl class="facts"><div><dt>${esc(a.company.legal)}</dt><dd>${SITE.name}</dd></div><div><dt>${esc(t.common.taxNo)}</dt><dd>${SITE.taxNo}</dd></div><div><dt>G.E.MI.</dt><dd>${SITE.gemi}</dd></div><div><dt>${esc(a.company.office)}</dt><dd>${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.city}</dd></div><div><dt>${esc(t.common.emailUs)}</dt><dd><a href="mailto:${SITE.email}">${SITE.email}</a></dd></div></dl>
   </div></div></section>
   ${ctaBand(t, lang)}`;
 }
@@ -169,7 +169,7 @@ export function contactBody(t, L, lang, enForm) {
       <a class="contact-line" href="${SITE.whatsapp}" target="_blank" rel="noopener">${icon('whatsapp')}<span><small>WhatsApp</small>${SITE.phoneDisplay}</span></a>
       <a class="contact-line" href="mailto:${SITE.email}">${icon('mail')}<span><small>${esc(t.common.emailUs)}</small>${SITE.email}</span></a>
       <div class="contact-line">${icon('pin')}<span><small>${esc(t.contact.office)}</small>${SITE.address.street}<br>${SITE.address.postalCode} ${SITE.address.city}, ${SITE.address.region}<br>${esc(t.contact.hours)}</span></div>
-      <p class="tax">${esc(t.common.taxNo)} ${SITE.taxNo}</p>
+      <p class="tax">${esc(t.common.taxNo)} ${SITE.taxNo} · G.E.MI. ${SITE.gemi}</p>
     </aside>
   </div></section>
   <section class="map-sec" aria-label="${esc(t.contact.mapTitle)}"><div class="map" data-map="https://www.google.com/maps?q=${encodeURIComponent(SITE.mapQuery)}&output=embed" data-title="${esc(t.contact.mapTitle)}">

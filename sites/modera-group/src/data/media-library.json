@@ -1,0 +1,809 @@
+{
+ "generated": "2026-11-18",
+ "note": "Images are served as WebP at 1600 px and 800 px (never upscaled). Originals stay in Google Drive. Rights: company archive, renderings and licensed footage supplied by Modera Group — confirm licences for third-party stock before reuse in ads.",
+ "images": [
+  {
+   "asset": "site-earthworks-sea",
+   "subject": "Earthworks and access road above the sea — Modera site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "13dvkKMD42AQVUpr1AiJpnbYdDhZxcGo1",
+    "original_name": "WhatsApp Image 2026-11-10 at 15.13.49.jpeg",
+    "width": 1280,
+    "height": 960
+   },
+   "usage": [
+    "/en/",
+    "/en/projects/",
+    "/en/sectors/"
+   ]
+  },
+  {
+   "asset": "site-earthworks-road",
+   "subject": "Graded platform and retaining wall — Modera site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1lDLnAej9ID0drB6oFr2UBTiHFQe4lVsz",
+    "original_name": "WhatsApp Image 2026-11-10 at 15.13.49 (1).jpeg",
+    "width": 1280,
+    "height": 960
+   },
+   "usage": [
+    "/en/insights/",
+    "/en/insights/building-outside-town-plan-crete-infrastructure/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "site-rebar-cage",
+   "subject": "Reinforcement cage for bored piles — Modera site",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1OG5fnVSBnK4pB5vrpOK4YTfwVuurOksb",
+    "original_name": "WhatsApp Image 2026-11-14 at 10.01.47 (1).jpeg",
+    "width": 1200,
+    "height": 1600
+   },
+   "usage": [
+    "/en/",
+    "/en/insights/",
+    "/en/insights/archaeology-forestry-coastal-rules-crete/",
+    "/en/insights/boutique-hotel-development-crete/",
+    "/en/insights/building-outside-town-plan-crete-infrastructure/",
+    "/en/insights/building-permit-crete-guide/",
+    "/en/insights/construction-costs-crete-2026/",
+    "/en/insights/owners-representative-construction-management-greece/",
+    "/en/insights/sustainable-building-mediterranean-climate/"
+   ]
+  },
+  {
+   "asset": "site-pile-cage",
+   "subject": "Pile reinforcement cage ready for installation — Modera site",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1o5lF2bRKfsj_IuDPmWuDSIRAx-f_Yi8u",
+    "original_name": "WhatsApp Image 2026-11-14 at 10.01.47 (3).jpeg",
+    "width": 1200,
+    "height": 1600
+   },
+   "usage": [
+    "/en/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "site-piling-rig",
+   "subject": "Piling rig on site, sea view — Modera site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1Nu_mPMud1MMu9cw54LNwgbxU-z7HKKur",
+    "original_name": "WhatsApp Image 2026-11-14 at 10.01.47 (5).jpeg",
+    "width": 1200,
+    "height": 1600
+   },
+   "usage": [
+    "/en/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "site-piling-rig-2",
+   "subject": "Piling rig and crew — Modera site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "15uYmBfxIySUnogUsS5oLEz5MkTlqjlPZ",
+    "original_name": "WhatsApp Image 2026-11-14 at 10.01.47 (6).jpeg",
+    "width": 1200,
+    "height": 1600
+   },
+   "usage": [
+    "/en/"
+   ]
+  },
+  {
+   "asset": "site-piling-dusk",
+   "subject": "Piling works at dusk — Modera site",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1lV_0py7KcczKjKfXvpxfmT7Z2990JUeq",
+    "original_name": "WhatsApp Image 2026-11-14 at 10.01.47.jpeg",
+    "width": 960,
+    "height": 1280
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "site-excavator",
+   "subject": "Excavator during earthworks — Modera site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1dE9l3K6EMEXsUegvF5AP1qayo5fjNyPv",
+    "original_name": "WhatsApp Image 2026-11-05 at 10.38.16.jpeg",
+    "width": 1536,
+    "height": 2048
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  },
+  {
+   "asset": "site-team",
+   "subject": "Modera management on site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "16x68IDbCxNULNIkGkDbo9fhuBUv7dF0-",
+    "original_name": "IMG_1098 2.JPG",
+    "width": 3088,
+    "height": 2316
+   },
+   "usage": [
+    "/en/",
+    "/en/insights/",
+    "/en/insights/golden-visa-greece-new-build/",
+    "/en/insights/harmony-fund-institutional-development-crete/",
+    "/en/insights/sivan-invest-group-modera-turnkey-projects/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "site-sivan",
+   "subject": "Sivan Menahem on site, Crete",
+   "type": "site",
+   "source": {
+    "drive_folder": "A-whatsapp",
+    "drive_file_id": "1MpxYPOfPx5GXSIHy6MnR3pxN2rmna14F",
+    "original_name": "IMG_1111 2.JPG",
+    "width": 3088,
+    "height": 2316
+   },
+   "usage": [
+    "/en/about/",
+    "/en/insights/",
+    "/en/insights/owners-representative-construction-management-greece/"
+   ]
+  },
+  {
+   "asset": "chania-residence-dusk",
+   "subject": "Residential building, Chania — rendering at dusk",
+   "type": "render",
+   "source": {
+    "drive_folder": "פרויקט בניין חאניה",
+    "drive_file_id": "1olyXUrQ7irFKhQfG24b5BXdPcMHxcz8t",
+    "original_name": "ChatGPT Image Apr 8, 2025, 11_25_08 PM.png",
+    "width": 1024,
+    "height": 1536
+   },
+   "usage": [
+    "/en/",
+    "/en/projects/",
+    "/en/sectors/"
+   ]
+  },
+  {
+   "asset": "chania-residence-sunset",
+   "subject": "Residential building, Chania — rendering at sunset",
+   "type": "render",
+   "source": {
+    "drive_folder": "פרויקט בניין חאניה",
+    "drive_file_id": "1Wjvzt2KW-jJ7ZiS0z7Z7lM_n6J9vS3he",
+    "original_name": "ChatGPT Image Apr 8, 2025, 11_35_02 PM.png",
+    "width": 1024,
+    "height": 1536
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "chania-residence-blue",
+   "subject": "Residential building, Chania — rendering, blue hour",
+   "type": "render",
+   "source": {
+    "drive_folder": "פרויקט בניין חאניה",
+    "drive_file_id": "1G1gbP0b7vx4GGevDqspGbwDzPkaPr2-Y",
+    "original_name": "ChatGPT Image Apr 8, 2025, 11_23_20 PM.png",
+    "width": 1024,
+    "height": 1536
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  },
+  {
+   "asset": "chania-street-building",
+   "subject": "Mixed-use building on a Chania street",
+   "type": "photo",
+   "source": {
+    "drive_folder": "פרויקט בניין חאניה",
+    "drive_file_id": "1f7NeQf_8ioncttKKlj90jdkgfwgoeJzk",
+    "original_name": "IMG_4700.JPG",
+    "width": 4032,
+    "height": 3024
+   },
+   "usage": [
+    "/en/",
+    "/en/projects/",
+    "/en/sectors/"
+   ]
+  },
+  {
+   "asset": "ks-resort-pool",
+   "subject": "Hillside resort with infinity pools — rendering, Crete",
+   "type": "render",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "1LJYgWEVF8e32SOSMvinbDIpQDp4Oau0y",
+    "original_name": "Screenshot 2025-02-03 at 16.12.18.png",
+    "width": 2172,
+    "height": 1280
+   },
+   "usage": [
+    "/en/",
+    "/en/about/",
+    "/en/accessibility/",
+    "/en/contact/",
+    "/en/cookies/",
+    "/en/credits/",
+    "/en/insights/",
+    "/en/insights/archaeology-forestry-coastal-rules-crete/",
+    "/en/insights/boutique-hotel-development-crete/",
+    "/en/insights/building-outside-town-plan-crete-infrastructure/",
+    "/en/insights/building-permit-crete-guide/",
+    "/en/insights/construction-costs-crete-2026/",
+    "/en/insights/golden-visa-greece-new-build/",
+    "/en/insights/harmony-fund-institutional-development-crete/",
+    "/en/insights/owners-representative-construction-management-greece/",
+    "/en/insights/sivan-invest-group-modera-turnkey-projects/",
+    "/en/insights/sustainable-building-mediterranean-climate/",
+    "/en/privacy/",
+    "/en/projects/",
+    "/en/sectors/",
+    "/en/services/",
+    "/en/team/",
+    "/en/terms/"
+   ]
+  },
+  {
+   "asset": "ks-resort-pool-2",
+   "subject": "Resort pool terraces — rendering, Crete",
+   "type": "render",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "1nuH0OW13nUODHV4MRiJR7EBdlwmcg0Od",
+    "original_name": "Screenshot 2025-02-03 at 16.12.35.png",
+    "width": 2252,
+    "height": 1130
+   },
+   "usage": [
+    "/en/",
+    "/en/insights/",
+    "/en/insights/archaeology-forestry-coastal-rules-crete/",
+    "/en/insights/boutique-hotel-development-crete/",
+    "/en/insights/building-outside-town-plan-crete-infrastructure/",
+    "/en/insights/building-permit-crete-guide/",
+    "/en/insights/construction-costs-crete-2026/",
+    "/en/insights/owners-representative-construction-management-greece/",
+    "/en/insights/sustainable-building-mediterranean-climate/"
+   ]
+  },
+  {
+   "asset": "ks-resort-rock",
+   "subject": "Organic villas against the rock — rendering, Crete",
+   "type": "render",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "18NqJ4klFx3Op0Lli2UXsGtJJanBiBoeK",
+    "original_name": "Screenshot 2025-02-03 at 16.04.47.png",
+    "width": 2264,
+    "height": 1304
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  },
+  {
+   "asset": "ks-resort-aerial",
+   "subject": "Terraced resort, aerial — rendering, Crete",
+   "type": "render",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "1bOfDQXFA2RPaF7zhjgR2DA1AbMsh_-l3",
+    "original_name": "Screenshot 2025-01-25 at 15.55.43.png",
+    "width": 2716,
+    "height": 1372
+   },
+   "usage": [
+    "/en/",
+    "/en/projects/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "ks-aerial-render",
+   "subject": "Resort master plan, aerial — rendering",
+   "type": "render",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "16jm7PnQxvfqdsZAaEQlOcPre_Wc2mlDH",
+    "original_name": "Screenshot 2025-02-03 at 16.06.45.png",
+    "width": 1688,
+    "height": 1538
+   },
+   "usage": [
+    "/en/insights/",
+    "/en/insights/golden-visa-greece-new-build/",
+    "/en/insights/harmony-fund-institutional-development-crete/",
+    "/en/insights/sivan-invest-group-modera-turnkey-projects/",
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "ks-land-sea",
+   "subject": "Development land overlooking the sea — Crete",
+   "type": "photo",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "1vT_12n-L81KjcHKsapXztWULOeRIEydP",
+    "original_name": "IMG_6622.JPG",
+    "width": 4032,
+    "height": 3024
+   },
+   "usage": [
+    "/en/"
+   ]
+  },
+  {
+   "asset": "ks-site-plan",
+   "subject": "Site plan — ground floor",
+   "type": "drawing",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "1eBzSvnDaQxom36Xezhcq-AyNygCMCl7z",
+    "original_name": "Screenshot 2025-01-25 at 17.48.31.png",
+    "width": 1438,
+    "height": 1006
+   },
+   "usage": [
+    "/en/",
+    "/en/insights/",
+    "/en/insights/archaeology-forestry-coastal-rules-crete/",
+    "/en/insights/boutique-hotel-development-crete/",
+    "/en/insights/building-outside-town-plan-crete-infrastructure/",
+    "/en/insights/building-permit-crete-guide/",
+    "/en/insights/construction-costs-crete-2026/",
+    "/en/insights/golden-visa-greece-new-build/",
+    "/en/insights/harmony-fund-institutional-development-crete/",
+    "/en/insights/owners-representative-construction-management-greece/",
+    "/en/insights/sivan-invest-group-modera-turnkey-projects/",
+    "/en/insights/sustainable-building-mediterranean-climate/",
+    "/en/services/"
+   ]
+  },
+  {
+   "asset": "ks-site-plan-2",
+   "subject": "Site plan — first floor",
+   "type": "drawing",
+   "source": {
+    "drive_folder": "תמונות King Solomon",
+    "drive_file_id": "16XZMmeABD1V1dxtxsPjKu-OuEQwJ9kZX",
+    "original_name": "Screenshot 2025-01-25 at 17.48.42.png",
+    "width": 1420,
+    "height": 1004
+   },
+   "usage": [
+    "/en/"
+   ]
+  },
+  {
+   "asset": "eco-villas-rock",
+   "subject": "Eco villas with cantilevered roofs — rendering",
+   "type": "render",
+   "source": {
+    "drive_folder": "הדמיות",
+    "drive_file_id": "16R8vVz9ZpF4y8TL1G34-hFdeYvhwDICF",
+    "original_name": "PHOTO-2025-02-03-16-21-31.jpg",
+    "width": 1600,
+    "height": 921
+   },
+   "usage": [
+    "/en/insights/",
+    "/en/insights/sustainable-building-mediterranean-climate/",
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "eco-villas-hillside",
+   "subject": "Hillside villas — rendering, Crete",
+   "type": "render",
+   "source": {
+    "drive_folder": "הדמיות",
+    "drive_file_id": "1FtCJmGOOkr5c4DG0P1OZ-_OrnBuFCf9B",
+    "original_name": "PHOTO-2025-02-03-16-21-31.jpg",
+    "width": 1600,
+    "height": 823
+   },
+   "usage": [
+    "/en/projects/",
+    "/en/sectors/"
+   ]
+  },
+  {
+   "asset": "eco-villas-aerial",
+   "subject": "Villa cluster, aerial — rendering",
+   "type": "render",
+   "source": {
+    "drive_folder": "הדמיות",
+    "drive_file_id": "1Pax30UoTZY8UZfIPfpcAeF4KuCvtCpZO",
+    "original_name": "PHOTO-2025-02-03-16-21-31.jpg",
+    "width": 1600,
+    "height": 1435
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "eco-villas-dusk",
+   "subject": "Villa cluster, evening — rendering",
+   "type": "render",
+   "source": {
+    "drive_folder": "הדמיות",
+    "drive_file_id": "1IzdNVtAnR5ypG7FUBO855eu6M857-7AR",
+    "original_name": "PHOTO-2025-02-03-16-21-31.jpg",
+    "width": 1600,
+    "height": 830
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "eco-villas-model",
+   "subject": "3D massing model — design development",
+   "type": "drawing",
+   "source": {
+    "drive_folder": "הדמיות",
+    "drive_file_id": "1GNrbZ1udHfh_xQM9cPpc7ZxVdr-6sAel",
+    "original_name": "Screenshot 2024-10-22 142505.png",
+    "width": 859,
+    "height": 620
+   },
+   "usage": [
+    "/en/"
+   ]
+  },
+  {
+   "asset": "chania-lighthouse-night",
+   "subject": "Venetian lighthouse of Chania at night",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1iVvyyRMUA9ffofUPB3yLhfdl0C0jK3DI",
+    "original_name": "agios-nikolaos-fortress-on-the-mandraki-harbour-of-2025-02-10-12-23-19-utc.jpg",
+    "width": 3600,
+    "height": 2400
+   },
+   "usage": [
+    "/en/contact/"
+   ]
+  },
+  {
+   "asset": "crete-harbour-night",
+   "subject": "Cretan harbour at night",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "19F03d6v6Xglanfc4ZnU6SMr4OrxCzQ13",
+    "original_name": "beautiful-agios-nikolaos-town-at-night-lasithi-re-2024-10-18-06-52-39-utc.jpg",
+    "width": 4950,
+    "height": 3301
+   },
+   "usage": [
+    "/en/"
+   ]
+  },
+  {
+   "asset": "chania-harbour-dusk",
+   "subject": "Old Venetian harbour of Chania at dusk",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1MH7wDppvmqE17O_H6_Q0wjYSZFVdgNs-",
+    "original_name": "chania-after-sunset-2025-03-09-09-46-55-utc.jpg",
+    "width": 3596,
+    "height": 2400
+   },
+   "usage": [
+    "/en/about/"
+   ]
+  },
+  {
+   "asset": "chania-harbour-aerial",
+   "subject": "Chania harbour from above at dusk",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1OkgxEpdb-r_9XI1WH2VuqjeYpr2VTjaI",
+    "original_name": "city-lights-by-the-sea-at-night-with-illuminated-2025-02-11-20-10-17-utc.jpg",
+    "width": 5272,
+    "height": 3948
+   },
+   "usage": [
+    "/en/insights/"
+   ]
+  },
+  {
+   "asset": "chania-alley-flowers",
+   "subject": "Old town alley with bougainvillea, Chania",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1rU13c3p2XG68PMpDVS7QQK1bCPP-VNp6",
+    "original_name": "cosy-street-of-chania-crete-greece-2024-10-19-06-31-43-utc.jpg",
+    "width": 3295,
+    "height": 4911
+   },
+   "usage": [
+    "/en/",
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "crete-harbour-boats",
+   "subject": "Traditional boats in a Cretan harbour",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1Mitmvs5ZJTz6awCxBmoPjWgg_RcWVEmj",
+    "original_name": "dramatic-evening-cityscape-of-castellammare-del-go-2025-01-09-09-06-03-utc (1).jpg",
+    "width": 8978,
+    "height": 6000
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "chania-venetian-walls",
+   "subject": "Venetian fortifications by the sea, Chania",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1wKOtnpf68ZN6R4UZzX2cTteWWRe-Cp9H",
+    "original_name": "gorgeous-evening-cityscape-of-historical-part-of-a-2025-01-08-11-45-27-utc.jpg",
+    "width": 6700,
+    "height": 4467
+   },
+   "usage": [
+    "/en/insights/",
+    "/en/insights/archaeology-forestry-coastal-rules-crete/",
+    "/en/insights/building-permit-crete-guide/",
+    "/en/projects/",
+    "/en/terms/"
+   ]
+  },
+  {
+   "asset": "chania-sunset",
+   "subject": "Chania waterfront at sunset",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1kJn8_kXekD-3eQLtL-Fax8njlNj9xIVW",
+    "original_name": "picturesque-old-port-of-chania-crete-island-gree-2024-10-17-21-05-05-utc.jpg",
+    "width": 4950,
+    "height": 3300
+   },
+   "usage": [
+    "/en/team/"
+   ]
+  },
+  {
+   "asset": "chania-old-town-sea",
+   "subject": "Chania old town by the sea",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1I0Af4sf6T9OYYpVdrSNGkJw8mCWUkoEc",
+    "original_name": "picturesque-old-port-of-chania-crete-island-gree-2024-10-23-07-53-38-utc.jpg",
+    "width": 6000,
+    "height": 4001
+   },
+   "usage": [
+    "/en/privacy/"
+   ]
+  },
+  {
+   "asset": "chania-alley",
+   "subject": "Colourful alley in Chania old town",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "11XEHY0toYNG57KiokycSQcQwsWK62rIa",
+    "original_name": "scenic-picturesque-streets-of-chania-venetian-town-2024-10-17-20-50-58-utc.jpg",
+    "width": 4950,
+    "height": 3300
+   },
+   "usage": [
+    "/en/credits/"
+   ]
+  },
+  {
+   "asset": "chania-harbour-day",
+   "subject": "Chania harbour on a clear day",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "10G_vYTMCmten1EY2eWnPEBlSX3R0-m2Q",
+    "original_name": "summer-view-of-the-alghero-marina-yacht-port-at-th-2025-06-29-02-47-40-utc.jpg",
+    "width": 5075,
+    "height": 3383
+   },
+   "usage": [
+    "/en/accessibility/",
+    "/en/insights/",
+    "/en/insights/boutique-hotel-development-crete/",
+    "/en/insights/construction-costs-crete-2026/",
+    "/en/insights/golden-visa-greece-new-build/",
+    "/en/insights/harmony-fund-institutional-development-crete/",
+    "/en/insights/sivan-invest-group-modera-turnkey-projects/"
+   ]
+  },
+  {
+   "asset": "chania-waterfront",
+   "subject": "Chania waterfront houses",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "1QRWvx2bilDouKhPw47xNJdk8RkEXx48l",
+    "original_name": "amazing-evening-cityscape-of-historical-part-of-al-2025-05-07-20-32-09-utc.jpg",
+    "width": 6537,
+    "height": 4358
+   },
+   "usage": [
+    "/en/cookies/"
+   ]
+  },
+  {
+   "asset": "chania-lighthouse",
+   "subject": "Chania lighthouse at the harbour entrance",
+   "type": "photo",
+   "source": {
+    "drive_folder": "כללי",
+    "drive_file_id": "164zyFPEGL4ITqLiPu8WG6upA7jspo5Ap",
+    "original_name": "lighthouse-of-chania-crete-greece-2024-10-19-09-05-29-utc.jpg",
+    "width": 4970,
+    "height": 3313
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  },
+  {
+   "asset": "chania-building",
+   "subject": "Apartment building, Chania",
+   "type": "photo",
+   "source": {
+    "drive_folder": "D-root",
+    "drive_file_id": "1gc-DEioCMoL7QbpxJcvZczyIqJsoGOHt",
+    "original_name": "IMG_9421.JPG",
+    "width": 4032,
+    "height": 3024
+   },
+   "usage": [
+    "/en/projects/"
+   ]
+  },
+  {
+   "asset": "site-engineers",
+   "subject": "Engineering team on a construction site (AI-generated)",
+   "type": "ai",
+   "source": {
+    "drive_folder": "D-root",
+    "drive_file_id": "1DKdlGCzRDMR3f74t1XAVB3KPg527Sytg",
+    "original_name": "Gemini_Generated_Image_csq5yscsq5yscsq5.png",
+    "width": 2048,
+    "height": 2048
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  },
+  {
+   "asset": "chania-harbour-night",
+   "subject": "Chania harbour at night — original photo",
+   "type": "photo",
+   "source": {
+    "drive_folder": "City Center תמונות ",
+    "drive_file_id": "1lFQ4WarO28mKfxtRGZWzj-db8COPrVBA",
+    "original_name": "IMG_6640.JPG",
+    "width": 4032,
+    "height": 3024
+   },
+   "usage": [
+    "/en/about/"
+   ]
+  },
+  {
+   "asset": "sivan-portrait",
+   "subject": "Sivan Menahem — executive portrait (AI-generated)",
+   "type": "ai",
+   "source": {
+    "drive_folder": "B-ai-renders",
+    "drive_file_id": "1p3hbT0i45NRncLjtToOlGHzVW7EfVLV8",
+    "original_name": "ai-1p3hbT.png",
+    "width": 2048,
+    "height": 2048
+   },
+   "usage": [
+    "(reserve — not used yet)"
+   ]
+  }
+ ],
+ "videos": [
+  {
+   "asset": "video/modera-film.mp4",
+   "subject": "Homepage hero film (18 s): Chania harbour aerial, cliff villa with pool, Modera site, Venetian lighthouse, excavation above the sea",
+   "sources": [
+    "C-videos: aerial-view-of-chania-old-venetian-port (C10, C11)",
+    "C-videos: 29403040-…mp4 (C2, villa)",
+    "A-whatsapp: IMG_1087.MOV, IMG_1095.MOV (site)"
+   ],
+   "usage": [
+    "/ (hero)"
+   ]
+  },
+  {
+   "asset": "video/site-works.mp4",
+   "subject": "“On site” section: excavator working above the sea, Crete",
+   "sources": [
+    "A-whatsapp: IMG_1087.MOV"
+   ],
+   "usage": [
+    "/ (film section)"
+   ]
+  },
+  {
+   "asset": "img/team/sivan.webp",
+   "subject": "Sivan Menahem — executive portrait (AI-generated series)",
+   "sources": [
+    "B-ai-renders: hf_…png (B29)"
+   ],
+   "usage": [
+    "/team/"
+   ]
+  }
+ ],
+ "drive_folders": [
+  {
+   "folder": "A — WhatsApp site photos & videos (1JKHIkoxHzXCvoTDznr9hloAeAEk_rSGj)",
+   "contents": "Real Modera construction site in Crete: excavation, earthworks, piling rig, rebar cages, crew, Sivan on site; 4 site videos (vertical 4K).",
+   "count": 55
+  },
+  {
+   "folder": "B — AI executive portraits of Sivan (1jyXsy7TeY10JNIloMvPcRkhKBy-bLqWF)",
+   "contents": "37 AI-generated studio/office portraits (PNG, up to 2048 px).",
+   "count": 37
+  },
+  {
+   "folder": "C — Promo / aerial videos (1Vg1T2v_dHL6ZIP5ey-T9pPLGwg4G_-12)",
+   "contents": "Aerial 4K footage of Chania harbour & lighthouse, Balos/Elafonisi beaches, luxury villas; some very large (up to 700 MB).",
+   "count": 34
+  },
+  {
+   "folder": "D — Crete media library (1KCXUanj_ZXknhdKV_3rwlxqb1hL-QyMt)",
+   "contents": "Subfolders: Heraklion, Plaka & Spinalonga, Sissi, Voulisma, Agios Nikolaos, City Center (Chania) incl. Chania building project, King Solomon (renderings, site plans, Kalives land), Renderings (eco villas), General (professional Chania photography), Promo videos, Sivan photos (212).",
+   "count": 679
+  }
+ ]
+}

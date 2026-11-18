@@ -147,7 +147,7 @@ function client_email(array $r): array
         . button('https://wa.me/' . digits(SITE_PHONE), 'WhatsApp', true) . button('tel:' . SITE_PHONE, SITE_PHONE_DISPLAY, false)
         . '<p style="margin:22px 0 0;font-family:' . $b['serif'] . ';font-size:18px;color:' . $b['ink'] . ';">' . h($a['sign']) . '</p></td></tr>';
     $footer = h($a['privacy']) . ' <a href="' . SITE_URL . '/' . $lang . '/privacy/" style="color:' . $b['bronzeInk'] . ';">' . h($a['policy']) . '</a><br><br>'
-        . h($a['auto']) . '<br>Modera Group · 2 Plateia Eleftherias, 73132 Chania, Crete, Greece · VAT EL802555027';
+        . h($a['auto']) . '<br>Modera Group · 2 Plateia Eleftherias, 73132 Chania, Crete, Greece · VAT EL802555027 · G.E.MI. 178690758000';
     $text = $a['hello'] . ' ' . $r['name'] . ",\n\n" . $a['thanks'] . ' ' . $a['body'] . "\n\n" . $a['urgent'] . ' ' . SITE_PHONE_DISPLAY . "\n\n" . $a['sign'] . "\n\n—\n" . $a['privacy'] . ' ' . SITE_URL . '/' . $lang . "/privacy/\n";
     return [$a['subject'], shell($a['thanks'], $content, $footer), $text];
 }

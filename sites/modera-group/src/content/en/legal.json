@@ -1,15 +1,36 @@
 {
   "meta": {
-    "privacy": { "title": "Privacy Policy | Modera Group", "description": "How Modera Group collects, uses and protects personal data under the GDPR and the Israeli Privacy Protection Law — your rights and how to exercise them." },
-    "cookies": { "title": "Cookie Policy | Modera Group", "description": "Which cookies and browser storage modera-group.com uses, why, for how long — and how to change your choices at any time." },
-    "accessibility": { "title": "Accessibility Statement | Modera Group", "description": "Our commitment to digital accessibility: WCAG 2.1 AA, Israeli Standard SI 5568, the accessibility tools on this site and how to contact our accessibility coordinator." },
-    "terms": { "title": "Terms of Use & Legal Notice | Modera Group", "description": "Terms governing the use of modera-group.com, intellectual property, disclaimers and company information for Modera Group." }
+    "privacy": {
+      "title": "Privacy Policy | Modera Group",
+      "description": "How Modera Group collects, uses and protects personal data under the GDPR and the Israeli Privacy Protection Law — your rights and how to exercise them."
+    },
+    "cookies": {
+      "title": "Cookie Policy | Modera Group",
+      "description": "Which cookies and browser storage modera-group.com uses, why, for how long — and how to change your choices at any time."
+    },
+    "accessibility": {
+      "title": "Accessibility Statement | Modera Group",
+      "description": "Our commitment to digital accessibility: WCAG 2.1 AA, Israeli Standard SI 5568, the accessibility tools on this site and how to contact our accessibility coordinator."
+    },
+    "terms": {
+      "title": "Terms of Use & Legal Notice | Modera Group",
+      "description": "Terms governing the use of modera-group.com, intellectual property, disclaimers and company information for Modera Group."
+    }
   },
   "nav": {
-    "privacy": "Privacy policy", "cookies": "Cookie policy", "accessibility": "Accessibility", "terms": "Terms of use",
-    "cookieSettings": "Cookie settings", "legal": "Legal"
+    "privacy": "Privacy policy",
+    "cookies": "Cookie policy",
+    "accessibility": "Accessibility",
+    "terms": "Terms of use",
+    "cookieSettings": "Cookie settings",
+    "legal": "Legal"
   },
-  "common": { "lastUpdated": "Last updated", "onThisPage": "On this page", "contactTitle": "Questions about this page?", "contactText": "Write to us and a member of our team will reply within 30 days at the latest — usually much sooner." },
+  "common": {
+    "lastUpdated": "Last updated",
+    "onThisPage": "On this page",
+    "contactTitle": "Questions about this page?",
+    "contactText": "Write to us and a member of our team will reply within 30 days at the latest — usually much sooner."
+  },
   "consent": {
     "title": "Your privacy, your choice",
     "text": "We use only what is needed to run this website. With your permission we can also remember your language and load external content such as Google Maps. You can change your mind at any time.",
@@ -24,19 +45,40 @@
     "gpc": "Your browser sends a Global Privacy Control signal. We have treated it as a refusal of optional cookies.",
     "saved": "Your privacy choices have been saved.",
     "categories": {
-      "necessary": { "title": "Strictly necessary", "desc": "Remembers your privacy and accessibility choices and keeps the site secure. These cannot be switched off and contain no tracking." },
-      "preferences": { "title": "Preferences", "desc": "Remembers the language you chose, so the next visit opens in it." },
-      "media": { "title": "External media", "desc": "Loads content hosted by third parties, such as the Google Maps view of our office. Google may set its own cookies and receive your IP address." },
-      "analytics": { "title": "Statistics", "desc": "Anonymous visit statistics that help us improve the site. Not loaded unless you allow it." }
+      "necessary": {
+        "title": "Strictly necessary",
+        "desc": "Remembers your privacy and accessibility choices and keeps the site secure. These cannot be switched off and contain no tracking."
+      },
+      "preferences": {
+        "title": "Preferences",
+        "desc": "Remembers the language you chose, so the next visit opens in it."
+      },
+      "media": {
+        "title": "External media",
+        "desc": "Loads content hosted by third parties, such as the Google Maps view of our office. Google may set its own cookies and receive your IP address."
+      },
+      "analytics": {
+        "title": "Statistics",
+        "desc": "Anonymous visit statistics that help us improve the site. Not loaded unless you allow it."
+      }
     },
-    "map": { "title": "Map is not loaded", "text": "To protect your privacy, Google Maps is only loaded if you allow external media. Google may set cookies and receive your IP address.", "button": "Load the map", "open": "Open in Google Maps" }
+    "map": {
+      "title": "Map is not loaded",
+      "text": "To protect your privacy, Google Maps is only loaded if you allow external media. Google may set cookies and receive your IP address.",
+      "button": "Load the map",
+      "open": "Open in Google Maps"
+    }
   },
   "a11y": {
     "open": "Accessibility options",
     "title": "Accessibility",
     "text": "Adjust this website to your needs. Your settings are saved on this device only.",
     "textSize": "Text size",
-    "sizes": ["Default", "Large", "Extra large"],
+    "sizes": [
+      "Default",
+      "Large",
+      "Extra large"
+    ],
     "contrast": "High contrast",
     "motion": "Stop animations & video",
     "links": "Highlight links",
@@ -61,80 +103,195 @@
     "lead": "Your trust matters more than any project. This policy explains, in plain language, what personal data we collect, why, how long we keep it and the rights you have — under the EU General Data Protection Regulation (GDPR), Greek law and the Israeli Privacy Protection Law, 5741-1981, as amended (including Amendment 13).",
     "updated": "2026-11-17",
     "sections": [
-      { "id": "controller", "h": "1. Who is responsible for your data", "blocks": [
-        { "p": "The controller of personal data processed through modera-group.com is <strong>Modera Group</strong>, 2 Plateia Eleftherias, 73132 Chania, Crete, Greece, tax no. EL802555027 (“Modera”, “we”, “us”)." },
-        { "p": "For any privacy question or request, contact us at <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> or +30 698 392 4820. We are not required to appoint a Data Protection Officer; our management handles privacy matters directly." }
-      ]},
-      { "id": "summary", "h": "2. The short version", "blocks": [
-        { "ul": [
-          "We do not use advertising cookies, tracking pixels or third-party analytics.",
-          "We do not sell, rent or trade personal data — ever.",
-          "Our fonts and images are hosted on our own server, so simply visiting the site sends no data to Google or other third parties.",
-          "External content such as Google Maps loads only if you allow it.",
-          "Optional cookies are off until you switch them on, and we respect the Global Privacy Control signal.",
-          "Enquiry data is used only to answer you and is deleted after 24 months unless we work together."
-        ]}
-      ]},
-      { "id": "data", "h": "3. What data we collect", "blocks": [
-        { "p": "<strong>Information you give us.</strong> When you use the contact form, email, call or message us on WhatsApp: your name, email address, phone number, country of residence, details about your project (type, service, budget range, stage) and anything you choose to write in your message, together with the date and language of your enquiry and a record of the consent you gave." },
-        { "p": "<strong>Technical data.</strong> Like every website, our hosting server automatically records basic technical information when pages are requested: IP address, date and time, page requested, browser type and referring page. These server logs are used only for security and to keep the site running, and are deleted or rotated after a short period." },
-        { "p": "<strong>Data stored on your device.</strong> We store a small number of settings in your browser (your privacy choices, accessibility settings and — only with your permission — your language). Details are in our <a href=\"../cookies/\">cookie policy</a>." },
-        { "p": "We do not knowingly collect special categories of data (such as health, religion or political views) and ask you not to send them. Our website is not directed at children under 16 and we do not knowingly collect their data." }
-      ]},
-      { "id": "purposes", "h": "4. Why we use it and our legal basis", "blocks": [
-        { "table": { "head": ["Purpose", "Data", "Legal basis (GDPR)"], "rows": [
-          ["Answering your enquiry and preparing a proposal", "Contact and project details", "Steps at your request before entering into a contract (Art. 6(1)(b)) and your consent (Art. 6(1)(a))"],
-          ["Performing a contract with you", "Contact, project and billing details", "Performance of a contract (Art. 6(1)(b))"],
-          ["Sending occasional updates, only if you opted in", "Name and email", "Consent (Art. 6(1)(a)); in Israel, consent under section 30A of the Communications Law"],
-          ["Keeping the website secure and available", "Server logs", "Legitimate interests (Art. 6(1)(f))"],
-          ["Remembering your language; loading maps", "Browser storage, IP address (for Google Maps)", "Consent (Art. 6(1)(a)) and Article 4(5) of Greek Law 3471/2006 (ePrivacy)"],
-          ["Meeting legal, tax and accounting obligations", "Contract and invoicing records", "Legal obligation (Art. 6(1)(c))"],
-          ["Establishing or defending legal claims", "Relevant correspondence", "Legitimate interests (Art. 6(1)(f))"]
-        ]}},
-        { "p": "Under Israeli law, you are not legally required to provide any personal data. Providing it is voluntary — however, without your name and a way to contact you we cannot respond to your enquiry. We make no decisions about you based solely on automated processing, including profiling." }
-      ]},
-      { "id": "sharing", "h": "5. Who receives your data", "blocks": [
-        { "p": "Only people within Modera who need your data to help you can access it. We share data outside Modera only in these cases:" },
-        { "ul": [
-          "<strong>Hosting provider</strong> — our website, contact form and mailbox run on servers of our hosting provider, Jetserver, located in Israel, acting as our processor under a data-processing agreement.",
-          "<strong>Google</strong> — only if you choose to load the map, Google receives your IP address and may set cookies under its own privacy policy. Google LLC is certified under the EU–US Data Privacy Framework.",
-          "<strong>Professional advisers and partners</strong> — lawyers, accountants, engineers or our strategic partner Sivan Invest Group, only where needed for your project and with your knowledge.",
-          "<strong>Authorities</strong> — where we are legally required to, for example tax authorities or courts."
-        ]},
-        { "p": "We never sell personal data or share it for third-party advertising." }
-      ]},
-      { "id": "transfers", "h": "6. International transfers", "blocks": [
-        { "p": "Our hosting is located in Israel, which the European Commission recognises as providing an adequate level of data protection (adequacy decision 2011/61/EU, confirmed in 2024). Where data is transferred to other countries outside the European Economic Area, we rely on an adequacy decision or the European Commission’s Standard Contractual Clauses." }
-      ]},
-      { "id": "retention", "h": "7. How long we keep it", "blocks": [
-        { "ul": [
-          "Enquiries that do not lead to a contract: up to 24 months, then deleted.",
-          "Client and contract records: for the duration of the contract and afterwards for as long as Greek tax, accounting and construction law requires (generally up to 10 years).",
-          "Marketing consent: until you unsubscribe or withdraw consent.",
-          "Server logs: for a short period for security purposes, then deleted or rotated.",
-          "Privacy choices stored in your browser: 12 months, after which we ask again."
-        ]}
-      ]},
-      { "id": "rights", "h": "8. Your rights", "blocks": [
-        { "p": "Depending on the law that applies to you, you have the right to:" },
-        { "ul": [
-          "<strong>Access</strong> the personal data we hold about you and receive a copy;",
-          "<strong>Correct</strong> inaccurate or incomplete data;",
-          "<strong>Delete</strong> your data (“right to be forgotten”);",
-          "<strong>Restrict</strong> or <strong>object to</strong> certain processing, including direct marketing at any time;",
-          "<strong>Data portability</strong> — receive your data in a structured, machine-readable format;",
-          "<strong>Withdraw consent</strong> at any time, without affecting processing carried out before withdrawal — for cookies, use “Cookie settings” at the bottom of every page;",
-          "Under the Israeli Privacy Protection Law, to review information about you held in a database (section 13) and to request its correction or deletion (section 14)."
-        ]},
-        { "p": "To exercise any right, email <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>. We may ask you to confirm your identity. We reply within one month (extendable by two further months for complex requests, in which case we will tell you), and free of charge." },
-        { "p": "You also have the right to complain to a supervisory authority: in Greece, the <strong>Hellenic Data Protection Authority</strong> (www.dpa.gr); in Israel, the <strong>Privacy Protection Authority</strong> (www.gov.il/en/departments/the_privacy_protection_authority); or the authority in the EU country where you live or work. We would appreciate the chance to resolve any concern with you first." }
-      ]},
-      { "id": "security", "h": "9. How we protect your data", "blocks": [
-        { "p": "We use HTTPS encryption across the entire site, store enquiries outside the public web directory with restricted access, limit access to authorised staff, keep software up to date and protect forms against automated abuse. No system is completely secure; if a breach affecting your rights were to occur, we would notify the competent authority and, where required, you, within the time limits set by law." }
-      ]},
-      { "id": "changes", "h": "10. Changes to this policy", "blocks": [
-        { "p": "We may update this policy when our services or the law change. The date at the top shows the latest version. If changes are significant, we will ask for your consent again where required." }
-      ]}
+      {
+        "id": "controller",
+        "h": "1. Who is responsible for your data",
+        "blocks": [
+          {
+            "p": "The controller of personal data processed through modera-group.com is <strong>Modera Group</strong>, 2 Plateia Eleftherias, 73132 Chania, Crete, Greece, tax no. EL802555027 (“Modera”, “we”, “us”)."
+          },
+          {
+            "p": "For any privacy question or request, contact us at <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> or +30 698 392 4820. We are not required to appoint a Data Protection Officer; our management handles privacy matters directly."
+          }
+        ]
+      },
+      {
+        "id": "summary",
+        "h": "2. The short version",
+        "blocks": [
+          {
+            "ul": [
+              "We do not use advertising cookies, tracking pixels or third-party analytics.",
+              "We do not sell, rent or trade personal data — ever.",
+              "Our fonts and images are hosted on our own server, so simply visiting the site sends no data to Google or other third parties.",
+              "External content such as Google Maps loads only if you allow it.",
+              "Optional cookies are off until you switch them on, and we respect the Global Privacy Control signal.",
+              "Enquiry data is used only to answer you and is deleted after 24 months unless we work together."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "h": "3. What data we collect",
+        "blocks": [
+          {
+            "p": "<strong>Information you give us.</strong> When you use the contact form, email, call or message us on WhatsApp: your name, email address, phone number, country of residence, details about your project (type, service, budget range, stage) and anything you choose to write in your message, together with the date and language of your enquiry and a record of the consent you gave."
+          },
+          {
+            "p": "<strong>Technical data.</strong> Like every website, our hosting server automatically records basic technical information when pages are requested: IP address, date and time, page requested, browser type and referring page. These server logs are used only for security and to keep the site running, and are deleted or rotated after a short period."
+          },
+          {
+            "p": "<strong>Data stored on your device.</strong> We store a small number of settings in your browser (your privacy choices, accessibility settings and — only with your permission — your language). Details are in our <a href=\"../cookies/\">cookie policy</a>."
+          },
+          {
+            "p": "We do not knowingly collect special categories of data (such as health, religion or political views) and ask you not to send them. Our website is not directed at children under 16 and we do not knowingly collect their data."
+          }
+        ]
+      },
+      {
+        "id": "purposes",
+        "h": "4. Why we use it and our legal basis",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Purpose",
+                "Data",
+                "Legal basis (GDPR)"
+              ],
+              "rows": [
+                [
+                  "Answering your enquiry and preparing a proposal",
+                  "Contact and project details",
+                  "Steps at your request before entering into a contract (Art. 6(1)(b)) and your consent (Art. 6(1)(a))"
+                ],
+                [
+                  "Performing a contract with you",
+                  "Contact, project and billing details",
+                  "Performance of a contract (Art. 6(1)(b))"
+                ],
+                [
+                  "Sending occasional updates, only if you opted in",
+                  "Name and email",
+                  "Consent (Art. 6(1)(a)); in Israel, consent under section 30A of the Communications Law"
+                ],
+                [
+                  "Keeping the website secure and available",
+                  "Server logs",
+                  "Legitimate interests (Art. 6(1)(f))"
+                ],
+                [
+                  "Remembering your language; loading maps",
+                  "Browser storage, IP address (for Google Maps)",
+                  "Consent (Art. 6(1)(a)) and Article 4(5) of Greek Law 3471/2006 (ePrivacy)"
+                ],
+                [
+                  "Meeting legal, tax and accounting obligations",
+                  "Contract and invoicing records",
+                  "Legal obligation (Art. 6(1)(c))"
+                ],
+                [
+                  "Establishing or defending legal claims",
+                  "Relevant correspondence",
+                  "Legitimate interests (Art. 6(1)(f))"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Under Israeli law, you are not legally required to provide any personal data. Providing it is voluntary — however, without your name and a way to contact you we cannot respond to your enquiry. We make no decisions about you based solely on automated processing, including profiling."
+          }
+        ]
+      },
+      {
+        "id": "sharing",
+        "h": "5. Who receives your data",
+        "blocks": [
+          {
+            "p": "Only people within Modera who need your data to help you can access it. We share data outside Modera only in these cases:"
+          },
+          {
+            "ul": [
+              "<strong>Hosting provider</strong> — our website, contact form and mailbox run on servers of our hosting provider, Jetserver, located in Israel, acting as our processor under a data-processing agreement.",
+              "<strong>Google</strong> — only if you choose to load the map, Google receives your IP address and may set cookies under its own privacy policy. Google LLC is certified under the EU–US Data Privacy Framework.",
+              "<strong>Professional advisers and partners</strong> — lawyers, accountants, engineers or our strategic partner Sivan Invest Group, only where needed for your project and with your knowledge.",
+              "<strong>Authorities</strong> — where we are legally required to, for example tax authorities or courts."
+            ]
+          },
+          {
+            "p": "We never sell personal data or share it for third-party advertising."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "h": "6. International transfers",
+        "blocks": [
+          {
+            "p": "Our hosting is located in Israel, which the European Commission recognises as providing an adequate level of data protection (adequacy decision 2011/61/EU, confirmed in 2024). Where data is transferred to other countries outside the European Economic Area, we rely on an adequacy decision or the European Commission’s Standard Contractual Clauses."
+          }
+        ]
+      },
+      {
+        "id": "retention",
+        "h": "7. How long we keep it",
+        "blocks": [
+          {
+            "ul": [
+              "Enquiries that do not lead to a contract: up to 24 months, then deleted.",
+              "Client and contract records: for the duration of the contract and afterwards for as long as Greek tax, accounting and construction law requires (generally up to 10 years).",
+              "Marketing consent: until you unsubscribe or withdraw consent.",
+              "Server logs: for a short period for security purposes, then deleted or rotated.",
+              "Privacy choices stored in your browser: 12 months, after which we ask again."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "h": "8. Your rights",
+        "blocks": [
+          {
+            "p": "Depending on the law that applies to you, you have the right to:"
+          },
+          {
+            "ul": [
+              "<strong>Access</strong> the personal data we hold about you and receive a copy;",
+              "<strong>Correct</strong> inaccurate or incomplete data;",
+              "<strong>Delete</strong> your data (“right to be forgotten”);",
+              "<strong>Restrict</strong> or <strong>object to</strong> certain processing, including direct marketing at any time;",
+              "<strong>Data portability</strong> — receive your data in a structured, machine-readable format;",
+              "<strong>Withdraw consent</strong> at any time, without affecting processing carried out before withdrawal — for cookies, use “Cookie settings” at the bottom of every page;",
+              "Under the Israeli Privacy Protection Law, to review information about you held in a database (section 13) and to request its correction or deletion (section 14)."
+            ]
+          },
+          {
+            "p": "To exercise any right, email <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>. We may ask you to confirm your identity. We reply within one month (extendable by two further months for complex requests, in which case we will tell you), and free of charge."
+          },
+          {
+            "p": "You also have the right to complain to a supervisory authority: in Greece, the <strong>Hellenic Data Protection Authority</strong> (www.dpa.gr); in Israel, the <strong>Privacy Protection Authority</strong> (www.gov.il/en/departments/the_privacy_protection_authority); or the authority in the EU country where you live or work. We would appreciate the chance to resolve any concern with you first."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "h": "9. How we protect your data",
+        "blocks": [
+          {
+            "p": "We use HTTPS encryption across the entire site, store enquiries outside the public web directory with restricted access, limit access to authorised staff, keep software up to date and protect forms against automated abuse. No system is completely secure; if a breach affecting your rights were to occur, we would notify the competent authority and, where required, you, within the time limits set by law."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "10. Changes to this policy",
+        "blocks": [
+          {
+            "p": "We may update this policy when our services or the law change. The date at the top shows the latest version. If changes are significant, we will ask for your consent again where required."
+          }
+        ]
+      }
     ]
   },
   "cookies": {
@@ -143,22 +300,77 @@
     "updated": "2026-11-17",
     "button": "Open cookie settings",
     "sections": [
-      { "id": "what", "h": "What are cookies and local storage?", "blocks": [
-        { "p": "Cookies and local storage are small pieces of information that a website saves in your browser. Some are essential for a site to work; others remember preferences or enable third-party content. Under the GDPR and the ePrivacy rules (Greek Law 3471/2006), anything that is not strictly necessary requires your prior consent." }
-      ]},
-      { "id": "list", "h": "What we use", "blocks": [
-        { "table": { "head": ["Name", "Category", "Provider", "Purpose", "Duration"], "rows": [
-          ["modera-consent", "Strictly necessary", "Modera (this site)", "Stores your privacy choices so we do not ask on every page", "12 months"],
-          ["modera-a11y", "Strictly necessary", "Modera (this site)", "Stores the accessibility settings you selected", "Until you reset them"],
-          ["modera-lang", "Preferences", "Modera (this site)", "Remembers the language you selected", "12 months"],
-          ["Google Maps cookies (e.g. NID, AEC)", "External media", "Google", "Set by Google only after you load the map; used by Google as described in its privacy policy", "Up to 13 months (set by Google)"]
-        ]}},
-        { "p": "Our own items are stored as local storage in your browser, are never sent to our server and contain no identifiers. We do not currently use any statistics or advertising tools. If we introduce statistics in the future, they will remain off until you allow them." }
-      ]},
-      { "id": "manage", "h": "How to change your choices", "blocks": [
-        { "p": "Use <strong>Cookie settings</strong> at the bottom of every page to review or withdraw your consent at any time. When you withdraw consent, we delete the related items from your browser immediately. You can also delete all site data through your browser settings." },
-        { "p": "We honour the <strong>Global Privacy Control (GPC)</strong> signal: if your browser sends it, optional categories stay off." }
-      ]}
+      {
+        "id": "what",
+        "h": "What are cookies and local storage?",
+        "blocks": [
+          {
+            "p": "Cookies and local storage are small pieces of information that a website saves in your browser. Some are essential for a site to work; others remember preferences or enable third-party content. Under the GDPR and the ePrivacy rules (Greek Law 3471/2006), anything that is not strictly necessary requires your prior consent."
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "h": "What we use",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Name",
+                "Category",
+                "Provider",
+                "Purpose",
+                "Duration"
+              ],
+              "rows": [
+                [
+                  "modera-consent",
+                  "Strictly necessary",
+                  "Modera (this site)",
+                  "Stores your privacy choices so we do not ask on every page",
+                  "12 months"
+                ],
+                [
+                  "modera-a11y",
+                  "Strictly necessary",
+                  "Modera (this site)",
+                  "Stores the accessibility settings you selected",
+                  "Until you reset them"
+                ],
+                [
+                  "modera-lang",
+                  "Preferences",
+                  "Modera (this site)",
+                  "Remembers the language you selected",
+                  "12 months"
+                ],
+                [
+                  "Google Maps cookies (e.g. NID, AEC)",
+                  "External media",
+                  "Google",
+                  "Set by Google only after you load the map; used by Google as described in its privacy policy",
+                  "Up to 13 months (set by Google)"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Our own items are stored as local storage in your browser, are never sent to our server and contain no identifiers. We do not currently use any statistics or advertising tools. If we introduce statistics in the future, they will remain off until you allow them."
+          }
+        ]
+      },
+      {
+        "id": "manage",
+        "h": "How to change your choices",
+        "blocks": [
+          {
+            "p": "Use <strong>Cookie settings</strong> at the bottom of every page to review or withdraw your consent at any time. When you withdraw consent, we delete the related items from your browser immediately. You can also delete all site data through your browser settings."
+          },
+          {
+            "p": "We honour the <strong>Global Privacy Control (GPC)</strong> signal: if your browser sends it, optional categories stay off."
+          }
+        ]
+      }
     ]
   },
   "accessibility": {
@@ -166,39 +378,73 @@
     "lead": "We want everyone — including people with disabilities and older users — to be able to use our website easily and independently. Accessibility is part of how we design and build, not an afterthought.",
     "updated": "2026-11-17",
     "sections": [
-      { "id": "standard", "h": "Our accessibility standard", "blocks": [
-        { "p": "This website has been designed and developed to conform to the <strong>Web Content Accessibility Guidelines (WCAG) 2.1, level AA</strong>, which also covers the requirements of <strong>Israeli Standard SI 5568</strong> under the Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations, 5773-2013, and the European standard <strong>EN 301 549</strong>." }
-      ]},
-      { "id": "measures", "h": "What we have done", "blocks": [
-        { "ul": [
-          "Semantic structure with clear headings, landmarks and a “Skip to content” link;",
-          "Full keyboard navigation with a clearly visible focus indicator;",
-          "Text alternatives for meaningful images; decorative images are hidden from screen readers;",
-          "Colour contrast that meets or exceeds AA ratios, and information never conveyed by colour alone;",
-          "Responsive layout that works at 200% zoom and on any screen size;",
-          "Forms with visible labels, clear error messages and status announcements for screen readers;",
-          "Videos have no sound, can be paused, and stop automatically when “reduce motion” is enabled;",
-          "Animations respect your device’s “reduce motion” setting;",
-          "Charts include their values as text;",
-          "Each language version is correctly marked so screen readers pronounce it properly."
-        ]}
-      ]},
-      { "id": "tools", "h": "Accessibility tools on this site", "blocks": [
-        { "p": "Select the accessibility button (the figure icon at the bottom of the screen) to open the accessibility panel. It lets you enlarge text, switch to high contrast, stop animations and videos, highlight links, use a more readable font, increase text spacing and enlarge the cursor. Your settings are saved only on your device." }
-      ]},
-      { "id": "limits", "h": "Known limitations", "blocks": [
-        { "p": "We test regularly with keyboard, screen readers (VoiceOver, NVDA) and automated tools. Some third-party content, such as the embedded Google Map, is outside our full control; our address and directions are always available as text on the contact page. If you find any barrier, please tell us — we will fix it." }
-      ]},
-      { "id": "contact", "h": "Accessibility coordinator", "blocks": [
-        { "p": "If you have difficulty using any part of the website, or would like information in an alternative format, contact our accessibility coordinator:" },
-        { "ul": [
-          "Accessibility coordinator, Modera Group",
-          "Email: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>",
-          "Phone / WhatsApp: +30 698 392 4820",
-          "Address: 2 Plateia Eleftherias, 73132 Chania, Crete, Greece"
-        ]},
-        { "p": "Please describe the problem and the page concerned. We aim to respond within 5 business days. Our office services can also be provided by phone, email or WhatsApp; for information about physical access to our office, please contact us before your visit." }
-      ]}
+      {
+        "id": "standard",
+        "h": "Our accessibility standard",
+        "blocks": [
+          {
+            "p": "This website has been designed and developed to conform to the <strong>Web Content Accessibility Guidelines (WCAG) 2.1, level AA</strong>, which also covers the requirements of <strong>Israeli Standard SI 5568</strong> under the Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations, 5773-2013, and the European standard <strong>EN 301 549</strong>."
+          }
+        ]
+      },
+      {
+        "id": "measures",
+        "h": "What we have done",
+        "blocks": [
+          {
+            "ul": [
+              "Semantic structure with clear headings, landmarks and a “Skip to content” link;",
+              "Full keyboard navigation with a clearly visible focus indicator;",
+              "Text alternatives for meaningful images; decorative images are hidden from screen readers;",
+              "Colour contrast that meets or exceeds AA ratios, and information never conveyed by colour alone;",
+              "Responsive layout that works at 200% zoom and on any screen size;",
+              "Forms with visible labels, clear error messages and status announcements for screen readers;",
+              "Videos have no sound, can be paused, and stop automatically when “reduce motion” is enabled;",
+              "Animations respect your device’s “reduce motion” setting;",
+              "Charts include their values as text;",
+              "Each language version is correctly marked so screen readers pronounce it properly."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "h": "Accessibility tools on this site",
+        "blocks": [
+          {
+            "p": "Select the accessibility button (the figure icon at the bottom of the screen) to open the accessibility panel. It lets you enlarge text, switch to high contrast, stop animations and videos, highlight links, use a more readable font, increase text spacing and enlarge the cursor. Your settings are saved only on your device."
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "h": "Known limitations",
+        "blocks": [
+          {
+            "p": "We test regularly with keyboard, screen readers (VoiceOver, NVDA) and automated tools. Some third-party content, such as the embedded Google Map, is outside our full control; our address and directions are always available as text on the contact page. If you find any barrier, please tell us — we will fix it."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "h": "Accessibility coordinator",
+        "blocks": [
+          {
+            "p": "If you have difficulty using any part of the website, or would like information in an alternative format, contact our accessibility coordinator:"
+          },
+          {
+            "ul": [
+              "Accessibility coordinator, Modera Group",
+              "Email: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>",
+              "Phone / WhatsApp: +30 698 392 4820",
+              "Address: 2 Plateia Eleftherias, 73132 Chania, Crete, Greece"
+            ]
+          },
+          {
+            "p": "Please describe the problem and the page concerned. We aim to respond within 5 business days. Our office services can also be provided by phone, email or WhatsApp; for information about physical access to our office, please contact us before your visit."
+          }
+        ]
+      }
     ]
   },
   "terms": {
@@ -206,34 +452,81 @@
     "lead": "These terms govern your use of modera-group.com. By using the website you accept them. Please read them together with our privacy and cookie policies.",
     "updated": "2026-11-17",
     "sections": [
-      { "id": "operator", "h": "1. Website operator", "blocks": [
-        { "ul": [
-          "Modera Group",
-          "Registered office: 2 Plateia Eleftherias, 73132 Chania, Crete, Greece",
-          "Tax no. (VAT): EL802555027",
-          "Email: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> · Phone: +30 698 392 4820"
-        ]}
-      ]},
-      { "id": "content", "h": "2. Information on this website", "blocks": [
-        { "p": "The content of this website — including articles, cost ranges, timelines, charts and regulatory summaries — is general information. It does not constitute legal, tax, financial or investment advice, an offer or a binding quotation. Figures are indicative; every project is assessed and priced individually. Laws and regulations change; always obtain professional advice for your specific situation." },
-        { "p": "Project descriptions illustrate the type and scope of work we undertake. Nothing on this website is an offer or solicitation to invest; investment opportunities, where available through our partners, are offered only to eligible persons through the appropriate documentation." }
-      ]},
-      { "id": "ip", "h": "3. Intellectual property", "blocks": [
-        { "p": "The Modera name and logo, texts, design and code of this website belong to Modera Group or its licensors. Photographs and videos from third parties are used under the licences listed on our image credits page. You may view and share pages for personal, non-commercial purposes; any other reproduction requires our written permission." }
-      ]},
-      { "id": "use", "h": "4. Acceptable use", "blocks": [
-        { "p": "You agree not to misuse the website — for example by attempting unauthorised access, introducing malicious code, scraping it at scale or submitting false or unlawful content through our forms." }
-      ]},
-      { "id": "liability", "h": "5. Liability", "blocks": [
-        { "p": "We take care to keep this website accurate and available, but we do not guarantee that it is error-free or uninterrupted. To the extent permitted by law, we are not liable for loss arising from reliance on general information on the website. Nothing in these terms limits liability that cannot be limited by law, or your statutory rights as a consumer." },
-        { "p": "Links to external websites are provided for convenience; we are not responsible for their content or privacy practices." }
-      ]},
-      { "id": "law", "h": "6. Governing law", "blocks": [
-        { "p": "These terms are governed by Greek law, and the courts of Chania have jurisdiction, without prejudice to any mandatory consumer protection rules of your country of residence. Contracts for our services are governed by their own terms." }
-      ]},
-      { "id": "changes", "h": "7. Changes", "blocks": [
-        { "p": "We may update these terms from time to time. The version published on this page applies from the date shown above." }
-      ]}
+      {
+        "id": "operator",
+        "h": "1. Website operator",
+        "blocks": [
+          {
+            "ul": [
+              "Modera Group",
+              "Registered office: 2 Plateia Eleftherias, 73132 Chania, Crete, Greece",
+              "Tax no. (VAT): EL802555027",
+              "General Commercial Registry (G.E.MI.) no.: 178690758000",
+              "Email: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> · Phone: +30 698 392 4820"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "h": "2. Information on this website",
+        "blocks": [
+          {
+            "p": "The content of this website — including articles, cost ranges, timelines, charts and regulatory summaries — is general information. It does not constitute legal, tax, financial or investment advice, an offer or a binding quotation. Figures are indicative; every project is assessed and priced individually. Laws and regulations change; always obtain professional advice for your specific situation."
+          },
+          {
+            "p": "Project descriptions illustrate the type and scope of work we undertake. Nothing on this website is an offer or solicitation to invest; investment opportunities, where available through our partners, are offered only to eligible persons through the appropriate documentation."
+          }
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "3. Intellectual property",
+        "blocks": [
+          {
+            "p": "The Modera name and logo, texts, design and code of this website belong to Modera Group or its licensors. Photographs and videos from third parties are used under the licences listed on our image credits page. You may view and share pages for personal, non-commercial purposes; any other reproduction requires our written permission."
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "h": "4. Acceptable use",
+        "blocks": [
+          {
+            "p": "You agree not to misuse the website — for example by attempting unauthorised access, introducing malicious code, scraping it at scale or submitting false or unlawful content through our forms."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "5. Liability",
+        "blocks": [
+          {
+            "p": "We take care to keep this website accurate and available, but we do not guarantee that it is error-free or uninterrupted. To the extent permitted by law, we are not liable for loss arising from reliance on general information on the website. Nothing in these terms limits liability that cannot be limited by law, or your statutory rights as a consumer."
+          },
+          {
+            "p": "Links to external websites are provided for convenience; we are not responsible for their content or privacy practices."
+          }
+        ]
+      },
+      {
+        "id": "law",
+        "h": "6. Governing law",
+        "blocks": [
+          {
+            "p": "These terms are governed by Greek law, and the courts of Chania have jurisdiction, without prejudice to any mandatory consumer protection rules of your country of residence. Contracts for our services are governed by their own terms."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "7. Changes",
+        "blocks": [
+          {
+            "p": "We may update these terms from time to time. The version published on this page applies from the date shown above."
+          }
+        ]
+      }
     ]
   }
 }

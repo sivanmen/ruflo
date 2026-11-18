@@ -11,6 +11,7 @@ export const SITE = {
   phoneDisplay: '+30 698 392 4820',
   whatsapp: 'https://wa.me/306983924820',
   taxNo: 'EL802555027',
+  gemi: '178690758000',
   address: {
     street: '2 Plateia Eleftherias',
     postalCode: '73132',
@@ -67,23 +68,24 @@ export const NAV = ['services', 'sectors', 'projects', 'about', 'team', 'insight
 /** Imagery per section (file stem in src/assets/img, available at -1600 and -800). */
 export const IMAGES = {
   services: {
-    construction: 'steel-crew',
-    development: 'plot-aerial',
-    'contracting-support': 'site-engineer',
-    'engineering-management': 'blueprint',
-    regulatory: 'drafting',
+    construction: 'site-piling-rig',
+    development: 'ks-resort-aerial',
+    'contracting-support': 'site-team',
+    'engineering-management': 'site-pile-cage',
+    regulatory: 'ks-site-plan',
   },
   sectors: {
-    residential: 'stone-villa',
-    commercial: 'office-facade',
-    hospitality: 'resort-sunset',
-    infrastructure: 'road-paving',
+    residential: 'chania-residence-dusk',
+    commercial: 'chania-street-building',
+    hospitality: 'ks-resort-pool',
+    infrastructure: 'site-earthworks-sea',
   },
-  process: ['plot-aerial', 'blueprint', 'drafting', 'slab-rebar', 'interior-living'],
-  gallery: ['hero-villa', 'resort-terraces', 'kitchen-island', 'stone-mansion', 'crane', 'interior-bright', 'cretan-bay', 'modern-mountain'],
+  process: ['ks-land-sea', 'ks-site-plan-2', 'eco-villas-model', 'site-rebar-cage', 'ks-resort-pool-2'],
+  gallery: ['ks-resort-pool', 'chania-alley-flowers', 'eco-villas-rock', 'site-piling-dusk', 'chania-residence-sunset', 'crete-harbour-boats', 'eco-villas-aerial', 'chania-venetian-walls'],
   pageHero: {
-    services: 'crane', sectors: 'resort-pool', projects: 'infinity-pool', about: 'chania-harbour',
-    team: 'survey', insights: 'olive-valley', contact: 'cretan-sea', credits: 'olive-tree', privacy: 'olive-tree', cookies: 'olive-valley', accessibility: 'cretan-bay', terms: 'stone-mansion',
+    services: 'site-earthworks-road', sectors: 'eco-villas-hillside', projects: 'ks-aerial-render', about: 'chania-harbour-dusk',
+    team: 'chania-sunset', insights: 'chania-harbour-aerial', contact: 'chania-lighthouse-night', credits: 'chania-alley', privacy: 'chania-old-town-sea',
+    cookies: 'chania-waterfront', accessibility: 'chania-harbour-day', terms: 'chania-venetian-walls',
   },
 };
 

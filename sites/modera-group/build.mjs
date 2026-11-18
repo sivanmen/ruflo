@@ -7,7 +7,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, cpSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { SITE, LANGS, PAGES } from './src/config/site.mjs';
+import { SITE, LANGS, PAGES, IMAGES } from './src/config/site.mjs';
 import { href, abs, plain } from './src/templates/util.mjs';
 import { page, breadcrumbs } from './src/templates/layout.mjs';
 import { homeBody, faqLd } from './src/templates/home.mjs';
@@ -62,13 +62,13 @@ for (const L of LANGS) {
     if (trail.length) graph.push(crumbs.ld);
 
     let body;
-    let image = 'hero-villa';
+    let image = IMAGES.pageHero[P.key] || 'ks-resort-pool';
     switch (P.key) {
       case 'home': body = homeBody(t, lang, articles, Lx); graph.push(faqLd(t.home.faq)); break;
-      case 'services': body = pageHero(t.services.hero, 'services', crumbs.html) + servicesBody(t, lang); graph.push(servicesLd(t, lang)); image = 'crane'; break;
-      case 'sectors': body = pageHero(t.sectors.hero, 'sectors', crumbs.html) + sectorsBody(t, lang); image = 'resort-pool'; break;
-      case 'projects': body = pageHero(t.projects.hero, 'projects', crumbs.html) + projectsBody(t, lang); image = 'infinity-pool'; break;
-      case 'about': body = pageHero(t.about.hero, 'about', crumbs.html) + aboutBody(t, lang); image = 'chania-harbour'; break;
+      case 'services': body = pageHero(t.services.hero, 'services', crumbs.html) + servicesBody(t, lang); graph.push(servicesLd(t, lang)); break;
+      case 'sectors': body = pageHero(t.sectors.hero, 'sectors', crumbs.html) + sectorsBody(t, lang); break;
+      case 'projects': body = pageHero(t.projects.hero, 'projects', crumbs.html) + projectsBody(t, lang); break;
+      case 'about': body = pageHero(t.about.hero, 'about', crumbs.html) + aboutBody(t, lang); break;
       case 'team': body = pageHero(t.team.hero, 'team', crumbs.html) + teamBody(t, lang, hasPhoto); graph.push(...teamLd(t)); break;
       case 'insights': body = pageHero(t.insights.hero, 'insights', crumbs.html) + insightsIndex(t, lang, articles); break;
       case 'contact': body = pageHero(t.contact.hero, 'contact', crumbs.html) + contactBody(t, Lx, lang, en.site.contact.form); graph[0]['@type'] = 'ContactPage'; break;

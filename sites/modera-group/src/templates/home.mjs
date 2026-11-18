@@ -50,8 +50,8 @@ function intro(t) {
   return `<section class="section intro">
   <div class="container split">
     <div class="intro-visual" aria-hidden="true">
-      <div class="layer layer-back" data-speed="0.08">${img('stone-mansion', '', { sizes: '40vw' })}</div>
-      <div class="layer layer-front" data-speed="-0.06">${img('interior-living', '', { sizes: '30vw' })}</div>
+      <div class="layer layer-back" data-speed="0.08">${img('chania-alley-flowers', '', { sizes: '40vw' })}</div>
+      <div class="layer layer-front" data-speed="-0.06">${img('site-piling-rig-2', '', { sizes: '30vw' })}</div>
       <div class="layer-tag glass">${esc(t.home.stats[1].value)}${esc(t.home.stats[1].suffix)} <small>${esc(t.home.stats[1].label)}</small></div>
     </div>
     <div class="intro-copy">
@@ -128,8 +128,8 @@ function process(t) {
 function film(t, L) {
   const s = t.home.film;
   return `<section class="film" data-film>
-  <video class="film-media" muted loop playsinline preload="none" poster="/assets/video/excavation-poster.webp" data-autoplay aria-hidden="true">
-    <source src="/assets/video/excavation.mp4" type="video/mp4">
+  <video class="film-media" muted loop playsinline preload="none" poster="/assets/video/site-works-poster.webp" data-autoplay aria-hidden="true">
+    <source src="/assets/video/site-works.mp4" type="video/mp4">
   </video>
   ${videoToggle(L)}
   <div class="film-shade"></div>
@@ -172,7 +172,7 @@ function partners(t, lang) {
   const s = t.home.partners;
   return `<section class="section partners">
   <div class="container partners-panel">
-    <div class="partners-bg" aria-hidden="true" data-speed="0.1">${img('cretan-bay', '', { sizes: '100vw' })}</div>
+    <div class="partners-bg" aria-hidden="true" data-speed="0.1">${img('crete-harbour-night', '', { sizes: '100vw' })}</div>
     <div class="partners-copy">
       ${eyebrow(s.eyebrow)}
       <h2 class="h2 reveal">${s.title}</h2>
@@ -206,7 +206,7 @@ export function ctaBand(t, lang) {
   const s = t.home.cta;
   return `<section class="cta-band">
   <div class="container cta-inner">
-    <div class="cta-bg" aria-hidden="true">${img('infinity-pool', '', { sizes: '100vw' })}</div>
+    <div class="cta-bg" aria-hidden="true">${img('ks-resort-pool', '', { sizes: '100vw' })}</div>
     <div class="cta-copy glass">
       <h2 class="h2">${esc(s.title)}</h2>
       <p>${esc(s.text)}</p>

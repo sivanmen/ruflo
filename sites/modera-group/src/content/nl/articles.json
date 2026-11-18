@@ -4,30 +4,91 @@
     "category": "permits",
     "date": "2026-10-28",
     "readTime": 8,
-    "image": "blueprint",
+    "image": "ks-site-plan",
     "author": "Maria Daskalaki",
     "title": "Bouwvergunning op Kreta aanvragen: de complete gids voor 2026",
     "description": "Stap voor stap door de Griekse bouwvergunning op Kreta: documenten, instanties, doorlooptijden en de meest voorkomende oorzaken van vertraging.",
     "body": [
-      { "t": "p", "c": "Elk geslaagd bouwproject op Kreta begint lang voordat de eerste graafmachine arriveert. In Griekenland worden bouwvergunningen elektronisch verleend via het platform <strong>e-Adeies</strong>, binnen het bouwtoezichtkader van Wet 4495/2017. Het systeem is veel transparanter dan tien jaar geleden — maar het dossier dat u indient, is nog altijd afhankelijk van input van meerdere instanties, en daar ontstaan de meeste vertragingen." },
-      { "t": "h2", "c": "Stap 1: Stel vast wat het perceel toelaat" },
-      { "t": "p", "c": "Bepaal vóór elk ontwerpwerk welke regels op de grond van toepassing zijn: ligt het perceel binnen of buiten een bestemmingsplan, wat zijn de bebouwingscoëfficiënt, maximale bebouwingsgraad en hoogte, de rooilijnen en de minimale perceelgrootte voor bouwen buiten de bebouwde kom? Vooral de regels buiten het bestemmingsplan zijn de afgelopen jaren herhaaldelijk aangescherpt; aannames op basis van het huis van de buren zijn dus niet betrouwbaar." },
-      { "t": "ul", "c": ["Topografische opmeting gekoppeld aan het nationale referentienet (HEPOS)", "Controle van eigendomstitel en inschrijving in het kadaster (Ktimatologio)", "Bestemming, coëfficiënten en eventuele bijzondere voorschriften", "Wegfront en wettelijke ontsluiting"] },
-      { "t": "h2", "c": "Stap 2: Regel de bijzondere instanties" },
-      { "t": "p", "c": "Afhankelijk van de locatie kan het dossier input nodig hebben van de <strong>Ephorate of Antiquities</strong> (archeologische zones zijn op Kreta heel gebruikelijk), de bosdienst (om te bevestigen dat het perceel op de boskaarten niet als bos is aangemerkt), de kustautoriteiten nabij de vloedlijn en de milieudiensten in of nabij Natura 2000-gebieden. Deze goedkeuringen duren vaak langer dan de vergunning zelf; daarom starten wij ze parallel aan het ontwerp." },
-      { "t": "h2", "c": "Stap 3: Stel het vergunningsdossier op en dien het in" },
-      { "t": "p", "c": "Het dossier bevat bouwkundige tekeningen, constructieve en installatietechnische berekeningen, een energieprestatiestudie volgens KENAK, brandveiligheidsmaatregelen waar van toepassing, begrotingen en de eigendomsdocumenten van de eigenaar. Bevoegde ingenieurs uploaden het naar e-Adeies, waarna de gemeentelijke bouwdienst (YDOM) de beoordeling uitvoert." },
-      { "t": "chart", "c": "timeline" },
-      { "t": "h2", "c": "Hoe lang duurt het?" },
-      { "t": "p", "c": "Voor een eenvoudig woonproject op een probleemloos perceel duurt de vergunningsfase doorgaans drie tot zes maanden vanaf een volledig dossier. Is archeologische of bosbouwkundige input nodig, reken dan op meer tijd. Bij hotelprojecten komen daar nog de stappen voor de toerismevergunning bij." },
-      { "t": "h2", "c": "De meest voorkomende oorzaken van vertraging" },
-      { "t": "ul", "c": ["Afwijkingen in eigendomstitel of perceelgrenzen die laat worden ontdekt", "Ontbrekende of onvolledige goedkeuringen van bijzondere instanties", "Ontwerpwijzigingen na indiening", "Onduidelijke ontsluiting of status van het wegfront"] },
-      { "t": "quote", "c": "De snelste vergunning is die waarbij de problemen al waren opgelost voordat het dossier werd ingediend." },
-      { "t": "p", "c": "Bij Modera Group stelt ons eigen vergunningenteam elke stap op en bewaakt die, zodat eigenaren — zeker wie in het buitenland woont — nooit zelf achter een instantie aan hoeven." }
+      {
+        "t": "p",
+        "c": "Elk geslaagd bouwproject op Kreta begint lang voordat de eerste graafmachine arriveert. In Griekenland worden bouwvergunningen elektronisch verleend via het platform <strong>e-Adeies</strong>, binnen het bouwtoezichtkader van Wet 4495/2017. Het systeem is veel transparanter dan tien jaar geleden — maar het dossier dat u indient, is nog altijd afhankelijk van input van meerdere instanties, en daar ontstaan de meeste vertragingen."
+      },
+      {
+        "t": "h2",
+        "c": "Stap 1: Stel vast wat het perceel toelaat"
+      },
+      {
+        "t": "p",
+        "c": "Bepaal vóór elk ontwerpwerk welke regels op de grond van toepassing zijn: ligt het perceel binnen of buiten een bestemmingsplan, wat zijn de bebouwingscoëfficiënt, maximale bebouwingsgraad en hoogte, de rooilijnen en de minimale perceelgrootte voor bouwen buiten de bebouwde kom? Vooral de regels buiten het bestemmingsplan zijn de afgelopen jaren herhaaldelijk aangescherpt; aannames op basis van het huis van de buren zijn dus niet betrouwbaar."
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Topografische opmeting gekoppeld aan het nationale referentienet (HEPOS)",
+          "Controle van eigendomstitel en inschrijving in het kadaster (Ktimatologio)",
+          "Bestemming, coëfficiënten en eventuele bijzondere voorschriften",
+          "Wegfront en wettelijke ontsluiting"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Stap 2: Regel de bijzondere instanties"
+      },
+      {
+        "t": "p",
+        "c": "Afhankelijk van de locatie kan het dossier input nodig hebben van de <strong>Ephorate of Antiquities</strong> (archeologische zones zijn op Kreta heel gebruikelijk), de bosdienst (om te bevestigen dat het perceel op de boskaarten niet als bos is aangemerkt), de kustautoriteiten nabij de vloedlijn en de milieudiensten in of nabij Natura 2000-gebieden. Deze goedkeuringen duren vaak langer dan de vergunning zelf; daarom starten wij ze parallel aan het ontwerp."
+      },
+      {
+        "t": "h2",
+        "c": "Stap 3: Stel het vergunningsdossier op en dien het in"
+      },
+      {
+        "t": "p",
+        "c": "Het dossier bevat bouwkundige tekeningen, constructieve en installatietechnische berekeningen, een energieprestatiestudie volgens KENAK, brandveiligheidsmaatregelen waar van toepassing, begrotingen en de eigendomsdocumenten van de eigenaar. Bevoegde ingenieurs uploaden het naar e-Adeies, waarna de gemeentelijke bouwdienst (YDOM) de beoordeling uitvoert."
+      },
+      {
+        "t": "chart",
+        "c": "timeline"
+      },
+      {
+        "t": "h2",
+        "c": "Hoe lang duurt het?"
+      },
+      {
+        "t": "p",
+        "c": "Voor een eenvoudig woonproject op een probleemloos perceel duurt de vergunningsfase doorgaans drie tot zes maanden vanaf een volledig dossier. Is archeologische of bosbouwkundige input nodig, reken dan op meer tijd. Bij hotelprojecten komen daar nog de stappen voor de toerismevergunning bij."
+      },
+      {
+        "t": "h2",
+        "c": "De meest voorkomende oorzaken van vertraging"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Afwijkingen in eigendomstitel of perceelgrenzen die laat worden ontdekt",
+          "Ontbrekende of onvolledige goedkeuringen van bijzondere instanties",
+          "Ontwerpwijzigingen na indiening",
+          "Onduidelijke ontsluiting of status van het wegfront"
+        ]
+      },
+      {
+        "t": "quote",
+        "c": "De snelste vergunning is die waarbij de problemen al waren opgelost voordat het dossier werd ingediend."
+      },
+      {
+        "t": "p",
+        "c": "Bij Modera Group stelt ons eigen vergunningenteam elke stap op en bewaakt die, zodat eigenaren — zeker wie in het buitenland woont — nooit zelf achter een instantie aan hoeven."
+      }
     ],
     "faq": [
-      { "q": "Kan een buitenlandse eigenaar in Griekenland een bouwvergunning aanvragen?", "a": "Ja. Buitenlandse particulieren en bedrijven mogen in Griekenland grond bezitten en bouwen. U heeft een Grieks fiscaal nummer (AFM) nodig, en in sommige grensregio’s een aanvullende goedkeuring voor kopers van buiten de EU." },
-      { "q": "Wie dient de vergunning in?", "a": "Bevoegde ingenieurs die zijn ingeschreven bij de Technische Kamer van Griekenland dienen het dossier namens de eigenaar in via e-Adeies." }
+      {
+        "q": "Kan een buitenlandse eigenaar in Griekenland een bouwvergunning aanvragen?",
+        "a": "Ja. Buitenlandse particulieren en bedrijven mogen in Griekenland grond bezitten en bouwen. U heeft een Grieks fiscaal nummer (AFM) nodig, en in sommige grensregio’s een aanvullende goedkeuring voor kopers van buiten de EU."
+      },
+      {
+        "q": "Wie dient de vergunning in?",
+        "a": "Bevoegde ingenieurs die zijn ingeschreven bij de Technische Kamer van Griekenland dienen het dossier namens de eigenaar in via e-Adeies."
+      }
     ]
   },
   {
@@ -35,27 +96,75 @@
     "category": "costs",
     "date": "2026-10-14",
     "readTime": 7,
-    "image": "slab-rebar",
+    "image": "site-rebar-cage",
     "author": "Sofia Andreadaki",
     "title": "Bouwkosten op Kreta in 2026: wat een villa, hotel of gebouw werkelijk kost",
     "description": "Indicatieve prijzen per m² voor woningbouw, hotels en bedrijfspanden op Kreta — en de factoren die de bouwkosten bepalen.",
     "body": [
-      { "t": "p", "c": "‘Wat kost het per vierkante meter?’ is de eerste vraag die elke eigenaar stelt — en het eerlijke antwoord is een bandbreedte. Materiaalprijzen, de beschikbaarheid van vakmensen, de omstandigheden op de bouwplaats en de gekozen specificatie hebben allemaal invloed. Hieronder vindt u de indicatieve bandbreedtes die wij in 2026 voor de vroege planning op Kreta hanteren." },
-      { "t": "chart", "c": "cost" },
-      { "t": "h2", "c": "Wat de kosten bepaalt" },
-      { "t": "ul", "c": ["<strong>Terrein en fundering:</strong> hellende percelen, rotsbodem en keermuren drijven de kosten snel op.", "<strong>Specificatie:</strong> natuursteen, grote glaspartijen en maatwerk-timmerwerk kunnen het afwerkingsbudget verdubbelen.", "<strong>Installaties:</strong> warmtepompen, vloerverwarming, zonne-energie en domotica.", "<strong>Buitenwerk:</strong> zwembaden, tuinaanleg, opritten en erfafscheidingen worden vaak onderschat.", "<strong>Bereikbaarheid en logistiek:</strong> afgelegen locaties of smalle wegen verhogen de transport- en kraankosten."] },
-      { "t": "h2", "c": "Waar het geld naartoe gaat" },
-      { "t": "p", "c": "Bij een gemiddelde premium villa nemen constructie en gebouwschil ongeveer twee vijfde van het budget voor hun rekening, installaties zo’n vijfde, en afwerking, zwembad en buitenwerk het grootste deel van de rest." },
-      { "t": "chart", "c": "split" },
-      { "t": "h2", "c": "Wat niet in de prijs per m² zit" },
-      { "t": "p", "c": "Grond, btw, ontwerphonoraria, leges, aansluitingen op nutsvoorzieningen, meubilair en een post onvoorzien vallen buiten de meeste prijzen per vierkante meter. Wij adviseren een post onvoorzien van 7–10% bij nieuwbouw en 12–15% bij renovatie van oudere natuurstenen gebouwen." },
-      { "t": "h2", "c": "Zo beschermt u uw budget" },
-      { "t": "p", "c": "Prijs het ontwerp terwijl het wordt ontwikkeld, niet achteraf. Bij Modera brengt ons team kostenbeheersing in elke ontwerpfase een geactualiseerde kostenraming uit, zodat beslissingen worden genomen met de cijfers op tafel — en het uiteindelijke contract een volledig gedefinieerde scope weerspiegelt in plaats van een reeks stelposten." },
-      { "t": "quote", "c": "Budgetten ontsporen zelden op de bouwplaats. Ze ontsporen in de ontwerpfase, wanneer niemand de beslissingen doorrekende." }
+      {
+        "t": "p",
+        "c": "‘Wat kost het per vierkante meter?’ is de eerste vraag die elke eigenaar stelt — en het eerlijke antwoord is een bandbreedte. Materiaalprijzen, de beschikbaarheid van vakmensen, de omstandigheden op de bouwplaats en de gekozen specificatie hebben allemaal invloed. Hieronder vindt u de indicatieve bandbreedtes die wij in 2026 voor de vroege planning op Kreta hanteren."
+      },
+      {
+        "t": "chart",
+        "c": "cost"
+      },
+      {
+        "t": "h2",
+        "c": "Wat de kosten bepaalt"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "<strong>Terrein en fundering:</strong> hellende percelen, rotsbodem en keermuren drijven de kosten snel op.",
+          "<strong>Specificatie:</strong> natuursteen, grote glaspartijen en maatwerk-timmerwerk kunnen het afwerkingsbudget verdubbelen.",
+          "<strong>Installaties:</strong> warmtepompen, vloerverwarming, zonne-energie en domotica.",
+          "<strong>Buitenwerk:</strong> zwembaden, tuinaanleg, opritten en erfafscheidingen worden vaak onderschat.",
+          "<strong>Bereikbaarheid en logistiek:</strong> afgelegen locaties of smalle wegen verhogen de transport- en kraankosten."
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Waar het geld naartoe gaat"
+      },
+      {
+        "t": "p",
+        "c": "Bij een gemiddelde premium villa nemen constructie en gebouwschil ongeveer twee vijfde van het budget voor hun rekening, installaties zo’n vijfde, en afwerking, zwembad en buitenwerk het grootste deel van de rest."
+      },
+      {
+        "t": "chart",
+        "c": "split"
+      },
+      {
+        "t": "h2",
+        "c": "Wat niet in de prijs per m² zit"
+      },
+      {
+        "t": "p",
+        "c": "Grond, btw, ontwerphonoraria, leges, aansluitingen op nutsvoorzieningen, meubilair en een post onvoorzien vallen buiten de meeste prijzen per vierkante meter. Wij adviseren een post onvoorzien van 7–10% bij nieuwbouw en 12–15% bij renovatie van oudere natuurstenen gebouwen."
+      },
+      {
+        "t": "h2",
+        "c": "Zo beschermt u uw budget"
+      },
+      {
+        "t": "p",
+        "c": "Prijs het ontwerp terwijl het wordt ontwikkeld, niet achteraf. Bij Modera brengt ons team kostenbeheersing in elke ontwerpfase een geactualiseerde kostenraming uit, zodat beslissingen worden genomen met de cijfers op tafel — en het uiteindelijke contract een volledig gedefinieerde scope weerspiegelt in plaats van een reeks stelposten."
+      },
+      {
+        "t": "quote",
+        "c": "Budgetten ontsporen zelden op de bouwplaats. Ze ontsporen in de ontwerpfase, wanneer niemand de beslissingen doorrekende."
+      }
     ],
     "faq": [
-      { "q": "Is het goedkoper om een natuurstenen huis te renoveren dan om nieuw te bouwen?", "a": "Niet altijd. Constructieve versterking, vochtbestrijding en werken rond bestaande muren kunnen restauratie per vierkante meter even duur maken als nieuwbouw — al is het karakter het vaak meer dan waard." },
-      { "q": "Zijn de prijzen inclusief btw?", "a": "Nee. De getoonde bandbreedtes zijn exclusief btw en grond. De btw-behandeling van nieuwbouw in Griekenland is meermaals gewijzigd; controleer daarom de actuele regels voor uw transactie." }
+      {
+        "q": "Is het goedkoper om een natuurstenen huis te renoveren dan om nieuw te bouwen?",
+        "a": "Niet altijd. Constructieve versterking, vochtbestrijding en werken rond bestaande muren kunnen restauratie per vierkante meter even duur maken als nieuwbouw — al is het karakter het vaak meer dan waard."
+      },
+      {
+        "q": "Zijn de prijzen inclusief btw?",
+        "a": "Nee. De getoonde bandbreedtes zijn exclusief btw en grond. De btw-behandeling van nieuwbouw in Griekenland is meermaals gewijzigd; controleer daarom de actuele regels voor uw transactie."
+      }
     ]
   },
   {
@@ -63,28 +172,78 @@
     "category": "hospitality",
     "date": "2026-09-30",
     "readTime": 8,
-    "image": "resort-sunset",
+    "image": "ks-resort-pool-2",
     "author": "Eleni Papadaki",
     "title": "Een boutiquehotel ontwikkelen op Kreta: van perceel tot openingsdag",
     "description": "Een boutiquehotel ontwikkelen op Kreta: markt, locatie, ontwerp, vergunningen en een bouwplanning waarmee u op tijd opent voor het seizoen.",
     "body": [
-      { "t": "p", "c": "Griekenland verwelkomde de afgelopen jaren een recordaantal internationale bezoekers, en Kreta — met twee internationale luchthavens en een seizoen dat inmiddels van april tot november loopt — is een van de sterkste bestemmingen van het land. De vraag is verschoven naar kleinere, designgedreven accommodaties met karakter: boutiquehotels, suites en villacomplexen." },
-      { "t": "chart", "c": "arrivals" },
-      { "t": "h2", "c": "Begin bij de gast, niet bij het gebouw" },
-      { "t": "p", "c": "Succesvolle boutiquehotels worden bepaald door een helder gastprofiel: stellen die privacy zoeken, gezinnen die ruimte willen, of reizigers op zoek naar gastronomie en cultuur. Dat profiel bepaalt het aantal kamers, de kamermix, de voorzieningen en uiteindelijk het gebouw." },
-      { "t": "h2", "c": "Locatie en vergunningen" },
-      { "t": "p", "c": "Hotels in Griekenland krijgen hun vergunning via de toerisme-instanties: vóór de opening is een exploitatievergunning (Special Operating Badge) vereist, en de sterrenclassificatie volgt specifieke technische normen. Perceelregels, ontsluiting, watervoorziening en afvalwaterzuivering moeten allemaal in de haalbaarheidsfase worden bevestigd — het zijn veelvoorkomende dealbreakers." },
-      { "t": "ul", "c": ["Een bestemming die toeristische accommodatie toestaat", "Capaciteit van water-, stroom- en afvalwaterinfrastructuur", "Toegankelijkheids- en brandveiligheidseisen per categorie", "Parkeren en dienstingang voor de exploitatie"] },
-      { "t": "h2", "c": "Een ontwerp dat goed functioneert" },
-      { "t": "p", "c": "In de back-of-house wint of verliest een boutiquehotel zijn marge. Housekeepingroutes, wasserij, opslag, technische ruimten en personeelsvoorzieningen verdienen evenveel aandacht als het infinity pool. Wij ontwerpen ze vanaf dag één samen met de exploitant." },
-      { "t": "h2", "c": "Bouwen om op tijd open te gaan" },
-      { "t": "p", "c": "Hotelprojecten werken naar een vaste datum toe: het seizoen. Wij plannen terug vanaf de opening, bestellen artikelen met lange levertijden — zoals beglazing, liften en keukenapparatuur — vroegtijdig, en plannen inbedrijfstelling en opleverpunten ruim voordat de eerste gast arriveert." },
-      { "t": "quote", "c": "In de hospitality is drie maanden vertraging geen drie maanden. Het is een verloren seizoen." },
-      { "t": "p", "c": "Modera Group realiseert hotels en toeristische projecten van haalbaarheid tot opening, samen met investeerders als Sivan Invest Group en het Harmony Fund, die zowel het vastgoed als de exploitatie begrijpen." }
+      {
+        "t": "p",
+        "c": "Griekenland verwelkomde de afgelopen jaren een recordaantal internationale bezoekers, en Kreta — met twee internationale luchthavens en een seizoen dat inmiddels van april tot november loopt — is een van de sterkste bestemmingen van het land. De vraag is verschoven naar kleinere, designgedreven accommodaties met karakter: boutiquehotels, suites en villacomplexen."
+      },
+      {
+        "t": "chart",
+        "c": "arrivals"
+      },
+      {
+        "t": "h2",
+        "c": "Begin bij de gast, niet bij het gebouw"
+      },
+      {
+        "t": "p",
+        "c": "Succesvolle boutiquehotels worden bepaald door een helder gastprofiel: stellen die privacy zoeken, gezinnen die ruimte willen, of reizigers op zoek naar gastronomie en cultuur. Dat profiel bepaalt het aantal kamers, de kamermix, de voorzieningen en uiteindelijk het gebouw."
+      },
+      {
+        "t": "h2",
+        "c": "Locatie en vergunningen"
+      },
+      {
+        "t": "p",
+        "c": "Hotels in Griekenland krijgen hun vergunning via de toerisme-instanties: vóór de opening is een exploitatievergunning (Special Operating Badge) vereist, en de sterrenclassificatie volgt specifieke technische normen. Perceelregels, ontsluiting, watervoorziening en afvalwaterzuivering moeten allemaal in de haalbaarheidsfase worden bevestigd — het zijn veelvoorkomende dealbreakers."
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Een bestemming die toeristische accommodatie toestaat",
+          "Capaciteit van water-, stroom- en afvalwaterinfrastructuur",
+          "Toegankelijkheids- en brandveiligheidseisen per categorie",
+          "Parkeren en dienstingang voor de exploitatie"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Een ontwerp dat goed functioneert"
+      },
+      {
+        "t": "p",
+        "c": "In de back-of-house wint of verliest een boutiquehotel zijn marge. Housekeepingroutes, wasserij, opslag, technische ruimten en personeelsvoorzieningen verdienen evenveel aandacht als het infinity pool. Wij ontwerpen ze vanaf dag één samen met de exploitant."
+      },
+      {
+        "t": "h2",
+        "c": "Bouwen om op tijd open te gaan"
+      },
+      {
+        "t": "p",
+        "c": "Hotelprojecten werken naar een vaste datum toe: het seizoen. Wij plannen terug vanaf de opening, bestellen artikelen met lange levertijden — zoals beglazing, liften en keukenapparatuur — vroegtijdig, en plannen inbedrijfstelling en opleverpunten ruim voordat de eerste gast arriveert."
+      },
+      {
+        "t": "quote",
+        "c": "In de hospitality is drie maanden vertraging geen drie maanden. Het is een verloren seizoen."
+      },
+      {
+        "t": "p",
+        "c": "Modera Group realiseert hotels en toeristische projecten van haalbaarheid tot opening, samen met investeerders als Sivan Invest Group en het Harmony Fund, die zowel het vastgoed als de exploitatie begrijpen."
+      }
     ],
     "faq": [
-      { "q": "Hoe lang duurt het om een boutiquehotel op Kreta te bouwen?", "a": "Van haalbaarheid tot opening is twee tot drie jaar realistisch voor een nieuw te bouwen boutiquehotel, inclusief ontwerp, vergunningen en toerismevergunning. De verbouwing van een bestaand gebouw kan sneller." },
-      { "q": "Kan ik beginnen met villa’s en later een hotel toevoegen?", "a": "Vaak wel, mits masterplan, infrastructuur en vergunningen vanaf het begin op fasering zijn ingericht." }
+      {
+        "q": "Hoe lang duurt het om een boutiquehotel op Kreta te bouwen?",
+        "a": "Van haalbaarheid tot opening is twee tot drie jaar realistisch voor een nieuw te bouwen boutiquehotel, inclusief ontwerp, vergunningen en toerismevergunning. De verbouwing van een bestaand gebouw kan sneller."
+      },
+      {
+        "q": "Kan ik beginnen met villa’s en later een hotel toevoegen?",
+        "a": "Vaak wel, mits masterplan, infrastructuur en vergunningen vanaf het begin op fasering zijn ingericht."
+      }
     ]
   },
   {
@@ -92,24 +251,62 @@
     "category": "investment",
     "date": "2026-09-16",
     "readTime": 6,
-    "image": "infinity-pool",
+    "image": "chania-harbour-day",
     "author": "Katerina Vlachou",
     "title": "Golden visa Griekenland en nieuwbouw: wat investeerders moeten weten",
     "description": "Hoe de drempelbedragen van de Griekse golden visa gelden voor vastgoed op Kreta, en waarom nieuwbouw slimmer kan zijn dan een bestaande woning kopen.",
     "body": [
-      { "t": "p", "c": "Het Griekse programma voor verblijf via investering — beter bekend als de golden visa — blijft een van de populairste van Europa. Sinds de hervorming van 2024 hangt de minimale investering af van de locatie, waardoor de keuze van het vastgoed strategischer is geworden." },
-      { "t": "h2", "c": "De drempelbedragen in het kort" },
-      { "t": "ul", "c": ["<strong>€ 800.000</strong> in Attica, Thessaloniki, Mykonos, Santorini en op eilanden met meer dan 3.100 inwoners — waaronder Kreta.", "<strong>€ 400.000</strong> in de overige regio’s van Griekenland.", "<strong>€ 250.000</strong> voor specifieke gevallen, zoals de ombouw van bedrijfspanden tot woningen of de restauratie van monumentale gebouwen.", "In de meeste gevallen moet de investering in één object van minimaal 120 m² worden gedaan."] },
-      { "t": "p", "c": "Regels veranderen, en er gelden voorwaarden voor kortetermijnverhuur en het gebruik van het vastgoed. Laat het actuele kader altijd door een gekwalificeerde advocaat bevestigen voordat u zich vastlegt." },
-      { "t": "h2", "c": "Waarom nieuw bouwen?" },
-      { "t": "p", "c": "Door grond te kopen en een nieuwe villa te bouwen, houden investeerders grip op kwaliteit, energieprestatie en ontwerp — en realiseren ze vaak een betere waarde per vierkante meter dan bij aankoop van een bestaande, afgewerkte woning. Nieuwe gebouwen moeten aan de bijna-energieneutrale normen voldoen, wat de exploitatiekosten verlaagt en de waarde op lange termijn ondersteunt." },
-      { "t": "h2", "c": "Hoe Modera investeerders ondersteunt" },
-      { "t": "p", "c": "Wij werken samen met uw juridische en fiscale adviseurs om het fysieke vastgoed te realiseren: due diligence van de grond, ontwerp, vergunningen en bouw, met documentatie die is voorbereid voor het dossier van de verblijfsvergunning. Via ons partnerschap met Sivan Invest Group krijgen investeerders bovendien toegang tot gestructureerde kansen en begeleiding op de Griekse markt." },
-      { "t": "quote", "c": "Het visum is de deur. Het vastgoed is waar u de komende twintig jaar mee leeft — bouw het dus goed." }
+      {
+        "t": "p",
+        "c": "Het Griekse programma voor verblijf via investering — beter bekend als de golden visa — blijft een van de populairste van Europa. Sinds de hervorming van 2024 hangt de minimale investering af van de locatie, waardoor de keuze van het vastgoed strategischer is geworden."
+      },
+      {
+        "t": "h2",
+        "c": "De drempelbedragen in het kort"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "<strong>€ 800.000</strong> in Attica, Thessaloniki, Mykonos, Santorini en op eilanden met meer dan 3.100 inwoners — waaronder Kreta.",
+          "<strong>€ 400.000</strong> in de overige regio’s van Griekenland.",
+          "<strong>€ 250.000</strong> voor specifieke gevallen, zoals de ombouw van bedrijfspanden tot woningen of de restauratie van monumentale gebouwen.",
+          "In de meeste gevallen moet de investering in één object van minimaal 120 m² worden gedaan."
+        ]
+      },
+      {
+        "t": "p",
+        "c": "Regels veranderen, en er gelden voorwaarden voor kortetermijnverhuur en het gebruik van het vastgoed. Laat het actuele kader altijd door een gekwalificeerde advocaat bevestigen voordat u zich vastlegt."
+      },
+      {
+        "t": "h2",
+        "c": "Waarom nieuw bouwen?"
+      },
+      {
+        "t": "p",
+        "c": "Door grond te kopen en een nieuwe villa te bouwen, houden investeerders grip op kwaliteit, energieprestatie en ontwerp — en realiseren ze vaak een betere waarde per vierkante meter dan bij aankoop van een bestaande, afgewerkte woning. Nieuwe gebouwen moeten aan de bijna-energieneutrale normen voldoen, wat de exploitatiekosten verlaagt en de waarde op lange termijn ondersteunt."
+      },
+      {
+        "t": "h2",
+        "c": "Hoe Modera investeerders ondersteunt"
+      },
+      {
+        "t": "p",
+        "c": "Wij werken samen met uw juridische en fiscale adviseurs om het fysieke vastgoed te realiseren: due diligence van de grond, ontwerp, vergunningen en bouw, met documentatie die is voorbereid voor het dossier van de verblijfsvergunning. Via ons partnerschap met Sivan Invest Group krijgen investeerders bovendien toegang tot gestructureerde kansen en begeleiding op de Griekse markt."
+      },
+      {
+        "t": "quote",
+        "c": "Het visum is de deur. Het vastgoed is waar u de komende twintig jaar mee leeft — bouw het dus goed."
+      }
     ],
     "faq": [
-      { "q": "Telt de aankoop van grond mee voor de golden visa?", "a": "Grond in combinatie met de bouw van een woning kan onder voorwaarden in aanmerking komen. Uw advocaat moet bevestigen hoe betalingen voor grond en bouw worden gedocumenteerd." },
-      { "q": "Valt Kreta onder de drempel van € 800.000?", "a": "Volgens de regels die sinds 2024 gelden, vallen eilanden met meer dan 3.100 inwoners — waaronder Kreta — onder de hogere drempel. Controleer of er sindsdien wijzigingen zijn." }
+      {
+        "q": "Telt de aankoop van grond mee voor de golden visa?",
+        "a": "Grond in combinatie met de bouw van een woning kan onder voorwaarden in aanmerking komen. Uw advocaat moet bevestigen hoe betalingen voor grond en bouw worden gedocumenteerd."
+      },
+      {
+        "q": "Valt Kreta onder de drempel van € 800.000?",
+        "a": "Volgens de regels die sinds 2024 gelden, vallen eilanden met meer dan 3.100 inwoners — waaronder Kreta — onder de hogere drempel. Controleer of er sindsdien wijzigingen zijn."
+      }
     ]
   },
   {
@@ -117,25 +314,66 @@
     "category": "permits",
     "date": "2026-09-02",
     "readTime": 7,
-    "image": "cretan-chapel",
+    "image": "chania-venetian-walls",
     "author": "Maria Daskalaki",
     "title": "Archeologie, bossen en kustlijn: de goedkeuringen die bouwen op Kreta bepalen",
     "description": "Waarom archeologische, bos-, kust- en milieugoedkeuringen op Kreta ertoe doen — en hoe u er vanaf dag één rekening mee houdt.",
     "body": [
-      { "t": "p", "c": "Kreta wordt al meer dan negenduizend jaar bewoond. Die geschiedenis is deel van de magie van het eiland — en deel van de due diligence van elke ontwikkelaar. Naast de bouwvergunning zelf bepalen vier soorten goedkeuringen het vaakst wat, waar en wanneer u kunt bouwen." },
-      { "t": "h2", "c": "1. Archeologische goedkeuringen" },
-      { "t": "p", "c": "Grote delen van Kreta liggen in zones van archeologisch belang. Daar moet de lokale Ephorate of Antiquities de werkzaamheden goedkeuren en kan zij begeleide opgravingen of proefsleuven eisen. Vondsten kunnen een indeling veranderen; vroeg overleg houdt het ontwerp flexibel." },
-      { "t": "h2", "c": "2. Bosstatus" },
-      { "t": "p", "c": "De Griekse boskaarten classificeren grond die als bos of bosgebied kan worden aangemerkt, waar bouwen sterk beperkt is. Controleer vóór de aankoop de status van het perceel en vraag zo nodig een verklaring aan bij de bosdienst." },
-      { "t": "h2", "c": "3. De kustzone" },
-      { "t": "p", "c": "Percelen met zeezicht zijn gewild, maar de vloedlijnzone en het strand zijn openbaar, en bouwen nabij de kust is onderworpen aan strikte afstandseisen en controles. De afbakeningslijn moet worden vastgesteld, niet aangenomen." },
-      { "t": "h2", "c": "4. Milieugoedkeuringen" },
-      { "t": "p", "c": "Projecten in of nabij Natura 2000-gebieden, en grotere toeristische ontwikkelingen, kunnen een milieubeoordeling en goedkeuring van milieuvoorwaarden vereisen. De omvang van het project bepaalt de categorie en de doorlooptijd." },
-      { "t": "ul", "c": ["Start de toetsing door bijzondere instanties tijdens de haalbaarheidsfase, niet na het ontwerp", "Reserveer tijd voor eventueel archeologisch toezicht", "Behandel kust- en bosstatus als dealbreakers die u vóór aankoop verifieert", "Houd het ontwerp flexibel tot de goedkeuringen binnen zijn"] },
-      { "t": "quote", "c": "Op Kreta is due diligence geen papierwerk. Het is input voor het ontwerp." }
+      {
+        "t": "p",
+        "c": "Kreta wordt al meer dan negenduizend jaar bewoond. Die geschiedenis is deel van de magie van het eiland — en deel van de due diligence van elke ontwikkelaar. Naast de bouwvergunning zelf bepalen vier soorten goedkeuringen het vaakst wat, waar en wanneer u kunt bouwen."
+      },
+      {
+        "t": "h2",
+        "c": "1. Archeologische goedkeuringen"
+      },
+      {
+        "t": "p",
+        "c": "Grote delen van Kreta liggen in zones van archeologisch belang. Daar moet de lokale Ephorate of Antiquities de werkzaamheden goedkeuren en kan zij begeleide opgravingen of proefsleuven eisen. Vondsten kunnen een indeling veranderen; vroeg overleg houdt het ontwerp flexibel."
+      },
+      {
+        "t": "h2",
+        "c": "2. Bosstatus"
+      },
+      {
+        "t": "p",
+        "c": "De Griekse boskaarten classificeren grond die als bos of bosgebied kan worden aangemerkt, waar bouwen sterk beperkt is. Controleer vóór de aankoop de status van het perceel en vraag zo nodig een verklaring aan bij de bosdienst."
+      },
+      {
+        "t": "h2",
+        "c": "3. De kustzone"
+      },
+      {
+        "t": "p",
+        "c": "Percelen met zeezicht zijn gewild, maar de vloedlijnzone en het strand zijn openbaar, en bouwen nabij de kust is onderworpen aan strikte afstandseisen en controles. De afbakeningslijn moet worden vastgesteld, niet aangenomen."
+      },
+      {
+        "t": "h2",
+        "c": "4. Milieugoedkeuringen"
+      },
+      {
+        "t": "p",
+        "c": "Projecten in of nabij Natura 2000-gebieden, en grotere toeristische ontwikkelingen, kunnen een milieubeoordeling en goedkeuring van milieuvoorwaarden vereisen. De omvang van het project bepaalt de categorie en de doorlooptijd."
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Start de toetsing door bijzondere instanties tijdens de haalbaarheidsfase, niet na het ontwerp",
+          "Reserveer tijd voor eventueel archeologisch toezicht",
+          "Behandel kust- en bosstatus als dealbreakers die u vóór aankoop verifieert",
+          "Houd het ontwerp flexibel tot de goedkeuringen binnen zijn"
+        ]
+      },
+      {
+        "t": "quote",
+        "c": "Op Kreta is due diligence geen papierwerk. Het is input voor het ontwerp."
+      }
     ],
     "faq": [
-      { "q": "Legt een archeologische vondst een project stil?", "a": "Meestal niet blijvend. De meeste vondsten worden gedocumenteerd en het project gaat door, soms met een aangepaste indeling. Grote vondsten kunnen tot aanzienlijkere beperkingen leiden." }
+      {
+        "q": "Legt een archeologische vondst een project stil?",
+        "a": "Meestal niet blijvend. De meeste vondsten worden gedocumenteerd en het project gaat door, soms met een aangepaste indeling. Grote vondsten kunnen tot aanzienlijkere beperkingen leiden."
+      }
     ]
   },
   {
@@ -143,22 +381,54 @@
     "category": "investment",
     "date": "2026-08-19",
     "readTime": 5,
-    "image": "stone-villa",
+    "image": "site-team",
     "author": "Sivan Menahem",
     "title": "Sivan Invest Group en Modera: turnkey vastgoedprojecten op Kreta",
     "description": "Hoe het partnerschap tussen Sivan Invest Group en Modera Group investeerders één verantwoordelijke route biedt, van kans tot opgeleverd vastgoed op Kreta.",
     "body": [
-      { "t": "p", "c": "Vanuit het buitenland investeren in Grieks vastgoed betekende traditioneel het managen van een keten van losse partijen: makelaars, advocaten, architecten, ingenieurs, aannemers en beheerders. Elke schakel voegt risico toe. Het partnerschap tussen <strong>Sivan Invest Group</strong> en <strong>Modera Group</strong> is opgezet om die keten in te korten." },
-      { "t": "h2", "c": "Twee sterktes, één proces" },
-      { "t": "p", "c": "Sivan Invest Group brengt investeringsinzicht: marktselectie, het vinden van kansen en de blik van een investeerder op waarde. Modera brengt het vermogen om op Kreta uit te voeren: due diligence, ontwerp, vergunningen, bouw en oplevering, allemaal in eigen huis beheerd." },
-      { "t": "ul", "c": ["Screening van kansen en grond met ingebouwde bouwkundige haalbaarheid", "Budgetten en planningen opgesteld door het team dat ze ook uitvoert", "Transparante rapportage, ontworpen voor investeerders", "Eén aanspreekpunt met eindverantwoordelijkheid tot aan de oplevering"] },
-      { "t": "h2", "c": "Waarom dit ertoe doet" },
-      { "t": "p", "c": "Wanneer de mensen die een kans beoordelen dezelfde mensen zijn die haar gaan bouwen, worden aannames vroeg getoetst. Kosten, planning en regelgevingsrisico’s zijn zichtbaar voordat er kapitaal wordt gecommitteerd — en worden niet halverwege de bouw ontdekt." },
-      { "t": "quote", "c": "Wij wilden dat investeerders op een bouwplaats in Chania hetzelfde vertrouwen voelen als bij het lezen van een goed geleid fondsrapport." },
-      { "t": "p", "c": "Of u nu een familievilla, een verhuurportefeuille of een hotelobject bouwt: de combinatie van investeringsdiscipline en bouwkracht is erop gericht te leveren wat is beloofd — binnen budget, op tijd en volgens de norm." }
+      {
+        "t": "p",
+        "c": "Vanuit het buitenland investeren in Grieks vastgoed betekende traditioneel het managen van een keten van losse partijen: makelaars, advocaten, architecten, ingenieurs, aannemers en beheerders. Elke schakel voegt risico toe. Het partnerschap tussen <strong>Sivan Invest Group</strong> en <strong>Modera Group</strong> is opgezet om die keten in te korten."
+      },
+      {
+        "t": "h2",
+        "c": "Twee sterktes, één proces"
+      },
+      {
+        "t": "p",
+        "c": "Sivan Invest Group brengt investeringsinzicht: marktselectie, het vinden van kansen en de blik van een investeerder op waarde. Modera brengt het vermogen om op Kreta uit te voeren: due diligence, ontwerp, vergunningen, bouw en oplevering, allemaal in eigen huis beheerd."
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Screening van kansen en grond met ingebouwde bouwkundige haalbaarheid",
+          "Budgetten en planningen opgesteld door het team dat ze ook uitvoert",
+          "Transparante rapportage, ontworpen voor investeerders",
+          "Eén aanspreekpunt met eindverantwoordelijkheid tot aan de oplevering"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Waarom dit ertoe doet"
+      },
+      {
+        "t": "p",
+        "c": "Wanneer de mensen die een kans beoordelen dezelfde mensen zijn die haar gaan bouwen, worden aannames vroeg getoetst. Kosten, planning en regelgevingsrisico’s zijn zichtbaar voordat er kapitaal wordt gecommitteerd — en worden niet halverwege de bouw ontdekt."
+      },
+      {
+        "t": "quote",
+        "c": "Wij wilden dat investeerders op een bouwplaats in Chania hetzelfde vertrouwen voelen als bij het lezen van een goed geleid fondsrapport."
+      },
+      {
+        "t": "p",
+        "c": "Of u nu een familievilla, een verhuurportefeuille of een hotelobject bouwt: de combinatie van investeringsdiscipline en bouwkracht is erop gericht te leveren wat is beloofd — binnen budget, op tijd en volgens de norm."
+      }
     ],
     "faq": [
-      { "q": "Moet ik via Sivan Invest Group investeren om met Modera te werken?", "a": "Nee. Modera werkt rechtstreeks met particuliere eigenaren, ontwikkelaars en investeerders. Het partnerschap is een optie voor wie daarnaast investeringsbegeleiding zoekt." }
+      {
+        "q": "Moet ik via Sivan Invest Group investeren om met Modera te werken?",
+        "a": "Nee. Modera werkt rechtstreeks met particuliere eigenaren, ontwikkelaars en investeerders. Het partnerschap is een optie voor wie daarnaast investeringsbegeleiding zoekt."
+      }
     ]
   },
   {
@@ -166,20 +436,52 @@
     "category": "investment",
     "date": "2026-08-05",
     "readTime": 5,
-    "image": "resort-terraces",
+    "image": "ks-aerial-render",
     "author": "Sivan Menahem",
     "title": "Het Harmony Fund en vastgoedontwikkeling op institutioneel niveau op Kreta",
     "description": "Hoe het Harmony Fund en Modera Group institutionele normen voor governance, rapportage en risicobeheersing naar ontwikkelingsprojecten op Kreta brengen.",
     "body": [
-      { "t": "p", "c": "De vastgoedmarkt op Kreta is volwassen geworden. Grotere hotelprojecten, woningbouwontwikkelingen en gemengde plannen trekken steeds vaker investeerders aan die de governancenormen van institutioneel kapitaal verwachten. Het <strong>Harmony Fund</strong>, dat samenwerkt met Sivan Invest Group, en Modera Group delen een eenvoudig doel: die normen naar de bouwplaatsen van het eiland brengen." },
-      { "t": "h2", "c": "Wat ‘institutioneel niveau’ op de bouwplaats betekent" },
-      { "t": "ul", "c": ["Onafhankelijke kostenramingen en goedkeuring per fase", "Vastgelegde kwaliteitskeuringen op vooraf bepaalde momenten", "Maandelijkse rapportage over budget, planning en risico", "Heldere scheiding van ontwerp-, kosten- en uitvoeringsverantwoordelijkheden, met één eindverantwoordelijke"] },
-      { "t": "h2", "c": "Kapitaal en bouw op één lijn" },
-      { "t": "p", "c": "Ontwikkelingsrisico is grotendeels bouwrisico: vertragingen, overschrijdingen en hiaten in de scope. Door het uitvoeringsteam al in de investeringsfase te betrekken, beoordelen het Harmony Fund en Modera kansen met echte bouwgegevens, niet met schattingen die elders zijn geleend." },
-      { "t": "chart", "c": "timeline" },
-      { "t": "h2", "c": "Een langetermijnvisie op Kreta" },
-      { "t": "p", "c": "Duurzaam, goed gebouwd vastgoed behoudt zijn waarde. Energiezuinig ontwerp, duurzame materialen en gebouwen die het Kretenzische landschap en erfgoed respecteren, zijn niet alleen verantwoorde keuzes — het zijn ook gezonde investeringsbeslissingen." },
-      { "t": "p", "c": "<em>Dit artikel dient uitsluitend ter algemene informatie en vormt geen aanbod of uitnodiging tot investeren. Investeringsmogelijkheden zijn alleen beschikbaar voor in aanmerking komende investeerders, via de daarvoor bestemde documentatie.</em>" }
+      {
+        "t": "p",
+        "c": "De vastgoedmarkt op Kreta is volwassen geworden. Grotere hotelprojecten, woningbouwontwikkelingen en gemengde plannen trekken steeds vaker investeerders aan die de governancenormen van institutioneel kapitaal verwachten. Het <strong>Harmony Fund</strong>, dat samenwerkt met Sivan Invest Group, en Modera Group delen een eenvoudig doel: die normen naar de bouwplaatsen van het eiland brengen."
+      },
+      {
+        "t": "h2",
+        "c": "Wat ‘institutioneel niveau’ op de bouwplaats betekent"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Onafhankelijke kostenramingen en goedkeuring per fase",
+          "Vastgelegde kwaliteitskeuringen op vooraf bepaalde momenten",
+          "Maandelijkse rapportage over budget, planning en risico",
+          "Heldere scheiding van ontwerp-, kosten- en uitvoeringsverantwoordelijkheden, met één eindverantwoordelijke"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Kapitaal en bouw op één lijn"
+      },
+      {
+        "t": "p",
+        "c": "Ontwikkelingsrisico is grotendeels bouwrisico: vertragingen, overschrijdingen en hiaten in de scope. Door het uitvoeringsteam al in de investeringsfase te betrekken, beoordelen het Harmony Fund en Modera kansen met echte bouwgegevens, niet met schattingen die elders zijn geleend."
+      },
+      {
+        "t": "chart",
+        "c": "timeline"
+      },
+      {
+        "t": "h2",
+        "c": "Een langetermijnvisie op Kreta"
+      },
+      {
+        "t": "p",
+        "c": "Duurzaam, goed gebouwd vastgoed behoudt zijn waarde. Energiezuinig ontwerp, duurzame materialen en gebouwen die het Kretenzische landschap en erfgoed respecteren, zijn niet alleen verantwoorde keuzes — het zijn ook gezonde investeringsbeslissingen."
+      },
+      {
+        "t": "p",
+        "c": "<em>Dit artikel dient uitsluitend ter algemene informatie en vormt geen aanbod of uitnodiging tot investeren. Investeringsmogelijkheden zijn alleen beschikbaar voor in aanmerking komende investeerders, via de daarvoor bestemde documentatie.</em>"
+      }
     ],
     "faq": []
   },
@@ -188,25 +490,65 @@
     "category": "infrastructure",
     "date": "2026-07-22",
     "readTime": 6,
-    "image": "plot-aerial",
+    "image": "site-earthworks-road",
     "author": "Dimitris Manousakis",
     "title": "Landelijke percelen op Kreta: ontsluiting, water, stroom en de infrastructuur achter een goed bouwproject",
     "description": "Wat u controleert voordat u een landelijk perceel op Kreta koopt: wettelijke ontsluiting, water, elektriciteit, afvalwater en het benodigde terreinwerk.",
     "body": [
-      { "t": "p", "c": "Een landelijk perceel met olijfbomen en zeezicht is voor veel kopers een droom. Of u er werkelijk kunt bouwen, hangt af van infrastructuur die in de opwinding van een bezichtiging makkelijk over het hoofd wordt gezien: ontsluiting, water, stroom en afvalwater." },
-      { "t": "h2", "c": "Wettelijke ontsluiting komt eerst" },
-      { "t": "p", "c": "Buiten het bestemmingsplan is een wegfront aan een erkende weg vaak een voorwaarde om te mogen bouwen. Een zandpad is niet automatisch een wettelijke weg. Controleer de status vóór de aankoop — die bepaalt zowel de bebouwbaarheid als de doorlooptijd van de vergunning." },
-      { "t": "h2", "c": "Water en afvalwater" },
-      { "t": "ul", "c": ["Gemeentelijke aansluiting, eigen boorput of opslagtanks — elk met eigen goedkeuringen en kosten", "Afvalwater: aansluiting op het riool waar mogelijk, anders een goedgekeurd zuiveringssysteem", "Irrigatie voor tuin en zwembad moet worden gepland met de beschikbaarheid van water in het achterhoofd"] },
-      { "t": "h2", "c": "Stroom en telecom" },
-      { "t": "p", "c": "De afstand tot de dichtstbijzijnde netaansluiting kan het budget flink beïnvloeden. Wij vragen netstudies vroegtijdig aan en combineren netstroom waar zinvol met zonnepanelen op het dak en batterijopslag." },
-      { "t": "h2", "c": "Grondwerk en keerconstructies" },
-      { "t": "p", "c": "Het Kretenzische terrein is prachtig én steil. Terrassering, keermuren en drainage beschermen het gebouw en het landschap — en vormen vaak de grootste afzonderlijke post binnen het buitenwerk." },
-      { "t": "quote", "c": "Het uitzicht verkoopt het perceel. De infrastructuur bepaalt of u er kunt wonen." },
-      { "t": "p", "c": "Het infrastructuurteam van Modera realiseert grondwerk, wegen en nutsnetwerken voor onze eigen projecten en voor private en publieke opdrachtgevers op heel Kreta." }
+      {
+        "t": "p",
+        "c": "Een landelijk perceel met olijfbomen en zeezicht is voor veel kopers een droom. Of u er werkelijk kunt bouwen, hangt af van infrastructuur die in de opwinding van een bezichtiging makkelijk over het hoofd wordt gezien: ontsluiting, water, stroom en afvalwater."
+      },
+      {
+        "t": "h2",
+        "c": "Wettelijke ontsluiting komt eerst"
+      },
+      {
+        "t": "p",
+        "c": "Buiten het bestemmingsplan is een wegfront aan een erkende weg vaak een voorwaarde om te mogen bouwen. Een zandpad is niet automatisch een wettelijke weg. Controleer de status vóór de aankoop — die bepaalt zowel de bebouwbaarheid als de doorlooptijd van de vergunning."
+      },
+      {
+        "t": "h2",
+        "c": "Water en afvalwater"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Gemeentelijke aansluiting, eigen boorput of opslagtanks — elk met eigen goedkeuringen en kosten",
+          "Afvalwater: aansluiting op het riool waar mogelijk, anders een goedgekeurd zuiveringssysteem",
+          "Irrigatie voor tuin en zwembad moet worden gepland met de beschikbaarheid van water in het achterhoofd"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Stroom en telecom"
+      },
+      {
+        "t": "p",
+        "c": "De afstand tot de dichtstbijzijnde netaansluiting kan het budget flink beïnvloeden. Wij vragen netstudies vroegtijdig aan en combineren netstroom waar zinvol met zonnepanelen op het dak en batterijopslag."
+      },
+      {
+        "t": "h2",
+        "c": "Grondwerk en keerconstructies"
+      },
+      {
+        "t": "p",
+        "c": "Het Kretenzische terrein is prachtig én steil. Terrassering, keermuren en drainage beschermen het gebouw en het landschap — en vormen vaak de grootste afzonderlijke post binnen het buitenwerk."
+      },
+      {
+        "t": "quote",
+        "c": "Het uitzicht verkoopt het perceel. De infrastructuur bepaalt of u er kunt wonen."
+      },
+      {
+        "t": "p",
+        "c": "Het infrastructuurteam van Modera realiseert grondwerk, wegen en nutsnetwerken voor onze eigen projecten en voor private en publieke opdrachtgevers op heel Kreta."
+      }
     ],
     "faq": [
-      { "q": "Mag ik op Kreta een eigen boorput gebruiken?", "a": "Voor een boorput is een vergunning nodig, en er gelden per gebied verschillende limieten voor het gebruik van grondwater. Controleer beschikbaarheid en waterkwaliteit vóór de aankoop." }
+      {
+        "q": "Mag ik op Kreta een eigen boorput gebruiken?",
+        "a": "Voor een boorput is een vergunning nodig, en er gelden per gebied verschillende limieten voor het gebruik van grondwater. Controleer beschikbaarheid en waterkwaliteit vóór de aankoop."
+      }
     ]
   },
   {
@@ -214,23 +556,59 @@
     "category": "management",
     "date": "2026-07-08",
     "readTime": 6,
-    "image": "site-engineer",
+    "image": "site-sivan",
     "author": "Georgios Tsakiris",
     "title": "Waarom een bouwheervertegenwoordiger geld bespaart bij bouwprojecten in Griekenland",
     "description": "Wat een bouwheervertegenwoordiger doet, wanneer u er een nodig heeft en hoe onafhankelijk bouwtoezicht kwaliteit, kosten en planning beschermt.",
     "body": [
-      { "t": "p", "c": "Veel eigenaren, zeker wie in het buitenland woont, schakelen een aannemer in en hopen op het beste. Een bouwheervertegenwoordiger verandert die verhouding: een ervaren bouwprofessional die aan uw kant van de tafel zit en erop toeziet dat het contract wordt uitgevoerd zoals afgesproken." },
-      { "t": "h2", "c": "Wat een bouwheervertegenwoordiger doet" },
-      { "t": "ul", "c": ["Beoordeelt contracten, bestekken en begrotingen vóór ondertekening", "Controleert of het uitgevoerde werk overeenkomt met wat wordt gefactureerd, voordat betalingen worden vrijgegeven", "Keurt de kwaliteit in cruciale fasen: fundering, wapening, waterdichting, installaties", "Bewaakt de planning en signaleert vertragingen vroegtijdig", "Beheert meer- en minderwerk en legt beslissingen schriftelijk vast"] },
-      { "t": "h2", "c": "Waar de besparingen vandaan komen" },
-      { "t": "p", "c": "De grootste besparingen komen zelden uit prijsonderhandelingen. Ze komen uit het voorkomen van problemen: betalen voor werk dat nog niet is uitgevoerd, gebreken accepteren die later duur zijn om te herstellen, of meerwerk goedkeuren zonder de kosten ervan te overzien." },
-      { "t": "chart", "c": "split" },
-      { "t": "h2", "c": "Wanneer schakelt u er een in?" },
-      { "t": "p", "c": "Bij voorkeur vóór de ondertekening van het bouwcontract. Het contract is uw sterkste instrument; een vertegenwoordiger zorgt ervoor dat het een heldere scope, aan voortgang gekoppelde betalingstermijnen, een inhouding en garantieverplichtingen bevat." },
-      { "t": "quote", "c": "U zou nooit een contract tekenen in een taal die u niet kunt lezen. Een bouwcontract is een taal op zich." }
+      {
+        "t": "p",
+        "c": "Veel eigenaren, zeker wie in het buitenland woont, schakelen een aannemer in en hopen op het beste. Een bouwheervertegenwoordiger verandert die verhouding: een ervaren bouwprofessional die aan uw kant van de tafel zit en erop toeziet dat het contract wordt uitgevoerd zoals afgesproken."
+      },
+      {
+        "t": "h2",
+        "c": "Wat een bouwheervertegenwoordiger doet"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Beoordeelt contracten, bestekken en begrotingen vóór ondertekening",
+          "Controleert of het uitgevoerde werk overeenkomt met wat wordt gefactureerd, voordat betalingen worden vrijgegeven",
+          "Keurt de kwaliteit in cruciale fasen: fundering, wapening, waterdichting, installaties",
+          "Bewaakt de planning en signaleert vertragingen vroegtijdig",
+          "Beheert meer- en minderwerk en legt beslissingen schriftelijk vast"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Waar de besparingen vandaan komen"
+      },
+      {
+        "t": "p",
+        "c": "De grootste besparingen komen zelden uit prijsonderhandelingen. Ze komen uit het voorkomen van problemen: betalen voor werk dat nog niet is uitgevoerd, gebreken accepteren die later duur zijn om te herstellen, of meerwerk goedkeuren zonder de kosten ervan te overzien."
+      },
+      {
+        "t": "chart",
+        "c": "split"
+      },
+      {
+        "t": "h2",
+        "c": "Wanneer schakelt u er een in?"
+      },
+      {
+        "t": "p",
+        "c": "Bij voorkeur vóór de ondertekening van het bouwcontract. Het contract is uw sterkste instrument; een vertegenwoordiger zorgt ervoor dat het een heldere scope, aan voortgang gekoppelde betalingstermijnen, een inhouding en garantieverplichtingen bevat."
+      },
+      {
+        "t": "quote",
+        "c": "U zou nooit een contract tekenen in een taal die u niet kunt lezen. Een bouwcontract is een taal op zich."
+      }
     ],
     "faq": [
-      { "q": "Is een bouwheervertegenwoordiger hetzelfde als de toezichthoudend ingenieur?", "a": "Niet precies. De toezichthoudend ingenieur heeft wettelijke taken op grond van de vergunning. Een bouwheervertegenwoordiger richt zich op uw commerciële belangen — kosten, kwaliteit en tijd — en kan naast de toezichthoudend ingenieur werken." }
+      {
+        "q": "Is een bouwheervertegenwoordiger hetzelfde als de toezichthoudend ingenieur?",
+        "a": "Niet precies. De toezichthoudend ingenieur heeft wettelijke taken op grond van de vergunning. Een bouwheervertegenwoordiger richt zich op uw commerciële belangen — kosten, kwaliteit en tijd — en kan naast de toezichthoudend ingenieur werken."
+      }
     ]
   },
   {
@@ -238,24 +616,62 @@
     "category": "sustainability",
     "date": "2026-06-24",
     "readTime": 6,
-    "image": "solar-roof",
+    "image": "eco-villas-rock",
     "author": "Nikos Kalogerakis",
     "title": "Duurzaam bouwen in een mediterraan klimaat: comfort, efficiëntie en waarde",
     "description": "Energiezuinige woningen en hotels op Kreta ontwerpen en bouwen: oriëntatie, zonwering, isolatie, warmtepompen en zonne-energie — conform de Griekse NZEB-eisen.",
     "body": [
-      { "t": "p", "c": "Op Kreta is niet de winterkou de uitdaging, maar de zomerhitte en de felle zon. Duurzame gebouwen worden hier ontworpen om warmte buiten te houden, de bries binnen te laten en hun eigen energie op te wekken — met lagere exploitatiekosten, meer comfort en een hogere waarde op lange termijn." },
-      { "t": "h2", "c": "Ontwerp vóór techniek" },
-      { "t": "ul", "c": ["Een oriëntatie die glas op het westen beperkt", "Diepe overstekken, pergola’s en luiken voor zonwering", "Dwarsventilatie en nachtkoeling", "Thermische massa van natuursteen en beton, beschermd door buitenisolatie"] },
-      { "t": "h2", "c": "Regelgeving: bijna-energieneutrale gebouwen" },
-      { "t": "p", "c": "Nieuwe gebouwen in Griekenland moeten voldoen aan de eisen voor bijna-energieneutrale gebouwen (NZEB) volgens de nationale energieprestatieregelgeving, KENAK. Bij oplevering wordt een energieprestatiecertificaat afgegeven. Goed ontworpen projecten op Kreta kunnen kosteneffectief de hoogste energieklassen bereiken." },
-      { "t": "h2", "c": "Systemen die zichzelf terugverdienen" },
-      { "t": "p", "c": "Lucht-waterwarmtepompen, hoogrendementsglas, zonnepanelen op het dak en zonneboilers zijn inmiddels standaard in onze premiumprojecten. Bij hotels bieden warmteterugwinning en strategieën voor zwembadverwarming een van de snelste terugverdientijden." },
-      { "t": "h2", "c": "Water als ontwerpprioriteit" },
-      { "t": "p", "c": "Regenwateropvang, hergebruik van grijswater voor irrigatie en droogtebestendige Kretenzische beplanting verminderen de vraag naar een steeds kostbaardere hulpbron." },
-      { "t": "quote", "c": "Het duurzaamste kilowattuur is het kilowattuur dat het gebouw nooit nodig heeft." }
+      {
+        "t": "p",
+        "c": "Op Kreta is niet de winterkou de uitdaging, maar de zomerhitte en de felle zon. Duurzame gebouwen worden hier ontworpen om warmte buiten te houden, de bries binnen te laten en hun eigen energie op te wekken — met lagere exploitatiekosten, meer comfort en een hogere waarde op lange termijn."
+      },
+      {
+        "t": "h2",
+        "c": "Ontwerp vóór techniek"
+      },
+      {
+        "t": "ul",
+        "c": [
+          "Een oriëntatie die glas op het westen beperkt",
+          "Diepe overstekken, pergola’s en luiken voor zonwering",
+          "Dwarsventilatie en nachtkoeling",
+          "Thermische massa van natuursteen en beton, beschermd door buitenisolatie"
+        ]
+      },
+      {
+        "t": "h2",
+        "c": "Regelgeving: bijna-energieneutrale gebouwen"
+      },
+      {
+        "t": "p",
+        "c": "Nieuwe gebouwen in Griekenland moeten voldoen aan de eisen voor bijna-energieneutrale gebouwen (NZEB) volgens de nationale energieprestatieregelgeving, KENAK. Bij oplevering wordt een energieprestatiecertificaat afgegeven. Goed ontworpen projecten op Kreta kunnen kosteneffectief de hoogste energieklassen bereiken."
+      },
+      {
+        "t": "h2",
+        "c": "Systemen die zichzelf terugverdienen"
+      },
+      {
+        "t": "p",
+        "c": "Lucht-waterwarmtepompen, hoogrendementsglas, zonnepanelen op het dak en zonneboilers zijn inmiddels standaard in onze premiumprojecten. Bij hotels bieden warmteterugwinning en strategieën voor zwembadverwarming een van de snelste terugverdientijden."
+      },
+      {
+        "t": "h2",
+        "c": "Water als ontwerpprioriteit"
+      },
+      {
+        "t": "p",
+        "c": "Regenwateropvang, hergebruik van grijswater voor irrigatie en droogtebestendige Kretenzische beplanting verminderen de vraag naar een steeds kostbaardere hulpbron."
+      },
+      {
+        "t": "quote",
+        "c": "Het duurzaamste kilowattuur is het kilowattuur dat het gebouw nooit nodig heeft."
+      }
     ],
     "faq": [
-      { "q": "Is duurzaam ontwerp duurder?", "a": "Passieve maatregelen zoals oriëntatie en zonwering kosten weinig als ze vroeg worden ingepland. Actieve systemen vragen een hogere investering vooraf, maar verdienen zich doorgaans terug via lagere energierekeningen en een hogere vastgoedwaarde." }
+      {
+        "q": "Is duurzaam ontwerp duurder?",
+        "a": "Passieve maatregelen zoals oriëntatie en zonwering kosten weinig als ze vroeg worden ingepland. Actieve systemen vragen een hogere investering vooraf, maar verdienen zich doorgaans terug via lagere energierekeningen en een hogere vastgoedwaarde."
+      }
     ]
   }
 ]
