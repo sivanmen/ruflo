@@ -141,25 +141,26 @@ export function teamLd(t) {
   return t.team.members.map((m) => ({ '@type': 'Person', name: m.name, jobTitle: m.role, worksFor: { '@id': `${SITE.domain}/#organization` } }));
 }
 
-export function contactBody(t, lang) {
+export function contactBody(t, L, lang) {
   const f = t.contact.form;
   const opt = (list) => list.map((o) => `<option>${esc(o)}</option>`).join('');
-  const field = (name, label, type = 'text', req = true, extra = '') => `<label class="field"><span>${esc(label)}${req ? ' *' : ''}</span><input name="${name}" type="${type}" ${req ? 'required' : ''} ${extra}></label>`;
-  const select = (name, label, list) => `<label class="field"><span>${esc(label)}</span><select name="${name}"><option value=""></option>${opt(list)}</select></label>`;
+  const field = (name, label, type = 'text', req = true, extra = '') => `<div class="field"><label for="f-${name}">${esc(label)}${req ? ' <span aria-hidden="true">*</span>' : ''}</label><input id="f-${name}" name="${name}" type="${type}" ${req ? 'required aria-required="true"' : ''} aria-describedby="f-${name}-err" ${extra}><span class="field-err" id="f-${name}-err"></span></div>`;
+  const select = (name, label, list) => `<div class="field"><label for="f-${name}">${esc(label)}</label><select id="f-${name}" name="${name}"><option value=""></option>${opt(list)}</select></div>`;
   return `<section class="section contact-sec"><div class="container contact-grid">
-    <form class="form glass" data-form action="${SITE.formEndpoint}" method="POST" novalidate>
-      <input type="hidden" name="_subject" value="New enquiry — modera-group.com (${lang.toUpperCase()})">
-      <input type="hidden" name="_template" value="table">
+    <form class="form glass" data-form action="${SITE.formEndpoint}" method="POST" novalidate data-msg-required="${esc(L.form.required)}" data-msg-email="${esc(L.form.email)}" data-msg-consent="${esc(L.form.consentRequired)}">
       <input type="hidden" name="language" value="${lang}">
+      <input type="hidden" name="notice_version" value="${esc(L.privacy.updated)}">
       <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
       <div class="form-row">${field('name', f.name, 'text', true, 'autocomplete="name"')}${field('email', f.email, 'email', true, 'autocomplete="email"')}</div>
       <div class="form-row">${field('phone', f.phone, 'tel', false, 'autocomplete="tel"')}${field('country', f.country, 'text', false, 'autocomplete="country-name"')}</div>
       <div class="form-row">${select('project_type', f.type, f.types)}${select('service', f.service, f.services)}</div>
       <div class="form-row">${select('budget', f.budget, f.budgets)}${select('stage', f.stage, f.stages)}</div>
-      <label class="field"><span>${esc(f.message)}</span><textarea name="message" rows="5"></textarea></label>
-      <label class="consent"><input type="checkbox" name="consent" required> <span>${esc(f.consent)} <a href="${href(lang, 'privacy')}">→</a></span></label>
+      <div class="field"><label for="f-message">${esc(f.message)}</label><textarea id="f-message" name="message" rows="5" maxlength="4000"></textarea></div>
+      <p class="form-notice">${esc(L.form.notice)} <a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a></p>
+      <div class="consent-row"><input type="checkbox" id="f-consent" name="consent" value="yes" required aria-required="true" aria-describedby="f-consent-err"><label for="f-consent">${esc(f.consent)} <span aria-hidden="true">*</span></label><span class="field-err" id="f-consent-err"></span></div>
+      <div class="consent-row"><input type="checkbox" id="f-marketing" name="marketing" value="yes"><label for="f-marketing">${esc(L.form.marketing)}</label></div>
       <button class="btn btn-ink btn-block magnetic" type="submit" data-sending="${esc(f.sending)}">${esc(f.submit)} ${icon('arrow')}</button>
-      <p class="form-status" role="status" aria-live="polite" data-ok="${esc(f.success)}" data-err="${esc(f.error)}"></p>
+      <p class="form-status" tabindex="-1" role="status" aria-live="polite" data-ok="${esc(f.success)}" data-err="${esc(f.error)}"></p>
     </form>
     <aside class="contact-aside">
       <h2 class="h3">${esc(t.contact.details)}</h2>
@@ -170,7 +171,15 @@ export function contactBody(t, lang) {
       <p class="tax">${esc(t.common.taxNo)} ${SITE.taxNo}</p>
     </aside>
   </div></section>
-  <section class="map-sec"><div class="map" data-map="https://www.google.com/maps?q=${encodeURIComponent(SITE.mapQuery)}&output=embed" data-title="${esc(t.contact.mapTitle)}"></div></section>`;
+  <section class="map-sec" aria-label="${esc(t.contact.mapTitle)}"><div class="map" data-map="https://www.google.com/maps?q=${encodeURIComponent(SITE.mapQuery)}&output=embed" data-title="${esc(t.contact.mapTitle)}">
+    <div class="map-gate">
+      ${icon('pin', 'i map-pin')}
+      <h2 class="h3">${esc(L.consent.map.title)}</h2>
+      <p>${esc(L.consent.map.text)}</p>
+      <p class="map-address">${SITE.address.street}, ${SITE.address.postalCode} ${SITE.address.city}, ${SITE.address.region}</p>
+      <div class="hero-cta center"><button class="btn btn-ink btn-sm" type="button" data-map-load>${esc(L.consent.map.button)}</button><a class="btn btn-ghost btn-sm" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(SITE.mapQuery)}" target="_blank" rel="noopener">${esc(L.consent.map.open)}</a></div>
+    </div>
+  </div></section>`;
 }
 
 export function creditsBody(t, credits) {
@@ -178,10 +187,6 @@ export function creditsBody(t, credits) {
     <p>${esc(t.credits.intro)}</p>
     <table class="credits"><tbody>${credits.map((c) => `<tr><td>${esc(c.title)}</td><td>${esc(c.creator)}</td><td>${esc(c.license)}</td><td><a href="${esc(c.source)}" rel="nofollow noopener" target="_blank">Source</a></td></tr>`).join('')}</tbody></table>
   </div></section>`;
-}
-
-export function privacyBody(t) {
-  return `<section class="section"><div class="container narrow prose">${t.privacy.paragraphs.map((p) => `<p>${esc(p)}</p>`).join('')}</div></section>`;
 }
 
 export function notFoundBody(t, lang) {

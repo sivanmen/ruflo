@@ -3,7 +3,10 @@
   'use strict';
   const $ = (s, c = document) => c.querySelector(s);
   const $$ = (s, c = document) => [...c.querySelectorAll(s)];
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const sysReduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // System setting OR the on-site accessibility toggle.
+  const reduce = () => sysReduce || document.documentElement.classList.contains('a11y-motion');
+  const consent = (cat) => !!(window.ModeraConsent && window.ModeraConsent.has(cat));
   const desktop = () => matchMedia('(min-width: 901px)').matches;
   const finePointer = matchMedia('(pointer: fine)').matches;
   const root = document.documentElement;
@@ -25,11 +28,12 @@
       const goingDown = y > lastY && y > 400;
       header.classList.toggle('is-hidden', goingDown && !document.body.classList.contains('menu-open'));
     }
-    if (hero && desktop() && !reduce) {
+    if (hero && reduce()) hero.style.setProperty('--p', '0');
+    if (hero && desktop() && !reduce()) {
       const p = Math.min(1, Math.max(0, y / (hero.offsetHeight - innerHeight)));
       hero.style.setProperty('--p', p.toFixed(4));
     }
-    if (!reduce) {
+    if (!reduce()) {
       for (const el of parallax) {
         const r = el.getBoundingClientRect();
         if (r.bottom < -200 || r.top > innerHeight + 200) continue;
@@ -58,7 +62,7 @@
       if (!e.isIntersecting) continue;
       countIO.unobserve(e.target);
       const end = +e.target.dataset.count;
-      if (reduce || end < 2) continue;
+      if (reduce() || end < 2) continue;
       const t0 = performance.now();
       const dur = 1600;
       const step = (t) => {
@@ -108,10 +112,30 @@
   const vio = new IntersectionObserver((entries) => {
     for (const e of entries) {
       const v = e.target;
-      if (e.isIntersecting && !reduce) { v.preload = 'auto'; v.play().catch(() => {}); } else v.pause();
+      if (e.isIntersecting && !reduce() && !v.dataset.userPaused) { v.preload = 'auto'; v.play().catch(() => {}); } else v.pause();
     }
   }, { threshold: 0.15 });
-  $$('video').forEach((v) => { if (reduce) v.removeAttribute('autoplay'); vio.observe(v); });
+  $$('video').forEach((v) => { if (reduce()) v.removeAttribute('autoplay'); vio.observe(v); });
+  // Pause / play controls (WCAG 2.2.2 — moving content can be paused).
+  const syncToggle = (btn, v) => {
+    const playing = !v.paused;
+    btn.setAttribute('aria-pressed', String(!playing));
+    btn.setAttribute('aria-label', playing ? btn.dataset.pause : btn.dataset.play);
+    btn.classList.toggle('is-paused', !playing);
+  };
+  $$('[data-video-toggle]').forEach((btn) => {
+    const v = btn.parentElement.querySelector('video');
+    if (!v) return;
+    ['play', 'pause'].forEach((ev) => v.addEventListener(ev, () => syncToggle(btn, v)));
+    btn.addEventListener('click', () => {
+      if (v.paused) { v.removeAttribute('data-user-paused'); v.play().catch(() => {}); } else { v.dataset.userPaused = '1'; v.pause(); }
+    });
+    syncToggle(btn, v);
+  });
+  document.addEventListener('modera:a11y', () => {
+    if (reduce()) $$('video').forEach((v) => v.pause());
+    onScroll();
+  });
 
   /* ---------- Drag-to-scroll rails ---------- */
   $$('[data-drag]').forEach((rail) => {
@@ -163,26 +187,38 @@
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
   }
   $$('a[hreflang]').forEach((a) => a.addEventListener('click', () => {
+    if (!consent('preferences')) return;
     try { localStorage.setItem('modera-lang', a.getAttribute('hreflang')); } catch (_) { /* storage unavailable */ }
   }));
 
-  /* ---------- Mobile menu ---------- */
+  /* ---------- Mobile menu (modal dialog: focus moves in, is trapped, and returns) ---------- */
   const burger = $('[data-burger]');
   const menu = $('[data-mobile-menu]');
   if (burger && menu) {
+    const focusables = () => $$('a, button', menu).filter((el) => !el.hidden);
     const toggle = (open) => {
       document.body.classList.toggle('menu-open', open);
       burger.setAttribute('aria-expanded', String(open));
       menu.hidden = !open;
       document.body.style.overflow = open ? 'hidden' : '';
+      if (open) focusables()[0]?.focus(); else burger.focus();
     };
     burger.addEventListener('click', () => toggle(menu.hidden));
     $$('a', menu).forEach((a) => a.addEventListener('click', () => toggle(false)));
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !menu.hidden) toggle(false); });
+    document.addEventListener('keydown', (e) => {
+      if (menu.hidden) return;
+      if (e.key === 'Escape') { toggle(false); return; }
+      if (e.key !== 'Tab') return;
+      const items = [burger, ...focusables()];
+      const i = items.indexOf(document.activeElement);
+      const next = e.shiftKey ? (i <= 0 ? items.length - 1 : i - 1) : (i === items.length - 1 ? 0 : i + 1);
+      e.preventDefault();
+      items[next].focus();
+    });
   }
 
   /* ---------- Magnetic buttons ---------- */
-  if (finePointer && !reduce) {
+  if (finePointer && !reduce()) {
     $$('.magnetic').forEach((el) => {
       el.addEventListener('pointermove', (e) => {
         const r = el.getBoundingClientRect();
@@ -195,7 +231,7 @@
   }
 
   /* ---------- Active anchors (sub-nav, tabs, TOC) ---------- */
-  const anchorBars = $$('.sub-nav, .tabs, .toc');
+  const anchorBars = $$('.sub-nav, .tabs, .toc, .legal-toc');
   if (anchorBars.length) {
     const links = anchorBars.flatMap((b) => $$('a[href^="#"]', b));
     const targets = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean);
@@ -208,42 +244,62 @@
     targets.forEach((t) => aio.observe(t));
   }
 
-  /* ---------- Lazy map ---------- */
+  /* ---------- Map: never loaded without consent ---------- */
   const map = $('[data-map]');
   if (map) {
-    const mio = new IntersectionObserver(([e]) => {
-      if (!e.isIntersecting) return;
-      mio.disconnect();
+    const gate = $('.map-gate', map);
+    const load = () => {
+      if ($('iframe', map)) return;
       const f = document.createElement('iframe');
-      f.src = map.dataset.map; f.title = map.dataset.title; f.loading = 'lazy'; f.referrerPolicy = 'no-referrer-when-downgrade';
+      f.src = map.dataset.map; f.title = map.dataset.title; f.loading = 'lazy'; f.referrerPolicy = 'strict-origin-when-cross-origin';
       map.appendChild(f);
-    }, { rootMargin: '300px' });
-    mio.observe(map);
+      if (gate) gate.hidden = true;
+    };
+    const unload = () => { $('iframe', map)?.remove(); if (gate) gate.hidden = false; };
+    $('[data-map-load]', map)?.addEventListener('click', load);
+    if (consent('media')) load();
+    window.ModeraConsent?.onChange(() => (consent('media') ? load() : unload()));
   }
 
-  /* ---------- Contact form (FormSubmit AJAX) ---------- */
+  /* ---------- Contact form (self-hosted endpoint, accessible validation) ---------- */
   const form = $('[data-form]');
   if (form) {
     const status = $('.form-status', form);
     const btn = $('button[type="submit"]', form);
+    const opened = Date.now();
+    const setErr = (input, msg) => {
+      const err = document.getElementById(`${input.id}-err`);
+      input.setAttribute('aria-invalid', msg ? 'true' : 'false');
+      if (err) err.textContent = msg || '';
+    };
+    const check = (input) => {
+      if (input.validity.valueMissing) return input.type === 'checkbox' ? form.dataset.msgConsent : form.dataset.msgRequired;
+      if (input.validity.typeMismatch) return form.dataset.msgEmail;
+      return '';
+    };
+    $$('input[required]', form).forEach((inp) => inp.addEventListener('blur', () => { if (inp.value || inp.type === 'checkbox') setErr(inp, check(inp)); }));
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      if (!form.checkValidity()) { form.reportValidity(); return; }
-      if (form._honey.value) return;
+      const invalid = $$('input[required]', form).map((inp) => { const m = check(inp); setErr(inp, m); return m ? inp : null; }).filter(Boolean);
+      if (invalid.length) { invalid[0].focus(); return; }
+      if (form._honey && form._honey.value) return;
       const label = btn.innerHTML;
       btn.disabled = true; btn.textContent = btn.dataset.sending;
       status.className = 'form-status'; status.textContent = '';
       try {
         const data = Object.fromEntries(new FormData(form));
-        delete data._honey;
+        data._t = String(opened);
+        data.page = location.pathname;
         const res = await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) });
-        if (!res.ok) throw new Error(String(res.status));
+        const json = await res.json().catch(() => ({}));
+        if (!res.ok || !json.ok) throw new Error(String(res.status));
         form.reset();
         status.classList.add('is-ok'); status.textContent = status.dataset.ok;
       } catch (_) {
         status.classList.add('is-err'); status.textContent = status.dataset.err;
       } finally {
         btn.disabled = false; btn.innerHTML = label;
+        status.focus();
       }
     });
   }

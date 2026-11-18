@@ -22,9 +22,12 @@ export const SITE = {
   geo: { lat: 35.5138, lng: 24.0180 },
   mapQuery: 'Plateia Eleftherias 2, 73132 Chania, Greece',
   foundingYearApprox: 2014,
-  // FormSubmit forwards the contact form to the mailbox below. The first submission
-  // triggers a one-time activation email to this address.
-  formEndpoint: 'https://formsubmit.co/ajax/support@modera-group.com',
+  // Contact form is handled on our own server (no third-party processor).
+  formEndpoint: '/contact.php',
+  // Who receives new enquiries by email. Every enquiry is ALSO stored on the server,
+  // so nothing is lost if mail delivery fails.
+  leadRecipients: ['support@modera-group.com'],
+  leadRetentionDays: 730,
 };
 
 /** Languages in display order. `default` is served as x-default. */
@@ -50,6 +53,9 @@ export const PAGES = [
   { key: 'contact', path: 'contact' },
   { key: 'credits', path: 'credits', noindex: false },
   { key: 'privacy', path: 'privacy' },
+  { key: 'cookies', path: 'cookies' },
+  { key: 'accessibility', path: 'accessibility' },
+  { key: 'terms', path: 'terms' },
 ];
 
 export const NAV = ['services', 'sectors', 'projects', 'about', 'team', 'insights'];
@@ -73,7 +79,7 @@ export const IMAGES = {
   gallery: ['hero-villa', 'resort-terraces', 'kitchen-island', 'stone-mansion', 'crane', 'interior-bright', 'cretan-bay', 'modern-mountain'],
   pageHero: {
     services: 'crane', sectors: 'resort-pool', projects: 'infinity-pool', about: 'chania-harbour',
-    team: 'survey', insights: 'olive-valley', contact: 'cretan-sea', credits: 'olive-tree', privacy: 'olive-tree',
+    team: 'survey', insights: 'olive-valley', contact: 'cretan-sea', credits: 'olive-tree', privacy: 'olive-tree', cookies: 'olive-valley', accessibility: 'cretan-bay', terms: 'stone-mansion',
   },
 };
 
@@ -87,4 +93,15 @@ export const CHARTS = {
   split: [24, 14, 20, 26, 11, 5],
   // International arrivals to Greece, millions (rounded; Bank of Greece / INSETE)
   arrivals: { years: [2019, 2020, 2021, 2022, 2023, 2024], values: [31.3, 7.4, 14.7, 27.8, 32.7, 35.9] },
+};
+
+/**
+ * Consent (GDPR / ePrivacy / Israeli Privacy Protection Law).
+ * Only categories listed here are shown in the consent dialog. Add 'analytics'
+ * (and wire the script with data-consent="analytics") only if statistics are introduced.
+ */
+export const CONSENT = {
+  version: 1, // bump to ask everyone again after material changes
+  maxAgeDays: 365,
+  categories: ['necessary', 'preferences', 'media'],
 };

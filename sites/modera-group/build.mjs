@@ -14,8 +14,9 @@ import { homeBody, faqLd } from './src/templates/home.mjs';
 import { insightsIndex, articleBody, articleLd } from './src/templates/insights.mjs';
 import {
   pageHero, servicesBody, servicesLd, sectorsBody, projectsBody, aboutBody,
-  teamBody, teamLd, contactBody, creditsBody, privacyBody, notFoundBody,
+  teamBody, teamLd, contactBody, creditsBody, notFoundBody,
 } from './src/templates/pages.mjs';
+import { legalBody } from './src/templates/legal.mjs';
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SRC = join(ROOT, 'src');
@@ -23,15 +24,16 @@ const OUT = join(ROOT, 'dist');
 const readJSON = (p) => JSON.parse(readFileSync(p, 'utf8'));
 
 const credits = readJSON(join(SRC, 'data/credits.json'));
-const en = { site: readJSON(join(SRC, 'content/en/site.json')), articles: readJSON(join(SRC, 'content/en/articles.json')) };
+const en = { site: readJSON(join(SRC, 'content/en/site.json')), articles: readJSON(join(SRC, 'content/en/articles.json')), legal: readJSON(join(SRC, 'content/en/legal.json')) };
 
 /** Load a language, falling back to English for any missing file. */
 function load(code) {
   const dir = join(SRC, 'content', code);
   const site = existsSync(join(dir, 'site.json')) ? readJSON(join(dir, 'site.json')) : null;
   const articles = existsSync(join(dir, 'articles.json')) ? readJSON(join(dir, 'articles.json')) : null;
-  if (!site || !articles) console.warn(`  ! ${code}: missing content, using English fallback`);
-  return { site: site || en.site, articles: (articles || en.articles).sort((a, b) => b.date.localeCompare(a.date)), complete: !!(site && articles) };
+  const legal = existsSync(join(dir, 'legal.json')) ? readJSON(join(dir, 'legal.json')) : null;
+  if (!site || !articles || !legal) console.warn(`  ! ${code}: missing content, using English fallback`);
+  return { site: site || en.site, legal: legal || en.legal, articles: (articles || en.articles).sort((a, b) => b.date.localeCompare(a.date)), complete: !!(site && articles && legal) };
 }
 
 const hasPhoto = (name) => existsSync(join(SRC, 'assets/img/team', `${name}.webp`));
@@ -48,13 +50,13 @@ const css = readdirSync(join(SRC, 'styles')).filter((f) => f.endsWith('.css')).s
 write(join(OUT, 'assets/css/main.css'), css);
 
 for (const L of LANGS) {
-  const { site: t, articles, complete } = load(L.code);
+  const { site: t, legal: Lx, articles, complete } = load(L.code);
   const lang = L.code;
 
   for (const P of PAGES) {
     const path = href(lang, P.path);
-    const meta = t.meta[P.key];
-    const trail = P.key === 'home' ? [] : [{ name: t.nav[P.key] || plain(meta.title).split('|')[0].trim(), path }];
+    const meta = Lx.meta[P.key] || t.meta[P.key];
+    const trail = P.key === 'home' ? [] : [{ name: t.nav[P.key] || Lx.nav[P.key] || plain(meta.title).split('|')[0].trim(), path }];
     const crumbs = breadcrumbs(t, lang, trail);
     const graph = [{ '@type': 'WebPage', url: abs(path), name: plain(meta.title), inLanguage: lang, isPartOf: { '@id': `${SITE.domain}/#website` } }];
     if (trail.length) graph.push(crumbs.ld);
@@ -62,20 +64,27 @@ for (const L of LANGS) {
     let body;
     let image = 'hero-villa';
     switch (P.key) {
-      case 'home': body = homeBody(t, lang, articles); graph.push(faqLd(t.home.faq)); break;
+      case 'home': body = homeBody(t, lang, articles, Lx); graph.push(faqLd(t.home.faq)); break;
       case 'services': body = pageHero(t.services.hero, 'services', crumbs.html) + servicesBody(t, lang); graph.push(servicesLd(t, lang)); image = 'crane'; break;
       case 'sectors': body = pageHero(t.sectors.hero, 'sectors', crumbs.html) + sectorsBody(t, lang); image = 'resort-pool'; break;
       case 'projects': body = pageHero(t.projects.hero, 'projects', crumbs.html) + projectsBody(t, lang); image = 'infinity-pool'; break;
       case 'about': body = pageHero(t.about.hero, 'about', crumbs.html) + aboutBody(t, lang); image = 'chania-harbour'; break;
       case 'team': body = pageHero(t.team.hero, 'team', crumbs.html) + teamBody(t, lang, hasPhoto); graph.push(...teamLd(t)); break;
       case 'insights': body = pageHero(t.insights.hero, 'insights', crumbs.html) + insightsIndex(t, lang, articles); break;
-      case 'contact': body = pageHero(t.contact.hero, 'contact', crumbs.html) + contactBody(t, lang); graph[0]['@type'] = 'ContactPage'; break;
+      case 'contact': body = pageHero(t.contact.hero, 'contact', crumbs.html) + contactBody(t, Lx, lang); graph[0]['@type'] = 'ContactPage'; break;
       case 'credits': body = pageHero({ eyebrow: '', title: t.credits.title, lead: '' }, 'credits', crumbs.html) + creditsBody(t, credits); break;
-      case 'privacy': body = pageHero({ eyebrow: '', title: t.privacy.title, lead: '' }, 'privacy', crumbs.html) + privacyBody(t); break;
+      case 'privacy':
+      case 'cookies':
+      case 'accessibility':
+      case 'terms': {
+        const doc = Lx[P.key];
+        body = pageHero({ eyebrow: Lx.nav.legal, title: doc.title, lead: '' }, P.key, crumbs.html) + legalBody(doc, Lx, lang, { cookieButton: P.key === 'cookies' });
+        break;
+      }
       default: throw new Error(`Unknown page ${P.key}`);
     }
     write(join(OUT, path, 'index.html'), page({
-      t, lang, key: P.key, title: meta.title, description: meta.description, path,
+      t, L: Lx, lang, key: P.key, title: meta.title, description: meta.description, path,
       alternates: alternatesFor(P.path), image, graph, body, bodyClass: P.key === 'home' ? 'has-hero' : 'has-phero',
     }));
     sitemap.push({ path: P.path, priority: P.key === 'home' ? '1.0' : P.key === 'credits' || P.key === 'privacy' ? '0.3' : '0.8' });
@@ -88,14 +97,14 @@ for (const L of LANGS) {
     const graph = [articleLd(a, t, lang), crumbs.ld];
     if (a.faq?.length) graph.push(faqLd(a.faq));
     write(join(OUT, path, 'index.html'), page({
-      t, lang, key: 'article', title: `${a.title} | ${SITE.name}`, description: a.description, path,
+      t, L: Lx, lang, key: 'article', title: `${a.title} | ${SITE.name}`, description: a.description, path,
       alternates: alternatesFor(p), image: a.image, graph, body: articleBody(a, t, lang, articles, crumbs.html), bodyClass: 'has-phero',
     }));
     if (lang === 'en') sitemap.push({ path: p, priority: '0.7', date: a.date });
   }
 
   write(join(OUT, lang, '404.html'), page({
-    t, lang, key: 'notfound', title: t.meta.notFound.title, description: t.meta.notFound.description,
+    t, L: Lx, lang, key: 'notfound', title: t.meta.notFound.title, description: t.meta.notFound.description,
     path: href(lang, '404'), alternates: alternatesFor('404'), body: notFoundBody(t, lang), noindex: true,
   }));
   console.log(`  ✓ ${lang}${complete ? '' : ' (fallback)'}`);
@@ -148,4 +157,8 @@ ${en.articles.map((a) => `- [${a.title}](${abs(href('en', `insights/${a.slug}`))
 `);
 
 writeFileSync(join(OUT, 'favicon.png'), readFileSync(join(SRC, 'assets/img/brand/favicon.png')));
+// Self-hosted contact handler, configured from site config.
+writeFileSync(join(OUT, 'contact.php'), readFileSync(join(SRC, 'server/contact.php'), 'utf8')
+  .replace('__RECIPIENTS__', JSON.stringify(SITE.leadRecipients).replace(/"/g, "'"))
+  .replace('__RETENTION_DAYS__', String(SITE.leadRetentionDays)));
 console.log(`Built ${new Set(sitemap.map((s) => s.path)).size} routes × ${LANGS.length} languages → dist/`);

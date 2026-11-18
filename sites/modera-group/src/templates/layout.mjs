@@ -1,4 +1,5 @@
-import { SITE, LANGS, NAV } from '../config/site.mjs';
+import { SITE, LANGS, NAV, CONSENT } from '../config/site.mjs';
+import { consentUI, a11yUI } from './legal.mjs';
 import { esc, plain, href, abs, icon, logo, langMeta } from './util.mjs';
 
 const ASSET_V = Date.now().toString(36);
@@ -63,9 +64,7 @@ function head({ t, lang, title, description, path, alternates, image, graph = []
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="/assets/img/brand/favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="/assets/img/brand/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Noto+Serif+Display:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap">
+  <script>try{var a=JSON.parse(localStorage.getItem('modera-a11y')||'{}'),c=document.documentElement.classList;if(a.size)c.add('a11y-size-'+a.size);['contrast','motion','links','readable','spacing','cursor'].forEach(function(k){if(a[k])c.add('a11y-'+k)})}catch(e){}</script>
   <link rel="stylesheet" href="/assets/css/main.css?v=${ASSET_V}">
   <script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
 </head>`;
@@ -90,16 +89,16 @@ function header(t, lang, active, alternates) {
     </div>
   </div>
 </header>
-<div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
+<div class="mobile-menu" id="mobile-menu" data-mobile-menu role="dialog" aria-modal="true" aria-label="${esc(t.nav.menu)}" hidden>
   <nav aria-label="Mobile">${['home', ...NAV, 'contact'].map((k, i) => `<a href="${href(lang, k === 'home' ? '' : k)}" style="--i:${i}">${esc(t.nav[k])}</a>`).join('')}</nav>
   <div class="mobile-langs">${LANGS.map((l) => `<a href="${alternates[l.code]}" hreflang="${l.code}"${l.code === lang ? ' aria-current="true"' : ''}>${l.short}</a>`).join('')}</div>
   <div class="mobile-contact"><a href="tel:${SITE.phone}">${icon('phone')} ${SITE.phoneDisplay}</a><a href="mailto:${SITE.email}">${icon('mail')} ${SITE.email}</a></div>
 </div>`;
 }
 
-function footer(t, lang) {
+function footer(t, L, lang) {
   const year = new Date().getFullYear();
-  const col = (title, keys) => `<div class="f-col"><h3>${esc(title)}</h3>${keys.map((k) => `<a href="${href(lang, k === 'home' ? '' : k)}">${esc(t.nav[k])}</a>`).join('')}</div>`;
+  const col = (title, keys) => `<div class="f-col"><h2>${esc(title)}</h2>${keys.map((k) => `<a href="${href(lang, k === 'home' ? '' : k)}">${esc(t.nav[k])}</a>`).join('')}</div>`;
   return `<footer class="site-footer">
   <div class="container">
     <div class="f-top">
@@ -111,7 +110,7 @@ function footer(t, lang) {
       ${col(t.footer.explore, ['services', 'sectors', 'projects', 'insights'])}
       ${col(t.footer.company, ['about', 'team', 'contact'])}
       <div class="f-col f-contact">
-        <h3>${esc(t.footer.contact)}</h3>
+        <h2>${esc(t.footer.contact)}</h2>
         <a href="tel:${SITE.phone}">${icon('phone')} ${SITE.phoneDisplay}</a>
         <a href="mailto:${SITE.email}">${icon('mail')} ${SITE.email}</a>
         <a href="${SITE.whatsapp}" rel="noopener" target="_blank">${icon('whatsapp')} WhatsApp</a>
@@ -121,7 +120,7 @@ function footer(t, lang) {
     <div class="f-giant" aria-hidden="true"><img src="/assets/img/brand/logo-light.webp" alt="" width="900" height="189" loading="lazy"></div>
     <div class="f-bottom">
       <p>© ${year} ${SITE.name}. ${esc(t.common.rights)} · ${esc(t.common.taxNo)} ${SITE.taxNo}</p>
-      <p class="f-legal"><a href="${href(lang, 'privacy')}">${esc(t.common.privacy)}</a><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></p>
+      <nav class="f-legal" aria-label="${esc(L.nav.legal)}"><a href="${href(lang, 'privacy')}">${esc(L.nav.privacy)}</a><a href="${href(lang, 'cookies')}">${esc(L.nav.cookies)}</a><a href="${href(lang, 'accessibility')}">${esc(L.nav.accessibility)}</a><a href="${href(lang, 'terms')}">${esc(L.nav.terms)}</a><button type="button" data-consent-open>${esc(L.nav.cookieSettings)}</button><a href="${href(lang, 'credits')}">${esc(t.common.credits)}</a></nav>
       <p class="f-disclaimer">${esc(t.footer.disclaimer)}</p>
     </div>
   </div>
@@ -147,16 +146,19 @@ export function breadcrumbs(t, lang, trail) {
 }
 
 /** Full HTML document. */
-export function page({ t, lang, key, title, description, path, alternates, image, graph, body, noindex, bodyClass = '' }) {
+export function page({ t, L, lang, key, title, description, path, alternates, image, graph, body, noindex, bodyClass = '' }) {
   return `<!doctype html>
 <html lang="${lang}" dir="ltr">
 ${head({ t, lang, title, description, path, alternates, image, graph, noindex })}
-<body class="page-${key} ${bodyClass}">
+<body class="page-${key} ${bodyClass}" data-consent-version="${CONSENT.version}" data-consent-max-age="${CONSENT.maxAgeDays}" data-consent-categories="${CONSENT.categories.join(',')}">
 ${header(t, lang, key, alternates)}
 <main id="main">
 ${body}
 </main>
-${footer(t, lang)}
+${footer(t, L, lang)}
+${consentUI(L, lang)}
+${a11yUI(L, lang)}
+<script src="/assets/js/privacy.js?v=${ASSET_V}" defer></script>
 <script src="/assets/js/main.js?v=${ASSET_V}" defer></script>
 </body>
 </html>`;

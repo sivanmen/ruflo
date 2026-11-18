@@ -5,7 +5,9 @@ import { articleCard } from './insights.mjs';
 
 const eyebrow = (s) => `<p class="eyebrow">${esc(s)}</p>`;
 
-function hero(t, lang) {
+const videoToggle = (L) => `<button class="video-toggle" type="button" data-video-toggle data-pause="${esc(L.a11y.pause)}" data-play="${esc(L.a11y.play)}" aria-label="${esc(L.a11y.pause)}"><svg class="i i-pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="5" width="3.5" height="14" rx="1" fill="currentColor"/><rect x="13.5" y="5" width="3.5" height="14" rx="1" fill="currentColor"/></svg><svg class="i i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z" fill="currentColor"/></svg></button>`;
+
+function hero(t, lang, L) {
   const h = t.home.hero;
   return `<section class="hero" data-hero>
   <div class="hero-sticky">
@@ -23,6 +25,7 @@ function hero(t, lang) {
       <video class="hero-media" autoplay muted loop playsinline preload="metadata" poster="/assets/video/modera-film-poster.webp" aria-hidden="true">
         <source src="/assets/video/modera-film.mp4" type="video/mp4">
       </video>
+      ${videoToggle(L)}
       <div class="hero-glass glass">
         <span class="pulse"></span><span>${esc(h.badge)}</span>
       </div>
@@ -122,12 +125,13 @@ function process(t) {
 </section>`;
 }
 
-function film(t) {
+function film(t, L) {
   const s = t.home.film;
   return `<section class="film" data-film>
   <video class="film-media" muted loop playsinline preload="none" poster="/assets/video/excavation-poster.webp" data-autoplay aria-hidden="true">
     <source src="/assets/video/excavation.mp4" type="video/mp4">
   </video>
+  ${videoToggle(L)}
   <div class="film-shade"></div>
   <div class="container film-copy">
     ${eyebrow(s.eyebrow)}
@@ -215,7 +219,7 @@ export function ctaBand(t, lang) {
 </section>`;
 }
 
-export function homeBody(t, lang, articles) {
+export function homeBody(t, lang, articles, L) {
   const faq = `<section class="section faq-sec"><div class="container narrow"><div class="section-head"><h2 class="h2">${esc(t.common.faqTitle)}</h2></div>${faqBlock(t, t.home.faq)}</div></section>`;
-  return [hero(t, lang), stats(t), intro(t), services(t, lang), sectors(t, lang), process(t), film(t), charts(t, lang), compare(t), partners(t, lang), insights(t, lang, articles), faq, ctaBand(t, lang)].join('\n');
+  return [hero(t, lang, L), stats(t), intro(t), services(t, lang), sectors(t, lang), process(t), film(t, L), charts(t, lang), compare(t), partners(t, lang), insights(t, lang, articles), faq, ctaBand(t, lang)].join('\n');
 }

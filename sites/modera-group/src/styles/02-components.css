@@ -134,15 +134,17 @@ a:hover .link .i { transform: translateX(4px); }
 .f-top { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.4fr; gap: 40px; }
 .f-brand p { margin: 20px 0 28px; max-width: 34ch; }
 .f-col { display: flex; flex-direction: column; gap: 12px; font-size: var(--fs-sm); }
-.f-col h3 { font-size: var(--fs-xs); letter-spacing: 0.16em; text-transform: uppercase; color: var(--bronze); font-weight: 600; margin-bottom: 6px; }
+.f-col h2 { font-size: var(--fs-xs); letter-spacing: 0.16em; text-transform: uppercase; color: var(--bronze); font-weight: 600; margin-bottom: 6px; }
 .f-col a, .f-col address { display: flex; gap: 10px; align-items: flex-start; transition: color 0.2s; }
 .f-col a:hover { color: #fff; }
 .f-giant { margin: clamp(48px, 7vw, 96px) 0 0; opacity: 0.07; user-select: none; pointer-events: none; }
 .f-giant img { width: 100%; height: auto; }
 .f-bottom { display: flex; flex-wrap: wrap; gap: 12px 32px; justify-content: space-between; padding: 28px 0 40px; border-top: 1px solid rgba(255, 255, 255, 0.12); font-size: var(--fs-xs); margin-top: 24px; }
-.f-legal { display: flex; gap: 20px; }
+.f-legal { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.f-legal button { font-size: inherit; color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.f-legal button:hover { color: #fff; }
 .f-legal a:hover { color: #fff; }
-.f-disclaimer { width: 100%; color: rgba(255, 255, 255, 0.45); }
+.f-disclaimer { width: 100%; color: rgba(255, 255, 255, 0.62); }
 
 /* Cards: articles */
 .card-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
