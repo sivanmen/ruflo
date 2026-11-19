@@ -96,7 +96,9 @@
     "notice": "Wir verwenden Ihre Angaben ausschließlich zur Beantwortung Ihrer Anfrage. Die Angabe ist freiwillig, ohne Ihren Namen und Ihre E-Mail-Adresse können wir Ihnen jedoch nicht antworten. Sie können jederzeit Auskunft über Ihre Daten verlangen sowie deren Berichtigung oder Löschung.",
     "required": "Bitte füllen Sie dieses Feld aus.",
     "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
-    "consentRequired": "Bitte bestätigen Sie, dass Sie der Verarbeitung Ihrer Angaben zustimmen."
+    "consentRequired": "Bitte bestätigen Sie, dass Sie der Verarbeitung Ihrer Angaben zustimmen.",
+    "recaptcha": "Dieses Formular ist durch reCAPTCHA geschützt. Es gelten die <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung</a> und die <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">Nutzungsbedingungen</a> von Google.",
+    "spam": "Wir konnten diese Anfrage nicht automatisch verifizieren. Bitte versuchen Sie es gleich noch einmal oder schreiben Sie uns an support@modera-group.com bzw. per WhatsApp."
   },
   "privacy": {
     "title": "Datenschutzerklärung",
@@ -215,6 +217,7 @@
             "ul": [
               "<strong>Hosting-Anbieter</strong> – unsere Website, unser Kontaktformular und unser Postfach laufen auf Servern unseres Hosting-Anbieters Jetserver in Israel, der auf Grundlage eines Auftragsverarbeitungsvertrags als unser Auftragsverarbeiter tätig ist.",
               "<strong>Google</strong> – nur wenn Sie die Karte laden, erhält Google Ihre IP-Adresse und kann nach eigener Datenschutzerklärung Cookies setzen. Google LLC ist nach dem EU-US Data Privacy Framework zertifiziert.",
+              "<strong>Google reCAPTCHA</strong> — sobald Sie beginnen, das Kontaktformular auszufüllen, prüft Google reCAPTCHA, ob die Anfrage von einem Menschen und nicht von einem automatisierten Programm stammt. Google erhält dabei technische Daten wie Ihre IP-Adresse, Browser- und Interaktionsinformationen und kann ein Sicherheits-Cookie setzen. Rechtsgrundlage: unser berechtigtes Interesse am Schutz des Formulars vor Spam und Missbrauch (Art. 6 Abs. 1 lit. f DSGVO). Auf keiner anderen Seite wird reCAPTCHA geladen.",
               "<strong>Professionelle Berater und Partner</strong> – Rechtsanwälte, Steuerberater, Ingenieure oder unser strategischer Partner Sivan Invest Group, nur soweit für Ihr Projekt erforderlich und mit Ihrem Wissen.",
               "<strong>Behörden</strong> – soweit wir gesetzlich dazu verpflichtet sind, etwa gegenüber Steuerbehörden oder Gerichten."
             ]
@@ -350,6 +353,13 @@
                   "Google",
                   "Werden von Google erst gesetzt, nachdem Sie die Karte geladen haben; Verwendung durch Google gemäß dessen Datenschutzerklärung",
                   "Bis zu 13 Monate (von Google festgelegt)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Sicherheit (Kontaktformular)",
+                  "Google",
+                  "Wird von Google reCAPTCHA nur bei Nutzung des Kontaktformulars gesetzt, um es vor Spam und Bots zu schützen",
+                  "6 Monate (von Google festgelegt)"
                 ]
               ]
             }

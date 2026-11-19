@@ -33,6 +33,9 @@ export const SITE = {
   mailFrom: 'no-reply@modera-group.com',
   // Send the visitor a branded confirmation in their language.
   sendConfirmation: true,
+  // Google reCAPTCHA v3 (score-based). The site key is public; the SECRET key is injected
+  // at build/deploy time from MODERA_RECAPTCHA_SECRET and never committed.
+  recaptcha: { siteKey: '6Le-ziYuAAAAAHBWSdGev2zj7sGp4etOsznHvx3', action: 'contact', minScore: 0.5 },
 };
 
 /** Languages in display order. `default` is served as x-default. */

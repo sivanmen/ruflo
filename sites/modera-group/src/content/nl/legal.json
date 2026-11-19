@@ -96,7 +96,9 @@
     "notice": "We gebruiken de gegevens die u verstuurt uitsluitend om uw aanvraag te beantwoorden. Het verstrekken ervan is vrijwillig, maar zonder uw naam en e-mailadres kunnen we niet antwoorden. U kunt uw gegevens op elk moment inzien, corrigeren of laten verwijderen.",
     "required": "Vul dit veld in.",
     "email": "Voer een geldig e-mailadres in.",
-    "consentRequired": "Bevestig dat u akkoord gaat met de verwerking van uw gegevens."
+    "consentRequired": "Bevestig dat u akkoord gaat met de verwerking van uw gegevens.",
+    "recaptcha": "Dit formulier is beveiligd met reCAPTCHA. Het <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">privacybeleid</a> en de <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">servicevoorwaarden</a> van Google zijn van toepassing.",
+    "spam": "We konden deze inzending niet automatisch verifiëren. Probeer het zo opnieuw, of mail ons via support@modera-group.com of stuur een WhatsApp-bericht."
   },
   "privacy": {
     "title": "Privacybeleid",
@@ -215,6 +217,7 @@
             "ul": [
               "<strong>Hostingprovider</strong> — onze website, ons contactformulier en onze mailbox draaien op servers van onze hostingprovider Jetserver, gevestigd in Israël, die optreedt als onze verwerker op grond van een verwerkersovereenkomst.",
               "<strong>Google</strong> — alleen als u ervoor kiest de kaart te laden, ontvangt Google uw IP-adres en kan het cookies plaatsen volgens zijn eigen privacybeleid. Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework.",
+              "<strong>Google reCAPTCHA</strong> — zodra u het contactformulier begint in te vullen, controleert Google reCAPTCHA of de inzending van een mens komt en niet van een geautomatiseerd programma. Google ontvangt technische gegevens zoals uw IP-adres, browser- en interactiegegevens en kan een beveiligingscookie plaatsen. Rechtsgrond: ons gerechtvaardigd belang om het formulier te beschermen tegen spam en misbruik (art. 6 lid 1 sub f AVG). Op geen enkele andere pagina wordt reCAPTCHA geladen.",
               "<strong>Professionele adviseurs en partners</strong> — advocaten, accountants, ingenieurs of onze strategische partner Sivan Invest Group, alleen waar nodig voor uw project en met uw medeweten.",
               "<strong>Autoriteiten</strong> — wanneer we daartoe wettelijk verplicht zijn, bijvoorbeeld tegenover belastingautoriteiten of rechtbanken."
             ]
@@ -350,6 +353,13 @@
                   "Google",
                   "Alleen door Google geplaatst nadat u de kaart hebt geladen; door Google gebruikt zoals beschreven in zijn privacybeleid",
                   "Maximaal 13 maanden (ingesteld door Google)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Beveiliging (contactformulier)",
+                  "Google",
+                  "Wordt door Google reCAPTCHA alleen geplaatst wanneer u het contactformulier gebruikt, ter bescherming tegen spam en bots",
+                  "6 maanden (ingesteld door Google)"
                 ]
               ]
             }

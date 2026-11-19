@@ -96,7 +96,9 @@
     "notice": "Utilizamos los datos que nos envía únicamente para responder a su consulta. Facilitarlos es voluntario, pero no podemos responderle sin su nombre y su correo electrónico. Puede acceder a sus datos, rectificarlos o suprimirlos en cualquier momento.",
     "required": "Rellene este campo.",
     "email": "Introduzca una dirección de correo electrónico válida.",
-    "consentRequired": "Confirme que acepta el tratamiento de sus datos."
+    "consentRequired": "Confirme que acepta el tratamiento de sus datos.",
+    "recaptcha": "Este formulario está protegido por reCAPTCHA. Se aplican la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidad</a> y las <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">Condiciones del Servicio</a> de Google.",
+    "spam": "No hemos podido verificar este envío automáticamente. Vuelva a intentarlo en un momento o escríbanos a support@modera-group.com o por WhatsApp."
   },
   "privacy": {
     "title": "Política de privacidad",
@@ -215,6 +217,7 @@
             "ul": [
               "<strong>Proveedor de alojamiento</strong>: nuestro sitio web, el formulario de contacto y el buzón de correo funcionan en servidores de nuestro proveedor de alojamiento, Jetserver, ubicados en Israel, que actúa como encargado del tratamiento en virtud de un contrato de encargo del tratamiento.",
               "<strong>Google</strong>: solo si usted decide cargar el mapa, Google recibe su dirección IP y puede instalar cookies conforme a su propia política de privacidad. Google LLC está certificada en el Marco de Privacidad de Datos UE-EE. UU.",
+              "<strong>Google reCAPTCHA</strong> — cuando empieza a rellenar el formulario de contacto, Google reCAPTCHA comprueba que el envío procede de una persona y no de un programa automatizado. Google recibe datos técnicos como su dirección IP, información del navegador y de interacción, y puede instalar una cookie de seguridad. Base jurídica: nuestro interés legítimo en proteger el formulario frente al spam y el abuso (art. 6.1.f RGPD). No se carga en ninguna otra página.",
               "<strong>Asesores profesionales y socios</strong>: abogados, contables, ingenieros o nuestro socio estratégico Sivan Invest Group, solo cuando sea necesario para su proyecto y con su conocimiento.",
               "<strong>Autoridades</strong>: cuando estemos legalmente obligados a ello, por ejemplo, ante las autoridades tributarias o los tribunales."
             ]
@@ -350,6 +353,13 @@
                   "Google",
                   "Instaladas por Google solo después de que usted cargue el mapa; Google las utiliza según se describe en su política de privacidad",
                   "Hasta 13 meses (fijado por Google)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Seguridad (formulario de contacto)",
+                  "Google",
+                  "Instalada por Google reCAPTCHA solo cuando utiliza el formulario de contacto, para protegerlo frente a spam y bots",
+                  "6 meses (establecido por Google)"
                 ]
               ]
             }

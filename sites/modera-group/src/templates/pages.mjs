@@ -148,7 +148,7 @@ export function contactBody(t, L, lang, enForm) {
   const field = (name, label, type = 'text', req = true, extra = '') => `<div class="field"><label for="f-${name}">${esc(label)}${req ? ' <span aria-hidden="true">*</span>' : ''}</label><input id="f-${name}" name="${name}" type="${type}" ${req ? 'required aria-required="true"' : ''} aria-describedby="f-${name}-err" ${extra}><span class="field-err" id="f-${name}-err"></span></div>`;
   const select = (name, label, list, key) => `<div class="field"><label for="f-${name}">${esc(label)}</label><select id="f-${name}" name="${name}"><option value=""></option>${opt(list, key)}</select></div>`;
   return `<section class="section contact-sec"><div class="container contact-grid">
-    <form class="form glass" data-form action="${SITE.formEndpoint}" method="POST" novalidate data-msg-required="${esc(L.form.required)}" data-msg-email="${esc(L.form.email)}" data-msg-consent="${esc(L.form.consentRequired)}">
+    <form class="form glass" data-form action="${SITE.formEndpoint}" method="POST" novalidate data-msg-required="${esc(L.form.required)}" data-msg-email="${esc(L.form.email)}" data-msg-consent="${esc(L.form.consentRequired)}" data-msg-spam="${esc(L.form.spam)}"${SITE.recaptcha?.siteKey ? ` data-recaptcha-key="${SITE.recaptcha.siteKey}" data-recaptcha-action="${SITE.recaptcha.action}"` : ''}>
       <input type="hidden" name="language" value="${lang}">
       <input type="hidden" name="notice_version" value="${esc(L.privacy.updated)}">
       <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -161,6 +161,7 @@ export function contactBody(t, L, lang, enForm) {
       <div class="consent-row"><input type="checkbox" id="f-consent" name="consent" value="yes" required aria-required="true" aria-describedby="f-consent-err"><label for="f-consent">${esc(f.consent)} <span aria-hidden="true">*</span></label><span class="field-err" id="f-consent-err"></span></div>
       <div class="consent-row"><input type="checkbox" id="f-marketing" name="marketing" value="yes"><label for="f-marketing">${esc(L.form.marketing)}</label></div>
       <button class="btn btn-ink btn-block magnetic" type="submit" data-sending="${esc(f.sending)}">${esc(f.submit)} ${icon('arrow')}</button>
+      ${SITE.recaptcha?.siteKey ? `<p class="recaptcha-note">${L.form.recaptcha}</p>` : ''}
       <p class="form-status" tabindex="-1" role="status" aria-live="polite" data-ok="${esc(f.success)}" data-err="${esc(f.error)}"></p>
     </form>
     <aside class="contact-aside">

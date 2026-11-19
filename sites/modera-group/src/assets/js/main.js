@@ -267,6 +267,32 @@
     const status = $('.form-status', form);
     const btn = $('button[type="submit"]', form);
     const opened = Date.now();
+    // Google reCAPTCHA v3 — loaded only once the visitor starts using the form
+    // (no Google request on page load), then a score token is requested on submit.
+    const rcKey = form.dataset.recaptchaKey;
+    let rcReady = null;
+    const loadRecaptcha = () => {
+      if (!rcKey || rcReady) return rcReady;
+      rcReady = new Promise((resolve) => {
+        const s = document.createElement('script');
+        s.src = `https://www.google.com/recaptcha/enterprise.js?render=${encodeURIComponent(rcKey)}`;
+        s.async = true;
+        s.onload = () => window.grecaptcha?.enterprise?.ready(() => resolve(true));
+        s.onerror = () => resolve(false);
+        document.head.appendChild(s);
+      });
+      return rcReady;
+    };
+    const recaptchaToken = async () => {
+      if (!rcKey) return '';
+      const timeout = new Promise((r) => setTimeout(() => r(''), 6000));
+      const run = (async () => {
+        if (!(await loadRecaptcha())) return '';
+        try { return await window.grecaptcha.enterprise.execute(rcKey, { action: form.dataset.recaptchaAction || 'contact' }); } catch (_) { return ''; }
+      })();
+      return Promise.race([run, timeout]);
+    };
+    ['focusin', 'pointerdown'].forEach((ev) => form.addEventListener(ev, loadRecaptcha, { once: true }));
     const setErr = (input, msg) => {
       const err = document.getElementById(`${input.id}-err`);
       input.setAttribute('aria-invalid', msg ? 'true' : 'false');
@@ -289,16 +315,18 @@
       try {
         const data = Object.fromEntries(new FormData(form));
         data._t = String(opened);
+        data.recaptcha_token = await recaptchaToken();
         // Localised option text for the client's confirmation email (values stay English for the team).
         $$('select', form).forEach((sel) => { if (sel.value) data[`${sel.name}_label`] = sel.selectedOptions[0].text; });
         data.page = location.pathname;
         const res = await fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(data) });
         const json = await res.json().catch(() => ({}));
-        if (!res.ok || !json.ok) throw new Error(String(res.status));
+        if (!res.ok || !json.ok) throw new Error(json.error || String(res.status));
         form.reset();
         status.classList.add('is-ok'); status.textContent = status.dataset.ok;
-      } catch (_) {
-        status.classList.add('is-err'); status.textContent = status.dataset.err;
+      } catch (err) {
+        status.classList.add('is-err');
+        status.textContent = err && err.message === 'spam' ? form.dataset.msgSpam : status.dataset.err;
       } finally {
         btn.disabled = false; btn.innerHTML = label;
         status.focus();

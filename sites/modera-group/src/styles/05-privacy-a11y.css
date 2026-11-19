@@ -186,3 +186,8 @@ html.a11y-motion .hero-window { clip-path: inset(17vh var(--cl) 9vh var(--l) rou
 }
 .btn { max-width: 100%; }
 .legal-contact .btn, .contact-line { white-space: normal; overflow-wrap: anywhere; text-align: start; }
+
+/* reCAPTCHA: Google's badge is replaced by the in-form notice (permitted by Google's terms). */
+.grecaptcha-badge { visibility: hidden !important; }
+.recaptcha-note { font-size: var(--fs-xs); color: var(--muted); line-height: 1.5; }
+.recaptcha-note a { color: var(--bronze-ink); text-decoration: underline; text-underline-offset: 2px; }

@@ -96,7 +96,9 @@
     "notice": "We use the details you send only to answer your enquiry. Providing them is voluntary, but we cannot reply without your name and email. You can access, correct or delete your data at any time.",
     "required": "Please fill in this field.",
     "email": "Please enter a valid email address.",
-    "consentRequired": "Please confirm that you agree to the processing of your details."
+    "consentRequired": "Please confirm that you agree to the processing of your details.",
+    "recaptcha": "This form is protected by reCAPTCHA. The Google <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Privacy Policy</a> and <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">Terms of Service</a> apply.",
+    "spam": "We could not verify this submission automatically. Please try again in a moment, or email us at support@modera-group.com or message us on WhatsApp."
   },
   "privacy": {
     "title": "Privacy policy",
@@ -215,6 +217,7 @@
             "ul": [
               "<strong>Hosting provider</strong> — our website, contact form and mailbox run on servers of our hosting provider, Jetserver, located in Israel, acting as our processor under a data-processing agreement.",
               "<strong>Google</strong> — only if you choose to load the map, Google receives your IP address and may set cookies under its own privacy policy. Google LLC is certified under the EU–US Data Privacy Framework.",
+              "<strong>Google reCAPTCHA</strong> — when you start filling in the contact form, Google reCAPTCHA checks that the submission comes from a person and not an automated program. Google receives technical data such as your IP address, browser and interaction information, and may set a security cookie. Legal basis: our legitimate interest in protecting the form against spam and abuse (Art. 6(1)(f) GDPR). It is not loaded on any other page.",
               "<strong>Professional advisers and partners</strong> — lawyers, accountants, engineers or our strategic partner Sivan Invest Group, only where needed for your project and with your knowledge.",
               "<strong>Authorities</strong> — where we are legally required to, for example tax authorities or courts."
             ]
@@ -350,6 +353,13 @@
                   "Google",
                   "Set by Google only after you load the map; used by Google as described in its privacy policy",
                   "Up to 13 months (set by Google)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Security (contact form)",
+                  "Google",
+                  "Set by Google reCAPTCHA only when you use the contact form, to protect it against spam and bots",
+                  "6 months (set by Google)"
                 ]
               ]
             }

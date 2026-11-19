@@ -17,6 +17,9 @@ const MAIL_FROM = '__MAIL_FROM__';
 const MAIL_FROM_NAME = 'Modera Group';
 const AUTOREPLY_TO = '__AUTOREPLY_TO__';
 const SEND_CONFIRMATION = __SEND_CONFIRMATION__;
+const RECAPTCHA_SECRET = __RECAPTCHA_SECRET__;
+const RECAPTCHA_ACTION = '__RECAPTCHA_ACTION__';
+const RECAPTCHA_MIN_SCORE = __RECAPTCHA_MIN_SCORE__;
 const SITE_URL = 'https://modera-group.com';
 const SITE_PHONE = '__PHONE__';
 const SITE_PHONE_DISPLAY = '__PHONE_DISPLAY__';
@@ -54,6 +57,42 @@ function purge(string $store): int
     }
     return $removed;
 }
+/**
+ * Google reCAPTCHA v3 verification (score-based).
+ * rejected  → low score, wrong action/host or invalid token: the enquiry is refused.
+ * passed    → human-like score.
+ * no-token / unavailable / misconfigured / disabled → accepted but flagged in the
+ *   enquiry (visitors who block Google can still reach us; honeypot, time trap and
+ *   rate limit still apply).
+ */
+function recaptcha_check(string $token): array
+{
+    if (RECAPTCHA_SECRET === '') return ['status' => 'disabled'];
+    if ($token === '') return ['status' => 'no-token'];
+    $body = http_build_query(['secret' => RECAPTCHA_SECRET, 'response' => $token]);
+    $raw = false;
+    if (function_exists('curl_init')) {
+        $ch = curl_init('https://www.google.com/recaptcha/api/siteverify');
+        curl_setopt_array($ch, [CURLOPT_POST => true, CURLOPT_POSTFIELDS => $body, CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 6]);
+        $raw = curl_exec($ch);
+        curl_close($ch);
+    } else {
+        $ctx = stream_context_create(['http' => ['method' => 'POST', 'header' => "Content-Type: application/x-www-form-urlencoded\r\n", 'content' => $body, 'timeout' => 6]]);
+        $raw = @file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $ctx);
+    }
+    $r = is_string($raw) ? json_decode($raw, true) : null;
+    if (!is_array($r)) return ['status' => 'unavailable'];
+    $errors = $r['error-codes'] ?? [];
+    if (in_array('invalid-input-secret', $errors, true) || in_array('missing-input-secret', $errors, true)) return ['status' => 'misconfigured', 'errors' => $errors];
+    $score = isset($r['score']) ? (float) $r['score'] : null;
+    $host = strtolower((string) ($r['hostname'] ?? ''));
+    $ok = !empty($r['success'])
+        && ($r['action'] ?? RECAPTCHA_ACTION) === RECAPTCHA_ACTION
+        && ($host === '' || in_array($host, ALLOWED_HOSTS, true))
+        && ($score === null || $score >= RECAPTCHA_MIN_SCORE);
+    return ['status' => $ok ? 'passed' : 'rejected', 'score' => $score, 'action' => $r['action'] ?? null, 'hostname' => $host, 'errors' => $errors];
+}
+
 function store_dir(): string
 {
     $home = dirname(__DIR__);
@@ -113,7 +152,11 @@ foreach (['project_type', 'service', 'budget', 'stage'] as $k) { $labels[$k] = c
 if ($lead['name'] === '' || !filter_var($lead['email'], FILTER_VALIDATE_EMAIL)) out(422, ['ok' => false, 'error' => 'fields']);
 if (($in['consent'] ?? '') !== 'yes') out(422, ['ok' => false, 'error' => 'consent']);
 
+$spam = recaptcha_check(clean((string) ($in['recaptcha_token'] ?? ''), 4000));
+if ($spam['status'] === 'rejected') out(422, ['ok' => false, 'error' => 'spam']);
+
 $record = $lead + [
+    'spam_check' => $spam,
     'id'         => bin2hex(random_bytes(8)),
     'received'   => gmdate('c'),
     'consent'    => ['processing' => true, 'marketing' => ($in['marketing'] ?? '') === 'yes', 'notice_version' => clean((string) ($in['notice_version'] ?? ''), 20), 'page' => clean((string) ($in['page'] ?? ''), 200)],

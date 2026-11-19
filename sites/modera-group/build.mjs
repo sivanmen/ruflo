@@ -210,6 +210,11 @@ writeFileSync(join(OUT, 'contact.php'), readFileSync(join(SRC, 'server/contact.p
   .replace('__AUTOREPLY_TO__', SITE.email)
   .replace('__SEND_CONFIRMATION__', SITE.sendConfirmation ? 'true' : 'false')
   .replace('__PHONE__', SITE.phone)
-  .replace('__PHONE_DISPLAY__', SITE.phoneDisplay));
+  .replace('__PHONE_DISPLAY__', SITE.phoneDisplay)
+  // reCAPTCHA secret only from the environment (never committed): MODERA_RECAPTCHA_SECRET.
+  .replace('__RECAPTCHA_SECRET__', phpStr(process.env.MODERA_RECAPTCHA_SECRET || ''))
+  .replace('__RECAPTCHA_ACTION__', SITE.recaptcha?.action || 'contact')
+  .replace('__RECAPTCHA_MIN_SCORE__', String(SITE.recaptcha?.minScore ?? 0.5)));
+if (SITE.recaptcha?.siteKey && !process.env.MODERA_RECAPTCHA_SECRET) console.warn('  ! MODERA_RECAPTCHA_SECRET not set — server-side reCAPTCHA check disabled in this build');
 writeFileSync(join(OUT, 'contact-mail.php'), readFileSync(join(SRC, 'server/contact-mail.php')));
 console.log(`Built ${new Set(sitemap.map((s) => s.path)).size} routes × ${LANGS.length} languages → dist/`);

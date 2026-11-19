@@ -102,6 +102,7 @@ function team_email(array $r): array
         'Page' => h($r['consent']['page'] ?: '/'),
         'Consent' => 'Processing: yes · Marketing updates: <strong>' . ($r['consent']['marketing'] ? 'opted in' : 'no') . '</strong>',
         'Notice version' => h($r['consent']['notice_version']),
+        'Spam check' => h(($r['spam_check']['status'] ?? 'n/a') . (isset($r['spam_check']['score']) ? ' · reCAPTCHA score ' . number_format((float) $r['spam_check']['score'], 1) : '')),
         'Lead ID' => h($r['id']),
     ]);
     $content = '<tr><td style="padding:30px 32px 6px;">'
