@@ -102,3 +102,37 @@ Never write: "guaranteed return", "risk-free", "citizenship" for the Golden Visa
 | 16.11.2026 | betamind.online | 5903 | קנייה על הנייר ביוון: נאמנות, ערבויות ומה מגן על הרוכש | 19.11 09:00 |
 | 16.11.2026 | betamind.online | 5901 | השכרה לטווח קצר ביוון 2026 | 20.11 09:00 |
 | 16.11.2026 | betamind.online | 5905 | הסיכונים בהשקעת נדל״ן ביוון ואיך מנהלים אותם | 21.11 09:00 |
+
+## 6. Main site (sivaninvestgroup.com) changes, 16–26.11.2026
+
+Access note: the cloud environment's saved network secret for this host is stale and overrides any
+Authorization header. Work was done with a wp-admin cookie login + REST nonce instead.
+
+All runtime changes live in Code Snippets (plugin installed 16.11):
+- **#6 "[SI] SEO/GEO core fixes"**: 410 for the 8 spam URLs; 301 map (duplicate homepages, villa posts,
+  test pages, EN duplicates, `get-in-tach` slugs, clean `/השקעות-נדל״ן-ביוון/` URL → main Greece guide);
+  hides `/wp/v2/users` from anonymous visitors; unified Organization + RealEstateAgent + FinancialService entity
+  with founder Person `#sivan-menahem`, Article author → Person; counters rendered server-side;
+  forced noindex for 30090/30085/30084 (their editor save fails); visible H1 on 24, 24134, 24065, 23619;
+  FAQPage from `tp-faq` widgets; Place schema for King Solomon (32891, 32907).
+- **#7 "[SI] admin tools"**: admin-only routes `si-seo/v1/clear` (Elementor + FlyingPress purge),
+  `/replace` (exact-phrase edit with backup in post meta `_si_backup_20261126`), `/set-widget`, `/url2id`.
+- #5 and #8 are temporary diagnostics, kept **inactive**. Deactivating #6 reverts all runtime changes.
+
+Settings changed (originals backed up in option `si_seo_backup_20261116`): Yoast title templates
+(`%%title%% – סיון השקעות`), site name, homepage title and description, noindex for theme/demo post types
+(tp-*, jet-menu, portfolios-cat, services-cat), Yoast llms.txt off + hand-written `/llms.txt`, and the
+duplicate FinancialService/RealEstateAgent JSON-LD removed from the Insert Headers and Footers plugin (GTM kept).
+
+Content: Golden Visa page (27975) rewritten to the 2026 thresholds and the 5-year permit; LTV 50%–60%;
+3.09% explained; CGT suspension until 31.12.2026; 20+ years; 21 villas; "Clients"; experience counters 18 → 20;
+Title + meta description for 13 key pages; noindex on thank-you, landing, form and LMS pages; 19 test or
+duplicate items set to draft; canonical 30161 → 28864 and 30788 → 30751; menu fixes; alt text on 64 homepage images.
+
+Security: 8 casino spam posts trashed (32366, 32333, 32368, 32932–32935, 32962). 6 attacker application
+passwords (`api_key_*`) on user 3 revoked, its password reset and its sessions destroyed (26.11, approved by Sivan).
+
+Still open (needs Sivan): Cloudflare bot rules (ClaudeBot, GPTBot, PerplexityBot answered 403 to UA tests),
+Bing Webmaster Tools + IndexNow, GSC removals and security review, Wordfence scan, review of admins
+`ai` (8) and `miki` (5), and the ⚠️ values (projects/clients/AUM, King Solomon prices and delivery,
+HARMONY minimum and yield, "22 villas" on 28792/28529/16650, "450 units" on 16650/28529).
