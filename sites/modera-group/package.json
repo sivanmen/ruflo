@@ -1,0 +1,17 @@
+{
+  "name": "modera-group-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multilingual static website for Modera Group (modera-group.com)",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "node scripts/package.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,30 @@
+[
+ {
+  "name": "company-archive",
+  "title": "Project, site and team photography; architectural renderings",
+  "creator": "Modera Group & Sivan Invest Group",
+  "license": "© All rights reserved",
+  "source": "https://modera-group.com"
+ },
+ {
+  "name": "crete-footage",
+  "title": "Aerial footage and destination photography of Crete",
+  "creator": "Licensed to Modera Group",
+  "license": "Commercial licence",
+  "source": "https://modera-group.com"
+ },
+ {
+  "name": "font-inter-tight",
+  "title": "Inter Tight typeface",
+  "creator": "Rasmus Andersson / The Inter Project Authors",
+  "license": "SIL Open Font License 1.1",
+  "source": "https://github.com/rsms/inter"
+ },
+ {
+  "name": "font-noto-serif-display",
+  "title": "Noto Serif Display typeface",
+  "creator": "The Noto Project Authors",
+  "license": "SIL Open Font License 1.1",
+  "source": "https://github.com/notofonts/latin-greek-cyrillic"
+ }
+]

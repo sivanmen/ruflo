@@ -1,0 +1,566 @@
+{
+  "meta": {
+    "privacy": {
+      "title": "Politique de confidentialité | Modera Group",
+      "description": "Comment Modera Group collecte, utilise et protège les données personnelles conformément au RGPD et à la loi israélienne sur la protection de la vie privée — vos droits et comment les exercer."
+    },
+    "cookies": {
+      "title": "Politique relative aux cookies | Modera Group",
+      "description": "Quels cookies et quel stockage du navigateur modera-group.com utilise, pourquoi, pour combien de temps — et comment modifier vos choix à tout moment."
+    },
+    "accessibility": {
+      "title": "Déclaration d’accessibilité | Modera Group",
+      "description": "Notre engagement en faveur de l’accessibilité numérique : WCAG 2.1 AA, norme israélienne SI 5568, les outils d’accessibilité de ce site et comment contacter notre référent accessibilité."
+    },
+    "terms": {
+      "title": "Conditions d’utilisation et mentions légales | Modera Group",
+      "description": "Conditions régissant l’utilisation de modera-group.com, propriété intellectuelle, avertissements et informations sur la société Modera Group."
+    }
+  },
+  "nav": {
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique relative aux cookies",
+    "accessibility": "Accessibilité",
+    "terms": "Conditions d’utilisation",
+    "cookieSettings": "Paramètres des cookies",
+    "legal": "Mentions légales"
+  },
+  "common": {
+    "lastUpdated": "Dernière mise à jour",
+    "onThisPage": "Sur cette page",
+    "contactTitle": "Des questions sur cette page ?",
+    "contactText": "Écrivez-nous : un membre de notre équipe vous répondra dans un délai maximal de 30 jours — généralement bien plus tôt."
+  },
+  "consent": {
+    "title": "Votre vie privée, votre choix",
+    "text": "Nous n’utilisons que ce qui est nécessaire au fonctionnement du site. Avec votre accord, nous mesurons aussi les visites avec Google Analytics, mesurons nos publicités, mémorisons votre langue et chargeons des contenus externes comme Google Maps. Vous pouvez changer d’avis à tout moment.",
+    "acceptAll": "Tout accepter",
+    "rejectAll": "Tout refuser",
+    "customize": "Personnaliser",
+    "save": "Enregistrer mes choix",
+    "close": "Fermer",
+    "policy": "Politique relative aux cookies",
+    "privacy": "Politique de confidentialité",
+    "always": "Toujours actif",
+    "gpc": "Votre navigateur envoie un signal Global Privacy Control. Nous l’avons traité comme un refus des cookies facultatifs.",
+    "saved": "Vos choix de confidentialité ont été enregistrés.",
+    "categories": {
+      "necessary": {
+        "title": "Strictement nécessaires",
+        "desc": "Mémorisent vos choix de confidentialité et d’accessibilité et assurent la sécurité du site. Ils ne peuvent pas être désactivés et ne servent à aucun suivi."
+      },
+      "preferences": {
+        "title": "Préférences",
+        "desc": "Mémorisent la langue que vous avez choisie, afin que votre prochaine visite s’ouvre dans cette langue."
+      },
+      "media": {
+        "title": "Médias externes",
+        "desc": "Chargent des contenus hébergés par des tiers, comme la carte Google Maps de notre bureau. Google peut déposer ses propres cookies et recevoir votre adresse IP."
+      },
+      "analytics": {
+        "title": "Statistiques",
+        "desc": "Google Analytics nous montre comment le site est utilisé (pages consultées, type d’appareil, localisation approximative) afin de l’améliorer. Chargé via Google Tag Manager uniquement si vous l’autorisez."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "desc": "Nous permet de mesurer les résultats de nos publicités (par exemple Google Ads) et d’afficher des annonces pertinentes sur d’autres plateformes. Désactivé sauf si vous l’autorisez."
+      }
+    },
+    "map": {
+      "title": "La carte n’est pas chargée",
+      "text": "Pour protéger votre vie privée, Google Maps n’est chargé que si vous autorisez les médias externes. Google peut déposer des cookies et recevoir votre adresse IP.",
+      "button": "Charger la carte",
+      "open": "Ouvrir dans Google Maps"
+    }
+  },
+  "a11y": {
+    "open": "Options d’accessibilité",
+    "title": "Accessibilité",
+    "text": "Adaptez ce site à vos besoins. Vos réglages sont enregistrés uniquement sur cet appareil.",
+    "textSize": "Taille du texte",
+    "sizes": [
+      "Par défaut",
+      "Grande",
+      "Très grande"
+    ],
+    "contrast": "Contraste élevé",
+    "motion": "Arrêter les animations et les vidéos",
+    "links": "Mettre en évidence les liens",
+    "readable": "Police lisible",
+    "spacing": "Augmenter l’espacement du texte",
+    "cursor": "Grand curseur",
+    "reset": "Réinitialiser les réglages",
+    "statement": "Déclaration d’accessibilité",
+    "close": "Fermer",
+    "pause": "Mettre la vidéo en pause",
+    "play": "Lire la vidéo"
+  },
+  "form": {
+    "marketing": "Oui, je souhaite recevoir de temps en temps des informations sur les projets et les analyses de Modera Group. Je peux me désabonner à tout moment. (Facultatif)",
+    "notice": "Nous utilisons les informations que vous nous envoyez uniquement pour répondre à votre demande. Leur communication est facultative, mais nous ne pouvons pas vous répondre sans votre nom et votre adresse e-mail. Vous pouvez à tout moment accéder à vos données, les rectifier ou les supprimer.",
+    "required": "Veuillez remplir ce champ.",
+    "email": "Veuillez saisir une adresse e-mail valide.",
+    "consentRequired": "Veuillez confirmer que vous acceptez le traitement de vos données.",
+    "recaptcha": "Ce formulaire est protégé par reCAPTCHA. La <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialité</a> et les <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">conditions d’utilisation</a> de Google s’appliquent.",
+    "spam": "Nous n’avons pas pu vérifier automatiquement cet envoi. Veuillez réessayer dans un instant, ou écrivez-nous à support@modera-group.com ou sur WhatsApp."
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lead": "Votre confiance compte plus que n’importe quel projet. Cette politique explique, en termes simples, quelles données personnelles nous collectons, pourquoi, combien de temps nous les conservons et quels sont vos droits — en vertu du Règlement général sur la protection des données de l’UE (RGPD), du droit grec et de la loi israélienne sur la protection de la vie privée, 5741-1981, telle que modifiée (y compris l’amendement n° 13).",
+    "updated": "2026-11-26",
+    "sections": [
+      {
+        "id": "controller",
+        "h": "1. Qui est responsable de vos données",
+        "blocks": [
+          {
+            "p": "Le responsable du traitement des données personnelles traitées via modera-group.com est <strong>Modera Group</strong>, 2 Plateia Eleftherias, 73132 La Canée (Chania), Crète, Grèce, numéro fiscal EL802555027 (« Modera », « nous »)."
+          },
+          {
+            "p": "Pour toute question ou demande relative à la protection de vos données, contactez-nous à <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> ou au +30 698 392 4820. Nous ne sommes pas tenus de désigner un délégué à la protection des données ; notre direction traite directement les questions de confidentialité."
+          }
+        ]
+      },
+      {
+        "id": "summary",
+        "h": "2. En bref",
+        "blocks": [
+          {
+            "ul": [
+              "Les statistiques (Google Analytics) et la mesure publicitaire ne fonctionnent que si vous les autorisez — jamais par défaut.",
+              "Nous ne vendons, ne louons et n’échangeons jamais de données personnelles.",
+              "Nos polices et nos images sont hébergées sur notre propre serveur : la simple visite du site n’envoie donc aucune donnée à Google ni à d’autres tiers.",
+              "Les contenus externes comme Google Maps ne se chargent que si vous l’autorisez.",
+              "Les cookies facultatifs restent désactivés tant que vous ne les activez pas, et nous respectons le signal Global Privacy Control.",
+              "Les données de vos demandes servent uniquement à vous répondre et sont supprimées après 24 mois, sauf si nous travaillons ensemble."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "h": "3. Quelles données nous collectons",
+        "blocks": [
+          {
+            "p": "<strong>Les informations que vous nous fournissez.</strong> Lorsque vous utilisez le formulaire de contact, nous écrivez par e-mail, nous appelez ou nous contactez sur WhatsApp : vos nom, adresse e-mail, numéro de téléphone, pays de résidence, les détails de votre projet (type, service, fourchette de budget, stade d’avancement) et tout ce que vous choisissez d’écrire dans votre message, ainsi que la date et la langue de votre demande et une trace du consentement que vous avez donné."
+          },
+          {
+            "p": "<strong>Données techniques.</strong> Comme pour tout site web, notre serveur d’hébergement enregistre automatiquement des informations techniques de base lorsque des pages sont demandées : adresse IP, date et heure, page demandée, type de navigateur et page de provenance. Ces journaux serveur sont utilisés uniquement à des fins de sécurité et de bon fonctionnement du site, et sont supprimés ou renouvelés après une courte période."
+          },
+          {
+            "p": "<strong>Données stockées sur votre appareil.</strong> Nous enregistrons un petit nombre de réglages dans votre navigateur (vos choix de confidentialité, vos réglages d’accessibilité et — uniquement avec votre accord — votre langue). Vous trouverez les détails dans notre <a href=\"../cookies/\">politique relative aux cookies</a>."
+          },
+          {
+            "p": "Nous ne collectons pas sciemment de catégories particulières de données (comme la santé, la religion ou les opinions politiques) et vous demandons de ne pas nous en envoyer. Notre site ne s’adresse pas aux enfants de moins de 16 ans et nous ne collectons pas sciemment leurs données."
+          }
+        ]
+      },
+      {
+        "id": "purposes",
+        "h": "4. Pourquoi nous les utilisons et sur quelle base juridique",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Finalité",
+                "Données",
+                "Base juridique (RGPD)"
+              ],
+              "rows": [
+                [
+                  "Répondre à votre demande et préparer une proposition",
+                  "Coordonnées et détails du projet",
+                  "Mesures précontractuelles prises à votre demande (art. 6(1)(b)) et votre consentement (art. 6(1)(a))"
+                ],
+                [
+                  "Exécuter un contrat conclu avec vous",
+                  "Coordonnées, détails du projet et informations de facturation",
+                  "Exécution d’un contrat (art. 6(1)(b))"
+                ],
+                [
+                  "Envoyer des informations occasionnelles, uniquement si vous l’avez accepté",
+                  "Nom et adresse e-mail",
+                  "Consentement (art. 6(1)(a)) ; en Israël, consentement au titre de la section 30A de la loi sur les communications"
+                ],
+                [
+                  "Assurer la sécurité et la disponibilité du site",
+                  "Journaux serveur",
+                  "Intérêts légitimes (art. 6(1)(f))"
+                ],
+                [
+                  "Statistiques de visite et mesure publicitaire",
+                  "Données d’utilisation, identifiants de cookies, localisation approximative",
+                  "Consentement (art. 6, par. 1, a) et article 4, par. 5 de la loi grecque 3471/2006"
+                ],
+                [
+                  "Mémoriser votre langue ; charger les cartes",
+                  "Stockage du navigateur, adresse IP (pour Google Maps)",
+                  "Consentement (art. 6(1)(a)) et article 4(5) de la loi grecque 3471/2006 (ePrivacy)"
+                ],
+                [
+                  "Respecter nos obligations légales, fiscales et comptables",
+                  "Documents contractuels et de facturation",
+                  "Obligation légale (art. 6(1)(c))"
+                ],
+                [
+                  "Constater, exercer ou défendre des droits en justice",
+                  "Correspondance pertinente",
+                  "Intérêts légitimes (art. 6(1)(f))"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "En vertu du droit israélien, vous n’êtes pas légalement tenu de fournir des données personnelles. Leur communication est facultative — toutefois, sans votre nom et un moyen de vous contacter, nous ne pouvons pas répondre à votre demande. Nous ne prenons aucune décision vous concernant fondée exclusivement sur un traitement automatisé, y compris le profilage."
+          }
+        ]
+      },
+      {
+        "id": "sharing",
+        "h": "5. Qui reçoit vos données",
+        "blocks": [
+          {
+            "p": "Seules les personnes de Modera qui ont besoin de vos données pour vous aider peuvent y accéder. Nous ne partageons des données en dehors de Modera que dans les cas suivants :"
+          },
+          {
+            "ul": [
+              "<strong>Hébergeur</strong> — notre site, notre formulaire de contact et notre messagerie fonctionnent sur les serveurs de notre hébergeur, Jetserver, situés en Israël, qui agit en tant que sous-traitant dans le cadre d’un accord de traitement des données.",
+              "<strong>Google</strong> — uniquement si vous choisissez de charger la carte : Google reçoit alors votre adresse IP et peut déposer des cookies conformément à sa propre politique de confidentialité. Google LLC est certifiée au titre du Data Privacy Framework UE–États-Unis.",
+              "<strong>Google Analytics et Google Tag Manager</strong> — uniquement si vous consentez aux Statistiques ou au Marketing, Google (Google Ireland Ltd / Google LLC) reçoit des données d’utilisation telles que les pages consultées, des informations sur l’appareil et le navigateur, une localisation approximative et un identifiant pseudonyme, afin de fournir des statistiques de visite et une mesure publicitaire. Google Analytics 4 ne conserve pas les adresses IP. Google LLC est certifiée au titre du Data Privacy Framework UE–États-Unis.",
+              "<strong>Google reCAPTCHA</strong> — lorsque vous commencez à remplir le formulaire de contact, Google reCAPTCHA vérifie que l’envoi provient d’une personne et non d’un programme automatisé. Google reçoit des données techniques telles que votre adresse IP, votre navigateur et des informations d’interaction, et peut déposer un cookie de sécurité. Base légale : notre intérêt légitime à protéger le formulaire contre le spam et les abus (art. 6, par. 1, f) du RGPD). Il n’est chargé sur aucune autre page.",
+              "<strong>Conseillers professionnels et partenaires</strong> — avocats, comptables, ingénieurs ou notre partenaire stratégique Sivan Invest Group, uniquement lorsque cela est nécessaire pour votre projet et à votre connaissance.",
+              "<strong>Autorités</strong> — lorsque la loi nous y oblige, par exemple les autorités fiscales ou les tribunaux."
+            ]
+          },
+          {
+            "p": "Nous ne vendons jamais de données personnelles et ne les partageons jamais à des fins de publicité par des tiers."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "h": "6. Transferts internationaux",
+        "blocks": [
+          {
+            "p": "Notre hébergement est situé en Israël, pays dont la Commission européenne reconnaît qu’il assure un niveau adéquat de protection des données (décision d’adéquation 2011/61/UE, confirmée en 2024). Lorsque des données sont transférées vers d’autres pays situés hors de l’Espace économique européen, nous nous appuyons sur une décision d’adéquation ou sur les clauses contractuelles types de la Commission européenne."
+          }
+        ]
+      },
+      {
+        "id": "retention",
+        "h": "7. Combien de temps nous les conservons",
+        "blocks": [
+          {
+            "ul": [
+              "Demandes n’ayant pas abouti à un contrat : jusqu’à 24 mois, puis suppression.",
+              "Dossiers clients et contractuels : pendant la durée du contrat puis aussi longtemps que l’exige le droit grec en matière fiscale, comptable et de construction (en général jusqu’à 10 ans).",
+              "Consentement marketing : jusqu’à votre désabonnement ou au retrait de votre consentement.",
+              "Journaux serveur : pendant une courte période à des fins de sécurité, puis suppression ou renouvellement.",
+              "Choix de confidentialité enregistrés dans votre navigateur : 12 mois, après quoi nous vous les redemandons."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "h": "8. Vos droits",
+        "blocks": [
+          {
+            "p": "Selon la législation qui vous est applicable, vous avez le droit :"
+          },
+          {
+            "ul": [
+              "d’<strong>accéder</strong> aux données personnelles que nous détenons à votre sujet et d’en recevoir une copie ;",
+              "de <strong>rectifier</strong> des données inexactes ou incomplètes ;",
+              "d’<strong>effacer</strong> vos données (« droit à l’oubli ») ;",
+              "de <strong>limiter</strong> certains traitements ou de vous y <strong>opposer</strong>, y compris à tout moment à la prospection commerciale ;",
+              "à la <strong>portabilité des données</strong> — recevoir vos données dans un format structuré et lisible par machine ;",
+              "de <strong>retirer votre consentement</strong> à tout moment, sans que cela n’affecte les traitements effectués avant ce retrait — pour les cookies, utilisez « Paramètres des cookies » en bas de chaque page ;",
+              "en vertu de la loi israélienne sur la protection de la vie privée, de consulter les informations vous concernant contenues dans une base de données (section 13) et d’en demander la rectification ou la suppression (section 14)."
+            ]
+          },
+          {
+            "p": "Pour exercer l’un de ces droits, écrivez à <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>. Nous pourrons vous demander de confirmer votre identité. Nous vous répondons dans un délai d’un mois (prolongeable de deux mois pour les demandes complexes, auquel cas nous vous en informerons), et gratuitement."
+          },
+          {
+            "p": "Vous avez également le droit d’introduire une réclamation auprès d’une autorité de contrôle : en Grèce, l’<strong>Autorité hellénique de protection des données</strong> (www.dpa.gr) ; en Israël, l’<strong>Autorité de protection de la vie privée</strong> (www.gov.il/en/departments/the_privacy_protection_authority) ; ou l’autorité du pays de l’UE où vous résidez ou travaillez. Nous apprécierions toutefois de pouvoir d’abord résoudre toute préoccupation avec vous."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "h": "9. Comment nous protégeons vos données",
+        "blocks": [
+          {
+            "p": "Nous utilisons le chiffrement HTTPS sur l’ensemble du site, conservons les demandes en dehors du répertoire web public avec un accès restreint, limitons l’accès au personnel autorisé, maintenons nos logiciels à jour et protégeons nos formulaires contre les abus automatisés. Aucun système n’est totalement sûr ; si une violation portant atteinte à vos droits devait survenir, nous en informerions l’autorité compétente et, lorsque cela est requis, vous-même, dans les délais prévus par la loi."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "10. Modifications de cette politique",
+        "blocks": [
+          {
+            "p": "Nous pouvons mettre à jour cette politique lorsque nos services ou la législation évoluent. La date indiquée en haut de page correspond à la version la plus récente. En cas de modifications importantes, nous vous demanderons à nouveau votre consentement lorsque cela est requis."
+          }
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Politique relative aux cookies",
+    "lead": "Ce site est confidentiel par défaut. Les outils de statistiques et de marketing ne se chargent que si vous les autorisez, le stockage facultatif reste désactivé tant que vous n’en décidez pas autrement, et vous pouvez modifier vos choix à tout moment.",
+    "updated": "2026-11-26",
+    "button": "Ouvrir les paramètres des cookies",
+    "sections": [
+      {
+        "id": "what",
+        "h": "Que sont les cookies et le stockage local ?",
+        "blocks": [
+          {
+            "p": "Les cookies et le stockage local sont de petites informations qu’un site web enregistre dans votre navigateur. Certains sont indispensables au fonctionnement d’un site ; d’autres mémorisent des préférences ou permettent d’afficher des contenus de tiers. En vertu du RGPD et des règles ePrivacy (loi grecque 3471/2006), tout ce qui n’est pas strictement nécessaire requiert votre consentement préalable."
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "h": "Ce que nous utilisons",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Nom",
+                "Catégorie",
+                "Fournisseur",
+                "Finalité",
+                "Durée"
+              ],
+              "rows": [
+                [
+                  "modera-consent",
+                  "Strictement nécessaire",
+                  "Modera (ce site)",
+                  "Enregistre vos choix de confidentialité pour ne pas vous les redemander sur chaque page",
+                  "12 mois"
+                ],
+                [
+                  "modera-a11y",
+                  "Strictement nécessaire",
+                  "Modera (ce site)",
+                  "Enregistre les réglages d’accessibilité que vous avez sélectionnés",
+                  "Jusqu’à leur réinitialisation"
+                ],
+                [
+                  "modera-lang",
+                  "Préférences",
+                  "Modera (ce site)",
+                  "Mémorise la langue que vous avez sélectionnée",
+                  "12 mois"
+                ],
+                [
+                  "_ga, _ga_<ID>",
+                  "Statistiques",
+                  "Google (Analytics)",
+                  "Distingue les visites pour produire des statistiques d’utilisation anonymes",
+                  "2 ans"
+                ],
+                [
+                  "_gcl_au",
+                  "Marketing",
+                  "Google (Ads)",
+                  "Mesure les conversions issues des campagnes Google Ads",
+                  "90 jours"
+                ],
+                [
+                  "Cookies Google Maps (par ex. NID, AEC)",
+                  "Médias externes",
+                  "Google",
+                  "Déposés par Google uniquement après le chargement de la carte ; utilisés par Google comme décrit dans sa politique de confidentialité",
+                  "Jusqu’à 13 mois (fixé par Google)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Sécurité (formulaire de contact)",
+                  "Google",
+                  "Déposé par Google reCAPTCHA uniquement lorsque vous utilisez le formulaire de contact, pour le protéger contre le spam et les robots",
+                  "6 mois (défini par Google)"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Nos propres éléments sont enregistrés en stockage local dans votre navigateur et ne contiennent aucun identifiant. Google Analytics et les balises publicitaires sont chargés via Google Tag Manager uniquement après votre consentement aux Statistiques ou au Marketing, avec Google Consent Mode ; si vous retirez votre consentement, nous supprimons ces cookies de votre navigateur."
+          }
+        ]
+      },
+      {
+        "id": "manage",
+        "h": "Comment modifier vos choix",
+        "blocks": [
+          {
+            "p": "Utilisez <strong>Paramètres des cookies</strong> en bas de chaque page pour revoir ou retirer votre consentement à tout moment. Lorsque vous retirez votre consentement, nous supprimons immédiatement les éléments correspondants de votre navigateur. Vous pouvez également supprimer toutes les données du site via les paramètres de votre navigateur."
+          },
+          {
+            "p": "Nous respectons le signal <strong>Global Privacy Control (GPC)</strong> : si votre navigateur l’envoie, les catégories facultatives restent désactivées."
+          }
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Déclaration d’accessibilité",
+    "lead": "Nous voulons que chacun — y compris les personnes en situation de handicap et les personnes âgées — puisse utiliser notre site facilement et de manière autonome. L’accessibilité fait partie intégrante de notre façon de concevoir et de développer, ce n’est pas une réflexion après coup.",
+    "updated": "2026-11-17",
+    "sections": [
+      {
+        "id": "standard",
+        "h": "Notre norme d’accessibilité",
+        "blocks": [
+          {
+            "p": "Ce site a été conçu et développé pour être conforme aux <strong>Règles pour l’accessibilité des contenus web (WCAG) 2.1, niveau AA</strong>, qui couvrent également les exigences de la <strong>norme israélienne SI 5568</strong> au titre du règlement sur l’égalité des droits des personnes handicapées (adaptations d’accessibilité des services), 5773-2013, ainsi que de la norme européenne <strong>EN 301 549</strong>."
+          }
+        ]
+      },
+      {
+        "id": "measures",
+        "h": "Ce que nous avons mis en place",
+        "blocks": [
+          {
+            "ul": [
+              "Une structure sémantique avec des titres clairs, des repères de navigation et un lien « Aller au contenu » ;",
+              "Une navigation complète au clavier avec un indicateur de focus bien visible ;",
+              "Des alternatives textuelles pour les images porteuses de sens ; les images décoratives sont masquées aux lecteurs d’écran ;",
+              "Des contrastes de couleurs qui atteignent ou dépassent les ratios AA, et aucune information transmise uniquement par la couleur ;",
+              "Une mise en page adaptative qui fonctionne avec un zoom à 200 % et sur toutes les tailles d’écran ;",
+              "Des formulaires avec des libellés visibles, des messages d’erreur clairs et des annonces d’état pour les lecteurs d’écran ;",
+              "Des vidéos sans son, pouvant être mises en pause, qui s’arrêtent automatiquement lorsque l’option « réduire les animations » est activée ;",
+              "Des animations qui respectent le réglage « réduire les animations » de votre appareil ;",
+              "Des graphiques dont les valeurs sont également fournies sous forme de texte ;",
+              "Chaque version linguistique est correctement balisée pour que les lecteurs d’écran la prononcent correctement."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "h": "Outils d’accessibilité de ce site",
+        "blocks": [
+          {
+            "p": "Sélectionnez le bouton d’accessibilité (l’icône en forme de personnage en bas de l’écran) pour ouvrir le panneau d’accessibilité. Il vous permet d’agrandir le texte, de passer en contraste élevé, d’arrêter les animations et les vidéos, de mettre en évidence les liens, d’utiliser une police plus lisible, d’augmenter l’espacement du texte et d’agrandir le curseur. Vos réglages sont enregistrés uniquement sur votre appareil."
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "h": "Limites connues",
+        "blocks": [
+          {
+            "p": "Nous effectuons régulièrement des tests au clavier, avec des lecteurs d’écran (VoiceOver, NVDA) et des outils automatisés. Certains contenus de tiers, comme la carte Google intégrée, échappent en partie à notre contrôle ; notre adresse et l’itinéraire restent toujours disponibles sous forme de texte sur la page de contact. Si vous rencontrez un obstacle, signalez-le-nous — nous le corrigerons."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "h": "Référent accessibilité",
+        "blocks": [
+          {
+            "p": "Si vous avez des difficultés à utiliser une partie du site, ou si vous souhaitez obtenir des informations dans un autre format, contactez notre référent accessibilité :"
+          },
+          {
+            "ul": [
+              "Référent accessibilité, Modera Group",
+              "E-mail : <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>",
+              "Téléphone / WhatsApp : +30 698 392 4820",
+              "Adresse : 2 Plateia Eleftherias, 73132 La Canée (Chania), Crète, Grèce"
+            ]
+          },
+          {
+            "p": "Merci de décrire le problème et la page concernée. Nous nous efforçons de répondre sous 5 jours ouvrés. Nos services peuvent également être fournis par téléphone, e-mail ou WhatsApp ; pour toute information sur l’accès physique à nos locaux, veuillez nous contacter avant votre visite."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Conditions d’utilisation et mentions légales",
+    "lead": "Les présentes conditions régissent votre utilisation de modera-group.com. En utilisant le site, vous les acceptez. Veuillez les lire conjointement avec nos politiques de confidentialité et relative aux cookies.",
+    "updated": "2026-11-17",
+    "sections": [
+      {
+        "id": "operator",
+        "h": "1. Éditeur du site",
+        "blocks": [
+          {
+            "ul": [
+              "Modera Group",
+              "Siège social : 2 Plateia Eleftherias, 73132 La Canée (Chania), Crète, Grèce",
+              "Numéro fiscal (TVA) : EL802555027",
+              "N° G.E.MI. (registre général du commerce grec) : 178690758000",
+              "E-mail : <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> · Téléphone : +30 698 392 4820"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "h": "2. Informations publiées sur ce site",
+        "blocks": [
+          {
+            "p": "Le contenu de ce site — y compris les articles, fourchettes de coûts, calendriers, graphiques et synthèses réglementaires — constitue une information générale. Il ne constitue pas un conseil juridique, fiscal, financier ou en investissement, ni une offre, ni un devis ferme. Les chiffres sont indicatifs ; chaque projet est évalué et chiffré individuellement. Les lois et réglementations évoluent ; obtenez toujours un conseil professionnel adapté à votre situation."
+          },
+          {
+            "p": "Les descriptions de projets illustrent le type et l’ampleur des travaux que nous réalisons. Rien sur ce site ne constitue une offre ou une sollicitation d’investissement ; les opportunités d’investissement, lorsqu’elles sont proposées par l’intermédiaire de nos partenaires, ne sont offertes qu’aux personnes éligibles au moyen de la documentation appropriée."
+          }
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "3. Propriété intellectuelle",
+        "blocks": [
+          {
+            "p": "Le nom et le logo Modera, les textes, le design et le code de ce site appartiennent à Modera Group ou à ses concédants de licence. Les photographies et vidéos de tiers sont utilisées conformément aux licences indiquées sur notre page de crédits photo. Vous pouvez consulter et partager les pages à des fins personnelles et non commerciales ; toute autre reproduction nécessite notre autorisation écrite."
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "h": "4. Utilisation acceptable",
+        "blocks": [
+          {
+            "p": "Vous vous engagez à ne pas faire un usage abusif du site — par exemple en tentant d’y accéder sans autorisation, en y introduisant du code malveillant, en procédant à une extraction massive de son contenu ou en soumettant des contenus faux ou illicites via nos formulaires."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "5. Responsabilité",
+        "blocks": [
+          {
+            "p": "Nous veillons à ce que ce site soit exact et disponible, mais nous ne garantissons pas qu’il soit exempt d’erreurs ou d’interruptions. Dans les limites autorisées par la loi, nous ne sommes pas responsables des pertes résultant de la confiance accordée aux informations générales publiées sur le site. Rien dans les présentes conditions ne limite une responsabilité qui ne peut être limitée en vertu de la loi, ni vos droits légaux en tant que consommateur."
+          },
+          {
+            "p": "Les liens vers des sites externes sont fournis pour votre commodité ; nous ne sommes pas responsables de leur contenu ni de leurs pratiques en matière de confidentialité."
+          }
+        ]
+      },
+      {
+        "id": "law",
+        "h": "6. Droit applicable",
+        "blocks": [
+          {
+            "p": "Les présentes conditions sont régies par le droit grec, et les tribunaux de La Canée (Chania) sont compétents, sans préjudice des règles impératives de protection des consommateurs de votre pays de résidence. Les contrats relatifs à nos services sont régis par leurs propres conditions."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "7. Modifications",
+        "blocks": [
+          {
+            "p": "Nous pouvons mettre à jour ces conditions de temps à autre. La version publiée sur cette page s’applique à compter de la date indiquée ci-dessus."
+          }
+        ]
+      }
+    ]
+  }
+}

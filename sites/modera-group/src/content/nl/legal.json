@@ -1,0 +1,566 @@
+{
+  "meta": {
+    "privacy": {
+      "title": "Privacybeleid | Modera Group",
+      "description": "Hoe Modera Group persoonsgegevens verzamelt, gebruikt en beschermt op grond van de AVG en de Israëlische privacywet — uw rechten en hoe u ze uitoefent."
+    },
+    "cookies": {
+      "title": "Cookiebeleid | Modera Group",
+      "description": "Welke cookies en browseropslag modera-group.com gebruikt, waarom en hoelang — en hoe u uw keuzes op elk moment kunt wijzigen."
+    },
+    "accessibility": {
+      "title": "Toegankelijkheidsverklaring | Modera Group",
+      "description": "Onze inzet voor digitale toegankelijkheid: WCAG 2.1 AA, de Israëlische norm SI 5568, de toegankelijkheidshulpmiddelen op deze website en hoe u contact opneemt met onze toegankelijkheidscoördinator."
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden & juridische informatie | Modera Group",
+      "description": "Voorwaarden voor het gebruik van modera-group.com, intellectueel eigendom, disclaimers en bedrijfsgegevens van Modera Group."
+    }
+  },
+  "nav": {
+    "privacy": "Privacybeleid",
+    "cookies": "Cookiebeleid",
+    "accessibility": "Toegankelijkheid",
+    "terms": "Gebruiksvoorwaarden",
+    "cookieSettings": "Cookie-instellingen",
+    "legal": "Juridisch"
+  },
+  "common": {
+    "lastUpdated": "Laatst bijgewerkt",
+    "onThisPage": "Op deze pagina",
+    "contactTitle": "Vragen over deze pagina?",
+    "contactText": "Schrijf ons en een medewerker van ons team antwoordt uiterlijk binnen 30 dagen — meestal veel sneller."
+  },
+  "consent": {
+    "title": "Uw privacy, uw keuze",
+    "text": "We gebruiken alleen wat nodig is om deze website te laten werken. Met uw toestemming meten we ook bezoeken met Google Analytics, meten we onze advertenties, onthouden we uw taal en laden we externe inhoud zoals Google Maps. U kunt uw keuze altijd wijzigen.",
+    "acceptAll": "Alles accepteren",
+    "rejectAll": "Alles weigeren",
+    "customize": "Aanpassen",
+    "save": "Mijn keuzes opslaan",
+    "close": "Sluiten",
+    "policy": "Cookiebeleid",
+    "privacy": "Privacybeleid",
+    "always": "Altijd aan",
+    "gpc": "Uw browser verstuurt een Global Privacy Control-signaal. We hebben dit opgevat als een weigering van optionele cookies.",
+    "saved": "Uw privacykeuzes zijn opgeslagen.",
+    "categories": {
+      "necessary": {
+        "title": "Strikt noodzakelijk",
+        "desc": "Onthoudt uw privacy- en toegankelijkheidskeuzes en houdt de website veilig. Deze kunnen niet worden uitgeschakeld en bevatten geen tracking."
+      },
+      "preferences": {
+        "title": "Voorkeuren",
+        "desc": "Onthoudt de taal die u hebt gekozen, zodat uw volgende bezoek in die taal opent."
+      },
+      "media": {
+        "title": "Externe media",
+        "desc": "Laadt inhoud die door derden wordt gehost, zoals de Google Maps-weergave van ons kantoor. Google kan eigen cookies plaatsen en uw IP-adres ontvangen."
+      },
+      "analytics": {
+        "title": "Statistieken",
+        "desc": "Google Analytics laat ons zien hoe de website wordt gebruikt (bezochte pagina’s, type apparaat, globale locatie), zodat we hem kunnen verbeteren. Wordt alleen via Google Tag Manager geladen als u dat toestaat."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "desc": "Hiermee meten we de resultaten van onze advertenties (bijvoorbeeld Google Ads) en tonen we relevante advertenties op andere platforms. Uit, tenzij u het toestaat."
+      }
+    },
+    "map": {
+      "title": "Kaart is niet geladen",
+      "text": "Ter bescherming van uw privacy wordt Google Maps alleen geladen als u externe media toestaat. Google kan cookies plaatsen en uw IP-adres ontvangen.",
+      "button": "Kaart laden",
+      "open": "Openen in Google Maps"
+    }
+  },
+  "a11y": {
+    "open": "Toegankelijkheidsopties",
+    "title": "Toegankelijkheid",
+    "text": "Pas deze website aan uw behoeften aan. Uw instellingen worden alleen op dit apparaat opgeslagen.",
+    "textSize": "Tekstgrootte",
+    "sizes": [
+      "Standaard",
+      "Groot",
+      "Extra groot"
+    ],
+    "contrast": "Hoog contrast",
+    "motion": "Animaties & video stoppen",
+    "links": "Links markeren",
+    "readable": "Leesbaar lettertype",
+    "spacing": "Tekstafstand vergroten",
+    "cursor": "Grote cursor",
+    "reset": "Instellingen herstellen",
+    "statement": "Toegankelijkheidsverklaring",
+    "close": "Sluiten",
+    "pause": "Video pauzeren",
+    "play": "Video afspelen"
+  },
+  "form": {
+    "marketing": "Ja, ik ontvang graag af en toe updates over projecten en inzichten van Modera Group. Ik kan me op elk moment afmelden. (Optioneel)",
+    "notice": "We gebruiken de gegevens die u verstuurt uitsluitend om uw aanvraag te beantwoorden. Het verstrekken ervan is vrijwillig, maar zonder uw naam en e-mailadres kunnen we niet antwoorden. U kunt uw gegevens op elk moment inzien, corrigeren of laten verwijderen.",
+    "required": "Vul dit veld in.",
+    "email": "Voer een geldig e-mailadres in.",
+    "consentRequired": "Bevestig dat u akkoord gaat met de verwerking van uw gegevens.",
+    "recaptcha": "Dit formulier is beveiligd met reCAPTCHA. Het <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">privacybeleid</a> en de <a href=\"https://policies.google.com/terms\" target=\"_blank\" rel=\"noopener\">servicevoorwaarden</a> van Google zijn van toepassing.",
+    "spam": "We konden deze inzending niet automatisch verifiëren. Probeer het zo opnieuw, of mail ons via support@modera-group.com of stuur een WhatsApp-bericht."
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "lead": "Uw vertrouwen is belangrijker dan welk project ook. Dit beleid legt in begrijpelijke taal uit welke persoonsgegevens we verzamelen, waarom, hoelang we ze bewaren en welke rechten u hebt — op grond van de Algemene Verordening Gegevensbescherming (AVG) van de EU, het Griekse recht en de Israëlische Privacy Protection Law, 5741-1981, zoals gewijzigd (inclusief Amendement 13).",
+    "updated": "2026-11-26",
+    "sections": [
+      {
+        "id": "controller",
+        "h": "1. Wie is verantwoordelijk voor uw gegevens",
+        "blocks": [
+          {
+            "p": "De verwerkingsverantwoordelijke voor persoonsgegevens die via modera-group.com worden verwerkt, is <strong>Modera Group</strong>, 2 Plateia Eleftherias, 73132 Chania, Kreta, Griekenland, fiscaal nummer EL802555027 (“Modera”, “wij”, “ons”)."
+          },
+          {
+            "p": "Voor elke privacyvraag of elk verzoek kunt u contact met ons opnemen via <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> of +30 698 392 4820. We zijn niet verplicht een functionaris voor gegevensbescherming aan te stellen; onze directie behandelt privacyzaken rechtstreeks."
+          }
+        ]
+      },
+      {
+        "id": "summary",
+        "h": "2. In het kort",
+        "blocks": [
+          {
+            "ul": [
+              "Statistieken (Google Analytics) en advertentiemeting werken alleen als u dat toestaat — nooit standaard.",
+              "We verkopen, verhuren of verhandelen nooit persoonsgegevens.",
+              "Onze lettertypen en afbeeldingen worden op onze eigen server gehost, dus alleen het bezoeken van de website stuurt geen gegevens naar Google of andere derden.",
+              "Externe inhoud zoals Google Maps wordt alleen geladen als u dit toestaat.",
+              "Optionele cookies staan uit totdat u ze inschakelt, en we respecteren het Global Privacy Control-signaal.",
+              "Gegevens uit aanvragen worden alleen gebruikt om u te antwoorden en na 24 maanden verwijderd, tenzij we gaan samenwerken."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "data",
+        "h": "3. Welke gegevens we verzamelen",
+        "blocks": [
+          {
+            "p": "<strong>Gegevens die u ons verstrekt.</strong> Wanneer u het contactformulier gebruikt, ons e-mailt, belt of via WhatsApp een bericht stuurt: uw naam, e-mailadres, telefoonnummer, land van verblijf, gegevens over uw project (type, dienst, budgetcategorie, fase) en alles wat u zelf in uw bericht schrijft, samen met de datum en taal van uw aanvraag en een registratie van de toestemming die u hebt gegeven."
+          },
+          {
+            "p": "<strong>Technische gegevens.</strong> Zoals bij elke website registreert onze hostingserver automatisch basale technische informatie wanneer pagina’s worden opgevraagd: IP-adres, datum en tijd, opgevraagde pagina, browsertype en verwijzende pagina. Deze serverlogs worden alleen gebruikt voor beveiliging en om de website draaiende te houden, en worden na korte tijd verwijderd of overschreven."
+          },
+          {
+            "p": "<strong>Gegevens die op uw apparaat worden opgeslagen.</strong> We slaan een klein aantal instellingen op in uw browser (uw privacykeuzes, toegankelijkheidsinstellingen en — alleen met uw toestemming — uw taal). Details vindt u in ons <a href=\"../cookies/\">cookiebeleid</a>."
+          },
+          {
+            "p": "We verzamelen niet bewust bijzondere categorieën van gegevens (zoals gezondheid, religie of politieke opvattingen) en vragen u deze niet te sturen. Onze website is niet gericht op kinderen jonger dan 16 jaar en we verzamelen niet bewust hun gegevens."
+          }
+        ]
+      },
+      {
+        "id": "purposes",
+        "h": "4. Waarom we ze gebruiken en onze rechtsgrond",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Doel",
+                "Gegevens",
+                "Rechtsgrond (AVG)"
+              ],
+              "rows": [
+                [
+                  "Uw aanvraag beantwoorden en een voorstel opstellen",
+                  "Contact- en projectgegevens",
+                  "Op uw verzoek te nemen maatregelen voorafgaand aan het sluiten van een overeenkomst (art. 6, lid 1, onder b) en uw toestemming (art. 6, lid 1, onder a)"
+                ],
+                [
+                  "Een overeenkomst met u uitvoeren",
+                  "Contact-, project- en factuurgegevens",
+                  "Uitvoering van een overeenkomst (art. 6, lid 1, onder b)"
+                ],
+                [
+                  "Af en toe updates sturen, alleen als u zich hebt aangemeld",
+                  "Naam en e-mailadres",
+                  "Toestemming (art. 6, lid 1, onder a); in Israël toestemming op grond van section 30A van de Communications Law"
+                ],
+                [
+                  "De website veilig en beschikbaar houden",
+                  "Serverlogs",
+                  "Gerechtvaardigd belang (art. 6, lid 1, onder f)"
+                ],
+                [
+                  "Bezoekstatistieken en advertentiemeting",
+                  "Gebruiksgegevens, cookie-identificatoren, globale locatie",
+                  "Toestemming (art. 6 lid 1 sub a AVG) en artikel 4 lid 5 van de Griekse wet 3471/2006"
+                ],
+                [
+                  "Uw taal onthouden; kaarten laden",
+                  "Browseropslag, IP-adres (voor Google Maps)",
+                  "Toestemming (art. 6, lid 1, onder a) en artikel 4, lid 5, van de Griekse wet 3471/2006 (ePrivacy)"
+                ],
+                [
+                  "Voldoen aan wettelijke, fiscale en boekhoudkundige verplichtingen",
+                  "Contract- en factuurgegevens",
+                  "Wettelijke verplichting (art. 6, lid 1, onder c)"
+                ],
+                [
+                  "Rechtsvorderingen instellen of verdedigen",
+                  "Relevante correspondentie",
+                  "Gerechtvaardigd belang (art. 6, lid 1, onder f)"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Volgens het Israëlische recht bent u niet wettelijk verplicht persoonsgegevens te verstrekken. Het verstrekken ervan is vrijwillig — zonder uw naam en een manier om contact met u op te nemen, kunnen we uw aanvraag echter niet beantwoorden. We nemen geen besluiten over u die uitsluitend gebaseerd zijn op geautomatiseerde verwerking, waaronder profilering."
+          }
+        ]
+      },
+      {
+        "id": "sharing",
+        "h": "5. Wie uw gegevens ontvangt",
+        "blocks": [
+          {
+            "p": "Alleen medewerkers binnen Modera die uw gegevens nodig hebben om u te helpen, hebben er toegang toe. We delen gegevens buiten Modera alleen in de volgende gevallen:"
+          },
+          {
+            "ul": [
+              "<strong>Hostingprovider</strong> — onze website, ons contactformulier en onze mailbox draaien op servers van onze hostingprovider Jetserver, gevestigd in Israël, die optreedt als onze verwerker op grond van een verwerkersovereenkomst.",
+              "<strong>Google</strong> — alleen als u ervoor kiest de kaart te laden, ontvangt Google uw IP-adres en kan het cookies plaatsen volgens zijn eigen privacybeleid. Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework.",
+              "<strong>Google Analytics en Google Tag Manager</strong> — alleen als u toestemming geeft voor Statistieken of Marketing ontvangt Google (Google Ireland Ltd / Google LLC) gebruiksgegevens zoals bezochte pagina’s, apparaat- en browserinformatie, globale locatie en een gepseudonimiseerde identificator, voor bezoekstatistieken en advertentiemeting. Google Analytics 4 slaat geen IP-adressen op. Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework.",
+              "<strong>Google reCAPTCHA</strong> — zodra u het contactformulier begint in te vullen, controleert Google reCAPTCHA of de inzending van een mens komt en niet van een geautomatiseerd programma. Google ontvangt technische gegevens zoals uw IP-adres, browser- en interactiegegevens en kan een beveiligingscookie plaatsen. Rechtsgrond: ons gerechtvaardigd belang om het formulier te beschermen tegen spam en misbruik (art. 6 lid 1 sub f AVG). Op geen enkele andere pagina wordt reCAPTCHA geladen.",
+              "<strong>Professionele adviseurs en partners</strong> — advocaten, accountants, ingenieurs of onze strategische partner Sivan Invest Group, alleen waar nodig voor uw project en met uw medeweten.",
+              "<strong>Autoriteiten</strong> — wanneer we daartoe wettelijk verplicht zijn, bijvoorbeeld tegenover belastingautoriteiten of rechtbanken."
+            ]
+          },
+          {
+            "p": "We verkopen nooit persoonsgegevens en delen ze nooit voor advertentiedoeleinden van derden."
+          }
+        ]
+      },
+      {
+        "id": "transfers",
+        "h": "6. Internationale doorgiften",
+        "blocks": [
+          {
+            "p": "Onze hosting bevindt zich in Israël, waarvan de Europese Commissie erkent dat het een passend niveau van gegevensbescherming biedt (adequaatheidsbesluit 2011/61/EU, bevestigd in 2024). Wanneer gegevens worden doorgegeven aan andere landen buiten de Europese Economische Ruimte, baseren we ons op een adequaatheidsbesluit of op de modelcontractbepalingen van de Europese Commissie."
+          }
+        ]
+      },
+      {
+        "id": "retention",
+        "h": "7. Hoelang we ze bewaren",
+        "blocks": [
+          {
+            "ul": [
+              "Aanvragen die niet tot een overeenkomst leiden: maximaal 24 maanden, daarna verwijderd.",
+              "Klant- en contractgegevens: gedurende de looptijd van de overeenkomst en daarna zolang de Griekse fiscale, boekhoudkundige en bouwwetgeving dat vereist (in het algemeen maximaal 10 jaar).",
+              "Toestemming voor marketing: totdat u zich afmeldt of uw toestemming intrekt.",
+              "Serverlogs: korte tijd voor beveiligingsdoeleinden, daarna verwijderd of overschreven.",
+              "Privacykeuzes die in uw browser zijn opgeslagen: 12 maanden, waarna we het opnieuw vragen."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "h": "8. Uw rechten",
+        "blocks": [
+          {
+            "p": "Afhankelijk van het recht dat op u van toepassing is, hebt u het recht om:"
+          },
+          {
+            "ul": [
+              "de persoonsgegevens die we over u bewaren <strong>in te zien</strong> en een kopie te ontvangen;",
+              "onjuiste of onvolledige gegevens te laten <strong>rectificeren</strong>;",
+              "uw gegevens te laten <strong>wissen</strong> (“recht op vergetelheid”);",
+              "bepaalde verwerkingen te laten <strong>beperken</strong> of er <strong>bezwaar tegen te maken</strong>, waaronder op elk moment tegen direct marketing;",
+              "<strong>Dataportabiliteit</strong> — uw gegevens te ontvangen in een gestructureerd, machineleesbaar formaat;",
+              "uw <strong>toestemming in te trekken</strong> op elk moment, zonder dat dit afbreuk doet aan de verwerking vóór de intrekking — gebruik voor cookies “Cookie-instellingen” onderaan elke pagina;",
+              "op grond van de Israëlische Privacy Protection Law informatie over u in een database in te zien (section 13) en om correctie of verwijdering daarvan te verzoeken (section 14)."
+            ]
+          },
+          {
+            "p": "Om een recht uit te oefenen, e-mailt u naar <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>. We kunnen u vragen uw identiteit te bevestigen. We antwoorden binnen één maand (te verlengen met nog twee maanden bij complexe verzoeken, in welk geval we u dat laten weten), en kosteloos."
+          },
+          {
+            "p": "U hebt ook het recht een klacht in te dienen bij een toezichthoudende autoriteit: in Griekenland de <strong>Griekse Autoriteit Gegevensbescherming</strong> (www.dpa.gr); in Israël de <strong>Privacy Protection Authority</strong> (www.gov.il/en/departments/the_privacy_protection_authority); of de autoriteit in het EU-land waar u woont of werkt. We stellen het op prijs als we eventuele zorgen eerst samen met u kunnen oplossen."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "h": "9. Hoe we uw gegevens beschermen",
+        "blocks": [
+          {
+            "p": "We gebruiken HTTPS-versleuteling op de hele website, bewaren aanvragen buiten de openbare webmap met beperkte toegang, beperken de toegang tot bevoegde medewerkers, houden software up-to-date en beschermen formulieren tegen geautomatiseerd misbruik. Geen enkel systeem is volledig veilig; mocht zich een inbreuk voordoen die uw rechten raakt, dan melden we dit binnen de wettelijke termijnen aan de bevoegde autoriteit en, waar vereist, aan u."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "10. Wijzigingen in dit beleid",
+        "blocks": [
+          {
+            "p": "We kunnen dit beleid bijwerken wanneer onze diensten of de wet veranderen. De datum bovenaan geeft de meest recente versie aan. Bij ingrijpende wijzigingen vragen we, waar vereist, opnieuw uw toestemming."
+          }
+        ]
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookiebeleid",
+    "lead": "Deze website is standaard privacyvriendelijk. Statistiek- en marketingtools worden alleen geladen als u dat toestaat, optionele opslag blijft uit totdat u anders kiest en u kunt uw keuzes op elk moment wijzigen.",
+    "updated": "2026-11-26",
+    "button": "Cookie-instellingen openen",
+    "sections": [
+      {
+        "id": "what",
+        "h": "Wat zijn cookies en lokale opslag?",
+        "blocks": [
+          {
+            "p": "Cookies en lokale opslag zijn kleine stukjes informatie die een website in uw browser opslaat. Sommige zijn essentieel voor de werking van een website; andere onthouden voorkeuren of maken inhoud van derden mogelijk. Op grond van de AVG en de ePrivacyregels (Griekse wet 3471/2006) vereist alles wat niet strikt noodzakelijk is uw voorafgaande toestemming."
+          }
+        ]
+      },
+      {
+        "id": "list",
+        "h": "Wat we gebruiken",
+        "blocks": [
+          {
+            "table": {
+              "head": [
+                "Naam",
+                "Categorie",
+                "Aanbieder",
+                "Doel",
+                "Bewaartermijn"
+              ],
+              "rows": [
+                [
+                  "modera-consent",
+                  "Strikt noodzakelijk",
+                  "Modera (deze website)",
+                  "Slaat uw privacykeuzes op, zodat we er niet op elke pagina naar vragen",
+                  "12 maanden"
+                ],
+                [
+                  "modera-a11y",
+                  "Strikt noodzakelijk",
+                  "Modera (deze website)",
+                  "Slaat de toegankelijkheidsinstellingen op die u hebt gekozen",
+                  "Totdat u ze herstelt"
+                ],
+                [
+                  "modera-lang",
+                  "Voorkeuren",
+                  "Modera (deze website)",
+                  "Onthoudt de taal die u hebt gekozen",
+                  "12 maanden"
+                ],
+                [
+                  "_ga, _ga_<ID>",
+                  "Statistieken",
+                  "Google (Analytics)",
+                  "Onderscheidt bezoeken voor anonieme gebruiksstatistieken",
+                  "2 jaar"
+                ],
+                [
+                  "_gcl_au",
+                  "Marketing",
+                  "Google (Ads)",
+                  "Meet conversies uit Google Ads-campagnes",
+                  "90 dagen"
+                ],
+                [
+                  "Google Maps-cookies (bijv. NID, AEC)",
+                  "Externe media",
+                  "Google",
+                  "Alleen door Google geplaatst nadat u de kaart hebt geladen; door Google gebruikt zoals beschreven in zijn privacybeleid",
+                  "Maximaal 13 maanden (ingesteld door Google)"
+                ],
+                [
+                  "_GRECAPTCHA",
+                  "Beveiliging (contactformulier)",
+                  "Google",
+                  "Wordt door Google reCAPTCHA alleen geplaatst wanneer u het contactformulier gebruikt, ter bescherming tegen spam en bots",
+                  "6 maanden (ingesteld door Google)"
+                ]
+              ]
+            }
+          },
+          {
+            "p": "Onze eigen gegevens worden in de lokale opslag van uw browser bewaard en bevatten geen identificatoren. Google Analytics en advertentietags worden pas via Google Tag Manager geladen nadat u toestemming geeft voor Statistieken of Marketing, met gebruik van Google Consent Mode; trekt u uw toestemming in, dan verwijderen we deze cookies uit uw browser."
+          }
+        ]
+      },
+      {
+        "id": "manage",
+        "h": "Hoe u uw keuzes wijzigt",
+        "blocks": [
+          {
+            "p": "Gebruik <strong>Cookie-instellingen</strong> onderaan elke pagina om uw toestemming op elk moment te bekijken of in te trekken. Wanneer u uw toestemming intrekt, verwijderen we de bijbehorende items onmiddellijk uit uw browser. U kunt ook alle websitegegevens verwijderen via de instellingen van uw browser."
+          },
+          {
+            "p": "We respecteren het <strong>Global Privacy Control (GPC)</strong>-signaal: als uw browser dit verstuurt, blijven optionele categorieën uit."
+          }
+        ]
+      }
+    ]
+  },
+  "accessibility": {
+    "title": "Toegankelijkheidsverklaring",
+    "lead": "We willen dat iedereen — ook mensen met een beperking en oudere gebruikers — onze website gemakkelijk en zelfstandig kan gebruiken. Toegankelijkheid is een vast onderdeel van hoe we ontwerpen en bouwen, geen bijzaak.",
+    "updated": "2026-11-17",
+    "sections": [
+      {
+        "id": "standard",
+        "h": "Onze toegankelijkheidsnorm",
+        "blocks": [
+          {
+            "p": "Deze website is ontworpen en ontwikkeld om te voldoen aan de <strong>Web Content Accessibility Guidelines (WCAG) 2.1, niveau AA</strong>, die ook de eisen dekken van de <strong>Israëlische norm SI 5568</strong> op grond van de Equal Rights for Persons with Disabilities (Service Accessibility Adjustments) Regulations, 5773-2013, en van de Europese norm <strong>EN 301 549</strong>."
+          }
+        ]
+      },
+      {
+        "id": "measures",
+        "h": "Wat we hebben gedaan",
+        "blocks": [
+          {
+            "ul": [
+              "Semantische structuur met duidelijke koppen, landmarks en een link “Naar inhoud springen”;",
+              "Volledige toetsenbordnavigatie met een duidelijk zichtbare focusindicator;",
+              "Tekstalternatieven voor betekenisvolle afbeeldingen; decoratieve afbeeldingen zijn verborgen voor schermlezers;",
+              "Kleurcontrast dat voldoet aan of hoger is dan de AA-verhoudingen, en informatie wordt nooit alleen met kleur overgebracht;",
+              "Responsieve lay-out die werkt bij 200% zoom en op elk schermformaat;",
+              "Formulieren met zichtbare labels, duidelijke foutmeldingen en statusmeldingen voor schermlezers;",
+              "Video’s hebben geen geluid, kunnen worden gepauzeerd en stoppen automatisch wanneer “beweging verminderen” is ingeschakeld;",
+              "Animaties respecteren de instelling “beweging verminderen” van uw apparaat;",
+              "Grafieken bevatten hun waarden ook als tekst;",
+              "Elke taalversie is correct gemarkeerd, zodat schermlezers de tekst goed uitspreken."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tools",
+        "h": "Toegankelijkheidshulpmiddelen op deze website",
+        "blocks": [
+          {
+            "p": "Kies de toegankelijkheidsknop (het figuurpictogram onderaan het scherm) om het toegankelijkheidspaneel te openen. Hiermee kunt u tekst vergroten, overschakelen naar hoog contrast, animaties en video’s stoppen, links markeren, een beter leesbaar lettertype gebruiken, de tekstafstand vergroten en de cursor vergroten. Uw instellingen worden alleen op uw apparaat opgeslagen."
+          }
+        ]
+      },
+      {
+        "id": "limits",
+        "h": "Bekende beperkingen",
+        "blocks": [
+          {
+            "p": "We testen regelmatig met het toetsenbord, schermlezers (VoiceOver, NVDA) en geautomatiseerde tools. Sommige inhoud van derden, zoals de ingesloten Google-kaart, valt buiten onze volledige controle; ons adres en de routebeschrijving zijn altijd als tekst beschikbaar op de contactpagina. Stuit u op een belemmering, laat het ons dan weten — we lossen het op."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "h": "Toegankelijkheidscoördinator",
+        "blocks": [
+          {
+            "p": "Als u moeite hebt met het gebruik van een deel van de website, of informatie in een alternatief formaat wilt ontvangen, neem dan contact op met onze toegankelijkheidscoördinator:"
+          },
+          {
+            "ul": [
+              "Toegankelijkheidscoördinator, Modera Group",
+              "E-mail: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a>",
+              "Telefoon / WhatsApp: +30 698 392 4820",
+              "Adres: 2 Plateia Eleftherias, 73132 Chania, Kreta, Griekenland"
+            ]
+          },
+          {
+            "p": "Beschrijf het probleem en de betreffende pagina. We streven ernaar binnen 5 werkdagen te reageren. Onze kantoordiensten kunnen ook per telefoon, e-mail of WhatsApp worden verleend; voor informatie over de fysieke toegankelijkheid van ons kantoor kunt u vóór uw bezoek contact met ons opnemen."
+          }
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden & juridische informatie",
+    "lead": "Deze voorwaarden zijn van toepassing op uw gebruik van modera-group.com. Door de website te gebruiken, aanvaardt u ze. Lees ze samen met ons privacy- en cookiebeleid.",
+    "updated": "2026-11-17",
+    "sections": [
+      {
+        "id": "operator",
+        "h": "1. Exploitant van de website",
+        "blocks": [
+          {
+            "ul": [
+              "Modera Group",
+              "Statutaire zetel: 2 Plateia Eleftherias, 73132 Chania, Kreta, Griekenland",
+              "Fiscaal nummer (btw): EL802555027",
+              "G.E.MI.-nr. (Grieks handelsregister): 178690758000",
+              "E-mail: <a href=\"mailto:support@modera-group.com\">support@modera-group.com</a> · Telefoon: +30 698 392 4820"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "content",
+        "h": "2. Informatie op deze website",
+        "blocks": [
+          {
+            "p": "De inhoud van deze website — waaronder artikelen, kostenindicaties, tijdlijnen, grafieken en samenvattingen van regelgeving — is algemene informatie. Deze vormt geen juridisch, fiscaal, financieel of beleggingsadvies, geen aanbod en geen bindende offerte. Cijfers zijn indicatief; elk project wordt afzonderlijk beoordeeld en geprijsd. Wet- en regelgeving verandert; win altijd professioneel advies in voor uw specifieke situatie."
+          },
+          {
+            "p": "Projectbeschrijvingen illustreren het soort en de omvang van het werk dat we uitvoeren. Niets op deze website is een aanbod of uitnodiging om te beleggen; beleggingsmogelijkheden worden, voor zover beschikbaar via onze partners, alleen aan daarvoor in aanmerking komende personen aangeboden via de passende documentatie."
+          }
+        ]
+      },
+      {
+        "id": "ip",
+        "h": "3. Intellectueel eigendom",
+        "blocks": [
+          {
+            "p": "De naam en het logo van Modera, de teksten, het ontwerp en de code van deze website behoren toe aan Modera Group of haar licentiegevers. Foto’s en video’s van derden worden gebruikt onder de licenties die op onze pagina met beeldverantwoording staan vermeld. U mag pagina’s bekijken en delen voor persoonlijke, niet-commerciële doeleinden; voor elke andere verveelvoudiging is onze schriftelijke toestemming vereist."
+          }
+        ]
+      },
+      {
+        "id": "use",
+        "h": "4. Aanvaardbaar gebruik",
+        "blocks": [
+          {
+            "p": "U stemt ermee in de website niet te misbruiken — bijvoorbeeld door te proberen onbevoegd toegang te verkrijgen, kwaadaardige code in te brengen, de website op grote schaal te scrapen of via onze formulieren valse of onrechtmatige inhoud in te dienen."
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "h": "5. Aansprakelijkheid",
+        "blocks": [
+          {
+            "p": "We doen ons best deze website juist en beschikbaar te houden, maar we garanderen niet dat ze foutloos of ononderbroken is. Voor zover wettelijk toegestaan, zijn we niet aansprakelijk voor schade die voortvloeit uit het vertrouwen op algemene informatie op de website. Niets in deze voorwaarden beperkt aansprakelijkheid die wettelijk niet kan worden beperkt, of uw wettelijke rechten als consument."
+          },
+          {
+            "p": "Links naar externe websites worden voor uw gemak aangeboden; we zijn niet verantwoordelijk voor hun inhoud of privacypraktijken."
+          }
+        ]
+      },
+      {
+        "id": "law",
+        "h": "6. Toepasselijk recht",
+        "blocks": [
+          {
+            "p": "Op deze voorwaarden is Grieks recht van toepassing en de rechtbanken van Chania zijn bevoegd, onverminderd dwingende consumentenbeschermingsregels van uw land van verblijf. Op overeenkomsten voor onze diensten zijn hun eigen voorwaarden van toepassing."
+          }
+        ]
+      },
+      {
+        "id": "changes",
+        "h": "7. Wijzigingen",
+        "blocks": [
+          {
+            "p": "We kunnen deze voorwaarden van tijd tot tijd bijwerken. De op deze pagina gepubliceerde versie is van toepassing vanaf de hierboven vermelde datum."
+          }
+        ]
+      }
+    ]
+  }
+}

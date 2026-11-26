@@ -1,0 +1,30 @@
+/* ==========================================================================
+   Right-to-left (Hebrew legal pages). Most layout uses flex/grid and logical
+   properties; these rules mirror the remaining physical directions.
+   ========================================================================== */
+[dir='rtl'] body { letter-spacing: 0; }
+[dir='rtl'] .display, [dir='rtl'] .h1, [dir='rtl'] .h2, [dir='rtl'] .h3 { letter-spacing: 0; }
+[dir='rtl'] .eyebrow, [dir='rtl'] .legal-toc p, [dir='rtl'] .f-col h2 { letter-spacing: 0.04em; }
+[dir='rtl'] .prose ul li { padding-left: 0; padding-right: 26px; }
+[dir='rtl'] .prose ul li::before { left: auto; right: 4px; }
+[dir='rtl'] .pull { padding: 8px 28px 8px 0; border-left: 0; border-right: 2px solid var(--bronze); }
+[dir='rtl'] .legal-table th, [dir='rtl'] .legal-table td, [dir='rtl'] .credits td { text-align: right; }
+[dir='rtl'] .toc ol { border-left: 0; border-right: 1px solid var(--line); }
+[dir='rtl'] .toc a { padding-left: 0; padding-right: 16px; margin-left: 0; margin-right: -1px; border-left: 0; border-right: 1px solid transparent; }
+[dir='rtl'] .crumbs li + li::before { margin-right: 0; margin-left: 8px; }
+[dir='rtl'] .lang-menu { right: auto; left: 0; transform-origin: top left; }
+[dir='rtl'] .btn .i, [dir='rtl'] .link .i { transform: scaleX(-1); }
+[dir='rtl'] .btn:hover .i, [dir='rtl'] a:hover .link .i { transform: scaleX(-1) translateX(4px); }
+[dir='rtl'] .faq-item summary, [dir='rtl'] .pref { text-align: right; }
+[dir='rtl'] .a11y-fab { right: auto; left: 18px; }
+[dir='rtl'] .switch input:checked + .switch-ui::after { transform: translateX(20px); }
+[dir='rtl'] .switch-ui { direction: ltr; }
+.partial-note {
+  margin: 28px 0 0; padding: 14px 18px; border-radius: 14px; background: var(--paper); border: 1px solid var(--line);
+  font-size: var(--fs-sm); color: var(--muted);
+}
+.partial-note a { color: var(--bronze-ink); text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 640px) {
+  [dir='rtl'] .a11y-fab { left: 12px; right: auto; }
+  [dir='rtl'] .legal-table th, [dir='rtl'] .legal-table td { text-align: right; }
+}

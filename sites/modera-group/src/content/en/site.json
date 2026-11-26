@@ -1,0 +1,792 @@
+{
+  "meta": {
+    "home": {
+      "title": "Modera Group — Construction, Development & Engineering Management in Crete, Greece",
+      "description": "Design-build contractor in Chania, Crete. Residential, commercial, hospitality and infrastructure projects — construction, development, owner’s representation, engineering management and permits. 10+ years, 60+ projects."
+    },
+    "services": {
+      "title": "Construction & Development Services in Greece | Modera Group",
+      "description": "One accountable team for construction, development, contractor oversight, engineering management and regulatory approvals in Crete and across Greece."
+    },
+    "sectors": {
+      "title": "Residential, Commercial, Hospitality & Infrastructure Construction | Modera Group",
+      "description": "Private villas and apartment buildings, commercial premises, hotels and resorts, and the infrastructure that serves them — built end-to-end by Modera Group in Crete."
+    },
+    "projects": {
+      "title": "Projects & Project Types | Modera Group, Crete",
+      "description": "The project types Modera Group delivers in Crete and Greece: stone and contemporary villas, residential buildings, boutique hotels, resorts, commercial premises and site infrastructure."
+    },
+    "about": {
+      "title": "About Modera Group — Builders and Developers in Chania, Crete",
+      "description": "Modera Group is a construction and development company based in Chania, Crete, delivering end-to-end projects with full in-house management for more than a decade."
+    },
+    "team": {
+      "title": "Our Team — Engineers, Architects & Project Managers | Modera Group",
+      "description": "Meet the leadership and departments behind Modera Group: construction, engineering, design, permits and regulatory affairs, cost control and client relations."
+    },
+    "insights": {
+      "title": "Insights — Building, Permits, Costs & Investment in Greece | Modera Group",
+      "description": "Practical guides on building in Crete and Greece: permits, construction costs, hospitality development, Golden Visa, sustainability and infrastructure."
+    },
+    "contact": {
+      "title": "Contact Modera Group — Start Your Project in Crete",
+      "description": "Talk to Modera Group about your residential, commercial, hospitality or infrastructure project. Office in Chania, Crete. support@modera-group.com · +30 698 392 4820."
+    },
+    "credits": {
+      "title": "Image Credits | Modera Group",
+      "description": "Licences and attributions for the photography and video used on this website."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Modera Group",
+      "description": "How Modera Group collects and processes personal data submitted through this website."
+    },
+    "notFound": {
+      "title": "Page not found | Modera Group",
+      "description": "The page you were looking for does not exist."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "sectors": "Sectors",
+    "projects": "Projects",
+    "about": "About",
+    "team": "Team",
+    "insights": "Insights",
+    "contact": "Contact",
+    "cta": "Start a project",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language"
+  },
+  "common": {
+    "readMore": "Read article",
+    "learnMore": "Learn more",
+    "allArticles": "All insights",
+    "minRead": "min read",
+    "backToInsights": "Back to insights",
+    "related": "Continue reading",
+    "scroll": "Scroll",
+    "viewServices": "Explore services",
+    "contactUs": "Contact us",
+    "callUs": "Call",
+    "emailUs": "Email",
+    "whatsapp": "WhatsApp",
+    "address": "Address",
+    "taxNo": "Tax no.",
+    "rights": "All rights reserved.",
+    "credits": "Image credits",
+    "privacy": "Privacy policy",
+    "indicative": "Indicative figures for planning purposes only. Every project is priced individually.",
+    "source": "Source",
+    "skipToContent": "Skip to content",
+    "updated": "Updated",
+    "by": "By",
+    "onThisPage": "On this page",
+    "faqTitle": "Frequently asked questions",
+    "typicalSize": "Typical size",
+    "typicalDuration": "Typical duration",
+    "scope": "Scope",
+    "location": "Location",
+    "enquire": "Enquire",
+    "notFoundTitle": "This page could not be found",
+    "notFoundText": "The page may have moved. Start from the homepage or talk to our team.",
+    "goHome": "Go to homepage",
+    "categories": {
+      "all": "All",
+      "permits": "Permits & regulation",
+      "costs": "Costs & budgeting",
+      "hospitality": "Hospitality",
+      "investment": "Investment",
+      "sustainability": "Sustainability",
+      "infrastructure": "Infrastructure",
+      "management": "Project management"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Construction · Development · Engineering — Crete, Greece",
+      "title": "We build Crete’s <em>next chapter</em> — from first sketch to final key.",
+      "lead": "Modera Group is a design-build contractor and development partner based in Chania. Private homes, residential buildings, commercial premises, hotels and infrastructure — delivered by one accountable team that manages every stage in-house.",
+      "ctaPrimary": "Start your project",
+      "ctaSecondary": "See what we build",
+      "badge": "Over a decade on site in Crete"
+    },
+    "stats": [
+      {
+        "value": 10,
+        "suffix": "+",
+        "label": "Years building in Crete and Greece"
+      },
+      {
+        "value": 60,
+        "suffix": "+",
+        "label": "Projects delivered and managed"
+      },
+      {
+        "value": 4,
+        "suffix": "",
+        "label": "Sectors under one roof"
+      },
+      {
+        "value": 1,
+        "suffix": "",
+        "label": "Accountable team, end-to-end"
+      }
+    ],
+    "intro": {
+      "eyebrow": "Why Modera",
+      "title": "One contract. One team. <em>Full ownership</em> of the result.",
+      "text": "Most projects in Greece fail at the seams — between the architect and the builder, the builder and the permit office, the owner abroad and the site at home. Modera removes the seams. We plan, permit, engineer, build and hand over under a single management structure, so you always know who is responsible, what it costs and when it will be finished.",
+      "points": [
+        "Personal service from feasibility to handover",
+        "Fixed scopes, transparent budgets, weekly reporting",
+        "In-house engineering, permits and site management",
+        "Bilingual project leads for international owners"
+      ]
+    },
+    "services": {
+      "eyebrow": "What we do",
+      "title": "Five disciplines. <em>One</em> delivery model.",
+      "lead": "Engage us for a single discipline or the complete journey. Either way, you get senior people and a process built for certainty."
+    },
+    "sectors": {
+      "eyebrow": "Where we build",
+      "title": "From a family home to a <em>resort</em>.",
+      "lead": "Four sectors, one standard of craft. Our teams move between them because the fundamentals — structure, regulation, cost and time — never change."
+    },
+    "process": {
+      "eyebrow": "How we work",
+      "title": "A process designed to <em>remove surprises</em>.",
+      "lead": "Every Modera project follows the same five-stage path, with a clear decision gate at the end of each stage.",
+      "steps": [
+        {
+          "title": "Feasibility & due diligence",
+          "text": "Plot and title checks, zoning and building coefficients, archaeological and forestry status, utilities, access — and an honest view on budget and timeline before you commit."
+        },
+        {
+          "title": "Design & engineering",
+          "text": "Architecture, structural, mechanical and electrical design developed together, priced as we go, and optimised for the Cretan climate and seismic code."
+        },
+        {
+          "title": "Permits & approvals",
+          "text": "We prepare and submit the full building-permit file and manage every authority involved — from the municipality and the Ephorate of Antiquities to energy and tourism licensing."
+        },
+        {
+          "title": "Construction",
+          "text": "Our own site managers run the works with vetted trades, a live programme and weekly photo reports. Quality is inspected at every hold point, not at the end."
+        },
+        {
+          "title": "Handover & aftercare",
+          "text": "Commissioning, as-built documentation, energy certificate, warranties and a 12-month aftercare period. We stay reachable long after the keys change hands."
+        }
+      ]
+    },
+    "film": {
+      "eyebrow": "On site",
+      "title": "Craft you can see. <em>Control</em> you can measure.",
+      "text": "From excavation to the last coat of lime plaster, our site managers are on the ground every working day. Owners abroad follow progress through weekly reports, photos and video walk-throughs."
+    },
+    "charts": {
+      "eyebrow": "Plan with numbers",
+      "title": "Clarity before the <em>first stone</em>.",
+      "lead": "We share the numbers early. These indicative ranges help owners and investors frame budgets and timelines for projects in Crete.",
+      "costTitle": "Indicative build cost in Crete, 2026 (€ per m², excl. land & VAT)",
+      "timelineTitle": "Typical timeline — premium villa (months)",
+      "mixTitle": "Where a typical villa budget goes"
+    },
+    "compare": {
+      "eyebrow": "The difference",
+      "title": "Fragmented delivery vs. <em>the Modera model</em>.",
+      "colA": "Typical approach",
+      "colB": "Modera Group",
+      "rows": [
+        {
+          "label": "Point of contact",
+          "a": "Architect, builder, engineers and consultants separately",
+          "b": "One project lead, accountable for everything"
+        },
+        {
+          "label": "Budget",
+          "a": "Revealed piece by piece, extras common",
+          "b": "Priced during design, controlled line by line"
+        },
+        {
+          "label": "Permits",
+          "a": "Owner chases authorities",
+          "b": "Managed in-house by our regulatory team"
+        },
+        {
+          "label": "Reporting",
+          "a": "Ad hoc, mostly by phone",
+          "b": "Weekly written reports with photos and programme"
+        },
+        {
+          "label": "After handover",
+          "a": "Hard to reach the right person",
+          "b": "12-month aftercare and documented warranties"
+        }
+      ]
+    },
+    "partners": {
+      "eyebrow": "Strategic partners",
+      "title": "Backed by <em>Sivan Invest Group</em> and the Harmony Fund.",
+      "text": "Modera Group works hand-in-hand with Sivan Invest Group and the Harmony Fund, combining investment insight with on-the-ground construction capability in Crete. Investors gain a builder who understands returns; owners gain a builder with the discipline of an institutional partner.",
+      "cta": "Read about the partnership"
+    },
+    "insights": {
+      "eyebrow": "Insights",
+      "title": "Knowledge from the <em>site</em>, not the brochure."
+    },
+    "faq": [
+      {
+        "q": "Do you work outside Chania?",
+        "a": "Yes. We are based in Chania and work across Crete — Chania, Rethymno, Heraklion and Lasithi — and take on selected projects elsewhere in Greece, particularly in hospitality and infrastructure."
+      },
+      {
+        "q": "Can you manage a project while I live abroad?",
+        "a": "That is how most of our international clients work with us. You receive weekly written reports, photos and video walk-throughs, and you can approve decisions remotely. Site visits are arranged around your trips."
+      },
+      {
+        "q": "Do you only build, or also design and handle permits?",
+        "a": "Both. You can appoint us for the complete design-build journey, or for a single discipline such as engineering management, contractor oversight or the permit process."
+      },
+      {
+        "q": "How do you price a project?",
+        "a": "After feasibility we prepare a cost plan tied to the design. As the design develops we refine it into a detailed bill of quantities, so the final contract price reflects a fully defined scope."
+      },
+      {
+        "q": "Which languages do you work in?",
+        "a": "Our team works in Greek, English and Hebrew, and our documentation can be prepared for owners in French, German, Russian, Spanish and Dutch."
+      }
+    ],
+    "cta": {
+      "title": "Have a plot, a building or an idea?",
+      "text": "Tell us about it. A senior member of our team will reply within one business day with next steps — no obligation.",
+      "button": "Book a consultation"
+    }
+  },
+  "services": {
+    "hero": {
+      "eyebrow": "Services",
+      "title": "Everything a project needs, <em>under one roof</em>.",
+      "lead": "Five integrated disciplines that can be engaged together or individually. The common thread: senior people, a documented process and full accountability."
+    },
+    "items": [
+      {
+        "id": "construction",
+        "title": "Construction",
+        "short": "General contracting for new builds, extensions and renovations — delivered by our own site managers.",
+        "text": "We act as general contractor, coordinating every trade from earthworks and reinforced concrete to stonework, joinery, MEP and landscaping. Our site managers are on site daily, working to a live programme and a written quality plan with inspections at every critical hold point.",
+        "bullets": [
+          "New-build villas, residences and apartment buildings",
+          "Hotels, commercial and mixed-use buildings",
+          "Renovation and restoration of stone buildings",
+          "Structural, MEP, finishes and external works"
+        ]
+      },
+      {
+        "id": "development",
+        "title": "Development",
+        "short": "From land to a finished, income-ready asset — feasibility, design, delivery and positioning.",
+        "text": "For landowners and investors we take projects from an idea to a completed, marketable asset. We test feasibility, define the right product for the location, manage design and approvals and deliver the build, with returns and exit in mind from day one.",
+        "bullets": [
+          "Land appraisal and highest-and-best-use studies",
+          "Product definition for residential and hospitality",
+          "Development budgets, cash-flow and phasing",
+          "Turnkey delivery for investor partners"
+        ]
+      },
+      {
+        "id": "contracting-support",
+        "title": "Contractor oversight",
+        "short": "Owner’s representation when another contractor builds — protecting quality, cost and time.",
+        "text": "If you already have a builder, we sit on your side of the table. We review contracts and bills of quantities, certify progress payments, inspect quality and track the programme, so that what you pay for is what gets built.",
+        "bullets": [
+          "Tender documents and contractor selection",
+          "Contract and bill-of-quantities review",
+          "Progress certification and payment control",
+          "Independent quality inspections and snagging"
+        ]
+      },
+      {
+        "id": "engineering-management",
+        "title": "Engineering management",
+        "short": "Structural, mechanical and electrical engineering coordinated by one technical lead.",
+        "text": "Our engineering team coordinates architecture, structural, mechanical and electrical design, aligned to the Greek seismic and energy regulations. We manage design development, value engineering and site supervision so that design intent survives contact with the site.",
+        "bullets": [
+          "Design coordination and clash detection",
+          "Value engineering without loss of quality",
+          "Energy performance in line with KENAK and NZEB",
+          "Supervising engineer services on site"
+        ]
+      },
+      {
+        "id": "regulatory",
+        "title": "Permits & regulatory affairs",
+        "short": "Building permits and approvals managed end-to-end with the municipality and every competent authority.",
+        "text": "Greek permitting involves many authorities: the municipal building office, the Ephorate of Antiquities, forestry and coastal services, utilities and — for hotels — tourism licensing. Our regulatory team prepares the files, tracks every step and resolves questions before they become delays.",
+        "bullets": [
+          "Building permits via the e-Adeies system",
+          "Archaeological, forestry and coastal-zone clearances",
+          "Environmental and Natura 2000 approvals where required",
+          "Tourism licensing support for hotels and villas"
+        ]
+      }
+    ],
+    "deliverTitle": "What every client receives",
+    "deliver": [
+      "A named project lead and deputy",
+      "A written cost plan and programme",
+      "Weekly progress reports with photos",
+      "Documented quality inspections",
+      "As-built drawings and a warranty file"
+    ]
+  },
+  "sectors": {
+    "hero": {
+      "eyebrow": "Sectors",
+      "title": "Four sectors. <em>One</em> standard.",
+      "lead": "We build homes, places of work, places to stay — and the infrastructure that makes them possible."
+    },
+    "items": [
+      {
+        "id": "residential",
+        "title": "Residential",
+        "short": "Private villas, family homes and apartment buildings.",
+        "text": "From a sea-view villa in Apokoronas to a multi-unit residence in the city, we combine contemporary design with Cretan materials and the discipline of a structured process. Owners abroad receive the same visibility as if they were on site.",
+        "bullets": [
+          "Private villas and family homes",
+          "Apartment and residential buildings",
+          "Stone house restoration",
+          "Pools, landscaping and outdoor living"
+        ],
+        "size": "180–600 m²",
+        "duration": "12–20 months"
+      },
+      {
+        "id": "commercial",
+        "title": "Commercial",
+        "short": "Offices, retail and mixed-use buildings.",
+        "text": "Commercial buildings must work hard — for tenants, operators and investors. We plan for flexibility, efficient services and durable materials, and phase works to protect existing operations when we extend or refit.",
+        "bullets": [
+          "Offices and professional premises",
+          "Retail and showrooms",
+          "Mixed-use developments",
+          "Refits and change-of-use conversions"
+        ],
+        "size": "300–3,000 m²",
+        "duration": "10–24 months"
+      },
+      {
+        "id": "hospitality",
+        "title": "Hospitality & tourism",
+        "short": "Boutique hotels, resorts and rental villa complexes.",
+        "text": "Tourism is Crete’s engine, and hospitality buildings are among the most demanding to deliver: seasonal deadlines, operator standards and licensing. We build to open on time — from boutique hotels and suites to large resort projects.",
+        "bullets": [
+          "Boutique hotels and suites",
+          "Resorts and large-scale tourism projects",
+          "Rental villa complexes",
+          "Renovation between seasons"
+        ],
+        "size": "1,000–15,000 m²",
+        "duration": "14–36 months"
+      },
+      {
+        "id": "infrastructure",
+        "title": "Infrastructure",
+        "short": "Roads, utilities, earthworks and site development.",
+        "text": "Every great building depends on what lies beneath and around it. We deliver earthworks, access roads, retaining structures, water, drainage, power and telecom networks — for our own projects and for private and public clients.",
+        "bullets": [
+          "Earthworks and retaining structures",
+          "Access roads and paving",
+          "Water, drainage and sewerage networks",
+          "Power, lighting and telecom infrastructure"
+        ],
+        "size": "Site-specific",
+        "duration": "3–18 months"
+      }
+    ]
+  },
+  "projects": {
+    "hero": {
+      "eyebrow": "Projects",
+      "title": "The work we are <em>trusted</em> with.",
+      "lead": "Across more than 60 projects in over a decade, these are the project types we deliver most. Each one is managed end-to-end by our own team."
+    },
+    "filterAll": "All",
+    "items": [
+      {
+        "sector": "residential",
+        "image": "eco-villas-hillside",
+        "title": "Stone villa with infinity pool",
+        "location": "Apokoronas, Chania",
+        "size": "320 m²",
+        "duration": "16 months",
+        "scope": "Design-build, permits, landscaping"
+      },
+      {
+        "sector": "residential",
+        "image": "eco-villas-rock",
+        "title": "Contemporary sea-view residence",
+        "location": "Akrotiri, Chania",
+        "size": "410 m²",
+        "duration": "18 months",
+        "scope": "Construction, engineering management"
+      },
+      {
+        "sector": "residential",
+        "image": "chania-residence-dusk",
+        "title": "Boutique apartment building",
+        "location": "Chania town",
+        "size": "1,150 m²",
+        "duration": "20 months",
+        "scope": "Development, construction"
+      },
+      {
+        "sector": "hospitality",
+        "image": "ks-resort-pool",
+        "title": "Seafront suites with spa",
+        "location": "Western Crete",
+        "size": "2,400 m²",
+        "duration": "22 months",
+        "scope": "Construction, tourism licensing"
+      },
+      {
+        "sector": "hospitality",
+        "image": "eco-villas-dusk",
+        "title": "Cycladic-style boutique hotel",
+        "location": "Greek islands",
+        "size": "3,100 m²",
+        "duration": "26 months",
+        "scope": "Contractor oversight, engineering"
+      },
+      {
+        "sector": "hospitality",
+        "image": "ks-resort-aerial",
+        "title": "Resort pool and amenity upgrade",
+        "location": "Northern Crete",
+        "size": "5,600 m²",
+        "duration": "7 months (off-season)",
+        "scope": "Renovation between seasons"
+      },
+      {
+        "sector": "commercial",
+        "image": "chania-street-building",
+        "title": "Mixed-use commercial building",
+        "location": "Heraklion",
+        "size": "2,800 m²",
+        "duration": "19 months",
+        "scope": "Construction, MEP"
+      },
+      {
+        "sector": "commercial",
+        "image": "chania-building",
+        "title": "Office refit and façade renewal",
+        "location": "Chania",
+        "size": "1,200 m²",
+        "duration": "9 months",
+        "scope": "Engineering management, construction"
+      },
+      {
+        "sector": "infrastructure",
+        "image": "site-earthworks-sea",
+        "title": "Access road and utility networks",
+        "location": "Rural Chania",
+        "size": "2.4 km",
+        "duration": "8 months",
+        "scope": "Earthworks, paving, water & power"
+      }
+    ],
+    "note": "Project details are indicative of typical scope. Full case studies are available on request."
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Rooted in Chania. <em>Built</em> on accountability.",
+      "lead": "For more than a decade, Modera Group has been building homes, hotels, commercial buildings and infrastructure across Crete — with one simple promise: we own the result."
+    },
+    "story": {
+      "title": "Our story",
+      "paragraphs": [
+        "Modera Group was founded by people who had seen too many good projects go wrong for avoidable reasons: unclear responsibilities, permits that stalled for months, budgets that drifted and owners abroad who learned about problems too late.",
+        "So we built the company around the opposite idea. Design, engineering, permits and construction are managed by one team, under one contract, with one person accountable for your project. That model has carried us through more than 60 projects — from private villas to hospitality and infrastructure works.",
+        "Today we combine Cretan craftsmanship with the reporting, cost control and governance expected by international investors — supported by our strategic partners, Sivan Invest Group and the Harmony Fund."
+      ]
+    },
+    "values": [
+      {
+        "title": "Ownership",
+        "text": "One accountable team from first sketch to final key. No passing the problem on."
+      },
+      {
+        "title": "Transparency",
+        "text": "Open-book budgets, written reports and decisions documented as they are made."
+      },
+      {
+        "title": "Craft",
+        "text": "Respect for Cretan materials and building traditions, executed to modern standards."
+      },
+      {
+        "title": "Personal service",
+        "text": "Senior people who answer the phone — before, during and after construction."
+      }
+    ],
+    "region": {
+      "title": "Where we work",
+      "text": "Our home is Chania, and our projects span the whole of Crete, with selected work across mainland Greece and the islands.",
+      "areas": [
+        "Chania & Apokoronas",
+        "Rethymno",
+        "Heraklion",
+        "Lasithi & Elounda",
+        "Mainland Greece & islands"
+      ]
+    },
+    "company": {
+      "title": "Company details",
+      "legal": "Modera Group",
+      "office": "Head office"
+    }
+  },
+  "team": {
+    "hero": {
+      "eyebrow": "Our team",
+      "title": "The people who <em>answer</em> for your project.",
+      "lead": "Engineers, architects, project managers and regulatory specialists — organised into departments that work as one team."
+    },
+    "leadershipTitle": "Leadership",
+    "departmentsTitle": "Departments",
+    "departments": [
+      {
+        "id": "management",
+        "name": "Management & Strategy",
+        "text": "Sets direction, partnerships and investment strategy, and holds final accountability for every project."
+      },
+      {
+        "id": "construction",
+        "name": "Construction & Site Operations",
+        "text": "Runs the sites: programme, trades, safety and quality, every working day."
+      },
+      {
+        "id": "engineering",
+        "name": "Engineering",
+        "text": "Structural, mechanical and electrical design, coordination and supervision."
+      },
+      {
+        "id": "design",
+        "name": "Architecture & Design",
+        "text": "Concept to detailed design, interiors and landscape, with a Cretan sensibility."
+      },
+      {
+        "id": "regulatory",
+        "name": "Permits & Regulatory Affairs",
+        "text": "Building permits, archaeological, forestry, environmental and tourism approvals."
+      },
+      {
+        "id": "commercial",
+        "name": "Cost Control & Procurement",
+        "text": "Cost plans, bills of quantities, tendering and payment certification."
+      },
+      {
+        "id": "clients",
+        "name": "Client Relations",
+        "text": "The single line of communication for owners and investors, in their language."
+      }
+    ],
+    "members": [
+      {
+        "name": "Sivan Menahem",
+        "role": "Founder & Chairman",
+        "dept": "management",
+        "bio": "Founder of Sivan Invest Group. Sivan leads strategy, investor partnerships and the collaboration with the Harmony Fund, bringing an investor’s discipline to every Modera project.",
+        "photo": "sivan"
+      },
+      {
+        "name": "Yiannis",
+        "role": "Co-Founder & Managing Director",
+        "dept": "management",
+        "bio": "Yiannis leads Modera’s operations in Crete, overseeing construction, engineering and client delivery across all active projects.",
+        "photo": ""
+      },
+      {
+        "name": "Eleni Papadaki",
+        "role": "Head of Architecture & Design",
+        "dept": "design",
+        "bio": "Architect leading concept and detailed design for villas and hospitality projects, with a focus on Cretan materials and passive climate design.",
+        "photo": ""
+      },
+      {
+        "name": "Nikos Kalogerakis",
+        "role": "Head of Engineering",
+        "dept": "engineering",
+        "bio": "Civil and structural engineer responsible for structural design, seismic compliance and design coordination across disciplines.",
+        "photo": ""
+      },
+      {
+        "name": "Georgios Tsakiris",
+        "role": "Construction Director",
+        "dept": "construction",
+        "bio": "Leads site operations, programmes and trade partners, with responsibility for safety and quality on every site.",
+        "photo": ""
+      },
+      {
+        "name": "Maria Daskalaki",
+        "role": "Permits & Regulatory Affairs Manager",
+        "dept": "regulatory",
+        "bio": "Manages building permits and approvals with municipal, archaeological, forestry, environmental and tourism authorities.",
+        "photo": ""
+      },
+      {
+        "name": "Dimitris Manousakis",
+        "role": "Infrastructure & MEP Lead",
+        "dept": "engineering",
+        "bio": "Mechanical and electrical engineer leading utilities, networks and building services for residential and hospitality projects.",
+        "photo": ""
+      },
+      {
+        "name": "Sofia Andreadaki",
+        "role": "Cost Control & Procurement Manager",
+        "dept": "commercial",
+        "bio": "Quantity surveyor responsible for cost plans, bills of quantities, tendering and progress-payment certification.",
+        "photo": ""
+      },
+      {
+        "name": "Katerina Vlachou",
+        "role": "Client Relations Manager",
+        "dept": "clients",
+        "bio": "The day-to-day contact for international owners and investors — reports, decisions and site visits, coordinated in one place.",
+        "photo": ""
+      }
+    ],
+    "joinTitle": "Build with us",
+    "joinText": "We are always glad to meet experienced engineers, site managers and trade partners who share our standards."
+  },
+  "insights": {
+    "hero": {
+      "eyebrow": "Insights",
+      "title": "Building in Greece, <em>explained</em>.",
+      "lead": "Guides on permits, costs, hospitality, investment and sustainability — written by the people who build."
+    },
+    "featured": "Featured"
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let’s talk about <em>your project</em>.",
+      "lead": "Share a few details and a senior member of our team will reply within one business day."
+    },
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (with country code)",
+      "country": "Country of residence",
+      "type": "Project type",
+      "types": [
+        "Private villa or home",
+        "Apartment / residential building",
+        "Commercial building",
+        "Hotel or tourism project",
+        "Infrastructure works",
+        "Renovation / restoration",
+        "Other"
+      ],
+      "service": "Service needed",
+      "services": [
+        "Full design-build",
+        "Construction only",
+        "Development partnership",
+        "Contractor oversight",
+        "Engineering management",
+        "Permits & approvals"
+      ],
+      "budget": "Estimated budget",
+      "budgets": [
+        "Under €500k",
+        "€500k – €1M",
+        "€1M – €3M",
+        "€3M – €10M",
+        "Over €10M",
+        "Not sure yet"
+      ],
+      "stage": "Where are you today?",
+      "stages": [
+        "Looking for land",
+        "I own a plot",
+        "I have designs",
+        "I have a permit",
+        "Construction has started"
+      ],
+      "message": "Tell us about the project",
+      "consent": "I agree that Modera Group may process my details to respond to this enquiry, as described in the privacy policy.",
+      "submit": "Send enquiry",
+      "sending": "Sending…",
+      "success": "Thank you — your enquiry has been received. We will reply within one business day.",
+      "error": "Something went wrong. Please email us at support@modera-group.com or message us on WhatsApp.",
+      "required": "Required"
+    },
+    "details": "Direct contact",
+    "office": "Office",
+    "hours": "Monday – Friday, 09:00 – 17:00 (EET)",
+    "mapTitle": "Modera Group office in Chania"
+  },
+  "credits": {
+    "title": "Credits",
+    "intro": "All photographs, renderings and videos on this website belong to Modera Group and its partners or are used under licence. They may not be reproduced without written permission. Fonts are self-hosted under the SIL Open Font License."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "paragraphs": [
+      "Modera Group (“we”) is the controller of personal data submitted through this website. We process the details you provide in our contact form — name, email, phone, country and project information — solely to respond to your enquiry and, where you ask us to, to prepare a proposal.",
+      "The legal basis is your consent and our legitimate interest in responding to business enquiries (Article 6(1)(a) and (f) GDPR). Form submissions are transmitted through a secure form-handling service and delivered to our mailbox.",
+      "We keep enquiry data for up to 24 months unless a contract follows, in which case statutory retention periods apply. We do not sell personal data or use it for automated decision-making.",
+      "You may request access, correction, deletion or restriction of your data, or object to its processing, by writing to support@modera-group.com. You also have the right to lodge a complaint with the Hellenic Data Protection Authority (www.dpa.gr).",
+      "This website does not use advertising or tracking cookies. Embedded maps are loaded only when you scroll to them."
+    ]
+  },
+  "charts": {
+    "costTypes": [
+      "Standard residence",
+      "Apartment building",
+      "Premium villa",
+      "Luxury villa",
+      "Boutique hotel",
+      "Commercial shell & core"
+    ],
+    "phases": [
+      "Feasibility & due diligence",
+      "Design & engineering",
+      "Permits & approvals",
+      "Construction",
+      "Handover & aftercare"
+    ],
+    "month": "Month",
+    "split": [
+      "Structure & earthworks",
+      "Envelope & roofing",
+      "MEP services",
+      "Finishes & joinery",
+      "Pool & external works",
+      "Fees & permits"
+    ],
+    "arrivals": "International tourist arrivals in Greece (millions)",
+    "mix": [
+      "Residential",
+      "Hospitality",
+      "Commercial",
+      "Infrastructure"
+    ]
+  },
+  "footer": {
+    "tagline": "Construction, development and engineering management in Crete and across Greece.",
+    "explore": "Explore",
+    "company": "Company",
+    "contact": "Contact",
+    "disclaimer": "Information on this website is general and does not constitute legal, tax or investment advice."
+  },
+  "mobileBar": {
+    "call": "Call",
+    "whatsapp": "WhatsApp",
+    "enquire": "Enquire"
+  }
+}
