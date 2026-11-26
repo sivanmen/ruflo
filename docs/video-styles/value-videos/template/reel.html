@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:A;src:url(Assistant-VF.ttf);font-weight:200 800}
+@font-face{font-family:H;src:url(Heebo-VF.ttf);font-weight:100 900}
+@font-face{font-family:F;src:url(FrankRuhlLibre-VF.ttf);font-weight:300 900}
+:root{--navy:#0E1E3A;--deep:#07111f;--gold:#C9A24A;--gold2:#E8CD86;--cream:#FAF7F1;--r:34px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--deep)}
+body{font-family:A,H,sans-serif;color:var(--cream);position:relative}
+.abs{position:absolute}
+.full{position:absolute;inset:0}
+.scene{position:absolute;inset:0;opacity:0;will-change:transform,opacity}
+.ph{position:absolute;inset:0;overflow:hidden}
+.ph img{position:absolute;inset:-4%;width:108%;height:108%;object-fit:cover}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,17,31,.78) 0%,rgba(7,17,31,.25) 38%,rgba(7,17,31,.35) 60%,rgba(7,17,31,.9) 100%)}
+.center{left:0;right:0;text-align:center}
+.glass{background:linear-gradient(135deg,rgba(255,255,255,.14),rgba(255,255,255,.05));border:1.5px solid rgba(232,205,134,.35);border-radius:var(--r);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);box-shadow:0 20px 60px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.18)}
+.pill{display:inline-block;padding:14px 38px;border-radius:999px;border:2px solid var(--gold);color:var(--gold2);font-weight:700;font-size:40px;background:rgba(14,30,58,.55)}
+.gold{color:var(--gold2)}
+.goldgrad{background:linear-gradient(100deg,#d9b55e 0%,#fbe7ad 35%,#e0bd66 55%,#fff6d8 70%,#d9b55e 100%);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent}
+.h1{font-weight:800;font-size:92px;line-height:1.08;letter-spacing:-1px}
+.serif{font-family:F;font-weight:900}
+.w{display:inline-block;opacity:0}
+svg.ic{width:1em;height:1em;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;vertical-align:-0.12em}
+#bokeh,#grain{position:absolute;inset:0}
+#grain{opacity:.07;mix-blend-mode:overlay;pointer-events:none}
+#vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 50%,rgba(0,0,0,.55) 100%);pointer-events:none}
+#leak{position:absolute;inset:-70%;background:radial-gradient(circle at 30% 40%,rgba(255,190,90,.55),transparent 45%),radial-gradient(circle at 75% 60%,rgba(201,162,74,.45),transparent 40%);mix-blend-mode:screen;opacity:0;pointer-events:none}
+#flash{position:absolute;inset:0;background:#fff3d6;opacity:0;pointer-events:none}
+#logo{position:absolute;top:150px;left:50%;width:300px;transform:translateX(-50%);opacity:.95}
+#sub{position:absolute;top:1430px;left:70px;right:70px;text-align:center;font-weight:700;font-size:46px;line-height:1.35;opacity:0}
+#sub span{display:inline-block;padding:0 5px;border-radius:10px}
+#sub .on{color:#0E1E3A;background:var(--gold2)}
+#subbox{display:inline-block;padding:14px 26px;border-radius:24px;background:rgba(7,17,31,.62);backdrop-filter:blur(10px)}
+/* S1 */
+.role{position:absolute;right:120px;left:120px;height:150px;display:flex;align-items:center;gap:34px;padding:0 44px;font-size:68px;font-weight:800;opacity:0}
+.role .ib{width:96px;height:96px;border-radius:28px;background:linear-gradient(135deg,var(--gold2),var(--gold));display:flex;align-items:center;justify-content:center;color:var(--navy);font-size:58px;flex:none}
+/* S3 */
+.chk{position:absolute;width:390px;height:118px;display:flex;align-items:center;gap:22px;padding:0 30px;font-size:46px;font-weight:700;opacity:0}
+.box{width:58px;height:58px;border-radius:16px;background:rgba(201,162,74,.2);border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;color:var(--gold2);font-size:44px;flex:none}
+/* S4 chat */
+.bub{position:absolute;max-width:640px;padding:26px 34px;border-radius:38px;font-size:46px;font-weight:600;line-height:1.3;opacity:0}
+.bub.in{right:90px;background:#1d2d4d;border-bottom-right-radius:10px}
+/* S6 */
+.xrow{position:absolute;right:150px;left:150px;height:120px;display:flex;align-items:center;gap:26px;padding:0 36px;font-size:50px;font-weight:700;opacity:0}
+.xi{width:64px;height:64px;border-radius:50%;background:rgba(220,80,80,.18);border:2px solid #e06a6a;color:#ff8f8f;display:flex;align-items:center;justify-content:center;font-size:38px;flex:none}
+.node{position:absolute;width:200px;height:200px;border-radius:50%;display:flex;align-items:center;justify-content:center;opacity:0}
+.nlab{position:absolute;width:300px;text-align:center;font-size:40px;font-weight:700;opacity:0}
+/* S7 */
+.step{position:absolute;right:150px;width:700px;height:110px;display:flex;align-items:center;gap:30px;font-size:50px;font-weight:700;opacity:.25}
+.dot{width:64px;height:64px;border-radius:50%;border:3px solid var(--gold);background:var(--deep);flex:none;display:flex;align-items:center;justify-content:center;color:var(--navy);font-size:36px}
+/* S8 */
+.card{position:absolute;right:110px;left:110px;height:132px;display:flex;align-items:center;gap:28px;padding:0 40px;font-size:50px;font-weight:700;opacity:0}
+.card .ci{color:var(--gold2);font-size:56px}
+/* end */
+.btn{position:absolute;left:150px;right:150px;height:150px;border-radius:999px;background:linear-gradient(135deg,#f0d690,#C9A24A 60%,#a98227);color:#0E1E3A;font-size:56px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:26px;box-shadow:0 20px 60px rgba(201,162,74,.45)}
+</style></head><body>
+<canvas id="bokeh" width="1080" height="1920"></canvas>
+
+<!-- S1 HOOK -->
+<div class="scene" id="s1">
+  <div class="abs center" style="top:430px;font-size:46px;font-weight:600;opacity:0" id="s1k"><span class="pill">רגע, זה בשבילך?</span></div>
+  <div class="role glass" id="r1" style="top:600px"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 20h18M6 16v-4M11 16V8M16 16v-6M21 4l-5 5-4-3-6 6"/></svg></div>מתכנן פיננסי?</div>
+  <div class="role glass" id="r2" style="top:785px"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>סוכן ביטוח?</div>
+  <div class="role glass" id="r3" style="top:970px"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h2M16 11h0M8 15h2M12 15h2M8 18h2M12 18h2M16 15v3"/></svg></div>רואה חשבון?</div>
+  <div class="role glass" id="r4" style="top:1155px"><div class="ib"><svg class="ic" viewBox="0 0 24 24"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg></div>מתווך?</div>
+</div>
+
+<!-- S2 QUESTION -->
+<div class="scene" id="s2">
+  <div class="ph"><img id="s2img" src="p083_6.jpg"></div><div class="shade" style="background:linear-gradient(180deg,rgba(7,17,31,.9),rgba(7,17,31,.55) 50%,rgba(7,17,31,.92))"></div>
+  <div class="abs center h1" style="top:700px">
+    <div><span class="w" data-t="5.26">איך</span> <span class="w" data-t="5.36">אתה</span> <span class="w gold" data-t="5.54" data-k="slam">מרוויח</span></div>
+    <div style="font-size:78px;font-weight:700"><span class="w" data-t="5.96">מהדירות</span> <span class="w" data-t="6.48">שהלקוחות</span> <span class="w" data-t="7.06">שלך</span></div>
+    <div><span class="w" data-t="7.38">קונים</span> <span class="w serif goldgrad" data-t="7.64" data-k="slam" style="font-size:170px;line-height:1.25" id="s2yv">ביוון?</span></div>
+  </div>
+</div>
+
+<!-- S3 ALON -->
+<div class="scene" id="s3">
+  <div class="abs" id="s3ring" style="left:390px;top:380px;width:300px;height:300px">
+    <svg viewBox="0 0 300 300" width="300" height="300"><circle cx="150" cy="150" r="140" stroke="#C9A24A" stroke-width="6" fill="rgba(14,30,58,.9)" id="ringc" stroke-dasharray="880" stroke-dashoffset="880"/>
+    <circle cx="150" cy="118" r="44" fill="#E8CD86"/><path d="M68 236c10-46 46-66 82-66s72 20 82 66" fill="#E8CD86"/><path d="M134 176l16 22 16-22" fill="#0E1E3A"/></svg>
+  </div>
+  <div class="abs center serif" id="s3name" style="top:700px;font-size:120px;opacity:0">אלון</div>
+  <div class="abs center" id="s3role" style="top:860px;opacity:0"><span class="pill">מתכנן פיננסי</span></div>
+  <div class="abs center" id="s3line" style="top:990px;font-size:52px;font-weight:600;opacity:0">מלווה את הלקוחות שלו <span class="gold" style="font-weight:800">בהכול</span></div>
+  <div class="chk glass" id="c1" style="right:120px;top:1110px"><div class="box"><svg class="ic" viewBox="0 0 24 24"><path class="tk" d="M5 12l5 5 9-10" stroke-dasharray="24" stroke-dashoffset="24"/></svg></div>פנסיה</div>
+  <div class="chk glass" id="c2" style="left:120px;top:1110px"><div class="box"><svg class="ic" viewBox="0 0 24 24"><path class="tk" d="M5 12l5 5 9-10" stroke-dasharray="24" stroke-dashoffset="24"/></svg></div>ביטוחים</div>
+  <div class="chk glass" id="c3" style="right:120px;top:1250px"><div class="box"><svg class="ic" viewBox="0 0 24 24"><path class="tk" d="M5 12l5 5 9-10" stroke-dasharray="24" stroke-dashoffset="24"/></svg></div>מיסים</div>
+  <div class="chk glass" id="c4" style="left:120px;top:1250px"><div class="box"><svg class="ic" viewBox="0 0 24 24"><path class="tk" d="M5 12l5 5 9-10" stroke-dasharray="24" stroke-dashoffset="24"/></svg></div>תיק השקעות</div>
+</div>
+
+<!-- S4 CHAT -->
+<div class="scene" id="s4">
+  <div class="abs glass" id="phone" style="left:130px;top:330px;width:820px;height:1060px;border-radius:70px;background:rgba(10,22,42,.85)">
+    <div class="abs" style="top:0;left:0;right:0;height:150px;border-bottom:1px solid rgba(232,205,134,.25);display:flex;align-items:center;gap:24px;padding:0 50px">
+      <div style="width:84px;height:84px;border-radius:50%;background:#2a3d63;display:flex;align-items:center;justify-content:center;font-size:48px;color:#E8CD86"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></svg></div>
+      <div><div style="font-size:44px;font-weight:800">הלקוח של אלון</div><div style="font-size:30px;color:#8fd19e" id="typing">מקליד/ה...</div></div>
+    </div>
+  </div>
+  <div class="bub in" id="b1" style="top:560px">היי אלון, יש לי בקשה קצת אחרת…</div>
+  <div class="bub in" id="b2" style="top:720px;font-size:58px">אני רוצה לקנות <b class="gold">דירה</b></div>
+  <div class="bub in" id="b3" style="top:880px;font-size:72px;font-weight:800;background:linear-gradient(135deg,#1f5fbf,#0d3f8f)">ביוון <svg viewBox="0 0 27 18" width="66" height="44" style="vertical-align:-6px;border-radius:6px"><rect width="27" height="18" fill="#0D5EAF"/><g fill="#fff"><rect y="2" width="27" height="2"/><rect y="6" width="27" height="2"/><rect y="10" width="27" height="2"/><rect y="14" width="27" height="2"/></g><rect width="10" height="10" fill="#0D5EAF"/><rect x="4" width="2" height="10" fill="#fff"/><rect y="4" width="10" height="2" fill="#fff"/></svg></div>
+  <div class="abs" id="dots" style="right:90px;top:560px;width:150px;height:80px;border-radius:40px;background:#1d2d4d;display:flex;gap:14px;align-items:center;justify-content:center;opacity:0"><i class="d" style="width:16px;height:16px;border-radius:50%;background:#E8CD86"></i><i class="d" style="width:16px;height:16px;border-radius:50%;background:#E8CD86"></i><i class="d" style="width:16px;height:16px;border-radius:50%;background:#E8CD86"></i></div>
+</div>
+
+<!-- S5 ISRAELIS + PICTURE -->
+<div class="scene" id="s5">
+  <div class="full" id="s5bg" style="background:var(--deep)"></div>
+  <div class="ph" id="s5frame" style="transform-origin:50% 48%">
+    <img id="s5a" src="p084_7.jpg"><img id="s5b" src="p083_6.jpg" style="opacity:0">
+    <div class="shade" id="s5shade"></div>
+    <div class="abs" id="ghost" style="left:50%;top:50%;width:300px;height:420px;margin:-210px 0 0 -150px;opacity:0">
+      <svg viewBox="0 0 300 420" width="300" height="420"><circle cx="150" cy="120" r="80" fill="none" stroke="#E8CD86" stroke-width="7" stroke-dasharray="18 14"/><path d="M30 400c8-110 60-160 120-160s112 50 120 160" fill="none" stroke="#E8CD86" stroke-width="7" stroke-dasharray="18 14"/><text x="150" y="150" text-anchor="middle" font-family="F" font-weight="900" font-size="110" fill="#E8CD86">?</text></svg>
+    </div>
+  </div>
+  <div class="abs center h1" id="s5t" style="top:420px">
+    <div><span class="w" data-t="23.44">יותר</span> <span class="w" data-t="23.8">ויותר</span> <span class="w" data-t="24.24">ישראלים</span></div>
+    <div style="font-size:74px;font-weight:700"><span class="w" data-t="24.9">קונים</span> <span class="w" data-t="25.18">נכסים</span></div>
+    <div><span class="w serif goldgrad" data-t="25.76" data-k="slam" style="font-size:120px">ביוון ובכרתים</span></div>
+  </div>
+  <div class="abs glass" id="fly" style="left:110px;right:110px;top:1080px;height:230px;opacity:0">
+    <div class="abs" style="right:40px;top:150px;font-size:38px;font-weight:700">תל אביב</div>
+    <div class="abs gold" style="left:40px;top:150px;font-size:38px;font-weight:800">כרתים</div>
+    <svg class="abs" style="left:0;top:0" width="860" height="230" viewBox="0 0 860 230"><path id="arc" d="M760 140 Q430 -40 100 140" fill="none" stroke="#E8CD86" stroke-width="4" stroke-dasharray="10 12"/><circle cx="760" cy="140" r="12" fill="#FAF7F1"/><circle cx="100" cy="140" r="14" fill="#C9A24A"/>
+      <g id="plane"><path d="M-22 0 L22 0 M4 0 L-8 -16 M4 0 L-8 16 M-18 0 L-24 -8 M-18 0 L-24 8" stroke="#FAF7F1" stroke-width="6" stroke-linecap="round"/></g></svg>
+  </div>
+  <div class="abs center h1" id="s5q" style="top:250px;font-size:76px">
+    <div><span class="w" data-t="27.18">השאלה</span> <span class="w" data-t="28.22">היא,</span></div>
+    <div><span class="w" data-t="28.6">אתה</span> <span class="w gold" data-t="29.06">נשאר</span> <span class="w goldgrad serif" data-t="29.46" data-k="slam" style="font-size:96px">בתמונה?</span></div>
+  </div>
+</div>
+
+<!-- S6 PARTNERS -->
+<div class="scene" id="s6">
+  <div class="abs center" id="s6pill" style="top:400px;opacity:0"><span class="pill" style="font-size:46px">תוכנית השותפים של</span></div>
+  <img class="abs" id="s6logo" src="logo.png" style="left:140px;width:800px;top:500px;opacity:0">
+  <div class="abs" id="s6sweep" style="left:140px;width:800px;top:500px;height:134px;overflow:hidden;-webkit-mask:url(logo.png) center/contain no-repeat;mask:url(logo.png) center/contain no-repeat"><div id="s6sh" style="position:absolute;top:0;bottom:0;width:220px;background:linear-gradient(90deg,transparent,rgba(232,205,134,.95),transparent)"></div></div>
+  <div class="xrow glass" id="x1" style="top:760px"><div class="xi"><svg class="ic" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></div>לא צריך להיות מומחה לנדל״ן</div>
+  <div class="xrow glass" id="x2" style="top:910px"><div class="xi"><svg class="ic" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></div>לא לוקח אחריות</div>
+  <div class="abs center serif goldgrad" id="s6only" style="top:1060px;font-size:110px;opacity:0">רק מחבר.</div>
+  <svg class="abs" style="left:0;top:0" width="1080" height="1920" id="s6net"><path id="ln1" d="M830 1360 L540 1360" stroke="#C9A24A" stroke-width="6" stroke-dasharray="290" stroke-dashoffset="290"/><path id="ln2" d="M540 1360 L250 1360" stroke="#C9A24A" stroke-width="6" stroke-dasharray="290" stroke-dashoffset="290"/><circle id="pu1" r="12" fill="#fff2c8" opacity="0"/><circle id="pu2" r="12" fill="#fff2c8" opacity="0"/></svg>
+  <div class="node glass" id="n1" style="left:730px;top:1260px;font-size:84px;color:#E8CD86"><svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></svg></div>
+  <div class="node" id="n2" style="left:440px;top:1260px;font-size:84px;color:#0E1E3A;background:linear-gradient(135deg,#f0d690,#C9A24A);box-shadow:0 0 60px rgba(201,162,74,.6)"><svg class="ic" viewBox="0 0 24 24" style="stroke-width:2.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-5 4-7 8-7s7 2 8 7"/></svg></div>
+  <div class="node glass" id="n3" style="left:150px;top:1260px;background:rgba(14,30,58,.9)"><img src="logo.png" style="width:170px"></div>
+  <div class="nlab" id="l1" style="left:680px;top:1475px">הלקוח שלך</div>
+  <div class="nlab gold" id="l2" style="left:390px;top:1475px;font-weight:800">אתה</div>
+  <div class="nlab" id="l3" style="left:100px;top:1475px">סיון השקעות</div>
+</div>
+
+<!-- S7 JOURNEY -->
+<div class="scene" id="s7">
+  <div class="ph"><img id="s7img" src="p062_6-7.jpg"></div><div class="shade" style="background:linear-gradient(180deg,rgba(7,17,31,.92),rgba(7,17,31,.7) 50%,rgba(7,17,31,.92))"></div>
+  <div class="abs center" style="top:380px;font-size:72px;font-weight:800" id="s7h">אנחנו <span class="gold">מלווים</span> את הלקוח</div>
+  <div class="abs" style="right:181px;top:640px;width:6px;height:690px;background:rgba(232,205,134,.2);border-radius:3px"></div>
+  <div class="abs" id="s7fill" style="right:181px;top:640px;width:6px;height:0;background:linear-gradient(#E8CD86,#C9A24A);border-radius:3px;box-shadow:0 0 20px #C9A24A"></div>
+  <div class="step" id="t1" style="top:590px"><div class="dot"></div>שיחה ראשונה</div>
+  <div class="step" id="t2" style="top:800px"><div class="dot"></div>התאמת נכס</div>
+  <div class="step" id="t3" style="top:1010px"><div class="dot"></div>ליווי עד הרכישה</div>
+  <div class="step" id="t4" style="top:1220px;font-size:62px"><div class="dot" style="width:84px;height:84px;margin-right:-10px;font-size:46px"><svg class="ic" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3L20 3M16 7l3 3M14 9l2 2"/></svg></div><span class="goldgrad serif">קבלת המפתח</span></div>
+</div>
+
+<!-- S8 CARDS -->
+<div class="scene" id="s8">
+  <div class="ph"><img id="s8img" src="p057_4-9.jpg"></div><div class="shade"></div>
+  <div class="card glass" id="k1" style="top:560px"><span class="ci"><svg class="ic" viewBox="0 0 24 24"><circle cx="7.5" cy="15.5" r="4.5"/><path d="M10.7 12.3L20 3M16 7l3 3M14 9l2 2"/></svg></span>מלווים את הלקוח עד המפתח</div>
+  <div class="card glass" id="k2" style="top:730px"><span class="ci"><svg class="ic" viewBox="0 0 24 24"><path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"/></svg></span>הלקוח <span class="gold">נשאר שלך</span></div>
+  <div class="card glass" id="k3" style="top:900px;height:170px;font-size:48px;line-height:1.2"><span class="ci"><svg class="ic" viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><span>ואתה יודע <span class="gold">בדיוק</span><br>לאן הכסף שלו הולך</span></div>
+</div>
+
+<!-- S9 REWARD -->
+<div class="scene" id="s9">
+  <div class="abs center" style="top:700px;font-size:70px;font-weight:700"><span class="w" data-t="47.32">ועל</span> <span class="w" data-t="47.5">החיבור</span> <span class="w" data-t="47.88">הזה</span></div>
+  <div class="abs center serif" id="s9big" style="top:810px;font-size:150px;line-height:1.2"><span class="w goldgrad" data-t="48.54">אתה</span> <span class="w goldgrad" data-t="48.66" data-k="slam">מתוגמל.</span></div>
+</div>
+
+<!-- S10 HOW MUCH + END -->
+<div class="scene" id="s10">
+  <canvas id="coins" class="abs" width="1080" height="1920" style="left:0;top:0"></canvas>
+  <div class="abs center serif goldgrad" id="kama" style="top:560px;font-size:300px;line-height:1.1">כמה?</div>
+  <div class="abs center" id="kama2" style="top:960px;font-size:64px;font-weight:700;opacity:0">שלח לנו הודעה <span class="gold">ותגלה</span></div>
+  <div class="full" id="end" style="opacity:0">
+    <img src="logo.png" class="abs" id="endlogo" style="left:140px;width:800px;top:420px">
+    <div class="abs center" style="top:650px" id="endpill"><span class="pill" style="font-size:44px">תוכנית השותפים · נדל״ן ביוון וכרתים</span></div>
+    <div class="abs center" style="top:780px;font-size:66px;font-weight:800;line-height:1.2" id="endh">מחברים לקוח?<br><span class="goldgrad serif" style="font-size:92px">מתוגמלים.</span></div>
+    <div class="btn" id="cta" style="top:1080px"><svg viewBox="0 0 24 24" width="70" height="70"><path fill="#0E1E3A" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>שלחו הודעה עכשיו</div>
+    <div class="abs center" style="top:1270px;font-size:58px;font-weight:800;letter-spacing:2px" id="endph" dir="ltr">055-9210057</div>
+    <div class="abs center" style="top:1350px;font-size:38px;font-weight:600;color:#c8c2b4" id="endweb" dir="ltr">sivaninvestgroup.com</div>
+    <svg class="abs" id="hand" viewBox="0 0 24 24" width="120" height="120" style="left:640px;top:1150px;opacity:0"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-.5a1.5 1.5 0 0 1 3 0v1m0 0a1.5 1.5 0 0 1 3 0V15a6 6 0 0 1-6 6h-1a6 6 0 0 1-5-2.7L3.5 14a1.5 1.5 0 0 1 2.4-1.8L9 15" fill="#FAF7F1" stroke="#0E1E3A" stroke-width="1.2" stroke-linejoin="round"/></svg>
+    <div class="abs" id="ripple" style="left:610px;top:1105px;width:120px;height:120px;border-radius:50%;border:5px solid #fff2c8;opacity:0"></div>
+  </div>
+</div>
+
+<img id="logo" src="logo.png">
+<div id="sub"><div id="subbox"></div></div>
+<div id="leak"></div><div id="flash"></div>
+<canvas id="grain" width="540" height="960" style="width:1080px;height:1920px"></canvas>
+<div id="vig"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const P=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>x>=1?1:1-Math.pow(2,-10*x);            // easeOutExpo
+const eb=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)}; // easeOutBack
+const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const lerp=(a,b,k)=>a+(b-a)*k;
+function tf(el,{o=1,x=0,y=0,s=1,r=0,b=0}={}){el.style.opacity=o;el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`;el.style.filter=b>0.05?`blur(${b}px)`:'none'}
+function ap(t,t0,d=.55){return P(t,t0,t0+d)}
+
+// scene windows [id, start, end, enterType, exitType]
+const SC=[['s1',0,5.15,'none','zoom'],['s2',5.0,9.0,'zoomin','zoom'],['s3',8.9,18.05,'zoomin','left'],['s4',17.9,23.6,'right','none'],
+['s5',22.55,30.45,'portal','zoom'],['s6',30.3,38.0,'zoomin','up'],['s7',37.85,42.6,'up','fade'],['s8',42.45,47.3,'fade','zoom'],['s9',47.15,49.7,'zoomin','punch'],['s10',49.6,60,'punch','none']];
+function scenes(t){
+  for(const [id,a,b,ei,eo_] of SC){
+    const el=$(id); if(t<a-0.01||t>b+0.01){el.style.opacity=0;el.style.display='none';continue}
+    el.style.display='block';
+    let ki=eo(P(t,a,a+.5)), ko=eio(P(t,b-.4,b)); let o=1,s=1,x=0,y=0,bl=0;
+    if(ei==='zoomin'){o=ki;s=lerp(.86,1,ki);bl=(1-ki)*14}
+    else if(ei==='right'){o=ki;x=lerp(1080,0,ki)}
+    else if(ei==='up'){o=ki;y=lerp(500,0,ki)}
+    else if(ei==='fade'){o=ki}
+    else if(ei==='punch'){o=ki;s=lerp(1.3,1,ki)}
+    if(eo_==='zoom'){o*=1-ko;s*=lerp(1,1.25,ko);bl+=ko*18}
+    else if(eo_==='left'){x+=lerp(0,-1080,ko)}
+    else if(eo_==='up'){y+=lerp(0,-500,ko);o*=1-ko}
+    else if(eo_==='fade'){o*=1-ko}
+    else if(eo_==='punch'){o*=1-ko;s*=lerp(1,.7,ko);bl+=ko*10}
+    if(ei==='portal'){o=1}
+    tf(el,{o,x,y,s,b:bl});
+  }
+}
+// generic word reveals
+function words(t){
+  document.querySelectorAll('.w').forEach(w=>{
+    const t0=+w.dataset.t, k=w.dataset.k; const q=ap(t,t0,k==='slam'?.45:.5);
+    if(k==='slam'){tf(w,{o:cl(q*3),s:lerp(1.9,1,eo(q)),b:(1-q)*10})}
+    else tf(w,{o:cl(q*2),y:lerp(60,0,eo(q)),b:(1-q)*8});
+  });
+}
+// bokeh
+const bk=$('bokeh').getContext('2d');let rng=1;const R=()=>(rng=(rng*16807)%2147483647)/2147483647;
+const parts=[...Array(46)].map(()=>({x:R()*1080,y:R()*1920,r:6+R()*34,v:8+R()*28,ph:R()*6.28,a:.05+R()*.22}));
+function bokeh(t){
+  const g=bk.createRadialGradient(540,800,100,540,900,1300);g.addColorStop(0,'#16294d');g.addColorStop(.6,'#0b1830');g.addColorStop(1,'#050c18');
+  bk.fillStyle=g;bk.fillRect(0,0,1080,1920);
+  for(const p of parts){const y=((p.y-p.v*t)%1920+1920)%1920, x=p.x+Math.sin(t*.5+p.ph)*30;
+    const a=p.a*(.6+.4*Math.sin(t*1.3+p.ph));const gg=bk.createRadialGradient(x,y,0,x,y,p.r);gg.addColorStop(0,`rgba(232,205,134,${a})`);gg.addColorStop(1,'rgba(232,205,134,0)');bk.fillStyle=gg;bk.beginPath();bk.arc(x,y,p.r,0,7);bk.fill()}
+}
+// grain
+const gc=$('grain').getContext('2d');const gimgs=[...Array(6)].map(()=>{const d=gc.createImageData(540,960);for(let i=0;i<d.data.length;i+=4){const v=Math.random()*255;d.data[i]=d.data[i+1]=d.data[i+2]=v;d.data[i+3]=255}return d});
+// subtitles
+const SUBS=[[9.18,10.24,'תכיר את אלון.'],[10.46,14.1,'אלון מתכנן פיננסי, והוא מלווה את הלקוחות שלו בהכול.'],[14.36,17.8,'פנסיה, ביטוחים, מיסים ותיק השקעות.'],[18.14,21.2,'ויום אחד, הלקוח מגיע עם בקשה אחרת.'],
+[30.54,32.7,'בתוכנית השותפים של סיון השקעות,'],[32.82,36.2,'אתה לא צריך להיות מומחה לנדל״ן, ולא לוקח אחריות.'],[38.1,42.25,'אנחנו מלווים את הלקוח מהשיחה הראשונה ועד קבלת המפתח.'],[42.66,47.1,'הלקוח נשאר שלך, ואתה יודע בדיוק לאן הכסף שלו הולך.']];
+let curSub=-1;
+function subs(t){const i=SUBS.findIndex(s=>t>=s[0]-.1&&t<=s[1]+.25);const el=$('sub');
+  if(i<0){el.style.opacity=0;curSub=-1;return}
+  if(i!==curSub){$('subbox').innerHTML=SUBS[i][2].split(' ').map(w=>`<span>${w}</span>`).join(' ');curSub=i}
+  const [a,b]=SUBS[i];const sp=[...$('subbox').children];const n=sp.length;
+  sp.forEach((s,j)=>s.className=(t>=a+(b-a)*j/n&&t<a+(b-a)*(j+1)/n)?'on':'');
+  const k=eo(P(t,a-.1,a+.25));el.style.opacity=k*(1-P(t,b+.05,b+.25));el.style.transform=`translateY(${(1-k)*30}px)`}
+
+function S1(t){
+  const k=ap(t,.05,.5);tf($('s1k'),{o:k,y:(1-eo(k))*-30});
+  [[ 'r1',0.0],['r2',1.6],['r3',2.92],['r4',4.12]].forEach(([id,t0],i,arr)=>{
+    const q=ap(t,t0,.45), nxt=arr[i+1]?arr[i+1][1]:99; const dim=P(t,nxt,nxt+.3);
+    const el=$(id);tf(el,{o:cl(q*2.5)*(1-.45*dim),x:lerp(i%2?-700:700,0,eo(q)),s:lerp(1,.96,dim),r:lerp(i%2?-6:6,0,eo(q))});
+    el.style.borderColor=dim<1&&q>0?`rgba(232,205,134,${.9-.55*dim})`:'rgba(232,205,134,.35)';
+  });
+  // micro camera shake on each slam
+  const sh=[0,1.6,2.92,4.12].reduce((m,t0)=>m+Math.max(0,1-(t-t0)/.25)*(t>=t0?1:0),0);
+  $('s1').style.translate=`${Math.sin(t*90)*sh*7}px ${Math.cos(t*77)*sh*7}px`;
+}
+function S2(t){$('s2img').style.transform=`scale(${1+.12*P(t,5,9)}) translateX(${-30*P(t,5,9)}px)`;
+  $('s2yv').style.backgroundPosition=`${-200*P(t,7.8,9)}% 0`}
+function S3(t){
+  $('ringc').setAttribute('stroke-dashoffset',880*(1-eio(P(t,9.2,10.1))));
+  tf($('s3ring'),{o:cl(P(t,9.15,9.4)),s:lerp(.4,1,eb(ap(t,9.15,.6)))});
+  const n=ap(t,9.66,.5);tf($('s3name'),{o:n,y:(1-eo(n))*50,b:(1-n)*8});
+  const r=ap(t,10.72,.5);tf($('s3role'),{o:r,s:lerp(.6,1,eb(r))});
+  const l=ap(t,12.24,.5);tf($('s3line'),{o:l,y:(1-eo(l))*40});
+  [['c1',14.36],['c2',15.12],['c3',15.94],['c4',16.46]].forEach(([id,t0],i)=>{
+    const q=ap(t,t0-.12,.45);const el=$(id);tf(el,{o:q,s:lerp(.5,1,eb(q)),y:(1-q)*40});
+    el.querySelector('.tk').setAttribute('stroke-dashoffset',24*(1-eo(ap(t,t0+.1,.35))));
+    el.style.boxShadow=`0 0 ${50*Math.max(0,1-(t-t0)/.6)*(t>t0?1:0)}px rgba(232,205,134,.8)`;
+  });
+}
+function S4(t){
+  tf($('phone'),{o:1,s:lerp(1,1.03,P(t,18,23))});
+  const dotsOn=(t>18.35&&t<19.05)||(t>20.3&&t<21.45)||(t>21.9&&t<22.35);
+  $('dots').style.opacity=dotsOn?1:0; $('typing').style.opacity=dotsOn?1:.0;
+  const sl=t<19.05?0:t<21.45?150:t<22.35?310:470; $('dots').style.top=(560+sl)+'px';
+  document.querySelectorAll('#dots .d').forEach((d,i)=>d.style.transform=`translateY(${Math.sin(t*12-i)*6}px)`);
+  [['b1',19.1],['b2',21.5],['b3',22.4]].forEach(([id,t0])=>{const q=ap(t,t0,.4);tf($(id),{o:cl(q*3),s:lerp(.3,1,eb(q)),y:(1-q)*30})});
+  $('b2').style.transformOrigin=$('b1').style.transformOrigin=$('b3').style.transformOrigin='100% 100%';
+}
+function S5(t){
+  // portal reveal from flag bubble
+  const pr=eio(P(t,22.7,23.5)); $('s5').style.clipPath=pr>=1?'none':`circle(${lerp(0,2300,pr)}px at 720px 950px)`;
+  $('s5a').style.transform=`scale(${1.15-.1*P(t,22.6,26.2)}) translateY(${20*P(t,22.6,26.2)}px)`;
+  const xb=P(t,25.6,26.2);$('s5b').style.opacity=xb;$('s5b').style.transform=`scale(${1.12-.06*P(t,25.6,30.4)})`;
+  const tout=P(t,26.9,27.25); $('s5t').style.opacity=1-tout; $('s5t').style.transform=`translateY(${-60*tout}px)`;
+  const f=ap(t,23.6,.5),fo=P(t,26.6,27.0);tf($('fly'),{o:f*(1-fo),y:(1-eo(f))*80});
+  const arc=$('arc'),L=arc.getTotalLength(),pk=eio(P(t,23.9,26.3)),pt=arc.getPointAtLength(L*(1-pk)),pt2=arc.getPointAtLength(Math.max(0,L*(1-pk)-2));
+  // path drawn from 760 (TLV) to 100 (Crete); we travel from start (pk mapped)
+  const p1=arc.getPointAtLength(L*pk),p2=arc.getPointAtLength(Math.min(L,L*pk+2));
+  $('plane').setAttribute('transform',`translate(${p1.x},${p1.y}) rotate(${Math.atan2(p2.y-p1.y,p2.x-p1.x)*57.3+180})`);
+  // polaroid shrink
+  const fr=eio(P(t,27.2,28.2));
+  $('s5frame').style.transform=`scale(${lerp(1,.62,fr)}) rotate(${lerp(0,-3.5,fr)}deg) translateY(${lerp(0,270,fr)}px)`;
+  $('s5frame').style.borderRadius=`${lerp(0,44,fr)}px`;
+  $('s5frame').style.boxShadow=`0 0 0 ${lerp(0,26,fr)}px #FAF7F1, 0 40px 120px rgba(0,0,0,${.6*fr})`;
+  $('s5shade').style.opacity=lerp(1,.35,fr);
+  $('s5bg').style.opacity=1;
+  const gh=P(t,28.8,29.2);$('ghost').style.opacity=gh*(.55+.45*Math.sin(t*9));
+  $('ghost').style.transform=`scale(${lerp(.6,1,eb(cl(gh)))})`;
+}
+function S6(t){
+  const p=ap(t,30.5,.5);tf($('s6pill'),{o:p,y:(1-eo(p))*-30});
+  const lg=ap(t,30.9,.8);tf($('s6logo'),{o:lg,s:lerp(1.25,1,eo(lg)),b:(1-lg)*16});
+  $('s6sh').style.left=lerp(-240,820,P(t,31.6,32.6))+'px';
+  const up=eio(P(t,32.7,33.2)); // logo shrinks up
+  $('s6logo').style.translate=`0 ${-up*100}px`; $('s6logo').style.scale=`${1-.35*up}`;
+  $('s6sweep').style.translate=`0 ${-up*100}px`; $('s6sweep').style.scale=`${1-.35*up}`;
+  $('s6pill').style.translate=`0 ${-up*80}px`;
+  const fade=P(t,36.3,36.6);
+  [['x1',33.0],['x2',35.1]].forEach(([id,t0])=>{const q=ap(t,t0,.45);const el=$(id);tf(el,{o:q*(1-.55*fade),x:(1-eo(q))*-500,s:1-.06*fade});
+    el.style.textDecoration=t>t0+.6?'line-through':'none';el.style.textDecorationColor='rgba(224,106,106,.85)'});
+  const o=ap(t,36.6,.45);tf($('s6only'),{o,s:lerp(1.8,1,eo(o)),b:(1-o)*10});
+  [['n1',36.7],['n2',36.85],['n3',37.0]].forEach(([id,t0],i)=>{const q=ap(t,t0,.45);tf($(id),{o:q,s:lerp(.2,1,eb(q))});tf($('l'+(i+1)),{o:q,y:(1-q)*20})});
+  $('ln1').setAttribute('stroke-dashoffset',290*(1-eio(P(t,37.0,37.4))));
+  $('ln2').setAttribute('stroke-dashoffset',290*(1-eio(P(t,37.3,37.7))));
+  const c=(t-37.4)%0.8/0.8;const on=t>37.4;
+  $('pu1').setAttribute('opacity',on?1:0);$('pu1').setAttribute('cx',830-290*c);$('pu1').setAttribute('cy',1360);
+  $('pu2').setAttribute('opacity',t>37.7?1:0);$('pu2').setAttribute('cx',540-290*((t-37.7)%0.8/0.8));$('pu2').setAttribute('cy',1360);
+  $('n2').style.boxShadow=`0 0 ${60+30*Math.sin(t*6)}px rgba(201,162,74,.7)`;
+}
+function S7(t){
+  $('s7img').style.transform=`scale(${1.05+.1*P(t,37.8,42.6)})`;
+  const h=ap(t,38.0,.5);tf($('s7h'),{o:h,y:(1-eo(h))*40});
+  const T=[39.42,40.06,40.72,41.56];
+  $('s7fill').style.height=(690*eio(P(t,39.3,41.7)))+'px';
+  T.forEach((t0,i)=>{const q=ap(t,t0-.15,.4);const el=$('t'+(i+1));el.style.opacity=lerp(.25,1,q);el.style.transform=`translateX(${-30*eo(q)}px) scale(${1+.04*eb(q)*(i==3?2:1)})`;
+    const d=el.querySelector('.dot');d.style.background=q>0?`rgba(232,205,134,${q})`:'#07111f';d.style.boxShadow=q>0?`0 0 ${30*q}px #C9A24A`:'none'});
+}
+function S8(t){
+  $('s8img').style.transform=`scale(${1.08+.08*P(t,42.4,47.3)}) translateX(${25*P(t,42.4,47.3)}px)`;
+  [['k1',42.5],['k2',42.66],['k3',44.26]].forEach(([id,t0])=>{const q=ap(t,t0,.55);tf($(id),{o:q,y:(1-eo(q))*90,s:lerp(.9,1,eo(q)),b:(1-q)*8})});
+}
+function S9(t){for(const e of $('s9big').children)e.style.backgroundPosition=`${-200*P(t,48.8,49.6)}% 0`}
+// coins burst
+const cc=$('coins').getContext('2d');rng=7;const coins=[...Array(34)].map(()=>({a:R()*6.283,v:600+R()*900,r:16+R()*22,sp:R()*10,d:R()*.15}));
+function S10(t){
+  const k=ap(t,49.76,.45); const fo=eio(P(t,52.0,52.5));
+  tf($('kama'),{o:cl(k*3)*(1-fo),s:lerp(2.4,1,eo(k))*(1+.03*Math.sin(t*5))*lerp(1,.6,fo),b:(1-k)*14+fo*10,y:-fo*200});
+  $('kama').style.backgroundPosition=`${-200*P(t,50.1,51.2)}% 0`;
+  const k2=ap(t,50.46,.45);tf($('kama2'),{o:k2*(1-fo),y:(1-eo(k2))*40});
+  cc.clearRect(0,0,1080,1920);
+  const dt=t-49.76; if(dt>0&&dt<3){for(const c of coins){const tt=Math.max(0,dt-c.d);const x=540+Math.cos(c.a)*c.v*tt*.9, y=720+Math.sin(c.a)*c.v*tt*.9+700*tt*tt;
+     const w=Math.abs(Math.cos(tt*c.sp+c.a))*c.r;cc.globalAlpha=cl(1.6-dt*.6);cc.fillStyle='#d9b45a';cc.beginPath();cc.ellipse(x,y,w+1,c.r,0,0,7);cc.fill();cc.fillStyle='#fff0b8';cc.beginPath();cc.ellipse(x-w*.25,y-c.r*.25,w*.35+.5,c.r*.35,0,0,7);cc.fill()}}
+  cc.globalAlpha=1;
+  // end card
+  const e=P(t,52.3,52.9);$('end').style.opacity=e;
+  [['endlogo',52.35],['endpill',52.6],['endh',52.85],['cta',53.15],['endph',53.45],['endweb',53.6]].forEach(([id,t0])=>{const q=ap(t,t0,.55);tf($(id),{o:q,y:(1-eo(q))*50,s:id=='cta'?lerp(.6,1,eb(q))*(1+.035*Math.sin(Math.max(0,t-53.8)*6)):1})});
+  $('endh').querySelector('.goldgrad').style.backgroundPosition=`${-200*((t-52.8)%2.2/2.2)}% 0`;
+  const hq=P(t,54.0,54.5),tap=P(t,54.6,54.75),rel=P(t,54.75,55.0);
+  tf($('hand'),{o:hq*(1-P(t,55.8,56.2)),x:lerp(160,0,eo(hq)),y:lerp(200,0,eo(hq))+tap*12-rel*12,s:1-tap*.12+rel*.12});
+  const rp=P(t,54.7,55.4);tf($('ripple'),{o:rp>0&&rp<1?1-rp:0,s:lerp(.3,2.4,rp)});
+  if(t>54.7&&t<55.0)$('cta').style.filter='brightness(1.15)';
+}
+function fx(t){
+  // light leaks on key transitions
+  const L=[5.0,22.9,30.4,37.9,47.2,49.76,52.3];let lk=0;L.forEach(a=>{lk=Math.max(lk,Math.max(0,1-Math.abs(t-a)/.35))});
+  $('leak').style.opacity=lk*.8;$('leak').style.transform=`translateX(${Math.sin(t)*80}px) rotate(${t*8}deg)`;
+  const fl=Math.max(0,1-Math.abs(t-49.8)/.18);$('flash').style.opacity=fl*.55;
+  const lo=$('logo');const hide=(t>30.3&&t<38.0)||t>52.2;lo.style.opacity=hide?0:(t<.4?P(t,0,.4):.92);
+  gc.putImageData(gimgs[Math.floor(t*24)%6],0,0);
+}
+window.render=function(t){bokeh(t);scenes(t);words(t);subs(t);S1(t);S2(t);S3(t);S4(t);S5(t);S6(t);S7(t);S8(t);S9(t);S10(t);fx(t)};
+render(0);
+</script></body></html>
