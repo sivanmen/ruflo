@@ -17,8 +17,8 @@ body{font-family:A,sans-serif;color:var(--cream);position:relative}
 .hl{position:absolute;left:60px;right:60px;top:250px;text-align:center}
 .hl .l1,.hl .l2{display:block;overflow:hidden;padding:4px 0}
 .hl .l1 span,.hl .l2 span{display:inline-block}
-.l1{font-size:70px;font-weight:700;line-height:1.15;color:var(--cream)}
-.l2{font-size:70px;font-weight:800;line-height:1.15;color:var(--gold2)}
+.l1{font-size:64px;font-weight:600;letter-spacing:.3px;line-height:1.15;color:var(--cream)}
+.l2{font-size:64px;font-weight:700;letter-spacing:.3px;line-height:1.15;color:var(--gold2)}
 .rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:22px auto 0;width:0}
 .latin{font-family:C;font-weight:600;letter-spacing:.22em;direction:ltr}
 .note{position:absolute;bottom:430px;left:70px;font-size:24px;color:rgba(245,241,234,.6);font-weight:600}
@@ -55,7 +55,7 @@ body{font-family:A,sans-serif;color:var(--cream);position:relative}
 .rc .d{font-size:25px;font-weight:600;color:rgba(245,241,234,.78);margin-top:2px}
 svg.i{width:46px;height:46px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 /* words */
-.big{position:absolute;left:0;right:0;text-align:center;font-family:F;font-weight:700;color:var(--cream);text-shadow:0 6px 40px rgba(0,0,0,.6)}
+.big{position:absolute;left:0;right:0;text-align:center;font-family:F;font-weight:500;color:var(--cream);text-shadow:0 6px 40px rgba(0,0,0,.6)}
 .chip{position:absolute;left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:18px;padding:20px 40px;border-radius:999px;background:rgba(14,13,12,.6);border:1.5px solid rgba(201,162,74,.7);backdrop-filter:blur(14px);font-size:44px;font-weight:700;white-space:nowrap;opacity:0}
 .chip .ck{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg,#f3dfa6,#C9A24A);color:#141414;display:flex;align-items:center;justify-content:center}
 /* lockup */
@@ -67,12 +67,12 @@ svg.i{width:46px;height:46px;stroke:currentColor;fill:none;stroke-width:1.6;stro
 #flash{position:absolute;inset:0;background:#fff4dc;opacity:0}
 </style></head><body>
 <div id="topg"></div><div id="botg"></div>
-<div id="frame"><i style="top:0;right:0;border-top-width:2px;border-right-width:2px"></i><i style="top:0;left:0;border-top-width:2px;border-left-width:2px"></i><i style="bottom:0;right:0;border-bottom-width:2px;border-right-width:2px"></i><i style="bottom:0;left:0;border-bottom-width:2px;border-left-width:2px"></i></div>
+<div id="frame" style="display:none"><i style="top:0;right:0;border-top-width:2px;border-right-width:2px"></i><i style="top:0;left:0;border-top-width:2px;border-left-width:2px"></i><i style="bottom:0;right:0;border-bottom-width:2px;border-right-width:2px"></i><i style="bottom:0;left:0;border-bottom-width:2px;border-left-width:2px"></i></div>
 <img id="logo" class="abs" src="logo.png" style="left:420px;width:240px;top:128px;opacity:0">
 
 <!-- S1 intro lockup -->
 <div class="sc" id="s1">
-  <div class="abs" id="lkbg" style="left:-100px;right:-100px;top:600px;height:560px;background:radial-gradient(ellipse at center,rgba(14,13,12,.9),rgba(14,13,12,.62) 50%,transparent 75%)"></div><div class="lock" id="lk1" style="top:760px"><div class="sv">SIVAN COLLECTION</div><div class="rule" id="lk1r" style="width:0"></div><div class="by" style="margin-top:18px">BY SIVAN INVEST GROUP</div></div>
+  <div class="abs" id="lkbg" style="left:-100px;right:-100px;top:600px;height:560px;background:radial-gradient(ellipse at center,rgba(14,13,12,.9),rgba(14,13,12,.62) 50%,transparent 75%)"></div><div class="lock" id="lk1" style="top:760px"><div style="position:relative;width:780px;height:130px;margin:0 auto"><img src="logo_w.png" style="width:780px;display:block"><div id="lsw" style="position:absolute;inset:0;-webkit-mask:url(logo_w.png) center/contain no-repeat;mask:url(logo_w.png) center/contain no-repeat;overflow:hidden"><div id="lsh" style="position:absolute;top:0;bottom:0;width:200px;background:linear-gradient(90deg,transparent,rgba(232,205,134,.95),transparent)"></div></div></div><div class="rule" id="lk1r" style="width:0;margin-top:30px"></div><div class="by" style="margin-top:22px;font-size:34px;letter-spacing:.5em;color:#E3C88A">SIVAN COLLECTION</div></div>
   <div class="hl" id="h1"><span class="l1"><span>מודל ייחודי</span></span><span class="l2"><span>להשקעה ביוון</span></span><div class="rule"></div></div>
 </div>
 <!-- S2 ownership -->
@@ -91,7 +91,7 @@ svg.i{width:46px;height:46px;stroke:currentColor;fill:none;stroke-width:1.6;stro
       <div class="pc"><div class="im" style="background-image:url(p_ks2.jpg)"><span class="tag">360° סיור</span></div><div class="bd"><div class="t">Villa Solomon 07</div><div class="s">קאליבס, חאניה · בריכה פרטית</div></div></div>
       <div class="st"><div><small>תפוסה</small><b id="occ">0%</b></div><div><small>הכנסה החודש</small><b id="inc">€0</b></div><div><small>שריון אישי</small><b>12–19.7</b></div></div>
       <div class="ch"><small>הכנסות · 12 חודשים</small><svg width="400" height="120" viewBox="0 0 400 120"><defs><linearGradient id="gg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C9A24A" stop-opacity=".45"/><stop offset="1" stop-color="#C9A24A" stop-opacity="0"/></linearGradient></defs><path id="area" d="M0 110 L0 95 L36 88 L72 92 L108 70 L144 62 L180 40 L216 22 L252 18 L288 30 L324 48 L360 70 L400 78 L400 110Z" fill="url(#gg)" opacity="0"/><path id="ln" d="M0 95 L36 88 L72 92 L108 70 L144 62 L180 40 L216 22 L252 18 L288 30 L324 48 L360 70 L400 78" fill="none" stroke="#C9A24A" stroke-width="4" stroke-linecap="round" stroke-dasharray="480" stroke-dashoffset="480"/></svg></div>
-      <div class="pc"><div class="im" style="background-image:url(p_ks3.jpg);height:180px"></div></div>
+      <div class="pc"><div class="im" style="background-image:url(p_int.jpg);height:180px"></div></div>
     </div>
   </div></div>
   <div id="b360">360° תצפית</div>
@@ -128,8 +128,8 @@ svg.i{width:46px;height:46px;stroke:currentColor;fill:none;stroke-width:1.6;stro
   <div class="abs c" id="one" style="top:1100px"><span style="display:inline-block;padding:10px 54px 22px;border-radius:999px;background:rgba(14,13,12,.62);backdrop-filter:blur(12px);border:1.5px solid rgba(201,162,74,.7);font-family:F;font-weight:700;font-size:84px;color:#E3C88A">כתובת אחת.</span></div>
 </div>
 <!-- S8 end -->
-<div class="sc" id="s8">
-  <div class="lock" id="lk2" style="top:330px"><div class="sv" style="font-size:76px">SIVAN COLLECTION</div><div class="by">BY SIVAN INVEST GROUP</div><div class="own">Own it your way</div></div>
+<div class="sc" id="s8"><div class="abs" style="inset:0;background:linear-gradient(180deg,rgba(14,13,12,.55),rgba(14,13,12,.72) 55%,rgba(14,13,12,.5))"></div>
+  <div class="lock" id="lk2" style="top:330px"><img src="logo_w.png" style="width:720px;display:block;margin:0 auto"><div class="rule" style="width:300px;margin-top:26px"></div><div class="by" style="margin-top:20px;font-size:32px;letter-spacing:.5em;color:#E3C88A">SIVAN COLLECTION</div><div class="own">Own it your way</div></div>
   <div class="abs c" id="e1" style="top:700px;font-size:62px;font-weight:700;line-height:1.25">ההשקעה בנכס פרטי<br><span style="color:#E3C88A;font-weight:800">בראש שקט ובאחריות.</span></div>
   <div class="btn" id="cta" style="top:1000px"><svg viewBox="0 0 24 24" width="58" height="58"><path fill="#141414" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.6-.3z"/></svg>התאימו לי מסלול</div>
   <div class="abs c" id="e2" style="top:1150px;font-size:44px;font-weight:800;letter-spacing:2px" dir="ltr">055-9210057</div>
@@ -144,7 +144,7 @@ const L=(a,b,k)=>a+(b-a)*k;
 function tf(el,{o=1,x=0,y=0,s=1,b=0}={}){el.style.opacity=o;el.style.transform=`translate(${x}px,${y}px) scale(${s})`;el.style.filter=b>.05?`blur(${b}px)`:'none'}
 function vis(id,a,b){const k=eo(P(t_,a,a+.5))*(1-eio(P(t_,b-.35,b)));const e=$(id);e.style.opacity=k;e.style.display=k<=0?'none':'block';return k}
 // headline: line masks slide up, rule grows
-function hl(id,t0){const e=$(id);const sp=e.querySelectorAll('.l1>span,.l2>span');sp.forEach((s,i)=>{const q=eo(P(t_,t0+i*.18,t0+i*.18+.7));s.style.transform=`translateY(${(1-q)*110}%)`;s.style.opacity=q});
+function hl(id,t0){const e=$(id);const sp=e.querySelectorAll('.l1>span,.l2>span');sp.forEach((s,i)=>{const q=eio(P(t_,t0+i*.22,t0+i*.22+1.0));s.style.transform=`translateY(${(1-q)*40}%)`;s.style.opacity=q;s.style.filter=q<.98?`blur(${(1-q)*8}px)`:'none'});
   e.querySelector('.rule').style.width=(eio(P(t_,t0+.3,t0+1.1))*340)+'px'}
 let t_=0;
 window.render=function(t){t_=t;const S=T;
@@ -154,7 +154,7 @@ window.render=function(t){t_=t;const S=T;
   $('topg').style.opacity=1;$('botg').style.opacity=.9;
   // S1
   if(vis('s1',0,S.s2a+.15)){const k=eo(P(t,.15,1.3));$('lkbg').style.opacity=k*(1-eio(P(t,S.s2a-.5,S.s2a)));tf($('lk1'),{o:k*(1-eio(P(t,S.s2a-.5,S.s2a))),s:L(1.12,1,k),b:(1-k)*12});
-    $('lk1').querySelector('.sv').style.backgroundPosition=`${-220*P(t,.6,2.2)}% 0`;$('lk1r').style.width=(eio(P(t,.6,1.6))*520)+'px';hl('h1',S.s1b);}
+    $('lsh').style.left=(L(-220,800,P(t,.7,1.9)))+'px';$('lk1r').style.width=(eio(P(t,.6,1.6))*520)+'px';hl('h1',S.s1b);}
   if(vis('s2',S.s2a,S.s3a+.15)){hl('h2',S.s2a+.05);const q=eb(P(t,S.s2a+.7,S.s2a+1.2));tf($('loc'),{o:cl(q),y:(1-q)*30});$('n2').style.opacity=.9}
   if(vis('s3',S.s3a,S.s4a+.15)){hl('h3',S.s3a+.05);const ph=eo(P(t,S.s3a+.1,S.s3a+1.1));
     $('phone').style.transform=`translateY(${(1-ph)*700}px) perspective(1600px) rotateY(${L(-18,-6,ph)+Math.sin(t*.8)*2}deg) rotateX(${L(14,4,ph)}deg)`;
@@ -167,13 +167,13 @@ window.render=function(t){t_=t;const S=T;
   if(vis('s4',S.s4a,S.s5a+.15)){hl('h4',S.s4a+.05);['r1','r2','r3'].forEach((r,i)=>{const t0=S.s4a+1.1+i*.75;const q=P(t,t0,t0+.6);tf($(r),{o:cl(q*2),x:L(i%2?-600:600,0,eo(q)),s:L(.92,1,eo(q))});
     $(r).style.borderColor=`rgba(201,162,74,${.55+.45*Math.max(0,1-Math.abs(t-t0-.5)/.5)})`})}
   if(vis('s5',S.s5a,S.s6a+.15)){hl('h5',S.s5a+.05)}
-  if(vis('s6',S.s6a,S.s7a+.15)){[['w1',S.w1],['w2',S.w2],['w3',S.w3]].forEach(([id,t0])=>{const q=P(t,t0-.08,t0+.5);tf($(id),{o:cl(q*2.5),s:L(1.25,1,eo(q)),b:(1-q)*12,y:(1-eo(q))*20})})}
+  if(vis('s6',S.s6a,S.s7a+.15)){[['w1',S.w1],['w2',S.w2],['w3',S.w3]].forEach(([id,t0])=>{const q=P(t,t0-.15,t0+.75);tf($(id),{o:cl(q*1.6),s:L(1.06,1,eo(q)),b:(1-q)*10,y:(1-eo(q))*14})})}
   if(vis('s7',S.s7a,S.s8a+.15)){hl('h7',S.s7a+.05);[['c1',S.c1],['c2',S.c2],['c3',S.c3]].forEach(([id,t0])=>{const q=P(t,t0-.1,t0+.45);const e=$(id);e.style.opacity=cl(q*2);e.style.transform=`translateX(-50%) translateY(${(1-eo(q))*40}px) scale(${L(.8,1,eb(q))})`});
     const o=P(t,S.one-.05,S.one+.45);tf($('one'),{o:cl(o*2.5),s:L(1.5,1,eo(o)),b:(1-o)*10})}
-  if(vis('s8',S.s8a,99)){const k=eo(P(t,S.s8a+.1,S.s8a+1.2));tf($('lk2'),{o:k,s:L(1.1,1,k),b:(1-k)*10});$('lk2').querySelector('.sv').style.backgroundPosition=`${-220*((t-S.s8a)%2.6/2.6)}% 0`;
+  if(vis('s8',S.s8a,99)){const k=eo(P(t,S.s8a+.1,S.s8a+1.2));tf($('lk2'),{o:k,s:L(1.1,1,k),b:(1-k)*10});
     const e1=P(t,S.e1,S.e1+.7);tf($('e1'),{o:e1,y:(1-eo(e1))*40});
     const c=P(t,S.e1+1.5,S.e1+2.0);tf($('cta'),{o:cl(c*2),s:L(.6,1,eb(c))*(1+.03*Math.sin(Math.max(0,t-S.e1-2.2)*6))});
     tf($('e2'),{o:P(t,S.e1+1.9,S.e1+2.4)});tf($('e3'),{o:P(t,S.e1+2.1,S.e1+2.6)})}
-  $('flash').style.opacity=Math.max(0,1-Math.abs(t-S.s4a)/.15)*.25+Math.max(0,1-Math.abs(t-S.s8a)/.15)*.3;
+  $('flash').style.opacity=Math.max(0,1-Math.abs(t-S.s4a)/.15)*.0+Math.max(0,1-Math.abs(t-S.s8a)/.15)*.0;
 };
 </script></body></html>

@@ -172,4 +172,28 @@ ffmpeg -i IN -vf "crop=ih*9/16:ih:iw*X:0,scale=1080:1920:force_original_aspect_r
 - **King Solomon:** "Kalyves, Crete · 314 Architects · וילות מול הים עם בריכות פרטיות". לפני פרסום יש לאמת זמינות, מחיר והיתר.
 
 ---
-*גרסה 1.0 · נובמבר 2026.*
+
+## 10. לקחים מגרסה 2 (משוב סיון, חובה)
+
+1. **בלי אפקטי מעבר (whoosh / pop / ding).** המעברים נעשים רק עם המוזיקה: קרוס-פייד ארוך (0.6ש׳) וזרימה רציפה.
+2. **מוזיקה מקצועית:** `elevenlabs_music_v2_5`, ‏instrumental, באורך הסרטון +1ש׳ (כ-6 קרדיטים ל-41ש׳). סינתזה מקומית לא מספיקה לסרטון תדמית. הפרומפט שעבד:
+   *"Luxury cinematic real-estate brand film score. Warm Mediterranean elegance: soft felt piano, lush warm strings, subtle Greek bouzouki and santouri textures, gentle heartbeat pulse. Opens airy and intimate, builds an uplifting emotional swell from 13 to 19 seconds, relaxes into a playful seaside taverna bouzouki motif around 23 seconds, then resolves warmly and calmly at the end. No vocals, no drum hits, no risers or whooshes."*
+   מיקס: המוזיקה ב-0.55 עם sidechain עדין (ratio 4, release 600ms) ו-fade-out של 2.2ש׳.
+3. **רק תמונות King Solomon.** אסור להשתמש בפרויקטים ישנים: וילות עם גגות עגולים, וילות לבנות קיקלדיות, וילת הצוק בשקיעה. מקורות מאושרים:
+   - הדמיות `43/49 king solomon_Scene *.jpg`
+   - קליפי Veo מסוג u7/u8 (ארכיטקטורה מעוגלת, לבנה-בז׳)
+   - הרילס הרשמי `king_solomon_reel_30s_9x16.mp4`. רק הקטעים 0.5–3.2ש׳ (מפרץ) ו-3.25–6.0ש׳ (נמל חאניה) נקיים מטקסט
+   - פנים: סלון, מטבח ואמבטיה (webp מסיון)
+   - הצילום שעם השלט "KING SOLOMON" (‏`49 Scene 1`) מצוין לסיום
+   - הצילום הלילי מ-ad15 כולל טקסטים צרובים, ולכן לא משתמשים בו מתחת ללוגו
+4. **הלוגו של SivanInvest (הקובץ הלבן) הוא גיבור הפתיחה והסיום:** ‎780px עם ברק זהב שעובר דרכו (mask). מתחתיו "SIVAN COLLECTION" בסריף לטיני עם ריווח ‎0.5em, ולא לוגו טקסט מומצא.
+5. **סטודיו לוק:**
+   - טיפול צבע חם (eq + colorbalance), גריין 5 ו-vignette על הרקע
+   - בלי מסגרת פינות כללית: נקי יותר
+   - כותרות במשקל 600/700 ו-64px, עם כניסה רכה של 1.0ש׳ (fade + blur + 40% תזוזה)
+   - מילים דרמטיות בסריף 500 (לא 700) עם scale קטן (1.06)
+   - שכבת כהות של 55–72% מאחורי כרטיס הסיום
+6. **ההשהיה למסלולים:** קריינות חלק 1 מתחילה ב-2.0ש׳ (נותן ללוגו לנשום), וחלק 2 מתחיל אחרי 5.6ש׳ של שקט.
+
+---
+*גרסה 1.1 · נובמבר 2026.*
