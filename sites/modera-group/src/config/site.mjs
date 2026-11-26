@@ -35,6 +35,9 @@ export const SITE = {
   sendConfirmation: true,
   // Google reCAPTCHA v3 (score-based). The site key is public; the SECRET key is injected
   // at build/deploy time from MODERA_RECAPTCHA_SECRET and never committed.
+  // Google Tag Manager containers (Google Analytics etc.). Loaded ONLY after the visitor
+  // consents to Statistics or Marketing, with Google Consent Mode v2 signals.
+  gtm: ['GTM-TDX9Z9HT', 'GTM-PFFK2R8T'],
   recaptcha: { siteKey: '6Le-ziYuAAAAAHBWSdGev2zj7sGp4etOsznHvx3', action: 'contact', minScore: 0.5 },
 };
 
@@ -118,7 +121,7 @@ export const CHARTS = {
  * (and wire the script with data-consent="analytics") only if statistics are introduced.
  */
 export const CONSENT = {
-  version: 1, // bump to ask everyone again after material changes
+  version: 2, // bumped: statistics & marketing (Google Tag Manager) added — everyone is asked again
   maxAgeDays: 365,
-  categories: ['necessary', 'preferences', 'media'],
+  categories: ['necessary', 'preferences', 'analytics', 'marketing', 'media'],
 };

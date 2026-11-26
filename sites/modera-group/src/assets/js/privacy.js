@@ -85,6 +85,60 @@
 
   window.ModeraConsent = { has, onChange: (fn) => listeners.push(fn), open: openSheet };
 
+  /* ================= Google Tag Manager (consent-gated, Consent Mode v2) =================
+   * Nothing from Google loads until the visitor allows Statistics or Marketing.
+   * Consent Mode defaults to "denied" and is updated per category, so tags inside the
+   * containers (GA4, Ads…) only use what was granted. Withdrawal deletes Google cookies
+   * and reloads the page so no tag keeps running. */
+  const GTM_IDS = (body.dataset.gtm || '').split(',').map((s) => s.trim()).filter(Boolean);
+  let gtmLoaded = false;
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); } // eslint-disable-line prefer-rest-params
+  const g = (cat) => (has(cat) ? 'granted' : 'denied');
+  const consentSignals = () => ({
+    analytics_storage: g('analytics'),
+    ad_storage: g('marketing'),
+    ad_user_data: g('marketing'),
+    ad_personalization: g('marketing'),
+    functionality_storage: g('preferences'),
+    personalization_storage: g('preferences'),
+    security_storage: 'granted',
+  });
+  const wantsTags = () => has('analytics') || has('marketing');
+  function loadGTM() {
+    if (gtmLoaded || !GTM_IDS.length) return;
+    gtmLoaded = true;
+    gtag('consent', 'default', {
+      analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied',
+      functionality_storage: 'denied', personalization_storage: 'denied', security_storage: 'granted', wait_for_update: 500,
+    });
+    gtag('consent', 'update', consentSignals());
+    gtag('js', new Date());
+    window.dataLayer.push({ 'gtm.start': Date.now(), event: 'gtm.js' });
+    GTM_IDS.forEach((id) => {
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = `https://www.googletagmanager.com/gtm.js?id=${encodeURIComponent(id)}`;
+      document.head.appendChild(s);
+    });
+  }
+  function clearGoogleCookies() {
+    const names = document.cookie.split(';').map((c) => c.split('=')[0].trim()).filter((n) => /^(_ga|_gid|_gat|_gcl|_gac|_fbp|_fbc|_uet)/.test(n));
+    const host = location.hostname.replace(/^www\./, '');
+    names.forEach((n) => {
+      [location.hostname, host, `.${host}`].forEach((d) => { document.cookie = `${n}=; Max-Age=0; path=/; domain=${d}`; });
+      document.cookie = `${n}=; Max-Age=0; path=/`;
+    });
+  }
+  if (wantsTags()) loadGTM();
+  listeners.push((now, prev) => {
+    const revoked = ['analytics', 'marketing'].some((c) => prev && prev.cats && prev.cats[c] && !has(c));
+    if (gtmLoaded) gtag('consent', 'update', consentSignals());
+    if (revoked && gtmLoaded) { clearGoogleCookies(); location.reload(); return; }
+    if (revoked) clearGoogleCookies();
+    if (wantsTags()) loadGTM();
+  });
+
   /* ================= Accessibility preferences ================= */
   const AKEY = 'modera-a11y';
   const FLAGS = ['contrast', 'motion', 'links', 'readable', 'spacing', 'cursor'];

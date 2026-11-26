@@ -151,7 +151,7 @@ export function page({ t, L, lang, key, title, description, path, alternates, im
   return `<!doctype html>
 <html lang="${lang}" dir="${langMeta(lang).dir || 'ltr'}">
 ${head({ t, lang, title, description, path, alternates, image, graph, noindex })}
-<body class="page-${key} ${bodyClass}" data-consent-version="${CONSENT.version}" data-consent-max-age="${CONSENT.maxAgeDays}" data-consent-categories="${CONSENT.categories.join(',')}">
+<body class="page-${key} ${bodyClass}" data-consent-version="${CONSENT.version}" data-consent-max-age="${CONSENT.maxAgeDays}" data-consent-categories="${CONSENT.categories.join(',')}" data-gtm="${(SITE.gtm || []).join(',')}">
 ${header(t, lang, key, alternates)}
 <main id="main">
 ${body}

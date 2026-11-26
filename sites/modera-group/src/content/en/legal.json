@@ -33,7 +33,7 @@
   },
   "consent": {
     "title": "Your privacy, your choice",
-    "text": "We use only what is needed to run this website. With your permission we can also remember your language and load external content such as Google Maps. You can change your mind at any time.",
+    "text": "We use only what is needed to run this website. With your permission we also measure visits with Google Analytics, measure our advertising, remember your language and load external content such as Google Maps. You can change your mind at any time.",
     "acceptAll": "Accept all",
     "rejectAll": "Reject all",
     "customize": "Customize",
@@ -59,7 +59,11 @@
       },
       "analytics": {
         "title": "Statistics",
-        "desc": "Anonymous visit statistics that help us improve the site. Not loaded unless you allow it."
+        "desc": "Google Analytics shows us how the site is used (pages visited, device type, approximate location) so we can improve it. Loaded through Google Tag Manager only if you allow it."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "desc": "Lets us measure the results of our advertising (for example Google Ads) and show relevant ads on other platforms. Off unless you allow it."
       }
     },
     "map": {
@@ -103,7 +107,7 @@
   "privacy": {
     "title": "Privacy policy",
     "lead": "Your trust matters more than any project. This policy explains, in plain language, what personal data we collect, why, how long we keep it and the rights you have — under the EU General Data Protection Regulation (GDPR), Greek law and the Israeli Privacy Protection Law, 5741-1981, as amended (including Amendment 13).",
-    "updated": "2026-11-17",
+    "updated": "2026-11-26",
     "sections": [
       {
         "id": "controller",
@@ -123,7 +127,7 @@
         "blocks": [
           {
             "ul": [
-              "We do not use advertising cookies, tracking pixels or third-party analytics.",
+              "Statistics (Google Analytics) and advertising measurement run only if you allow them — never by default.",
               "We do not sell, rent or trade personal data — ever.",
               "Our fonts and images are hosted on our own server, so simply visiting the site sends no data to Google or other third parties.",
               "External content such as Google Maps loads only if you allow it.",
@@ -184,6 +188,11 @@
                   "Legitimate interests (Art. 6(1)(f))"
                 ],
                 [
+                  "Visit statistics and advertising measurement",
+                  "Usage data, cookie identifiers, approximate location",
+                  "Consent (Art. 6(1)(a)) and Article 4(5) of Greek Law 3471/2006"
+                ],
+                [
                   "Remembering your language; loading maps",
                   "Browser storage, IP address (for Google Maps)",
                   "Consent (Art. 6(1)(a)) and Article 4(5) of Greek Law 3471/2006 (ePrivacy)"
@@ -217,6 +226,7 @@
             "ul": [
               "<strong>Hosting provider</strong> — our website, contact form and mailbox run on servers of our hosting provider, Jetserver, located in Israel, acting as our processor under a data-processing agreement.",
               "<strong>Google</strong> — only if you choose to load the map, Google receives your IP address and may set cookies under its own privacy policy. Google LLC is certified under the EU–US Data Privacy Framework.",
+              "<strong>Google Analytics and Google Tag Manager</strong> — only if you consent to Statistics or Marketing, Google (Google Ireland Ltd / Google LLC) receives usage data such as pages visited, device and browser information, approximate location and a pseudonymous identifier, to provide visit statistics and advertising measurement. IP addresses are not stored by Google Analytics 4. Google LLC is certified under the EU–US Data Privacy Framework.",
               "<strong>Google reCAPTCHA</strong> — when you start filling in the contact form, Google reCAPTCHA checks that the submission comes from a person and not an automated program. Google receives technical data such as your IP address, browser and interaction information, and may set a security cookie. Legal basis: our legitimate interest in protecting the form against spam and abuse (Art. 6(1)(f) GDPR). It is not loaded on any other page.",
               "<strong>Professional advisers and partners</strong> — lawyers, accountants, engineers or our strategic partner Sivan Invest Group, only where needed for your project and with your knowledge.",
               "<strong>Authorities</strong> — where we are legally required to, for example tax authorities or courts."
@@ -299,8 +309,8 @@
   },
   "cookies": {
     "title": "Cookie policy",
-    "lead": "This website is designed to be private by default. It uses no advertising or tracking cookies. Optional storage is switched off until you choose otherwise, and you can change your choices at any time.",
-    "updated": "2026-11-17",
+    "lead": "This website is private by default. Statistics and marketing tools load only if you allow them, optional storage stays off until you choose otherwise, and you can change your choices at any time.",
+    "updated": "2026-11-26",
     "button": "Open cookie settings",
     "sections": [
       {
@@ -348,6 +358,20 @@
                   "12 months"
                 ],
                 [
+                  "_ga, _ga_<ID>",
+                  "Statistics",
+                  "Google (Analytics)",
+                  "Distinguishes visits to produce anonymous usage statistics",
+                  "2 years"
+                ],
+                [
+                  "_gcl_au",
+                  "Marketing",
+                  "Google (Ads)",
+                  "Measures conversions from Google Ads campaigns",
+                  "90 days"
+                ],
+                [
                   "Google Maps cookies (e.g. NID, AEC)",
                   "External media",
                   "Google",
@@ -365,7 +389,7 @@
             }
           },
           {
-            "p": "Our own items are stored as local storage in your browser, are never sent to our server and contain no identifiers. We do not currently use any statistics or advertising tools. If we introduce statistics in the future, they will remain off until you allow them."
+            "p": "Our own items are stored as local storage in your browser and contain no identifiers. Google Analytics and advertising tags are loaded through Google Tag Manager only after you consent to Statistics or Marketing, using Google Consent Mode; if you withdraw consent we delete these cookies from your browser."
           }
         ]
       },

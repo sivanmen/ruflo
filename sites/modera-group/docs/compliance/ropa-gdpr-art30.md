@@ -281,3 +281,19 @@ The full measures are in the Hebrew data-security procedure. Core measures:
 | Founder & Chairman | Sivan Menahem | | |
 | Co-Founder & Managing Director | Yiannis | | |
 | Record owner | [NAME] | | |
+
+---
+
+## Amendment — 2026-11-26: Website statistics & advertising measurement
+
+| Field | Entry |
+|---|---|
+| Processing activity | Website visit statistics and advertising measurement via Google Tag Manager (containers GTM-TDX9Z9HT, GTM-PFFK2R8T) and Google Analytics 4 (G-Q4BX5FBSZP) |
+| Purpose | Understanding how the website is used; measuring advertising results (e.g. Google Ads conversions, `generate_lead` event without personal data) |
+| Legal basis | Consent — Art. 6(1)(a) GDPR; Art. 4(5) Greek Law 3471/2006 (ePrivacy) |
+| Data subjects | Website visitors who opt in to "Statistics" and/or "Marketing" |
+| Data categories | Pages visited, device/browser data, approximate location, pseudonymous cookie identifiers (`_ga`, `_ga_<ID>`, `_gcl_au`); GA4 does not store IP addresses |
+| Recipients | Google Ireland Ltd / Google LLC (processor/independent controller per Google terms) |
+| Transfers | USA — Google LLC certified under the EU–US Data Privacy Framework |
+| Retention | Cookies up to 2 years (`_ga`) / 90 days (`_gcl_au`); GA4 data retention per property setting — set to 14 months [confirm in GA4 Admin → Data retention] |
+| Safeguards | Nothing loads before consent; Google Consent Mode v2 defaults to denied and is updated per category; Global Privacy Control honoured; withdrawal deletes Google cookies and reloads the page; consent re-requested after policy version change (CONSENT.version = 2) |

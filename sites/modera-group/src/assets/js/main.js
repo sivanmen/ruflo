@@ -324,6 +324,8 @@
         if (!res.ok || !json.ok) throw new Error(json.error || String(res.status));
         form.reset();
         status.classList.add('is-ok'); status.textContent = status.dataset.ok;
+        // Conversion event for GA4 / Ads via Tag Manager (no personal data; only sent if tags were consented and loaded).
+        if (window.dataLayer) window.dataLayer.push({ event: 'generate_lead', form_id: 'contact', site_language: document.documentElement.lang, project_type: data.project_type || undefined });
       } catch (err) {
         status.classList.add('is-err');
         status.textContent = err && err.message === 'spam' ? form.dataset.msgSpam : status.dataset.err;

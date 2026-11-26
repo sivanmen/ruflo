@@ -33,7 +33,7 @@
   },
   "consent": {
     "title": "Votre vie privée, votre choix",
-    "text": "Nous n’utilisons que ce qui est nécessaire au fonctionnement de ce site. Avec votre accord, nous pouvons aussi mémoriser votre langue et charger des contenus externes comme Google Maps. Vous pouvez changer d’avis à tout moment.",
+    "text": "Nous n’utilisons que ce qui est nécessaire au fonctionnement du site. Avec votre accord, nous mesurons aussi les visites avec Google Analytics, mesurons nos publicités, mémorisons votre langue et chargeons des contenus externes comme Google Maps. Vous pouvez changer d’avis à tout moment.",
     "acceptAll": "Tout accepter",
     "rejectAll": "Tout refuser",
     "customize": "Personnaliser",
@@ -59,7 +59,11 @@
       },
       "analytics": {
         "title": "Statistiques",
-        "desc": "Statistiques de visite anonymes qui nous aident à améliorer le site. Elles ne sont chargées que si vous l’autorisez."
+        "desc": "Google Analytics nous montre comment le site est utilisé (pages consultées, type d’appareil, localisation approximative) afin de l’améliorer. Chargé via Google Tag Manager uniquement si vous l’autorisez."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "desc": "Nous permet de mesurer les résultats de nos publicités (par exemple Google Ads) et d’afficher des annonces pertinentes sur d’autres plateformes. Désactivé sauf si vous l’autorisez."
       }
     },
     "map": {
@@ -103,7 +107,7 @@
   "privacy": {
     "title": "Politique de confidentialité",
     "lead": "Votre confiance compte plus que n’importe quel projet. Cette politique explique, en termes simples, quelles données personnelles nous collectons, pourquoi, combien de temps nous les conservons et quels sont vos droits — en vertu du Règlement général sur la protection des données de l’UE (RGPD), du droit grec et de la loi israélienne sur la protection de la vie privée, 5741-1981, telle que modifiée (y compris l’amendement n° 13).",
-    "updated": "2026-11-17",
+    "updated": "2026-11-26",
     "sections": [
       {
         "id": "controller",
@@ -123,7 +127,7 @@
         "blocks": [
           {
             "ul": [
-              "Nous n’utilisons ni cookies publicitaires, ni pixels de suivi, ni outils d’analyse tiers.",
+              "Les statistiques (Google Analytics) et la mesure publicitaire ne fonctionnent que si vous les autorisez — jamais par défaut.",
               "Nous ne vendons, ne louons et n’échangeons jamais de données personnelles.",
               "Nos polices et nos images sont hébergées sur notre propre serveur : la simple visite du site n’envoie donc aucune donnée à Google ni à d’autres tiers.",
               "Les contenus externes comme Google Maps ne se chargent que si vous l’autorisez.",
@@ -184,6 +188,11 @@
                   "Intérêts légitimes (art. 6(1)(f))"
                 ],
                 [
+                  "Statistiques de visite et mesure publicitaire",
+                  "Données d’utilisation, identifiants de cookies, localisation approximative",
+                  "Consentement (art. 6, par. 1, a) et article 4, par. 5 de la loi grecque 3471/2006"
+                ],
+                [
                   "Mémoriser votre langue ; charger les cartes",
                   "Stockage du navigateur, adresse IP (pour Google Maps)",
                   "Consentement (art. 6(1)(a)) et article 4(5) de la loi grecque 3471/2006 (ePrivacy)"
@@ -217,6 +226,7 @@
             "ul": [
               "<strong>Hébergeur</strong> — notre site, notre formulaire de contact et notre messagerie fonctionnent sur les serveurs de notre hébergeur, Jetserver, situés en Israël, qui agit en tant que sous-traitant dans le cadre d’un accord de traitement des données.",
               "<strong>Google</strong> — uniquement si vous choisissez de charger la carte : Google reçoit alors votre adresse IP et peut déposer des cookies conformément à sa propre politique de confidentialité. Google LLC est certifiée au titre du Data Privacy Framework UE–États-Unis.",
+              "<strong>Google Analytics et Google Tag Manager</strong> — uniquement si vous consentez aux Statistiques ou au Marketing, Google (Google Ireland Ltd / Google LLC) reçoit des données d’utilisation telles que les pages consultées, des informations sur l’appareil et le navigateur, une localisation approximative et un identifiant pseudonyme, afin de fournir des statistiques de visite et une mesure publicitaire. Google Analytics 4 ne conserve pas les adresses IP. Google LLC est certifiée au titre du Data Privacy Framework UE–États-Unis.",
               "<strong>Google reCAPTCHA</strong> — lorsque vous commencez à remplir le formulaire de contact, Google reCAPTCHA vérifie que l’envoi provient d’une personne et non d’un programme automatisé. Google reçoit des données techniques telles que votre adresse IP, votre navigateur et des informations d’interaction, et peut déposer un cookie de sécurité. Base légale : notre intérêt légitime à protéger le formulaire contre le spam et les abus (art. 6, par. 1, f) du RGPD). Il n’est chargé sur aucune autre page.",
               "<strong>Conseillers professionnels et partenaires</strong> — avocats, comptables, ingénieurs ou notre partenaire stratégique Sivan Invest Group, uniquement lorsque cela est nécessaire pour votre projet et à votre connaissance.",
               "<strong>Autorités</strong> — lorsque la loi nous y oblige, par exemple les autorités fiscales ou les tribunaux."
@@ -299,8 +309,8 @@
   },
   "cookies": {
     "title": "Politique relative aux cookies",
-    "lead": "Ce site est conçu pour protéger votre vie privée par défaut. Il n’utilise aucun cookie publicitaire ni de suivi. Le stockage facultatif reste désactivé tant que vous n’en décidez pas autrement, et vous pouvez modifier vos choix à tout moment.",
-    "updated": "2026-11-17",
+    "lead": "Ce site est confidentiel par défaut. Les outils de statistiques et de marketing ne se chargent que si vous les autorisez, le stockage facultatif reste désactivé tant que vous n’en décidez pas autrement, et vous pouvez modifier vos choix à tout moment.",
+    "updated": "2026-11-26",
     "button": "Ouvrir les paramètres des cookies",
     "sections": [
       {
@@ -348,6 +358,20 @@
                   "12 mois"
                 ],
                 [
+                  "_ga, _ga_<ID>",
+                  "Statistiques",
+                  "Google (Analytics)",
+                  "Distingue les visites pour produire des statistiques d’utilisation anonymes",
+                  "2 ans"
+                ],
+                [
+                  "_gcl_au",
+                  "Marketing",
+                  "Google (Ads)",
+                  "Mesure les conversions issues des campagnes Google Ads",
+                  "90 jours"
+                ],
+                [
                   "Cookies Google Maps (par ex. NID, AEC)",
                   "Médias externes",
                   "Google",
@@ -365,7 +389,7 @@
             }
           },
           {
-            "p": "Nos propres éléments sont enregistrés dans le stockage local de votre navigateur, ne sont jamais envoyés à notre serveur et ne contiennent aucun identifiant. Nous n’utilisons actuellement aucun outil de statistiques ni de publicité. Si nous introduisons des statistiques à l’avenir, elles resteront désactivées tant que vous ne les aurez pas autorisées."
+            "p": "Nos propres éléments sont enregistrés en stockage local dans votre navigateur et ne contiennent aucun identifiant. Google Analytics et les balises publicitaires sont chargés via Google Tag Manager uniquement après votre consentement aux Statistiques ou au Marketing, avec Google Consent Mode ; si vous retirez votre consentement, nous supprimons ces cookies de votre navigateur."
           }
         ]
       },

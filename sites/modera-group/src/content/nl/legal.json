@@ -33,7 +33,7 @@
   },
   "consent": {
     "title": "Uw privacy, uw keuze",
-    "text": "We gebruiken alleen wat nodig is om deze website te laten werken. Met uw toestemming kunnen we ook uw taal onthouden en externe inhoud laden, zoals Google Maps. U kunt uw keuze op elk moment wijzigen.",
+    "text": "We gebruiken alleen wat nodig is om deze website te laten werken. Met uw toestemming meten we ook bezoeken met Google Analytics, meten we onze advertenties, onthouden we uw taal en laden we externe inhoud zoals Google Maps. U kunt uw keuze altijd wijzigen.",
     "acceptAll": "Alles accepteren",
     "rejectAll": "Alles weigeren",
     "customize": "Aanpassen",
@@ -59,7 +59,11 @@
       },
       "analytics": {
         "title": "Statistieken",
-        "desc": "Anonieme bezoekstatistieken die ons helpen de website te verbeteren. Worden alleen geladen als u dit toestaat."
+        "desc": "Google Analytics laat ons zien hoe de website wordt gebruikt (bezochte pagina’s, type apparaat, globale locatie), zodat we hem kunnen verbeteren. Wordt alleen via Google Tag Manager geladen als u dat toestaat."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "desc": "Hiermee meten we de resultaten van onze advertenties (bijvoorbeeld Google Ads) en tonen we relevante advertenties op andere platforms. Uit, tenzij u het toestaat."
       }
     },
     "map": {
@@ -103,7 +107,7 @@
   "privacy": {
     "title": "Privacybeleid",
     "lead": "Uw vertrouwen is belangrijker dan welk project ook. Dit beleid legt in begrijpelijke taal uit welke persoonsgegevens we verzamelen, waarom, hoelang we ze bewaren en welke rechten u hebt — op grond van de Algemene Verordening Gegevensbescherming (AVG) van de EU, het Griekse recht en de Israëlische Privacy Protection Law, 5741-1981, zoals gewijzigd (inclusief Amendement 13).",
-    "updated": "2026-11-17",
+    "updated": "2026-11-26",
     "sections": [
       {
         "id": "controller",
@@ -123,7 +127,7 @@
         "blocks": [
           {
             "ul": [
-              "We gebruiken geen advertentiecookies, trackingpixels of analysediensten van derden.",
+              "Statistieken (Google Analytics) en advertentiemeting werken alleen als u dat toestaat — nooit standaard.",
               "We verkopen, verhuren of verhandelen nooit persoonsgegevens.",
               "Onze lettertypen en afbeeldingen worden op onze eigen server gehost, dus alleen het bezoeken van de website stuurt geen gegevens naar Google of andere derden.",
               "Externe inhoud zoals Google Maps wordt alleen geladen als u dit toestaat.",
@@ -184,6 +188,11 @@
                   "Gerechtvaardigd belang (art. 6, lid 1, onder f)"
                 ],
                 [
+                  "Bezoekstatistieken en advertentiemeting",
+                  "Gebruiksgegevens, cookie-identificatoren, globale locatie",
+                  "Toestemming (art. 6 lid 1 sub a AVG) en artikel 4 lid 5 van de Griekse wet 3471/2006"
+                ],
+                [
                   "Uw taal onthouden; kaarten laden",
                   "Browseropslag, IP-adres (voor Google Maps)",
                   "Toestemming (art. 6, lid 1, onder a) en artikel 4, lid 5, van de Griekse wet 3471/2006 (ePrivacy)"
@@ -217,6 +226,7 @@
             "ul": [
               "<strong>Hostingprovider</strong> — onze website, ons contactformulier en onze mailbox draaien op servers van onze hostingprovider Jetserver, gevestigd in Israël, die optreedt als onze verwerker op grond van een verwerkersovereenkomst.",
               "<strong>Google</strong> — alleen als u ervoor kiest de kaart te laden, ontvangt Google uw IP-adres en kan het cookies plaatsen volgens zijn eigen privacybeleid. Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework.",
+              "<strong>Google Analytics en Google Tag Manager</strong> — alleen als u toestemming geeft voor Statistieken of Marketing ontvangt Google (Google Ireland Ltd / Google LLC) gebruiksgegevens zoals bezochte pagina’s, apparaat- en browserinformatie, globale locatie en een gepseudonimiseerde identificator, voor bezoekstatistieken en advertentiemeting. Google Analytics 4 slaat geen IP-adressen op. Google LLC is gecertificeerd onder het EU-VS Data Privacy Framework.",
               "<strong>Google reCAPTCHA</strong> — zodra u het contactformulier begint in te vullen, controleert Google reCAPTCHA of de inzending van een mens komt en niet van een geautomatiseerd programma. Google ontvangt technische gegevens zoals uw IP-adres, browser- en interactiegegevens en kan een beveiligingscookie plaatsen. Rechtsgrond: ons gerechtvaardigd belang om het formulier te beschermen tegen spam en misbruik (art. 6 lid 1 sub f AVG). Op geen enkele andere pagina wordt reCAPTCHA geladen.",
               "<strong>Professionele adviseurs en partners</strong> — advocaten, accountants, ingenieurs of onze strategische partner Sivan Invest Group, alleen waar nodig voor uw project en met uw medeweten.",
               "<strong>Autoriteiten</strong> — wanneer we daartoe wettelijk verplicht zijn, bijvoorbeeld tegenover belastingautoriteiten of rechtbanken."
@@ -299,8 +309,8 @@
   },
   "cookies": {
     "title": "Cookiebeleid",
-    "lead": "Deze website is standaard privacyvriendelijk ingericht. Er worden geen advertentie- of trackingcookies gebruikt. Optionele opslag staat uit totdat u anders kiest, en u kunt uw keuzes op elk moment wijzigen.",
-    "updated": "2026-11-17",
+    "lead": "Deze website is standaard privacyvriendelijk. Statistiek- en marketingtools worden alleen geladen als u dat toestaat, optionele opslag blijft uit totdat u anders kiest en u kunt uw keuzes op elk moment wijzigen.",
+    "updated": "2026-11-26",
     "button": "Cookie-instellingen openen",
     "sections": [
       {
@@ -348,6 +358,20 @@
                   "12 maanden"
                 ],
                 [
+                  "_ga, _ga_<ID>",
+                  "Statistieken",
+                  "Google (Analytics)",
+                  "Onderscheidt bezoeken voor anonieme gebruiksstatistieken",
+                  "2 jaar"
+                ],
+                [
+                  "_gcl_au",
+                  "Marketing",
+                  "Google (Ads)",
+                  "Meet conversies uit Google Ads-campagnes",
+                  "90 dagen"
+                ],
+                [
                   "Google Maps-cookies (bijv. NID, AEC)",
                   "Externe media",
                   "Google",
@@ -365,7 +389,7 @@
             }
           },
           {
-            "p": "Onze eigen items worden als lokale opslag in uw browser bewaard, worden nooit naar onze server verzonden en bevatten geen identificatoren. We gebruiken momenteel geen statistiek- of advertentietools. Als we in de toekomst statistieken invoeren, blijven die uit totdat u ze toestaat."
+            "p": "Onze eigen gegevens worden in de lokale opslag van uw browser bewaard en bevatten geen identificatoren. Google Analytics en advertentietags worden pas via Google Tag Manager geladen nadat u toestemming geeft voor Statistieken of Marketing, met gebruik van Google Consent Mode; trekt u uw toestemming in, dan verwijderen we deze cookies uit uw browser."
           }
         ]
       },
