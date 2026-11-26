@@ -1,0 +1,327 @@
+<title>בריפים לתוכן – סיון השקעות</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Assistant:wght@400;600;700&display=swap">
+<style>
+/* Layout: one readable RTL column; sections as stacked bands, briefs as copyable cards in a grid */
+:root{
+  --bg:#f6f5f1; --surface:#ffffff; --ink:#14203a; --muted:#5c6475; --line:#e3e0d7;
+  --navy:#0a1f44; --gold:#a8842f; --gold-soft:#f3ead4; --ok:#2f7d63; --warn:#a4561a; --warn-soft:#fbeee2;
+  --f-display:"Rubik","Assistant",system-ui,sans-serif; --f-body:"Assistant",system-ui,sans-serif; --f-mono:ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1420; --surface:#161d2c; --ink:#e8e6df; --muted:#a3a9b6; --line:#2a3346;
+  --navy:#c9d6f2; --gold:#d8b878; --gold-soft:#2b2618; --ok:#6cc3a2; --warn:#e6a06b; --warn-soft:#2e2116; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1420; --surface:#161d2c; --ink:#e8e6df; --muted:#a3a9b6; --line:#2a3346;
+  --navy:#c9d6f2; --gold:#d8b878; --gold-soft:#2b2618; --ok:#6cc3a2; --warn:#e6a06b; --warn-soft:#2e2116; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.65;direction:rtl;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 64px}
+.wrap{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--f-display);color:var(--navy);text-wrap:balance;line-height:1.25;margin:0}
+h1{font-size:clamp(28px,4vw,40px)} h2{font-size:clamp(22px,2.6vw,28px)} h3{font-size:19px}
+p{margin:0} a{color:var(--gold)}
+header.top{display:flex;flex-direction:column;gap:10px;border-bottom:2px solid var(--gold);padding-bottom:20px}
+.eyebrow{font-size:13px;letter-spacing:.06em;color:var(--gold);font-weight:700}
+.lead{color:var(--muted);max-width:68ch}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font-size:14px;text-decoration:none;color:var(--ink);border:1px solid var(--line);background:var(--surface);padding:6px 12px;border-radius:999px}
+nav.toc a:hover,nav.toc a:focus-visible{border-color:var(--gold);outline:none}
+section{display:flex;flex-direction:column;gap:16px}
+.sec-head{display:flex;flex-direction:column;gap:6px}
+.sec-head p{color:var(--muted);max-width:72ch}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;padding:0;margin:0;list-style:none;counter-reset:s}
+.steps li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;counter-increment:s;min-width:0}
+.steps li::before{content:counter(s);display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--navy);color:var(--bg);font-family:var(--f-display);font-size:14px;margin-left:8px}
+.prompt{background:var(--surface);border:1px solid var(--gold);border-radius:12px;overflow:hidden}
+.prompt .bar{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 16px;background:var(--gold-soft);flex-wrap:wrap}
+.prompt pre{margin:0;padding:16px;white-space:pre-wrap;font-family:var(--f-body);font-size:15px;line-height:1.7;max-height:440px;overflow:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;display:flex;flex-direction:column;min-width:0}
+.card .ch{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:14px 16px 10px;border-bottom:1px solid var(--line)}
+.card .ch h3{font-size:17.5px}
+.tag{font-size:12.5px;font-weight:700;border-radius:6px;padding:2px 8px;white-space:nowrap}
+.tag.site{background:var(--gold-soft);color:var(--gold)}
+.body{padding:12px 16px 16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.kv{display:grid;grid-template-columns:110px 1fr;gap:4px 12px;font-size:15px}
+.kv dt{color:var(--muted);font-weight:600}
+.kv dd{margin:0;min-width:0}
+.body ul{margin:0;padding-inline-start:20px;font-size:15px}
+.need{background:var(--warn-soft);color:var(--warn);border-radius:8px;padding:8px 12px;font-size:14.5px}
+button.copy{font-family:var(--f-body);font-weight:700;font-size:14px;color:var(--navy);background:var(--surface);border:1px solid var(--navy);border-radius:8px;padding:6px 12px;cursor:pointer;white-space:nowrap}
+button.copy:hover{background:var(--gold-soft)}
+button.copy:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+button.copy.done{border-color:var(--ok);color:var(--ok)}
+.tbl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:640px}
+th,td{text-align:right;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-display);font-weight:500;color:var(--navy);background:var(--gold-soft);font-size:14px}
+tr:last-child td{border-bottom:0}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.facts td:first-child{font-weight:600;white-space:nowrap}
+.pill{display:inline-block;font-size:12.5px;font-weight:700;padding:1px 8px;border-radius:999px}
+.pill.ok{color:var(--ok);border:1px solid var(--ok)} .pill.wait{color:var(--warn);border:1px solid var(--warn)}
+.note{font-size:14.5px;color:var(--muted)}
+.ltr{direction:ltr;text-align:left}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="top">
+  <span class="eyebrow">Sivan Invest Group · תוכנית תוכן · נובמבר 2026</span>
+  <h1>בריפים לתוכן: האתר הראשי, הפורטלים ואתרי הלוויין</h1>
+  <p class="lead">לכל עמוד ומאמר יש כאן בריף מוכן. מעתיקים לצ׳אט GPT את הפרומפט הקבוע ואחריו את הבריף, ומחזירים אליי את הטקסט. אני מוסיף תמונה, Schema, קישורים פנימיים והגדרות Yoast, בודק את העובדות ומעלה לאתר.</p>
+  <nav class="toc" aria-label="ניווט">
+    <a href="#how">איך עובדים</a><a href="#prompt">פרומפט קבוע</a><a href="#facts">טבלת עובדות</a>
+    <a href="#pillars">עמודי תווך (7)</a><a href="#trust">עמודי אמון (3)</a><a href="#main">מאמרים לאתר הראשי (14)</a>
+    <a href="#portals">פורטלים (12)</a><a href="#sat">אתרי לוויין (36)</a><a href="#order">סדר עבודה</a>
+  </nav>
+</header>
+
+<section id="how">
+  <div class="sec-head"><h2>איך עובדים</h2></div>
+  <ol class="steps">
+    <li>פותחים שיחה חדשה ב-ChatGPT ומדביקים את <b>הפרומפט הקבוע</b> (פעם אחת לכל שיחה).</li>
+    <li>לוחצים <b>"העתק בריף"</b> על העמוד הרצוי ומדביקים מיד אחרי הפרומפט.</li>
+    <li>מבקשים תיקונים לפי הצורך, ומעבירים לי את הטקסט הסופי (צ׳אט, Google Doc או קובץ).</li>
+    <li>אני בודק עובדות מול הטבלה, מוסיף תמונה, Schema, קישורים ו-SEO, ומעלה. עד 2 גלים בשבוע.</li>
+  </ol>
+  <p class="note">נתון שלא מופיע בטבלת העובדות יופיע בטקסט כ-[לאשר]. אני לא מפרסם אותו עד שתאשר.</p>
+</section>
+
+<section id="prompt">
+  <div class="sec-head"><h2>פרומפט קבוע ל-ChatGPT</h2><p>מדביקים פעם אחת בתחילת כל שיחה. לעמודים באנגלית יש גרסה נפרדת בהמשך.</p></div>
+  <div class="prompt">
+    <div class="bar"><b>פרומפט בעברית</b><button class="copy" data-target="p-he" type="button">העתק פרומפט</button></div>
+<pre id="p-he">אתה כותב תוכן בכיר לנדל״ן ולהשקעות. אתה כותב בעברית עבור Sivan Invest Group (סיון השקעות): יזם, קבלן ובית השקעות ישראלי בחאניה, כרתים. המייסד והמנכ״ל הוא סיון מנחם (20+ שנות ניסיון). המטרה: תוכן שגוגל ומנועי AI (ChatGPT, Perplexity, Gemini, Google AI Overviews) יבחרו לצטט.
+
+כללי כתיבה (חובה):
+1. H1 אחד שמכיל את מילת המפתח הראשית.
+2. מיד מתחת ל-H1: פסקת תשובה ישירה של 40–60 מילים שעונה על השאלה המרכזית, עם מספר אחד לפחות ושם המותג.
+3. תוכן עניינים קצר.
+4. כותרות H2 בצורת שאלה, כמו שאנשים שואלים צ׳אטבוט. מתחת לכל H2: תשובה של 2–4 משפטים, ורק אחריה הרחבה.
+5. טבלת נתונים אחת לפחות. לכל נתון: מקור ותאריך (Bank of Greece, ELSTAT, AADE, Enterprise Greece, migration.gov.gr, Eurostat).
+6. פרק "סיכונים ומה לבדוק" בכל עמוד שעוסק בהשקעה.
+7. בסוף: 5–8 שאלות נפוצות, עם תשובות של 2–3 משפטים.
+8. שורת "עודכן לאחרונה: [חודש שנה]" ותיבת כותב: "סיון מנחם, מייסד ומנכ״ל Sivan Invest Group".
+9. עובדות: השתמש רק בעובדות שאני נותן בבריף. כל נתון אחר (מחיר, מספר, תשואה, תאריך) כתוב כ-[לאשר]. אל תמציא נתונים או מקורות.
+10. אסור לכתוב: "תשואה מובטחת", "ללא סיכון", "הכי טוב בשוק", "אזרחות" בהקשר של ויזת זהב, "0% מס" בלי התנאי והתאריך.
+11. קול: גוף ראשון של סיון בפסקאות של ניסיון ודעה ("כשאני בודק עסקה..."). ניסוח עובדתי ומאוזן בחלקי המידע.
+12. שפה: עברית טבעית ותקינה, משפטים קצרים, בלי סלנג ושיווקיות מוגזמת.
+13. בסוף כל תוכן על השקעות: "המידע אינו מהווה ייעוץ השקעות, מס או משפט."
+14. החזר את הטקסט בפורמט Markdown (#, ##, ###, טבלאות Markdown). בנוסף, החזר בנפרד: Title עד 60 תווים, Meta description באורך 140–155 תווים, ו-slug באנגלית קצר.
+
+עובדות קבועות שמותר להשתמש בהן:
+- מס העברה ביוון: 3%, ועליו היטל עירוני של 3% מהמס = 3.09% בסך הכול (ביד שנייה, או בנכס חדש שפטור ממע״מ).
+- מס רווחי הון על נדל״ן ביוון: 15%, מושעה ליחידים עד 31.12.2026.
+- מימון בנקאי למשקיעים זרים: בדרך כלל 50%–60% משווי הנכס.
+- Golden Visa: ‏€800,000 באטיקה, סלוניקי, מיקונוס, סנטוריני ואיים מעל 3,100 תושבים (כולל כרתים); ‏€400,000 בשאר האזורים; ‏€250,000 רק להסבה ממסחרי למגורים או לשיקום מבנה לשימור. נכס יחיד, לפחות 120 מ״ר. היתר שהייה ל-5 שנים, ניתן לחידוש. לא אזרחות. השכרה קצרה אסורה בנכסי Golden Visa (Circular 1/2026).
+- התאזרחות ביוון: הליך נפרד, אחרי 7 שנות תושבות בפועל ועמידה בתנאי החוק.
+- King Solomon: ‏21 וילות בקאליבס, אפוקורונאס, חאניה. 1, 2, 3 ו-5 חדרי שינה, בריכה פרטית לכל וילה.
+- משרד: Pl. Eleftherias 2, 73132 Chania. ישויות: SivanInvest King Solomon (יזמות), Sivan Menahem Management (ניהול נכסים).
+
+אשר שהבנת, ואז אשלח בריף.</pre>
+  </div>
+  <div class="prompt">
+    <div class="bar"><b>English prompt (for EN pages and kingsolomoncrete.com)</b><button class="copy" data-target="p-en" type="button">העתק פרומפט</button></div>
+<pre id="p-en" class="ltr">You are a senior real-estate and investment content writer for Sivan Invest Group, an Israeli developer and investment house based in Chania, Crete (founder & CEO: Sivan Menahem, 20+ years of experience). Goal: content that Google and AI assistants (ChatGPT, Perplexity, Gemini, AI Overviews) cite.
+
+Rules:
+1. One H1 with the primary keyword. 2. Right below it: a 40–60-word direct answer with at least one number and the brand name. 3. Short table of contents. 4. Question-style H2s, each answered in 2–4 sentences before expanding. 5. At least one data table; every figure has a source and a date. 6. A "Risks and what to check" section. 7. 5–8 FAQs at the end. 8. "Last updated: [month year]" line and author box: "Sivan Menahem, Founder & CEO, Sivan Invest Group". 9. Use only the facts given in the brief; write any other figure as [TO CONFIRM]. Never invent data or sources. 10. Never write "guaranteed return", "risk-free", "best in the market", "citizenship" for the Golden Visa, or "0% tax" without its condition and date. 11. Clear international English, short sentences. 12. End with: "This is general information, not investment, tax or legal advice." 13. Return Markdown, plus a Title (≤60 chars), a meta description (140–155 chars) and a short slug.
+
+Fixed facts: Greek transfer tax 3% plus a 3% municipal surcharge on the tax = 3.09%. Capital gains tax on property 15%, suspended for individuals until 31 Dec 2026. Bank financing for foreign buyers usually 50–60% LTV. Golden Visa: €800,000 in Attica, Thessaloniki, Mykonos, Santorini and islands over 3,100 residents (incl. Crete); €400,000 elsewhere; €250,000 only for commercial-to-residential conversion or listed-building restoration; single property ≥120 m²; 5-year renewable residence permit, not citizenship; no short-term rental (Circular 1/2026). King Solomon: 21 villas in Kalyves, Apokoronas, Chania; 1, 2, 3 and 5 bedrooms, private pool each. Office: Pl. Eleftherias 2, 73132 Chania. Entities: SivanInvest King Solomon (development), Sivan Menahem Management (property management).
+
+Confirm you understood, then I will send a brief.</pre>
+  </div>
+</section>
+
+<section id="facts">
+  <div class="sec-head"><h2>טבלת עובדות</h2><p>רק עובדות שמסומנות "מאושר" נכנסות לתוכן. השאר מופיעות כ-[לאשר] עד שתשלח לי ערך אחד סופי.</p></div>
+  <div class="tbl-wrap"><table class="facts">
+    <thead><tr><th>נתון</th><th>ערך</th><th>סטטוס</th></tr></thead>
+    <tbody>
+      <tr><td>שם המותג</td><td>Sivan Invest Group (סיון השקעות)</td><td><span class="pill ok">מאושר</span></td></tr>
+      <tr><td>ניסיון</td><td>20+ שנות ניסיון בהשקעות ובנדל״ן</td><td><span class="pill ok">מאושר</span></td></tr>
+      <tr><td>King Solomon</td><td>21 וילות, קאליבס; 1/2/3/5 חדרי שינה</td><td><span class="pill ok">מאושר</span></td></tr>
+      <tr><td>מסים, LTV, ויזת זהב</td><td>כמו בפרומפט הקבוע</td><td><span class="pill ok">מאושר</span></td></tr>
+      <tr><td>פעילות ביוון</td><td>"מעל עשור"</td><td><span class="pill wait">לאשר</span></td></tr>
+      <tr><td>פרויקטים / לקוחות / סכום מנוהל</td><td>54 או 10 / 248 או 1,200 / ‎₪107M או ‎₪100M</td><td><span class="pill wait">לאשר</span></td></tr>
+      <tr><td>מחירי King Solomon</td><td>‎€507,104–€982,075 או ‎€460K–€900K</td><td><span class="pill wait">לאשר</span></td></tr>
+      <tr><td>מסירת King Solomon</td><td>DEC 2027 או סוף 2029</td><td><span class="pill wait">לאשר</span></td></tr>
+      <tr><td>HARMONY</td><td>מינימום (‎€70K / €75K / €100K) ותשואה (7.9% / 9% / 10%)</td><td><span class="pill wait">לאשר</span></td></tr>
+      <tr><td>היקף פעילות</td><td>"450 יחידות דיור", "22 וילות" (פרויקט אחר?)</td><td><span class="pill wait">לאשר</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="pillars">
+  <div class="sec-head"><h2>עמודי תווך באתר הראשי</h2><p>אלה העמודים החשובים ביותר לגוגל ולמנועי AI. כל אחד עונה על שאילתת יעד אחת מתוך דו״ח ה-SEO.</p></div>
+  <div class="grid">
+
+    <article class="card"><div class="ch"><h3>C1 · השקעות נדל״ן ביוון 2026 – המדריך המלא</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/השקעות-נדל״ן-ביוון/ (מחליף את "המדריך המקיף 2025")</dd><dt>מילת מפתח</dt><dd>השקעות נדל״ן ביוון · נדל״ן ביוון 2026 · השקעה ביוון</dd><dt>אורך</dt><dd>2,500–3,000 מילים</dd><dt>קהל</dt><dd>משקיע ישראלי שמתחיל לבדוק את יוון</dd></dl>
+      <p><b>H2 בצורת שאלות:</b></p>
+      <ul><li>למה ישראלים משקיעים ביוון ב-2026?</li><li>איפה כדאי להשקיע: אתונה, סלוניקי, כרתים או האיים?</li><li>כמה עולה עסקה: מחיר, מס העברה, עורך דין, נוטריון?</li><li>כמה מימון בנקאי אפשר לקבל כמשקיע זר?</li><li>אילו מסים משלמים בהחזקה ובמכירה?</li><li>ויזת זהב: מה הספים ומה היא נותנת?</li><li>השכרה קצרה מול ארוכה: מה מותר ב-2026?</li><li>איך התהליך עובד, מה-AFM ועד הרישום?</li><li>מה הסיכונים ומה חובה לבדוק?</li></ul>
+      <p><b>טבלאות:</b> עלויות עסקה; השוואת אזורים (מחיר/מ״ר [לאשר], עונתיות, נזילות); מסים.</p>
+      <p><b>קישורים פנימיים:</b> נדל״ן בכרתים (C2), ויזת זהב (C3), מדריך המשכנתא 2026, מדריך חאניה, King Solomon.</p>
+      <p><b>שאלות נפוצות:</b> 8. <b>גרסה באנגלית:</b> כן (C7).</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C2 · נדל״ן בכרתים: איפה, כמה ולמי זה מתאים</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/נדל״ן-בכרתים/ (עמוד חדש)</dd><dt>מילת מפתח</dt><dd>נדל״ן בכרתים · וילה בכרתים · השקעה בכרתים</dd><dt>אורך</dt><dd>2,000–2,500 מילים</dd><dt>קהל</dt><dd>משקיעים ורוכשי בית שני</dd></dl>
+      <ul><li>למה כרתים שונה משאר האיים? (אוכלוסייה קבועה, 2 שדות תעופה, עונה ארוכה)</li><li>חאניה, הרקליון, רתימנו ואפוקורונאס: מה ההבדל בין האזורים?</li><li>כמה עולה וילה או דירה בכרתים? (טבלה לפי אזור, [לאשר])</li><li>השכרה בכרתים: עונתיות ותפוסה</li><li>מי קונה בכרתים: ישראלים, אירופאים, יוונים</li><li>פרויקט King Solomon בקאליבס: כרטיס פרויקט</li><li>סיכונים ומה לבדוק</li></ul>
+      <p><b>קישורים פנימיים:</b> C1, מדריך חאניה, King Solomon, היזם (C4).</p>
+      <p><b>שאלות נפוצות:</b> 6. <b>גרסה באנגלית:</b> כן.</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C3 · ויזת זהב ביוון 2026: ‎€800K, ‎€400K או ‎€250K – מה מתאים לכם</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/ויזת-זהב-יוון/ (מדריך עובדתי חדש; עמוד השירות הקיים נשאר)</dd><dt>מילת מפתח</dt><dd>ויזת זהב יוון · גולדן ויזה יוון 2026 · תנאי ויזת זהב</dd><dt>אורך</dt><dd>1,800–2,200 מילים</dd></dl>
+      <ul><li>מה זה Golden Visa ומה היא נותנת? (היתר שהייה ל-5 שנים, לא אזרחות)</li><li>מה הספים לפי אזור? (טבלה)</li><li>מה התנאים: נכס יחיד, 120 מ״ר, החזקה לאורך התקופה</li><li>מי נכלל: בן/בת זוג, ילדים עד 21, הורים</li><li>אפשר להשכיר את הנכס? (Circular 1/2026)</li><li>מה ההבדל בין היתר שהייה לאזרחות?</li><li>התהליך ולוחות הזמנים</li><li>ויזת זהב ביוון מול קפריסין, פורטוגל וספרד</li><li>סיכונים: שינויי רגולציה, נזילות</li></ul>
+      <p><b>מקורות לציון:</b> migration.gov.gr, Enterprise Greece.</p>
+      <p><b>שאלות נפוצות:</b> 8. <b>גרסה באנגלית:</b> כן.</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C4 · יזם ישראלי בכרתים: Sivan Invest Group</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/kingsolomonproject/developer/ (שכתוב)</dd><dt>מילת מפתח</dt><dd>יזם ישראלי ביוון · קבלן ישראלי בכרתים · חברת נדל״ן ישראלית ביוון</dd><dt>אורך</dt><dd>1,200–1,600 מילים</dd></dl>
+      <ul><li>מי זו Sivan Invest Group? (פסקת ישות: שם, מייסד, משרד, ישויות)</li><li>איך עובד המודל "הכול תחת קורת גג אחת": יזמות, בנייה, ניהול</li><li>הצוות ואנשי המקצוע: אדריכל, מהנדס, עו״ד, רו״ח, נאמן</li><li>היתרים ומבנה הבטוחות לרוכש</li><li>פרויקטים: King Solomon ופרויקטים נוספים</li><li>12 שאלות לשאול כל יזם ביוון (ולמה כדאי לשאול גם אותנו)</li></ul>
+      <p class="need">צריך ממך: שמות אנשי המקצוע, מספרי רישום (GEMI), מספר היתר הבנייה וסטטוס הבנייה.</p>
+      <p><b>גרסה באנגלית:</b> כן.</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C5 · השקעות נדל״ן בחו״ל: צ׳ק-ליסט והשוואת מדינות 2026</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/מה-חשוב-לבדוק-לפני-השקעה-בנדל״ן-בחו״ל/ (הרחבה)</dd><dt>מילת מפתח</dt><dd>השקעות נדל״ן בחו״ל · יוון או קפריסין · יוון או פורטוגל</dd><dt>אורך</dt><dd>1,800–2,200 מילים</dd></dl>
+      <ul><li>מה חובה לבדוק לפני כל השקעה בחו״ל? (צ׳ק-ליסט של 15 סעיפים)</li><li>יוון, קפריסין, פורטוגל, ספרד וגיאורגיה: איך הן משתוות? (טבלה: ויזה, מס רכישה, מס שכירות, נזילות)</li><li>איך משווים תשואה נטו ולא ברוטו?</li><li>מיסוי בישראל על הכנסות מחו״ל: עקרונות</li><li>מטבע: חשיפה לאירו מול השקל</li><li>מתי לא להשקיע</li></ul>
+      <p class="note">הטון כאן ניטרלי ומאוזן. יוון היא אחת האפשרויות, לא הפרסומת.</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C6 · השקעות נדל״ן בחאניה, כרתים – מדריך 2026</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/המדריך-המלא-להשקעות-נדל״ן-בחאניה-כרתי/ (העמוד הקנוני; מאחדים לתוכו 7 כפילויות)</dd><dt>מילת מפתח</dt><dd>השקעות נדל״ן בחאניה · מחירי דירות בחאניה · נדל״ן בחאניה</dd><dt>אורך</dt><dd>2,000–2,500 מילים</dd></dl>
+      <ul><li>למה חאניה? (תיירות, עונה ארוכה, עיר שחיה כל השנה)</li><li>איפה לקנות בחאניה: העיר העתיקה, חלפה, אקרוטירי, פלטניאס, אפוקורונאס</li><li>מחירים למ״ר לפי אזור (טבלה, [לאשר] + מקור)</li><li>תשואות שכירות: קצרה מול ארוכה</li><li>מסים ותהליך הרכישה</li><li>סיכונים</li></ul>
+      <p class="note">אחרי הפרסום אני מפנה ב-301 את 7 העמודים הכפולים לעמוד הזה.</p>
+    </div></article>
+
+    <article class="card"><div class="ch"><h3>C7 · גרסאות באנגלית לעמודי המפתח</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>עמודים</dt><dd>Real estate investment in Greece 2026 · Crete real estate · Greece Golden Visa 2026 · Israeli developer in Crete</dd><dt>מילות מפתח</dt><dd>invest in Greece real estate · Crete property investment · Greece Golden Visa 2026 · Israeli developer Crete</dd><dt>אורך</dt><dd>1,200–1,800 מילים לעמוד</dd></dl>
+      <p>לכתוב עם הפרומפט באנגלית. לא תרגום מילולי: אותו מבנה, אבל לקהל בינלאומי (משקיעים אירופאים ואמריקאים), בלי ההקשר הישראלי של מס בישראל.</p>
+    </div></article>
+  </div>
+</section>
+
+<section id="trust">
+  <div class="sec-head"><h2>עמודי אמון (E-E-A-T)</h2><p>העמודים האלה מוכיחים ניסיון. הם נשענים על מידע שרק אתה מחזיק, ולכן לכל אחד יש רשימת חומרים לשלוח.</p></div>
+  <div class="grid">
+    <article class="card"><div class="ch"><h3>D1 · הפרויקטים של Sivan Invest Group</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/פרויקטים-סיון-השקעות/</dd><dt>אורך</dt><dd>800–1,200 מילים + כרטיס לכל פרויקט</dd></dl>
+      <p>כרטיס לכל פרויקט: שם, מיקום, מספר יחידות, שנה, סטטוס (הושלם / בבנייה / בתכנון), 3–6 תמונות אמיתיות, ומשפט על התפקיד של הקבוצה.</p>
+      <p class="need">צריך ממך: רשימת פרויקטים עם הנתונים, ותמונות אמיתיות מתיקיית "תמונות כריתים".</p>
+    </div></article>
+    <article class="card"><div class="ch"><h3>D2 · אודות: ביוגרפיה עובדתית</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/about/</dd><dt>אורך</dt><dd>700–1,000 מילים</dd></dl>
+      <p>פתיחה של 40–60 מילים ("סיון מנחם הוא המייסד והמנכ״ל של Sivan Invest Group..."), ציר זמן, השכלה, תחומי מומחיות, הופעות בכנסים ובתקשורת, וקישורים לפרופילים.</p>
+      <p class="need">צריך ממך: השכלה (בר-אילן, סורבון – לאשר), שנת תחילת הפעילות, שנת הקמת הקבוצה, ציר זמן קצר, LinkedIn.</p>
+    </div></article>
+    <article class="card"><div class="ch"><h3>D3 · שקיפות ואבטחת השקעה</h3><button class="copy" type="button">העתק בריף</button></div><div class="body">
+      <dl class="kv"><dt>כתובת</dt><dd>/אבטחת-השקעה-שקיפות-רגולטורית-ונאמנות/</dd><dt>אורך</dt><dd>900–1,300 מילים</dd></dl>
+      <p>מבנה החברות, מספרי רישום (GEMI, AFM), הנאמן המשפטי, רואה החשבון, הבנק, מנגנון הבטוחות לרוכש, ואיך מדווחים למשקיעים.</p>
+      <p class="need">צריך ממך: שם הנאמן, רואה החשבון והבנק, ותיאור מנגנון הבטוחות.</p>
+    </div></article>
+  </div>
+</section>
+
+<section id="main">
+  <div class="sec-head"><h2>מאמרים לאתר הראשי</h2><p>14 מאמרים, 2 בשבוע. מאמרי התווך C1–C7 כבר מכסים את שאר הנושאים מלוח הדו״ח. לחיצה על "העתק" מעתיקה את השורה כבריף.</p></div>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>#</th><th>כותרת עבודה</th><th>מילת מפתח</th><th>זווית ונקודות חובה</th><th>מילים</th><th></th></tr></thead>
+    <tbody>
+      <tr><td class="num">M1</td><td>מיסוי נדל״ן ביוון לישראלים: מס העברה, ENFIA, שכירות ואמנת המס</td><td>מיסוי נדל״ן ביוון</td><td>כל שלב: רכישה, החזקה, השכרה, מכירה; מדרגות מס השכירות 15/35/45%; דוגמה מספרית</td><td class="num">1,500</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M2</td><td>איך קונים נכס ביוון: 9 שלבים מה-AFM ועד הטאבו</td><td>קניית דירה ביוון</td><td>רשימה ממוספרת; מסמכים לכל שלב; זמנים; עלויות</td><td class="num">1,400</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M3</td><td>כמה עולה וילה בכרתים? מחירים למ״ר לפי אזור</td><td>מחירי נדל״ן בכרתים</td><td>טבלת אזורים עם מקור ותאריך ([לאשר]); מה משפיע על המחיר</td><td class="num">1,200</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M4</td><td>השכרה לטווח קצר ביוון 2026: מה מותר אחרי החוקים החדשים</td><td>השכרה קצרה ביוון</td><td>AMA, דרישות בטיחות, הקפאה באתונה, איסור בנכסי ויזת זהב, היטל לינה</td><td class="num">1,200</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M5</td><td>משכנתא ביוון לישראלים 2026: עדכון + שאלות נפוצות</td><td>משכנתא ביוון</td><td>עדכון של המדריך הקיים; LTV 50–60%; מסמכים; 8 שאלות נפוצות</td><td class="num">1,000</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M6</td><td>איך בוחרים חברת נדל״ן ביוון: 12 שאלות שחייבים לשאול</td><td>חברת נדל״ן ביוון</td><td>טון ניטרלי; רשימת בדיקה; מה תשובה טובה לכל שאלה</td><td class="num">1,200</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M7</td><td>הסיכונים בהשקעה ביוון ואיך מנהלים אותם</td><td>סיכונים בהשקעה ביוון</td><td>רגולציה, ביצוע, נזילות, מימון, מטבע; מבחן לחץ בשלושה תרחישים</td><td class="num">1,300</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M8</td><td>קאליבס ואפוקורונאס: מדריך אזור למשקיע</td><td>קאליבס כרתים</td><td>מרחקים, שירותים, קהלים, סוגי נכסים, חסרונות; קישור ל-King Solomon</td><td class="num">1,200</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M9</td><td>ניהול נכס ביוון מרחוק: מה כולל וכמה עולה</td><td>ניהול נכס ביוון</td><td>מה כלול, אחוזי דמי ניהול מקובלים ([לאשר]), דוחות, Sivan Menahem Management</td><td class="num">1,000</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M10</td><td>יציאה מהשקעה ביוון: מכירה, מס רווחי הון וזמנים</td><td>מכירת נכס ביוון</td><td>תהליך המכירה; 15% מושעה עד 31.12.2026; דיווח בישראל</td><td class="num">1,100</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M11</td><td>ירושה של נכס ביוון לישראלים: מה חשוב לדעת</td><td>ירושה נכס ביוון</td><td>עקרונות כלליים בלבד; מס ירושה ביוון [לאשר]; המלצה לעו״ד</td><td class="num">1,000</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M12</td><td>שער האירו-שקל והשקעה ביוון</td><td>השקעה צמודת יורו</td><td>עדכון של המדריך הקיים; חשיפה מטבעית; גידור; בלי תחזיות</td><td class="num">1,000</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M13</td><td>Q-Matrix: איך בוחרים מסלול השקעה (Q1–Q4)</td><td>מסלולי השקעה ביוון</td><td>Q1 ‏€100K · Q2 ‏€200K · Q3 ‏€300K · Q4 ‏€500K; למי מתאים כל מסלול</td><td class="num">1,100</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td class="num">M14</td><td>מקרה בוחן: משקיע ישראלי ב-King Solomon</td><td>King Solomon Kalyves</td><td>רק באישור הלקוח; ציטוטים אמיתיים; לוח זמנים ושיקולים</td><td class="num">1,000</td><td><button class="copy" type="button">העתק</button></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="portals">
+  <div class="sec-head"><h2>פורטלי התוכן: הגל הבא</h2><p>4 כתבות לכל פורטל, בזווית של ניתוח שוק. בכל כתבה: אזכור אחד טבעי של Sivan Invest Group, קישור אחד לאתר הראשי ושורת הגילוי הנאות (אני מוסיף אותה). אורך: 900–1,200 מילים. הנושאים לא חוזרים על 9 הכתבות שכבר פורסמו.</p></div>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>פורטל</th><th>כותרת עבודה</th><th>מילת מפתח</th><th>זווית</th><th></th></tr></thead>
+    <tbody>
+      <tr><td>alphaclub.online</td><td>מחירי הנדל״ן בחאניה 2026: מה המספרים אומרים</td><td>מחירי דירות בחאניה</td><td>נתונים מ-Bank of Greece ו-ELSTAT; השוואה לממוצע הארצי</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>alphaclub.online</td><td>קרן חוב נדל״ן מגובה בטוחות: מה בודקים לפני שנכנסים</td><td>קרן אג״ח נדל״ן</td><td>שעבוד, נאמן, LTV, נזילות; HARMONY כדוגמה בלי נתוני תשואה</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>alphaclub.online</td><td>האירו מול השקל: מה זה אומר למי שמחזיק נכס ביוון</td><td>השקעה צמודת יורו</td><td>ניתוח מאקרו; בלי תחזיות</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>alphaclub.online</td><td>ירושה של נכס ביוון: מה ישראלים צריכים לדעת</td><td>ירושה נכס ביוון</td><td>עקרונות; מתי פונים לעו״ד</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>finansi.space</td><td>משכנתא ביוון לזרים: התהליך ב-8 שלבים</td><td>משכנתא ביוון</td><td>LTV 50–60%, מסמכים, זמנים</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>finansi.space</td><td>ניהול נכס ביוון מרחוק: עלויות ומודלים</td><td>ניהול נכס ביוון</td><td>השוואה בין חברת ניהול, מנהל עצמאי ופלטפורמה</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>finansi.space</td><td>מכירת נכס ביוון: מס, דיווח ותזמון</td><td>מכירת נכס ביוון</td><td>ההשעיה עד סוף 2026 ומה עשוי לקרות אחריה</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>finansi.space</td><td>התיירות בכרתים 2026: מה הנתונים אומרים למשקיעים</td><td>תיירות בכרתים</td><td>נתוני תיירות ותעופה עם מקור; השפעה על השכרה</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>betamind.online</td><td>איך קונים נכס ביוון: 9 שלבים מה-AFM ועד הטאבו</td><td>קניית דירה ביוון</td><td>מדריך מעשי (זווית שונה מ-M2: חוויית הרוכש)</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>betamind.online</td><td>וילה בכרתים: שימוש עצמי, השקעה או שניהם?</td><td>וילה בכרתים</td><td>שלושה פרופילים של רוכשים וחישוב לכל אחד</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>betamind.online</td><td>5 טעויות של ישראלים שקונים נדל״ן ביוון</td><td>טעויות נדל״ן ביוון</td><td>טון אזהרה עובדתי; דוגמאות</td><td><button class="copy" type="button">העתק</button></td></tr>
+      <tr><td>betamind.online</td><td>רילוקיישן חלקי לכרתים: טיסות, בריאות ועלויות מחיה</td><td>לגור בכרתים</td><td>מידע מעשי; בלי הבטחות</td><td><button class="copy" type="button">העתק</button></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section id="sat">
+  <div class="sec-head"><h2>אתרי הלוויין</h2><p>12 מאמרים לכל אתר, אחד בשבוע. כל אתר מכסה זווית אחרת, ואסור להעתיק מאמר בין אתרים.</p></div>
+  <div class="grid">
+    <article class="card"><div class="ch"><h3>kingsolomoncrete.com (אנגלית)</h3><span class="tag site">פרומפט באנגלית</span></div><div class="body">
+      <ul><li>King Solomon Kalyves: Project Facts</li><li>Kalyves, Crete: Village Guide for Buyers</li><li>Apokoronas vs. Chania City: Where to Buy</li><li>Buying Off-Plan in Greece: Buyer Protections</li><li>Construction Update – [Month] (סדרה חודשית)</li><li>1, 2, 3 and 5-Bedroom Villas: Which Fits You</li><li>Rental Potential in Kalyves</li><li>Living in Crete Year-Round</li><li>Greek Golden Visa and Crete Villas in 2026</li><li>Property Management at King Solomon</li><li>The Developer: Sivan Invest Group</li><li>FAQ for Foreign Buyers in Crete</li></ul>
+      <p class="need">צריך ממך: באיזו מערכת בנוי האתר וגישה לפרסום.</p>
+    </div></article>
+    <article class="card"><div class="ch"><h3>harmony-bonds.com</h3><span class="tag site">עברית</span></div><div class="body">
+      <ul><li>מה זה קרן אג״ח נדל״ן מגובה בטחונות</li><li>איך עובדות הבטוחות ב-HARMONY</li><li>קרן חוב פרטית מול פיקדון ואג״ח</li><li>מסלולי Q1–Q4: למי מתאים כל מסלול</li><li>הסיכונים בקרן חוב נדל״ן</li><li>מיסוי ריבית מהשקעה ביוון לתושב ישראל</li><li>נזילות: מתי ואיך אפשר לצאת</li><li>עדכון משקיעים רבעוני (סדרה)</li><li>מי עומד מאחורי HARMONY</li><li>נדל״ן ישיר (Q3) מול קרן (Q1)</li><li>השקעה צמודת יורו</li><li>שאלות נפוצות של משקיעים</li></ul>
+      <p class="need">צריך ממך: גישה לאתר, ואישור של המינימום והתשואה של HARMONY.</p>
+    </div></article>
+    <article class="card"><div class="ch"><h3>sivaninvest.co.il</h3><span class="tag site">עברית · גוף ראשון</span></div><div class="body">
+      <ul><li>סיון מנחם: הסיפור, הניסיון והדרך</li><li>מה למדתי מ-20 שנות השקעה</li><li>פיזור השקעות למשפחה ישראלית</li><li>Family Office למשפחות: מה זה ולמי זה מתאים</li><li>השקעות לפחדנים: 7 עקרונות</li><li>פסיכולוגיה של השקעות: החלטות תחת פחד</li><li>מינוף חכם: מתי כן ומתי לא</li><li>איך קוראים דוח של פרויקט נדל״ן</li><li>5 טעויות של ישראלים בנדל״ן בחו״ל</li><li>אינפלציה, אירו ושקל: מה זה אומר לחיסכון</li><li>Ποιοι είμαστε – Sivan Invest Group (יוונית)</li><li>מוובינר למאמר: תמלול ועריכה</li></ul>
+      <p class="need">צריך ממך: גישה לאתר.</p>
+    </div></article>
+  </div>
+</section>
+
+<section id="order">
+  <div class="sec-head"><h2>סדר עבודה מומלץ</h2></div>
+  <div class="tbl-wrap"><table>
+    <thead><tr><th>גל</th><th>מה לשלוח לי</th><th>מה אני עושה</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td>C1, C3, C5 + טבלת העובדות המאושרת</td><td>מעלה, מעדכן Schema, ‏301 מהמדריך הישן, llms.txt</td></tr>
+      <tr><td class="num">2</td><td>C2, C6 + 4 כתבות לפורטלים</td><td>מאחד את כפילויות חאניה, תמונות, תזמון</td></tr>
+      <tr><td class="num">3</td><td>C4, D1–D3 + החומרים שביקשתי</td><td>עמודי אמון, Schema לצוות ולפרויקטים</td></tr>
+      <tr><td class="num">4</td><td>C7 (אנגלית) + 4 כתבות לפורטלים</td><td>עמודים באנגלית, hreflang</td></tr>
+      <tr><td class="num">5+</td><td>M1–M14 (2 בשבוע), 4 כתבות לפורטלים, ואתרי הלוויין</td><td>פרסום שוטף ומעקב חודשי במנועי AI</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+</div>
+
+<script>
+document.addEventListener('click', async (e) => {
+  const btn = e.target.closest('button.copy'); if (!btn) return;
+  let text = '';
+  if (btn.dataset.target) { text = document.getElementById(btn.dataset.target).innerText; }
+  else if (btn.closest('tr')) {
+    const tr = btn.closest('tr'), head = tr.closest('table').querySelectorAll('thead th');
+    const cells = [...tr.children].slice(0, -1);
+    text = 'בריף:\n' + cells.map((td, i) => (head[i] ? head[i].innerText.trim() + ': ' : '') + td.innerText.trim()).join('\n');
+    if (tr.closest('#portals')) text += '\nאורך: 900–1,200 מילים. טון: ניתוח שוק של פורטל כלכלי. אזכור אחד טבעי של Sivan Invest Group וקישור אחד לאתר הראשי.';
+  } else { const card = btn.closest('.card'); text = 'בריף:\n' + card.querySelector('h3').innerText + '\n' + card.querySelector('.body').innerText; }
+  try { await navigator.clipboard.writeText(text); }
+  catch (err) { const r = document.createRange(); const node = btn.dataset.target ? document.getElementById(btn.dataset.target) : (btn.closest('tr') || btn.closest('.card')); r.selectNodeContents(node); const s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+  const old = btn.textContent; btn.textContent = 'הועתק'; btn.classList.add('done');
+  setTimeout(() => { btn.textContent = old; btn.classList.remove('done'); }, 1600);
+});
+</script>
